@@ -41,12 +41,13 @@
       width: 100%;
     }
 
+    /* ✅ alt-üst boşluğu biraz azalttık */
     main {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 26px 14px 72px;
+      padding: 18px 14px 50px;
     }
 
     .overlay {
@@ -58,28 +59,29 @@
       -webkit-backdrop-filter: blur(12px);
 
       width: min(820px, 96vw);
-      padding: 26px 18px 18px;
+      /* ✅ kart iç padding %30 azalır gibi */
+      padding: 18px 18px 14px;
     }
 
     .hero-block {
       width: min(560px, 92vw);
-      margin: 0 auto 10px; /* daha sıkı */
+      margin: 0 auto 6px; /* ✅ 10 → 6 */
     }
 
     /* Logo */
     .hero-img{
       width: 100%;
-      max-width: 128px;
-      height: 128px;
+      max-width: 118px;   /* ✅ 128 → 118 */
+      height: 118px;      /* ✅ 128 → 118 */
       object-fit: contain;
       display: block;
-      margin: 0 auto 6px; /* daha sıkı */
+      margin: 0 auto 4px; /* ✅ 6 → 4 */
       filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
     }
 
     .title {
-      margin: 6px 0 0;     /* daha sıkı */
-      font-size: 34px;
+      margin: 4px 0 0;    /* ✅ 6 → 4 */
+      font-size: 33px;    /* çok az küçülttük */
       font-weight: 900;
       letter-spacing: 0.2px;
       color: #111;
@@ -87,7 +89,7 @@
 
     /* App Store butonu */
     .store-row {
-      margin: 10px auto 8px; /* başlıkla ve belgelerle yakın */
+      margin: 7px auto 6px; /* ✅ 10/8 → 7/6 */
       width: min(560px, 92vw);
       display: flex;
       justify-content: center;
@@ -95,7 +97,7 @@
     }
 
     .store-row a {
-      width: min(62%, 260px);
+      width: min(60%, 250px); /* ✅ çok az dar */
       display: block;
       text-decoration: none;
     }
@@ -116,7 +118,7 @@
 
     /* Belgeler (Açılır/Kapanır) */
     .docs {
-      margin: 6px auto 10px; /* daha yakın */
+      margin: 4px auto 6px; /* ✅ 6/10 → 4/6 */
       width: min(560px, 92vw);
     }
 
@@ -129,7 +131,7 @@
       justify-content: center;
       gap: 10px;
 
-      padding: 14px 14px;
+      padding: 12px 14px; /* ✅ 14 → 12 */
       border-radius: 14px;
       background: rgba(255,255,255,0.62);
       border: 1px solid rgba(0,0,0,0.06);
@@ -163,15 +165,15 @@
     .docs[open] .chev { transform: rotate(225deg); }
 
     .docs-content {
-      margin-top: 10px;
+      margin-top: 8px; /* ✅ 10 → 8 */
       display: grid;
       grid-template-columns: 1fr;
-      gap: 10px;
+      gap: 8px;        /* ✅ 10 → 8 */
     }
 
     .docs-content a {
       display: block;
-      padding: 14px 14px;
+      padding: 12px 14px; /* ✅ 14 → 12 */
       border-radius: 14px;
       background: rgba(255,255,255,0.62);
       border: 1px solid rgba(0,0,0,0.06);
@@ -194,7 +196,7 @@
 
     footer {
       width: 100%;
-      padding: 16px 0 18px;
+      padding: 12px 0 14px; /* ✅ biraz sıkı */
       display: flex;
       justify-content: center;
     }
@@ -211,22 +213,22 @@
     }
 
     @media (max-width: 520px) {
-      .overlay { padding: 20px 12px 14px; }
-      .title { font-size: 30px; }
+      .overlay { padding: 16px 12px 12px; }
+      .title { font-size: 29px; }
 
       .hero-img{
-        max-width: 110px;
-        height: 110px;
+        max-width: 104px;
+        height: 104px;
       }
 
       .store-row a{
-        width: min(74%, 260px);
+        width: min(72%, 250px);
       }
 
       .docs-summary,
       .docs-content a {
         font-size: 17px;
-        padding: 13px 12px;
+        padding: 12px 12px;
       }
     }
   </style>
