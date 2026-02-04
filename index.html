@@ -41,7 +41,6 @@
       width: 100%;
     }
 
-    /* ✅ alt-üst boşluğu biraz azalttık */
     main {
       flex: 1;
       display: flex;
@@ -59,45 +58,50 @@
       -webkit-backdrop-filter: blur(12px);
 
       width: min(820px, 96vw);
-      /* ✅ kart iç padding %30 azalır gibi */
       padding: 18px 18px 14px;
     }
 
-    .hero-block {
-      width: min(560px, 92vw);
-      margin: 0 auto 6px; /* ✅ 10 → 6 */
+    /* ✅ Tek referans genişlik: App Store butonu ne kadarsa hepsi o */
+    .content-block{
+      width: min(260px, 92vw); /* 👈 App Store genişliği referansı */
+      margin: 0 auto;
     }
 
-    /* Logo */
     .hero-img{
-      width: 100%;
-      max-width: 118px;   /* ✅ 128 → 118 */
-      height: 118px;      /* ✅ 128 → 118 */
+      width: 118px;
+      height: 118px;
       object-fit: contain;
       display: block;
-      margin: 0 auto 4px; /* ✅ 6 → 4 */
+      margin: 0 auto 4px;
       filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
     }
 
+    /* ✅ Başlık da aynı genişlikte bir blok içinde */
+    .title-wrap{
+      width: 100%;
+      margin: 0 auto;
+    }
+
     .title {
-      margin: 4px 0 0;    /* ✅ 6 → 4 */
-      font-size: 33px;    /* çok az küçülttük */
+      margin: 4px 0 0;
+      font-size: 33px;
       font-weight: 900;
       letter-spacing: 0.2px;
       color: #111;
+      line-height: 1.05;
+      text-align: center;
     }
 
-    /* App Store butonu */
     .store-row {
-      margin: 7px auto 6px; /* ✅ 10/8 → 7/6 */
-      width: min(560px, 92vw);
+      margin: 7px auto 6px;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .store-row a {
-      width: min(60%, 250px); /* ✅ çok az dar */
+      width: 100%;
       display: block;
       text-decoration: none;
     }
@@ -116,22 +120,23 @@
       filter: drop-shadow(0 16px 30px rgba(0,0,0,0.28));
     }
 
-    /* Belgeler (Açılır/Kapanır) */
+    /* ✅ Belgeler de aynı genişlik */
     .docs {
-      margin: 4px auto 6px; /* ✅ 6/10 → 4/6 */
-      width: min(560px, 92vw);
+      margin: 4px auto 6px;
+      width: 100%;
     }
 
     .docs summary::-webkit-details-marker { display: none; }
     .docs summary { list-style: none; }
 
     .docs-summary {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
 
-      padding: 12px 14px; /* ✅ 14 → 12 */
+      padding: 12px 14px;
       border-radius: 14px;
       background: rgba(255,255,255,0.62);
       border: 1px solid rgba(0,0,0,0.06);
@@ -165,15 +170,16 @@
     .docs[open] .chev { transform: rotate(225deg); }
 
     .docs-content {
-      margin-top: 8px; /* ✅ 10 → 8 */
+      margin-top: 8px;
       display: grid;
       grid-template-columns: 1fr;
-      gap: 8px;        /* ✅ 10 → 8 */
+      gap: 8px;
     }
 
     .docs-content a {
+      width: 100%;
       display: block;
-      padding: 12px 14px; /* ✅ 14 → 12 */
+      padding: 12px 14px;
       border-radius: 14px;
       background: rgba(255,255,255,0.62);
       border: 1px solid rgba(0,0,0,0.06);
@@ -196,7 +202,7 @@
 
     footer {
       width: 100%;
-      padding: 12px 0 14px; /* ✅ biraz sıkı */
+      padding: 12px 0 14px;
       display: flex;
       justify-content: center;
     }
@@ -214,16 +220,19 @@
 
     @media (max-width: 520px) {
       .overlay { padding: 16px 12px 12px; }
-      .title { font-size: 29px; }
+      main { padding: 16px 14px 46px; }
 
       .hero-img{
-        max-width: 104px;
+        width: 104px;
         height: 104px;
       }
 
-      .store-row a{
-        width: min(72%, 250px);
+      /* mobilde de referans genişlik aynı kalsın */
+      .content-block{
+        width: min(260px, 92vw);
       }
+
+      .title { font-size: 29px; }
 
       .docs-summary,
       .docs-content a {
@@ -239,34 +248,40 @@
     <main>
       <div class="overlay">
 
-        <div class="hero-block">
+        <!-- ✅ Her şey App Store butonu ile aynı genişlikte -->
+        <div class="content-block">
+
           <img class="hero-img" src="turnuvolt_logo.png" alt="TurnuVolt" />
-          <div class="title">TurnuVolt</div>
-        </div>
 
-        <div class="store-row">
-          <a
-            href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="App Store'dan indir"
-            title="App Store"
-          >
-            <img src="app_store_badge.png" alt="Download on the App Store" />
-          </a>
-        </div>
-
-        <details class="docs">
-          <summary class="docs-summary">
-            Belgeler
-            <span class="chev" aria-hidden="true"></span>
-          </summary>
-
-          <div class="docs-content">
-            <a href="privacy.html">Gizlilik Politikası</a>
-            <a href="support.html">Destek</a>
+          <div class="title-wrap">
+            <div class="title">TurnuVolt</div>
           </div>
-        </details>
+
+          <div class="store-row">
+            <a
+              href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App Store'dan indir"
+              title="App Store"
+            >
+              <img src="app_store_badge.png" alt="Download on the App Store" />
+            </a>
+          </div>
+
+          <details class="docs">
+            <summary class="docs-summary">
+              Belgeler
+              <span class="chev" aria-hidden="true"></span>
+            </summary>
+
+            <div class="docs-content">
+              <a href="privacy.html">Gizlilik Politikası</a>
+              <a href="support.html">Destek</a>
+            </div>
+          </details>
+
+        </div>
 
       </div>
     </main>
