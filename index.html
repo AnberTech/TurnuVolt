@@ -63,43 +63,35 @@
 
     .hero-block {
       width: min(560px, 92vw);
-      margin: 0 auto 12px;
+      margin: 0 auto 10px; /* daha sıkı */
     }
 
-    /* Logo: çatı site ile aynı ölçekte */
+    /* Logo */
     .hero-img{
       width: 100%;
-      max-width: 140px;
-      height: 140px;
+      max-width: 128px;
+      height: 128px;
       object-fit: contain;
       display: block;
-      margin: 0 auto 8px;
+      margin: 0 auto 6px; /* daha sıkı */
       filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
     }
 
     .title {
-      margin: 10px 0 0;
+      margin: 6px 0 0;     /* daha sıkı */
       font-size: 34px;
       font-weight: 900;
       letter-spacing: 0.2px;
       color: #111;
     }
 
-    .subtitle {
-      margin: 6px 0 0;
-      font-size: 16px;
-      font-weight: 600;
-      color: rgba(0,0,0,0.60);
-    }
-
     /* App Store butonu */
     .store-row {
-      margin: 14px auto 6px;
+      margin: 10px auto 8px; /* başlıkla ve belgelerle yakın */
       width: min(560px, 92vw);
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 12px;
     }
 
     .store-row a {
@@ -124,7 +116,7 @@
 
     /* Belgeler (Açılır/Kapanır) */
     .docs {
-      margin: 10px auto 12px;
+      margin: 6px auto 10px; /* daha yakın */
       width: min(560px, 92vw);
     }
 
@@ -248,12 +240,11 @@
         <div class="hero-block">
           <img class="hero-img" src="turnuvolt_logo.png" alt="TurnuVolt" />
           <div class="title">TurnuVolt</div>
-          <div class="subtitle">Belgeler</div>
         </div>
 
         <div class="store-row">
           <a
-            href="PASTE_APP_STORE_LINK_HERE"
+            href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="App Store'dan indir"
