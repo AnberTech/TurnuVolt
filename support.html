@@ -55,26 +55,30 @@ img{max-width:100%;display:block}
 .stores{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:26px 0 0}
 .stores a{display:block;transition:transform .18s ease,filter .18s ease}
 .stores a:hover{transform:translateY(-2px)}
-.stores img{height:52px;width:auto;filter:drop-shadow(0 8px 18px rgba(0,0,0,.18))}
+.stores img{height:46px;width:auto;filter:drop-shadow(0 8px 18px rgba(0,0,0,.18))}
+@media (prefers-color-scheme:dark){
+  .stores img{filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 0 2px rgba(255,255,255,.75)) drop-shadow(0 10px 20px rgba(0,0,0,.6))}
+}
 
 /* screenshots */
-.shots{margin:46px -16px 0;padding:6px 16px 22px;display:flex;gap:16px;overflow-x:auto;
+.shots{margin:40px -16px 0;padding:6px 16px 18px;display:flex;gap:16px;overflow-x:auto;
   scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .shots::-webkit-scrollbar{display:none}
-.shot{margin:0;flex:0 0 auto;width:min(230px,62vw);scroll-snap-align:center;
-  background:var(--frame-in);border:6px solid var(--frame);border-radius:32px;
+.shot{margin:0;flex:0 0 auto;width:min(172px,46vw);scroll-snap-align:center;
+  background:var(--frame-in);border:5px solid var(--frame);border-radius:26px;
   overflow:hidden;box-shadow:var(--shadow-lg);transition:transform .25s ease}
 .shot:hover{transform:translateY(-6px)}
 .shot img{width:100%;height:auto}
 @media (min-width:760px){
-  .shots{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;margin-top:56px;gap:22px}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;margin:52px auto 0;gap:20px;
+    max-width:600px;padding-bottom:0}
   .shot{width:auto}
-  .shot:nth-child(2){transform:translateY(-18px)}
-  .shot:nth-child(2):hover{transform:translateY(-26px)}
+  .shot:nth-child(2){transform:translateY(-14px)}
+  .shot:nth-child(2):hover{transform:translateY(-22px)}
 }
 
 /* doc cards */
-.docs{display:grid;gap:12px;margin:40px 0 0}
+.docs{display:grid;gap:12px;margin:44px auto 0;max-width:640px}
 @media (min-width:640px){.docs{grid-template-columns:repeat(2,1fr)}}
 .doc-card{display:flex;align-items:center;gap:14px;padding:16px 18px;
   background:var(--surface);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
