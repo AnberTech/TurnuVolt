@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>TurnuVolt</title>
-<link rel="icon" type="image/png" href="turnuvolt_logo.png" />
-<link rel="apple-touch-icon" href="turnuvolt_logo.png" />
+<link rel="icon" type="image/png" href="tv_icon_180.png" />
+<link rel="apple-touch-icon" href="tv_icon_180.png" />
 <meta name="theme-color" content="#070B10" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -73,9 +73,9 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 @keyframes flip{from{transform:rotateX(-85deg);opacity:.35}to{transform:none;opacity:1}}
 
 .stores{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:38px}
-.stores a{display:inline-block;border-radius:14px;transition:transform .3s var(--ease)}
+.stores a{display:block;border-radius:12px;transition:transform .3s var(--ease)}
 .stores a:hover{transform:translateY(-4px) scale(1.04)}
-.stores img{height:56px;width:auto;max-width:none;
+.stores img{height:clamp(50px,13vw,60px);width:auto;aspect-ratio:1062/318;object-fit:cover;object-position:50% 50%;
   filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 14px 30px rgba(0,0,0,.6))}
 .cue{position:absolute;left:50%;bottom:26px;width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;
   border-radius:50%;border:1px solid rgba(234,242,255,.25);color:var(--flood);text-decoration:none;opacity:.8}
@@ -85,7 +85,6 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 @media (max-width:700px){
   .hero{min-height:auto;padding:88px 16px 112px}
   .cue{bottom:22px}
-  .stores img{height:48px}
 }
 
 /* ============ ARENA (3D ring on pitch) ============ */
@@ -109,11 +108,14 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   border:4px solid #1E232B;box-shadow:0 30px 70px rgba(0,0,0,.55);cursor:pointer;will-change:transform;
   transition:box-shadow .5s var(--ease),border-color .5s var(--ease)}
 .card img{width:100%;pointer-events:none}
+.card::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:#000;opacity:var(--dim,0)}
+.card{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+@media (hover:none),(pointer:coarse){.grain{display:none}}
 .card::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.26),transparent 44%)}
 .card.front{border-color:#3A3220;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 2px var(--gold),0 0 60px rgba(242,193,78,.45)}
 
 /* ============ FINAL (podium + LED standings) ============ */
-.final{position:relative;padding:clamp(56px,10vh,110px) 16px clamp(40px,8vh,90px)}
+.final{position:relative;overflow:hidden;padding:clamp(56px,10vh,110px) 16px clamp(40px,8vh,90px)}
 .final canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
 .final-in{max-width:1080px;margin:0 auto;display:grid;gap:clamp(40px,5vw,64px);align-items:end}
 @media (min-width:900px){.final-in{grid-template-columns:1fr 1.15fr}}
@@ -123,15 +125,15 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 .podium::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-18px;height:36px;border-radius:50%;
   background:radial-gradient(closest-side,rgba(0,0,0,.6),transparent);z-index:-1}
 .step{position:relative;display:flex;flex-direction:column;align-items:center;padding-top:16px;
-  border-radius:16px 16px 6px 6px;transform-origin:50% 100%;overflow:visible}
-.step::before{content:"";position:absolute;inset:0;border-radius:16px 16px 6px 6px;background:linear-gradient(115deg,rgba(255,255,255,.4),transparent 38%);pointer-events:none}
+  border-radius:16px 16px 6px 6px;transform-origin:50% 100%;overflow:hidden}
+.step::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.4),transparent 38%);pointer-events:none}
 .s1{height:clamp(180px,40vw,236px);background:linear-gradient(180deg,#FFE58A,#F2C14E 52%,#B98A22);color:#2A1E02;
   box-shadow:0 0 70px rgba(242,193,78,.35)}
 .s2{height:clamp(138px,31vw,180px);background:linear-gradient(180deg,#F4F6F9,#C9CED6 58%,#8E97A3);color:#1A1F27}
 .s3{height:clamp(112px,25vw,150px);background:linear-gradient(180deg,#F3B676,#C9803A 58%,#8A5020);color:#2A1404}
 .who{position:relative;font:800 clamp(15px,3.8vw,21px)/1.15 var(--sans);letter-spacing:-.01em}
 .rank{position:relative;margin-top:auto;font:900 clamp(60px,15vw,104px)/.78 var(--display);opacity:.3}
-.cup{position:absolute;left:50%;bottom:calc(100% + 8px);top:auto;width:clamp(64px,16vw,86px);transform:translateX(-50%);
+.cup{position:absolute;left:50%;top:0;width:clamp(64px,16vw,86px);transform:translateX(-50%);
   filter:drop-shadow(0 0 24px rgba(242,193,78,.6));animation:bob 6s ease-in-out infinite}
 .podium.go .step{animation:rise 1s var(--ease) both}
 .podium.go .s3{animation-delay:.05s}.podium.go .s2{animation-delay:.2s}.podium.go .s1{animation-delay:.38s}
@@ -236,6 +238,104 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 .doc strong{color:#fff;font-weight:600}
 .doc a{color:var(--gold);font-weight:600;text-underline-offset:3px;word-break:break-word}
 
+/* =================== 4.0 additions =================== */
+[hidden]{display:none!important}
+.spot-ball{position:absolute;left:50%;bottom:clamp(26px,5vw,56px);width:clamp(38px,6vw,58px);margin-left:calc(clamp(38px,6vw,58px)/-2);z-index:0;
+  filter:drop-shadow(0 10px 10px rgba(0,0,0,.55));animation:ballbob 3.2s ease-in-out infinite}
+@keyframes ballbob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(25deg)}}
+
+/* ---- games departure board ---- */
+.games{padding:clamp(50px,9vh,96px) 16px 10px}
+.games-in{position:relative;max-width:980px;margin:0 auto;background:#04070B;border-radius:24px;padding:clamp(16px,3vw,28px);
+  border:1px solid rgba(242,193,78,.28);box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65)}
+.board-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.board-head img{width:34px;height:auto;opacity:.9}
+.board-head .count b{font:900 clamp(34px,7vw,52px)/1 var(--display);color:var(--gold);text-shadow:0 0 18px rgba(242,193,78,.45)}
+.cat-now{margin-left:auto;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);color:var(--gold-2);
+  font:800 clamp(12px,3vw,15px)/1 var(--display);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
+.gboard{display:grid;grid-template-columns:repeat(17,1fr);gap:clamp(2px,.5vw,5px);font:900 clamp(17px,5.4vw,52px)/1 var(--display)}
+.gboard .flap{width:auto;height:1.5em;border-radius:.12em}
+.gboard .flap span{font-size:.92em}
+.gboard .flap.blank span{opacity:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip{min-height:44px;padding:9px 16px;border-radius:999px;border:1px solid rgba(234,242,255,.16);background:rgba(234,242,255,.05);color:var(--flood);
+  font:600 clamp(13px,3.4vw,15px)/1 var(--sans);cursor:pointer;transition:background .25s,border-color .25s,color .25s}
+.chip:hover{border-color:rgba(242,193,78,.5)}
+.chip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#241A02}
+.shuffle{position:absolute;right:clamp(14px,2.6vw,26px);bottom:clamp(14px,2.6vw,26px);width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+  border:1px solid rgba(242,193,78,.5);background:rgba(242,193,78,.12);color:var(--gold);cursor:pointer;transition:transform .3s var(--ease)}
+.shuffle:hover{transform:rotate(-12deg) scale(1.06)}
+.shuffle svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8}
+.shuffle svg circle{fill:currentColor;stroke:none}
+.chips{padding-right:60px}
+
+/* ---- format tabs ---- */
+.fmt-tabs{position:relative;z-index:6;display:flex;width:max-content;max-width:calc(100% - 32px);margin:0 auto clamp(26px,5vh,44px);padding:5px;border-radius:999px;
+  background:#0C121A;border:1px solid rgba(242,193,78,.3)}
+.fmt-tabs button{min-width:clamp(100px,30vw,160px);min-height:44px;padding:12px clamp(12px,4vw,22px);border:0;border-radius:999px;background:none;color:var(--muted);cursor:pointer;
+  font:900 clamp(18px,4.6vw,22px)/1 var(--display);letter-spacing:.1em;text-transform:uppercase;transition:background .3s,color .3s}
+.fmt-tabs button[aria-selected="true"]{background:var(--gold);color:#241A02;box-shadow:0 0 24px rgba(242,193,78,.35)}
+
+/* ---- bracket ---- */
+.ko-hint{margin:0 0 18px;text-align:center;color:var(--muted);font-size:15px}
+.bracket{position:relative;max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr .8fr;gap:clamp(10px,3vw,40px);align-items:center}
+.col{display:grid;gap:clamp(14px,3vw,26px);position:relative}
+.rlabel{display:block;text-align:center;font:800 clamp(13px,3.2vw,16px)/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.bm{position:relative;display:grid;gap:4px;padding:8px;border-radius:16px;background:#0E151E;border:1px solid rgba(234,242,255,.08);
+  box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.bm .vs{justify-self:center;font:800 11px/1 var(--display);letter-spacing:.2em;color:var(--muted)}
+.team{position:relative;min-height:44px;padding:10px 12px;border-radius:11px;border:1.5px solid rgba(234,242,255,.12);background:#141D29;color:var(--flood);
+  font:700 clamp(14px,3.8vw,17px)/1.1 var(--sans);text-align:left;cursor:pointer;transition:background .25s,border-color .25s,opacity .25s,transform .2s}
+.team:hover:not(:disabled){border-color:rgba(242,193,78,.6)}
+.team:active:not(:disabled){transform:scale(.97)}
+.team:disabled{cursor:default;color:var(--muted)}
+.team.win{background:linear-gradient(135deg,rgba(242,193,78,.25),rgba(242,193,78,.08));border-color:var(--gold);color:#fff}
+.team.win::after{content:"✓";position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--gold);font-weight:900}
+.team.lose{opacity:.4;text-decoration:line-through}
+.team.fill{animation:slot .5s var(--ease)}
+@keyframes slot{from{transform:translateX(-18px);opacity:0}}
+.sf .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.fi .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.champ{display:grid;justify-items:center;gap:10px;padding:14px 8px;border-radius:18px;border:1.5px dashed rgba(242,193,78,.35);min-height:170px;align-content:center}
+.champ img{width:min(110px,80%);opacity:.25;filter:grayscale(1);transition:opacity .5s,filter .5s,transform .6s var(--ease)}
+.champ b{font:900 clamp(20px,5vw,28px)/1 var(--display);letter-spacing:.04em;color:var(--muted);text-align:center;word-break:break-word}
+.champ.on{border-style:solid;border-color:var(--gold);background:radial-gradient(circle at 50% 35%,rgba(242,193,78,.25),transparent 70%);box-shadow:0 0 50px rgba(242,193,78,.25)}
+.champ.on img{opacity:1;filter:drop-shadow(0 0 22px rgba(242,193,78,.6));transform:scale(1.08)}
+.champ.on b{color:var(--gold-2);text-shadow:0 0 18px rgba(242,193,78,.5)}
+.reset{position:absolute;right:0;top:-54px;width:40px;height:40px;border-radius:12px;border:1px solid rgba(234,242,255,.16);background:#0E151E;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+.reset svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+@media (max-width:620px){
+  .bracket{grid-template-columns:1fr 1fr;grid-template-areas:"sf fi" "ch ch"}
+  .col.sf{grid-area:sf}.col.fi{grid-area:fi}.col.ch{grid-area:ch}
+  .champ{grid-auto-flow:column;min-height:0;justify-content:center;align-items:center}
+  .champ img{width:72px}
+}
+
+/* ---- languages drum ---- */
+.langs{padding:clamp(56px,10vh,110px) 16px 20px;text-align:center}
+.drum{position:relative;height:clamp(64px,13vw,120px);overflow:hidden;max-width:1000px;margin:0 auto}
+.drum .ph{position:absolute;left:0;right:0;top:0;display:block;font:900 clamp(38px,9.5vw,96px)/clamp(64px,13vw,120px) var(--display),"Noto Sans",system-ui,sans-serif;
+  color:#fff;white-space:nowrap;text-shadow:0 0 30px rgba(242,193,78,.3);will-change:transform}
+.drum .ph.cur{transform:translate3d(0,0,0)}
+.drum .ph.nxt{transform:translate3d(0,100%,0);opacity:0}
+.drum.roll .ph{transition:transform .55s var(--ease),opacity .55s}
+.drum.roll .ph.cur{transform:translate3d(0,-100%,0);opacity:0}
+.drum.roll .ph.nxt{transform:translate3d(0,0,0);opacity:1}
+.lcount{margin-top:6px}
+.lcount b{font:900 clamp(26px,5vw,36px)/1 var(--display);color:var(--gold)}
+.lpills{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:860px;margin:18px auto 0}
+.lpills button{min-width:48px;min-height:44px;padding:8px 10px;border-radius:9px;border:1px solid rgba(234,242,255,.12);background:#0E151E;color:var(--muted);
+  font:800 12px/1 var(--display);letter-spacing:.12em;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.lpills button[aria-pressed="true"]{background:var(--gold);color:#241A02;border-color:var(--gold)}
+
+.fcup{width:74px!important;height:auto!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 0 16px rgba(242,193,78,.45))}
+
+/* ---- mobile performance ---- */
+@media (hover:none),(pointer:coarse){
+  .beam{filter:blur(18px)}
+  .spot-ball{animation:none}
+}
+
 </style>
 </head>
 <body>
@@ -251,13 +351,13 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   <div>
     <div class="icon-stage">
       <canvas id="bolt" aria-hidden="true"></canvas>
-      <img class="app-icon" src="turnuvolt_logo.png" alt="" />
+      <img class="app-icon" src="tv_icon.jpg" alt="" />
     </div>
     <h1 class="board" aria-label="TurnuVolt">
       <span class="flap" aria-hidden="true"><span>T</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap" aria-hidden="true"><span>R</span></span><span class="flap" aria-hidden="true"><span>N</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap v" aria-hidden="true"><span>V</span></span><span class="flap v" aria-hidden="true"><span>O</span></span><span class="flap v" aria-hidden="true"><span>L</span></span><span class="flap v" aria-hidden="true"><span>T</span></span>
     </h1>
     <div class="stores">
-      <a href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr" target="_blank" rel="noopener noreferrer" aria-label="App Store'dan indir" title="App Store"><img src="app_store_badge_v2.png" alt="App Store'dan indir" /></a>
+      <a href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr" target="_blank" rel="noopener noreferrer" aria-label="App Store'dan indir" title="App Store"><img src="app_store_badge_v3.png" alt="App Store'dan indir" /></a>
     </div>
   </div>
 
@@ -266,6 +366,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 
 <section class="arena" id="arena" aria-label="Ekran görüntüleri">
   <div class="pitch" aria-hidden="true"></div>
+  <img class="spot-ball" src="tv_ball.png" alt="" aria-hidden="true" />
   <div class="scene" id="scene">
     <div class="ring">
       <figure class="card"><img src="tv_ss_podyum.png" alt="Turnuva sonunda podyum ve kupa ekranı" /></figure>
@@ -277,23 +378,39 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   </div>
 </section>
 
-<section class="final" aria-label="Sınıf Turnuvası sonucu">
+<section class="games" aria-label="Oyunlar">
+  <div class="games-in">
+    <div class="board-head">
+      <img src="tv_whistle.png" alt="" aria-hidden="true" />
+      <span class="count"><b id="g-count">63</b></span>
+      <span class="cat-now" id="g-cat" aria-live="polite">Top Sporları</span>
+    </div>
+    <div class="gboard" id="gboard" role="img" aria-label="Oyun listesi panosu"></div>
+    <div class="chips" role="group" aria-label="Kategoriler"><button type="button" class="chip" data-cat="ballSports" aria-pressed="false">Top Sporları</button><button type="button" class="chip" data-cat="racketSports" aria-pressed="false">Raket Sporları</button><button type="button" class="chip" data-cat="combatSports" aria-pressed="false">Dövüş Sporları</button><button type="button" class="chip" data-cat="precisionSports" aria-pressed="false">Hassasiyet Sporları</button><button type="button" class="chip" data-cat="tableGames" aria-pressed="false">Masa ve Kart Oyunları</button><button type="button" class="chip" data-cat="esports" aria-pressed="false">Video Oyunları / E-Spor</button><button type="button" class="chip" data-cat="other" aria-pressed="false">Diğer</button></div>
+    <button type="button" class="shuffle" id="g-shuffle" aria-label="Rastgele oyun"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8" cy="8" r="1.4"/><circle cx="16" cy="16" r="1.4"/><circle cx="16" cy="8" r="1.4"/><circle cx="8" cy="16" r="1.4"/><circle cx="12" cy="12" r="1.4"/></svg></button>
+  </div>
+</section>
+<section class="final" aria-label="Turnuva formatları">
   <canvas aria-hidden="true"></canvas>
+  <div class="fmt-tabs" role="tablist" aria-label="Format">
+    <button type="button" role="tab" id="t-league" aria-controls="p-league" aria-selected="true">Lig</button>
+    <button type="button" role="tab" id="t-ko" aria-controls="p-ko" aria-selected="false">Turnuva</button>
+  </div>
+  <div class="fpanel" id="p-league" role="tabpanel" aria-labelledby="t-league">
+  
   <div class="final-in">
     <div class="podium">
+      <svg class="cup" viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="gcup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A3"/><stop offset=".55" stop-color="#F2C14E"/><stop offset="1" stop-color="#B98A22"/></linearGradient></defs>
+        <path fill="url(#gcup)" d="M18 6h28v14c0 9.5-6.3 16-14 16S18 29.5 18 20V6z"/>
+        <path fill="none" stroke="#F2C14E" stroke-width="4" d="M18 11H9v5c0 6 4.5 10 10 10.5M46 11h9v5c0 6-4.5 10-10 10.5"/>
+        <path fill="#D9A93A" d="M28 35h8v9h-8z"/>
+        <path fill="url(#gcup)" d="M20 44h24l3 8H17z"/>
+        <path fill="#6B4E12" d="M15 52h34v6H15z"/>
+        <path fill="#FFF6D6" opacity=".55" d="M23 9h4v12c0 4 1 7 3 9-4-1-7-5-7-10z"/>
+      </svg>
       <div class="step s2"><span class="who">Emre</span><span class="rank">2</span></div>
-      <div class="step s1">
-        <svg class="cup" viewBox="0 0 64 64" aria-hidden="true">
-          <defs><linearGradient id="gcup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A3"/><stop offset=".55" stop-color="#F2C14E"/><stop offset="1" stop-color="#B98A22"/></linearGradient></defs>
-          <path fill="url(#gcup)" d="M18 6h28v14c0 9.5-6.3 16-14 16S18 29.5 18 20V6z"/>
-          <path fill="none" stroke="#F2C14E" stroke-width="4" d="M18 11H9v5c0 6 4.5 10 10 10.5M46 11h9v5c0 6-4.5 10-10 10.5"/>
-          <path fill="#D9A93A" d="M28 35h8v9h-8z"/>
-          <path fill="url(#gcup)" d="M20 44h24l3 8H17z"/>
-          <path fill="#6B4E12" d="M15 52h34v6H15z"/>
-          <path fill="#FFF6D6" opacity=".55" d="M23 9h4v12c0 4 1 7 3 9-4-1-7-5-7-10z"/>
-        </svg>
-        <span class="who">Bayram</span><span class="rank">1</span>
-      </div>
+      <div class="step s1"><span class="who">Bayram</span><span class="rank">1</span></div>
       <div class="step s3"><span class="who">Tunahan</span><span class="rank">3</span></div>
     </div>
 
@@ -312,8 +429,34 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
       </div>
     </div>
   </div>
-</section>
+</div>
 
+
+  <div class="fpanel" id="p-ko" role="tabpanel" aria-labelledby="t-ko" hidden>
+    <p class="ko-hint">Kazananı seçmek için takıma dokun</p>
+    <div class="bracket" id="bracket">
+      <div class="col sf">
+        <span class="rlabel">Yarı Final</span>
+        <div class="bm" data-m="0"><button type="button" class="team" data-m="0" data-t="0">Bayram</button><span class="vs">VS</span><button type="button" class="team" data-m="0" data-t="1">Tunahan</button></div>
+        <div class="bm" data-m="1"><button type="button" class="team" data-m="1" data-t="0">Emre</button><span class="vs">VS</span><button type="button" class="team" data-m="1" data-t="1">Ahmet</button></div>
+      </div>
+      <div class="col fi">
+        <span class="rlabel">Final</span>
+        <div class="bm" data-m="2"><button type="button" class="team" data-m="2" data-t="0" disabled>—</button><span class="vs">VS</span><button type="button" class="team" data-m="2" data-t="1" disabled>—</button></div>
+      </div>
+      <div class="col ch">
+        <span class="rlabel">Şampiyon</span>
+        <div class="champ" id="champ"><img src="tv_golden_cup.png" alt="" /><b id="champ-name">—</b></div>
+      </div>
+      <button type="button" class="reset" id="ko-reset" aria-label="Eleme ağacını sıfırla"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4"/></svg></button>
+    </div>
+  </div>
+</section>
+<section class="langs" aria-label="Diller">
+  <div class="drum" id="drum" aria-live="off"><span class="ph cur" lang="tr" dir="auto">Yeni Turnuva</span><span class="ph nxt" aria-hidden="true"></span></div>
+  <div class="lcount"><b id="l-count">33</b></div>
+  <div class="lpills" id="lpills" role="group" aria-label="Dil"></div>
+</section>
 <section class="ticker" aria-hidden="true">
   <div class="track"><span class="match m-done">Bayram <b>9 - 1</b> Emre</span><span class="match m-done">Tunahan <b>4 - 4</b> Ahmet</span><span class="match m-live">Bayram <i>VS</i> Ahmet</span><span class="match m-next">Emre <i>VS</i> Ahmet</span></div>
   <div class="track"><span class="match m-next">Bayram <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Bayram</span><span class="match m-done">Bayram <b>9 - 1</b> Emre</span></div>
@@ -325,10 +468,12 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 </nav>
 
 <footer class="foot">
-  <img src="turnuvolt_logo.png" alt="" />
+  <img class="fcup" src="tv_golden_cup.png" alt="" />
   &copy; <span id="y"></span> TurnuVolt &ndash; AnberTech
 </footer>
 
+<script>window.TV_DATA={"cats":[["ballSports","Top Sporları"],["racketSports","Raket Sporları"],["combatSports","Dövüş Sporları"],["precisionSports","Hassasiyet Sporları"],["tableGames","Masa ve Kart Oyunları"],["esports","Video Oyunları / E-Spor"],["other","Diğer"]],"games":[["Futbol","ballSports"],["Futsal","ballSports"],["Plaj Futbolu","ballSports"],["Basketbol","ballSports"],["Hentbol","ballSports"],["Rugby","ballSports"],["Amerikan Futbolu","ballSports"],["Beyzbol","ballSports"],["Kriket","ballSports"],["Buz Hokeyi","ballSports"],["Çim Hokeyi","ballSports"],["Su Topu","ballSports"],["Yakartop","ballSports"],["Voleybol","racketSports"],["Plaj Voleybolu","racketSports"],["Tenis","racketSports"],["Masa Tenisi","racketSports"],["Badminton","racketSports"],["Squash","racketSports"],["Padel","racketSports"],["Boks","combatSports"],["Güreş","combatSports"],["Judo","combatSports"],["Karate","combatSports"],["Tekvando","combatSports"],["MMA","combatSports"],["Eskrim","combatSports"],["Bilek Güreşi","combatSports"],["Bowling","precisionSports"],["Dart","precisionSports"],["Bilardo","precisionSports"],["Snooker","precisionSports"],["Okçuluk","precisionSports"],["Golf","precisionSports"],["Bocce","precisionSports"],["Ayak Tenisi","precisionSports"],["Satranç","tableGames"],["Dama","tableGames"],["Tavla","tableGames"],["Okey","tableGames"],["Batak","tableGames"],["Pişti","tableGames"],["King","tableGames"],["Poker","tableGames"],["Uno","tableGames"],["Langırt","tableGames"],["Monopoly","tableGames"],["Scrabble","tableGames"],["Jenga","tableGames"],["Domino","tableGames"],["FIFA","esports"],["NBA 2K","esports"],["Rocket League","esports"],["Mario Kart","esports"],["League of Legends","esports"],["Counter-Strike","esports"],["Valorant","esports"],["Fortnite","esports"],["Street Fighter","esports"],["Madden NFL","esports"],["Bilgi Yarışması","other"],["Karaoke","other"],["Özel / Diğer","other"]],"langs":[["ar","بطولة جديدة"],["cs","Nový turnaj"],["da","Ny turnering"],["de","Neues Turnier"],["el","Νέο τουρνουά"],["en","New Tournament"],["es-MX","Nuevo torneo"],["es","Nuevo torneo"],["fa","مسابقه جدید"],["fi","Uusi turnaus"],["fr","Nouveau tournoi"],["he","טורניר חדש"],["hi","नया टूर्नामेंट"],["hu","Új verseny"],["id","Turnamen Baru"],["it","Nuovo torneo"],["ja","新しい大会"],["ko","새 대회"],["ms","Kejohanan Baharu"],["nb","Ny turnering"],["nl","Nieuw toernooi"],["pl","Nowy turniej"],["pt-BR","Novo torneio"],["pt-PT","Novo torneio"],["ro","Turneu nou"],["ru","Новый турнир"],["sv","Ny turnering"],["th","ทัวร์นาเมนต์ใหม่"],["tr","Yeni Turnuva"],["uk","Новий турнір"],["vi","Giải mới"],["zh-Hans","新赛事"],["zh-Hant","新賽事"]]}
+;</script>
 <script>
 (function(){
   var D=document, W=window;
@@ -407,19 +552,23 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
       cards.forEach(function(c){
         var a=+c.dataset.a+angle, d=Math.cos(a*Math.PI/180), k=(d+1)/2;
         c.style.transform='rotateY('+a+'deg) translateZ('+radius+'px)';
-        c.style.opacity=(.3+.7*k).toFixed(3);
-        c.style.filter='brightness('+(.5+.5*k).toFixed(3)+')';
+        c.style.opacity=(.35+.65*k).toFixed(3);
+        c.style.setProperty('--dim',((1-k)*.5).toFixed(3));
         c.style.zIndex=100+Math.round(d*100);
         c.classList.toggle('front',d>.9);
       });
     }
+    var visible=true, lastAngle=null;
+    if('IntersectionObserver' in W){ new IntersectionObserver(function(es){ visible=es[0].isIntersecting; },{rootMargin:'100px'}).observe(scene); }
     function frame(){
+      requestAnimationFrame(frame);
+      if(!visible||D.hidden) return;
       if(!dragging){
         if(target!==null){angle+=(target-angle)*.1; if(Math.abs(target-angle)<.05){angle=target;target=null;}}
         else if(Math.abs(vel)>.02){angle+=vel;vel*=.94;}
         else if(!hovering&&!reduce){angle+=.08;}
       }
-      place(); requestAnimationFrame(frame);
+      if(angle!==lastAngle){ place(); lastAngle=angle; }
     }
     scene.addEventListener('pointerdown',function(e){dragging=true;lastX=e.clientX;moved=0;target=null;scene.classList.add('drag');try{scene.setPointerCapture(e.pointerId)}catch(_){}});
     scene.addEventListener('pointermove',function(e){if(!dragging)return;var dx=e.clientX-lastX;lastX=e.clientX;moved+=Math.abs(dx);angle+=dx*.32;vel=dx*.32;});
@@ -437,12 +586,12 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   }
 
   /* ---- confetti ---- */
-  function confetti(host){
+  function confetti(host,originEl){
     if(reduce) return;
     var cv=host.querySelector('canvas'); if(!cv||!cv.getContext) return;
     var cx=cv.getContext('2d'), d=Math.min(2,W.devicePixelRatio||1), R=host.getBoundingClientRect();
     cv.width=R.width*d; cv.height=R.height*d; cx.setTransform(d,0,0,d,0,0);
-    var pod=host.querySelector('.podium').getBoundingClientRect(), ox=pod.left-R.left+pod.width/2, oy=pod.top-R.top+60;
+    var pod=(originEl||host.querySelector('.podium')).getBoundingClientRect(), ox=pod.left-R.left+pod.width/2, oy=pod.top-R.top+(originEl?pod.height*.3:60);
     var cols=['#F2C14E','#FFE08A','#C9CED6','#C9803A','#2FA84F','#EAF2FF','#3B7FD6'], P=[];
     for(var i=0;i<170;i++){var a=-Math.PI/2+(Math.random()-.5)*2.1, s=6+Math.random()*9;
       P.push({x:ox,y:oy,vx:Math.cos(a)*s,vy:Math.sin(a)*s,w:5+Math.random()*6,h:3+Math.random()*4,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cols[i%cols.length]});}
@@ -455,6 +604,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
     })(t0);
   }
 
+  W.tvConfetti=confetti;
   /* ---- count-up standings ---- */
   function countUp(led){
     if(reduce) return;
@@ -481,6 +631,107 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 
   var y=D.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
 })();
+
+/* =================== TurnuVolt 4.0 additions =================== */
+(function(){
+  var D=document, W=window, DATA=W.TV_DATA||{cats:[],games:[],langs:[]};
+  var reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function onVisible(el,cb){ if(!('IntersectionObserver' in W)){cb(true);return;} new IntersectionObserver(function(es){cb(es[0].isIntersecting)},{rootMargin:'80px'}).observe(el); }
+
+  /* ---- games departure board ---- */
+  var board=D.getElementById('gboard');
+  if(board){
+    var N=17, cells=[], pool='ABCÇDEFGHIİJKLMNOÖPRSŞTUÜVYZ0123456789';
+    for(var i=0;i<N;i++){ var f=D.createElement('span'); f.className='flap'; f.innerHTML='<span></span>'; board.appendChild(f); cells.push(f); }
+    var catName={}; DATA.cats.forEach(function(c){catName[c[0]]=c[1]});
+    var cur=-1, filter=null, vis=false, timer=0, chips=[].slice.call(D.querySelectorAll('.chip'));
+    function show(text){
+      var t=text.toLocaleUpperCase('tr-TR'), pad=Math.max(0,Math.floor((N-t.length)/2)), s=(' '.repeat(pad)+t).padEnd(N,' ').slice(0,N);
+      cells.forEach(function(c,i){
+        var sp=c.firstChild, ch=s[i];
+        c.classList.toggle('blank',ch===' ');
+        if(reduce){ sp.textContent=ch; return; }
+        var n=3+Math.floor(Math.random()*4)+i%3, k=0;
+        (function step(){
+          c.classList.remove('tick'); void c.offsetWidth; c.classList.add('tick');
+          if(k<n){ sp.textContent=pool[(Math.random()*pool.length)|0]; k++; setTimeout(step,55); }
+          else { sp.textContent=ch===' '?' ':ch; }
+        })();
+      });
+    }
+    function pick(){
+      var list=DATA.games.map(function(g,i){return i}).filter(function(i){return !filter||DATA.games[i][1]===filter});
+      if(list.length>1) list=list.filter(function(i){return i!==cur});
+      cur=list[(Math.random()*list.length)|0]; var g=DATA.games[cur];
+      show(g[0]); D.getElementById('g-cat').textContent=catName[g[1]]||'';
+      chips.forEach(function(c){c.setAttribute('aria-pressed', String(c.dataset.cat===filter))});
+    }
+    function loop(){ clearTimeout(timer); if(vis&&!reduce) timer=setTimeout(function(){pick();loop();},2800); }
+    chips.forEach(function(c){ c.addEventListener('click',function(){ filter=(filter===c.dataset.cat)?null:c.dataset.cat; pick(); loop(); }); });
+    D.getElementById('g-shuffle').addEventListener('click',function(){ pick(); loop(); });
+    D.getElementById('g-count').textContent=DATA.games.length;
+    cur=0; show(DATA.games[0][0]); D.getElementById('g-cat').textContent=catName[DATA.games[0][1]];
+    onVisible(board,function(v){ vis=v; if(v) loop(); else clearTimeout(timer); });
+  }
+
+  /* ---- format tabs ---- */
+  var tabs=[].slice.call(D.querySelectorAll('.fmt-tabs [role=tab]'));
+  tabs.forEach(function(t){ t.addEventListener('click',function(){
+    tabs.forEach(function(x){ var on=x===t; x.setAttribute('aria-selected',String(on)); D.getElementById(x.getAttribute('aria-controls')).hidden=!on; });
+  }); });
+
+  /* ---- knockout bracket (tap to pick winners) ---- */
+  var br=D.getElementById('bracket');
+  if(br){
+    var sf=[["Bayram","Tunahan"],["Emre","Ahmet"]], win=[null,null,null];
+    var btn=function(m,t){return br.querySelector('.team[data-m="'+m+'"][data-t="'+t+'"]')};
+    var champ=D.getElementById('champ'), cname=D.getElementById('champ-name');
+    function render(anim){
+      for(var m=0;m<2;m++) for(var t=0;t<2;t++){ var b=btn(m,t); b.classList.toggle('win',win[m]===t); b.classList.toggle('lose',win[m]!==null&&win[m]!==t); }
+      for(var t2=0;t2<2;t2++){
+        var fb=btn(2,t2), name=win[t2]===null?'—':sf[t2][win[t2]];
+        if(fb.textContent!==name){ fb.textContent=name; if(anim&&name!=='—'){fb.classList.remove('fill');void fb.offsetWidth;fb.classList.add('fill');} }
+        fb.disabled=(win[0]===null||win[1]===null);
+        fb.classList.toggle('win',win[2]===t2); fb.classList.toggle('lose',win[2]!==null&&win[2]!==t2);
+      }
+      var c=win[2]===null?null:sf[win[2]][win[win[2]]];
+      champ.classList.toggle('on',!!c); cname.textContent=c||'—';
+    }
+    br.addEventListener('click',function(e){
+      var b=e.target.closest('.team'); if(!b||b.disabled) return;
+      var m=+b.dataset.m, t=+b.dataset.t, was=win[2];
+      if(m<2){ if(win[m]!==t){ win[m]=t; win[2]=null; } }
+      else { win[2]=t; }
+      render(true);
+      if(m===2&&win[2]!==null&&was!==win[2]&&W.tvConfetti) W.tvConfetti(D.querySelector('.final'),champ);
+    });
+    D.getElementById('ko-reset').addEventListener('click',function(){ win=[null,null,null]; render(false); });
+    render(false);
+  }
+
+  /* ---- 33 languages drum ---- */
+  var drum=D.getElementById('drum'), pills=D.getElementById('lpills');
+  if(drum&&DATA.langs.length){
+    var L=DATA.langs, li=L.findIndex(function(x){return x[0]==='tr'}), lt=0, lvis=false, busy=false;
+    L.forEach(function(x,i){ var p=D.createElement('button'); p.type='button'; p.textContent=x[0].toUpperCase(); p.lang='en'; p.setAttribute('aria-pressed',String(i===li)); p.setAttribute('aria-label',x[1]);
+      p.addEventListener('click',function(){ go(i); lloop(); }); pills.appendChild(p); });
+    D.getElementById('l-count').textContent=L.length;
+    function go(i){
+      if(busy||i===li) return; busy=true;
+      var cur=drum.querySelector('.cur'), nxt=drum.querySelector('.nxt');
+      nxt.textContent=L[i][1]; nxt.setAttribute('lang',L[i][0]);
+      if(reduce){ cur.textContent=L[i][1]; cur.setAttribute('lang',L[i][0]); busy=false; }
+      else{
+        drum.classList.add('roll');
+        setTimeout(function(){ drum.classList.remove('roll'); cur.classList.replace('cur','nxt'); nxt.classList.replace('nxt','cur'); cur.setAttribute('aria-hidden','true'); nxt.removeAttribute('aria-hidden'); busy=false; },580);
+      }
+      [].forEach.call(pills.children,function(p,k){p.setAttribute('aria-pressed',String(k===i))}); li=i;
+    }
+    function lloop(){ clearTimeout(lt); if(lvis&&!reduce) lt=setTimeout(function(){ go((li+1)%L.length); lloop(); },1700); }
+    onVisible(drum,function(v){ lvis=v; if(v) lloop(); else clearTimeout(lt); });
+  }
+})();
+
 </script>
 </body>
 </html>
