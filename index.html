@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="turnuvolt_logo.png" />
 <meta name="theme-color" content="#070B10" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" />
 <style>
@@ -75,7 +75,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 .stores{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:38px}
 .stores a{display:inline-block;border-radius:14px;transition:transform .3s var(--ease)}
 .stores a:hover{transform:translateY(-4px) scale(1.04)}
-.stores img{height:52px;width:auto;max-width:none;
+.stores img{height:56px;width:auto;max-width:none;
   filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 14px 30px rgba(0,0,0,.6))}
 .cue{position:absolute;left:50%;bottom:26px;width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;
   border-radius:50%;border:1px solid rgba(234,242,255,.25);color:var(--flood);text-decoration:none;opacity:.8}
@@ -85,7 +85,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 @media (max-width:700px){
   .hero{min-height:auto;padding:88px 16px 112px}
   .cue{bottom:22px}
-  .stores img{height:46px}
+  .stores img{height:48px}
 }
 
 /* ============ ARENA (3D ring on pitch) ============ */
