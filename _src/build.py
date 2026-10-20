@@ -245,13 +245,22 @@ def stores(code, t, base, pos):
             f'alt="" width="1062" height="318" /><b>{e(t["soon"])}</b></span>')
 
 
-def lang_menu(code, built, url_of, t):
+def flag(code, base):
+    return f'<img src="{base}assets/img/flags/{code.lower()}.svg" alt="" width="20" height="14" loading="lazy" />'
+
+
+def lang_menu(code, built, url_of, t, base):
+    """Karabel projesindeki bayraklı dil menüsü; dışarı tıklayınca ya da Esc ile kapanır."""
     links = []
     for c in built:
         cur = ' aria-current="page"' if c == code else ''
-        links.append(f'<a href="{e(url_of(c))}" hreflang="{c}" lang="{c}"{cur}>{e(LANG[c][2])}</a>')
-    return (f'<details class="lang-menu"><summary aria-label="{e(t["aria_lang"])}">&#127760; {e(code.upper())}</summary>'
-            f'<nav class="lm-list">{"".join(links)}</nav></details>')
+        links.append(f'<a href="{e(url_of(c))}" hreflang="{c}" lang="{c}"{cur}>{flag(c, base)}<span dir="{LANG[c][1]}">{e(LANG[c][2])}</span></a>')
+    current = flag(code, base).replace(' loading="lazy"', '')
+    return (f'<details class="lang-menu"><summary aria-label="{e(t["aria_lang"])} / Language">{current}'
+            f'{e(code.split("-")[0].upper())}</summary><nav class="lm-list" aria-label="{e(t["aria_lang"])} / Language">{"".join(links)}</nav></details>'
+            '<script>(function(d){var m=d.querySelector(".lang-menu");if(!m)return;'
+            'd.addEventListener("click",function(e){if(m.open&&!m.contains(e.target))m.open=false});'
+            'd.addEventListener("keydown",function(e){if(e.key==="Escape"&&m.open){m.open=false;m.querySelector("summary").focus()}})})(document);</script>')
 
 
 def head_meta(code, title, desc, url, base, built, url_of):
@@ -396,7 +405,7 @@ def build_home(code, T, A, built, tpl, css):
     ]
     ctx.update({
         'head_meta': head_meta(code, t['title'], t['meta_desc'], url, base, built, home_url),
-        'lang_menu': lang_menu(code, built, home_url, t),
+        'lang_menu': lang_menu(code, built, home_url, t, base),
         'stores_top': stores(code, t, base, 'ust'), 'stores_bottom': stores(code, t, base, 'alt'),
         'chips_html': chips, 'tv_data': json.dumps(tv, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'),
         'fx_href': fx_rel, 'about_html': about, 'jsonld': jsonld(graph), 'css': css,
@@ -439,7 +448,7 @@ def build_fixture(code, T, A, built, tpl, css, fx_css):
     ]
     ctx.update({
         'head_meta': head_meta(code, t['fx_title'], t['fx_desc'], url, base, built, lambda c: fx_url(c, T)),
-        'lang_menu': lang_menu(code, built, lambda c: fx_url(c, T), t),
+        'lang_menu': lang_menu(code, built, lambda c: fx_url(c, T), t, base),
         'home_href': '../', 'stores_cta': stores(code, t, base, 'fikstur'),
         'count_rows': rows, 'example_html': ex, 'faq_html': faq_block(t['faq_eyebrow'], t['fx_faq_h2'], t['faq_fx'], 'fx-faq-h'),
         'fx_data': json.dumps(fx, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'),

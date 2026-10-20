@@ -428,18 +428,26 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 .qa summary:hover{color:var(--gold-2)}
 .qa p{margin:0 4px 22px;color:#B9C5D3;max-width:70ch}
 
+/* Dil seçimi: Karabel projesindeki bayraklı menünün koyu tema uyarlaması */
 .lang-menu{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));inset-inline-end:14px;z-index:96}
-.lang-menu summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:8px 14px;border-radius:999px;
-  font:700 13px/1 var(--sans);letter-spacing:.06em;color:var(--flood);background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);
-  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.lang-menu summary{display:flex;align-items:center;gap:8px;min-height:38px;padding:8px 13px;border-radius:999px;list-style:none;cursor:pointer;
+  font:700 12.5px/1 var(--sans);letter-spacing:.06em;color:var(--flood);background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:border-color .25s,color .25s,background .25s}
 .lang-menu summary::-webkit-details-marker{display:none}
-.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold);color:var(--gold)}
-.lm-list{position:absolute;inset-inline-end:0;top:calc(100% + 8px);width:min(340px,calc(100vw - 28px));max-height:min(70vh,540px);overflow:auto;
-  display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:8px;border-radius:16px;background:rgba(11,17,24,.97);
-  border:1px solid rgba(234,242,255,.14);box-shadow:0 24px 60px rgba(0,0,0,.6)}
-.lm-list a{display:block;padding:10px;border-radius:9px;color:var(--flood);text-decoration:none;font:600 14px/1.2 var(--sans)}
-.lm-list a:hover{background:rgba(242,193,78,.12);color:var(--gold-2)}
-.lm-list a[aria-current]{color:var(--gold);background:rgba(242,193,78,.08)}
+.lang-menu summary::after{content:"";width:5px;height:5px;border:solid currentColor;border-width:0 1.4px 1.4px 0;transform:translateY(-2px) rotate(45deg);opacity:.7;transition:transform .25s}
+.lang-menu[open] summary::after{transform:translateY(1px) rotate(-135deg)}
+.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold);color:var(--gold-2);background:rgba(7,11,16,.75)}
+.lang-menu img{width:20px;height:14px;flex:0 0 auto;border-radius:2px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.14)}
+.lm-list{position:absolute;top:calc(100% + 8px);inset-inline-end:0;width:max-content;max-width:min(92vw,420px);max-height:min(70vh,560px);overflow-y:auto;
+  display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:2px;padding:6px;border-radius:16px;
+  background:rgba(11,17,24,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border:1px solid rgba(234,242,255,.12);box-shadow:0 24px 60px -10px rgba(0,0,0,.75),0 0 0 1px rgba(242,193,78,.06)}
+.lm-list a{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;text-decoration:none;font:500 13.5px/1.2 var(--sans);color:#B9C5D3;
+  transition:background .2s,color .2s}
+.lm-list a span{unicode-bidi:isolate}
+.lm-list a:hover{background:rgba(242,193,78,.1);color:#fff}
+.lm-list a[aria-current]{color:var(--gold-2);background:rgba(242,193,78,.08)}
+@media (min-width:900px){.lm-list{grid-template-columns:repeat(3,minmax(140px,1fr));max-width:560px;max-height:none}}
 [dir=rtl] .board,[dir=rtl] .gboard,[dir=rtl] .bracket,[dir=rtl] .led table,[dir=rtl] .track,[dir=rtl] .podium{direction:ltr}
 .gboard.whole{display:block;grid-template-columns:none}
 .gboard.whole .flap{width:100%;height:1.5em}
@@ -538,7 +546,7 @@ a.toolcta{width:calc(100% - 32px)}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebApplication","@id":"https://anbertech.github.io/TurnuVolt/en/fixture-generator/#app","name":"Fixture Generator","url":"https://anbertech.github.io/TurnuVolt/en/fixture-generator/","description":"Type your team names and get a round-robin (league) or knockout tournament schedule in seconds. Home-and-away option, byes handled automatically. Free, no sign-up, runs in your browser; print or share it.","applicationCategory":"SportsApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["League","Knockout","Home and away (double round robin)","Print","Copy link"],"publisher":{"@id":"https://anbertech.github.io/#org"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TurnuVolt","item":"https://anbertech.github.io/TurnuVolt/en/"},{"@type":"ListItem","position":2,"name":"Fixture Generator","item":"https://anbertech.github.io/TurnuVolt/en/fixture-generator/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is the fixture generator free?","acceptedAnswer":{"@type":"Answer","text":"Yes. No sign-up and no ads. The fixture is made in your browser and your team names are never sent anywhere."}},{"@type":"Question","name":"How many teams can I add?","acceptedAnswer":{"@type":"Answer","text":"You can make a league or knockout fixture for 2 to 64 teams."}},{"@type":"Question","name":"Can I make a league fixture with an odd number of teams?","acceptedAnswer":{"@type":"Answer","text":"Yes. One team has a bye each round, and by the end of the league every team has played the same number of matches."}},{"@type":"Question","name":"What is a double round robin?","acceptedAnswer":{"@type":"Answer","text":"A fixture where every pairing is played twice, with home and away swapped in the second half. It doubles the number of matches."}},{"@type":"Question","name":"Can I print or share the fixture?","acceptedAnswer":{"@type":"Answer","text":"Yes. Print gives you a clean printout, Copy puts the fixture on your clipboard as text, and Copy link creates a link that opens the same fixture."}},{"@type":"Question","name":"How do I track scores and standings?","acceptedAnswer":{"@type":"Answer","text":"Set up the same tournament in the TurnuVolt app. As you enter scores the standings, goal difference and rankings are calculated automatically, and winners advance through the bracket on their own."}}],"@id":"https://anbertech.github.io/TurnuVolt/en/fixture-generator/#faq"}]}</script>
 </head>
 <body>
-<details class="lang-menu"><summary aria-label="Language">&#127760; EN</summary><nav class="lm-list"><a href="https://anbertech.github.io/TurnuVolt/fikstur/" hreflang="tr" lang="tr">Türkçe</a><a href="https://anbertech.github.io/TurnuVolt/en/fixture-generator/" hreflang="en" lang="en" aria-current="page">English</a></nav></details>
+<details class="lang-menu"><summary aria-label="Language / Language"><img src="../../assets/img/flags/en.svg" alt="" width="20" height="14" />EN</summary><nav class="lm-list" aria-label="Language / Language"><a href="https://anbertech.github.io/TurnuVolt/fikstur/" hreflang="tr" lang="tr"><img src="../../assets/img/flags/tr.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Türkçe</span></a><a href="https://anbertech.github.io/TurnuVolt/en/fixture-generator/" hreflang="en" lang="en" aria-current="page"><img src="../../assets/img/flags/en.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">English</span></a></nav></details><script>(function(d){var m=d.querySelector(".lang-menu");if(!m)return;d.addEventListener("click",function(e){if(m.open&&!m.contains(e.target))m.open=false});d.addEventListener("keydown",function(e){if(e.key==="Escape"&&m.open){m.open=false;m.querySelector("summary").focus()}})})(document);</script>
 <div class="grain" aria-hidden="true"></div>
 <div class="progress" aria-hidden="true"></div>
 
