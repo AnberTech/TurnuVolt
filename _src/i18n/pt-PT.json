@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Criador de Torneios: Calendário, Classificação e Eliminatórias",
+  "meta_desc": "Organize campeonatos todos contra todos e torneios por eliminatórias: introduza as equipas, gere o calendário de jogos e acompanhe a classificação ao registar os resultados. 63 desportos e jogos, sem internet nem anúncios. Inclui um gerador de calendários online gratuito.",
+  "store_alt": "Descarregar na App Store",
+  "soon": "Brevemente",
+  "scroll_down": "Desloque para baixo",
+  "aria_screens": "Capturas de ecrã",
+  "ss_podium": "Ecrã do pódio e do troféu no final de um torneio",
+  "ss_fixture": "Ecrã do calendário de jogos e da classificação",
+  "ss_new": "Ecrã de criação de um novo torneio",
+  "ss_home": "Ecrã inicial do TurnuVolt",
+  "ss_saved": "Ecrã de confirmação de torneio guardado",
+  "aria_games": "Jogos",
+  "aria_board": "Painel com a lista de jogos",
+  "aria_cats": "Categorias",
+  "random_game": "Jogo aleatório",
+  "aria_formats": "Formatos de torneio",
+  "tab_ko": "Eliminatórias",
+  "led_title": "Turma",
+  "reset_bracket": "Repor quadro de eliminatórias",
+  "aria_langs": "Idiomas",
+  "aria_lang": "Idioma",
+  "aria_docs": "Documentos",
+  "privacy": "Política de Privacidade",
+  "support": "Apoio",
+  "aria_download": "Descarregar",
+  "tagline": "Calendários, classificações e quadros de eliminatórias. Tudo pronto em segundos, no seu bolso.",
+  "hero_tool_link": "Criar um calendário grátis",
+  "about_eyebrow": "O que é o TurnuVolt?",
+  "about_h2": "Crie o torneio, o TurnuVolt trata do resto",
+  "about_lead": "O TurnuVolt é uma app para criar torneios entre amigos, em escolas, empresas e clubes. Introduza as equipas e o calendário do campeonato ou o quadro de eliminatórias fica pronto automaticamente. À medida que regista os resultados, a classificação atualiza-se sozinha e, depois da final, o campeão sobe ao pódio. Inclui 63 desportos e jogos, do futebol ao xadrez, do ténis ao FIFA, com a pontuação adaptada às regras de cada um.",
+  "steps": [
+    [
+      "Adicione as equipas",
+      "Dê um nome ao torneio, indique o número de equipas ou jogadores e escolha o jogo e o formato."
+    ],
+    [
+      "O calendário está pronto",
+      "Num campeonato, todos jogam contra todos, com a opção de uma segunda volta com jogos em casa e fora. Nas eliminatórias, o quadro é criado automaticamente, com atribuição de folgas quando o número de equipas é ímpar."
+    ],
+    [
+      "Registe os resultados e acompanhe a classificação",
+      "Golos, pontos, sets ou apenas o vencedor: o registo de resultados adapta-se a cada jogo. Os pontos, a diferença de golos e as posições na classificação são calculados automaticamente."
+    ]
+  ],
+  "feats": [
+    [
+      "Pontuação adaptada a cada jogo",
+      "3 pontos por vitória no futebol, sem empates no basquetebol, diferença de sets no voleibol. Cada jogo segue as suas próprias regras."
+    ],
+    [
+      "Continue de onde ficou",
+      "Os torneios em curso ficam guardados e os concluídos vão para o seu arquivo."
+    ],
+    [
+      "Sem precisar de internet",
+      "Tudo funciona no seu telemóvel: no campo, no acampamento ou no recreio da escola."
+    ],
+    [
+      "Sem anúncios nem conta",
+      "Compra única. Sem subscrição, sem anúncios, sem registo e sem recolha de dados."
+    ],
+    [
+      "30+ idiomas",
+      "Inglês, espanhol, alemão, árabe, japonês e muitos outros, incluindo idiomas escritos da direita para a esquerda."
+    ],
+    [
+      "Pódio e troféu",
+      "Quando a final termina, o campeão, o segundo e o terceiro classificados sobem ao pódio com uma chuva de confetes."
+    ]
+  ],
+  "tool_eyebrow": "Ferramenta gratuita",
+  "tool_h2": "Precisa de um calendário de jogos agora?",
+  "tool_text": "Crie um calendário de jogos grátis no navegador, sem descarregar nada. Introduza as equipas e o calendário todos contra todos ou o quadro de eliminatórias fica pronto num instante. Imprima, copie ou partilhe através de uma ligação.",
+  "tool_btn": "Abrir o gerador de calendários",
+  "faq_eyebrow": "Perguntas frequentes",
+  "faq_h2": "O que precisa de saber",
+  "faq_home": [
+    [
+      "Como crio um calendário de jogos com o TurnuVolt?",
+      "Toque em Novo Torneio, introduza o nome do torneio e o número de equipas, escolha o jogo e o formato (campeonato ou eliminatórias) e escreva os nomes das equipas. O calendário de jogos e a tabela de classificação são criados automaticamente; só precisa de registar os resultados."
+    ],
+    [
+      "Que desportos e jogos estão disponíveis?",
+      "63 no total, incluindo futebol, futsal, basquetebol, voleibol, ténis, ténis de mesa, padel, badminton, xadrez, gamão, dardos, bilhar, FIFA e Valorant. Para os restantes, existe a opção Personalizado / Outro."
+    ],
+    [
+      "Qual é a diferença entre um campeonato e um torneio por eliminatórias?",
+      "Num campeonato (todos contra todos), todas as equipas jogam entre si e a classificação determina o vencedor; também pode optar por duas voltas, com jogos em casa e fora. Nas eliminatórias, quem perde fica de fora e os vencedores avançam até à final."
+    ],
+    [
+      "O que acontece se o número de equipas for ímpar?",
+      "Num campeonato, uma equipa fica de folga em cada jornada. Nas eliminatórias, as equipas que ficam de folga na primeira ronda são escolhidas automaticamente e passam diretamente à ronda seguinte."
+    ],
+    [
+      "Como é calculada a classificação?",
+      "À medida que regista os resultados, os jogos disputados, as vitórias, os empates, as derrotas, a diferença de golos e os pontos atualizam-se automaticamente. A pontuação depende do jogo: no futebol, uma vitória vale 3 pontos e um empate vale 1; no basquetebol não há empates; no voleibol, a diferença de sets também conta."
+    ],
+    [
+      "Preciso de ligação à internet? Onde ficam guardados os meus dados?",
+      "Não precisa de ligação à internet. Os torneios ficam guardados apenas no seu dispositivo; não é necessário criar conta, não são recolhidos dados pessoais e nada é enviado para um servidor."
+    ],
+    [
+      "O TurnuVolt é grátis?",
+      "A app está disponível na App Store através de uma compra única, sem subscrição, sem anúncios e sem compras na aplicação. O gerador de calendários no navegador é totalmente gratuito."
+    ],
+    [
+      "Está disponível para Android?",
+      "A versão para Android chega brevemente ao Google Play. Neste momento, o TurnuVolt está disponível para iPhone e iPad (iOS 17.6 ou posterior)."
+    ]
+  ],
+  "fx_slug": "gerador-de-calendarios",
+  "fx_name": "Gerador de Calendários",
+  "fx_title": "Gerador de Calendários Grátis – Todos Contra Todos e Eliminatórias | TurnuVolt",
+  "fx_desc": "Introduza as equipas e crie um calendário de campeonato todos contra todos ou um quadro de eliminatórias em segundos. Jogos em casa e fora e folgas automáticas. Grátis, sem registo, no navegador. Imprima ou partilhe.",
+  "fx_h1_html": "<em>Gerador</em> de Calendários",
+  "fx_sub": "Introduza as equipas e o calendário fica pronto em segundos. Grátis, sem registo, no navegador.",
+  "fx_teams_label": "Equipas (uma por linha)",
+  "fx_teams_ph": "Águias\nLeões\nTigres\nLobos",
+  "fx_count_label": "ou número de equipas:",
+  "fx_fill": "Preencher",
+  "fx_format": "Formato",
+  "fx_knockout": "Eliminatórias",
+  "fx_double": "Casa e fora (todos contra todos a duas voltas)",
+  "fx_shuffle": "Baralhar o sorteio",
+  "fx_generate": "Gerar calendário",
+  "fx_sum_league": "%1$d equipas · %2$d jornadas · %3$d jogos",
+  "fx_sum_ko": "%1$d equipas · %2$d rondas · %3$d jogos",
+  "fx_week": "Jornada %d",
+  "fx_bye_row": "%s fica de folga nesta jornada",
+  "fx_ko_bye": "%s fica de folga e passa à ronda seguinte",
+  "fx_winner_of": "Vencedor do jogo #%d",
+  "fx_copy": "Copiar",
+  "fx_copied": "Copiado",
+  "fx_share": "Copiar ligação",
+  "fx_link_copied": "Ligação copiada",
+  "fx_print": "Imprimir",
+  "fx_err_min": "Introduza pelo menos 2 equipas.",
+  "fx_err_max": "Pode adicionar até 64 equipas.",
+  "fx_err_dup": "Duas equipas têm o mesmo nome: %s",
+  "fx_cta_title": "Deixe o TurnuVolt tratar da pontuação",
+  "fx_cta_text": "Crie este torneio na app TurnuVolt: à medida que regista os resultados, a classificação, a diferença de golos e as posições atualizam-se automaticamente, os vencedores avançam no quadro de eliminatórias e o campeão sobe ao pódio depois da final.",
+  "fx_h2_how": "Como se cria um calendário todos contra todos?",
+  "fx_p_how1_html": "Num campeonato todos contra todos, cada equipa defronta todas as outras uma vez. O calendário é criado com o método do círculo, também conhecido como <b>tabelas de Berger</b>: uma equipa fica fixa enquanto as restantes rodam uma posição em cada jornada. Assim, nenhum confronto se repete e cada equipa disputa, no máximo, um jogo por jornada.",
+  "fx_p_how2_html": "Um campeonato com <b>n</b> equipas tem <b>n × (n − 1) ÷ 2</b> jogos no total. Com um número par de equipas, são necessárias <b>n − 1</b> jornadas; com um número ímpar, são necessárias <b>n</b> jornadas e uma equipa fica de folga em cada uma. Um campeonato todos contra todos a duas voltas (casa e fora) duplica os jogos e as jornadas, invertendo as equipas da casa e de fora na segunda volta.",
+  "fx_table_caption": "Jogos e jornadas por número de equipas (todos contra todos a uma volta)",
+  "fx_th_teams": "Equipas",
+  "fx_th_matches": "Jogos",
+  "fx_th_weeks": "Jornadas",
+  "fx_th_double": "Casa e fora",
+  "fx_h2_example": "Exemplo: calendário de um campeonato com 4 equipas",
+  "fx_h2_ko": "Quadros de eliminatórias e folgas",
+  "fx_p_ko1_html": "Num torneio por eliminatórias (eliminação direta), quem perde fica de fora. Se o número de equipas não for uma potência de dois (4, 8, 16, 32…), algumas equipas ficam de <b>folga</b> na primeira ronda. O número de folgas é a potência de dois seguinte menos o número de equipas: com 6 equipas, 8 − 6 = 2 equipas ficam de folga; com 10 equipas, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Um torneio por eliminatórias com <b>n</b> equipas tem sempre <b>n − 1</b> jogos, porque é eliminada exatamente uma equipa em cada jogo. Um torneio com 16 equipas tem 4 rondas e 15 jogos.",
+  "fx_h2_points": "Como é calculada a classificação de um campeonato?",
+  "fx_p_points_html": "Em desportos como o futebol, uma vitória vale <b>3</b> pontos, um empate vale <b>1</b> e uma derrota vale <b>0</b>; as equipas com os mesmos pontos são ordenadas pela diferença de golos e, depois, pelos golos marcados. Em desportos sem empates, como o basquetebol, uma vitória vale 2 pontos. No voleibol, uma vitória por 3-0 ou 3-1 vale 3 pontos, uma vitória por 3-2 vale 2 pontos e uma derrota por 2-3 vale 1 ponto. O TurnuVolt aplica estas regras automaticamente ao jogo que escolher.",
+  "fx_faq_h2": "Perguntas sobre o calendário de jogos",
+  "faq_fx": [
+    [
+      "O gerador de calendários é grátis?",
+      "Sim. Sem registo e sem anúncios. O calendário é criado no seu navegador e os nomes das equipas nunca são enviados para fora dele."
+    ],
+    [
+      "Quantas equipas posso adicionar?",
+      "Pode criar um calendário de campeonato ou um quadro de eliminatórias para 2 a 64 equipas."
+    ],
+    [
+      "Posso criar um calendário de campeonato com um número ímpar de equipas?",
+      "Sim. Uma equipa fica de folga em cada jornada e, no final do campeonato, todas as equipas terão disputado o mesmo número de jogos."
+    ],
+    [
+      "O que é um campeonato todos contra todos a duas voltas?",
+      "É um calendário em que cada confronto se disputa duas vezes, invertendo as equipas da casa e de fora na segunda volta. O número de jogos duplica."
+    ],
+    [
+      "Posso imprimir ou partilhar o calendário?",
+      "Sim. Imprimir cria uma versão simples para impressão, Copiar coloca o calendário em texto na área de transferência e Copiar ligação cria uma ligação que abre o mesmo calendário."
+    ],
+    [
+      "Como acompanho os resultados e a classificação?",
+      "Crie o mesmo torneio na app TurnuVolt. À medida que regista os resultados, a classificação, a diferença de golos e as posições são calculadas automaticamente, e os vencedores avançam no quadro de eliminatórias."
+    ]
+  ]
+}

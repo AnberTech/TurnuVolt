@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – turneringsgenerator: kampoppsett, terminliste, tabell og utslagsturnering",
+  "meta_desc": "Arranger serier og utslagsturneringer med automatisk kampoppsett og terminliste. Skriv inn resultater, og få oppdatert tabell. Støtter hjemme og borte og automatiske frirunder. 63 idretter og spill, fungerer uten nett og har ingen annonser. Gratis generator for kampoppsett på nett er inkludert.",
+  "store_alt": "Last ned fra App Store",
+  "soon": "Kommer snart",
+  "scroll_down": "Rull ned",
+  "aria_screens": "Skjermbilder",
+  "ss_podium": "Seierspall og pokal etter turneringen",
+  "ss_fixture": "Skjermbilde med kampoppsett og tabell",
+  "ss_new": "Skjermbilde for å opprette en ny turnering",
+  "ss_home": "Startskjermen i TurnuVolt",
+  "ss_saved": "Skjermbilde som viser at turneringen er lagret",
+  "aria_games": "Spill",
+  "aria_board": "Oversikt over spill",
+  "aria_cats": "Kategorier",
+  "random_game": "Tilfeldig spill",
+  "aria_formats": "Turneringsformater",
+  "tab_ko": "Utslagsturnering",
+  "led_title": "Klasse",
+  "reset_bracket": "Tilbakestill sluttspilltreet",
+  "aria_langs": "Språk",
+  "aria_lang": "Språk",
+  "aria_docs": "Dokumenter",
+  "privacy": "Personvernerklæring",
+  "support": "Brukerstøtte",
+  "aria_download": "Last ned",
+  "tagline": "Kampoppsett, tabell og sluttspilltre. Klart på sekunder, rett i lomma.",
+  "hero_tool_link": "Lag et gratis kampoppsett nå",
+  "about_eyebrow": "Hva er TurnuVolt?",
+  "about_h2": "Sett opp turneringen – TurnuVolt ordner resten",
+  "about_lead": "TurnuVolt er en turneringsapp for venner, skoler, arbeidsplasser og klubber. Skriv inn lagene, så lages kampoppsettet for serie eller utslagsturnering automatisk. Tabellen oppdateres mens du registrerer resultater, og når finalen er over, inntar mesteren seierspallen. Appen støtter 63 idretter og spill, fra fotball og sjakk til tennis og FIFA, og bruker riktige poengregler for hver aktivitet.",
+  "steps": [
+    [
+      "Legg til lagene",
+      "Gi turneringen et navn, angi antall lag eller spillere, og velg deretter aktivitet og format."
+    ],
+    [
+      "Kampoppsettet er klart",
+      "I en serie møter alle hverandre, med valgfri returrunde hjemme og borte. I en utslagsturnering opprettes sluttspilltreet automatisk, og lag får frirunde ved behov."
+    ],
+    [
+      "Registrer resultater og følg tabellen",
+      "Mål, poeng, sett eller bare vinneren – resultatregistreringen tilpasses aktiviteten. Poeng, målforskjell og plasseringer beregnes automatisk."
+    ]
+  ],
+  "feats": [
+    [
+      "Poengregler tilpasset aktiviteten",
+      "3 poeng for seier i fotball, ingen uavgjort i basketball og settforskjell i volleyball. Hver aktivitet følger sine egne regler."
+    ],
+    [
+      "Fortsett der du slapp",
+      "Uferdige turneringer lagres, og fullførte turneringer legges i arkivet."
+    ],
+    [
+      "Trenger ikke internett",
+      "Alt kjører på enheten din – på banen, på leir eller i skolegården."
+    ],
+    [
+      "Ingen annonser eller konto",
+      "Engangskjøp. Ingen abonnement, annonser, registrering eller datainnsamling."
+    ],
+    [
+      "30+ språk",
+      "Engelsk, spansk, tysk, arabisk, japansk og mange flere, inkludert språk som skrives fra høyre mot venstre."
+    ],
+    [
+      "Seierspall og pokal",
+      "Når finalen er over, går mesteren, andreplassen og tredjeplassen opp på seierspallen under et konfettiregn."
+    ]
+  ],
+  "tool_eyebrow": "Gratis verktøy",
+  "tool_h2": "Trenger du et kampoppsett med en gang?",
+  "tool_text": "Lag et gratis kampoppsett direkte i nettleseren, uten å laste ned noe. Skriv inn lagene, så er terminlisten for alle-mot-alle eller utslagsturnering klar med én gang. Skriv den ut, kopier den eller del den med en lenke.",
+  "tool_btn": "Åpne generatoren for kampoppsett",
+  "faq_eyebrow": "Ofte stilte spørsmål",
+  "faq_h2": "Greit å vite",
+  "faq_home": [
+    [
+      "Hvordan lager jeg et kampoppsett med TurnuVolt?",
+      "Trykk på Ny turnering, skriv inn et turneringsnavn og antall lag, velg aktivitet og format (serie eller utslagsturnering), og legg inn lagnavnene. Kampoppsettet og tabellen opprettes automatisk – du trenger bare å registrere resultatene."
+    ],
+    [
+      "Hvilke idretter og spill støttes?",
+      "63 totalt, blant annet fotball, futsal, basketball, volleyball, tennis, bordtennis, padel, badminton, sjakk, backgammon, dart, biljard, FIFA og Valorant. For alt annet finnes valget Egendefinert / annet."
+    ],
+    [
+      "Hva er forskjellen på serie og utslagsturnering?",
+      "I en serie (alle-mot-alle) møter alle hverandre, og tabellen avgjør vinneren. Du kan også velge en dobbel serie med hjemme og borte. I en utslagsturnering ryker taperen ut, mens vinnerne går videre til finalen."
+    ],
+    [
+      "Hva skjer ved et oddetall lag?",
+      "I en serie har ett lag frirunde i hver runde. I en utslagsturnering velges lagene som får frirunde i første runde automatisk, og de går rett videre til neste runde."
+    ],
+    [
+      "Hvordan beregnes tabellen?",
+      "Når du registrerer resultater, oppdateres spilte kamper, seire, uavgjort, tap, målforskjell og poeng automatisk. Poengreglene avhenger av aktiviteten: I fotball gir seier 3 poeng og uavgjort 1, basketball har ingen uavgjort, og i volleyball teller også settforskjellen."
+    ],
+    [
+      "Trenger jeg internett? Hvor lagres dataene mine?",
+      "Du trenger ingen nettilkobling. Turneringene lagres bare på enheten din. Det finnes ingen konto, ingen personopplysninger samles inn, og ingenting sendes til en server."
+    ],
+    [
+      "Er TurnuVolt gratis?",
+      "Appen kjøpes én gang på App Store, uten abonnement, annonser eller kjøp i appen. Generatoren for kampoppsett i nettleseren er helt gratis."
+    ],
+    [
+      "Finnes den for Android?",
+      "Android-versjonen kommer snart på Google Play. Akkurat nå er TurnuVolt tilgjengelig for iPhone og iPad (iOS 17.6 eller nyere)."
+    ]
+  ],
+  "fx_slug": "kampoppsett-generator",
+  "fx_name": "Generator for kampoppsett",
+  "fx_title": "Gratis generator for kampoppsett og terminliste – alle-mot-alle og utslagsturnering | TurnuVolt",
+  "fx_desc": "Skriv inn lagnavn og få kampoppsett og terminliste for alle-mot-alle eller utslagsturnering på sekunder. Støtter hjemme og borte og håndterer frirunder automatisk. Gratis, uten registrering og direkte i nettleseren – skriv ut eller del oppsettet.",
+  "fx_h1_html": "<em>Generator</em> for kampoppsett",
+  "fx_sub": "Skriv inn lagene, så er terminlisten klar på sekunder. Gratis, uten registrering og direkte i nettleseren.",
+  "fx_teams_label": "Lag (ett per linje)",
+  "fx_teams_ph": "Ørnene\nLøvene\nTigrene\nUlvene",
+  "fx_count_label": "eller antall lag:",
+  "fx_fill": "Fyll inn",
+  "fx_format": "Format",
+  "fx_knockout": "Utslagsturnering",
+  "fx_double": "Hjemme og borte (dobbel serie)",
+  "fx_shuffle": "Bland trekningen",
+  "fx_generate": "Lag kampoppsett",
+  "fx_sum_league": "%1$d lag · %2$d runder · %3$d kamper",
+  "fx_sum_ko": "%1$d lag · %2$d runder · %3$d kamper",
+  "fx_week": "Runde %d",
+  "fx_bye_row": "%s har frirunde denne runden",
+  "fx_ko_bye": "%s får frirunde og går videre til neste runde",
+  "fx_winner_of": "Vinner av kamp #%d",
+  "fx_copy": "Kopier",
+  "fx_copied": "Kopiert",
+  "fx_share": "Kopier lenke",
+  "fx_link_copied": "Lenken er kopiert",
+  "fx_print": "Skriv ut",
+  "fx_err_min": "Legg inn minst 2 lag.",
+  "fx_err_max": "Du kan ha maksimalt 64 lag.",
+  "fx_err_dup": "To lag har samme navn: %s",
+  "fx_cta_title": "La TurnuVolt holde orden på resultatene",
+  "fx_cta_text": "Sett opp denne turneringen i TurnuVolt-appen. Når du registrerer resultater, oppdateres tabell, målforskjell og plasseringer automatisk, vinnerne går videre i sluttspilltreet, og mesteren inntar seierspallen etter finalen.",
+  "fx_h2_how": "Hvordan lages et kampoppsett for alle-mot-alle?",
+  "fx_p_how1_html": "I en serie (alle-mot-alle) møter hvert lag alle de andre lagene én gang. Kampoppsettet lages med sirkelmetoden, også kjent som <b>Berger-tabeller</b>: Ett lag står fast, mens de andre flyttes én plass for hver runde. Dermed gjentas ingen lagpar, og hvert lag spiller maksimalt én kamp per runde.",
+  "fx_p_how2_html": "En serie med <b>n</b> lag har totalt <b>n × (n − 1) ÷ 2</b> kamper. Med et partall lag kreves <b>n − 1</b> runder, mens et oddetall krever <b>n</b> runder, og ett lag har frirunde i hver runde. En dobbel serie (hjemme og borte) dobler antall kamper og runder, med byttede hjemme- og bortelag i andre halvdel.",
+  "fx_table_caption": "Antall kamper og runder etter antall lag (enkel serie)",
+  "fx_th_teams": "Lag",
+  "fx_th_matches": "Kamper",
+  "fx_th_weeks": "Runder",
+  "fx_th_double": "Hjemme og borte",
+  "fx_h2_example": "Eksempel: kampoppsett for en serie med 4 lag",
+  "fx_h2_ko": "Sluttspilltre og frirunder",
+  "fx_p_ko1_html": "I en utslagsturnering ryker taperen ut. Hvis antall lag ikke er en toerpotens (4, 8, 16, 32…), får noen lag <b>frirunde</b> i første runde. Antall frirunder er neste toerpotens minus antall lag: Med 6 lag får 8 − 6 = 2 lag frirunde, og med 10 lag blir det 16 − 10 = 6.",
+  "fx_p_ko2_html": "En utslagsturnering med <b>n</b> lag har alltid <b>n − 1</b> kamper, fordi nøyaktig ett lag slås ut i hver kamp. En turnering med 16 lag krever 4 runder og 15 kamper.",
+  "fx_h2_points": "Hvordan beregnes tabellen?",
+  "fx_p_points_html": "I aktiviteter som fotball gir seier <b>3</b> poeng, uavgjort <b>1</b> og tap <b>0</b>. Lag med like mange poeng skilles først på målforskjell og deretter på antall scorede mål. I aktiviteter uten uavgjort, som basketball, gir seier 2 poeng. I volleyball gir seier 3-0 eller 3-1 3 poeng, seier 3-2 gir 2 poeng, og tap 2-3 gir 1 poeng. TurnuVolt bruker automatisk de riktige reglene for aktiviteten du velger.",
+  "fx_faq_h2": "Spørsmål om kampoppsett",
+  "faq_fx": [
+    [
+      "Er generatoren for kampoppsett gratis?",
+      "Ja. Ingen registrering og ingen annonser. Kampoppsettet lages i nettleseren, og lagnavnene dine sendes aldri noe sted."
+    ],
+    [
+      "Hvor mange lag kan jeg legge til?",
+      "Du kan lage kampoppsett for serie eller utslagsturnering med 2 til 64 lag."
+    ],
+    [
+      "Kan jeg lage en terminliste med et oddetall lag?",
+      "Ja. Ett lag har frirunde i hver runde, og når serien er ferdig, har alle lag spilt like mange kamper."
+    ],
+    [
+      "Hva er en dobbel serie?",
+      "Et kampoppsett der hvert lagpar møtes to ganger, med hjemme og borte byttet i andre halvdel. Det dobler antall kamper."
+    ],
+    [
+      "Kan jeg skrive ut eller dele kampoppsettet?",
+      "Ja. Skriv ut gir deg en ryddig utskrift, Kopier legger kampoppsettet på utklippstavlen som tekst, og Kopier lenke lager en lenke som åpner det samme kampoppsettet."
+    ],
+    [
+      "Hvordan følger jeg resultater og tabell?",
+      "Sett opp den samme turneringen i TurnuVolt-appen. Når du registrerer resultater, beregnes tabell, målforskjell og plasseringer automatisk, og vinnerne går videre i sluttspilltreet av seg selv."
+    ]
+  ]
+}

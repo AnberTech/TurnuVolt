@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Créateur de tournois : calendrier, classement et tableaux",
+  "meta_desc": "Organisez vos tournois en championnat ou à élimination directe : ajoutez vos équipes, générez le calendrier et suivez le classement à chaque score saisi. 63 sports et jeux, hors ligne, sans publicité. Générateur de calendrier gratuit en ligne inclus.",
+  "store_alt": "Télécharger sur l’App Store",
+  "soon": "Bientôt disponible",
+  "scroll_down": "Faire défiler vers le bas",
+  "aria_screens": "Captures d’écran",
+  "ss_podium": "Écran du podium et du trophée à la fin d’un tournoi",
+  "ss_fixture": "Écran du calendrier et du classement",
+  "ss_new": "Écran de création d’un tournoi",
+  "ss_home": "Écran d’accueil de TurnuVolt",
+  "ss_saved": "Écran de confirmation d’enregistrement du tournoi",
+  "aria_games": "Jeux",
+  "aria_board": "Panneau de sélection des jeux",
+  "aria_cats": "Catégories",
+  "random_game": "Jeu au hasard",
+  "aria_formats": "Formats de tournoi",
+  "tab_ko": "Élimination directe",
+  "led_title": "Classe",
+  "reset_bracket": "Réinitialiser le tableau",
+  "aria_langs": "Langues",
+  "aria_lang": "Langue",
+  "aria_docs": "Documents",
+  "privacy": "Politique de confidentialité",
+  "support": "Assistance",
+  "aria_download": "Télécharger",
+  "tagline": "Calendrier, classement et tableaux. Tout est prêt en quelques secondes, dans votre poche.",
+  "hero_tool_link": "Créer un calendrier gratuit",
+  "about_eyebrow": "Qu’est-ce que TurnuVolt ?",
+  "about_h2": "Créez le tournoi, TurnuVolt s’occupe du reste",
+  "about_lead": "TurnuVolt est une application de création de tournois entre amis, à l’école, au bureau ou en club. Saisissez les équipes : le calendrier du championnat ou le tableau à élimination directe se crée automatiquement. Le classement se met à jour à chaque score saisi et, après la finale, le champion monte sur le podium. L’application prend en charge 63 sports et jeux, du football aux échecs, du tennis à FIFA, avec un calcul des scores adapté aux règles de chacun.",
+  "steps": [
+    [
+      "Ajoutez les équipes",
+      "Donnez un nom au tournoi, indiquez le nombre d’équipes ou de joueurs, puis choisissez le jeu et le format."
+    ],
+    [
+      "Le calendrier est prêt",
+      "En championnat, toutes les équipes se rencontrent, avec la possibilité de jouer en matchs aller-retour. En élimination directe, le tableau se crée automatiquement et les équipes exemptes sont désignées si le nombre d’équipes est impair."
+    ],
+    [
+      "Saisissez les scores, suivez le classement",
+      "Buts, points, sets ou simplement vainqueur : la saisie s’adapte au jeu. Les points, la différence de buts et le classement sont calculés pour vous."
+    ]
+  ],
+  "feats": [
+    [
+      "Des scores adaptés à chaque jeu",
+      "3 points pour une victoire au football, aucun match nul au basket, différence de sets au volley. Chaque jeu suit ses propres règles."
+    ],
+    [
+      "Reprenez là où vous en étiez",
+      "Les tournois en cours sont enregistrés et les tournois terminés rejoignent vos archives."
+    ],
+    [
+      "Pas besoin d’Internet",
+      "Tout fonctionne sur votre téléphone : au bord du terrain, en colo ou dans la cour de récré."
+    ],
+    [
+      "Sans publicité ni compte",
+      "Un achat unique. Sans abonnement, sans publicité, sans inscription et sans collecte de données."
+    ],
+    [
+      "30+ langues",
+      "Français, anglais, espagnol, allemand, arabe, japonais et bien d’autres, dont des langues qui s’écrivent de droite à gauche."
+    ],
+    [
+      "Podium et trophée",
+      "Après la finale, le champion, le deuxième et le troisième montent sur le podium sous les confettis."
+    ]
+  ],
+  "tool_eyebrow": "Outil gratuit",
+  "tool_h2": "Besoin d’un calendrier de matchs tout de suite ?",
+  "tool_text": "Créez gratuitement un calendrier dans votre navigateur, sans téléchargement. Saisissez les équipes : votre calendrier de championnat ou votre tableau à élimination directe est prêt instantanément. Imprimez-le, copiez-le ou partagez-le avec un lien.",
+  "tool_btn": "Ouvrir le générateur de calendrier",
+  "faq_eyebrow": "FAQ",
+  "faq_h2": "Bon à savoir",
+  "faq_home": [
+    [
+      "Comment créer un calendrier avec TurnuVolt ?",
+      "Appuyez sur Nouveau tournoi, saisissez le nom du tournoi et le nombre d’équipes, choisissez le jeu et le format (championnat ou élimination directe), puis indiquez les noms des équipes. Le calendrier et le classement sont créés automatiquement : il ne vous reste qu’à saisir les scores."
+    ],
+    [
+      "Quels sports et jeux sont disponibles ?",
+      "63 au total, dont le football, le futsal, le basket, le volley, le tennis, le tennis de table, le padel, le badminton, les échecs, le backgammon, les fléchettes, le billard, FIFA et Valorant. Pour les autres, une option Personnalisé / Autre est disponible."
+    ],
+    [
+      "Quelle est la différence entre un championnat et un tournoi à élimination directe ?",
+      "En championnat (tournoi toutes rondes), toutes les équipes se rencontrent et le classement détermine le vainqueur. Vous pouvez aussi choisir des matchs aller-retour. En élimination directe, le perdant est éliminé et les vainqueurs avancent jusqu’à la finale."
+    ],
+    [
+      "Que se passe-t-il avec un nombre impair d’équipes ?",
+      "En championnat, une équipe est exempte à chaque journée. En élimination directe, les équipes exemptes du premier tour sont choisies automatiquement et passent directement au tour suivant."
+    ],
+    [
+      "Comment le classement est-il calculé ?",
+      "À chaque score saisi, les matchs joués, victoires, matchs nuls, défaites, différences de buts et points se mettent à jour automatiquement. Le barème dépend du jeu : au football, une victoire rapporte 3 points et un match nul 1 ; au basket, il n’y a pas de match nul ; au volley, la différence de sets compte aussi."
+    ],
+    [
+      "Faut-il une connexion Internet ? Où mes données sont-elles stockées ?",
+      "Aucune connexion n’est nécessaire. Vos tournois sont stockés uniquement sur votre appareil. Il n’y a pas de compte, aucune donnée personnelle n’est collectée et rien n’est envoyé à un serveur."
+    ],
+    [
+      "TurnuVolt est-il gratuit ?",
+      "L’application s’achète en une seule fois sur l’App Store, sans abonnement, sans publicité ni achats intégrés. Le générateur de calendrier dans votre navigateur est entièrement gratuit."
+    ],
+    [
+      "L’application est-elle disponible sur Android ?",
+      "La version Android arrive bientôt sur Google Play. Pour le moment, TurnuVolt est disponible sur iPhone et iPad (iOS 17.6 ou version ultérieure)."
+    ]
+  ],
+  "fx_slug": "generateur-calendrier",
+  "fx_name": "Générateur de calendrier",
+  "fx_title": "Générateur de calendrier gratuit – Championnat et élimination directe | TurnuVolt",
+  "fx_desc": "Saisissez vos équipes et créez un calendrier de championnat toutes rondes ou un tableau à élimination directe. Matchs aller-retour, équipes exemptes gérées automatiquement. Gratuit, sans inscription, dans votre navigateur. À imprimer ou à partager.",
+  "fx_h1_html": "<em>Générateur</em> de calendrier",
+  "fx_sub": "Saisissez vos équipes : le calendrier est prêt en quelques secondes. Gratuit, sans inscription, dans votre navigateur.",
+  "fx_teams_label": "Équipes (une par ligne)",
+  "fx_teams_ph": "Aigles\nLions\nTigres\nLoups",
+  "fx_count_label": "ou nombre d’équipes :",
+  "fx_fill": "Remplir",
+  "fx_format": "Format",
+  "fx_knockout": "Élimination directe",
+  "fx_double": "Matchs aller-retour (championnat à double confrontation)",
+  "fx_shuffle": "Mélanger le tirage",
+  "fx_generate": "Générer le calendrier",
+  "fx_sum_league": "%1$d équipes · %2$d journées · %3$d matchs",
+  "fx_sum_ko": "%1$d équipes · %2$d tours · %3$d matchs",
+  "fx_week": "Journée %d",
+  "fx_bye_row": "Exempt pour cette journée : %s",
+  "fx_ko_bye": "%s est exempt et passe au tour suivant",
+  "fx_winner_of": "Vainqueur du match n° %d",
+  "fx_copy": "Copier",
+  "fx_copied": "Copié",
+  "fx_share": "Copier le lien",
+  "fx_link_copied": "Lien copié",
+  "fx_print": "Imprimer",
+  "fx_err_min": "Saisissez au moins 2 équipes.",
+  "fx_err_max": "Vous pouvez ajouter jusqu’à 64 équipes.",
+  "fx_err_dup": "Deux équipes portent le même nom : %s",
+  "fx_cta_title": "Laissez TurnuVolt compter les points",
+  "fx_cta_text": "Créez ce tournoi dans l’application TurnuVolt : à chaque score saisi, le classement, les différences de buts et les positions se mettent à jour automatiquement. Les vainqueurs avancent dans le tableau et le champion monte sur le podium après la finale.",
+  "fx_h2_how": "Comment créer un calendrier de championnat toutes rondes ?",
+  "fx_p_how1_html": "Dans un championnat (tournoi toutes rondes), chaque équipe rencontre toutes les autres une fois. Le calendrier est construit avec la méthode du cercle, aussi appelée méthode des <b>tables de Berger</b> : une équipe reste fixe tandis que les autres se décalent d’une place à chaque journée. Ainsi, aucune rencontre ne se répète et chaque équipe joue au maximum un match par journée.",
+  "fx_p_how2_html": "Un championnat de <b>n</b> équipes compte <b>n × (n − 1) ÷ 2</b> matchs au total. Avec un nombre pair d’équipes, il faut <b>n − 1</b> journées. Avec un nombre impair, il en faut <b>n</b>, et une équipe est exempte à chaque journée. Un championnat en matchs aller-retour double le nombre de matchs et de journées, en inversant les équipes qui reçoivent lors de la phase retour.",
+  "fx_table_caption": "Nombre de matchs et de journées selon le nombre d’équipes (championnat en matchs aller simple)",
+  "fx_th_teams": "Équipes",
+  "fx_th_matches": "Matchs",
+  "fx_th_weeks": "Journées",
+  "fx_th_double": "Aller-retour",
+  "fx_h2_example": "Exemple : calendrier d’un championnat à 4 équipes",
+  "fx_h2_ko": "Tableaux à élimination directe et équipes exemptes",
+  "fx_p_ko1_html": "En élimination directe, le perdant est éliminé. Si le nombre d’équipes n’est pas une puissance de deux (4, 8, 16, 32…), certaines équipes sont <b>exemptes</b> au premier tour. Le nombre d’équipes exemptes correspond à la puissance de deux supérieure moins le nombre d’équipes : avec 6 équipes, 8 − 6 = 2 équipes sont exemptes ; avec 10 équipes, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Un tournoi à élimination directe avec <b>n</b> équipes compte toujours <b>n − 1</b> matchs, car chaque match élimine exactement une équipe. Un tournoi à 16 équipes se joue en 4 tours et 15 matchs.",
+  "fx_h2_points": "Comment calculer le classement d’un championnat ?",
+  "fx_p_points_html": "Dans des sports comme le football, une victoire rapporte <b>3</b> points, un match nul <b>1</b> et une défaite <b>0</b>. Les équipes à égalité de points sont départagées par la différence de buts, puis par le nombre de buts marqués. Dans les sports sans match nul, comme le basket, une victoire rapporte 2 points. Au volley, une victoire 3-0 ou 3-1 rapporte 3 points, une victoire 3-2 rapporte 2 points et une défaite 2-3 rapporte 1 point. TurnuVolt applique automatiquement les règles du jeu choisi.",
+  "fx_faq_h2": "Questions sur le calendrier",
+  "faq_fx": [
+    [
+      "Le générateur de calendrier est-il gratuit ?",
+      "Oui. Sans inscription ni publicité. Le calendrier est créé dans votre navigateur et les noms de vos équipes ne sont jamais envoyés ailleurs."
+    ],
+    [
+      "Combien d’équipes puis-je ajouter ?",
+      "Vous pouvez créer un calendrier de championnat ou un tableau à élimination directe pour 2 à 64 équipes."
+    ],
+    [
+      "Puis-je créer un calendrier de championnat avec un nombre impair d’équipes ?",
+      "Oui. Une équipe est exempte à chaque journée et, à la fin du championnat, toutes les équipes ont joué le même nombre de matchs."
+    ],
+    [
+      "Qu’est-ce qu’un championnat en matchs aller-retour ?",
+      "C’est un calendrier où chaque rencontre se joue deux fois, en inversant les équipes qui reçoivent lors de la phase retour. Le nombre de matchs est donc doublé."
+    ],
+    [
+      "Puis-je imprimer ou partager le calendrier ?",
+      "Oui. Imprimer donne une version adaptée à l’impression, Copier place le calendrier sous forme de texte dans votre presse-papiers et Copier le lien crée un lien qui ouvre le même calendrier."
+    ],
+    [
+      "Comment suivre les scores et le classement ?",
+      "Créez le même tournoi dans l’application TurnuVolt. À chaque score saisi, le classement, les différences de buts et les positions sont calculés automatiquement, et les vainqueurs avancent dans le tableau sans intervention de votre part."
+    ]
+  ]
+}

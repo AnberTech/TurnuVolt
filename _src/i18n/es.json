@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Creador de torneos: calendarios, clasificación y cuadros de eliminatorias",
+  "meta_desc": "Organiza torneos de liga y eliminatorias: introduce los equipos, genera el calendario automáticamente y sigue la clasificación al añadir resultados. 63 deportes y juegos, sin conexión y sin anuncios. Incluye un generador de calendarios online gratuito.",
+  "store_alt": "Descárgalo en el App Store",
+  "soon": "Próximamente",
+  "scroll_down": "Desplázate hacia abajo",
+  "aria_screens": "Capturas de pantalla",
+  "ss_podium": "Pantalla del podio y el trofeo al terminar un torneo",
+  "ss_fixture": "Pantalla del calendario y la clasificación",
+  "ss_new": "Pantalla de creación de un nuevo torneo",
+  "ss_home": "Pantalla de inicio de TurnuVolt",
+  "ss_saved": "Pantalla de torneo guardado",
+  "aria_games": "Juegos",
+  "aria_board": "Panel con la lista de juegos",
+  "aria_cats": "Categorías",
+  "random_game": "Juego al azar",
+  "aria_formats": "Formatos de torneo",
+  "tab_ko": "Eliminatoria",
+  "led_title": "Clase",
+  "reset_bracket": "Reiniciar cuadro",
+  "aria_langs": "Idiomas",
+  "aria_lang": "Idioma",
+  "aria_docs": "Documentos",
+  "privacy": "Política de privacidad",
+  "support": "Ayuda",
+  "aria_download": "Descargar",
+  "tagline": "Calendarios, clasificación y cuadros de eliminatorias. Todo listo en segundos, en tu bolsillo.",
+  "hero_tool_link": "Crea un calendario gratis",
+  "about_eyebrow": "¿Qué es TurnuVolt?",
+  "about_h2": "Crea el torneo y TurnuVolt se encarga del resto",
+  "about_lead": "TurnuVolt es una app para crear torneos entre amigos, en el colegio, en la oficina o en tu club. Introduce los equipos y tendrás el calendario de liga o el cuadro de eliminatorias listo. La clasificación se actualiza al añadir resultados y, tras la final, el campeón sube al podio. Admite 63 deportes y juegos, desde fútbol hasta ajedrez y desde tenis hasta FIFA, y aplica las reglas de puntuación de cada uno.",
+  "steps": [
+    [
+      "Añade los equipos",
+      "Ponle nombre al torneo, introduce el número de equipos o jugadores y elige el juego y el formato."
+    ],
+    [
+      "El calendario ya está listo",
+      "En una liga todos juegan contra todos, con la opción de disputar partidos de ida y vuelta. En una eliminatoria se crea el cuadro y se asignan automáticamente los pases directos cuando el número de equipos es impar."
+    ],
+    [
+      "Añade resultados y sigue la clasificación",
+      "Goles, puntos, sets o solo el ganador: la forma de introducir los resultados se adapta al juego. Los puntos, la diferencia de goles y la clasificación se calculan automáticamente."
+    ]
+  ],
+  "feats": [
+    [
+      "La puntuación de cada juego",
+      "3 puntos por victoria en fútbol, sin empates en baloncesto y diferencia de sets en voleibol. Cada juego sigue sus propias reglas."
+    ],
+    [
+      "Continúa donde lo dejaste",
+      "Los torneos en curso se guardan y los terminados pasan a tu archivo."
+    ],
+    [
+      "Sin conexión a internet",
+      "Todo funciona en tu móvil: en el campo, de acampada o en el patio del colegio."
+    ],
+    [
+      "Sin anuncios ni cuentas",
+      "Compra única. Sin suscripciones, sin anuncios, sin registro y sin recogida de datos."
+    ],
+    [
+      "Más de 30 idiomas",
+      "Español, inglés, alemán, árabe, japonés y muchos más, incluidos idiomas que se escriben de derecha a izquierda."
+    ],
+    [
+      "Podio y trofeo",
+      "Tras la final, el campeón, el subcampeón y el tercer clasificado suben al podio entre confeti."
+    ]
+  ],
+  "tool_eyebrow": "Herramienta gratuita",
+  "tool_h2": "¿Necesitas un calendario ahora mismo?",
+  "tool_text": "Crea un calendario gratis en tu navegador, sin descargar nada. Introduce los equipos y tendrás al instante tu calendario de liga todos contra todos o tu cuadro de eliminatorias. Imprímelo, cópialo o compártelo con un enlace.",
+  "tool_btn": "Abrir el generador de calendarios",
+  "faq_eyebrow": "Preguntas frecuentes",
+  "faq_h2": "Todo lo que necesitas saber",
+  "faq_home": [
+    [
+      "¿Cómo creo un calendario con TurnuVolt?",
+      "Pulsa Nuevo torneo, introduce el nombre del torneo y el número de equipos, elige el juego y el formato (liga o eliminatoria) y escribe los nombres de los equipos. El calendario y la clasificación se crean automáticamente; tú solo tienes que añadir los resultados."
+    ],
+    [
+      "¿Qué deportes y juegos admite?",
+      "63 en total, entre ellos fútbol, fútbol sala, baloncesto, voleibol, tenis, tenis de mesa, pádel, bádminton, ajedrez, backgammon, dardos, billar, FIFA y Valorant. Para los demás tienes la opción Personalizado / Otro."
+    ],
+    [
+      "¿Qué diferencia hay entre una liga y una eliminatoria?",
+      "En una liga todos juegan contra todos y la clasificación determina el ganador; también puedes organizarla con partidos de ida y vuelta. En una eliminatoria, quien pierde queda eliminado y los ganadores avanzan hasta la final."
+    ],
+    [
+      "¿Qué pasa si hay un número impar de equipos?",
+      "En una liga, un equipo descansa en cada jornada. En una eliminatoria se eligen automáticamente los equipos que descansan en la primera ronda y pasan directamente a la siguiente."
+    ],
+    [
+      "¿Cómo se calcula la clasificación?",
+      "Al añadir resultados se actualizan automáticamente los partidos jugados, las victorias, los empates, las derrotas, la diferencia de goles y los puntos. La puntuación depende del juego: en fútbol, una victoria vale 3 puntos y un empate 1; en baloncesto no hay empates; en voleibol también cuenta la diferencia de sets."
+    ],
+    [
+      "¿Necesito conexión a internet? ¿Dónde se guardan mis datos?",
+      "No necesitas conexión. Tus torneos se guardan solo en tu dispositivo; no hay cuentas, no se recogen datos personales y no se envía nada a ningún servidor."
+    ],
+    [
+      "¿TurnuVolt es gratis?",
+      "La app se adquiere con un pago único en el App Store, sin suscripciones, sin anuncios y sin compras dentro de la app. El generador de calendarios del navegador es totalmente gratuito."
+    ],
+    [
+      "¿Está disponible para Android?",
+      "La versión para Android llegará próximamente a Google Play. Por ahora, TurnuVolt está disponible para iPhone y iPad (iOS 17.6 o posterior)."
+    ]
+  ],
+  "fx_slug": "generador-de-calendarios",
+  "fx_name": "Generador de calendarios",
+  "fx_title": "Generador de calendarios gratis – Ligas todos contra todos y eliminatorias | TurnuVolt",
+  "fx_desc": "Introduce los equipos y crea en segundos el calendario de tu torneo de liga todos contra todos o eliminatoria. Opción de ida y vuelta y descansos automáticos. Gratis, sin registro y desde tu navegador; imprímelo o compártelo.",
+  "fx_h1_html": "<em>Generador</em> de calendarios",
+  "fx_sub": "Introduce los equipos y tendrás el calendario listo en segundos. Gratis, sin registro y desde tu navegador.",
+  "fx_teams_label": "Equipos (uno por línea)",
+  "fx_teams_ph": "Águilas\nLeones\nTigres\nLobos",
+  "fx_count_label": "o número de equipos:",
+  "fx_fill": "Rellenar",
+  "fx_format": "Formato",
+  "fx_knockout": "Eliminatoria",
+  "fx_double": "Ida y vuelta (liga a doble vuelta)",
+  "fx_shuffle": "Sortear los cruces",
+  "fx_generate": "Generar calendario",
+  "fx_sum_league": "%1$d equipos · %2$d jornadas · %3$d partidos",
+  "fx_sum_ko": "%1$d equipos · %2$d rondas · %3$d partidos",
+  "fx_week": "Jornada %d",
+  "fx_bye_row": "%s descansa esta jornada",
+  "fx_ko_bye": "%s descansa y pasa a la siguiente ronda",
+  "fx_winner_of": "Ganador del partido #%d",
+  "fx_copy": "Copiar",
+  "fx_copied": "Copiado",
+  "fx_share": "Copiar enlace",
+  "fx_link_copied": "Enlace copiado",
+  "fx_print": "Imprimir",
+  "fx_err_min": "Introduce al menos 2 equipos.",
+  "fx_err_max": "Puedes añadir un máximo de 64 equipos.",
+  "fx_err_dup": "Hay dos equipos con el mismo nombre: %s",
+  "fx_cta_title": "Deja que TurnuVolt lleve los resultados",
+  "fx_cta_text": "Crea este torneo en la app TurnuVolt: al añadir resultados, los puntos, la diferencia de goles y la clasificación se actualizan automáticamente, los ganadores avanzan en el cuadro y el campeón sube al podio tras la final.",
+  "fx_h2_how": "¿Cómo se crea un calendario de liga todos contra todos?",
+  "fx_p_how1_html": "En una liga todos contra todos, cada equipo juega una vez contra cada uno de los demás. El calendario se crea con el método del círculo, también conocido como <b>tablas de Berger</b>: un equipo permanece fijo y los demás rotan una posición en cada jornada. Así no se repite ningún enfrentamiento y cada equipo juega como máximo un partido por jornada.",
+  "fx_p_how2_html": "Una liga de <b>n</b> equipos tiene <b>n × (n − 1) ÷ 2</b> partidos en total. Con un número par de equipos se disputan <b>n − 1</b> jornadas; con un número impar, <b>n</b> jornadas, y un equipo descansa en cada una. Una liga de ida y vuelta duplica los partidos y las jornadas, e intercambia el equipo local y el visitante en la segunda vuelta.",
+  "fx_table_caption": "Partidos y jornadas según el número de equipos (liga a una vuelta)",
+  "fx_th_teams": "Equipos",
+  "fx_th_matches": "Partidos",
+  "fx_th_weeks": "Jornadas",
+  "fx_th_double": "Ida y vuelta",
+  "fx_h2_example": "Ejemplo: calendario de liga de 4 equipos",
+  "fx_h2_ko": "Cuadros de eliminatorias y descansos",
+  "fx_p_ko1_html": "En una eliminatoria directa, quien pierde queda eliminado. Si el número de equipos no es una potencia de dos (4, 8, 16, 32…), algunos reciben un <b>pase directo</b> en la primera ronda. El número de pases directos se calcula restando el número de equipos a la siguiente potencia de dos: con 6 equipos, 8 − 6 = 2 equipos pasan directamente; con 10 equipos, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Un torneo de eliminatoria con <b>n</b> equipos siempre tiene <b>n − 1</b> partidos, porque en cada partido queda eliminado exactamente un equipo. Un torneo de 16 equipos se disputa en 4 rondas y 15 partidos.",
+  "fx_h2_points": "¿Cómo se calcula la clasificación de una liga?",
+  "fx_p_points_html": "En juegos como el fútbol, una victoria vale <b>3</b> puntos, un empate <b>1</b> y una derrota <b>0</b>; si hay empate a puntos, se tiene en cuenta primero la diferencia de goles y después los goles a favor. En juegos sin empates, como el baloncesto, una victoria vale 2 puntos. En voleibol, ganar 3-0 o 3-1 da 3 puntos, ganar 3-2 da 2 puntos y perder 2-3 da 1 punto. TurnuVolt aplica automáticamente estas reglas según el juego que elijas.",
+  "fx_faq_h2": "Preguntas sobre el calendario",
+  "faq_fx": [
+    [
+      "¿El generador de calendarios es gratis?",
+      "Sí. Sin registro y sin anuncios. El calendario se crea en tu navegador y los nombres de tus equipos no se envían a ningún sitio."
+    ],
+    [
+      "¿Cuántos equipos puedo añadir?",
+      "Puedes crear un calendario de liga o un cuadro de eliminatorias para entre 2 y 64 equipos."
+    ],
+    [
+      "¿Puedo crear un calendario de liga con un número impar de equipos?",
+      "Sí. Un equipo descansa en cada jornada y, al terminar la liga, todos han jugado el mismo número de partidos."
+    ],
+    [
+      "¿Qué es una liga a doble vuelta?",
+      "Es una liga en la que cada enfrentamiento se disputa dos veces, con partidos de ida y vuelta. En la segunda vuelta se intercambian el equipo local y el visitante. El número de partidos se duplica."
+    ],
+    [
+      "¿Puedo imprimir o compartir el calendario?",
+      "Sí. Imprimir genera una versión lista para imprimir, Copiar guarda el calendario como texto en el portapapeles y Copiar enlace crea un enlace que abre ese mismo calendario."
+    ],
+    [
+      "¿Cómo llevo los resultados y la clasificación?",
+      "Crea el mismo torneo en la app TurnuVolt. Al añadir resultados, los puntos, la diferencia de goles y la clasificación se calculan automáticamente, y los ganadores avanzan por el cuadro sin que tengas que hacer nada más."
+    ]
+  ]
+}

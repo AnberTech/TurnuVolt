@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Turneringsplanlægger: Kampprogram, stilling og knockout-bracket",
+  "meta_desc": "Lav en turneringsplan til liga og knockout: Indtast holdene, få kampprogrammet automatisk, og se stillingen blive opdateret, når du indtaster resultater. 63 sportsgrene og spil, ude og hjemme, fungerer offline og uden reklamer. Gratis online kampprogram-generator inkluderet.",
+  "store_alt": "Hent i App Store",
+  "soon": "Kommer snart",
+  "scroll_down": "Rul ned",
+  "aria_screens": "Skærmbilleder",
+  "ss_podium": "Skærm med podie og pokal efter turneringen",
+  "ss_fixture": "Skærm med kampprogram og stilling",
+  "ss_new": "Skærm til oprettelse af en ny turnering",
+  "ss_home": "TurnuVolts startskærm",
+  "ss_saved": "Skærm med gemt turnering",
+  "aria_games": "Spil",
+  "aria_board": "Tavle med spilliste",
+  "aria_cats": "Kategorier",
+  "random_game": "Tilfældigt spil",
+  "aria_formats": "Turneringsformater",
+  "tab_ko": "Knockout",
+  "led_title": "Klasse",
+  "reset_bracket": "Nulstil knockout-træ",
+  "aria_langs": "Sprog",
+  "aria_lang": "Sprog",
+  "aria_docs": "Dokumenter",
+  "privacy": "Privatlivspolitik",
+  "support": "Support",
+  "aria_download": "Hent",
+  "tagline": "Kampprogram, stilling og knockout-træ. Klar på få sekunder, lige i lommen.",
+  "hero_tool_link": "Lav et gratis kampprogram nu",
+  "about_eyebrow": "Hvad er TurnuVolt?",
+  "about_h2": "Opret turneringen – TurnuVolt klarer resten",
+  "about_lead": "TurnuVolt er en app til at lave turneringer for venner, skoler, arbejdspladser og klubber. Indtast holdene, så oprettes kampprogrammet til liga eller knockout automatisk. Når du indtaster resultater, opdateres stillingen af sig selv, og efter finalen går mesteren på podiet. Appen understøtter 63 sportsgrene og spil, fra fodbold og skak til tennis og FIFA, og beregner resultater efter reglerne for hver enkelt disciplin.",
+  "steps": [
+    [
+      "Tilføj holdene",
+      "Navngiv turneringen, angiv antallet af hold eller spillere, og vælg derefter spil og format."
+    ],
+    [
+      "Kampprogrammet er klar",
+      "I en liga møder alle hinanden, eventuelt med en ekstra runde ude og hjemme. I knockout oprettes knockout-træet, og hold, der skal sidde over ved et ulige antal, vælges automatisk."
+    ],
+    [
+      "Indtast resultater, og følg stillingen",
+      "Mål, point, sæt eller blot vinderen: Resultatindtastningen passer til spillet. Point, målforskel og placeringer beregnes for dig."
+    ]
+  ],
+  "feats": [
+    [
+      "Pointberegning, der passer til spillet",
+      "3 point for en sejr i fodbold, ingen uafgjorte kampe i basketball og sætforskel i volleyball. Hvert spil følger sine egne regler."
+    ],
+    [
+      "Fortsæt, hvor du slap",
+      "Uafsluttede turneringer gemmes, og afsluttede turneringer flyttes til dit arkiv."
+    ],
+    [
+      "Kræver ikke internet",
+      "Alt kører på din telefon: på banen, i lejren eller i skolegården."
+    ],
+    [
+      "Ingen reklamer, ingen konto",
+      "Engangskøb. Intet abonnement, ingen reklamer, ingen tilmelding og ingen dataindsamling."
+    ],
+    [
+      "30+ sprog",
+      "Engelsk, spansk, tysk, arabisk, japansk og mange flere, inklusive sprog, der skrives fra højre mod venstre."
+    ],
+    [
+      "Podie og pokal",
+      "Når finalen er slut, går mesteren, andenpladsen og tredjepladsen på podiet under en regn af konfetti."
+    ]
+  ],
+  "tool_eyebrow": "Gratis værktøj",
+  "tool_h2": "Skal du bruge et kampprogram med det samme?",
+  "tool_text": "Lav et gratis kampprogram direkte i browseren uden at hente noget. Indtast holdene, så er din turneringsplan til alle-mod-alle eller knockout klar med det samme. Udskriv den, kopiér den, eller del den med et link.",
+  "tool_btn": "Åbn kampprogram-generatoren",
+  "faq_eyebrow": "Ofte stillede spørgsmål",
+  "faq_h2": "Godt at vide",
+  "faq_home": [
+    [
+      "Hvordan laver jeg et kampprogram med TurnuVolt?",
+      "Tryk på Ny turnering, indtast et turneringsnavn og antallet af hold, vælg spil og format (liga eller knockout), og indtast derefter holdnavnene. Kampprogrammet og stillingen oprettes automatisk; du skal blot indtaste resultaterne."
+    ],
+    [
+      "Hvilke sportsgrene og spil understøttes?",
+      "63 i alt, inklusive fodbold, futsal, basketball, volleyball, tennis, bordtennis, padel, badminton, skak, backgammon, dart, pool, FIFA og Valorant. Til alt andet findes valgmuligheden Brugerdefineret / Andet."
+    ],
+    [
+      "Hvad er forskellen på en liga og knockout?",
+      "I en liga (alle-mod-alle) møder alle hinanden, og stillingen afgør vinderen. Du kan også vælge dobbelt alle-mod-alle med ude og hjemme. I knockout ryger taberen ud, mens vinderne går videre frem til finalen."
+    ],
+    [
+      "Hvad sker der ved et ulige antal hold?",
+      "I en liga sidder ét hold over i hver runde. I knockout vælges de hold, der sidder over i første runde, automatisk og går direkte videre til næste runde."
+    ],
+    [
+      "Hvordan beregnes stillingen?",
+      "Når du indtaster resultater, opdateres spillede kampe, sejre, uafgjorte, nederlag, målforskel og point automatisk. Pointreglerne afhænger af spillet: I fodbold giver en sejr 3 point og en uafgjort kamp 1; basketball har ingen uafgjorte kampe; i volleyball tæller sætforskellen også."
+    ],
+    [
+      "Skal jeg have internetforbindelse? Hvor gemmes mine data?",
+      "Der kræves ingen forbindelse. Dine turneringer gemmes kun på din enhed; der er ingen konto, ingen personlige data indsamles, og intet sendes til en server."
+    ],
+    [
+      "Er TurnuVolt gratis?",
+      "Appen købes én gang i App Store uden abonnement, reklamer eller køb i appen. Kampprogram-generatoren i browseren er helt gratis."
+    ],
+    [
+      "Findes den til Android?",
+      "Android-versionen kommer snart på Google Play. Lige nu fås TurnuVolt til iPhone og iPad (iOS 17.6 eller nyere)."
+    ]
+  ],
+  "fx_slug": "kampprogram-generator",
+  "fx_name": "Kampprogram-generator",
+  "fx_title": "Gratis kampprogram-generator – turneringsplan til alle-mod-alle og knockout | TurnuVolt",
+  "fx_desc": "Indtast holdnavnene, og få en turneringsplan med kampprogram og stilling til alle-mod-alle eller knockout på få sekunder. Mulighed for ude og hjemme, og hold, der sidder over, håndteres automatisk. Gratis, uden tilmelding og direkte i browseren; udskriv eller del planen.",
+  "fx_h1_html": "Kampprogram-<em>generator</em>",
+  "fx_sub": "Indtast holdene, så er turneringsplanen klar på få sekunder. Gratis, uden tilmelding og direkte i browseren.",
+  "fx_teams_label": "Hold (ét pr. linje)",
+  "fx_teams_ph": "Ørne\nLøver\nTigre\nUlve",
+  "fx_count_label": "eller antal hold:",
+  "fx_fill": "Udfyld",
+  "fx_format": "Format",
+  "fx_knockout": "Knockout",
+  "fx_double": "Ude og hjemme (dobbelt alle-mod-alle)",
+  "fx_shuffle": "Bland lodtrækningen",
+  "fx_generate": "Generér kampprogram",
+  "fx_sum_league": "%1$d hold · %2$d runder · %3$d kampe",
+  "fx_sum_ko": "%1$d hold · %2$d runder · %3$d kampe",
+  "fx_week": "Spillerunde %d",
+  "fx_bye_row": "%s sidder over i denne runde",
+  "fx_ko_bye": "%s sidder over og går videre til næste runde",
+  "fx_winner_of": "Vinder af #%d",
+  "fx_copy": "Kopiér",
+  "fx_copied": "Kopieret",
+  "fx_share": "Kopiér link",
+  "fx_link_copied": "Link kopieret",
+  "fx_print": "Udskriv",
+  "fx_err_min": "Indtast mindst 2 hold.",
+  "fx_err_max": "Du kan højst have 64 hold.",
+  "fx_err_dup": "To hold har samme navn: %s",
+  "fx_cta_title": "Lad TurnuVolt holde styr på resultaterne",
+  "fx_cta_text": "Opret turneringen i TurnuVolt-appen: Når du indtaster resultater, opdateres stilling, målforskel og placeringer automatisk, vinderne går videre i knockout-træet, og mesteren går på podiet efter finalen.",
+  "fx_h2_how": "Hvordan laves et alle-mod-alle-kampprogram?",
+  "fx_p_how1_html": "I en liga (alle-mod-alle) møder hvert hold alle andre hold én gang. Kampprogrammet laves med cirkelmetoden, også kendt som <b>Berger-tabeller</b>: Ét hold bliver stående, mens de andre flyttes én plads for hver runde. På den måde gentages ingen opgør, og hvert hold spiller højst én kamp pr. runde.",
+  "fx_p_how2_html": "En liga med <b>n</b> hold har i alt <b>n × (n − 1) ÷ 2</b> kampe. Med et lige antal hold kræves <b>n − 1</b> runder, mens et ulige antal kræver <b>n</b> runder, hvor ét hold sidder over i hver runde. Dobbelt alle-mod-alle (ude og hjemme) fordobler antallet af kampe og runder, og hjemme- og udehold byttes om i anden halvdel.",
+  "fx_table_caption": "Kampe og runder efter antal hold (enkelt alle-mod-alle)",
+  "fx_th_teams": "Hold",
+  "fx_th_matches": "Kampe",
+  "fx_th_weeks": "Runder",
+  "fx_th_double": "Ude og hjemme",
+  "fx_h2_example": "Eksempel: Kampprogram til en liga med 4 hold",
+  "fx_h2_ko": "Knockout-træer og hold, der sidder over",
+  "fx_p_ko1_html": "I knockout (direkte eliminering) ryger taberen ud. Hvis antallet af hold ikke er en potens af to (4, 8, 16, 32…), får nogle hold en <b>fri runde</b> i første runde. Antallet af frie runder er den næste potens af to minus antallet af hold: Med 6 hold får 8 − 6 = 2 hold en fri runde, og med 10 hold får 16 − 10 = 6.",
+  "fx_p_ko2_html": "En knockout-turnering med <b>n</b> hold har altid <b>n − 1</b> kampe, fordi præcis ét hold elimineres i hver kamp. En turnering med 16 hold kræver 4 runder og 15 kampe.",
+  "fx_h2_points": "Hvordan beregnes stillingen i en liga?",
+  "fx_p_points_html": "I spil som fodbold giver en sejr <b>3</b> point, en uafgjort kamp <b>1</b> og et nederlag <b>0</b>; hold med lige mange point adskilles først på målforskel og derefter på scorede mål. I spil uden uafgjorte kampe, som basketball, giver en sejr 2 point. I volleyball giver en sejr på 3-0 eller 3-1 3 point, en sejr på 3-2 giver 2 point, og et nederlag på 2-3 giver 1 point. TurnuVolt anvender automatisk reglerne for det spil, du vælger.",
+  "fx_faq_h2": "Spørgsmål om kampprogrammer",
+  "faq_fx": [
+    [
+      "Er kampprogram-generatoren gratis?",
+      "Ja. Ingen tilmelding og ingen reklamer. Kampprogrammet laves i din browser, og dine holdnavne sendes aldrig nogen steder hen."
+    ],
+    [
+      "Hvor mange hold kan jeg tilføje?",
+      "Du kan lave et kampprogram til liga eller knockout med 2 til 64 hold."
+    ],
+    [
+      "Kan jeg lave et ligakampprogram med et ulige antal hold?",
+      "Ja. Ét hold sidder over i hver runde, og når ligaen er slut, har alle hold spillet det samme antal kampe."
+    ],
+    [
+      "Hvad er dobbelt alle-mod-alle?",
+      "Et kampprogram, hvor hvert opgør spilles to gange, og ude- og hjemmehold byttes om i anden halvdel. Det fordobler antallet af kampe."
+    ],
+    [
+      "Kan jeg udskrive eller dele kampprogrammet?",
+      "Ja. Udskriv giver dig en overskuelig udskrift, Kopiér lægger kampprogrammet på din udklipsholder som tekst, og Kopiér link opretter et link, der åbner det samme kampprogram."
+    ],
+    [
+      "Hvordan holder jeg styr på resultater og stilling?",
+      "Opret den samme turnering i TurnuVolt-appen. Når du indtaster resultater, beregnes stilling, målforskel og placeringer automatisk, og vinderne går selv videre i knockout-træet."
+    ]
+  ]
+}

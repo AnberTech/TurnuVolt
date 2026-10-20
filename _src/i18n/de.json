@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Turnierplan erstellen: Spielplan, Tabelle & K.-o.-System",
+  "meta_desc": "Liga- und K.-o.-Turniere organisieren: Teams eingeben, automatisch einen Spielplan erstellen und Ergebnisse eintragen – die Tabelle aktualisiert sich von selbst. 63 Sportarten und Spiele, offline nutzbar, ohne Werbung. Kostenloser Online-Spielplan-Generator inklusive.",
+  "store_alt": "Im App Store laden",
+  "soon": "Demnächst verfügbar",
+  "scroll_down": "Nach unten scrollen",
+  "aria_screens": "Screenshots",
+  "ss_podium": "Siegerehrung mit Podest und Pokal am Ende eines Turniers",
+  "ss_fixture": "Ansicht mit Spielplan und Tabelle",
+  "ss_new": "Ansicht zum Erstellen eines neuen Turniers",
+  "ss_home": "Startbildschirm von TurnuVolt",
+  "ss_saved": "Bestätigung des gespeicherten Turniers",
+  "aria_games": "Spiele",
+  "aria_board": "Spieleübersicht",
+  "aria_cats": "Kategorien",
+  "random_game": "Zufälliges Spiel",
+  "aria_formats": "Turnierformate",
+  "tab_ko": "K.-o.-System",
+  "led_title": "Klasse",
+  "reset_bracket": "Turnierbaum zurücksetzen",
+  "aria_langs": "Sprachen",
+  "aria_lang": "Sprache",
+  "aria_docs": "Dokumente",
+  "privacy": "Datenschutzerklärung",
+  "support": "Support",
+  "aria_download": "Download",
+  "tagline": "Spielplan, Tabelle und Turnierbaum. In Sekunden bereit und immer dabei.",
+  "hero_tool_link": "Jetzt kostenlos einen Spielplan erstellen",
+  "about_eyebrow": "Was ist TurnuVolt?",
+  "about_h2": "Du legst das Turnier an, TurnuVolt erledigt den Rest",
+  "about_lead": "TurnuVolt ist eine Turnierplaner-App für Freunde, Schulen, Büros und Vereine. Gib die Teams ein, und der Spielplan für deine Liga oder dein Turnier im K.-o.-System wird automatisch erstellt. Während du Ergebnisse einträgst, aktualisiert sich die Tabelle von selbst. Nach dem Finale steht der Sieger auf dem Podest. Die App unterstützt 63 Sportarten und Spiele, von Fußball über Schach und Tennis bis FIFA – jeweils mit den passenden Wertungsregeln.",
+  "steps": [
+    [
+      "Teams hinzufügen",
+      "Gib dem Turnier einen Namen, lege die Anzahl der Teams oder Spieler fest und wähle das Spiel und das Turnierformat."
+    ],
+    [
+      "Der Spielplan steht",
+      "In einer Liga spielt jeder gegen jeden, auf Wunsch mit Hin- und Rückrunde. Im K.-o.-System wird der Turnierbaum erstellt. Bei ungerader Teamzahl werden Freilose automatisch vergeben."
+    ],
+    [
+      "Ergebnisse eintragen, Tabelle verfolgen",
+      "Tore, Punkte, Sätze oder einfach der Sieger: Die Ergebniseingabe passt zum Spiel. Punkte, Tordifferenz und Tabellenplätze werden automatisch berechnet."
+    ]
+  ],
+  "feats": [
+    [
+      "Passende Wertung für jedes Spiel",
+      "3 Punkte für einen Sieg im Fußball, keine Unentschieden im Basketball, Satzdifferenz im Volleyball. Jedes Spiel wird nach seinen eigenen Regeln gewertet."
+    ],
+    [
+      "Einfach später weitermachen",
+      "Laufende Turniere werden gespeichert, abgeschlossene Turniere landen in deinem Archiv."
+    ],
+    [
+      "Kein Internet nötig",
+      "Alles läuft auf deinem Gerät: auf dem Sportplatz, im Ferienlager oder auf dem Schulhof."
+    ],
+    [
+      "Keine Werbung, kein Konto",
+      "Einmal kaufen. Kein Abo, keine Werbung, keine Registrierung, keine Datenerfassung."
+    ],
+    [
+      "30+ Sprachen",
+      "Englisch, Spanisch, Deutsch, Arabisch, Japanisch und viele weitere – auch Sprachen mit Schreibrichtung von rechts nach links."
+    ],
+    [
+      "Podest und Pokal",
+      "Nach dem Finale stehen der Sieger, der Zweitplatzierte und der Drittplatzierte im Konfettiregen auf dem Podest."
+    ]
+  ],
+  "tool_eyebrow": "Kostenloses Tool",
+  "tool_h2": "Du brauchst sofort einen Spielplan?",
+  "tool_text": "Erstelle kostenlos einen Spielplan direkt im Browser, ganz ohne Download. Gib die Teams ein, und dein Turnierplan für „Jeder gegen jeden“ oder das K.-o.-System ist sofort fertig. Drucke ihn aus, kopiere ihn oder teile ihn per Link.",
+  "tool_btn": "Spielplan-Generator öffnen",
+  "faq_eyebrow": "Häufige Fragen",
+  "faq_h2": "Gut zu wissen",
+  "faq_home": [
+    [
+      "Wie erstelle ich mit TurnuVolt einen Spielplan?",
+      "Tippe auf „Neues Turnier“, gib einen Turniernamen und die Anzahl der Teams ein und wähle das Spiel sowie das Format: Liga oder K.-o.-System. Trage anschließend die Teamnamen ein. Spielplan und Tabelle werden automatisch erstellt. Du musst nur noch die Ergebnisse eingeben."
+    ],
+    [
+      "Welche Sportarten und Spiele werden unterstützt?",
+      "Insgesamt 63, darunter Fußball, Futsal, Basketball, Volleyball, Tennis, Tischtennis, Padel, Badminton, Schach, Backgammon, Darts, Poolbillard, FIFA und Valorant. Für alles Weitere gibt es die Option „Benutzerdefiniert / Sonstiges“."
+    ],
+    [
+      "Was ist der Unterschied zwischen einer Liga und dem K.-o.-System?",
+      "In einer Liga spielt jeder gegen jeden, und die Tabelle entscheidet über den Sieger. Optional kannst du mit Hin- und Rückrunde spielen, sodass jede Begegnung zweimal stattfindet. Im K.-o.-System scheidet der Verlierer aus, und die Sieger kommen bis zum Finale weiter."
+    ],
+    [
+      "Was passiert bei einer ungeraden Anzahl an Teams?",
+      "In einer Liga ist an jedem Spieltag ein Team spielfrei. Im K.-o.-System wird automatisch bestimmt, welche Teams in der ersten Runde ein Freilos erhalten und direkt in die nächste Runde einziehen."
+    ],
+    [
+      "Wie wird die Tabelle berechnet?",
+      "Wenn du Ergebnisse einträgst, werden absolvierte Spiele, Siege, Unentschieden, Niederlagen, Tordifferenz und Punkte automatisch aktualisiert. Die Punktevergabe hängt vom Spiel ab: Im Fußball gibt es 3 Punkte für einen Sieg und 1 für ein Unentschieden. Im Basketball gibt es keine Unentschieden, und im Volleyball zählt auch die Satzdifferenz."
+    ],
+    [
+      "Brauche ich eine Internetverbindung? Wo werden meine Daten gespeichert?",
+      "Du brauchst keine Internetverbindung. Deine Turniere werden ausschließlich auf deinem Gerät gespeichert. Es gibt kein Konto, es werden keine personenbezogenen Daten erfasst und nichts wird an einen Server gesendet."
+    ],
+    [
+      "Ist TurnuVolt kostenlos?",
+      "Die App kaufst du einmalig im App Store – ohne Abo, Werbung oder In-App-Käufe. Der Spielplan-Generator im Browser ist komplett kostenlos."
+    ],
+    [
+      "Gibt es TurnuVolt auch für Android?",
+      "Die Android-Version erscheint demnächst bei Google Play. Aktuell ist TurnuVolt für iPhone und iPad verfügbar und benötigt iOS 17.6 oder neuer."
+    ]
+  ],
+  "fx_slug": "spielplan-generator",
+  "fx_name": "Spielplan-Generator",
+  "fx_title": "Kostenloser Spielplan-Generator – Jeder gegen jeden & K.-o.-System | TurnuVolt",
+  "fx_desc": "Teamnamen eingeben und in Sekunden einen Turnierplan für eine Liga nach dem Prinzip „Jeder gegen jeden“ oder das K.-o.-System erstellen. Mit Hin- und Rückrunde und automatischen Freilosen. Kostenlos im Browser, ohne Registrierung; zum Ausdrucken oder Teilen.",
+  "fx_h1_html": "Spielplan-<em>Generator</em>",
+  "fx_sub": "Gib deine Teams ein, und der Spielplan ist in Sekunden fertig. Kostenlos, ohne Registrierung, direkt im Browser.",
+  "fx_teams_label": "Teams (eines pro Zeile)",
+  "fx_teams_ph": "Adler\nLöwen\nTiger\nWölfe",
+  "fx_count_label": "oder Anzahl der Teams:",
+  "fx_fill": "Ausfüllen",
+  "fx_format": "Format",
+  "fx_knockout": "K.-o.-System",
+  "fx_double": "Hin- und Rückrunde (zweimal jeder gegen jeden)",
+  "fx_shuffle": "Auslosung mischen",
+  "fx_generate": "Spielplan erstellen",
+  "fx_sum_league": "%1$d Teams · %2$d Spieltage · %3$d Spiele",
+  "fx_sum_ko": "%1$d Teams · %2$d Runden · %3$d Spiele",
+  "fx_week": "Spieltag %d",
+  "fx_bye_row": "%s ist an diesem Spieltag spielfrei",
+  "fx_ko_bye": "%s zieht mit einem Freilos in die nächste Runde ein",
+  "fx_winner_of": "Sieger aus Spiel #%d",
+  "fx_copy": "Kopieren",
+  "fx_copied": "Kopiert",
+  "fx_share": "Link kopieren",
+  "fx_link_copied": "Link kopiert",
+  "fx_print": "Drucken",
+  "fx_err_min": "Gib mindestens 2 Teams ein.",
+  "fx_err_max": "Es sind höchstens 64 Teams möglich.",
+  "fx_err_dup": "Zwei Teams haben denselben Namen: %s",
+  "fx_cta_title": "Lass TurnuVolt die Ergebnisse verwalten",
+  "fx_cta_text": "Lege dieses Turnier in der TurnuVolt-App an: Während du Ergebnisse einträgst, aktualisieren sich Tabelle, Tordifferenz und Platzierungen automatisch. Die Sieger rücken im Turnierbaum weiter, und nach dem Finale steht der Turniersieger auf dem Podest.",
+  "fx_h2_how": "Wie entsteht ein Spielplan für „Jeder gegen jeden“?",
+  "fx_p_how1_html": "In einer Liga nach dem Prinzip „Jeder gegen jeden“ spielt jedes Team einmal gegen jedes andere. Der Spielplan wird mit dem Kreissystem erstellt, das auch als <b>Berger-Tabelle</b> bekannt ist: Ein Team bleibt an seinem Platz, während die anderen in jeder Runde um eine Position weiterrücken. So wiederholt sich keine Paarung, und jedes Team bestreitet höchstens ein Spiel pro Spieltag.",
+  "fx_p_how2_html": "In einer Liga mit <b>n</b> Teams gibt es insgesamt <b>n × (n − 1) ÷ 2</b> Spiele. Bei einer geraden Teamzahl sind <b>n − 1</b> Spieltage nötig, bei einer ungeraden <b>n</b> Spieltage. Bei ungerader Teamzahl ist an jedem Spieltag ein Team spielfrei. Bei einer Hin- und Rückrunde verdoppeln sich die Anzahl der Spiele und Spieltage. In der Rückrunde wird das Heimrecht getauscht.",
+  "fx_table_caption": "Spiele und Spieltage nach Teamzahl (einmal jeder gegen jeden)",
+  "fx_th_teams": "Teams",
+  "fx_th_matches": "Spiele",
+  "fx_th_weeks": "Spieltage",
+  "fx_th_double": "Hin- und Rückrunde",
+  "fx_h2_example": "Beispiel: Spielplan für eine Liga mit 4 Teams",
+  "fx_h2_ko": "Turnierbaum und Freilose im K.-o.-System",
+  "fx_p_ko1_html": "Im K.-o.-System scheidet der Verlierer eines Spiels aus. Ist die Anzahl der Teams keine Zweierpotenz (4, 8, 16, 32…), erhalten einige Teams in der ersten Runde ein <b>Freilos</b>. Die Anzahl der Freilose ergibt sich aus der nächstgrößeren Zweierpotenz minus der Anzahl der Teams: Bei 6 Teams erhalten 8 − 6 = 2 Teams ein Freilos, bei 10 Teams sind es 16 − 10 = 6.",
+  "fx_p_ko2_html": "Ein Turnier im K.-o.-System mit <b>n</b> Teams hat immer <b>n − 1</b> Spiele, da in jedem Spiel genau ein Team ausscheidet. Ein Turnier mit 16 Teams umfasst 4 Runden und 15 Spiele.",
+  "fx_h2_points": "Wie wird die Ligatabelle berechnet?",
+  "fx_p_points_html": "Bei Spielen wie Fußball gibt es für einen Sieg <b>3</b> Punkte, für ein Unentschieden <b>1</b> und für eine Niederlage <b>0</b>. Bei Punktgleichheit entscheidet zuerst die Tordifferenz, dann die Anzahl der erzielten Tore. Bei Spielen ohne Unentschieden wie Basketball zählt ein Sieg 2 Punkte. Im Volleyball gibt es für einen 3-0- oder 3-1-Sieg 3 Punkte, für einen 3-2-Sieg 2 Punkte und für eine 2-3-Niederlage 1 Punkt. TurnuVolt wendet die passenden Regeln für das gewählte Spiel automatisch an.",
+  "fx_faq_h2": "Fragen zum Spielplan",
+  "faq_fx": [
+    [
+      "Ist der Spielplan-Generator kostenlos?",
+      "Ja. Ohne Registrierung und ohne Werbung. Der Spielplan wird in deinem Browser erstellt, und deine Teamnamen werden nirgendwohin übertragen."
+    ],
+    [
+      "Wie viele Teams kann ich hinzufügen?",
+      "Du kannst einen Spielplan für eine Liga oder ein Turnier im K.-o.-System mit 2 bis 64 Teams erstellen."
+    ],
+    [
+      "Kann ich einen Liga-Spielplan mit einer ungeraden Anzahl an Teams erstellen?",
+      "Ja. An jedem Spieltag ist ein Team spielfrei. Am Ende der Liga haben alle Teams gleich viele Spiele absolviert."
+    ],
+    [
+      "Was bedeutet Hin- und Rückrunde?",
+      "Jede Paarung wird zweimal gespielt. In der Rückrunde wird das Heimrecht getauscht. Dadurch verdoppelt sich die Anzahl der Spiele."
+    ],
+    [
+      "Kann ich den Spielplan ausdrucken oder teilen?",
+      "Ja. Mit „Drucken“ erhältst du eine übersichtliche Druckversion. „Kopieren“ legt den Spielplan als Text in der Zwischenablage ab. „Link kopieren“ erstellt einen Link, der denselben Spielplan öffnet."
+    ],
+    [
+      "Wie kann ich Ergebnisse und Tabelle verfolgen?",
+      "Lege dasselbe Turnier in der TurnuVolt-App an. Sobald du Ergebnisse einträgst, werden Tabelle, Tordifferenz und Platzierungen automatisch berechnet. Die Sieger rücken im Turnierbaum von selbst weiter."
+    ]
+  ]
+}

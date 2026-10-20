@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Organizador de torneos: rol de juegos, tabla de posiciones y llaves",
+  "meta_desc": "Organiza torneos de liga y eliminación directa: ingresa tus equipos, genera el calendario automáticamente y actualiza la tabla de posiciones al capturar resultados. 63 deportes y juegos, sin conexión y sin anuncios. Incluye un generador gratuito de rol de juegos en línea.",
+  "store_alt": "Descárgalo en App Store",
+  "soon": "Próximamente",
+  "scroll_down": "Desplázate hacia abajo",
+  "aria_screens": "Capturas de pantalla",
+  "ss_podium": "Pantalla con el podio y el trofeo al terminar un torneo",
+  "ss_fixture": "Pantalla del rol de juegos y la tabla de posiciones",
+  "ss_new": "Pantalla para crear un torneo",
+  "ss_home": "Pantalla de inicio de TurnuVolt",
+  "ss_saved": "Pantalla de torneo guardado",
+  "aria_games": "Juegos",
+  "aria_board": "Panel con la lista de juegos",
+  "aria_cats": "Categorías",
+  "random_game": "Juego al azar",
+  "aria_formats": "Formatos de torneo",
+  "tab_ko": "Eliminación directa",
+  "led_title": "Grupo escolar",
+  "reset_bracket": "Reiniciar llaves",
+  "aria_langs": "Idiomas",
+  "aria_lang": "Idioma",
+  "aria_docs": "Documentos",
+  "privacy": "Política de privacidad",
+  "support": "Soporte",
+  "aria_download": "Descargar",
+  "tagline": "Rol de juegos, tabla de posiciones y llaves. Todo listo en segundos, en tu bolsillo.",
+  "hero_tool_link": "Crea gratis tu rol de juegos",
+  "about_eyebrow": "¿Qué es TurnuVolt?",
+  "about_h2": "Configura el torneo y TurnuVolt se encarga del resto",
+  "about_lead": "TurnuVolt es una app para organizar torneos entre amigos, en escuelas, oficinas y clubes. Ingresa los equipos y obtén automáticamente el rol de juegos de tu liga o torneo de eliminación directa. La tabla de posiciones se actualiza conforme capturas los resultados y, al terminar la final, el campeón sube al podio. Admite 63 deportes y juegos, desde fútbol y ajedrez hasta tenis y FIFA, y lleva el marcador según las reglas de cada uno.",
+  "steps": [
+    [
+      "Agrega los equipos",
+      "Ponle nombre al torneo, ingresa el número de equipos o jugadores y elige el juego y el formato."
+    ],
+    [
+      "Tu rol de juegos está listo",
+      "En una liga juegan todos contra todos, con la opción de una segunda vuelta de ida y vuelta. En eliminación directa, las llaves se crean y los pases directos se asignan automáticamente cuando hay un número impar de equipos."
+    ],
+    [
+      "Captura resultados y sigue la tabla",
+      "Goles, puntos, sets o solo el ganador: la captura de resultados se adapta a cada juego. Los puntos, la diferencia de goles y las posiciones se calculan automáticamente."
+    ]
+  ],
+  "feats": [
+    [
+      "Puntuación según cada juego",
+      "3 puntos por victoria en fútbol, sin empates en básquetbol y diferencia de sets en voleibol. Cada juego sigue sus propias reglas."
+    ],
+    [
+      "Continúa donde te quedaste",
+      "Los torneos en curso se guardan y los que terminan pasan a tu archivo."
+    ],
+    [
+      "Sin conexión a internet",
+      "Todo funciona en tu celular: en la cancha, de campamento o en el patio de la escuela."
+    ],
+    [
+      "Sin anuncios ni cuenta",
+      "Compra única. Sin suscripción, anuncios, registro ni recopilación de datos."
+    ],
+    [
+      "30+ idiomas",
+      "Inglés, español, alemán, árabe, japonés y muchos más, incluidos idiomas que se escriben de derecha a izquierda."
+    ],
+    [
+      "Podio y trofeo",
+      "Al terminar la final, el campeón, el subcampeón y el tercer lugar suben al podio entre confeti."
+    ]
+  ],
+  "tool_eyebrow": "Herramienta gratuita",
+  "tool_h2": "¿Necesitas un rol de juegos ahora?",
+  "tool_text": "Crea gratis un rol de juegos desde tu navegador, sin descargar nada. Ingresa los equipos y obtén al instante tu calendario de todos contra todos o eliminación directa. Imprímelo, cópialo o compártelo con un enlace.",
+  "tool_btn": "Abrir el generador de rol de juegos",
+  "faq_eyebrow": "Preguntas frecuentes",
+  "faq_h2": "Lo que necesitas saber",
+  "faq_home": [
+    [
+      "¿Cómo creo un rol de juegos con TurnuVolt?",
+      "Toca Nuevo torneo, ingresa el nombre del torneo y la cantidad de equipos, elige el juego y el formato (liga o eliminación directa) y escribe los nombres de los equipos. El rol de juegos y la tabla de posiciones se crean automáticamente; tú solo capturas los resultados."
+    ],
+    [
+      "¿Qué deportes y juegos admite?",
+      "63 en total, incluidos fútbol, fútbol sala, básquetbol, voleibol, tenis, tenis de mesa, pádel, bádminton, ajedrez, backgammon, dardos, billar, FIFA y Valorant. Para los demás, está la opción Personalizado / Otro."
+    ],
+    [
+      "¿Cuál es la diferencia entre una liga y un torneo de eliminación directa?",
+      "En una liga (todos contra todos), cada equipo se enfrenta a todos los demás y la tabla de posiciones determina al ganador; también puedes jugar a ida y vuelta. En eliminación directa, el que pierde queda fuera y los ganadores avanzan hasta la final."
+    ],
+    [
+      "¿Qué pasa si hay un número impar de equipos?",
+      "En una liga, un equipo descansa en cada jornada. En eliminación directa, se eligen automáticamente los equipos que reciben un pase directo en la primera ronda y avanzan a la siguiente."
+    ],
+    [
+      "¿Cómo se calcula la tabla de posiciones?",
+      "Al capturar los resultados, se actualizan automáticamente los partidos jugados, las victorias, los empates, las derrotas, la diferencia de goles y los puntos. La puntuación depende del juego: en fútbol, una victoria vale 3 puntos y un empate 1; en básquetbol no hay empates; en voleibol también cuenta la diferencia de sets."
+    ],
+    [
+      "¿Necesito conexión a internet? ¿Dónde se guardan mis datos?",
+      "No necesitas conexión. Tus torneos se guardan únicamente en tu dispositivo; no necesitas una cuenta, no se recopilan datos personales y no se envía nada a un servidor."
+    ],
+    [
+      "¿TurnuVolt es gratis?",
+      "La app se adquiere con una compra única en App Store, sin suscripción, anuncios ni compras dentro de la app. El generador de rol de juegos del navegador es completamente gratis."
+    ],
+    [
+      "¿Está disponible para Android?",
+      "La versión para Android llegará pronto a Google Play. Por ahora, TurnuVolt está disponible para iPhone y iPad (iOS 17.6 o posterior)."
+    ]
+  ],
+  "fx_slug": "generador-de-rol-de-juegos",
+  "fx_name": "Generador de rol de juegos",
+  "fx_title": "Generador gratuito de rol de juegos – Calendario de todos contra todos y eliminación directa | TurnuVolt",
+  "fx_desc": "Ingresa tus equipos y crea en segundos el calendario de tu torneo de liga (todos contra todos) o las llaves de eliminación directa. Opción de ida y vuelta, descansos y pases directos automáticos. Gratis, sin registro y desde tu navegador; imprime o comparte tu rol de juegos.",
+  "fx_h1_html": "<em>Generador</em> de rol de juegos",
+  "fx_sub": "Ingresa tus equipos y obtén el calendario en segundos. Gratis, sin registro y desde tu navegador.",
+  "fx_teams_label": "Equipos (uno por línea)",
+  "fx_teams_ph": "Águilas\nLeones\nTigres\nLobos",
+  "fx_count_label": "o número de equipos:",
+  "fx_fill": "Completar",
+  "fx_format": "Formato",
+  "fx_knockout": "Eliminación directa",
+  "fx_double": "Ida y vuelta (todos contra todos a doble vuelta)",
+  "fx_shuffle": "Sortear los cruces",
+  "fx_generate": "Generar rol de juegos",
+  "fx_sum_league": "%1$d equipos · %2$d jornadas · %3$d partidos",
+  "fx_sum_ko": "%1$d equipos · %2$d rondas · %3$d partidos",
+  "fx_week": "Jornada %d",
+  "fx_bye_row": "%s descansa esta jornada",
+  "fx_ko_bye": "%s pasa directamente a la siguiente ronda",
+  "fx_winner_of": "Ganador del partido #%d",
+  "fx_copy": "Copiar",
+  "fx_copied": "Copiado",
+  "fx_share": "Copiar enlace",
+  "fx_link_copied": "Enlace copiado",
+  "fx_print": "Imprimir",
+  "fx_err_min": "Ingresa al menos 2 equipos.",
+  "fx_err_max": "Puedes agregar un máximo de 64 equipos.",
+  "fx_err_dup": "Hay dos equipos con el mismo nombre: %s",
+  "fx_cta_title": "Deja que TurnuVolt lleve el marcador",
+  "fx_cta_text": "Configura este torneo en la app TurnuVolt: al capturar los resultados, la tabla de posiciones, la diferencia de goles y la clasificación se actualizan automáticamente, los ganadores avanzan en las llaves y el campeón sube al podio después de la final.",
+  "fx_h2_how": "¿Cómo se crea un rol de juegos de todos contra todos?",
+  "fx_p_how1_html": "En una liga (todos contra todos), cada equipo juega una vez contra cada uno de los demás. El rol de juegos se crea con el método del círculo, también conocido como <b>tablas de Berger</b>: un equipo permanece fijo y los demás avanzan una posición en cada jornada. Así no se repite ningún enfrentamiento y cada equipo juega como máximo un partido por jornada.",
+  "fx_p_how2_html": "Una liga de <b>n</b> equipos tiene <b>n × (n − 1) ÷ 2</b> partidos en total. Con un número par de equipos se necesitan <b>n − 1</b> jornadas; con un número impar, <b>n</b> jornadas, y un equipo descansa en cada una. Un torneo de todos contra todos a doble vuelta (ida y vuelta) duplica los partidos y las jornadas, e invierte las localías en la segunda vuelta.",
+  "fx_table_caption": "Partidos y jornadas según el número de equipos (todos contra todos a una vuelta)",
+  "fx_th_teams": "Equipos",
+  "fx_th_matches": "Partidos",
+  "fx_th_weeks": "Jornadas",
+  "fx_th_double": "Ida y vuelta",
+  "fx_h2_example": "Ejemplo: rol de juegos de una liga de 4 equipos",
+  "fx_h2_ko": "Llaves de eliminación directa y pases directos",
+  "fx_p_ko1_html": "En un torneo de eliminación directa (eliminación simple), el que pierde queda fuera. Si la cantidad de equipos no es una potencia de dos (4, 8, 16, 32…), algunos reciben un <b>pase directo</b> en la primera ronda. La cantidad de pases directos se obtiene restando el número de equipos a la siguiente potencia de dos: con 6 equipos, 8 − 6 = 2 equipos reciben un pase directo; con 10 equipos, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Un torneo de eliminación directa con <b>n</b> equipos siempre tiene <b>n − 1</b> partidos, porque en cada partido queda eliminado exactamente un equipo. Un torneo de 16 equipos requiere 4 rondas y 15 partidos.",
+  "fx_h2_points": "¿Cómo se calcula la tabla de posiciones de una liga?",
+  "fx_p_points_html": "En juegos como el fútbol, una victoria vale <b>3</b> puntos, un empate <b>1</b> y una derrota <b>0</b>; los equipos empatados en puntos se ordenan por diferencia de goles y, después, por goles a favor. En juegos sin empates, como el básquetbol, una victoria vale 2 puntos. En voleibol, una victoria por 3-0 o 3-1 otorga 3 puntos; una victoria por 3-2, 2 puntos; y una derrota por 2-3, 1 punto. TurnuVolt aplica estas reglas automáticamente según el juego que elijas.",
+  "fx_faq_h2": "Preguntas sobre el rol de juegos",
+  "faq_fx": [
+    [
+      "¿El generador de rol de juegos es gratis?",
+      "Sí. Sin registro ni anuncios. El rol de juegos se genera en tu navegador y los nombres de tus equipos nunca se envían a ningún sitio."
+    ],
+    [
+      "¿Cuántos equipos puedo agregar?",
+      "Puedes crear un rol de juegos de liga o eliminación directa para entre 2 y 64 equipos."
+    ],
+    [
+      "¿Puedo crear un rol de juegos de liga con un número impar de equipos?",
+      "Sí. Un equipo descansa en cada jornada y, al terminar la liga, todos habrán jugado la misma cantidad de partidos."
+    ],
+    [
+      "¿Qué es un torneo de todos contra todos a doble vuelta?",
+      "Es un rol de juegos en el que cada enfrentamiento se disputa dos veces, invirtiendo las localías en la segunda vuelta. Esto duplica la cantidad de partidos."
+    ],
+    [
+      "¿Puedo imprimir o compartir el rol de juegos?",
+      "Sí. Imprimir te da una versión con un diseño limpio para imprimir, Copiar guarda el rol de juegos como texto en el portapapeles y Copiar enlace crea un enlace que abre ese mismo rol de juegos."
+    ],
+    [
+      "¿Cómo llevo el control de los resultados y la tabla de posiciones?",
+      "Configura el mismo torneo en la app TurnuVolt. Al capturar los resultados, la tabla de posiciones, la diferencia de goles y la clasificación se calculan automáticamente, y los ganadores avanzan solos en las llaves."
+    ]
+  ]
+}

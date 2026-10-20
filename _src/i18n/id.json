@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Pembuat Turnamen: Jadwal Pertandingan, Klasemen & Bagan Turnamen",
+  "meta_desc": "Kelola turnamen setengah kompetisi / round robin dan sistem gugur: masukkan tim, dapatkan jadwal pertandingan otomatis, lalu lihat klasemen diperbarui saat skor dimasukkan. Mendukung 63 olahraga dan permainan, berfungsi offline, tanpa iklan. Termasuk generator jadwal pertandingan online gratis.",
+  "store_alt": "Unduh di App Store",
+  "soon": "Segera hadir",
+  "scroll_down": "Gulir ke bawah",
+  "aria_screens": "Tangkapan layar",
+  "ss_podium": "Layar podium dan trofi pada akhir turnamen",
+  "ss_fixture": "Layar jadwal pertandingan dan klasemen",
+  "ss_new": "Layar pembuatan turnamen baru",
+  "ss_home": "Layar utama TurnuVolt",
+  "ss_saved": "Layar turnamen tersimpan",
+  "aria_games": "Permainan",
+  "aria_board": "Panel daftar permainan",
+  "aria_cats": "Kategori",
+  "random_game": "Permainan acak",
+  "aria_formats": "Format turnamen",
+  "tab_ko": "Sistem gugur",
+  "led_title": "Kelas",
+  "reset_bracket": "Atur ulang bagan turnamen",
+  "aria_langs": "Bahasa",
+  "aria_lang": "Bahasa",
+  "aria_docs": "Dokumen",
+  "privacy": "Kebijakan Privasi",
+  "support": "Dukungan",
+  "aria_download": "Unduh",
+  "tagline": "Jadwal pertandingan, klasemen, dan bagan turnamen. Siap dalam hitungan detik, langsung di saku Anda.",
+  "hero_tool_link": "Buat jadwal pertandingan gratis sekarang",
+  "about_eyebrow": "Apa itu TurnuVolt?",
+  "about_h2": "Siapkan turnamennya, TurnuVolt yang mengurus sisanya",
+  "about_lead": "TurnuVolt adalah aplikasi pembuat turnamen untuk teman, sekolah, kantor, dan klub. Masukkan tim, lalu jadwal pertandingan setengah kompetisi / round robin atau sistem gugur akan dibuat untuk Anda. Saat skor dimasukkan, klasemen diperbarui otomatis, dan setelah final selesai sang juara naik ke podium. Aplikasi ini mendukung 63 olahraga dan permainan, mulai dari sepak bola hingga catur serta tenis hingga FIFA, dengan perhitungan skor sesuai aturan masing-masing.",
+  "steps": [
+    [
+      "Tambahkan tim",
+      "Beri nama turnamen, masukkan jumlah tim atau pemain, lalu pilih permainan dan formatnya."
+    ],
+    [
+      "Jadwal pertandingan siap",
+      "Dalam setengah kompetisi / round robin, setiap tim bertemu semua tim lain, dengan opsi putaran kedua kandang dan tandang. Dalam sistem gugur, bagan turnamen dibuat dan bye ditentukan otomatis jika jumlah tim ganjil."
+    ],
+    [
+      "Masukkan skor, pantau klasemen",
+      "Gol, poin, set, atau cukup pemenangnya: cara memasukkan skor disesuaikan dengan permainannya. Poin, selisih gol, dan peringkat dihitung otomatis untuk Anda."
+    ]
+  ],
+  "feats": [
+    [
+      "Perhitungan skor sesuai permainan",
+      "3 poin untuk kemenangan dalam sepak bola, tanpa hasil seri dalam bola basket, dan selisih set dalam bola voli. Setiap permainan mengikuti aturannya sendiri."
+    ],
+    [
+      "Lanjutkan dari posisi terakhir",
+      "Turnamen yang belum selesai akan disimpan, sedangkan turnamen yang sudah selesai masuk ke arsip Anda."
+    ],
+    [
+      "Tidak perlu internet",
+      "Semuanya berjalan di ponsel Anda: di lapangan, di perkemahan, maupun di halaman sekolah."
+    ],
+    [
+      "Tanpa iklan, tanpa akun",
+      "Cukup sekali beli. Tanpa langganan, tanpa iklan, tanpa pendaftaran, dan tanpa pengumpulan data."
+    ],
+    [
+      "30+ bahasa",
+      "Bahasa Inggris, Spanyol, Jerman, Arab, Jepang, dan banyak lagi, termasuk bahasa yang ditulis dari kanan ke kiri."
+    ],
+    [
+      "Podium dan trofi",
+      "Saat final berakhir, juara, peringkat kedua, dan peringkat ketiga naik ke podium dengan taburan konfeti."
+    ]
+  ],
+  "tool_eyebrow": "Alat gratis",
+  "tool_h2": "Butuh jadwal pertandingan sekarang?",
+  "tool_text": "Buat jadwal pertandingan gratis di browser tanpa perlu mengunduh apa pun. Masukkan tim, lalu jadwal setengah kompetisi / round robin atau sistem gugur langsung siap. Cetak, salin, atau bagikan melalui tautan.",
+  "tool_btn": "Buka generator jadwal pertandingan",
+  "faq_eyebrow": "Tanya Jawab",
+  "faq_h2": "Informasi penting",
+  "faq_home": [
+    [
+      "Bagaimana cara membuat jadwal pertandingan dengan TurnuVolt?",
+      "Ketuk Turnamen Baru, masukkan nama turnamen dan jumlah tim, pilih permainan serta formatnya (setengah kompetisi / round robin atau sistem gugur), lalu masukkan nama tim. Jadwal pertandingan dan klasemen dibuat otomatis; Anda hanya perlu memasukkan skor."
+    ],
+    [
+      "Olahraga dan permainan apa saja yang didukung?",
+      "Totalnya 63, termasuk sepak bola, futsal, bola basket, bola voli, tenis, tenis meja, padel, bulu tangkis, catur, backgammon, dart, biliar, FIFA, dan Valorant. Untuk permainan lainnya tersedia opsi Khusus / Lainnya."
+    ],
+    [
+      "Apa perbedaan setengah kompetisi dan sistem gugur?",
+      "Dalam setengah kompetisi / round robin, setiap tim bertemu semua tim lain dan pemenang ditentukan melalui klasemen; Anda juga dapat membuat round robin ganda dengan pertandingan kandang dan tandang. Dalam sistem gugur, tim yang kalah tersingkir dan pemenang terus melaju hingga final."
+    ],
+    [
+      "Apa yang terjadi jika jumlah tim ganjil?",
+      "Dalam setengah kompetisi / round robin, satu tim mendapat bye pada setiap pekan. Dalam sistem gugur, tim yang mendapat bye pada babak pertama dipilih otomatis dan langsung lolos ke babak berikutnya."
+    ],
+    [
+      "Bagaimana klasemen dihitung?",
+      "Saat Anda memasukkan skor, jumlah pertandingan, kemenangan, hasil seri, kekalahan, selisih gol, dan poin diperbarui otomatis. Aturan poin bergantung pada permainannya: dalam sepak bola kemenangan bernilai 3 poin dan hasil seri 1; bola basket tidak mengenal hasil seri; dalam bola voli selisih set juga diperhitungkan."
+    ],
+    [
+      "Apakah saya memerlukan koneksi internet? Di mana data saya disimpan?",
+      "Tidak diperlukan koneksi internet. Turnamen Anda hanya disimpan di perangkat; tidak ada akun, tidak ada data pribadi yang dikumpulkan, dan tidak ada data yang dikirim ke server."
+    ],
+    [
+      "Apakah TurnuVolt gratis?",
+      "Aplikasi ini dibeli satu kali di App Store, tanpa langganan, tanpa iklan, dan tanpa pembelian dalam aplikasi. Generator jadwal pertandingan di browser sepenuhnya gratis."
+    ],
+    [
+      "Apakah tersedia untuk Android?",
+      "Versi Android akan segera hadir di Google Play. Saat ini TurnuVolt tersedia untuk iPhone dan iPad (iOS 17.6 atau yang lebih baru)."
+    ]
+  ],
+  "fx_slug": "generator-jadwal-pertandingan",
+  "fx_name": "Generator Jadwal Pertandingan",
+  "fx_title": "Generator Jadwal Pertandingan Gratis – Setengah Kompetisi / Round Robin & Sistem Gugur | TurnuVolt",
+  "fx_desc": "Masukkan nama tim dan dapatkan jadwal pertandingan setengah kompetisi / round robin atau bagan turnamen sistem gugur dalam hitungan detik. Tersedia opsi kandang dan tandang, serta bye otomatis. Gratis, tanpa pendaftaran, berjalan di browser, dan dapat dicetak atau dibagikan.",
+  "fx_h1_html": "Generator <em>Jadwal Pertandingan</em>",
+  "fx_sub": "Masukkan tim Anda dan jadwal langsung siap dalam hitungan detik. Gratis, tanpa pendaftaran, dan berjalan di browser.",
+  "fx_teams_label": "Tim (satu per baris)",
+  "fx_teams_ph": "Elang\nSinga\nHarimau\nSerigala",
+  "fx_count_label": "atau jumlah tim:",
+  "fx_fill": "Isi",
+  "fx_format": "Format",
+  "fx_knockout": "Sistem gugur",
+  "fx_double": "Kandang dan tandang (round robin ganda)",
+  "fx_shuffle": "Acak undian",
+  "fx_generate": "Buat jadwal pertandingan",
+  "fx_sum_league": "%1$d tim · %2$d pekan · %3$d pertandingan",
+  "fx_sum_ko": "%1$d tim · %2$d babak · %3$d pertandingan",
+  "fx_week": "Pekan %d",
+  "fx_bye_row": "%s mendapat bye pada pekan ini",
+  "fx_ko_bye": "%s mendapat bye ke babak berikutnya",
+  "fx_winner_of": "Pemenang #%d",
+  "fx_copy": "Salin",
+  "fx_copied": "Tersalin",
+  "fx_share": "Salin tautan",
+  "fx_link_copied": "Tautan tersalin",
+  "fx_print": "Cetak",
+  "fx_err_min": "Masukkan setidaknya 2 tim.",
+  "fx_err_max": "Jumlah maksimal adalah 64 tim.",
+  "fx_err_dup": "Ada dua tim dengan nama yang sama: %s",
+  "fx_cta_title": "Biarkan TurnuVolt mencatat skor",
+  "fx_cta_text": "Siapkan turnamen ini di aplikasi TurnuVolt: saat Anda memasukkan skor, klasemen, selisih gol, dan peringkat diperbarui otomatis, para pemenang melaju di bagan turnamen, dan sang juara naik ke podium setelah final.",
+  "fx_h2_how": "Bagaimana jadwal pertandingan round robin dibuat?",
+  "fx_p_how1_html": "Dalam setengah kompetisi / round robin, setiap tim bertanding satu kali melawan semua tim lainnya. Jadwal pertandingan dibuat dengan metode lingkaran, yang juga dikenal sebagai <b>tabel Berger</b>: satu tim tetap di posisinya, sementara tim lainnya bergeser satu posisi pada setiap pekan. Dengan demikian, tidak ada pasangan yang berulang dan setiap tim memainkan maksimal satu pertandingan per pekan.",
+  "fx_p_how2_html": "Kompetisi dengan <b>n</b> tim memiliki total <b>n × (n − 1) ÷ 2</b> pertandingan. Jika jumlah tim genap, diperlukan <b>n − 1</b> pekan; jika ganjil, diperlukan <b>n</b> pekan dan satu tim mendapat bye pada setiap pekan. Round robin ganda (kandang dan tandang) menggandakan jumlah pertandingan dan pekan, dengan posisi kandang dan tandang ditukar pada paruh kedua.",
+  "fx_table_caption": "Jumlah pertandingan dan pekan berdasarkan jumlah tim (round robin tunggal)",
+  "fx_th_teams": "Tim",
+  "fx_th_matches": "Pertandingan",
+  "fx_th_weeks": "Pekan",
+  "fx_th_double": "Kandang & tandang",
+  "fx_h2_example": "Contoh: jadwal liga 4 tim",
+  "fx_h2_ko": "Bagan turnamen sistem gugur dan bye",
+  "fx_p_ko1_html": "Dalam sistem gugur (eliminasi tunggal), tim yang kalah langsung tersingkir. Jika jumlah tim bukan pangkat dua (4, 8, 16, 32…), beberapa tim mendapat <b>bye</b> pada babak pertama. Jumlah bye adalah pangkat dua berikutnya dikurangi jumlah tim: untuk 6 tim, 8 − 6 = 2 tim mendapat bye; untuk 10 tim, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Turnamen sistem gugur dengan <b>n</b> tim selalu memiliki <b>n − 1</b> pertandingan karena tepat satu tim tersingkir dalam setiap pertandingan. Turnamen 16 tim membutuhkan 4 babak dan 15 pertandingan.",
+  "fx_h2_points": "Bagaimana klasemen dihitung?",
+  "fx_p_points_html": "Dalam permainan seperti sepak bola, kemenangan bernilai <b>3</b> poin, hasil seri <b>1</b>, dan kekalahan <b>0</b>; tim dengan poin sama dibedakan berdasarkan selisih gol, lalu jumlah gol. Dalam permainan tanpa hasil seri seperti bola basket, kemenangan bernilai 2 poin. Dalam bola voli, kemenangan 3-0 atau 3-1 menghasilkan 3 poin, kemenangan 3-2 menghasilkan 2 poin, dan kekalahan 2-3 menghasilkan 1 poin. TurnuVolt menerapkan aturan ini secara otomatis sesuai permainan yang Anda pilih.",
+  "fx_faq_h2": "Pertanyaan tentang jadwal pertandingan",
+  "faq_fx": [
+    [
+      "Apakah generator jadwal pertandingan ini gratis?",
+      "Ya. Tanpa pendaftaran dan tanpa iklan. Jadwal dibuat di browser, dan nama tim Anda tidak pernah dikirim ke mana pun."
+    ],
+    [
+      "Berapa banyak tim yang dapat saya tambahkan?",
+      "Anda dapat membuat jadwal setengah kompetisi / round robin atau sistem gugur untuk 2 hingga 64 tim."
+    ],
+    [
+      "Bisakah saya membuat jadwal liga dengan jumlah tim ganjil?",
+      "Bisa. Satu tim mendapat bye pada setiap pekan, dan pada akhir kompetisi semua tim telah memainkan jumlah pertandingan yang sama."
+    ],
+    [
+      "Apa itu round robin ganda?",
+      "Jadwal pertandingan yang mempertemukan setiap pasangan tim sebanyak dua kali, dengan posisi kandang dan tandang ditukar pada paruh kedua. Format ini menggandakan jumlah pertandingan."
+    ],
+    [
+      "Bisakah saya mencetak atau membagikan jadwal pertandingan?",
+      "Bisa. Cetak menghasilkan tampilan cetak yang rapi, Salin menempatkan jadwal sebagai teks di papan klip, dan Salin tautan membuat tautan yang membuka jadwal yang sama."
+    ],
+    [
+      "Bagaimana cara mencatat skor dan klasemen?",
+      "Siapkan turnamen yang sama di aplikasi TurnuVolt. Saat Anda memasukkan skor, klasemen, selisih gol, dan peringkat dihitung otomatis, sementara para pemenang melaju sendiri melalui bagan turnamen."
+    ]
+  ]
+}

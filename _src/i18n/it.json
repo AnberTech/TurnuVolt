@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Crea tornei: calendario, classifica e tabelloni a eliminazione diretta",
+  "meta_desc": "Organizza tornei a girone all'italiana o a eliminazione diretta: inserisci le squadre, ottieni il calendario e aggiorna la classifica con i risultati. 63 sport e giochi, anche offline, senza pubblicità. Include un generatore di calendari online gratuito.",
+  "store_alt": "Scarica su App Store",
+  "soon": "In arrivo",
+  "scroll_down": "Scorri verso il basso",
+  "aria_screens": "Schermate",
+  "ss_podium": "Schermata con podio e trofeo alla fine di un torneo",
+  "ss_fixture": "Schermata con calendario e classifica",
+  "ss_new": "Schermata di creazione di un nuovo torneo",
+  "ss_home": "Schermata iniziale di TurnuVolt",
+  "ss_saved": "Schermata di conferma del salvataggio del torneo",
+  "aria_games": "Giochi",
+  "aria_board": "Pannello con l'elenco dei giochi",
+  "aria_cats": "Categorie",
+  "random_game": "Gioco casuale",
+  "aria_formats": "Formati del torneo",
+  "tab_ko": "Eliminazione diretta",
+  "led_title": "Classe",
+  "reset_bracket": "Azzera il tabellone",
+  "aria_langs": "Lingue",
+  "aria_lang": "Lingua",
+  "aria_docs": "Documenti",
+  "privacy": "Informativa sulla privacy",
+  "support": "Assistenza",
+  "aria_download": "Scarica",
+  "tagline": "Calendario, classifica e tabelloni. Tutto pronto in pochi secondi, sempre in tasca.",
+  "hero_tool_link": "Crea subito un calendario gratis",
+  "about_eyebrow": "Cos'è TurnuVolt?",
+  "about_h2": "Imposta il torneo, al resto pensa TurnuVolt",
+  "about_lead": "TurnuVolt è un'app per creare tornei tra amici, a scuola, in ufficio e nelle associazioni sportive. Inserisci le squadre e il calendario del girone all'italiana o il tabellone a eliminazione diretta è pronto. La classifica si aggiorna mentre inserisci i risultati e, dopo la finale, chi vince sale sul podio. Supporta 63 sport e giochi, dal calcio agli scacchi, dal tennis a FIFA, e calcola i punteggi secondo le regole di ciascuno.",
+  "steps": [
+    [
+      "Aggiungi le squadre",
+      "Dai un nome al torneo, inserisci il numero di squadre o giocatori, poi scegli il gioco e il formato."
+    ],
+    [
+      "Il calendario è pronto",
+      "Nel girone all'italiana tutti affrontano tutti, con la possibilità di aggiungere le partite di ritorno. Nei tornei a eliminazione diretta il tabellone viene creato automaticamente, assegnando i turni di riposo quando il numero di squadre è dispari."
+    ],
+    [
+      "Inserisci i risultati e segui la classifica",
+      "Gol, punti, set o semplicemente chi ha vinto: l'inserimento dei risultati si adatta al gioco. Punti, differenza reti e posizioni in classifica vengono calcolati per te."
+    ]
+  ],
+  "feats": [
+    [
+      "Il punteggio giusto per ogni gioco",
+      "3 punti per una vittoria nel calcio, nessun pareggio nel basket, differenza set nella pallavolo. Ogni gioco segue le proprie regole."
+    ],
+    [
+      "Riprendi da dove eri rimasto",
+      "I tornei in corso vengono salvati e quelli conclusi finiscono nel tuo archivio."
+    ],
+    [
+      "Funziona senza internet",
+      "Tutto funziona sul tuo telefono: al campo, in campeggio o nel cortile della scuola."
+    ],
+    [
+      "Niente pubblicità, niente account",
+      "Un unico acquisto. Nessun abbonamento, nessuna pubblicità, nessuna registrazione e nessuna raccolta di dati."
+    ],
+    [
+      "30+ lingue",
+      "Inglese, spagnolo, tedesco, arabo, giapponese e molte altre, comprese le lingue che si scrivono da destra a sinistra."
+    ],
+    [
+      "Podio e trofeo",
+      "Dopo la finale, le squadre al primo, secondo e terzo posto salgono sul podio tra i coriandoli."
+    ]
+  ],
+  "tool_eyebrow": "Strumento gratuito",
+  "tool_h2": "Ti serve subito un calendario?",
+  "tool_text": "Crea gratis un calendario nel browser, senza scaricare nulla. Inserisci le squadre e il calendario del girone all'italiana o del torneo a eliminazione diretta è subito pronto. Stampalo, copialo o condividilo con un link.",
+  "tool_btn": "Apri il generatore di calendari",
+  "faq_eyebrow": "Domande frequenti",
+  "faq_h2": "Cose utili da sapere",
+  "faq_home": [
+    [
+      "Come creo un calendario con TurnuVolt?",
+      "Tocca Nuovo torneo, inserisci il nome del torneo e il numero di squadre, scegli il gioco e il formato (girone all'italiana o eliminazione diretta), poi inserisci i nomi delle squadre. Il calendario e la classifica vengono creati automaticamente: devi solo inserire i risultati."
+    ],
+    [
+      "Quali sport e giochi sono supportati?",
+      "63 in tutto, tra cui calcio, calcio a 5, basket, pallavolo, tennis, ping pong, padel, badminton, scacchi, backgammon, freccette, biliardo americano, FIFA e Valorant. Per tutti gli altri c'è l'opzione Personalizzato / Altro."
+    ],
+    [
+      "Qual è la differenza tra girone all'italiana ed eliminazione diretta?",
+      "Nel girone all'italiana tutti affrontano tutti e la classifica determina chi vince; puoi anche prevedere partite di andata e ritorno. Nell'eliminazione diretta chi perde viene eliminato e chi vince passa al turno successivo, fino alla finale."
+    ],
+    [
+      "Cosa succede con un numero dispari di squadre?",
+      "Nel girone all'italiana una squadra osserva un turno di riposo a ogni giornata. Nell'eliminazione diretta le squadre che ricevono un turno di riposo al primo turno vengono scelte automaticamente e passano direttamente al turno successivo."
+    ],
+    [
+      "Come viene calcolata la classifica?",
+      "Mentre inserisci i risultati, partite giocate, vittorie, pareggi, sconfitte, differenza reti e punti si aggiornano automaticamente. I punti dipendono dal gioco: nel calcio una vittoria vale 3 punti e un pareggio 1; nel basket non ci sono pareggi; nella pallavolo conta anche la differenza set."
+    ],
+    [
+      "Serve una connessione internet? Dove vengono salvati i miei dati?",
+      "Non serve una connessione. I tornei vengono salvati solo sul tuo dispositivo: non è previsto un account, non vengono raccolti dati personali e nulla viene inviato a un server."
+    ],
+    [
+      "TurnuVolt è gratis?",
+      "L'app si acquista una sola volta su App Store, senza abbonamenti, pubblicità o acquisti in-app. Il generatore di calendari nel browser è completamente gratuito."
+    ],
+    [
+      "È disponibile su Android?",
+      "La versione Android arriverà presto su Google Play. Al momento TurnuVolt è disponibile per iPhone e iPad (iOS 17.6 o versioni successive)."
+    ]
+  ],
+  "fx_slug": "generatore-calendario-tornei",
+  "fx_name": "Generatore di calendari",
+  "fx_title": "Generatore calendario tornei gratis – Girone all'italiana ed eliminazione diretta | TurnuVolt",
+  "fx_desc": "Inserisci le squadre e crea un calendario per un girone all'italiana o un torneo a eliminazione diretta. Opzione andata e ritorno e turno di riposo automatico. Gratis nel browser, senza registrazione: stampa o condividi.",
+  "fx_h1_html": "<em>Generatore</em> di calendari",
+  "fx_sub": "Inserisci le squadre e il calendario è pronto in pochi secondi. Gratis, senza registrazione, direttamente nel browser.",
+  "fx_teams_label": "Squadre (una per riga)",
+  "fx_teams_ph": "Aquile\nLeoni\nTigri\nLupi",
+  "fx_count_label": "oppure numero di squadre:",
+  "fx_fill": "Compila",
+  "fx_format": "Formato",
+  "fx_knockout": "Eliminazione diretta",
+  "fx_double": "Andata e ritorno (girone all'italiana doppio)",
+  "fx_shuffle": "Sorteggia gli abbinamenti",
+  "fx_generate": "Genera calendario",
+  "fx_sum_league": "%1$d squadre · %2$d giornate · %3$d partite",
+  "fx_sum_ko": "%1$d squadre · %2$d turni · %3$d partite",
+  "fx_week": "Giornata %d",
+  "fx_bye_row": "%s osserva un turno di riposo in questa giornata",
+  "fx_ko_bye": "%s passa al turno successivo con un turno di riposo",
+  "fx_winner_of": "Vincente della partita #%d",
+  "fx_copy": "Copia",
+  "fx_copied": "Copiato",
+  "fx_share": "Copia link",
+  "fx_link_copied": "Link copiato",
+  "fx_print": "Stampa",
+  "fx_err_min": "Inserisci almeno 2 squadre.",
+  "fx_err_max": "Puoi inserire al massimo 64 squadre.",
+  "fx_err_dup": "Due squadre hanno lo stesso nome: %s",
+  "fx_cta_title": "Lascia che TurnuVolt tenga il punteggio",
+  "fx_cta_text": "Crea questo torneo nell'app TurnuVolt: mentre inserisci i risultati, la classifica, la differenza reti e le posizioni si aggiornano automaticamente, le squadre vincenti avanzano nel tabellone e chi vince il torneo sale sul podio dopo la finale.",
+  "fx_h2_how": "Come si crea il calendario di un girone all'italiana?",
+  "fx_p_how1_html": "In un girone all'italiana ogni squadra affronta tutte le altre una volta. Il calendario viene creato con il metodo del cerchio, noto anche come <b>tabelle Berger</b>: una squadra resta fissa, mentre le altre ruotano di una posizione a ogni giornata. Così nessun abbinamento si ripete e ogni squadra gioca al massimo una partita per giornata.",
+  "fx_p_how2_html": "Un girone all'italiana con <b>n</b> squadre prevede in totale <b>n × (n − 1) ÷ 2</b> partite. Con un numero pari di squadre servono <b>n − 1</b> giornate; con un numero dispari ne servono <b>n</b> e una squadra osserva un turno di riposo a ogni giornata. Un girone con andata e ritorno raddoppia le partite e le giornate, invertendo il campo nel ritorno.",
+  "fx_table_caption": "Partite e giornate per numero di squadre (girone all'italiana di sola andata)",
+  "fx_th_teams": "Squadre",
+  "fx_th_matches": "Partite",
+  "fx_th_weeks": "Giornate",
+  "fx_th_double": "Andata e ritorno",
+  "fx_h2_example": "Esempio: calendario di un girone a 4 squadre",
+  "fx_h2_ko": "Tabelloni a eliminazione diretta e turni di riposo",
+  "fx_p_ko1_html": "In un torneo a eliminazione diretta chi perde viene eliminato. Se il numero di squadre non è una potenza di due (4, 8, 16, 32…), alcune squadre ricevono un <b>turno di riposo</b> al primo turno. Il numero di turni di riposo si ottiene sottraendo il numero di squadre dalla potenza di due successiva: con 6 squadre, 8 − 6 = 2 squadre ricevono un turno di riposo; con 10 squadre, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Un torneo a eliminazione diretta con <b>n</b> squadre prevede sempre <b>n − 1</b> partite, perché ogni partita elimina esattamente una squadra. Un torneo a 16 squadre richiede 4 turni e 15 partite.",
+  "fx_h2_points": "Come si calcola la classifica di un girone?",
+  "fx_p_points_html": "Negli sport come il calcio una vittoria vale <b>3</b> punti, un pareggio <b>1</b> e una sconfitta <b>0</b>; a parità di punti conta prima la differenza reti, poi il numero di gol segnati. Negli sport senza pareggi, come il basket, una vittoria vale 2 punti. Nella pallavolo una vittoria per 3-0 o 3-1 assegna 3 punti, una vittoria per 3-2 assegna 2 punti e una sconfitta per 2-3 assegna 1 punto. TurnuVolt applica automaticamente queste regole in base al gioco che scegli.",
+  "fx_faq_h2": "Domande sul calendario",
+  "faq_fx": [
+    [
+      "Il generatore di calendari è gratis?",
+      "Sì. Senza registrazione e senza pubblicità. Il calendario viene creato nel browser e i nomi delle squadre non vengono mai inviati all'esterno."
+    ],
+    [
+      "Quante squadre posso aggiungere?",
+      "Puoi creare un calendario per un girone all'italiana o un torneo a eliminazione diretta da 2 a 64 squadre."
+    ],
+    [
+      "Posso creare il calendario di un girone con un numero dispari di squadre?",
+      "Sì. Una squadra osserva un turno di riposo a ogni giornata e, alla fine del girone, tutte le squadre hanno giocato lo stesso numero di partite."
+    ],
+    [
+      "Cos'è un girone all'italiana con andata e ritorno?",
+      "È un calendario in cui ogni coppia di squadre si affronta due volte, invertendo il campo nel ritorno. Il numero di partite raddoppia."
+    ],
+    [
+      "Posso stampare o condividere il calendario?",
+      "Sì. Stampa crea una versione ordinata da stampare, Copia inserisce il calendario negli appunti come testo e Copia link crea un link che apre lo stesso calendario."
+    ],
+    [
+      "Come tengo traccia dei risultati e della classifica?",
+      "Crea lo stesso torneo nell'app TurnuVolt. Mentre inserisci i risultati, la classifica, la differenza reti e le posizioni vengono calcolate automaticamente e le squadre vincenti avanzano da sole nel tabellone."
+    ]
+  ]
+}

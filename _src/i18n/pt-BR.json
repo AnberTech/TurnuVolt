@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Criador de torneios: tabela de jogos, classificação e chaveamento",
+  "meta_desc": "Organize torneios de pontos corridos e mata-mata: cadastre as equipes, gere a tabela de jogos automaticamente e acompanhe a classificação ao inserir os placares. 63 esportes e jogos, funciona offline e sem anúncios. Inclui gerador de tabela de jogos online grátis.",
+  "store_alt": "Baixe na App Store",
+  "soon": "Em breve",
+  "scroll_down": "Role para baixo",
+  "aria_screens": "Capturas de tela",
+  "ss_podium": "Tela de pódio e troféu ao final de um torneio",
+  "ss_fixture": "Tela da tabela de jogos e classificação",
+  "ss_new": "Tela de criação de torneio",
+  "ss_home": "Tela inicial do TurnuVolt",
+  "ss_saved": "Tela de confirmação de torneio salvo",
+  "aria_games": "Jogos",
+  "aria_board": "Painel com a lista de jogos",
+  "aria_cats": "Categorias",
+  "random_game": "Jogo aleatório",
+  "aria_formats": "Formatos de torneio",
+  "tab_ko": "Mata-mata",
+  "led_title": "Turma",
+  "reset_bracket": "Reiniciar chaveamento",
+  "aria_langs": "Idiomas",
+  "aria_lang": "Idioma",
+  "aria_docs": "Documentos",
+  "privacy": "Política de Privacidade",
+  "support": "Suporte",
+  "aria_download": "Baixar",
+  "tagline": "Tabela de jogos, classificação e chaveamento. Tudo pronto em segundos, na palma da mão.",
+  "hero_tool_link": "Crie sua tabela de jogos grátis",
+  "about_eyebrow": "O que é o TurnuVolt?",
+  "about_h2": "Monte o torneio e deixe o resto com o TurnuVolt",
+  "about_lead": "O TurnuVolt é um aplicativo para criar torneios entre amigos, em escolas, empresas e clubes. Digite os nomes das equipes e a tabela de jogos de pontos corridos ou mata-mata fica pronta para você. Conforme você insere os placares, a classificação é atualizada automaticamente. Depois da final, o campeão sobe ao pódio. São 63 esportes e jogos, do futebol ao xadrez, do tênis ao FIFA, cada um com suas próprias regras de pontuação.",
+  "steps": [
+    [
+      "Adicione as equipes",
+      "Dê um nome ao torneio, informe o número de equipes ou jogadores e escolha o jogo e o formato."
+    ],
+    [
+      "A tabela de jogos está pronta",
+      "Em pontos corridos, todos jogam contra todos, com a opção de ida e volta. No mata-mata, o chaveamento é montado e as folgas são distribuídas automaticamente quando há um número ímpar de equipes."
+    ],
+    [
+      "Insira os placares e acompanhe a classificação",
+      "Gols, pontos, sets ou apenas o vencedor: o registro do placar se adapta ao jogo. Os pontos, o saldo de gols e a classificação são calculados para você."
+    ]
+  ],
+  "feats": [
+    [
+      "Pontuação certa para cada jogo",
+      "3 pontos por vitória no futebol, sem empates no basquete, saldo de sets no vôlei. Cada jogo segue suas próprias regras."
+    ],
+    [
+      "Continue de onde parou",
+      "Os torneios em andamento ficam salvos, e os concluídos vão para o seu arquivo."
+    ],
+    [
+      "Sem precisar de internet",
+      "Tudo funciona no seu celular: no campo, no acampamento ou no pátio da escola."
+    ],
+    [
+      "Sem anúncios e sem conta",
+      "Compra única. Sem assinatura, anúncios, cadastro ou coleta de dados."
+    ],
+    [
+      "30+ idiomas",
+      "Inglês, espanhol, alemão, árabe, japonês e muitos outros, incluindo idiomas escritos da direita para a esquerda."
+    ],
+    [
+      "Pódio e troféu",
+      "Quando a final termina, o campeão, o vice-campeão e o terceiro colocado sobem ao pódio com uma chuva de confetes."
+    ]
+  ],
+  "tool_eyebrow": "Ferramenta grátis",
+  "tool_h2": "Precisa de uma tabela de jogos agora?",
+  "tool_text": "Crie uma tabela de jogos grátis no navegador, sem baixar nada. Digite os nomes das equipes e sua tabela de pontos corridos ou mata-mata fica pronta na hora. Imprima, copie ou compartilhe por link.",
+  "tool_btn": "Abrir o gerador de tabela de jogos",
+  "faq_eyebrow": "Perguntas frequentes",
+  "faq_h2": "Tire suas dúvidas",
+  "faq_home": [
+    [
+      "Como criar uma tabela de jogos com o TurnuVolt?",
+      "Toque em Novo Torneio, informe o nome do torneio e o número de equipes, escolha o jogo e o formato (pontos corridos ou mata-mata) e digite os nomes das equipes. A tabela de jogos e a classificação são criadas automaticamente. Você só precisa inserir os placares."
+    ],
+    [
+      "Quais esportes e jogos estão disponíveis?",
+      "São 63 no total, incluindo futebol, futsal, basquete, vôlei, tênis, tênis de mesa, padel, badminton, xadrez, gamão, dardos, sinuca, FIFA e Valorant. Para outras modalidades, há a opção Personalizado / Outro."
+    ],
+    [
+      "Qual é a diferença entre pontos corridos e mata-mata?",
+      "Em pontos corridos, todos jogam contra todos e a classificação define o vencedor. Você também pode escolher jogos de ida e volta. No mata-mata, quem perde é eliminado, e os vencedores avançam até a final."
+    ],
+    [
+      "O que acontece quando há um número ímpar de equipes?",
+      "Em pontos corridos, uma equipe fica de folga a cada rodada. No mata-mata, as equipes que recebem folga na primeira fase são escolhidas automaticamente e avançam direto para a próxima fase."
+    ],
+    [
+      "Como a classificação é calculada?",
+      "Conforme você insere os placares, o número de jogos disputados, as vitórias, os empates, as derrotas, o saldo de gols e os pontos são atualizados automaticamente. A regra de pontuação depende do jogo: no futebol, uma vitória vale 3 pontos e um empate vale 1; no basquete, não há empates; no vôlei, o saldo de sets também conta."
+    ],
+    [
+      "Preciso de internet? Onde meus dados ficam salvos?",
+      "Não é preciso ter conexão. Seus torneios ficam salvos apenas no seu dispositivo. Não há conta, nenhum dado pessoal é coletado e nada é enviado para um servidor."
+    ],
+    [
+      "O TurnuVolt é grátis?",
+      "O aplicativo é vendido na App Store com pagamento único, sem assinatura, anúncios ou compras dentro do app. O gerador de tabela de jogos no navegador é totalmente grátis."
+    ],
+    [
+      "Está disponível para Android?",
+      "A versão para Android chegará em breve ao Google Play. Por enquanto, o TurnuVolt está disponível para iPhone e iPad (iOS 17.6 ou posterior)."
+    ]
+  ],
+  "fx_slug": "gerador-de-tabela-de-jogos",
+  "fx_name": "Gerador de tabela de jogos",
+  "fx_title": "Gerador de tabela de jogos grátis – Pontos corridos e mata-mata | TurnuVolt",
+  "fx_desc": "Digite os nomes das equipes e gere uma tabela de jogos de pontos corridos ou um chaveamento mata-mata em segundos. Com opção de ida e volta e folgas automáticas. Grátis, sem cadastro e direto no navegador. Imprima ou compartilhe.",
+  "fx_h1_html": "<em>Gerador</em> de tabela de jogos",
+  "fx_sub": "Digite os nomes das equipes e a tabela de jogos fica pronta em segundos. Grátis, sem cadastro e direto no navegador.",
+  "fx_teams_label": "Equipes (uma por linha)",
+  "fx_teams_ph": "Águias\nLeões\nTigres\nLobos",
+  "fx_count_label": "ou número de equipes:",
+  "fx_fill": "Preencher",
+  "fx_format": "Formato",
+  "fx_knockout": "Mata-mata",
+  "fx_double": "Ida e volta (pontos corridos em dois turnos)",
+  "fx_shuffle": "Embaralhar o sorteio",
+  "fx_generate": "Gerar tabela de jogos",
+  "fx_sum_league": "%1$d equipes · %2$d rodadas · %3$d jogos",
+  "fx_sum_ko": "%1$d equipes · %2$d fases · %3$d jogos",
+  "fx_week": "Rodada %d",
+  "fx_bye_row": "%s fica de folga nesta rodada",
+  "fx_ko_bye": "%s recebe folga e avança para a próxima fase",
+  "fx_winner_of": "Vencedor do jogo #%d",
+  "fx_copy": "Copiar",
+  "fx_copied": "Copiado",
+  "fx_share": "Copiar link",
+  "fx_link_copied": "Link copiado",
+  "fx_print": "Imprimir",
+  "fx_err_min": "Insira pelo menos 2 equipes.",
+  "fx_err_max": "O limite é de 64 equipes.",
+  "fx_err_dup": "Duas equipes têm o mesmo nome: %s",
+  "fx_cta_title": "Deixe o TurnuVolt cuidar dos placares",
+  "fx_cta_text": "Monte este torneio no aplicativo TurnuVolt: conforme você insere os placares, o saldo de gols e a classificação são atualizados automaticamente, os vencedores avançam no chaveamento e o campeão sobe ao pódio depois da final.",
+  "fx_h2_how": "Como é feita uma tabela de jogos de pontos corridos?",
+  "fx_p_how1_html": "Em pontos corridos, cada equipe enfrenta todas as outras uma vez. A tabela de jogos é montada pelo método circular, também conhecido como <b>tabelas de Berger</b>: uma equipe fica fixa enquanto as outras avançam uma posição a cada rodada. Assim, nenhum confronto se repete e cada equipe disputa no máximo um jogo por rodada.",
+  "fx_p_how2_html": "Um campeonato de pontos corridos com <b>n</b> equipes tem <b>n × (n − 1) ÷ 2</b> jogos no total. Com um número par de equipes, são necessárias <b>n − 1</b> rodadas. Com um número ímpar, são <b>n</b> rodadas, com uma equipe de folga em cada rodada. Em dois turnos (ida e volta), o número de jogos e rodadas dobra, com os mandos de campo invertidos no returno.",
+  "fx_table_caption": "Jogos e rodadas por número de equipes (pontos corridos em turno único)",
+  "fx_th_teams": "Equipes",
+  "fx_th_matches": "Jogos",
+  "fx_th_weeks": "Rodadas",
+  "fx_th_double": "Ida e volta",
+  "fx_h2_example": "Exemplo: tabela de pontos corridos com 4 equipes",
+  "fx_h2_ko": "Chaveamento mata-mata e folgas",
+  "fx_p_ko1_html": "No mata-mata (eliminação simples), quem perde é eliminado. Se o número de equipes não for uma potência de dois (4, 8, 16, 32…), algumas equipes recebem uma <b>folga</b> na primeira fase. O número de folgas é a próxima potência de dois menos o número de equipes: com 6 equipes, 8 − 6 = 2 equipes recebem folga; com 10 equipes, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Um mata-mata com <b>n</b> equipes sempre tem <b>n − 1</b> jogos, pois exatamente uma equipe é eliminada em cada jogo. Um torneio com 16 equipes tem 4 fases e 15 jogos.",
+  "fx_h2_points": "Como a classificação de pontos corridos é calculada?",
+  "fx_p_points_html": "Em esportes como o futebol, uma vitória vale <b>3</b> pontos, um empate vale <b>1</b> e uma derrota vale <b>0</b>. Em caso de empate em pontos, os critérios de desempate são o saldo de gols e, depois, os gols marcados. Em esportes sem empate, como o basquete, uma vitória vale 2 pontos. No vôlei, uma vitória por 3-0 ou 3-1 vale 3 pontos, uma vitória por 3-2 vale 2 pontos e uma derrota por 2-3 vale 1 ponto. O TurnuVolt aplica essas regras automaticamente de acordo com o jogo escolhido.",
+  "fx_faq_h2": "Dúvidas sobre a tabela de jogos",
+  "faq_fx": [
+    [
+      "O gerador de tabela de jogos é grátis?",
+      "Sim. Sem cadastro e sem anúncios. A tabela de jogos é criada no seu navegador, e os nomes das equipes nunca são enviados para nenhum servidor."
+    ],
+    [
+      "Quantas equipes posso adicionar?",
+      "Você pode criar uma tabela de jogos de pontos corridos ou mata-mata para 2 a 64 equipes."
+    ],
+    [
+      "Posso criar uma tabela de pontos corridos com um número ímpar de equipes?",
+      "Sim. Uma equipe fica de folga a cada rodada e, ao final do campeonato, todas terão disputado o mesmo número de jogos."
+    ],
+    [
+      "O que são pontos corridos em dois turnos?",
+      "É uma tabela de jogos em que cada confronto acontece duas vezes, em jogos de ida e volta, com os mandos de campo invertidos no returno. Isso dobra o número de jogos."
+    ],
+    [
+      "Posso imprimir ou compartilhar a tabela de jogos?",
+      "Sim. Imprimir gera uma versão organizada para impressão, Copiar coloca a tabela de jogos na área de transferência como texto e Copiar link cria um link que abre a mesma tabela."
+    ],
+    [
+      "Como acompanhar os placares e a classificação?",
+      "Monte o mesmo torneio no aplicativo TurnuVolt. Conforme você insere os placares, o saldo de gols e a classificação são calculados automaticamente, e os vencedores avançam no chaveamento."
+    ]
+  ]
+}

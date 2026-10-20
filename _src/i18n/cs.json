@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Tvorba turnajů: rozpis zápasů, tabulka a pavouk",
+  "meta_desc": "Pořádejte turnaje každý s každým i vyřazovacím systémem. Zadejte týmy a získejte rozpis zápasů. Tabulka se aktualizuje podle výsledků. 63 sportů a her, offline, bez reklam. Nechybí bezplatný online generátor rozpisu zápasů a losu.",
+  "store_alt": "Stáhnout v App Store",
+  "soon": "Již brzy",
+  "scroll_down": "Posunout dolů",
+  "aria_screens": "Snímky obrazovky",
+  "ss_podium": "Obrazovka se stupni vítězů a pohárem po skončení turnaje",
+  "ss_fixture": "Obrazovka s rozpisem zápasů a tabulkou",
+  "ss_new": "Obrazovka pro vytvoření nového turnaje",
+  "ss_home": "Úvodní obrazovka TurnuVolt",
+  "ss_saved": "Obrazovka s potvrzením uložení turnaje",
+  "aria_games": "Hry",
+  "aria_board": "Přehled her",
+  "aria_cats": "Kategorie",
+  "random_game": "Náhodná hra",
+  "aria_formats": "Herní systémy turnaje",
+  "tab_ko": "Vyřazovací systém",
+  "led_title": "Třída",
+  "reset_bracket": "Resetovat pavouka",
+  "aria_langs": "Jazyky",
+  "aria_lang": "Jazyk",
+  "aria_docs": "Dokumenty",
+  "privacy": "Zásady ochrany osobních údajů",
+  "support": "Podpora",
+  "aria_download": "Stáhnout",
+  "tagline": "Rozpis zápasů, tabulka i pavouk. Za pár sekund připravené, vždy po ruce.",
+  "hero_tool_link": "Vytvořit rozpis zápasů zdarma",
+  "about_eyebrow": "Co je TurnuVolt?",
+  "about_h2": "Založte turnaj, TurnuVolt zařídí zbytek",
+  "about_lead": "TurnuVolt je aplikace pro pořádání turnajů mezi přáteli, ve škole, v práci i v klubu. Zadejte týmy a rozpis zápasů pro ligu nebo vyřazovací systém se vytvoří automaticky. Při zadávání výsledků se tabulka sama aktualizuje a po finále čekají na šampiona stupně vítězů. Aplikace podporuje 63 sportů a her, od fotbalu přes šachy a tenis až po FIFA. Každý sport i hra má vlastní pravidla bodování.",
+  "steps": [
+    [
+      "Přidejte týmy",
+      "Pojmenujte turnaj, zadejte počet týmů nebo hráčů a vyberte hru a herní systém."
+    ],
+    [
+      "Rozpis zápasů je připravený",
+      "V lize hraje každý s každým, případně i s odvetami doma a venku. Ve vyřazovacím systému se automaticky vytvoří pavouk a při lichém počtu týmů se přidělí volný los."
+    ],
+    [
+      "Zadávejte výsledky a sledujte tabulku",
+      "Góly, body, sety nebo jen vítěz: zadávání výsledků se přizpůsobí hře. Body, rozdíl skóre i pořadí se vypočítají automaticky."
+    ]
+  ],
+  "feats": [
+    [
+      "Bodování podle pravidel hry",
+      "Ve fotbale 3 body za výhru, v basketbalu žádné remízy, ve volejbalu rozdíl setů. Každá hra má svá pravidla."
+    ],
+    [
+      "Pokračujte tam, kde jste skončili",
+      "Rozehrané turnaje se ukládají a dokončené najdete v archivu."
+    ],
+    [
+      "Bez připojení k internetu",
+      "Všechno běží ve vašem telefonu: na hřišti, na táboře i na školním dvoře."
+    ],
+    [
+      "Bez reklam a bez účtu",
+      "Jednorázový nákup. Bez předplatného, reklam, registrace i sběru dat."
+    ],
+    [
+      "30+ jazyků",
+      "Angličtina, španělština, němčina, arabština, japonština a řada dalších, včetně jazyků psaných zprava doleva."
+    ],
+    [
+      "Stupně vítězů a pohár",
+      "Po finále vystoupí vítěz, druhý a třetí tým na stupně vítězů za doprovodu konfet."
+    ]
+  ],
+  "tool_eyebrow": "Nástroj zdarma",
+  "tool_h2": "Potřebujete rozpis zápasů hned?",
+  "tool_text": "Vytvořte si rozpis zápasů zdarma přímo v prohlížeči, bez stahování. Zadejte týmy a rozpis pro systém každý s každým nebo vyřazovací systém je okamžitě hotový. Vytiskněte ho, zkopírujte nebo sdílejte odkazem.",
+  "tool_btn": "Otevřít generátor rozpisu zápasů",
+  "faq_eyebrow": "Časté dotazy",
+  "faq_h2": "Co se hodí vědět",
+  "faq_home": [
+    [
+      "Jak v TurnuVolt vytvořím rozpis zápasů?",
+      "Klepněte na Nový turnaj, zadejte název turnaje a počet týmů, vyberte hru a herní systém (liga nebo vyřazovací systém) a doplňte názvy týmů. Rozpis zápasů i tabulka se vytvoří automaticky. Pak už jen zadáváte výsledky."
+    ],
+    [
+      "Jaké sporty a hry aplikace podporuje?",
+      "Celkem 63, například fotbal, futsal, basketbal, volejbal, tenis, stolní tenis, padel, badminton, šachy, vrhcáby, šipky, pool, FIFA a Valorant. Pro ostatní je tu možnost Vlastní / Jiné."
+    ],
+    [
+      "Jaký je rozdíl mezi ligou a vyřazovacím systémem?",
+      "V lize hraje každý s každým a o vítězi rozhoduje tabulka. Můžete přidat i odvety, takže se každý soupeř utká s každým doma a venku. Ve vyřazovacím systému poražený vypadává a vítězové postupují až do finále."
+    ],
+    [
+      "Co se stane při lichém počtu týmů?",
+      "V lize má v každém kole jeden tým volný los. Ve vyřazovacím systému se týmy s volným losem v prvním kole vyberou automaticky a postoupí rovnou do dalšího kola."
+    ],
+    [
+      "Jak se počítá tabulka?",
+      "Při zadávání výsledků se automaticky aktualizují odehrané zápasy, výhry, remízy, prohry, rozdíl skóre i body. Bodování závisí na hře: ve fotbale jsou za výhru 3 body a za remízu 1; v basketbalu nejsou remízy; ve volejbalu se počítá i rozdíl setů."
+    ],
+    [
+      "Potřebuji připojení k internetu? Kde se ukládají moje data?",
+      "Připojení není potřeba. Turnaje se ukládají jen ve vašem zařízení. Nepotřebujete účet, aplikace nesbírá osobní údaje a nic neposílá na server."
+    ],
+    [
+      "Je TurnuVolt zdarma?",
+      "Aplikaci si koupíte jednorázově v App Store. Je bez předplatného, reklam a nákupů v aplikaci. Generátor rozpisu zápasů v prohlížeči je zcela zdarma."
+    ],
+    [
+      "Je aplikace dostupná pro Android?",
+      "Verze pro Android brzy dorazí na Google Play. TurnuVolt je nyní k dispozici pro iPhone a iPad (iOS 17.6 nebo novější)."
+    ]
+  ],
+  "fx_slug": "generator-rozpisu-zapasu",
+  "fx_name": "Generátor rozpisu zápasů",
+  "fx_title": "Generátor rozpisu zápasů zdarma – každý s každým i vyřazovací systém | TurnuVolt",
+  "fx_desc": "Zadejte týmy a za pár sekund získáte los a rozpis zápasů pro turnaj každý s každým nebo vyřazovací systém. Možnost odvet doma a venku, automatický volný los. Zdarma v prohlížeči, bez registrace. Rozpis si vytiskněte nebo sdílejte.",
+  "fx_h1_html": "<em>Generátor</em> rozpisu zápasů",
+  "fx_sub": "Zadejte týmy a rozpis zápasů je za pár sekund hotový. Zdarma, bez registrace, přímo v prohlížeči.",
+  "fx_teams_label": "Týmy (každý na samostatný řádek)",
+  "fx_teams_ph": "Orli\nLvi\nTygři\nVlci",
+  "fx_count_label": "nebo počet týmů:",
+  "fx_fill": "Doplnit",
+  "fx_format": "Herní systém",
+  "fx_knockout": "Vyřazovací systém",
+  "fx_double": "Doma a venku (každý s každým dvakrát)",
+  "fx_shuffle": "Zamíchat los",
+  "fx_generate": "Vygenerovat rozpis zápasů",
+  "fx_sum_league": "Týmy: %1$d · kola: %2$d · zápasy: %3$d",
+  "fx_sum_ko": "Týmy: %1$d · kola: %2$d · zápasy: %3$d",
+  "fx_week": "Kolo %d",
+  "fx_bye_row": "%s má v tomto kole volný los",
+  "fx_ko_bye": "%s má volný los a postupuje do dalšího kola",
+  "fx_winner_of": "Vítěz zápasu č. %d",
+  "fx_copy": "Kopírovat",
+  "fx_copied": "Zkopírováno",
+  "fx_share": "Kopírovat odkaz",
+  "fx_link_copied": "Odkaz zkopírován",
+  "fx_print": "Tisknout",
+  "fx_err_min": "Zadejte alespoň 2 týmy.",
+  "fx_err_max": "Počet týmů může být nejvýše 64.",
+  "fx_err_dup": "Dva týmy mají stejný název: %s",
+  "fx_cta_title": "Nechte TurnuVolt počítat výsledky",
+  "fx_cta_text": "Založte tento turnaj v aplikaci TurnuVolt. Při zadávání výsledků se tabulka, rozdíl skóre i pořadí aktualizují automaticky, vítězové postupují pavoukem a po finále čekají na šampiona stupně vítězů.",
+  "fx_h2_how": "Jak se tvoří rozpis zápasů každý s každým?",
+  "fx_p_how1_html": "V lize se systémem každý s každým se každý tým utká se všemi ostatními právě jednou. Rozpis zápasů vzniká kruhovou metodou, známou také jako <b>Bergerovy tabulky</b>: jeden tým zůstává na místě a ostatní se v každém kole posunou o jednu pozici. Žádná dvojice se tak neopakuje a každý tým odehraje v jednom kole nejvýše jeden zápas.",
+  "fx_p_how2_html": "Liga s <b>n</b> týmy má celkem <b>n × (n − 1) ÷ 2</b> zápasů. Při sudém počtu týmů se hraje <b>n − 1</b> kol, při lichém <b>n</b> kol a v každém kole má jeden tým volný los. Při systému každý s každým dvakrát (doma a venku) se počet zápasů i kol zdvojnásobí a ve druhé polovině si týmy prohodí pořadatelství.",
+  "fx_table_caption": "Počet zápasů a kol podle počtu týmů (každý s každým jednou)",
+  "fx_th_teams": "Týmy",
+  "fx_th_matches": "Zápasy",
+  "fx_th_weeks": "Kola",
+  "fx_th_double": "Doma a venku",
+  "fx_h2_example": "Příklad: rozpis ligy pro 4 týmy",
+  "fx_h2_ko": "Vyřazovací pavouk a volný los",
+  "fx_p_ko1_html": "Ve vyřazovacím systému poražený vypadává. Pokud počet týmů není mocninou dvou (4, 8, 16, 32…), některé týmy získají v prvním kole <b>volný los</b>. Počet volných losů zjistíte odečtením počtu týmů od nejbližší vyšší mocniny dvou: při 6 týmech získají volný los 8 − 6 = 2 týmy, při 10 týmech je to 16 − 10 = 6.",
+  "fx_p_ko2_html": "Turnaj vyřazovacím systémem s <b>n</b> týmy má vždy <b>n − 1</b> zápasů, protože v každém zápase vypadne právě jeden tým. Turnaj pro 16 týmů má 4 kola a 15 zápasů.",
+  "fx_h2_points": "Jak se počítá ligová tabulka?",
+  "fx_p_points_html": "Ve sportech, jako je fotbal, získá tým za výhru <b>3</b> body, za remízu <b>1</b> bod a za prohru <b>0</b> bodů. Při shodném počtu bodů rozhoduje rozdíl skóre a poté počet vstřelených gólů. Ve sportech bez remíz, například v basketbalu, jsou za výhru 2 body. Ve volejbalu přináší výhra 3-0 nebo 3-1 celkem 3 body, výhra 3-2 pak 2 body a prohra 2-3 znamená 1 bod. TurnuVolt tato pravidla používá automaticky podle vybrané hry.",
+  "fx_faq_h2": "Dotazy k rozpisu zápasů",
+  "faq_fx": [
+    [
+      "Je generátor rozpisu zápasů zdarma?",
+      "Ano. Bez registrace a bez reklam. Rozpis zápasů se vytváří přímo v prohlížeči a názvy týmů se nikam neposílají."
+    ],
+    [
+      "Kolik týmů můžu přidat?",
+      "Můžete vytvořit rozpis zápasů pro ligu i vyřazovací systém s 2 až 64 týmy."
+    ],
+    [
+      "Můžu vytvořit ligový rozpis zápasů pro lichý počet týmů?",
+      "Ano. V každém kole má jeden tým volný los a po skončení ligy mají všechny týmy odehraný stejný počet zápasů."
+    ],
+    [
+      "Co znamená každý s každým dvakrát?",
+      "Každá dvojice se utká dvakrát. Ve druhé polovině si týmy prohodí pořadatelství, takže každý hraje s každým doma a venku. Počet zápasů se tím zdvojnásobí."
+    ],
+    [
+      "Můžu rozpis zápasů vytisknout nebo sdílet?",
+      "Ano. Tlačítko Tisknout připraví přehledný výtisk, Kopírovat vloží rozpis zápasů do schránky jako text a Kopírovat odkaz vytvoří odkaz, který otevře stejný rozpis."
+    ],
+    [
+      "Jak můžu sledovat výsledky a tabulku?",
+      "Založte stejný turnaj v aplikaci TurnuVolt. Při zadávání výsledků se tabulka, rozdíl skóre i pořadí počítají automaticky a vítězové sami postupují pavoukem."
+    ]
+  ]
+}

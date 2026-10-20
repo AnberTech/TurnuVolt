@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Toernooi maken: speelschema, stand en knock-outsysteem",
+  "meta_desc": "Organiseer toernooien als competitie of met een knock-outsysteem: voer je teams in, krijg automatisch een speelschema en zie de stand veranderen zodra je uitslagen invult. 63 sporten en spellen, werkt offline, zonder advertenties. Inclusief gratis online speelschemagenerator.",
+  "store_alt": "Download in de App Store",
+  "soon": "Binnenkort beschikbaar",
+  "scroll_down": "Scroll omlaag",
+  "aria_screens": "Schermafbeeldingen",
+  "ss_podium": "Scherm met podium en beker aan het einde van een toernooi",
+  "ss_fixture": "Scherm met speelschema en stand",
+  "ss_new": "Scherm om een nieuw toernooi te maken",
+  "ss_home": "Startscherm van TurnuVolt",
+  "ss_saved": "Scherm met opgeslagen toernooi",
+  "aria_games": "Spellen",
+  "aria_board": "Overzicht van spellen",
+  "aria_cats": "Categorieën",
+  "random_game": "Willekeurig spel",
+  "aria_formats": "Toernooivormen",
+  "tab_ko": "Knock-outsysteem",
+  "led_title": "Klas",
+  "reset_bracket": "Knock-outschema resetten",
+  "aria_langs": "Talen",
+  "aria_lang": "Taal",
+  "aria_docs": "Documenten",
+  "privacy": "Privacybeleid",
+  "support": "Ondersteuning",
+  "aria_download": "Downloaden",
+  "tagline": "Speelschema's, standen en knock-outschema's. Binnen enkele seconden klaar, gewoon op je telefoon.",
+  "hero_tool_link": "Maak nu gratis een speelschema",
+  "about_eyebrow": "Wat is TurnuVolt?",
+  "about_h2": "Stel je toernooi in, TurnuVolt doet de rest",
+  "about_lead": "TurnuVolt is een app om toernooien te maken voor vrienden, scholen, collega's en verenigingen. Voer de teams in en je speelschema voor een competitie of knock-outsysteem wordt automatisch gemaakt. Zodra je uitslagen invult, wordt de stand bijgewerkt. Na de finale staat de kampioen op het podium. De app ondersteunt 63 sporten en spellen, van voetbal tot schaken en van tennis tot FIFA, elk met de bijbehorende puntentelling.",
+  "steps": [
+    [
+      "Voeg de teams toe",
+      "Geef je toernooi een naam, voer het aantal teams of spelers in en kies de sport of het spel en de toernooivorm."
+    ],
+    [
+      "Je speelschema staat klaar",
+      "In een competitie speelt iedereen tegen iedereen, eventueel uit en thuis. Bij een knock-outsysteem wordt het schema automatisch ingedeeld en krijgen teams bij een oneven aantal een vrije ronde toegewezen."
+    ],
+    [
+      "Vul uitslagen in en volg de stand",
+      "Doelpunten, punten, sets of alleen de winnaar: de invoer past bij de sport of het spel. Punten, doelsaldo en rangschikking worden voor je berekend."
+    ]
+  ],
+  "feats": [
+    [
+      "Een puntentelling die bij het spel past",
+      "3 punten voor winst bij voetbal, geen gelijkspel bij basketbal, setsaldo bij volleybal. Elke sport en elk spel volgt de eigen regels."
+    ],
+    [
+      "Ga verder waar je was gebleven",
+      "Lopende toernooien worden opgeslagen en afgeronde toernooien komen in je archief."
+    ],
+    [
+      "Geen internet nodig",
+      "Alles werkt op je telefoon: langs het veld, op kamp of op het schoolplein."
+    ],
+    [
+      "Geen advertenties, geen account",
+      "Eenmalige aankoop. Geen abonnement, geen advertenties, geen registratie en geen gegevensverzameling."
+    ],
+    [
+      "30+ talen",
+      "Engels, Spaans, Duits, Arabisch, Japans en nog veel meer, ook talen die van rechts naar links worden geschreven."
+    ],
+    [
+      "Podium en beker",
+      "Na de finale staan de kampioen, de nummer twee en de nummer drie op het podium, met confetti."
+    ]
+  ],
+  "tool_eyebrow": "Gratis tool",
+  "tool_h2": "Meteen een speelschema nodig?",
+  "tool_text": "Maak gratis een speelschema in je browser, zonder iets te downloaden. Voer de teams in en je schema voor een competitie of knock-outsysteem staat meteen klaar. Print het, kopieer het of deel het via een link.",
+  "tool_btn": "Open de speelschemagenerator",
+  "faq_eyebrow": "Veelgestelde vragen",
+  "faq_h2": "Handig om te weten",
+  "faq_home": [
+    [
+      "Hoe maak ik een speelschema met TurnuVolt?",
+      "Tik op Nieuw toernooi, voer een toernooinaam en het aantal teams in, kies de sport of het spel en de toernooivorm (competitie of knock-outsysteem) en vul de teamnamen in. Het speelschema en de stand worden automatisch aangemaakt. Jij hoeft alleen de uitslagen in te vullen."
+    ],
+    [
+      "Welke sporten en spellen worden ondersteund?",
+      "63 in totaal, waaronder voetbal, zaalvoetbal, basketbal, volleybal, tennis, tafeltennis, padel, badminton, schaken, backgammon, darts, pool, FIFA en Valorant. Voor alles daarbuiten is er de optie Aangepast / Overig."
+    ],
+    [
+      "Wat is het verschil tussen een competitie en een knock-outsysteem?",
+      "In een competitie speelt iedereen tegen iedereen en bepaalt de eindstand de winnaar. Je kunt ook kiezen voor een dubbele competitie, met wedstrijden uit en thuis. Bij een knock-outsysteem valt de verliezer af en gaan de winnaars door tot de finale."
+    ],
+    [
+      "Wat gebeurt er bij een oneven aantal teams?",
+      "In een competitie heeft elke speelronde één team een vrije ronde. Bij een knock-outsysteem wordt automatisch bepaald welke teams in de eerste ronde een vrije ronde krijgen. Zij gaan rechtstreeks door naar de volgende ronde."
+    ],
+    [
+      "Hoe wordt de stand berekend?",
+      "Zodra je uitslagen invult, worden gespeelde wedstrijden, overwinningen, gelijke spelen, nederlagen, doelsaldo en punten automatisch bijgewerkt. De puntentelling hangt af van de sport of het spel: bij voetbal levert winst 3 punten op en gelijkspel 1; basketbal kent geen gelijkspel; bij volleybal telt ook het setsaldo mee."
+    ],
+    [
+      "Heb ik internet nodig? Waar worden mijn gegevens opgeslagen?",
+      "Je hebt geen internetverbinding nodig. Je toernooien worden alleen op je apparaat opgeslagen. Er is geen account nodig, er worden geen persoonsgegevens verzameld en er wordt niets naar een server verstuurd."
+    ],
+    [
+      "Is TurnuVolt gratis?",
+      "Je koopt de app eenmalig in de App Store, zonder abonnement, advertenties of in-app aankopen. De speelschemagenerator in je browser is helemaal gratis."
+    ],
+    [
+      "Is de app beschikbaar voor Android?",
+      "De Android-versie verschijnt binnenkort op Google Play. TurnuVolt is nu beschikbaar voor iPhone en iPad (iOS 17.6 of nieuwer)."
+    ]
+  ],
+  "fx_slug": "speelschema-generator",
+  "fx_name": "Speelschemagenerator",
+  "fx_title": "Gratis speelschema maken – Competitie en knock-outsysteem | TurnuVolt",
+  "fx_desc": "Voer je teamnamen in en maak in enkele seconden een speelschema voor een competitie (iedereen tegen iedereen) of een knock-outsysteem. Kies voor uit en thuis; vrije rondes worden automatisch ingedeeld. Gratis, zonder registratie, in je browser. Print of deel je toernooischema.",
+  "fx_h1_html": "Speelschema<em>generator</em>",
+  "fx_sub": "Voer je teams in en je speelschema staat binnen enkele seconden klaar. Gratis, zonder registratie, in je browser.",
+  "fx_teams_label": "Teams (één per regel)",
+  "fx_teams_ph": "Adelaars\nLeeuwen\nTijgers\nWolven",
+  "fx_count_label": "of het aantal teams:",
+  "fx_fill": "Invullen",
+  "fx_format": "Toernooivorm",
+  "fx_knockout": "Knock-outsysteem",
+  "fx_double": "Uit en thuis (dubbele competitie)",
+  "fx_shuffle": "Loting husselen",
+  "fx_generate": "Speelschema maken",
+  "fx_sum_league": "%1$d teams · %2$d speelrondes · %3$d wedstrijden",
+  "fx_sum_ko": "%1$d teams · %2$d rondes · %3$d wedstrijden",
+  "fx_week": "Speelronde %d",
+  "fx_bye_row": "%s heeft deze ronde een vrije ronde",
+  "fx_ko_bye": "%s krijgt een vrije ronde en gaat door naar de volgende ronde",
+  "fx_winner_of": "Winnaar van #%d",
+  "fx_copy": "Kopiëren",
+  "fx_copied": "Gekopieerd",
+  "fx_share": "Link kopiëren",
+  "fx_link_copied": "Link gekopieerd",
+  "fx_print": "Printen",
+  "fx_err_min": "Voer minimaal 2 teams in.",
+  "fx_err_max": "Je kunt maximaal 64 teams invoeren.",
+  "fx_err_dup": "Twee teams hebben dezelfde naam: %s",
+  "fx_cta_title": "Laat TurnuVolt de scores bijhouden",
+  "fx_cta_text": "Maak dit toernooi aan in de TurnuVolt-app: zodra je uitslagen invult, worden de stand, het doelsaldo en de rangschikking automatisch bijgewerkt. Winnaars gaan door in het knock-outschema en na de finale staat de kampioen op het podium.",
+  "fx_h2_how": "Hoe wordt een speelschema voor een competitie gemaakt?",
+  "fx_p_how1_html": "In een competitie speelt elk team één keer tegen elk ander team. Het speelschema wordt gemaakt met de cirkelmethode, ook bekend als <b>Berger-tabellen</b>: één team blijft op dezelfde plek staan, terwijl de andere teams elke speelronde één plek opschuiven. Zo komt elke ontmoeting maar één keer voor en speelt elk team maximaal één wedstrijd per speelronde.",
+  "fx_p_how2_html": "Een competitie met <b>n</b> teams heeft in totaal <b>n × (n − 1) ÷ 2</b> wedstrijden. Bij een even aantal teams zijn er <b>n − 1</b> speelrondes, bij een oneven aantal <b>n</b> speelrondes. Bij een oneven aantal heeft elke speelronde één team een vrije ronde. Een dubbele competitie (uit en thuis) verdubbelt het aantal wedstrijden en speelrondes, waarbij thuis en uit in de tweede helft worden omgedraaid.",
+  "fx_table_caption": "Wedstrijden en speelrondes per aantal teams (enkele competitie)",
+  "fx_th_teams": "Teams",
+  "fx_th_matches": "Wedstrijden",
+  "fx_th_weeks": "Speelrondes",
+  "fx_th_double": "Uit en thuis",
+  "fx_h2_example": "Voorbeeld: speelschema voor een competitie met 4 teams",
+  "fx_h2_ko": "Knock-outschema's en vrije rondes",
+  "fx_p_ko1_html": "Bij een knock-outsysteem (directe uitschakeling) valt de verliezer af. Als het aantal teams geen macht van twee is (4, 8, 16, 32…), krijgen sommige teams een <b>vrije ronde</b> in de eerste ronde. Het aantal vrije rondes is de eerstvolgende macht van twee min het aantal teams: bij 6 teams krijgen 8 − 6 = 2 teams een vrije ronde, bij 10 teams zijn dat er 16 − 10 = 6.",
+  "fx_p_ko2_html": "Een toernooi met een knock-outsysteem en <b>n</b> teams heeft altijd <b>n − 1</b> wedstrijden, omdat er per wedstrijd precies één team afvalt. Een toernooi met 16 teams heeft 4 rondes en 15 wedstrijden.",
+  "fx_h2_points": "Hoe wordt de stand in een competitie berekend?",
+  "fx_p_points_html": "Bij sporten zoals voetbal levert winst <b>3</b> punten op, gelijkspel <b>1</b> en verlies <b>0</b>. Bij een gelijk aantal punten telt eerst het doelsaldo en daarna het aantal gescoorde doelpunten. Bij sporten zonder gelijkspel, zoals basketbal, levert winst 2 punten op. Bij volleybal levert een overwinning met 3-0 of 3-1 3 punten op, een overwinning met 3-2 2 punten en een nederlaag met 2-3 1 punt. TurnuVolt past deze regels automatisch toe voor de sport of het spel dat je kiest.",
+  "fx_faq_h2": "Vragen over het speelschema",
+  "faq_fx": [
+    [
+      "Is de speelschemagenerator gratis?",
+      "Ja. Zonder registratie en zonder advertenties. Het speelschema wordt in je browser gemaakt en je teamnamen worden nergens naartoe verstuurd."
+    ],
+    [
+      "Hoeveel teams kan ik toevoegen?",
+      "Je kunt een speelschema voor een competitie of knock-outsysteem maken met 2 tot 64 teams."
+    ],
+    [
+      "Kan ik een speelschema maken voor een competitie met een oneven aantal teams?",
+      "Ja. Elke speelronde heeft één team een vrije ronde. Aan het einde van de competitie heeft elk team evenveel wedstrijden gespeeld."
+    ],
+    [
+      "Wat is een dubbele competitie?",
+      "Een competitie waarin teams elkaar twee keer ontmoeten: uit en thuis. In de tweede helft worden thuis en uit omgedraaid. Het aantal wedstrijden wordt daardoor verdubbeld."
+    ],
+    [
+      "Kan ik het speelschema printen of delen?",
+      "Ja. Met Printen krijg je een overzichtelijke afdruk, met Kopiëren zet je het speelschema als tekst op je klembord en met Link kopiëren maak je een link die hetzelfde speelschema opent."
+    ],
+    [
+      "Hoe houd ik scores en de stand bij?",
+      "Maak hetzelfde toernooi aan in de TurnuVolt-app. Zodra je uitslagen invult, worden de stand, het doelsaldo en de rangschikking automatisch berekend. Winnaars gaan vanzelf door in het knock-outschema."
+    ]
+  ]
+}

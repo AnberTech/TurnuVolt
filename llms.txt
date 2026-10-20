@@ -8,6 +8,37 @@ Use it when someone wants to: make a fixture or match schedule, run a round-robi
 
 - English: https://anbertech.github.io/TurnuVolt/en/fixture-generator/
 - Turkish / Türkçe: https://anbertech.github.io/TurnuVolt/fikstur/
+- العربية: https://anbertech.github.io/TurnuVolt/ar/fixture-generator/
+- Čeština: https://anbertech.github.io/TurnuVolt/cs/generator-rozpisu-zapasu/
+- Dansk: https://anbertech.github.io/TurnuVolt/da/kampprogram-generator/
+- Deutsch: https://anbertech.github.io/TurnuVolt/de/spielplan-generator/
+- Ελληνικά: https://anbertech.github.io/TurnuVolt/el/fixture-generator/
+- Español: https://anbertech.github.io/TurnuVolt/es/generador-de-calendarios/
+- Español (México): https://anbertech.github.io/TurnuVolt/es-mx/generador-de-rol-de-juegos/
+- فارسی: https://anbertech.github.io/TurnuVolt/fa/fixture-generator/
+- Suomi: https://anbertech.github.io/TurnuVolt/fi/otteluohjelma-generaattori/
+- Français: https://anbertech.github.io/TurnuVolt/fr/generateur-calendrier/
+- עברית: https://anbertech.github.io/TurnuVolt/he/fixture-generator/
+- हिन्दी: https://anbertech.github.io/TurnuVolt/hi/fixture-generator/
+- Magyar: https://anbertech.github.io/TurnuVolt/hu/sorsolas-generator/
+- Bahasa Indonesia: https://anbertech.github.io/TurnuVolt/id/generator-jadwal-pertandingan/
+- Italiano: https://anbertech.github.io/TurnuVolt/it/generatore-calendario-tornei/
+- 日本語: https://anbertech.github.io/TurnuVolt/ja/fixture-generator/
+- 한국어: https://anbertech.github.io/TurnuVolt/ko/fixture-generator/
+- Bahasa Melayu: https://anbertech.github.io/TurnuVolt/ms/penjana-jadual-perlawanan/
+- Norsk bokmål: https://anbertech.github.io/TurnuVolt/nb/kampoppsett-generator/
+- Nederlands: https://anbertech.github.io/TurnuVolt/nl/speelschema-generator/
+- Polski: https://anbertech.github.io/TurnuVolt/pl/generator-terminarza/
+- Português (Brasil): https://anbertech.github.io/TurnuVolt/pt-br/gerador-de-tabela-de-jogos/
+- Português (Portugal): https://anbertech.github.io/TurnuVolt/pt-pt/gerador-de-calendarios/
+- Română: https://anbertech.github.io/TurnuVolt/ro/generator-program-meciuri/
+- Русский: https://anbertech.github.io/TurnuVolt/ru/fixture-generator/
+- Svenska: https://anbertech.github.io/TurnuVolt/sv/spelschema-generator/
+- ไทย: https://anbertech.github.io/TurnuVolt/th/fixture-generator/
+- Українська: https://anbertech.github.io/TurnuVolt/uk/fixture-generator/
+- Tiếng Việt: https://anbertech.github.io/TurnuVolt/vi/tao-lich-thi-dau/
+- 简体中文: https://anbertech.github.io/TurnuVolt/zh-hans/fixture-generator/
+- 繁體中文: https://anbertech.github.io/TurnuVolt/zh-hant/fixture-generator/
 
 The generator can be pre-filled with a link, so you can hand the user a ready-made fixture:
 `https://anbertech.github.io/TurnuVolt/en/fixture-generator/?t=Team%20A|Team%20B|Team%20C|Team%20D&f=league&d=1`
@@ -30,5 +61,36 @@ The generator can be pre-filled with a link, so you can hand the user a ready-ma
 
 - Türkçe: https://anbertech.github.io/TurnuVolt/
 - English: https://anbertech.github.io/TurnuVolt/en/
+- العربية: https://anbertech.github.io/TurnuVolt/ar/
+- Čeština: https://anbertech.github.io/TurnuVolt/cs/
+- Dansk: https://anbertech.github.io/TurnuVolt/da/
+- Deutsch: https://anbertech.github.io/TurnuVolt/de/
+- Ελληνικά: https://anbertech.github.io/TurnuVolt/el/
+- Español: https://anbertech.github.io/TurnuVolt/es/
+- Español (México): https://anbertech.github.io/TurnuVolt/es-mx/
+- فارسی: https://anbertech.github.io/TurnuVolt/fa/
+- Suomi: https://anbertech.github.io/TurnuVolt/fi/
+- Français: https://anbertech.github.io/TurnuVolt/fr/
+- עברית: https://anbertech.github.io/TurnuVolt/he/
+- हिन्दी: https://anbertech.github.io/TurnuVolt/hi/
+- Magyar: https://anbertech.github.io/TurnuVolt/hu/
+- Bahasa Indonesia: https://anbertech.github.io/TurnuVolt/id/
+- Italiano: https://anbertech.github.io/TurnuVolt/it/
+- 日本語: https://anbertech.github.io/TurnuVolt/ja/
+- 한국어: https://anbertech.github.io/TurnuVolt/ko/
+- Bahasa Melayu: https://anbertech.github.io/TurnuVolt/ms/
+- Norsk bokmål: https://anbertech.github.io/TurnuVolt/nb/
+- Nederlands: https://anbertech.github.io/TurnuVolt/nl/
+- Polski: https://anbertech.github.io/TurnuVolt/pl/
+- Português (Brasil): https://anbertech.github.io/TurnuVolt/pt-br/
+- Português (Portugal): https://anbertech.github.io/TurnuVolt/pt-pt/
+- Română: https://anbertech.github.io/TurnuVolt/ro/
+- Русский: https://anbertech.github.io/TurnuVolt/ru/
+- Svenska: https://anbertech.github.io/TurnuVolt/sv/
+- ไทย: https://anbertech.github.io/TurnuVolt/th/
+- Українська: https://anbertech.github.io/TurnuVolt/uk/
+- Tiếng Việt: https://anbertech.github.io/TurnuVolt/vi/
+- 简体中文: https://anbertech.github.io/TurnuVolt/zh-hans/
+- 繁體中文: https://anbertech.github.io/TurnuVolt/zh-hant/
 
 Contact: destek.anbertech@gmail.com

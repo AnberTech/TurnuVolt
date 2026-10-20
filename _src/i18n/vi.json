@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Ứng Dụng Tạo Giải Đấu: Lịch Thi Đấu, Bảng Xếp Hạng & Nhánh Đấu",
+  "meta_desc": "Tổ chức giải đấu vòng tròn và loại trực tiếp: nhập tên đội, tạo lịch thi đấu tự động và xem bảng xếp hạng cập nhật ngay khi nhập tỉ số. Hỗ trợ 63 môn thể thao và trò chơi, dùng ngoại tuyến, không quảng cáo. Có công cụ tạo lịch thi đấu trực tuyến miễn phí.",
+  "store_alt": "Tải về trên App Store",
+  "soon": "Sắp ra mắt",
+  "scroll_down": "Cuộn xuống",
+  "aria_screens": "Ảnh chụp màn hình",
+  "ss_podium": "Màn hình bục vinh quang và cúp vô địch khi kết thúc giải đấu",
+  "ss_fixture": "Màn hình lịch thi đấu và bảng xếp hạng",
+  "ss_new": "Màn hình tạo giải đấu mới",
+  "ss_home": "Màn hình chính TurnuVolt",
+  "ss_saved": "Màn hình giải đấu đã lưu",
+  "aria_games": "Trò chơi & môn thể thao",
+  "aria_board": "Bảng danh sách môn thi đấu",
+  "aria_cats": "Danh mục",
+  "random_game": "Chọn ngẫu nhiên",
+  "aria_formats": "Thể thức giải đấu",
+  "tab_ko": "Loại trực tiếp",
+  "led_title": "Lớp",
+  "reset_bracket": "Đặt lại nhánh đấu",
+  "aria_langs": "Ngôn ngữ",
+  "aria_lang": "Ngôn ngữ",
+  "aria_docs": "Tài liệu",
+  "privacy": "Chính sách bảo mật",
+  "support": "Hỗ trợ",
+  "aria_download": "Tải về",
+  "tagline": "Lịch thi đấu, bảng xếp hạng và nhánh đấu. Sẵn sàng trong vài giây, gọn trong túi bạn.",
+  "hero_tool_link": "Tạo lịch thi đấu miễn phí ngay",
+  "about_eyebrow": "TurnuVolt là gì?",
+  "about_h2": "Bạn tạo giải đấu, mọi việc còn lại cứ để TurnuVolt lo",
+  "about_lead": "TurnuVolt là ứng dụng tạo và quản lý giải đấu dành cho nhóm bạn, trường học, văn phòng và câu lạc bộ. Chỉ cần nhập tên các đội, lịch thi đấu vòng tròn hoặc nhánh đấu loại trực tiếp sẽ được tạo tự động. Khi bạn nhập tỉ số, bảng xếp hạng tự động cập nhật, và khi trận chung kết khép lại, nhà vô địch sẽ bước lên bục vinh quang. Ứng dụng hỗ trợ 63 môn thể thao và trò chơi, từ bóng đá, cờ vua, quần vợt đến FIFA, và tính điểm theo đúng luật của từng môn.",
+  "steps": [
+    [
+      "Thêm các đội tham gia",
+      "Đặt tên giải đấu, nhập số lượng đội hoặc người chơi, sau đó chọn môn thi đấu và thể thức."
+    ],
+    [
+      "Lịch thi đấu sẵn sàng",
+      "Ở thể thức vòng tròn, các đội lần lượt gặp nhau, có tùy chọn đá lượt đi lượt về. Ở thể thức loại trực tiếp, nhánh đấu được dựng sẵn và suất miễn đấu (bye) được phân bổ tự động khi lẻ đội."
+    ],
+    [
+      "Nhập tỉ số, theo dõi bảng xếp hạng",
+      "Bàn thắng, điểm số, số set hay chỉ cần chọn người thắng: cách nhập kết quả luôn khớp với từng môn. Điểm, hiệu số và thứ hạng đều được tính tự động cho bạn."
+    ]
+  ],
+  "feats": [
+    [
+      "Tính điểm chuẩn theo từng môn",
+      "Thắng được 3 điểm trong bóng đá, không có kết quả hòa trong bóng rổ, tính hiệu số set trong bóng chuyền. Mỗi môn đều tuân theo luật riêng."
+    ],
+    [
+      "Tiếp tục bất cứ lúc nào",
+      "Các giải đấu đang diễn ra được lưu tự động và các giải đã kết thúc sẽ chuyển vào kho lưu trữ."
+    ],
+    [
+      "Không cần kết nối mạng",
+      "Mọi thứ hoạt động ngay trên điện thoại: ngoài sân bóng, tại buổi cắm trại hay trên sân trường."
+    ],
+    [
+      "Không quảng cáo, không cần tài khoản",
+      "Mua một lần duy nhất. Không gói đăng ký định kỳ, không quảng cáo, không cần đăng ký tài khoản, không thu thập dữ liệu."
+    ],
+    [
+      "Hơn 30 ngôn ngữ",
+      "Tiếng Việt, tiếng Anh, tiếng Tây Ban Nha, tiếng Đức, tiếng Ả Rập, tiếng Nhật và nhiều ngôn ngữ khác, bao gồm cả các ngôn ngữ viết từ phải sang trái."
+    ],
+    [
+      "Bục vinh quang và cúp vô địch",
+      "Khi trận chung kết kết thúc, nhà vô địch, á quân và hạng ba sẽ bước lên bục trao giải rợp pháo giấy."
+    ]
+  ],
+  "tool_eyebrow": "Công cụ miễn phí",
+  "tool_h2": "Bạn cần tạo lịch thi đấu ngay bây giờ?",
+  "tool_text": "Tạo lịch thi đấu miễn phí ngay trên trình duyệt mà không cần tải ứng dụng. Nhập danh sách đội và lịch thi đấu vòng tròn hoặc loại trực tiếp sẽ sẵn sàng tức thì. Bạn có thể in ra, sao chép hoặc chia sẻ qua liên kết.",
+  "tool_btn": "Mở công cụ tạo lịch thi đấu",
+  "faq_eyebrow": "Câu hỏi thường gặp",
+  "faq_h2": "Thông tin hữu ích",
+  "faq_home": [
+    [
+      "Làm thế nào để tạo lịch thi đấu với TurnuVolt?",
+      "Chạm vào Tạo giải đấu mới, nhập tên giải và số lượng đội, chọn môn thi đấu cùng thể thức (vòng tròn hoặc loại trực tiếp), rồi nhập tên các đội. Lịch thi đấu và bảng xếp hạng sẽ được tạo tự động; việc duy nhất bạn cần làm là nhập tỉ số."
+    ],
+    [
+      "Ứng dụng hỗ trợ những môn thể thao và trò chơi nào?",
+      "Tổng cộng có 63 môn, bao gồm bóng đá, futsal, bóng rổ, bóng chuyền, quần vợt, bóng bàn, padel, cầu lông, cờ vua, cờ thỏ cáo, phóng phi tiêu, bi-a, FIFA và Valorant. Với bất kỳ trò chơi nào khác, bạn có thể chọn mục Tùy chỉnh / Khác."
+    ],
+    [
+      "Thể thức vòng tròn và loại trực tiếp khác nhau như thế nào?",
+      "Ở thể thức vòng tròn, mọi đội đều lần lượt gặp nhau và bảng xếp hạng sẽ quyết định nhà vô địch; bạn cũng có thể chọn đá vòng tròn 2 lượt (lượt đi lượt về). Ở thể thức loại trực tiếp, đội thua bị loại ngay và đội thắng đi tiếp cho đến trận chung kết."
+    ],
+    [
+      "Điều gì xảy ra khi số lượng đội là số lẻ?",
+      "Ở giải đấu vòng tròn, mỗi vòng sẽ có một đội được nghỉ (bye). Ở giải loại trực tiếp, các đội được miễn đấu vòng đầu sẽ được chọn tự động và vào thẳng vòng tiếp theo."
+    ],
+    [
+      "Bảng xếp hạng được tính như thế nào?",
+      "Khi bạn nhập tỉ số, số trận đã đấu, số trận thắng, hòa, thua, hiệu số bàn thắng bại và điểm số sẽ tự động cập nhật. Quy tắc tính điểm phụ thuộc vào từng môn: bóng đá tính 3 điểm cho trận thắng và 1 điểm cho trận hòa; bóng rổ không có trận hòa; còn bóng chuyền tính cả hiệu số set."
+    ],
+    [
+      "Tôi có cần kết nối internet không? Dữ liệu được lưu ở đâu?",
+      "Không cần kết nối internet. Các giải đấu của bạn chỉ được lưu ngay trên thiết bị; không cần tài khoản, không thu thập dữ liệu cá nhân và không gửi bất kỳ thông tin nào lên máy chủ."
+    ],
+    [
+      "TurnuVolt có miễn phí không?",
+      "Ứng dụng được bán theo hình thức mua một lần trên App Store, không thu phí định kỳ, không quảng cáo và không có giao dịch mua thêm trong ứng dụng. Riêng công cụ tạo lịch thi đấu trên trình duyệt thì hoàn toàn miễn phí."
+    ],
+    [
+      "Ứng dụng đã có trên Android chưa?",
+      "Phiên bản Android sẽ sớm ra mắt trên Google Play. Hiện tại TurnuVolt đã có mặt trên iPhone và iPad (iOS 17.6 trở lên)."
+    ]
+  ],
+  "fx_slug": "tao-lich-thi-dau",
+  "fx_name": "Công Cụ Tạo Lịch Thi Đấu",
+  "fx_title": "Tạo Lịch Thi Đấu Miễn Phí – Chia Cặp Vòng Tròn & Loại Trực Tiếp | TurnuVolt",
+  "fx_desc": "Nhập tên các đội và nhận ngay lịch thi đấu vòng tròn hoặc nhánh đấu loại trực tiếp chỉ trong vài giây. Hỗ trợ lượt đi lượt về, tự động sắp xếp suất miễn đấu (bye). Miễn phí, không cần đăng ký, chạy ngay trên trình duyệt để in hoặc chia sẻ.",
+  "fx_h1_html": "Công Cụ Tạo <em>Lịch Thi Đấu</em>",
+  "fx_sub": "Nhập tên các đội và lịch thi đấu sẽ sẵn sàng trong vài giây. Miễn phí, không cần đăng ký, chạy ngay trên trình duyệt.",
+  "fx_teams_label": "Danh sách đội (mỗi đội một dòng)",
+  "fx_teams_ph": "Đại Bàng\nSư Tử\nMãnh Hổ\nChó Sói",
+  "fx_count_label": "hoặc chọn số lượng đội:",
+  "fx_fill": "Điền tự động",
+  "fx_format": "Thể thức",
+  "fx_knockout": "Loại trực tiếp",
+  "fx_double": "Lượt đi lượt về (vòng tròn 2 lượt)",
+  "fx_shuffle": "Xáo trộn bốc thăm",
+  "fx_generate": "Tạo lịch thi đấu",
+  "fx_sum_league": "%1$d đội · %2$d vòng · %3$d trận",
+  "fx_sum_ko": "%1$d đội · %2$d vòng · %3$d trận",
+  "fx_week": "Vòng %d",
+  "fx_bye_row": "%s được nghỉ vòng này",
+  "fx_ko_bye": "%s được miễn đấu, vào thẳng vòng tiếp theo",
+  "fx_winner_of": "Đội thắng trận #%d",
+  "fx_copy": "Sao chép",
+  "fx_copied": "Đã sao chép",
+  "fx_share": "Sao chép liên kết",
+  "fx_link_copied": "Đã sao chép liên kết",
+  "fx_print": "In lịch",
+  "fx_err_min": "Vui lòng nhập ít nhất 2 đội.",
+  "fx_err_max": "Bạn chỉ có thể nhập tối đa 64 đội.",
+  "fx_err_dup": "Có hai đội trùng tên: %s",
+  "fx_cta_title": "Để TurnuVolt theo dõi tỉ số giúp bạn",
+  "fx_cta_text": "Thiết lập giải đấu này trong ứng dụng TurnuVolt: khi bạn nhập tỉ số, bảng xếp hạng, hiệu số và thứ hạng sẽ tự động cập nhật, các đội thắng tự động tiến vào nhánh đấu tiếp theo, và nhà vô địch sẽ bước lên bục nhận cúp sau trận chung kết.",
+  "fx_h2_how": "Lịch thi đấu vòng tròn được tạo như thế nào?",
+  "fx_p_how1_html": "Ở thể thức vòng tròn, mỗi đội sẽ lần lượt chạm trán tất cả các đội khác một lần. Lịch thi đấu được sắp xếp theo phương pháp xoay vòng, hay còn gọi là <b>bảng Berger</b>: một đội giữ nguyên vị trí cố định trong khi các đội còn lại xoay vòng tiến lên một nấc sau mỗi vòng đấu. Nhờ đó không có cặp đấu nào bị trùng lặp và mỗi đội chỉ thi đấu tối đa một trận mỗi vòng.",
+  "fx_p_how2_html": "Một giải đấu vòng tròn gồm <b>n</b> đội sẽ có tổng cộng <b>n × (n − 1) ÷ 2</b> trận đấu. Nếu số đội chẵn, giải sẽ diễn ra trong <b>n − 1</b> vòng; nếu số đội lẻ, giải sẽ có <b>n</b> vòng và mỗi vòng có một đội được nghỉ. Thể thức vòng tròn 2 lượt (lượt đi lượt về) sẽ nhân đôi số trận và số vòng đấu, đồng thời đổi vai trò sân nhà – sân khách ở giai đoạn lượt về.",
+  "fx_table_caption": "Số trận và số vòng đấu theo số lượng đội (vòng tròn 1 lượt)",
+  "fx_th_teams": "Số đội",
+  "fx_th_matches": "Số trận",
+  "fx_th_weeks": "Số vòng",
+  "fx_th_double": "Lượt đi lượt về",
+  "fx_h2_example": "Ví dụ: Lịch thi đấu vòng tròn cho 4 đội",
+  "fx_h2_ko": "Nhánh đấu loại trực tiếp và suất miễn đấu (bye)",
+  "fx_p_ko1_html": "Ở thể thức loại trực tiếp, đội thua sẽ bị loại ngay. Nếu số lượng đội không phải là lũy thừa của 2 (4, 8, 16, 32…), một số đội sẽ nhận được <b>suất miễn đấu (bye)</b> ở vòng đầu tiên và vào thẳng vòng sau. Số suất miễn đấu bằng lũy thừa của 2 gần nhất lớn hơn trừ đi tổng số đội: với 6 đội thì có 8 − 6 = 2 đội được miễn đấu, với 10 đội thì có 16 − 10 = 6 đội.",
+  "fx_p_ko2_html": "Một giải đấu loại trực tiếp gồm <b>n</b> đội luôn có đúng <b>n − 1</b> trận đấu, vì sau mỗi trận sẽ có đúng một đội bị loại. Một giải đấu 16 đội sẽ trải qua 4 vòng và 15 trận đấu.",
+  "fx_h2_points": "Bảng xếp hạng vòng tròn được tính điểm ra sao?",
+  "fx_p_points_html": "Trong các môn như bóng đá, một trận thắng được tính <b>3</b> điểm, hòa <b>1</b> điểm và thua <b>0</b> điểm; các đội bằng điểm sẽ được phân định thứ hạng bằng hiệu số bàn thắng bại, sau đó đến tổng số bàn thắng ghi được. Ở những môn không có kết quả hòa như bóng rổ, mỗi trận thắng được tính 2 điểm. Trong môn bóng chuyền, thắng 3-0 hoặc 3-1 được 3 điểm, thắng 3-2 được 2 điểm và thua 2-3 được 1 điểm. TurnuVolt sẽ tự động áp dụng các quy tắc này theo đúng môn thi đấu mà bạn chọn.",
+  "fx_faq_h2": "Câu hỏi về lịch thi đấu",
+  "faq_fx": [
+    [
+      "Công cụ tạo lịch thi đấu này có miễn phí không?",
+      "Có. Hoàn toàn miễn phí, không cần đăng ký và không có quảng cáo. Lịch thi đấu được tạo ngay trên trình duyệt của bạn và tên các đội không bao giờ bị gửi đi đâu."
+    ],
+    [
+      "Tôi có thể thêm tối đa bao nhiêu đội?",
+      "Bạn có thể tạo lịch thi đấu vòng tròn hoặc loại trực tiếp cho từ 2 đến 64 đội."
+    ],
+    [
+      "Tôi có thể tạo lịch thi đấu vòng tròn với số đội lẻ không?",
+      "Được. Mỗi vòng sẽ có một đội tạm nghỉ (bye), và khi giải đấu kết thúc, mọi đội đều đã thi đấu số trận bằng nhau."
+    ],
+    [
+      "Vòng tròn 2 lượt (lượt đi lượt về) là gì?",
+      "Đó là lịch thi đấu mà mỗi cặp đấu sẽ gặp nhau hai lần, có đảo sân nhà và sân khách ở giai đoạn lượt về. Thể thức này làm tăng gấp đôi tổng số trận đấu."
+    ],
+    [
+      "Tôi có thể in hoặc chia sẻ lịch thi đấu không?",
+      "Có. Nút In lịch giúp bạn in ra bản lịch thi đấu rõ ràng, Sao chép giúp lưu lịch vào bộ nhớ tạm dưới dạng văn bản, và Sao chép liên kết sẽ tạo một đường dẫn mở lại chính xác lịch thi đấu đó."
+    ],
+    [
+      "Làm sao để cập nhật tỉ số và theo dõi bảng xếp hạng?",
+      "Hãy tạo giải đấu tương tự trong ứng dụng TurnuVolt. Khi bạn nhập tỉ số, bảng xếp hạng, hiệu số và thứ hạng sẽ được tính tự động, đồng thời đội thắng trong nhánh đấu loại trực tiếp cũng tự động đi tiếp vào vòng trong."
+    ]
+  ]
+}

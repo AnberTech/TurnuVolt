@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Versenyszervező: sorsolás, menetrend, tabella és ágrajz",
+  "meta_desc": "Szervezz körmérkőzéses vagy egyenes kieséses bajnokságot: add meg a csapatokat, és automatikusan elkészül a sorsolás és a menetrend. Az eredmények rögzítésekor a tabella magától frissül. 63 sport és játék, offline működés, reklámok nélkül. Ingyenes online sorsolásgenerátorral.",
+  "store_alt": "Letöltés az App Store-ból",
+  "soon": "Hamarosan",
+  "scroll_down": "Görgess le",
+  "aria_screens": "Képernyőképek",
+  "ss_podium": "Dobogó és trófea a bajnokság végén",
+  "ss_fixture": "Menetrend és tabella képernyő",
+  "ss_new": "Új bajnokság létrehozása képernyő",
+  "ss_home": "A TurnuVolt kezdőképernyője",
+  "ss_saved": "Bajnokság mentve képernyő",
+  "aria_games": "Játékok",
+  "aria_board": "Játéklista",
+  "aria_cats": "Kategóriák",
+  "random_game": "Véletlenszerű játék",
+  "aria_formats": "Versenyformátumok",
+  "tab_ko": "Egyenes kiesés",
+  "led_title": "Osztály",
+  "reset_bracket": "Ágrajz visszaállítása",
+  "aria_langs": "Nyelvek",
+  "aria_lang": "Nyelv",
+  "aria_docs": "Dokumentumok",
+  "privacy": "Adatvédelmi szabályzat",
+  "support": "Támogatás",
+  "aria_download": "Letöltés",
+  "tagline": "Sorsolás, tabella és ágrajz. Másodpercek alatt, közvetlenül a zsebedben.",
+  "hero_tool_link": "Készíts ingyenes sorsolást",
+  "about_eyebrow": "Mi az a TurnuVolt?",
+  "about_h2": "Állítsd be a bajnokságot, a többit bízd a TurnuVoltra",
+  "about_lead": "A TurnuVolt egy versenyszervező alkalmazás baráti társaságoknak, iskoláknak, munkahelyeknek és kluboknak. Add meg a csapatokat, és a körmérkőzéses vagy egyenes kieséses sorsolás automatikusan elkészül. Az eredmények rögzítésekor a tabella magától frissül, a döntő után pedig a bajnok felállhat a dobogóra. 63 sportot és játékot támogat a labdarúgástól a sakkig, a tenisztől a FIFA-ig, és mindegyiknél a megfelelő szabályok szerint számol.",
+  "steps": [
+    [
+      "Add hozzá a csapatokat",
+      "Nevezd el a bajnokságot, add meg a csapatok vagy játékosok számát, majd válaszd ki a játékot és a formátumot."
+    ],
+    [
+      "Elkészült a sorsolás",
+      "Körmérkőzésnél mindenki játszik mindenkivel, és igény szerint oda-vissza mérkőzések is beállíthatók. Egyenes kiesésnél automatikusan elkészül az ágrajz, páratlan csapatszám esetén pedig a rendszer kiosztja az erőnyerő helyeket."
+    ],
+    [
+      "Írd be az eredményeket, és kövesd a tabellát",
+      "Gólok, pontok, szettek vagy egyszerűen csak a győztes: az eredménybevitel igazodik a játékhoz. A pontokat, a gólkülönbséget és a helyezéseket a rendszer kiszámítja helyetted."
+    ]
+  ],
+  "feats": [
+    [
+      "A játékhoz illő pontozás",
+      "Labdarúgásban 3 pont jár a győzelemért, kosárlabdában nincs döntetlen, röplabdában pedig a szettkülönbség is számít. Minden játék a saját szabályait követi."
+    ],
+    [
+      "Folytasd ott, ahol abbahagytad",
+      "A félbehagyott bajnokságokat a rendszer elmenti, a befejezettek pedig az archívumba kerülnek."
+    ],
+    [
+      "Nincs szükség internetre",
+      "Minden a telefonodon fut: a pályán, a táborban vagy az iskolaudvaron."
+    ],
+    [
+      "Nincsenek reklámok és fiók sem kell",
+      "Egyszeri vásárlás. Nincs előfizetés, reklám, regisztráció vagy adatgyűjtés."
+    ],
+    [
+      "30+ nyelv",
+      "Angol, spanyol, német, arab, japán és még sok más nyelv, köztük jobbról balra író nyelvek is."
+    ],
+    [
+      "Dobogó és trófea",
+      "A döntő után a bajnok, a második és a harmadik helyezett konfettiesőben állhat fel a dobogóra."
+    ]
+  ],
+  "tool_eyebrow": "Ingyenes eszköz",
+  "tool_h2": "Azonnal szükséged van egy sorsolásra?",
+  "tool_text": "Készíts ingyenes sorsolást közvetlenül a böngésződben, letöltés nélkül. Add meg a csapatokat, és a körmérkőzéses vagy egyenes kieséses menetrend azonnal elkészül. Nyomtasd ki, másold ki vagy oszd meg egy hivatkozással.",
+  "tool_btn": "Sorsolásgenerátor megnyitása",
+  "faq_eyebrow": "GYIK",
+  "faq_h2": "Jó tudni",
+  "faq_home": [
+    [
+      "Hogyan készíthetek sorsolást a TurnuVolttal?",
+      "Koppints az Új bajnokság lehetőségre, add meg a bajnokság nevét és a csapatok számát, válaszd ki a játékot és a formátumot (körmérkőzés vagy egyenes kiesés), majd írd be a csapatneveket. A sorsolás, a menetrend és a tabella automatikusan elkészül; neked csak az eredményeket kell rögzítened."
+    ],
+    [
+      "Milyen sportokat és játékokat támogat?",
+      "Összesen 63 lehetőség közül választhatsz, köztük labdarúgás, futsal, kosárlabda, röplabda, tenisz, asztalitenisz, padel, tollaslabda, sakk, backgammon, darts, poolbiliárd, FIFA és Valorant. Minden máshoz rendelkezésre áll az Egyéni / Egyéb lehetőség."
+    ],
+    [
+      "Mi a különbség a körmérkőzés és az egyenes kiesés között?",
+      "Körmérkőzésnél mindenki játszik mindenkivel, és a tabella dönti el a győztest; oda-vissza rendszerben minden párosítás kétszer is lejátszható. Egyenes kiesésnél a vesztes búcsúzik, a győztesek pedig továbbjutnak egészen a döntőig."
+    ],
+    [
+      "Mi történik páratlan számú csapat esetén?",
+      "Körmérkőzésnél minden fordulóban egy csapat szabadnapos. Egyenes kiesésnél a rendszer automatikusan kiválasztja az első forduló erőnyerő csapatait, amelyek játék nélkül jutnak tovább a következő körbe."
+    ],
+    [
+      "Hogyan számítja ki a rendszer a tabellát?",
+      "Az eredmények rögzítésekor automatikusan frissül a lejátszott mérkőzések, győzelmek, döntetlenek, vereségek, gólkülönbség és pontok száma. A pontozás a játéktól függ: labdarúgásban a győzelem 3 pontot, a döntetlen 1 pontot ér; kosárlabdában nincs döntetlen; röplabdában pedig a szettkülönbség is számít."
+    ],
+    [
+      "Szükségem van internetkapcsolatra? Hol tárolódnak az adataim?",
+      "Nincs szükség internetkapcsolatra. A bajnokságaid kizárólag az eszközödön tárolódnak; nincs felhasználói fiók, nem gyűjtünk személyes adatokat, és semmi sem kerül szerverre."
+    ],
+    [
+      "Ingyenes a TurnuVolt?",
+      "Az alkalmazás egyszeri vásárlással érhető el az App Store-ban, előfizetés, reklámok és alkalmazáson belüli vásárlások nélkül. A böngészőben használható sorsolásgenerátor teljesen ingyenes."
+    ],
+    [
+      "Elérhető Android rendszeren?",
+      "Az Android-verzió hamarosan megérkezik a Google Play kínálatába. A TurnuVolt jelenleg iPhone és iPad készülékeken érhető el, iOS 17.6 vagy újabb rendszerrel."
+    ]
+  ],
+  "fx_slug": "sorsolas-generator",
+  "fx_name": "Sorsolásgenerátor",
+  "fx_title": "Ingyenes sorsolás- és menetrendkészítő – körmérkőzés és egyenes kiesés | TurnuVolt",
+  "fx_desc": "Add meg a csapatneveket, és másodpercek alatt elkészül a körmérkőzéses vagy egyenes kieséses bajnokság sorsolása és menetrendje. Oda-vissza lehetőség, automatikus erőnyerők. Ingyenes, regisztráció nélkül használható a böngészőben; nyomtatható és megosztható.",
+  "fx_h1_html": "Sorsolás-<em>generátor</em>",
+  "fx_sub": "Add meg a csapatokat, és a menetrend másodpercek alatt elkészül. Ingyenes, nem kell regisztrálni, és közvetlenül a böngészőben működik.",
+  "fx_teams_label": "Csapatok (soronként egy)",
+  "fx_teams_ph": "Sasok\nOroszlánok\nTigrisek\nFarkasok",
+  "fx_count_label": "vagy a csapatok száma:",
+  "fx_fill": "Kitöltés",
+  "fx_format": "Formátum",
+  "fx_knockout": "Egyenes kiesés",
+  "fx_double": "Oda-vissza (dupla körmérkőzés)",
+  "fx_shuffle": "Sorsolás megkeverése",
+  "fx_generate": "Sorsolás elkészítése",
+  "fx_sum_league": "%1$d csapat · %2$d forduló · %3$d mérkőzés",
+  "fx_sum_ko": "%1$d csapat · %2$d forduló · %3$d mérkőzés",
+  "fx_week": "%d. forduló",
+  "fx_bye_row": "%s ebben a fordulóban szabadnapos",
+  "fx_ko_bye": "%s erőnyerőként továbbjut a következő fordulóba",
+  "fx_winner_of": "A(z) #%d mérkőzés győztese",
+  "fx_copy": "Másolás",
+  "fx_copied": "Másolva",
+  "fx_share": "Hivatkozás másolása",
+  "fx_link_copied": "Hivatkozás másolva",
+  "fx_print": "Nyomtatás",
+  "fx_err_min": "Adj meg legalább 2 csapatot.",
+  "fx_err_max": "Legfeljebb 64 csapatot adhatsz meg.",
+  "fx_err_dup": "Két csapat neve azonos: %s",
+  "fx_cta_title": "Bízd a pontszámok követését a TurnuVoltra",
+  "fx_cta_text": "Állítsd be ezt a bajnokságot a TurnuVolt alkalmazásban: az eredmények rögzítésekor a tabella, a gólkülönbség és a helyezések automatikusan frissülnek, a győztesek továbbjutnak az ágrajzon, a döntő után pedig a bajnok felállhat a dobogóra.",
+  "fx_h2_how": "Hogyan készül a körmérkőzéses sorsolás?",
+  "fx_p_how1_html": "Körmérkőzésnél minden csapat egyszer játszik minden másik csapattal. A sorsolás a körforgásos módszerrel, más néven a <b>Berger-táblák</b> alapján készül: egy csapat helyben marad, a többi pedig minden fordulóban egy hellyel továbbforog. Így egyetlen párosítás sem ismétlődik, és minden csapat legfeljebb egy mérkőzést játszik fordulónként.",
+  "fx_p_how2_html": "Egy <b>n</b> csapatos körmérkőzés összesen <b>n × (n − 1) ÷ 2</b> mérkőzésből áll. Páros számú csapatnál <b>n − 1</b>, páratlan számú csapatnál <b>n</b> fordulóra van szükség, és minden fordulóban egy csapat szabadnapos. A dupla körmérkőzéses, oda-vissza rendszer megduplázza a mérkőzések és a fordulók számát, a második felében pedig felcserélődik a pályaválasztó és a vendégcsapat.",
+  "fx_table_caption": "Mérkőzések és fordulók száma csapatszám szerint (egyszeres körmérkőzés)",
+  "fx_th_teams": "Csapatok",
+  "fx_th_matches": "Mérkőzések",
+  "fx_th_weeks": "Fordulók",
+  "fx_th_double": "Oda-vissza",
+  "fx_h2_example": "Példa: 4 csapatos körmérkőzéses menetrend",
+  "fx_h2_ko": "Egyenes kieséses ágrajz és erőnyerők",
+  "fx_p_ko1_html": "Egyenes kiesésnél a vesztes búcsúzik. Ha a csapatok száma nem 2 valamelyik hatványa (4, 8, 16, 32…), néhány csapat <b>erőnyerő</b> lesz az első fordulóban. Az erőnyerők száma a következő 2-hatvány és a csapatok számának különbsége: 6 csapatnál 8 − 6 = 2 csapat, 10 csapatnál pedig 16 − 10 = 6 csapat lesz erőnyerő.",
+  "fx_p_ko2_html": "Egy <b>n</b> csapatos, egyenes kieséses bajnokság mindig <b>n − 1</b> mérkőzésből áll, mert minden mérkőzésen pontosan egy csapat esik ki. Egy 16 csapatos bajnokság 4 fordulóból és 15 mérkőzésből áll.",
+  "fx_h2_points": "Hogyan készül a bajnoki tabella?",
+  "fx_p_points_html": "Az olyan játékokban, mint a labdarúgás, a győzelem <b>3</b> pontot, a döntetlen <b>1</b> pontot, a vereség pedig <b>0</b> pontot ér; pontegyenlőség esetén előbb a gólkülönbség, majd a szerzett gólok száma dönt. A döntetlen nélküli játékokban, például kosárlabdában, a győzelem 2 pontot ér. Röplabdában a 3-0-s vagy 3-1-es győzelemért 3 pont, a 3-2-es győzelemért 2 pont, a 2-3-as vereségért pedig 1 pont jár. A TurnuVolt automatikusan a kiválasztott játék szabályait alkalmazza.",
+  "fx_faq_h2": "Kérdések a sorsolásról",
+  "faq_fx": [
+    [
+      "Ingyenes a sorsolásgenerátor?",
+      "Igen. Nem kell regisztrálni, és nincsenek reklámok. A sorsolás a böngésződben készül el, a csapatneveket pedig soha nem küldjük el sehova."
+    ],
+    [
+      "Hány csapatot adhatok hozzá?",
+      "2–64 csapatos körmérkőzéses vagy egyenes kieséses sorsolást készíthetsz."
+    ],
+    [
+      "Készíthetek körmérkőzéses sorsolást páratlan számú csapattal?",
+      "Igen. Minden fordulóban egy csapat szabadnapos, a bajnokság végére pedig minden csapat ugyanannyi mérkőzést játszik."
+    ],
+    [
+      "Mi az a dupla körmérkőzés?",
+      "Olyan sorsolás, amelyben minden párosítás kétszer szerepel, a második felében pedig felcserélődik a pályaválasztó és a vendégcsapat. Így a mérkőzések száma megduplázódik."
+    ],
+    [
+      "Kinyomtathatom vagy megoszthatom a sorsolást?",
+      "Igen. A Nyomtatás rendezett, nyomtatható változatot készít, a Másolás szövegként a vágólapra helyezi a menetrendet, a Hivatkozás másolása pedig olyan linket hoz létre, amely ugyanezt a sorsolást nyitja meg."
+    ],
+    [
+      "Hogyan követhetem az eredményeket és a tabellát?",
+      "Állítsd be ugyanezt a bajnokságot a TurnuVolt alkalmazásban. Az eredmények rögzítésekor a rendszer automatikusan kiszámítja a tabellát, a gólkülönbséget és a helyezéseket, a győztesek pedig maguktól továbbjutnak az ágrajzon."
+    ]
+  ]
+}

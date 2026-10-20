@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>TurnuVolt – टूर्नामेंट मेकर: फिक्स्चर, अंक तालिका और नॉकआउट ब्रैकेट</title>
+<meta name="description" content="लीग और नॉकआउट टूर्नामेंट आयोजित करें: अपनी टीमों के नाम लिखें, अपने-आप मैच शेड्यूल और फिक्स्चर पाएं और स्कोर दर्ज करते ही अंक तालिका को लाइव अपडेट होते देखें। 63 खेल और गेम्स, ऑफ़लाइन काम करता है, कोई विज्ञापन नहीं। मुफ़्त ऑनलाइन फिक्स्चर जनरेटर शामिल है।" />
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/img/favicon.png?v=2" />
+<link rel="apple-touch-icon" href="../assets/img/tv_icon_180.png" />
+<link rel="canonical" href="https://anbertech.github.io/TurnuVolt/hi/" />
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/TurnuVolt/" />
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/TurnuVolt/en/" />
+<link rel="alternate" hreflang="ar" href="https://anbertech.github.io/TurnuVolt/ar/" />
+<link rel="alternate" hreflang="cs" href="https://anbertech.github.io/TurnuVolt/cs/" />
+<link rel="alternate" hreflang="da" href="https://anbertech.github.io/TurnuVolt/da/" />
+<link rel="alternate" hreflang="de" href="https://anbertech.github.io/TurnuVolt/de/" />
+<link rel="alternate" hreflang="el" href="https://anbertech.github.io/TurnuVolt/el/" />
+<link rel="alternate" hreflang="es" href="https://anbertech.github.io/TurnuVolt/es/" />
+<link rel="alternate" hreflang="es-MX" href="https://anbertech.github.io/TurnuVolt/es-mx/" />
+<link rel="alternate" hreflang="fa" href="https://anbertech.github.io/TurnuVolt/fa/" />
+<link rel="alternate" hreflang="fi" href="https://anbertech.github.io/TurnuVolt/fi/" />
+<link rel="alternate" hreflang="fr" href="https://anbertech.github.io/TurnuVolt/fr/" />
+<link rel="alternate" hreflang="he" href="https://anbertech.github.io/TurnuVolt/he/" />
+<link rel="alternate" hreflang="hi" href="https://anbertech.github.io/TurnuVolt/hi/" />
+<link rel="alternate" hreflang="hu" href="https://anbertech.github.io/TurnuVolt/hu/" />
+<link rel="alternate" hreflang="id" href="https://anbertech.github.io/TurnuVolt/id/" />
+<link rel="alternate" hreflang="it" href="https://anbertech.github.io/TurnuVolt/it/" />
+<link rel="alternate" hreflang="ja" href="https://anbertech.github.io/TurnuVolt/ja/" />
+<link rel="alternate" hreflang="ko" href="https://anbertech.github.io/TurnuVolt/ko/" />
+<link rel="alternate" hreflang="ms" href="https://anbertech.github.io/TurnuVolt/ms/" />
+<link rel="alternate" hreflang="nb" href="https://anbertech.github.io/TurnuVolt/nb/" />
+<link rel="alternate" hreflang="nl" href="https://anbertech.github.io/TurnuVolt/nl/" />
+<link rel="alternate" hreflang="pl" href="https://anbertech.github.io/TurnuVolt/pl/" />
+<link rel="alternate" hreflang="pt-BR" href="https://anbertech.github.io/TurnuVolt/pt-br/" />
+<link rel="alternate" hreflang="pt-PT" href="https://anbertech.github.io/TurnuVolt/pt-pt/" />
+<link rel="alternate" hreflang="ro" href="https://anbertech.github.io/TurnuVolt/ro/" />
+<link rel="alternate" hreflang="ru" href="https://anbertech.github.io/TurnuVolt/ru/" />
+<link rel="alternate" hreflang="sv" href="https://anbertech.github.io/TurnuVolt/sv/" />
+<link rel="alternate" hreflang="th" href="https://anbertech.github.io/TurnuVolt/th/" />
+<link rel="alternate" hreflang="uk" href="https://anbertech.github.io/TurnuVolt/uk/" />
+<link rel="alternate" hreflang="vi" href="https://anbertech.github.io/TurnuVolt/vi/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://anbertech.github.io/TurnuVolt/zh-hans/" />
+<link rel="alternate" hreflang="zh-Hant" href="https://anbertech.github.io/TurnuVolt/zh-hant/" />
+<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/en/" />
+<meta name="apple-itunes-app" content="app-id=6745177155" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TurnuVolt" />
+<meta property="og:locale" content="hi_IN" />
+<meta property="og:title" content="TurnuVolt – टूर्नामेंट मेकर: फिक्स्चर, अंक तालिका और नॉकआउट ब्रैकेट" />
+<meta property="og:description" content="लीग और नॉकआउट टूर्नामेंट आयोजित करें: अपनी टीमों के नाम लिखें, अपने-आप मैच शेड्यूल और फिक्स्चर पाएं और स्कोर दर्ज करते ही अंक तालिका को लाइव अपडेट होते देखें। 63 खेल और गेम्स, ऑफ़लाइन काम करता है, कोई विज्ञापन नहीं। मुफ़्त ऑनलाइन फिक्स्चर जनरेटर शामिल है।" />
+<meta property="og:url" content="https://anbertech.github.io/TurnuVolt/hi/" />
+<meta property="og:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="TurnuVolt" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="TurnuVolt – टूर्नामेंट मेकर: फिक्स्चर, अंक तालिका और नॉकआउट ब्रैकेट" />
+<meta name="twitter:description" content="लीग और नॉकआउट टूर्नामेंट आयोजित करें: अपनी टीमों के नाम लिखें, अपने-आप मैच शेड्यूल और फिक्स्चर पाएं और स्कोर दर्ज करते ही अंक तालिका को लाइव अपडेट होते देखें। 63 खेल और गेम्स, ऑफ़लाइन काम करता है, कोई विज्ञापन नहीं। मुफ़्त ऑनलाइन फिक्स्चर जनरेटर शामिल है।" />
+<meta name="twitter:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
+<meta name="theme-color" content="#070B10" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" />
+<style>
+:root{
+  color-scheme:dark;
+  --night:#070B10;--night-2:#0B1118;--panel:#0F1720;--line:rgba(234,242,255,.10);
+  --flood:#EAF2FF;--muted:#8C9AAB;--gold:#F2C14E;--gold-2:#FFE08A;
+  --turf:#2FA84F;--blue:#3B7FD6;--amber:#D9953B;
+  --display:"Big Shoulders Display","Big Shoulders","Oswald",Impact,"Arial Narrow",sans-serif;
+  --sans:"Onest",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --ease:cubic-bezier(.2,.9,.25,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--flood);font-family:var(--sans);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:var(--gold)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:10px}
+
+.grain{position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.22;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.progress{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:3px;width:0;z-index:95;
+  background:linear-gradient(90deg,var(--turf),var(--gold));box-shadow:0 0 16px rgba(242,193,78,.7)}
+.flood{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:0;transition:opacity .5s;
+  background:radial-gradient(440px circle at var(--x,50%) var(--y,30%),rgba(242,193,78,.08),transparent 66%)}
+@media (hover:hover) and (pointer:fine){.flood{opacity:1}}
+
+/* ============ HERO ============ */
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:min(94svh,920px);
+  display:grid;place-items:center;padding:72px 16px 120px;text-align:center}
+.hero-bg{position:absolute;inset:-7% -4% -3%;z-index:-3;background:url("../assets/img/tv_hero.jpg") center 40%/cover no-repeat;
+  transform:scale(1.06);will-change:transform}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+  radial-gradient(120% 70% at 50% 0%,rgba(7,11,16,0) 0%,rgba(7,11,16,.5) 55%,var(--night) 96%),
+  linear-gradient(180deg,rgba(7,11,16,.35),rgba(7,11,16,0) 24%,rgba(7,11,16,.2) 60%,var(--night) 99%)}
+.beam{position:absolute;top:-16%;width:30vw;min-width:200px;height:130%;z-index:-1;pointer-events:none;
+  background:linear-gradient(180deg,rgba(220,236,255,.55),rgba(220,236,255,0) 70%);filter:blur(30px);
+  mix-blend-mode:screen;transform-origin:top center;animation:sway 9s ease-in-out infinite}
+.beam.l{left:2%;transform:rotate(14deg)}
+.beam.r{right:2%;transform:rotate(-14deg);animation-delay:-4.5s}
+@keyframes sway{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.icon-stage{position:relative;width:clamp(96px,24vw,128px);aspect-ratio:1;margin:0 auto}
+.icon-stage canvas{position:absolute;left:50%;top:50%;width:280%;height:280%;transform:translate(-50%,-50%);pointer-events:none}
+.app-icon{position:relative;width:100%;height:100%;border-radius:27%;object-fit:cover;
+  box-shadow:0 0 0 1.5px rgba(242,193,78,.6),0 22px 60px rgba(0,0,0,.65),0 0 70px rgba(242,193,78,.28);
+  animation:bob 7s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
+.board{margin:30px auto 0;display:flex;justify-content:center;gap:clamp(3px,.7vw,8px);
+  font:900 clamp(34px,9.4vw,108px)/1 var(--display);letter-spacing:0;perspective:600px}
+.flap{position:relative;display:grid;place-items:center;width:.84em;height:1.16em;border-radius:.09em;
+  background:linear-gradient(180deg,#1B232E 0 49.2%,#0A0F15 50.8% 100%);color:#F5F8FC;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09),inset 0 -1px 0 rgba(0,0,0,.7),0 12px 26px rgba(0,0,0,.55);
+  text-shadow:0 0 18px rgba(234,242,255,.28)}
+.flap::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;
+  background:rgba(0,0,0,.8);box-shadow:0 1px 0 rgba(255,255,255,.05)}
+.flap.v{color:var(--gold);text-shadow:0 0 24px rgba(242,193,78,.5)}
+.flap span{display:block;transform-origin:50% 55%}
+.flap.tick span{animation:flip .085s linear}
+@keyframes flip{from{transform:rotateX(-85deg);opacity:.35}to{transform:none;opacity:1}}
+
+.stores{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:38px}
+.stores a{display:block;border-radius:12px;transition:transform .3s var(--ease)}
+.stores a:hover{transform:translateY(-4px) scale(1.04)}
+.stores img{height:clamp(50px,13vw,60px);width:auto;aspect-ratio:1062/318;object-fit:cover;object-position:50% 50%;
+  filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 14px 30px rgba(0,0,0,.6))}
+.cue{position:absolute;left:50%;bottom:26px;width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;
+  border-radius:50%;border:1px solid rgba(234,242,255,.25);color:var(--flood);text-decoration:none;opacity:.8}
+.cue svg{width:18px;height:18px;animation:nudge 2s var(--ease) infinite}
+@keyframes nudge{0%,100%{transform:translateY(-2px);opacity:.6}50%{transform:translateY(4px);opacity:1}}
+
+@media (max-width:700px){
+  .hero{min-height:auto;padding:88px 16px 112px}
+  .cue{bottom:22px}
+}
+
+/* ============ ARENA (3D ring on pitch) ============ */
+.arena{position:relative;isolation:isolate;overflow:hidden;padding:24px 0 36px;margin-top:-40px}
+.arena::before{content:"";position:absolute;inset:0;z-index:-2;
+  background:radial-gradient(46% 42% at 50% 62%,rgba(47,168,79,.16),transparent 72%)}
+.pitch{position:absolute;left:50%;bottom:0;z-index:-1;width:min(1500px,240vw);height:clamp(300px,52vw,560px);
+  transform:translateX(-50%) perspective(900px) rotateX(63deg);transform-origin:50% 100%;
+  background:
+    radial-gradient(circle at 50% 42%,transparent 0 11.2%,rgba(255,255,255,.5) 11.4% 11.9%,transparent 12.1%),
+    radial-gradient(circle at 50% 42%,rgba(255,255,255,.6) 0 .5%,transparent .7%),
+    linear-gradient(0deg,transparent calc(42% - 2px),rgba(255,255,255,.5) calc(42% - 2px) calc(42% + 1px),transparent calc(42% + 1px)),
+    repeating-linear-gradient(90deg,#1C7A39 0 6%,#23893F 6% 12%);
+  -webkit-mask-image:radial-gradient(56% 60% at 50% 42%,#000 28%,transparent 72%);
+  mask-image:radial-gradient(56% 60% at 50% 42%,#000 28%,transparent 72%);opacity:.92}
+.scene{position:relative;height:var(--ring-h,560px);perspective:1500px;perspective-origin:50% 40%;
+  touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
+.scene.drag{cursor:grabbing}
+.ring{position:absolute;left:50%;top:0;width:0;height:0;transform-style:preserve-3d}
+.card{position:absolute;left:0;top:0;margin:0;border-radius:clamp(18px,2.4vw,26px);overflow:hidden;background:#000;
+  border:4px solid #1E232B;box-shadow:0 30px 70px rgba(0,0,0,.55);cursor:pointer;will-change:transform;
+  transition:box-shadow .5s var(--ease),border-color .5s var(--ease)}
+.card img{width:100%;pointer-events:none}
+.card::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:#000;opacity:var(--dim,0)}
+.card{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+@media (hover:none),(pointer:coarse){.grain{display:none}}
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.26),transparent 44%)}
+.card.front{border-color:#3A3220;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 2px var(--gold),0 0 60px rgba(242,193,78,.45)}
+
+/* ============ FINAL (podium + LED standings) ============ */
+.final{position:relative;overflow:hidden;padding:clamp(56px,10vh,110px) 16px clamp(40px,8vh,90px)}
+.final canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
+.final-in{max-width:1080px;margin:0 auto;display:grid;gap:clamp(40px,5vw,64px);align-items:end}
+@media (min-width:900px){.final-in{grid-template-columns:1fr 1.15fr}}
+
+.podium{position:relative;width:100%;max-width:470px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);
+  align-items:end;gap:clamp(6px,1.4vw,12px);padding-top:92px}
+.podium::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-18px;height:36px;border-radius:50%;
+  background:radial-gradient(closest-side,rgba(0,0,0,.6),transparent);z-index:-1}
+.step{position:relative;display:flex;flex-direction:column;align-items:center;padding-top:16px;
+  border-radius:16px 16px 6px 6px;transform-origin:50% 100%;overflow:hidden}
+.step::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.4),transparent 38%);pointer-events:none}
+.s1{height:clamp(180px,40vw,236px);background:linear-gradient(180deg,#FFE58A,#F2C14E 52%,#B98A22);color:#2A1E02;
+  box-shadow:0 0 70px rgba(242,193,78,.35)}
+.s2{height:clamp(138px,31vw,180px);background:linear-gradient(180deg,#F4F6F9,#C9CED6 58%,#8E97A3);color:#1A1F27}
+.s3{height:clamp(112px,25vw,150px);background:linear-gradient(180deg,#F3B676,#C9803A 58%,#8A5020);color:#2A1404}
+.who{position:relative;font:800 clamp(15px,3.8vw,21px)/1.15 var(--sans);letter-spacing:-.01em}
+.rank{position:relative;margin-top:auto;font:900 clamp(60px,15vw,104px)/.78 var(--display);opacity:.3}
+.cup{position:absolute;left:50%;top:0;width:clamp(64px,16vw,86px);transform:translateX(-50%);
+  filter:drop-shadow(0 0 24px rgba(242,193,78,.6));animation:bob 6s ease-in-out infinite}
+.podium.go .step{animation:rise 1s var(--ease) both}
+.podium.go .s3{animation-delay:.05s}.podium.go .s2{animation-delay:.2s}.podium.go .s1{animation-delay:.38s}
+.podium.go .cup{animation:drop .9s var(--ease) .9s both,bob 6s ease-in-out 1.8s infinite}
+@keyframes rise{from{transform:scaleY(.06)}to{transform:none}}
+@keyframes drop{from{transform:translate(-50%,-40px) scale(.6);opacity:0}to{transform:translateX(-50%);opacity:1}}
+
+.led{position:relative;overflow:hidden;background:#04070B;border-radius:20px;padding:20px clamp(12px,2.6vw,26px) 16px;
+  border:1px solid rgba(242,193,78,.28);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65),inset 0 0 80px rgba(59,127,214,.08)}
+.led::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(circle,rgba(0,0,0,.55) 1px,transparent 1.5px) 0 0/4px 4px}
+.led-title{display:flex;align-items:baseline;gap:12px;margin:0 0 14px;padding:0 4px;
+  font:900 clamp(30px,6.4vw,44px)/1 var(--display);color:#fff}
+.led-title small{font:800 clamp(14px,3vw,18px)/1 var(--display);letter-spacing:.2em;color:var(--muted)}
+.tbl-wrap{overflow-x:auto}
+.led table{width:100%;border-collapse:collapse;font:700 clamp(14px,3.3vw,19px)/1 var(--display);
+  letter-spacing:.03em;font-variant-numeric:tabular-nums}
+.led th{padding:10px 4px;color:#71808F;font-weight:800;text-align:center;border-bottom:1px solid rgba(234,242,255,.1)}
+.led td{padding:12px 4px;text-align:center;color:#E6EDF6;border-bottom:1px solid rgba(234,242,255,.05)}
+.led th:nth-child(2),.led td:nth-child(2){text-align:left;padding-left:8px}
+.led td:first-child{color:#71808F}
+.led td:last-child,.led th:last-child{color:var(--gold)}
+.led td:last-child{font-weight:900;font-size:1.15em;text-shadow:0 0 14px rgba(242,193,78,.5)}
+.led tr.lead td{background:rgba(242,193,78,.09)}
+.led tr.lead td:nth-child(2){color:var(--gold-2)}
+.led tbody tr:last-child td{border-bottom:0}
+
+/* ============ TICKER (fixture boards) ============ */
+.ticker{position:relative;overflow:hidden;padding:26px 0;background:linear-gradient(180deg,#0A0F15,#070B10);
+  border-block:1px solid rgba(242,193,78,.2);
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.track{display:flex;gap:14px;width:max-content;animation:roll 46s linear infinite}
+.track+.track{margin-top:14px;animation-duration:58s;animation-direction:reverse}
+.ticker:hover .track{animation-play-state:paused}
+@keyframes roll{to{transform:translateX(-50%)}}
+.match{flex:0 0 auto;display:flex;align-items:center;gap:14px;padding:13px 24px;border-radius:14px;border:2px solid;
+  font:700 clamp(15px,3.6vw,18px)/1 var(--sans);white-space:nowrap;color:#07120B}
+.match b{font:900 clamp(20px,4.6vw,26px)/1 var(--display);letter-spacing:.06em}
+.match i{font:800 13px/1 var(--display);font-style:normal;letter-spacing:.14em;opacity:.65}
+.m-done{background:#2FA84F;border-color:#5BD97A}
+.m-live{background:#D9953B;border-color:#F6BD62;color:#1E1203;box-shadow:0 0 26px rgba(217,149,59,.45)}
+.m-next{background:#3B7FD6;border-color:#6FA9F4;color:#06142A}
+
+/* ============ GATES (ticket links) ============ */
+.gates{max-width:900px;margin:0 auto;padding:clamp(56px,10vh,100px) 16px 0;display:grid;gap:18px}
+@media (min-width:680px){.gates{grid-template-columns:1fr 1fr}}
+.ticket{position:relative;display:grid;grid-template-columns:86px 1fr;min-height:112px;color:var(--flood);
+  text-decoration:none;filter:drop-shadow(0 20px 36px rgba(0,0,0,.55));transition:transform .4s var(--ease)}
+.ticket:hover{transform:translateY(-5px) rotate(-.8deg)}
+.ticket::before,.ticket::after{content:"";position:absolute;left:77px;width:18px;height:18px;border-radius:50%;
+  background:var(--night);z-index:2}
+.ticket::before{top:-9px}.ticket::after{bottom:-9px}
+.stub{display:grid;place-items:center;border-radius:16px 0 0 16px;color:#2A1E02;
+  background:linear-gradient(160deg,#FFE08A,#F2C14E 55%,#C9962A)}
+.stub svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
+  transition:transform .4s var(--ease)}
+.ticket:hover .stub svg{transform:scale(1.12) rotate(-8deg)}
+.tmain{position:relative;display:flex;align-items:center;gap:16px;padding:18px 22px 18px 26px;
+  border-radius:0 16px 16px 0;background:linear-gradient(135deg,#141D29,#0D141D);border:1px solid rgba(234,242,255,.08);border-left:0}
+.tmain::before{content:"";position:absolute;left:0;top:14px;bottom:14px;border-left:2px dashed rgba(234,242,255,.2)}
+.tlabel{font:700 clamp(18px,4.4vw,21px)/1.2 var(--sans);letter-spacing:-.01em}
+.code{margin-left:auto;flex:0 0 auto;width:46px;height:44px;opacity:.28;
+  background:repeating-linear-gradient(90deg,#EAF2FF 0 2px,transparent 2px 4px,#EAF2FF 4px 5px,transparent 5px 7px,#EAF2FF 7px 10px,transparent 10px 12px)}
+.arrow{flex:0 0 auto;color:var(--gold);font:900 30px/1 var(--display);transition:transform .35s var(--ease)}
+.ticket:hover .arrow{transform:translateX(5px)}
+
+.foot{padding:clamp(56px,10vh,96px) 16px 44px;text-align:center;color:var(--muted);font-size:14px}
+.foot img{width:44px;height:44px;border-radius:13px;margin:0 auto 14px;box-shadow:0 0 0 1px rgba(242,193,78,.4)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+}
+
+/* ============ DOCUMENT PAGES ============ */
+.dhead{position:relative;isolation:isolate;overflow:hidden;padding:26px 16px 54px}
+.dhead .hero-bg{inset:-20% -6%}
+.dhead::before{content:"";position:absolute;inset:0;z-index:-2;
+  background:linear-gradient(180deg,rgba(7,11,16,.45),rgba(7,11,16,.8) 70%,var(--night))}
+.dhead-in{max-width:780px;margin:0 auto}
+.back{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 10px;border-radius:999px;color:var(--flood);
+  text-decoration:none;font-weight:600;font-size:15px;background:rgba(234,242,255,.1);border:1px solid rgba(234,242,255,.18);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .3s,transform .3s var(--ease)}
+.back:hover{background:rgba(234,242,255,.18);transform:translateX(-3px)}
+.back img{width:24px;height:24px;border-radius:7px;background:#EAF2FF}
+.dtitle{margin:26px 0 0;font:900 clamp(34px,8vw,64px)/.98 var(--display);letter-spacing:.01em;text-transform:uppercase;
+  text-wrap:balance}
+.dtitle em{font-style:normal;color:var(--gold)}
+.doc{max-width:780px;margin:-28px auto 0;padding:0 16px;position:relative;z-index:3}
+.doc .content{background:linear-gradient(180deg,#101822,#0C121A);border:1px solid rgba(234,242,255,.08);border-radius:26px;
+  padding:clamp(24px,5vw,50px);box-shadow:0 34px 90px rgba(0,0,0,.55)}
+.doc h2{font:800 clamp(22px,4.4vw,28px)/1.1 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff;
+  margin:34px 0 10px;padding-top:22px;border-top:1px solid rgba(234,242,255,.08)}
+.doc hr{border:0;border-top:1px solid rgba(234,242,255,.08);margin:22px 0}
+.doc hr + h2{border-top:0;padding-top:0;margin-top:22px}
+.doc p,.doc li{color:#B9C5D3;font-size:16.5px;max-width:65ch}
+.doc p{margin:10px 0}
+.doc ul{margin:12px 0;padding-left:22px}
+.doc li{margin:8px 0}
+.doc li::marker{color:var(--gold)}
+.doc strong{color:#fff;font-weight:600}
+.doc a{color:var(--gold);font-weight:600;text-underline-offset:3px;word-break:break-word}
+
+/* =================== 4.0 additions =================== */
+[hidden]{display:none!important}
+.spot-ball{position:absolute;left:50%;bottom:clamp(26px,5vw,56px);width:clamp(38px,6vw,58px);margin-left:calc(clamp(38px,6vw,58px)/-2);z-index:0;
+  filter:drop-shadow(0 10px 10px rgba(0,0,0,.55));animation:ballbob 3.2s ease-in-out infinite}
+@keyframes ballbob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(25deg)}}
+
+/* ---- games departure board ---- */
+.games{padding:clamp(50px,9vh,96px) 16px 10px}
+.games-in{position:relative;max-width:980px;margin:0 auto;background:#04070B;border-radius:24px;padding:clamp(16px,3vw,28px);
+  border:1px solid rgba(242,193,78,.28);box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65)}
+.board-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.board-head img{width:34px;height:auto;opacity:.9}
+.board-head .count b{font:900 clamp(34px,7vw,52px)/1 var(--display);color:var(--gold);text-shadow:0 0 18px rgba(242,193,78,.45)}
+.cat-now{margin-left:auto;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);color:var(--gold-2);
+  font:800 clamp(12px,3vw,15px)/1 var(--display);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
+.gboard{display:grid;grid-template-columns:repeat(17,1fr);gap:clamp(2px,.5vw,5px);font:900 clamp(17px,5.4vw,52px)/1 var(--display)}
+.gboard .flap{width:auto;height:1.5em;border-radius:.12em}
+.gboard .flap span{font-size:.92em}
+.gboard .flap.blank span{opacity:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip{min-height:44px;padding:9px 16px;border-radius:999px;border:1px solid rgba(234,242,255,.16);background:rgba(234,242,255,.05);color:var(--flood);
+  font:600 clamp(13px,3.4vw,15px)/1 var(--sans);cursor:pointer;transition:background .25s,border-color .25s,color .25s}
+.chip:hover{border-color:rgba(242,193,78,.5)}
+.chip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#241A02}
+.shuffle{position:absolute;right:clamp(14px,2.6vw,26px);bottom:clamp(14px,2.6vw,26px);width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+  border:1px solid rgba(242,193,78,.5);background:rgba(242,193,78,.12);color:var(--gold);cursor:pointer;transition:transform .3s var(--ease)}
+.shuffle:hover{transform:rotate(-12deg) scale(1.06)}
+.shuffle svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8}
+.shuffle svg circle{fill:currentColor;stroke:none}
+.chips{padding-right:60px}
+
+/* ---- format tabs ---- */
+.fmt-tabs{position:relative;z-index:6;display:flex;width:max-content;max-width:calc(100% - 32px);margin:0 auto clamp(26px,5vh,44px);padding:5px;border-radius:999px;
+  background:#0C121A;border:1px solid rgba(242,193,78,.3)}
+.fmt-tabs button{min-width:clamp(100px,30vw,160px);min-height:44px;padding:12px clamp(12px,4vw,22px);border:0;border-radius:999px;background:none;color:var(--muted);cursor:pointer;
+  font:900 clamp(18px,4.6vw,22px)/1 var(--display);letter-spacing:.1em;text-transform:uppercase;transition:background .3s,color .3s}
+.fmt-tabs button[aria-selected="true"]{background:var(--gold);color:#241A02;box-shadow:0 0 24px rgba(242,193,78,.35)}
+
+/* ---- bracket ---- */
+.ko-hint{margin:0 0 18px;text-align:center;color:var(--muted);font-size:15px}
+.bracket{position:relative;max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr .8fr;gap:clamp(10px,3vw,40px);align-items:center}
+.col{display:grid;gap:clamp(14px,3vw,26px);position:relative}
+.rlabel{display:block;text-align:center;font:800 clamp(13px,3.2vw,16px)/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.bm{position:relative;display:grid;gap:4px;padding:8px;border-radius:16px;background:#0E151E;border:1px solid rgba(234,242,255,.08);
+  box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.bm .vs{justify-self:center;font:800 11px/1 var(--display);letter-spacing:.2em;color:var(--muted)}
+.team{position:relative;min-height:44px;padding:10px 12px;border-radius:11px;border:1.5px solid rgba(234,242,255,.12);background:#141D29;color:var(--flood);
+  font:700 clamp(14px,3.8vw,17px)/1.1 var(--sans);text-align:left;cursor:pointer;transition:background .25s,border-color .25s,opacity .25s,transform .2s}
+.team:hover:not(:disabled){border-color:rgba(242,193,78,.6)}
+.team:active:not(:disabled){transform:scale(.97)}
+.team:disabled{cursor:default;color:var(--muted)}
+.team.win{background:linear-gradient(135deg,rgba(242,193,78,.25),rgba(242,193,78,.08));border-color:var(--gold);color:#fff}
+.team.win::after{content:"✓";position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--gold);font-weight:900}
+.team.lose{opacity:.4;text-decoration:line-through}
+.team.fill{animation:slot .5s var(--ease)}
+@keyframes slot{from{transform:translateX(-18px);opacity:0}}
+.sf .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.fi .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.champ{display:grid;justify-items:center;gap:10px;padding:14px 8px;border-radius:18px;border:1.5px dashed rgba(242,193,78,.35);min-height:170px;align-content:center}
+.champ img{width:min(110px,80%);opacity:.25;filter:grayscale(1);transition:opacity .5s,filter .5s,transform .6s var(--ease)}
+.champ b{font:900 clamp(20px,5vw,28px)/1 var(--display);letter-spacing:.04em;color:var(--muted);text-align:center;word-break:break-word}
+.champ.on{border-style:solid;border-color:var(--gold);background:radial-gradient(circle at 50% 35%,rgba(242,193,78,.25),transparent 70%);box-shadow:0 0 50px rgba(242,193,78,.25)}
+.champ.on img{opacity:1;filter:drop-shadow(0 0 22px rgba(242,193,78,.6));transform:scale(1.08)}
+.champ.on b{color:var(--gold-2);text-shadow:0 0 18px rgba(242,193,78,.5)}
+.reset{position:absolute;right:0;top:-54px;width:40px;height:40px;border-radius:12px;border:1px solid rgba(234,242,255,.16);background:#0E151E;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+.reset svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+@media (max-width:620px){
+  .bracket{grid-template-columns:1fr 1fr;grid-template-areas:"sf fi" "ch ch"}
+  .col.sf{grid-area:sf}.col.fi{grid-area:fi}.col.ch{grid-area:ch}
+  .champ{grid-auto-flow:column;min-height:0;justify-content:center;align-items:center}
+  .champ img{width:72px}
+}
+
+/* ---- languages drum ---- */
+.langs{padding:clamp(56px,10vh,110px) 16px 20px;text-align:center}
+.drum{position:relative;height:clamp(64px,13vw,120px);overflow:hidden;max-width:1000px;margin:0 auto}
+.drum .ph{position:absolute;left:0;right:0;top:0;display:block;font:900 clamp(38px,9.5vw,96px)/clamp(64px,13vw,120px) var(--display),"Noto Sans",system-ui,sans-serif;
+  color:#fff;white-space:nowrap;text-shadow:0 0 30px rgba(242,193,78,.3);will-change:transform}
+.drum .ph.cur{transform:translate3d(0,0,0)}
+.drum .ph.nxt{transform:translate3d(0,100%,0);opacity:0}
+.drum.roll .ph{transition:transform .55s var(--ease),opacity .55s}
+.drum.roll .ph.cur{transform:translate3d(0,-100%,0);opacity:0}
+.drum.roll .ph.nxt{transform:translate3d(0,0,0);opacity:1}
+.lcount{margin-top:6px}
+.lcount b{font:900 clamp(26px,5vw,36px)/1 var(--display);color:var(--gold)}
+.lpills{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:860px;margin:18px auto 0}
+.lpills button{min-width:48px;min-height:44px;padding:8px 10px;border-radius:9px;border:1px solid rgba(234,242,255,.12);background:#0E151E;color:var(--muted);
+  font:800 12px/1 var(--display);letter-spacing:.12em;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.lpills button[aria-pressed="true"]{background:var(--gold);color:#241A02;border-color:var(--gold)}
+
+.fcup{width:74px!important;height:auto!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 0 16px rgba(242,193,78,.45))}
+
+/* ---- mobile performance ---- */
+@media (hover:none),(pointer:coarse){
+  .beam{filter:blur(18px)}
+  .spot-ball{animation:none}
+}
+
+
+.lang-sw{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:14px;z-index:96;display:inline-flex;align-items:center;gap:6px;
+  padding:8px 14px;border-radius:999px;font:700 13px/1 var(--sans);letter-spacing:.06em;text-decoration:none;color:var(--flood);
+  background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.lang-sw:hover{border-color:var(--gold);color:var(--gold)}
+.stores .soon{position:relative;display:block;border-radius:12px;cursor:default}
+.stores .soon img{opacity:.88;display:block}
+.stores .soon b{position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.45);background:var(--gold);color:#1a1405;font:800 11px/1 var(--sans);letter-spacing:.07em;
+  text-transform:uppercase;padding:5px 9px;border-radius:999px}
+.getit{padding:clamp(40px,8vh,80px) 16px 0;text-align:center}
+.getit .stores{margin-top:0}
+
+/* =================== 4.2: about, steps, features, tool, faq, language menu =================== */
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.tagline{margin:22px auto 0;max-width:34ch;font:600 clamp(16px,3.8vw,21px)/1.4 var(--sans);color:#D3DDE9;text-wrap:balance;
+  text-shadow:0 2px 18px rgba(0,0,0,.8)}
+.toollink{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:4px 2px;color:var(--gold-2);font-weight:600;font-size:15.5px;
+  text-decoration:none;border-bottom:1px solid rgba(242,193,78,.45);transition:color .25s,border-color .25s}
+.toollink:hover{color:#fff;border-color:#fff}
+.toollink span{transition:transform .3s var(--ease)}
+.toollink:hover span{transform:translateX(4px)}
+[dir=rtl] .toollink span{transform:scaleX(-1)}
+[dir=rtl] .toollink:hover span{transform:scaleX(-1) translateX(4px)}
+
+.about{position:relative;max-width:1080px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.eyebrow{display:inline-block;margin:0;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);
+  font:800 clamp(13px,3vw,15px)/1 var(--display);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.h2{margin:18px 0 0;font:900 clamp(34px,7.6vw,66px)/.98 var(--display);letter-spacing:.01em;text-transform:uppercase;text-wrap:balance;color:#fff}
+.h2 em{font-style:normal;color:var(--gold)}
+.lead{margin:20px 0 0;max-width:68ch;color:#B9C5D3;font-size:clamp(16.5px,2.2vw,18.5px)}
+.steps{display:grid;gap:14px;margin:clamp(32px,5vh,48px) 0 0;padding:0;list-style:none}
+@media (min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.stepc{position:relative;overflow:hidden;padding:26px 22px 22px;border-radius:20px;
+  background:linear-gradient(135deg,#141D29,#0D141D);border:1px solid rgba(234,242,255,.08);box-shadow:0 22px 50px rgba(0,0,0,.4)}
+.stepc .n{position:absolute;inset-inline-end:14px;bottom:-14px;font:900 96px/1 var(--display);color:var(--gold);opacity:.13;pointer-events:none}
+.stepc h3{position:relative;margin:0 0 8px;font:800 clamp(21px,4.6vw,26px)/1.08 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff}
+.stepc p{position:relative;margin:0;padding-inline-end:34px;color:#A9B6C5;font-size:15.5px}
+.feats{display:grid;gap:12px;margin:14px 0 0;padding:0;list-style:none}
+@media (min-width:640px){.feats{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.feats{grid-template-columns:repeat(3,1fr)}}
+.feat{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;padding:18px;border-radius:18px;
+  background:rgba(234,242,255,.03);border:1px solid rgba(234,242,255,.07)}
+.feat i{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:rgba(242,193,78,.1);border:1px solid rgba(242,193,78,.3);color:var(--gold)}
+.feat svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.feat h3{margin:1px 0 4px;font:700 16.5px/1.3 var(--sans);color:#fff}
+.feat p{margin:0;color:#97A5B5;font-size:14.5px;line-height:1.55}
+
+.toolcta{position:relative;display:grid;gap:22px;max-width:1080px;margin:clamp(40px,7vh,72px) auto 0;padding:clamp(22px,4vw,40px);
+  border-radius:24px;background:#04070B;border:1px solid rgba(242,193,78,.28);text-decoration:none;color:var(--flood);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65);transition:transform .4s var(--ease)}
+.toolcta:hover{transform:translateY(-4px)}
+@media (min-width:820px){.toolcta{grid-template-columns:1.25fr 1fr;align-items:center}}
+.toolcta h2{margin:12px 0 0;font:900 clamp(30px,6.4vw,50px)/1 var(--display);text-transform:uppercase;color:#fff}
+.toolcta p{margin:12px 0 0;color:#B9C5D3;max-width:52ch}
+.btn-gold{display:inline-flex;align-items:center;gap:10px;margin-top:20px;min-height:48px;padding:12px 22px;border-radius:999px;
+  background:linear-gradient(160deg,#FFE08A,#F2C14E 55%,#C9962A);color:#241A02;font:900 clamp(17px,4vw,20px)/1 var(--display);
+  letter-spacing:.08em;text-transform:uppercase;box-shadow:0 10px 30px rgba(242,193,78,.25)}
+.minifx{display:grid;gap:9px;direction:ltr}
+.minifx .match{justify-content:space-between}
+.mini-wk{font:800 13px/1 var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+
+.faq{max-width:880px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.qa{border-bottom:1px solid rgba(234,242,255,.09)}
+.qa:first-of-type{margin-top:22px;border-top:1px solid rgba(234,242,255,.09)}
+.qa summary{list-style:none;cursor:pointer;display:flex;gap:16px;align-items:center;justify-content:space-between;min-height:44px;
+  padding:19px 4px;font:700 clamp(16.5px,3.6vw,19px)/1.35 var(--sans);color:#fff}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";flex:0 0 auto;font:900 30px/1 var(--display);color:var(--gold);transition:transform .3s var(--ease)}
+.qa[open] summary::after{transform:rotate(45deg)}
+.qa summary:hover{color:var(--gold-2)}
+.qa p{margin:0 4px 22px;color:#B9C5D3;max-width:70ch}
+
+/* Dil seçimi: Karabel projesindeki bayraklı menünün koyu tema uyarlaması */
+.lang-menu{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));inset-inline-end:14px;z-index:96}
+.lang-menu summary{display:flex;align-items:center;gap:8px;min-height:38px;padding:8px 13px;border-radius:999px;list-style:none;cursor:pointer;
+  font:700 12.5px/1 var(--sans);letter-spacing:.06em;color:var(--flood);background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:border-color .25s,color .25s,background .25s}
+.lang-menu summary::-webkit-details-marker{display:none}
+.lang-menu summary::after{content:"";width:5px;height:5px;border:solid currentColor;border-width:0 1.4px 1.4px 0;transform:translateY(-2px) rotate(45deg);opacity:.7;transition:transform .25s}
+.lang-menu[open] summary::after{transform:translateY(1px) rotate(-135deg)}
+.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold);color:var(--gold-2);background:rgba(7,11,16,.75)}
+.lang-menu img{width:20px;height:14px;flex:0 0 auto;border-radius:2px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.14)}
+.lm-list{position:absolute;top:calc(100% + 8px);inset-inline-end:0;width:max-content;max-width:min(92vw,420px);max-height:min(70vh,560px);overflow-y:auto;
+  display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:2px;padding:6px;border-radius:16px;
+  background:rgba(11,17,24,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border:1px solid rgba(234,242,255,.12);box-shadow:0 24px 60px -10px rgba(0,0,0,.75),0 0 0 1px rgba(242,193,78,.06)}
+.lm-list a{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;text-decoration:none;font:500 13.5px/1.2 var(--sans);color:#B9C5D3;
+  transition:background .2s,color .2s}
+.lm-list a span{unicode-bidi:isolate}
+.lm-list a:hover{background:rgba(242,193,78,.1);color:#fff}
+.lm-list a[aria-current]{color:var(--gold-2);background:rgba(242,193,78,.08)}
+@media (min-width:900px){.lm-list{grid-template-columns:repeat(3,minmax(140px,1fr));max-width:560px;max-height:none}}
+[dir=rtl] .board,[dir=rtl] .gboard,[dir=rtl] .bracket,[dir=rtl] .led table,[dir=rtl] .track,[dir=rtl] .podium{direction:ltr}
+.gboard.whole{display:block;grid-template-columns:none}
+.gboard.whole .flap{width:100%;height:1.5em}
+.gboard.whole .flap span{font-size:.8em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;padding:0 .3em}
+.toolcta .eyebrow{margin:0;color:var(--gold)}
+a.toolcta{width:calc(100% - 32px)}
+
+</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebSite","@id":"https://anbertech.github.io/TurnuVolt/#website","name":"TurnuVolt","url":"https://anbertech.github.io/TurnuVolt/","publisher":{"@id":"https://anbertech.github.io/#org"},"inLanguage":["tr","en","ar","cs","da","de","el","es","es-MX","fa","fi","fr","he","hi","hu","id","it","ja","ko","ms","nb","nl","pl","pt-BR","pt-PT","ro","ru","sv","th","uk","vi","zh-Hans","zh-Hant"]},{"@type":"MobileApplication","@id":"https://anbertech.github.io/TurnuVolt/#app","name":"TurnuVolt","alternateName":"TurnuVolt: Tournament Maker","url":"https://anbertech.github.io/TurnuVolt/hi/","description":"TurnuVolt दोस्तों, स्कूलों, दफ़्तरों और क्लबों के लिए एक टूर्नामेंट मेकर ऐप है। टीमों के नाम टाइप करें और आपके लिए लीग या नॉकआउट फिक्स्चर अपने-आप तैयार हो जाएगा। जैसे-जैसे आप स्कोर दर्ज करते हैं, अंक तालिका खुद अपडेट होती जाती है, और फ़ाइनल खत्म होने पर चैंपियन पोडियम पर जगह बनाता है। यह फ़ुटबॉल से लेकर शतरंज और टेनिस से लेकर FIFA तक 63 खेलों और गेम्स को सपोर्ट करता है, और हर खेल की स्कोरिंग उसके अपने नियमों के अनुसार करता है।","applicationCategory":"SportsApplication","applicationSubCategory":"Tournament organizer","operatingSystem":"iOS 17.6+, iPadOS 17.6+","downloadUrl":"https://apps.apple.com/app/id6745177155","installUrl":"https://apps.apple.com/app/id6745177155","image":"https://anbertech.github.io/TurnuVolt/assets/img/tv_icon.jpg","screenshot":["https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_fikstur.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_podyum.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_yeni_turnuva.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_ana.png"],"featureList":["खेल के अनुरूप स्कोरिंग","जहां छोड़ा था वहीं से शुरू करें","इंटरनेट की ज़रूरत नहीं","कोई विज्ञापन नहीं, कोई अकाउंट नहीं","30+ भाषाएं","पोडियम और ट्रॉफी"],"inLanguage":["tr","en","ar","cs","da","de","el","es","es-MX","fa","fi","fr","he","hi","hu","id","it","ja","ko","ms","nb","nl","pl","pt-BR","pt-PT","ro","ru","sv","th","uk","vi","zh-Hans","zh-Hant"],"offers":{"@type":"Offer","price":"2.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://apps.apple.com/app/id6745177155"},"author":{"@id":"https://anbertech.github.io/#org"},"publisher":{"@id":"https://anbertech.github.io/#org"}},{"@type":"WebPage","@id":"https://anbertech.github.io/TurnuVolt/hi/#page","url":"https://anbertech.github.io/TurnuVolt/hi/","name":"TurnuVolt – टूर्नामेंट मेकर: फिक्स्चर, अंक तालिका और नॉकआउट ब्रैकेट","description":"लीग और नॉकआउट टूर्नामेंट आयोजित करें: अपनी टीमों के नाम लिखें, अपने-आप मैच शेड्यूल और फिक्स्चर पाएं और स्कोर दर्ज करते ही अंक तालिका को लाइव अपडेट होते देखें। 63 खेल और गेम्स, ऑफ़लाइन काम करता है, कोई विज्ञापन नहीं। मुफ़्त ऑनलाइन फिक्स्चर जनरेटर शामिल है।","inLanguage":"hi","isPartOf":{"@id":"https://anbertech.github.io/TurnuVolt/#website"},"about":{"@id":"https://anbertech.github.io/TurnuVolt/#app"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"मैं TurnuVolt के साथ फिक्स्चर कैसे बनाऊं?","acceptedAnswer":{"@type":"Answer","text":"नया टूर्नामेंट पर टैप करें, टूर्नामेंट का नाम और टीमों की संख्या दर्ज करें, खेल और फ़ॉर्मेट (लीग या नॉकआउट) चुनें, फिर टीमों के नाम टाइप करें। फिक्स्चर और अंक तालिका अपने-आप बन जाते हैं; आपको बस स्कोर दर्ज करना होता है।"}},{"@type":"Question","name":"कौन-कौन से खेल और गेम्स सपोर्टेड हैं?","acceptedAnswer":{"@type":"Answer","text":"कुल 63 खेल शामिल हैं, जिनमें फ़ुटबॉल, फुटसल, बास्केटबॉल, वॉलीबॉल, टेनिस, टेबल टेनिस, पैडल, बैडमिंटन, शतरंज, बैकगैमन, डार्ट्स, पूल, FIFA और Valorant शामिल हैं। किसी भी अन्य खेल के लिए कस्टम / अन्य का विकल्प मौजूद है।"}},{"@type":"Question","name":"लीग और नॉकआउट में क्या अंतर है?","acceptedAnswer":{"@type":"Answer","text":"लीग (राउंड रॉबिन) में हर टीम हर दूसरी टीम से खेलती है और अंक तालिका से विजेता तय होता है; आप इसे होम और अवे चरणों के साथ डबल राउंड रॉबिन भी बना सकते हैं। नॉकआउट में हारने वाली टीम बाहर हो जाती है और जीतने वाली टीमें फ़ाइनल तक आगे बढ़ती हैं।"}},{"@type":"Question","name":"टीमों की संख्या विषम होने पर क्या होता है?","acceptedAnswer":{"@type":"Answer","text":"लीग में हर राउंड में एक टीम को बाई (bye) मिलती है। नॉकआउट में पहले राउंड में बाई पाने वाली टीमें अपने-आप चुनी जाती हैं और सीधे अगले राउंड में पहुंच जाती हैं।"}},{"@type":"Question","name":"अंक तालिका की गणना कैसे की जाती है?","acceptedAnswer":{"@type":"Answer","text":"जैसे ही आप स्कोर दर्ज करते हैं, खेले गए मैच, जीत, ड्रॉ, हार, गोल अंतर और अंक अपने-आप अपडेट हो जाते हैं। अंकों का नियम खेल पर निर्भर करता है: फ़ुटबॉल में जीत के 3 अंक और ड्रॉ का 1 अंक होता है; बास्केटबॉल में ड्रॉ नहीं होता; वॉलीबॉल में सेट का अंतर भी गिना जाता है।"}},{"@type":"Question","name":"क्या मुझे इंटरनेट कनेक्शन की ज़रूरत है? मेरा डेटा कहां स्टोर होता है?","acceptedAnswer":{"@type":"Answer","text":"इंटरनेट कनेक्शन की कोई ज़रूरत नहीं है। आपके टूर्नामेंट केवल आपके डिवाइस पर सेव होते हैं; कोई अकाउंट नहीं बनता, कोई निजी डेटा एकत्र नहीं किया जाता और किसी सर्वर पर कुछ भी नहीं भेजा जाता।"}},{"@type":"Question","name":"क्या TurnuVolt मुफ़्त है?","acceptedAnswer":{"@type":"Answer","text":"यह ऐप App Store पर एक बार की खरीदारी (वन-टाइम परचेज़) के रूप में उपलब्ध है, जिसमें कोई सब्सक्रिप्शन, कोई विज्ञापन और कोई इन-ऐप खरीदारी नहीं है। आपके ब्राउज़र में चलने वाला फिक्स्चर जनरेटर पूरी तरह से मुफ़्त है।"}},{"@type":"Question","name":"क्या यह Android पर उपलब्ध है?","acceptedAnswer":{"@type":"Answer","text":"Android वर्शन जल्द ही Google Play पर आ रहा है। अभी TurnuVolt iPhone और iPad (iOS 17.6 या उसके बाद के वर्शन) के लिए उपलब्ध है।"}}],"@id":"https://anbertech.github.io/TurnuVolt/hi/#faq"}]}</script>
+</head>
+<body>
+<details class="lang-menu"><summary aria-label="भाषा / Language"><img src="../assets/img/flags/hi.svg" alt="" width="20" height="14" />HI</summary><nav class="lm-list" aria-label="भाषा / Language"><a href="https://anbertech.github.io/TurnuVolt/" hreflang="tr" lang="tr"><img src="../assets/img/flags/tr.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Türkçe</span></a><a href="https://anbertech.github.io/TurnuVolt/en/" hreflang="en" lang="en"><img src="../assets/img/flags/en.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">English</span></a><a href="https://anbertech.github.io/TurnuVolt/ar/" hreflang="ar" lang="ar"><img src="../assets/img/flags/ar.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">العربية</span></a><a href="https://anbertech.github.io/TurnuVolt/cs/" hreflang="cs" lang="cs"><img src="../assets/img/flags/cs.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Čeština</span></a><a href="https://anbertech.github.io/TurnuVolt/da/" hreflang="da" lang="da"><img src="../assets/img/flags/da.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Dansk</span></a><a href="https://anbertech.github.io/TurnuVolt/de/" hreflang="de" lang="de"><img src="../assets/img/flags/de.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Deutsch</span></a><a href="https://anbertech.github.io/TurnuVolt/el/" hreflang="el" lang="el"><img src="../assets/img/flags/el.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Ελληνικά</span></a><a href="https://anbertech.github.io/TurnuVolt/es/" hreflang="es" lang="es"><img src="../assets/img/flags/es.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Español</span></a><a href="https://anbertech.github.io/TurnuVolt/es-mx/" hreflang="es-MX" lang="es-MX"><img src="../assets/img/flags/es-mx.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Español (México)</span></a><a href="https://anbertech.github.io/TurnuVolt/fa/" hreflang="fa" lang="fa"><img src="../assets/img/flags/fa.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">فارسی</span></a><a href="https://anbertech.github.io/TurnuVolt/fi/" hreflang="fi" lang="fi"><img src="../assets/img/flags/fi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Suomi</span></a><a href="https://anbertech.github.io/TurnuVolt/fr/" hreflang="fr" lang="fr"><img src="../assets/img/flags/fr.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Français</span></a><a href="https://anbertech.github.io/TurnuVolt/he/" hreflang="he" lang="he"><img src="../assets/img/flags/he.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">עברית</span></a><a href="https://anbertech.github.io/TurnuVolt/hi/" hreflang="hi" lang="hi" aria-current="page"><img src="../assets/img/flags/hi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">हिन्दी</span></a><a href="https://anbertech.github.io/TurnuVolt/hu/" hreflang="hu" lang="hu"><img src="../assets/img/flags/hu.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Magyar</span></a><a href="https://anbertech.github.io/TurnuVolt/id/" hreflang="id" lang="id"><img src="../assets/img/flags/id.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Bahasa Indonesia</span></a><a href="https://anbertech.github.io/TurnuVolt/it/" hreflang="it" lang="it"><img src="../assets/img/flags/it.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Italiano</span></a><a href="https://anbertech.github.io/TurnuVolt/ja/" hreflang="ja" lang="ja"><img src="../assets/img/flags/ja.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">日本語</span></a><a href="https://anbertech.github.io/TurnuVolt/ko/" hreflang="ko" lang="ko"><img src="../assets/img/flags/ko.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">한국어</span></a><a href="https://anbertech.github.io/TurnuVolt/ms/" hreflang="ms" lang="ms"><img src="../assets/img/flags/ms.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Bahasa Melayu</span></a><a href="https://anbertech.github.io/TurnuVolt/nb/" hreflang="nb" lang="nb"><img src="../assets/img/flags/nb.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Norsk bokmål</span></a><a href="https://anbertech.github.io/TurnuVolt/nl/" hreflang="nl" lang="nl"><img src="../assets/img/flags/nl.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Nederlands</span></a><a href="https://anbertech.github.io/TurnuVolt/pl/" hreflang="pl" lang="pl"><img src="../assets/img/flags/pl.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Polski</span></a><a href="https://anbertech.github.io/TurnuVolt/pt-br/" hreflang="pt-BR" lang="pt-BR"><img src="../assets/img/flags/pt-br.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Português (Brasil)</span></a><a href="https://anbertech.github.io/TurnuVolt/pt-pt/" hreflang="pt-PT" lang="pt-PT"><img src="../assets/img/flags/pt-pt.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Português (Portugal)</span></a><a href="https://anbertech.github.io/TurnuVolt/ro/" hreflang="ro" lang="ro"><img src="../assets/img/flags/ro.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Română</span></a><a href="https://anbertech.github.io/TurnuVolt/ru/" hreflang="ru" lang="ru"><img src="../assets/img/flags/ru.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Русский</span></a><a href="https://anbertech.github.io/TurnuVolt/sv/" hreflang="sv" lang="sv"><img src="../assets/img/flags/sv.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Svenska</span></a><a href="https://anbertech.github.io/TurnuVolt/th/" hreflang="th" lang="th"><img src="../assets/img/flags/th.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">ไทย</span></a><a href="https://anbertech.github.io/TurnuVolt/uk/" hreflang="uk" lang="uk"><img src="../assets/img/flags/uk.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Українська</span></a><a href="https://anbertech.github.io/TurnuVolt/vi/" hreflang="vi" lang="vi"><img src="../assets/img/flags/vi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Tiếng Việt</span></a><a href="https://anbertech.github.io/TurnuVolt/zh-hans/" hreflang="zh-Hans" lang="zh-Hans"><img src="../assets/img/flags/zh-hans.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">简体中文</span></a><a href="https://anbertech.github.io/TurnuVolt/zh-hant/" hreflang="zh-Hant" lang="zh-Hant"><img src="../assets/img/flags/zh-hant.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">繁體中文</span></a></nav></details><script>(function(d){var m=d.querySelector(".lang-menu");if(!m)return;d.addEventListener("click",function(e){if(m.open&&!m.contains(e.target))m.open=false});d.addEventListener("keydown",function(e){if(e.key==="Escape"&&m.open){m.open=false;m.querySelector("summary").focus()}})})(document);</script>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="flood" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="beam l" aria-hidden="true"></div>
+  <div class="beam r" aria-hidden="true"></div>
+
+  <div>
+    <div class="icon-stage">
+      <canvas id="bolt" aria-hidden="true"></canvas>
+      <img class="app-icon" src="../assets/img/tv_icon.jpg" alt="" />
+    </div>
+    <h1 class="board"><span class="sr">TurnuVolt</span>
+      <span class="flap" aria-hidden="true"><span>T</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap" aria-hidden="true"><span>R</span></span><span class="flap" aria-hidden="true"><span>N</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap v" aria-hidden="true"><span>V</span></span><span class="flap v" aria-hidden="true"><span>O</span></span><span class="flap v" aria-hidden="true"><span>L</span></span><span class="flap v" aria-hidden="true"><span>T</span></span>
+    </h1>
+    <p class="tagline">फिक्स्चर, अंक तालिका और ब्रैकेट। कुछ ही सेकंड में तैयार, सीधे आपकी जेब में।</p>
+    <div class="stores">
+      <a data-goatcounter-click="appstore-turnuvolt-hi-ust" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="App Store से डाउनलोड करें" title="App Store"><img src="../assets/img/app-store-badge.png" alt="App Store से डाउनलोड करें" width="1062" height="318" /></a>
+      <span class="soon" role="img" aria-label="Google Play – जल्द आ रहा है"><img src="../assets/img/google-play-badge.png" alt="" width="1062" height="318" /><b>जल्द आ रहा है</b></span>
+    </div>
+    <a class="toollink" href="fixture-generator/">अभी मुफ़्त फिक्स्चर बनाएं <span aria-hidden="true">&rarr;</span></a>
+  </div>
+
+  <a class="cue" href="#arena" aria-label="नीचे स्क्रॉल करें"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></a>
+</header>
+
+<section class="arena" id="arena" aria-label="स्क्रीनशॉट">
+  <div class="pitch" aria-hidden="true"></div>
+  <img class="spot-ball" src="../assets/img/tv_ball.png" alt="" aria-hidden="true" />
+  <div class="scene" id="scene">
+    <div class="ring">
+      <figure class="card"><img src="../assets/img/tv_ss_podyum.png" alt="टूर्नामेंट के अंत में पोडियम और ट्रॉफी स्क्रीन" /></figure>
+      <figure class="card"><img src="../assets/img/tv_ss_fikstur.png" alt="फिक्स्चर और अंक तालिका स्क्रीन" /></figure>
+      <figure class="card"><img src="../assets/img/tv_ss_yeni_turnuva.png" alt="नया टूर्नामेंट बनाएं स्क्रीन" /></figure>
+      <figure class="card"><img src="../assets/img/tv_ss_ana.png" alt="TurnuVolt होम स्क्रीन" /></figure>
+      <figure class="card"><img src="../assets/img/tv_ss_kayit.png" alt="सहेजे गए टूर्नामेंट की स्क्रीन" /></figure>
+    </div>
+  </div>
+</section>
+
+<section class="games" aria-label="खेल">
+  <div class="games-in">
+    <div class="board-head">
+      <img src="../assets/img/tv_whistle.png" alt="" aria-hidden="true" />
+      <span class="count"><b id="g-count">63</b></span>
+      <span class="cat-now" id="g-cat" aria-live="polite">बॉल खेल</span>
+    </div>
+    <div class="gboard" id="gboard" role="img" aria-label="खेल सूची बोर्ड"></div>
+    <div class="chips" role="group" aria-label="श्रेणियां"><button type="button" class="chip" data-cat="ballSports" aria-pressed="false">बॉल खेल</button><button type="button" class="chip" data-cat="racketSports" aria-pressed="false">रैकेट खेल</button><button type="button" class="chip" data-cat="combatSports" aria-pressed="false">कॉम्बैट खेल</button><button type="button" class="chip" data-cat="precisionSports" aria-pressed="false">प्रिसिजन खेल</button><button type="button" class="chip" data-cat="tableGames" aria-pressed="false">टेबल और कार्ड खेल</button><button type="button" class="chip" data-cat="esports" aria-pressed="false">वीडियो गेम / ई-स्पोर्ट्स</button><button type="button" class="chip" data-cat="other" aria-pressed="false">अन्य</button></div>
+    <button type="button" class="shuffle" id="g-shuffle" aria-label="रैंडम खेल"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8" cy="8" r="1.4"/><circle cx="16" cy="16" r="1.4"/><circle cx="16" cy="8" r="1.4"/><circle cx="8" cy="16" r="1.4"/><circle cx="12" cy="12" r="1.4"/></svg></button>
+  </div>
+</section>
+<section class="final" aria-label="टूर्नामेंट फ़ॉर्मेट">
+  <canvas aria-hidden="true"></canvas>
+  <div class="fmt-tabs" role="tablist" aria-label="Format">
+    <button type="button" role="tab" id="t-league" aria-controls="p-league" aria-selected="true">लीग</button>
+    <button type="button" role="tab" id="t-ko" aria-controls="p-ko" aria-selected="false">नॉकआउट</button>
+  </div>
+  <div class="fpanel" id="p-league" role="tabpanel" aria-labelledby="t-league">
+  
+  <div class="final-in">
+    <div class="podium">
+      <svg class="cup" viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="gcup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A3"/><stop offset=".55" stop-color="#F2C14E"/><stop offset="1" stop-color="#B98A22"/></linearGradient></defs>
+        <path fill="url(#gcup)" d="M18 6h28v14c0 9.5-6.3 16-14 16S18 29.5 18 20V6z"/>
+        <path fill="none" stroke="#F2C14E" stroke-width="4" d="M18 11H9v5c0 6 4.5 10 10 10.5M46 11h9v5c0 6-4.5 10-10 10.5"/>
+        <path fill="#D9A93A" d="M28 35h8v9h-8z"/>
+        <path fill="url(#gcup)" d="M20 44h24l3 8H17z"/>
+        <path fill="#6B4E12" d="M15 52h34v6H15z"/>
+        <path fill="#FFF6D6" opacity=".55" d="M23 9h4v12c0 4 1 7 3 9-4-1-7-5-7-10z"/>
+      </svg>
+      <div class="step s2"><span class="who">Emre</span><span class="rank">2</span></div>
+      <div class="step s1"><span class="who">Bayram</span><span class="rank">1</span></div>
+      <div class="step s3"><span class="who">Tunahan</span><span class="rank">3</span></div>
+    </div>
+
+    <div class="led">
+      <p class="led-title">कक्षा <small>टूर्नामेंट</small></p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>#</th><th>टीम</th><th>खे</th><th>जी</th><th>ड्रॉ</th><th>हा</th><th>गो+</th><th>गो-</th><th>अंतर</th><th>अंक</th></tr></thead>
+          <tbody>
+            <tr class="lead"><td>1</td><td>Bayram</td><td data-v="6">6</td><td data-v="3">3</td><td data-v="2">2</td><td data-v="1">1</td><td data-v="22">22</td><td data-v="8">8</td><td data-v="14">14</td><td data-v="11">11</td></tr>
+            <tr><td>2</td><td>Emre</td><td data-v="6">6</td><td data-v="3">3</td><td data-v="2">2</td><td data-v="1">1</td><td data-v="13">13</td><td data-v="13">13</td><td data-v="0">0</td><td data-v="11">11</td></tr>
+            <tr><td>3</td><td>Tunahan</td><td data-v="6">6</td><td data-v="2">2</td><td data-v="1">1</td><td data-v="3">3</td><td data-v="14">14</td><td data-v="21">21</td><td data-v="-7">-7</td><td data-v="7">7</td></tr>
+            <tr><td>4</td><td>Ahmet</td><td data-v="6">6</td><td data-v="0">0</td><td data-v="3">3</td><td data-v="3">3</td><td data-v="10">10</td><td data-v="17">17</td><td data-v="-7">-7</td><td data-v="3">3</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="fpanel" id="p-ko" role="tabpanel" aria-labelledby="t-ko" hidden>
+    <p class="ko-hint">विजेता चुनने के लिए टीम पर टैप करें</p>
+    <div class="bracket" id="bracket">
+      <div class="col sf">
+        <span class="rlabel">सेमीफ़ाइनल</span>
+        <div class="bm" data-m="0"><button type="button" class="team" data-m="0" data-t="0">Bayram</button><span class="vs">VS</span><button type="button" class="team" data-m="0" data-t="1">Tunahan</button></div>
+        <div class="bm" data-m="1"><button type="button" class="team" data-m="1" data-t="0">Emre</button><span class="vs">VS</span><button type="button" class="team" data-m="1" data-t="1">Ahmet</button></div>
+      </div>
+      <div class="col fi">
+        <span class="rlabel">फ़ाइनल</span>
+        <div class="bm" data-m="2"><button type="button" class="team" data-m="2" data-t="0" disabled>—</button><span class="vs">VS</span><button type="button" class="team" data-m="2" data-t="1" disabled>—</button></div>
+      </div>
+      <div class="col ch">
+        <span class="rlabel">चैंपियन</span>
+        <div class="champ" id="champ"><img src="../assets/img/tv_golden_cup.png" alt="" /><b id="champ-name">—</b></div>
+      </div>
+      <button type="button" class="reset" id="ko-reset" aria-label="ब्रैकेट रीसेट करें"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4"/></svg></button>
+    </div>
+  </div>
+</section>
+<section class="langs" aria-label="भाषाएं">
+  <div class="drum" id="drum" aria-live="off"><span class="ph cur" lang="hi" dir="auto">नया टूर्नामेंट</span><span class="ph nxt" aria-hidden="true"></span></div>
+  <div class="lcount"><b id="l-count">32</b></div>
+  <div class="lpills" id="lpills" role="group" aria-label="भाषा"></div>
+</section>
+<section class="ticker" aria-hidden="true">
+  <div class="track"><span class="match m-done">Bayram <b>9 - 1</b> Emre</span><span class="match m-done">Tunahan <b>4 - 4</b> Ahmet</span><span class="match m-live">Bayram <i>VS</i> Ahmet</span><span class="match m-next">Emre <i>VS</i> Ahmet</span></div>
+  <div class="track"><span class="match m-next">Bayram <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Bayram</span><span class="match m-done">Bayram <b>9 - 1</b> Emre</span></div>
+</section>
+
+<section class="about" id="about" aria-labelledby="about-h">
+  <p class="eyebrow">TurnuVolt क्या है?</p>
+  <h2 class="h2" id="about-h">टूर्नामेंट सेट करें, बाकी काम TurnuVolt कर लेगा</h2>
+  <p class="lead">TurnuVolt दोस्तों, स्कूलों, दफ़्तरों और क्लबों के लिए एक टूर्नामेंट मेकर ऐप है। टीमों के नाम टाइप करें और आपके लिए लीग या नॉकआउट फिक्स्चर अपने-आप तैयार हो जाएगा। जैसे-जैसे आप स्कोर दर्ज करते हैं, अंक तालिका खुद अपडेट होती जाती है, और फ़ाइनल खत्म होने पर चैंपियन पोडियम पर जगह बनाता है। यह फ़ुटबॉल से लेकर शतरंज और टेनिस से लेकर FIFA तक 63 खेलों और गेम्स को सपोर्ट करता है, और हर खेल की स्कोरिंग उसके अपने नियमों के अनुसार करता है।</p>
+  <ol class="steps"><li class="stepc"><span class="n" aria-hidden="true">1</span><h3>टीमें जोड़ें</h3><p>टूर्नामेंट का नाम रखें, टीमों या खिलाड़ियों की संख्या दर्ज करें, फिर खेल और फ़ॉर्मेट चुनें।</p></li><li class="stepc"><span class="n" aria-hidden="true">2</span><h3>फिक्स्चर तैयार हैं</h3><p>लीग में हर टीम एक-दूसरे के खिलाफ खेलती है, जिसमें होम-एंड-अवे (दूसरा चरण) का विकल्प भी है। नॉकआउट में ब्रैकेट अपने-आप बनता है और विषम संख्या में टीमें होने पर बाई (bye) अपने-आप मिल जाती है।</p></li><li class="stepc"><span class="n" aria-hidden="true">3</span><h3>स्कोर दर्ज करें, अंक तालिका देखें</h3><p>गोल, पॉइंट्स, सेट या सिर्फ़ विजेता: स्कोर दर्ज करने का तरीका खेल के हिसाब से ढल जाता है। अंक, गोल अंतर और रैंकिंग की गणना आपके लिए अपने-आप हो जाती है।</p></li></ol>
+  <ul class="feats"><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="M12 6v12M8 10v4M16 10v4"/></svg></i><div><h3>खेल के अनुरूप स्कोरिंग</h3><p>फ़ुटबॉल में जीत के लिए 3 अंक, बास्केटबॉल में कोई ड्रॉ नहीं, वॉलीबॉल में सेट का अंतर। हर खेल अपने नियमों का पालन करता है।</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/><path d="M12 8v4l3 2"/></svg></i><div><h3>जहां छोड़ा था वहीं से शुरू करें</h3><p>अधूरे टूर्नामेंट सेव रहते हैं और पूरे हो चुके टूर्नामेंट आपके आर्काइव में चले जाते हैं।</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 8.8a15 15 0 0 1 20 0"/><path d="M5.5 12.3a10 10 0 0 1 13 0"/><path d="M9 15.8a5 5 0 0 1 6 0"/><path d="M12 19.5h.01"/><path d="M3 3l18 18"/></svg></i><div><h3>इंटरनेट की ज़रूरत नहीं</h3><p>सब कुछ आपके फ़ोन पर चलता है: मैदान में, कैंप में या स्कूल के प्रांगण में।</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9.5 12.2l1.8 1.8 3.4-3.6"/></svg></i><div><h3>कोई विज्ञापन नहीं, कोई अकाउंट नहीं</h3><p>एक बार की खरीदारी। कोई सब्सक्रिप्शन नहीं, कोई विज्ञापन नहीं, कोई साइन-अप नहीं और कोई डेटा संग्रह नहीं।</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></i><div><h3>30+ भाषाएं</h3><p>अंग्रेज़ी, स्पैनिश, जर्मन, अरबी, जापानी और कई अन्य भाषाएं, जिनमें दाएं-से-बाएं लिखी जाने वाली भाषाएं भी शामिल हैं।</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></i><div><h3>पोडियम और ट्रॉफी</h3><p>जब फ़ाइनल समाप्त होता है, तो चैंपियन, रनर-अप और तीसरे स्थान के विजेता कन्फ़ेटी के साथ पोडियम पर आते हैं।</p></div></li></ul>
+</section>
+
+<a class="toolcta" href="fixture-generator/">
+  <div><p class="eyebrow">मुफ़्त टूल</p><h2>क्या अभी तुरंत फिक्स्चर चाहिए?</h2><p>बिना कुछ डाउनलोड किए अपने ब्राउज़र में मुफ़्त में फिक्स्चर बनाएं। टीमों के नाम लिखें और आपका राउंड-रॉबिन या नॉकआउट मैच शेड्यूल तुरंत तैयार हो जाएगा। इसे प्रिंट करें, कॉपी करें या लिंक के ज़रिए शेयर करें।</p><span class="btn-gold">फिक्स्चर जनरेटर खोलें <span aria-hidden="true">&rarr;</span></span></div>
+  <div class="minifx" aria-hidden="true"><p class="mini-wk">राउंड 1</p><span class="match m-done">Bayram <b>2 - 1</b> Emre</span><span class="match m-done">Tunahan <b>0 - 0</b> Ahmet</span><p class="mini-wk">राउंड 2</p><span class="match m-live">Bayram <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Ahmet</span></div>
+</a>
+
+<section class="faq" aria-labelledby="faq-h">
+  <p class="eyebrow">अक्सर पूछे जाने वाले सवाल (FAQ)</p>
+  <h2 class="h2" id="faq-h">जानने योग्य बातें</h2>
+  <details class="qa"><summary>मैं TurnuVolt के साथ फिक्स्चर कैसे बनाऊं?</summary><p>नया टूर्नामेंट पर टैप करें, टूर्नामेंट का नाम और टीमों की संख्या दर्ज करें, खेल और फ़ॉर्मेट (लीग या नॉकआउट) चुनें, फिर टीमों के नाम टाइप करें। फिक्स्चर और अंक तालिका अपने-आप बन जाते हैं; आपको बस स्कोर दर्ज करना होता है।</p></details><details class="qa"><summary>कौन-कौन से खेल और गेम्स सपोर्टेड हैं?</summary><p>कुल 63 खेल शामिल हैं, जिनमें फ़ुटबॉल, फुटसल, बास्केटबॉल, वॉलीबॉल, टेनिस, टेबल टेनिस, पैडल, बैडमिंटन, शतरंज, बैकगैमन, डार्ट्स, पूल, FIFA और Valorant शामिल हैं। किसी भी अन्य खेल के लिए कस्टम / अन्य का विकल्प मौजूद है।</p></details><details class="qa"><summary>लीग और नॉकआउट में क्या अंतर है?</summary><p>लीग (राउंड रॉबिन) में हर टीम हर दूसरी टीम से खेलती है और अंक तालिका से विजेता तय होता है; आप इसे होम और अवे चरणों के साथ डबल राउंड रॉबिन भी बना सकते हैं। नॉकआउट में हारने वाली टीम बाहर हो जाती है और जीतने वाली टीमें फ़ाइनल तक आगे बढ़ती हैं।</p></details><details class="qa"><summary>टीमों की संख्या विषम होने पर क्या होता है?</summary><p>लीग में हर राउंड में एक टीम को बाई (bye) मिलती है। नॉकआउट में पहले राउंड में बाई पाने वाली टीमें अपने-आप चुनी जाती हैं और सीधे अगले राउंड में पहुंच जाती हैं।</p></details><details class="qa"><summary>अंक तालिका की गणना कैसे की जाती है?</summary><p>जैसे ही आप स्कोर दर्ज करते हैं, खेले गए मैच, जीत, ड्रॉ, हार, गोल अंतर और अंक अपने-आप अपडेट हो जाते हैं। अंकों का नियम खेल पर निर्भर करता है: फ़ुटबॉल में जीत के 3 अंक और ड्रॉ का 1 अंक होता है; बास्केटबॉल में ड्रॉ नहीं होता; वॉलीबॉल में सेट का अंतर भी गिना जाता है।</p></details><details class="qa"><summary>क्या मुझे इंटरनेट कनेक्शन की ज़रूरत है? मेरा डेटा कहां स्टोर होता है?</summary><p>इंटरनेट कनेक्शन की कोई ज़रूरत नहीं है। आपके टूर्नामेंट केवल आपके डिवाइस पर सेव होते हैं; कोई अकाउंट नहीं बनता, कोई निजी डेटा एकत्र नहीं किया जाता और किसी सर्वर पर कुछ भी नहीं भेजा जाता।</p></details><details class="qa"><summary>क्या TurnuVolt मुफ़्त है?</summary><p>यह ऐप App Store पर एक बार की खरीदारी (वन-टाइम परचेज़) के रूप में उपलब्ध है, जिसमें कोई सब्सक्रिप्शन, कोई विज्ञापन और कोई इन-ऐप खरीदारी नहीं है। आपके ब्राउज़र में चलने वाला फिक्स्चर जनरेटर पूरी तरह से मुफ़्त है।</p></details><details class="qa"><summary>क्या यह Android पर उपलब्ध है?</summary><p>Android वर्शन जल्द ही Google Play पर आ रहा है। अभी TurnuVolt iPhone और iPad (iOS 17.6 या उसके बाद के वर्शन) के लिए उपलब्ध है।</p></details>
+</section>
+
+<nav class="gates" aria-label="दस्तावेज़">
+  <a class="ticket" href="../en/privacy.html"><span class="stub"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9.5 12.2l1.8 1.8 3.4-3.6"/></svg></span><span class="tmain"><span class="tlabel">गोपनीयता नीति</span><span class="code" aria-hidden="true"></span><span class="arrow" aria-hidden="true">&rsaquo;</span></span></a>
+  <a class="ticket" href="../en/support.html"><span class="stub"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 3V5z"/><path d="M9.2 9.3a2.8 2.8 0 0 1 5.5.8c0 1.9-2.7 2-2.7 3.4"/><path d="M12 16.1h.01"/></svg></span><span class="tmain"><span class="tlabel">सहायता</span><span class="code" aria-hidden="true"></span><span class="arrow" aria-hidden="true">&rsaquo;</span></span></a>
+</nav>
+
+<section class="getit" aria-label="डाउनलोड करें">
+  <div class="stores">
+      <a data-goatcounter-click="appstore-turnuvolt-hi-alt" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="App Store से डाउनलोड करें" title="App Store"><img src="../assets/img/app-store-badge.png" alt="App Store से डाउनलोड करें" width="1062" height="318" /></a>
+      <span class="soon" role="img" aria-label="Google Play – जल्द आ रहा है"><img src="../assets/img/google-play-badge.png" alt="" width="1062" height="318" /><b>जल्द आ रहा है</b></span>
+  </div>
+</section>
+
+<footer class="foot">
+  <img class="fcup" src="../assets/img/tv_golden_cup.png" alt="" />
+  &copy; <span id="y"></span> TurnuVolt &ndash; AnberTech
+</footer>
+
+<script>window.TV_DATA={"cats":[["ballSports","बॉल खेल"],["racketSports","रैकेट खेल"],["combatSports","कॉम्बैट खेल"],["precisionSports","प्रिसिजन खेल"],["tableGames","टेबल और कार्ड खेल"],["esports","वीडियो गेम / ई-स्पोर्ट्स"],["other","अन्य"]],"games":[["फुटबॉल","ballSports"],["फुटसल","ballSports"],["बीच सॉकर","ballSports"],["बास्केटबॉल","ballSports"],["हैंडबॉल","ballSports"],["रग्बी","ballSports"],["अमेरिकन फुटबॉल","ballSports"],["बेसबॉल","ballSports"],["क्रिकेट","ballSports"],["आइस हॉकी","ballSports"],["फील्ड हॉकी","ballSports"],["वाटर पोलो","ballSports"],["डॉजबॉल","ballSports"],["वॉलीबॉल","racketSports"],["बीच वॉलीबॉल","racketSports"],["टेनिस","racketSports"],["टेबल टेनिस","racketSports"],["बैडमिंटन","racketSports"],["स्क्वैश","racketSports"],["पैडल","racketSports"],["बॉक्सिंग","combatSports"],["कुश्ती","combatSports"],["जूडो","combatSports"],["कराटे","combatSports"],["ताइक्वांडो","combatSports"],["MMA","combatSports"],["फेंसिंग","combatSports"],["आर्म रेसलिंग","combatSports"],["बॉलिंग","precisionSports"],["डार्ट्स","precisionSports"],["बिलियर्ड्स","precisionSports"],["स्नूकर","precisionSports"],["तीरंदाजी","precisionSports"],["गोल्फ","precisionSports"],["बोचे","precisionSports"],["फुट टेनिस","precisionSports"],["शतरंज","tableGames"],["चेकर्स","tableGames"],["बैकगैमन","tableGames"],["Okey","tableGames"],["Batak","tableGames"],["Pisti","tableGames"],["King","tableGames"],["पोकर","tableGames"],["Uno","tableGames"],["फुसबॉल","tableGames"],["Monopoly","tableGames"],["Scrabble","tableGames"],["Jenga","tableGames"],["डोमिनोज़","tableGames"],["FIFA","esports"],["NBA 2K","esports"],["Rocket League","esports"],["Mario Kart","esports"],["League of Legends","esports"],["Counter-Strike","esports"],["Valorant","esports"],["Fortnite","esports"],["Street Fighter","esports"],["Madden NFL","esports"],["क्विज़ नाइट","other"],["कराओके","other"],["कस्टम / अन्य","other"]],"langs":[["tr","Yeni Turnuva"],["en","New Tournament"],["ar","بطولة جديدة"],["cs","Nový turnaj"],["da","Ny turnering"],["de","Neues Turnier"],["el","Νέο τουρνουά"],["es","Nuevo torneo"],["es-MX","Nuevo torneo"],["fa","مسابقه جدید"],["fi","Uusi turnaus"],["fr","Nouveau tournoi"],["he","טורניר חדש"],["hi","नया टूर्नामेंट"],["hu","Új verseny"],["id","Turnamen Baru"],["it","Nuovo torneo"],["ja","新しい大会"],["ko","새 대회"],["ms","Kejohanan Baharu"],["nb","Ny turnering"],["nl","Nieuw toernooi"],["pl","Nowy turniej"],["pt-BR","Novo torneio"],["pt-PT","Novo torneio"],["ro","Turneu nou"],["ru","Новый турнир"],["sv","Ny turnering"],["th","ทัวร์นาเมนต์ใหม่"],["uk","Новий турнір"],["vi","Giải mới"],["zh-Hans","新赛事"],["zh-Hant","新賽事"]],"lang":"hi","locale":"hi","whole":true,"pool":"2ABCDEFGHIJKLMNOPRSTUVYअआइओकगचजटडतदनपफबमयरलवशसह"};</script>
+<script>
+(function(){
+  var D=document, W=window;
+  var reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine=W.matchMedia&&W.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  /* ---- progress, parallax, floodlight ---- */
+  var bar=D.querySelector('.progress'), bg=D.querySelector('.hero-bg');
+  function onScroll(){
+    var h=D.documentElement.scrollHeight-innerHeight, y=W.scrollY||0;
+    if(bar) bar.style.width=(h>0?Math.min(100,y/h*100):0)+'%';
+    if(bg&&!reduce) bg.style.transform='scale(1.06) translateY('+(y*.22)+'px)';
+  }
+  W.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var fl=D.querySelector('.flood');
+  if(fl&&fine){W.addEventListener('pointermove',function(e){fl.style.setProperty('--x',e.clientX+'px');fl.style.setProperty('--y',e.clientY+'px')},{passive:true});}
+
+  /* ---- split-flap scoreboard ---- */
+  var flaps=[].slice.call(D.querySelectorAll('.flap'));
+  if(flaps.length&&!reduce){
+    var pool='ABCDEFGHIKLMNOPRSTUVYZ0123456789';
+    flaps.forEach(function(f,i){
+      var sp=f.querySelector('span'), final=sp.textContent, n=7+i*2, k=0;
+      setTimeout(function step(){
+        f.classList.remove('tick'); void f.offsetWidth; f.classList.add('tick');
+        if(k<n){ sp.textContent=pool[(Math.random()*pool.length)|0]; k++; setTimeout(step,58); }
+        else { sp.textContent=final; }
+      },260+i*70);
+    });
+  }
+
+  /* ---- electric arcs around the icon ---- */
+  var bc=D.getElementById('bolt');
+  if(bc&&!reduce&&bc.getContext){
+    var bx=bc.getContext('2d'), bolts=[];
+    function sizeB(){var r=bc.getBoundingClientRect(),d=Math.min(2,W.devicePixelRatio||1);bc.width=r.width*d;bc.height=r.height*d;bx.setTransform(d,0,0,d,0,0);}
+    sizeB(); W.addEventListener('resize',sizeB);
+    function spawn(){
+      var r=bc.getBoundingClientRect(), cx=r.width/2, cy=r.height/2, a=Math.random()*Math.PI*2;
+      var r0=r.width*.2, r1=r.width*(.34+Math.random()*.14), pts=[], segs=9;
+      for(var s=0;s<=segs;s++){var t=s/segs, rr=r0+(r1-r0)*t, j=(s&&s<segs)?(Math.random()-.5)*18:0, aa=a+j/rr;
+        pts.push([cx+Math.cos(aa)*rr, cy+Math.sin(aa)*rr]);}
+      bolts.push({p:pts,life:1,gold:Math.random()<.35});
+      setTimeout(spawn,900+Math.random()*2600);
+    }
+    function drawB(){
+      var r=bc.getBoundingClientRect(); bx.clearRect(0,0,r.width,r.height);
+      bolts=bolts.filter(function(b){return b.life>0});
+      bolts.forEach(function(b){
+        bx.save(); bx.globalAlpha=b.life; bx.lineJoin='round';
+        bx.shadowColor=b.gold?'rgba(242,193,78,1)':'rgba(150,200,255,1)'; bx.shadowBlur=14;
+        bx.strokeStyle=b.gold?'rgba(255,224,138,.95)':'rgba(200,225,255,.95)'; bx.lineWidth=2.2;
+        bx.beginPath(); b.p.forEach(function(q,i){i?bx.lineTo(q[0],q[1]):bx.moveTo(q[0],q[1])}); bx.stroke();
+        bx.shadowBlur=0; bx.strokeStyle='#fff'; bx.lineWidth=.9; bx.stroke(); bx.restore();
+        b.life-=.06;
+      });
+      requestAnimationFrame(drawB);
+    }
+    setTimeout(spawn,1400); requestAnimationFrame(drawB);
+  }
+
+  /* ---- 3D ring on the pitch ---- */
+  var scene=D.getElementById('scene');
+  if(scene){
+    var ring=scene.querySelector('.ring'), cards=[].slice.call(ring.children), N=cards.length;
+    var angle=0, vel=0, dragging=false, lastX=0, moved=0, target=null, hovering=false, radius=0;
+    function layout(){
+      var w=scene.clientWidth, cw=Math.max(136,Math.min(236,w*(w<640?.46:.2)));
+      radius=(cw/2)/Math.tan(Math.PI/N)*1.12;
+      scene.style.setProperty('--ring-h',(cw*2.17+90)+'px');
+      ring.style.transform='translateZ('+(-radius)+'px)';
+      cards.forEach(function(c,i){c.style.width=cw+'px';c.style.marginLeft=(-cw/2)+'px';c.style.top='26px';c.dataset.a=i*360/N;});
+      place();
+    }
+    function place(){
+      cards.forEach(function(c){
+        var a=+c.dataset.a+angle, d=Math.cos(a*Math.PI/180), k=(d+1)/2;
+        c.style.transform='rotateY('+a+'deg) translateZ('+radius+'px)';
+        c.style.opacity=(.35+.65*k).toFixed(3);
+        c.style.setProperty('--dim',((1-k)*.5).toFixed(3));
+        c.style.zIndex=100+Math.round(d*100);
+        c.classList.toggle('front',d>.9);
+      });
+    }
+    var visible=true, lastAngle=null;
+    if('IntersectionObserver' in W){ new IntersectionObserver(function(es){ visible=es[0].isIntersecting; },{rootMargin:'100px'}).observe(scene); }
+    function frame(){
+      requestAnimationFrame(frame);
+      if(!visible||D.hidden) return;
+      if(!dragging){
+        if(target!==null){angle+=(target-angle)*.1; if(Math.abs(target-angle)<.05){angle=target;target=null;}}
+        else if(Math.abs(vel)>.02){angle+=vel;vel*=.94;}
+        else if(!hovering&&!reduce){angle+=.08;}
+      }
+      if(angle!==lastAngle){ place(); lastAngle=angle; }
+    }
+    scene.addEventListener('pointerdown',function(e){dragging=true;lastX=e.clientX;moved=0;target=null;scene.classList.add('drag');try{scene.setPointerCapture(e.pointerId)}catch(_){}});
+    scene.addEventListener('pointermove',function(e){if(!dragging)return;var dx=e.clientX-lastX;lastX=e.clientX;moved+=Math.abs(dx);angle+=dx*.32;vel=dx*.32;});
+    ['pointerup','pointercancel'].forEach(function(ev){scene.addEventListener(ev,function(){dragging=false;scene.classList.remove('drag')})});
+    scene.addEventListener('mouseenter',function(){hovering=true});
+    scene.addEventListener('mouseleave',function(){hovering=false;dragging=false;scene.classList.remove('drag')});
+    cards.forEach(function(c){c.addEventListener('click',function(){
+      if(moved>6)return; var t=-(+c.dataset.a), cur=angle;
+      while(t-cur>180)t-=360; while(cur-t>180)t+=360; target=t; vel=0;
+    })});
+    W.addEventListener('resize',layout);
+    var imgs=ring.querySelectorAll('img'), left=imgs.length;
+    [].forEach.call(imgs,function(im){ if(im.complete){if(!--left)layout()} else im.addEventListener('load',function(){if(!--left)layout()}) });
+    layout(); requestAnimationFrame(frame);
+  }
+
+  /* ---- confetti ---- */
+  function confetti(host,originEl){
+    if(reduce) return;
+    var cv=host.querySelector('canvas'); if(!cv||!cv.getContext) return;
+    var cx=cv.getContext('2d'), d=Math.min(2,W.devicePixelRatio||1), R=host.getBoundingClientRect();
+    cv.width=R.width*d; cv.height=R.height*d; cx.setTransform(d,0,0,d,0,0);
+    var pod=(originEl||host.querySelector('.podium')).getBoundingClientRect(), ox=pod.left-R.left+pod.width/2, oy=pod.top-R.top+(originEl?pod.height*.3:60);
+    var cols=['#F2C14E','#FFE08A','#C9CED6','#C9803A','#2FA84F','#EAF2FF','#3B7FD6'], P=[];
+    for(var i=0;i<170;i++){var a=-Math.PI/2+(Math.random()-.5)*2.1, s=6+Math.random()*9;
+      P.push({x:ox,y:oy,vx:Math.cos(a)*s,vy:Math.sin(a)*s,w:5+Math.random()*6,h:3+Math.random()*4,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cols[i%cols.length]});}
+    var t0=performance.now();
+    (function tick(t){
+      var e=t-t0; cx.clearRect(0,0,R.width,R.height);
+      P.forEach(function(p){p.vy+=.22;p.vx*=.992;p.vy*=.992;p.x+=p.vx;p.y+=p.vy;p.r+=p.vr;
+        cx.save();cx.globalAlpha=Math.max(0,1-e/3200);cx.translate(p.x,p.y);cx.rotate(p.r);cx.fillStyle=p.c;cx.fillRect(-p.w/2,-p.h/2,p.w,p.h*Math.abs(Math.cos(p.r*2)));cx.restore();});
+      if(e<3300) requestAnimationFrame(tick); else cx.clearRect(0,0,R.width,R.height);
+    })(t0);
+  }
+
+  W.tvConfetti=confetti;
+  /* ---- count-up standings ---- */
+  function countUp(led){
+    if(reduce) return;
+    var cells=[].slice.call(led.querySelectorAll('td[data-v]')), t0=performance.now(), dur=1300;
+    (function tick(t){
+      var k=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-k,3);
+      cells.forEach(function(c){c.textContent=Math.round(+c.dataset.v*e)});
+      if(k<1) requestAnimationFrame(tick);
+    })(t0);
+  }
+
+  /* ---- scroll triggers ---- */
+  if('IntersectionObserver' in W){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting) return; var el=e.target; io.unobserve(el);
+      if(el.classList.contains('podium')){el.classList.add('go'); setTimeout(function(){confetti(el.closest('.final'))},900);}
+      if(el.classList.contains('led')) countUp(el);
+    })},{threshold:.35});
+    D.querySelectorAll('.podium,.led').forEach(function(el){io.observe(el)});
+  }
+
+  /* ---- fixture boards: fill width ---- */
+  D.querySelectorAll('.track').forEach(function(t){var base=t.innerHTML,g=0;while(t.scrollWidth<innerWidth*2.2&&g++<8)t.innerHTML+=base;t.innerHTML+=t.innerHTML;});
+
+  var y=D.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
+})();
+
+/* =================== TurnuVolt 4.0 additions =================== */
+(function(){
+  var D=document, W=window, DATA=W.TV_DATA||{cats:[],games:[],langs:[]};
+  var reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function onVisible(el,cb){ if(!('IntersectionObserver' in W)){cb(true);return;} new IntersectionObserver(function(es){cb(es[0].isIntersecting)},{rootMargin:'80px'}).observe(el); }
+
+  /* ---- games departure board ---- */
+  var board=D.getElementById('gboard');
+  if(board){
+    // Bitişik yazılan ya da birleşen harfli dillerde (Arapça, Hintçe, Tayca...) ad harf harf bölünmez, tek pano olarak döner
+    var whole=!!DATA.whole, N=whole?1:17, cells=[], pool=DATA.pool||'ABCDEFGHIJKLMNOPRSTUVYZ0123456789';
+    if(whole) board.classList.add('whole');
+    for(var i=0;i<N;i++){ var f=D.createElement('span'); f.className='flap'; f.innerHTML='<span></span>'; board.appendChild(f); cells.push(f); }
+    var catName={}; DATA.cats.forEach(function(c){catName[c[0]]=c[1]});
+    var cur=-1, filter=null, vis=false, timer=0, chips=[].slice.call(D.querySelectorAll('.chip'));
+    function show(text){
+      if(whole){
+        var c0=cells[0], sp0=c0.firstChild;
+        if(!reduce){ c0.classList.remove('tick'); void c0.offsetWidth; c0.classList.add('tick'); }
+        sp0.textContent=text; return;
+      }
+      var t=text.toLocaleUpperCase(DATA.locale), pad=Math.max(0,Math.floor((N-t.length)/2)), s=(' '.repeat(pad)+t).padEnd(N,' ').slice(0,N);
+      cells.forEach(function(c,i){
+        var sp=c.firstChild, ch=s[i];
+        c.classList.toggle('blank',ch===' ');
+        if(reduce){ sp.textContent=ch; return; }
+        var n=3+Math.floor(Math.random()*4)+i%3, k=0;
+        (function step(){
+          c.classList.remove('tick'); void c.offsetWidth; c.classList.add('tick');
+          if(k<n){ sp.textContent=pool[(Math.random()*pool.length)|0]; k++; setTimeout(step,55); }
+          else { sp.textContent=ch===' '?' ':ch; }
+        })();
+      });
+    }
+    function pick(){
+      var list=DATA.games.map(function(g,i){return i}).filter(function(i){return !filter||DATA.games[i][1]===filter});
+      if(list.length>1) list=list.filter(function(i){return i!==cur});
+      cur=list[(Math.random()*list.length)|0]; var g=DATA.games[cur];
+      show(g[0]); D.getElementById('g-cat').textContent=catName[g[1]]||'';
+      chips.forEach(function(c){c.setAttribute('aria-pressed', String(c.dataset.cat===filter))});
+    }
+    function loop(){ clearTimeout(timer); if(vis&&!reduce) timer=setTimeout(function(){pick();loop();},2800); }
+    chips.forEach(function(c){ c.addEventListener('click',function(){ filter=(filter===c.dataset.cat)?null:c.dataset.cat; pick(); loop(); }); });
+    D.getElementById('g-shuffle').addEventListener('click',function(){ pick(); loop(); });
+    D.getElementById('g-count').textContent=DATA.games.length;
+    cur=0; show(DATA.games[0][0]); D.getElementById('g-cat').textContent=catName[DATA.games[0][1]];
+    onVisible(board,function(v){ vis=v; if(v) loop(); else clearTimeout(timer); });
+  }
+
+  /* ---- format tabs ---- */
+  var tabs=[].slice.call(D.querySelectorAll('.fmt-tabs [role=tab]'));
+  tabs.forEach(function(t){ t.addEventListener('click',function(){
+    tabs.forEach(function(x){ var on=x===t; x.setAttribute('aria-selected',String(on)); D.getElementById(x.getAttribute('aria-controls')).hidden=!on; });
+  }); });
+
+  /* ---- knockout bracket (tap to pick winners) ---- */
+  var br=D.getElementById('bracket');
+  if(br){
+    var sf=[["Bayram","Tunahan"],["Emre","Ahmet"]], win=[null,null,null];
+    var btn=function(m,t){return br.querySelector('.team[data-m="'+m+'"][data-t="'+t+'"]')};
+    var champ=D.getElementById('champ'), cname=D.getElementById('champ-name');
+    function render(anim){
+      for(var m=0;m<2;m++) for(var t=0;t<2;t++){ var b=btn(m,t); b.classList.toggle('win',win[m]===t); b.classList.toggle('lose',win[m]!==null&&win[m]!==t); }
+      for(var t2=0;t2<2;t2++){
+        var fb=btn(2,t2), name=win[t2]===null?'—':sf[t2][win[t2]];
+        if(fb.textContent!==name){ fb.textContent=name; if(anim&&name!=='—'){fb.classList.remove('fill');void fb.offsetWidth;fb.classList.add('fill');} }
+        fb.disabled=(win[0]===null||win[1]===null);
+        fb.classList.toggle('win',win[2]===t2); fb.classList.toggle('lose',win[2]!==null&&win[2]!==t2);
+      }
+      var c=win[2]===null?null:sf[win[2]][win[win[2]]];
+      champ.classList.toggle('on',!!c); cname.textContent=c||'—';
+    }
+    br.addEventListener('click',function(e){
+      var b=e.target.closest('.team'); if(!b||b.disabled) return;
+      var m=+b.dataset.m, t=+b.dataset.t, was=win[2];
+      if(m<2){ if(win[m]!==t){ win[m]=t; win[2]=null; } }
+      else { win[2]=t; }
+      render(true);
+      if(m===2&&win[2]!==null&&was!==win[2]&&W.tvConfetti) W.tvConfetti(D.querySelector('.final'),champ);
+    });
+    D.getElementById('ko-reset').addEventListener('click',function(){ win=[null,null,null]; render(false); });
+    render(false);
+  }
+
+  /* ---- 33 languages drum ---- */
+  var drum=D.getElementById('drum'), pills=D.getElementById('lpills');
+  if(drum&&DATA.langs.length){
+    var L=DATA.langs, li=L.findIndex(function(x){return x[0]===DATA.lang}), lt=0, lvis=false, busy=false;
+    L.forEach(function(x,i){ var p=D.createElement('button'); p.type='button'; p.textContent=x[0].toUpperCase(); p.lang='en'; p.setAttribute('aria-pressed',String(i===li)); p.setAttribute('aria-label',x[1]);
+      p.addEventListener('click',function(){ go(i); lloop(); }); pills.appendChild(p); });
+    D.getElementById('l-count').textContent=L.length;
+    function go(i){
+      if(busy||i===li) return; busy=true;
+      var cur=drum.querySelector('.cur'), nxt=drum.querySelector('.nxt');
+      nxt.textContent=L[i][1]; nxt.setAttribute('lang',L[i][0]);
+      if(reduce){ cur.textContent=L[i][1]; cur.setAttribute('lang',L[i][0]); busy=false; }
+      else{
+        drum.classList.add('roll');
+        setTimeout(function(){ drum.classList.remove('roll'); cur.classList.replace('cur','nxt'); nxt.classList.replace('nxt','cur'); cur.setAttribute('aria-hidden','true'); nxt.removeAttribute('aria-hidden'); busy=false; },580);
+      }
+      [].forEach.call(pills.children,function(p,k){p.setAttribute('aria-pressed',String(k===i))}); li=i;
+    }
+    function lloop(){ clearTimeout(lt); if(lvis&&!reduce) lt=setTimeout(function(){ go((li+1)%L.length); lloop(); },1700); }
+    onVisible(drum,function(v){ lvis=v; if(v) lloop(); else clearTimeout(lt); });
+  }
+})();
+
+</script>
+</body>
+</html>

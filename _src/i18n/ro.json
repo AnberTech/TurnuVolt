@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Organizator de turnee: program, clasament și tablou de eliminare directă",
+  "meta_desc": "Organizează un campionat sau un turneu cu eliminare directă: introdu echipele, obține automat programul meciurilor și urmărește clasamentul pe măsură ce adaugi scorurile. 63 de sporturi și jocuri, fără internet, fără reclame. Include un generator online gratuit de programe de meciuri.",
+  "store_alt": "Descarcă din App Store",
+  "soon": "În curând",
+  "scroll_down": "Derulează în jos",
+  "aria_screens": "Capturi de ecran",
+  "ss_podium": "Ecranul cu podiumul și trofeul la finalul unui turneu",
+  "ss_fixture": "Ecranul cu programul meciurilor și clasamentul",
+  "ss_new": "Ecranul de creare a unui turneu nou",
+  "ss_home": "Ecranul principal TurnuVolt",
+  "ss_saved": "Ecranul de confirmare a salvării turneului",
+  "aria_games": "Jocuri",
+  "aria_board": "Panou cu lista de jocuri",
+  "aria_cats": "Categorii",
+  "random_game": "Joc aleatoriu",
+  "aria_formats": "Formate de turneu",
+  "tab_ko": "Eliminare directă",
+  "led_title": "Clasă",
+  "reset_bracket": "Resetează tabloul",
+  "aria_langs": "Limbi",
+  "aria_lang": "Limbă",
+  "aria_docs": "Documente",
+  "privacy": "Politica de confidențialitate",
+  "support": "Asistență",
+  "aria_download": "Descarcă",
+  "tagline": "Program de meciuri, clasamente și tablouri de turneu. Gata în câteva secunde, direct pe telefon.",
+  "hero_tool_link": "Generează acum gratuit programul meciurilor",
+  "about_eyebrow": "Ce este TurnuVolt?",
+  "about_h2": "Tu creezi turneul, TurnuVolt se ocupă de restul",
+  "about_lead": "TurnuVolt este o aplicație pentru organizarea turneelor între prieteni, la școală, la birou sau în cluburi. Introdu echipele, iar programul pentru campionat sau eliminare directă se generează automat. Pe măsură ce introduci scorurile, clasamentul se actualizează singur, iar după finală, campionul urcă pe podium. Aplicația oferă 63 de sporturi și jocuri, de la fotbal la șah și de la tenis la FIFA, fiecare cu propriile reguli de punctaj.",
+  "steps": [
+    [
+      "Adaugă echipele",
+      "Dă un nume turneului, introdu numărul de echipe sau jucători, apoi alege jocul și formatul."
+    ],
+    [
+      "Programul meciurilor este gata",
+      "Într-un campionat, fiecare joacă împotriva tuturor, cu opțiunea de tur-retur. La eliminare directă, tabloul se creează automat, iar dacă numărul echipelor este impar, se stabilesc automat echipele care trec direct în runda următoare."
+    ],
+    [
+      "Introdu scorurile și urmărește clasamentul",
+      "Goluri, puncte, seturi sau doar câștigătorul: introduci rezultatul în funcție de joc. Punctele, golaverajul și pozițiile în clasament se calculează automat."
+    ]
+  ],
+  "feats": [
+    [
+      "Punctaj potrivit fiecărui joc",
+      "3 puncte pentru victorie la fotbal, fără egaluri la baschet, diferență de seturi la volei. Fiecare joc își urmează propriile reguli."
+    ],
+    [
+      "Continuă de unde ai rămas",
+      "Turneele în desfășurare se salvează, iar cele încheiate ajung în arhivă."
+    ],
+    [
+      "Fără conexiune la internet",
+      "Totul funcționează pe telefon: pe teren, în tabără sau în curtea școlii."
+    ],
+    [
+      "Fără reclame, fără cont",
+      "Plătești o singură dată. Fără abonament, reclame, înregistrare sau colectare de date."
+    ],
+    [
+      "30+ de limbi",
+      "Engleză, spaniolă, germană, arabă, japoneză și multe altele, inclusiv limbi scrise de la dreapta la stânga."
+    ],
+    [
+      "Podium și trofeu",
+      "După finală, campionul, finalistul și ocupantul locului al treilea urcă pe podium în ploaia de confeti."
+    ]
+  ],
+  "tool_eyebrow": "Instrument gratuit",
+  "tool_h2": "Ai nevoie de un program de meciuri chiar acum?",
+  "tool_text": "Generează gratuit programul meciurilor direct în browser, fără să descarci nimic. Introdu echipele, iar programul pentru campionat în sistem fiecare cu fiecare sau pentru eliminare directă este gata imediat. Îl poți tipări, copia sau distribui printr-un link.",
+  "tool_btn": "Deschide generatorul de programe de meciuri",
+  "faq_eyebrow": "Întrebări frecvente",
+  "faq_h2": "Bine de știut",
+  "faq_home": [
+    [
+      "Cum creez un program de meciuri cu TurnuVolt?",
+      "Apasă pe Turneu nou, introdu numele turneului și numărul de echipe, alege jocul și formatul (campionat sau eliminare directă), apoi introdu numele echipelor. Programul meciurilor și clasamentul se creează automat; tu trebuie doar să introduci scorurile."
+    ],
+    [
+      "Ce sporturi și jocuri sunt disponibile?",
+      "63 în total, printre care fotbal, futsal, baschet, volei, tenis, tenis de masă, padel, badminton, șah, table, darts, biliard, FIFA și Valorant. Pentru orice altceva, există opțiunea Personalizat / Altele."
+    ],
+    [
+      "Care este diferența dintre campionat și eliminare directă?",
+      "Într-un campionat în sistem fiecare cu fiecare, toți participanții joacă între ei, iar clasamentul stabilește câștigătorul; poți alege și varianta tur-retur. La eliminare directă, învinsul este eliminat, iar câștigătorii avansează până în finală."
+    ],
+    [
+      "Ce se întâmplă dacă numărul echipelor este impar?",
+      "Într-un campionat, câte o echipă are etapă liberă în fiecare etapă. La eliminare directă, echipele care au tur liber în prima rundă sunt alese automat și se califică direct în runda următoare."
+    ],
+    [
+      "Cum se calculează clasamentul?",
+      "Pe măsură ce introduci scorurile, se actualizează automat meciurile jucate, victoriile, egalurile, înfrângerile, golaverajul și punctele. Regulile de punctaj depind de joc: la fotbal, victoria aduce 3 puncte, iar egalul 1; la baschet nu există egaluri; la volei contează și diferența de seturi."
+    ],
+    [
+      "Am nevoie de internet? Unde sunt stocate datele mele?",
+      "Nu ai nevoie de conexiune la internet. Turneele sunt stocate doar pe dispozitivul tău; nu există cont, nu se colectează date personale și nu se trimite nimic către un server."
+    ],
+    [
+      "TurnuVolt este gratuit?",
+      "Aplicația se cumpără o singură dată din App Store, fără abonament, reclame sau achiziții în aplicație. Generatorul de programe de meciuri din browser este complet gratuit."
+    ],
+    [
+      "Este disponibil pe Android?",
+      "Versiunea pentru Android va fi disponibilă în curând pe Google Play. Momentan, TurnuVolt este disponibil pentru iPhone și iPad (iOS 17.6 sau o versiune ulterioară)."
+    ]
+  ],
+  "fx_slug": "generator-program-meciuri",
+  "fx_name": "Generator de programe de meciuri",
+  "fx_title": "Generator gratuit de programe de meciuri – Campionat și eliminare directă | TurnuVolt",
+  "fx_desc": "Introdu numele echipelor și obține în câteva secunde programul unui campionat în sistem fiecare cu fiecare sau al unui turneu cu eliminare directă. Opțiune tur-retur, etape libere și calificări directe stabilite automat. Gratuit, fără înregistrare, direct în browser; tipărește sau distribuie programul.",
+  "fx_h1_html": "<em>Generator</em> de programe de meciuri",
+  "fx_sub": "Introdu echipele, iar programul este gata în câteva secunde. Gratuit, fără înregistrare, direct în browser.",
+  "fx_teams_label": "Echipe (una pe rând)",
+  "fx_teams_ph": "Vulturii\nLeii\nTigrii\nLupii",
+  "fx_count_label": "sau numărul de echipe:",
+  "fx_fill": "Completează",
+  "fx_format": "Format",
+  "fx_knockout": "Eliminare directă",
+  "fx_double": "Tur-retur (fiecare cu fiecare, de două ori)",
+  "fx_shuffle": "Amestecă echipele la tragerea la sorți",
+  "fx_generate": "Generează programul",
+  "fx_sum_league": "%1$d echipe · %2$d etape · %3$d meciuri",
+  "fx_sum_ko": "%1$d echipe · %2$d runde · %3$d meciuri",
+  "fx_week": "Etapa %d",
+  "fx_bye_row": "%s are etapă liberă",
+  "fx_ko_bye": "%s se califică direct în runda următoare",
+  "fx_winner_of": "Câștigătoarea meciului #%d",
+  "fx_copy": "Copiază",
+  "fx_copied": "Copiat",
+  "fx_share": "Copiază linkul",
+  "fx_link_copied": "Link copiat",
+  "fx_print": "Tipărește",
+  "fx_err_min": "Introdu cel puțin 2 echipe.",
+  "fx_err_max": "Poți adăuga cel mult 64 de echipe.",
+  "fx_err_dup": "Două echipe au același nume: %s",
+  "fx_cta_title": "Lasă TurnuVolt să țină scorul",
+  "fx_cta_text": "Creează acest turneu în aplicația TurnuVolt: pe măsură ce introduci scorurile, clasamentul, golaverajul și pozițiile echipelor se actualizează automat, câștigătorii avansează în tablou, iar campionul urcă pe podium după finală.",
+  "fx_h2_how": "Cum se creează programul unui campionat în sistem fiecare cu fiecare?",
+  "fx_p_how1_html": "Într-un campionat în sistem fiecare cu fiecare, fiecare echipă joacă o singură dată împotriva tuturor celorlalte. Programul se construiește prin metoda cercului, cunoscută și sub numele de <b>tabele Berger</b>: o echipă rămâne fixă, iar celelalte se rotesc cu o poziție la fiecare etapă. Astfel, nicio întâlnire nu se repetă și fiecare echipă joacă cel mult un meci pe etapă.",
+  "fx_p_how2_html": "Un campionat cu <b>n</b> echipe are în total <b>n × (n − 1) ÷ 2</b> meciuri. Pentru un număr par de echipe sunt necesare <b>n − 1</b> etape, iar pentru un număr impar, <b>n</b> etape, câte o echipă având etapă liberă de fiecare dată. Varianta tur-retur dublează numărul de meciuri și de etape, iar în retur se inversează gazdele și oaspeții.",
+  "fx_table_caption": "Meciuri și etape în funcție de numărul de echipe (fiecare cu fiecare, un singur tur)",
+  "fx_th_teams": "Echipe",
+  "fx_th_matches": "Meciuri",
+  "fx_th_weeks": "Etape",
+  "fx_th_double": "Tur-retur",
+  "fx_h2_example": "Exemplu: programul unui campionat cu 4 echipe",
+  "fx_h2_ko": "Tablouri de eliminare directă și tururi libere",
+  "fx_p_ko1_html": "Într-un turneu cu eliminare directă, echipa care pierde este eliminată. Dacă numărul de echipe nu este o putere a lui doi (4, 8, 16, 32…), unele echipe primesc un <b>tur liber</b> în prima rundă. Numărul de tururi libere este diferența dintre următoarea putere a lui doi și numărul de echipe: cu 6 echipe, 8 − 6 = 2 echipe se califică direct, iar cu 10 echipe, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Un turneu cu eliminare directă cu <b>n</b> echipe are întotdeauna <b>n − 1</b> meciuri, deoarece la fiecare meci este eliminată exact o echipă. Un turneu cu 16 echipe are 4 runde și 15 meciuri.",
+  "fx_h2_points": "Cum se calculează clasamentul unui campionat?",
+  "fx_p_points_html": "În sporturi precum fotbalul, o victorie aduce <b>3</b> puncte, un egal <b>1</b>, iar o înfrângere <b>0</b>; echipele cu același număr de puncte sunt departajate după golaveraj, apoi după golurile marcate. În sporturile fără egaluri, precum baschetul, o victorie aduce 2 puncte. La volei, o victorie cu 3-0 sau 3-1 aduce 3 puncte, o victorie cu 3-2 aduce 2 puncte, iar o înfrângere cu 2-3 aduce 1 punct. TurnuVolt aplică automat aceste reguli pentru jocul ales.",
+  "fx_faq_h2": "Întrebări despre programul meciurilor",
+  "faq_fx": [
+    [
+      "Generatorul de programe de meciuri este gratuit?",
+      "Da. Fără înregistrare și fără reclame. Programul se generează în browser, iar numele echipelor tale nu sunt trimise nicăieri."
+    ],
+    [
+      "Câte echipe pot adăuga?",
+      "Poți genera programul unui campionat sau al unui turneu cu eliminare directă pentru 2 până la 64 de echipe."
+    ],
+    [
+      "Pot genera programul unui campionat cu un număr impar de echipe?",
+      "Da. Câte o echipă are etapă liberă în fiecare etapă, iar la finalul campionatului toate echipele au jucat același număr de meciuri."
+    ],
+    [
+      "Ce înseamnă un campionat tur-retur?",
+      "Este un program în care fiecare pereche de echipe se întâlnește de două ori, cu gazdele și oaspeții inversați în retur. Numărul de meciuri se dublează."
+    ],
+    [
+      "Pot tipări sau distribui programul meciurilor?",
+      "Da. Cu Tipărește obții o versiune clară pentru imprimare, Copiază pune programul în clipboard ca text, iar Copiază linkul creează un link care deschide același program."
+    ],
+    [
+      "Cum urmăresc scorurile și clasamentul?",
+      "Creează același turneu în aplicația TurnuVolt. Pe măsură ce introduci scorurile, clasamentul, golaverajul și pozițiile echipelor se calculează automat, iar câștigătorii avansează singuri în tablou."
+    ]
+  ]
+}

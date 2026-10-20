@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Turneringsapp: spelschema, tabell och utslagsturnering",
+  "meta_desc": "Skapa turneringsschema för alla möter alla eller utslagsturnering. Matchschema, tabell, hemma och borta samt frilotter sköts automatiskt. 63 sporter och spel, fungerar offline, inga annonser. Gratis spelschemagenerator online ingår.",
+  "store_alt": "Hämta på App Store",
+  "soon": "Kommer snart",
+  "scroll_down": "Rulla ned",
+  "aria_screens": "Skärmbilder",
+  "ss_podium": "Prispall och pokal efter turneringens slut",
+  "ss_fixture": "Skärm med spelschema och tabell",
+  "ss_new": "Skärm för att skapa en ny turnering",
+  "ss_home": "TurnuVolts startskärm",
+  "ss_saved": "Skärm som visar att turneringen har sparats",
+  "aria_games": "Spel",
+  "aria_board": "Tavla med spellista",
+  "aria_cats": "Kategorier",
+  "random_game": "Slumpmässigt spel",
+  "aria_formats": "Turneringsformat",
+  "tab_ko": "Utslagsturnering",
+  "led_title": "Klass",
+  "reset_bracket": "Återställ slutspelsträdet",
+  "aria_langs": "Språk",
+  "aria_lang": "Språk",
+  "aria_docs": "Dokument",
+  "privacy": "Integritetspolicy",
+  "support": "Support",
+  "aria_download": "Ladda ner",
+  "tagline": "Spelschema, tabell och slutspelsträd. Klart på några sekunder, direkt i fickan.",
+  "hero_tool_link": "Skapa ett gratis spelschema nu",
+  "about_eyebrow": "Vad är TurnuVolt?",
+  "about_h2": "Sätt upp turneringen – TurnuVolt sköter resten",
+  "about_lead": "TurnuVolt är en turneringsapp för vänner, skolor, arbetsplatser och föreningar. Skriv in lagen så skapas spelschemat automatiskt för seriespel eller utslagsturnering. När du fyller i resultaten uppdateras tabellen av sig själv, och efter finalen får mästaren kliva upp på prispallen. Appen stöder 63 sporter och spel, från fotboll och schack till tennis och FIFA, och räknar resultat enligt reglerna för varje gren.",
+  "steps": [
+    [
+      "Lägg till lagen",
+      "Namnge turneringen, ange antalet lag eller spelare och välj sedan spel och format."
+    ],
+    [
+      "Spelschemat är klart",
+      "I ett seriespel möter alla varandra, med möjlighet till returmöten hemma och borta. I en utslagsturnering skapas slutspelsträdet automatiskt, och vid udda antal lag delas frilotter ut."
+    ],
+    [
+      "Fyll i resultat och följ tabellen",
+      "Mål, poäng, set eller bara vinnaren – resultatregistreringen anpassas efter spelet. Poäng, målskillnad och placeringar räknas ut åt dig."
+    ]
+  ],
+  "feats": [
+    [
+      "Poängräkning som passar spelet",
+      "3 poäng för vinst i fotboll, inga oavgjorda matcher i basket och setskillnad i volleyboll. Varje spel följer sina egna regler."
+    ],
+    [
+      "Fortsätt där du slutade",
+      "Pågående turneringar sparas och avslutade turneringar hamnar i ditt arkiv."
+    ],
+    [
+      "Inget internet behövs",
+      "Allt körs på din telefon – vid planen, på lägret eller på skolgården."
+    ],
+    [
+      "Inga annonser, inget konto",
+      "Engångsköp. Ingen prenumeration, inga annonser, ingen registrering och ingen datainsamling."
+    ],
+    [
+      "30+ språk",
+      "Engelska, spanska, tyska, arabiska, japanska och många fler, inklusive språk som skrivs från höger till vänster."
+    ],
+    [
+      "Prispall och pokal",
+      "När finalen är över kliver mästaren, tvåan och trean upp på prispallen under ett konfettiregn."
+    ]
+  ],
+  "tool_eyebrow": "Gratisverktyg",
+  "tool_h2": "Behöver du ett spelschema direkt?",
+  "tool_text": "Skapa ett spelschema gratis i webbläsaren utan att ladda ner något. Skriv in lagen så får du genast ett matchschema för alla möter alla eller utslagsturnering. Skriv ut, kopiera eller dela det med en länk.",
+  "tool_btn": "Öppna spelschemageneratorn",
+  "faq_eyebrow": "Vanliga frågor",
+  "faq_h2": "Bra att veta",
+  "faq_home": [
+    [
+      "Hur skapar jag ett spelschema med TurnuVolt?",
+      "Tryck på Ny turnering, ange turneringens namn och antalet lag, välj spel och format (seriespel eller utslagsturnering) och skriv sedan in lagnamnen. Spelschemat och tabellen skapas automatiskt – du behöver bara fylla i resultaten."
+    ],
+    [
+      "Vilka sporter och spel stöds?",
+      "Totalt 63, bland annat fotboll, futsal, basket, volleyboll, tennis, bordtennis, padel, badminton, schack, backgammon, dart, biljard, FIFA och Valorant. För allt annat finns alternativet Anpassat/Annat."
+    ],
+    [
+      "Vad är skillnaden mellan seriespel och utslagsturnering?",
+      "I ett seriespel (alla möter alla) spelar alla lag mot varandra och tabellen avgör vinnaren. Du kan även välja dubbelmöten hemma och borta. I en utslagsturnering åker förloraren ut och vinnarna går vidare fram till finalen."
+    ],
+    [
+      "Vad händer om antalet lag är udda?",
+      "I ett seriespel står ett lag över i varje omgång. I en utslagsturnering väljs lagen som får frilott i första omgången automatiskt och går direkt vidare till nästa omgång."
+    ],
+    [
+      "Hur räknas tabellen ut?",
+      "När du fyller i resultaten uppdateras spelade matcher, vinster, oavgjorda, förluster, målskillnad och poäng automatiskt. Poängreglerna beror på spelet: i fotboll ger en vinst 3 poäng och oavgjort 1; basket har inga oavgjorda matcher; i volleyboll räknas även setskillnaden."
+    ],
+    [
+      "Behöver jag en internetanslutning? Var lagras mina uppgifter?",
+      "Ingen anslutning behövs. Dina turneringar lagras bara på din enhet. Det finns inget konto, inga personuppgifter samlas in och ingenting skickas till någon server."
+    ],
+    [
+      "Är TurnuVolt gratis?",
+      "Appen köps en gång på App Store och har ingen prenumeration, inga annonser och inga köp i appen. Spelschemageneratorn i webbläsaren är helt gratis."
+    ],
+    [
+      "Finns TurnuVolt för Android?",
+      "Android-versionen kommer snart till Google Play. Just nu finns TurnuVolt för iPhone och iPad (iOS 17.6 eller senare)."
+    ]
+  ],
+  "fx_slug": "spelschema-generator",
+  "fx_name": "Spelschemagenerator",
+  "fx_title": "Gratis spelschemagenerator – matchschema för alla möter alla och utslagsturnering | TurnuVolt",
+  "fx_desc": "Skriv in lagnamnen och skapa ett turneringsschema på några sekunder för alla möter alla eller utslagsturnering. Stöd för hemma och borta samt automatiska frilotter. Gratis, ingen registrering; skriv ut eller dela.",
+  "fx_h1_html": "Spelschema<em>generator</em>",
+  "fx_sub": "Skriv in lagen så är matchschemat klart på några sekunder. Gratis, ingen registrering och allt körs i webbläsaren.",
+  "fx_teams_label": "Lag (ett per rad)",
+  "fx_teams_ph": "Örnarna\nLejonen\nTigrarna\nVargarna",
+  "fx_count_label": "eller antal lag:",
+  "fx_fill": "Fyll i",
+  "fx_format": "Format",
+  "fx_knockout": "Utslagsturnering",
+  "fx_double": "Hemma och borta (dubbelserie)",
+  "fx_shuffle": "Slumpa lottningen",
+  "fx_generate": "Skapa spelschema",
+  "fx_sum_league": "%1$d lag · %2$d omgångar · %3$d matcher",
+  "fx_sum_ko": "%1$d lag · %2$d omgångar · %3$d matcher",
+  "fx_week": "Omgång %d",
+  "fx_bye_row": "%s står över den här omgången",
+  "fx_ko_bye": "%s får frilott till nästa omgång",
+  "fx_winner_of": "Vinnaren i match #%d",
+  "fx_copy": "Kopiera",
+  "fx_copied": "Kopierat",
+  "fx_share": "Kopiera länk",
+  "fx_link_copied": "Länken har kopierats",
+  "fx_print": "Skriv ut",
+  "fx_err_min": "Ange minst 2 lag.",
+  "fx_err_max": "Du kan ha högst 64 lag.",
+  "fx_err_dup": "Två lag har samma namn: %s",
+  "fx_cta_title": "Låt TurnuVolt hålla koll på resultaten",
+  "fx_cta_text": "Lägg upp turneringen i TurnuVolt-appen. När du fyller i resultaten uppdateras tabell, målskillnad och placeringar automatiskt, vinnarna går vidare i slutspelsträdet och efter finalen får mästaren kliva upp på prispallen.",
+  "fx_h2_how": "Hur skapas ett spelschema för alla möter alla?",
+  "fx_p_how1_html": "I ett seriespel (alla möter alla) spelar varje lag mot alla andra lag en gång. Spelschemat byggs med cirkelmetoden, även kallad <b>Berger-tabeller</b>: ett lag står stilla medan de andra flyttas ett steg inför varje omgång. På så sätt upprepas inga möten och varje lag spelar högst en match per omgång.",
+  "fx_p_how2_html": "En serie med <b>n</b> lag har totalt <b>n × (n − 1) ÷ 2</b> matcher. Med ett jämnt antal lag krävs <b>n − 1</b> omgångar, med ett udda antal <b>n</b> omgångar, och ett lag står över i varje omgång. En dubbelserie (hemma och borta) fördubblar antalet matcher och omgångar, och hemma- och bortalag byter plats under den andra halvan.",
+  "fx_table_caption": "Antal matcher och omgångar efter antal lag (enkelserie)",
+  "fx_th_teams": "Lag",
+  "fx_th_matches": "Matcher",
+  "fx_th_weeks": "Omgångar",
+  "fx_th_double": "Hemma och borta",
+  "fx_h2_example": "Exempel: spelschema för en serie med 4 lag",
+  "fx_h2_ko": "Slutspelsträd och frilotter",
+  "fx_p_ko1_html": "I en utslagsturnering åker förloraren ut. Om antalet lag inte är en tvåpotens (4, 8, 16, 32…) får vissa lag en <b>frilott</b> i första omgången. Antalet frilotter är nästa tvåpotens minus antalet lag: med 6 lag får 8 − 6 = 2 lag frilott, och med 10 lag blir det 16 − 10 = 6.",
+  "fx_p_ko2_html": "En utslagsturnering med <b>n</b> lag har alltid <b>n − 1</b> matcher, eftersom exakt ett lag slås ut i varje match. En turnering med 16 lag tar 4 omgångar och 15 matcher.",
+  "fx_h2_points": "Hur räknas tabellen i ett seriespel ut?",
+  "fx_p_points_html": "I sporter som fotboll ger en vinst <b>3</b> poäng, oavgjort <b>1</b> och en förlust <b>0</b>. Lag med lika många poäng skiljs åt genom målskillnad och därefter gjorda mål. I sporter utan oavgjort, som basket, ger en vinst 2 poäng. I volleyboll ger en vinst med 3-0 eller 3-1 3 poäng, en vinst med 3-2 ger 2 poäng och en förlust med 2-3 ger 1 poäng. TurnuVolt tillämpar automatiskt reglerna för spelet du väljer.",
+  "fx_faq_h2": "Frågor om spelscheman",
+  "faq_fx": [
+    [
+      "Är spelschemageneratorn gratis?",
+      "Ja. Ingen registrering och inga annonser. Spelschemat skapas i din webbläsare och dina lagnamn skickas aldrig någonstans."
+    ],
+    [
+      "Hur många lag kan jag lägga till?",
+      "Du kan skapa ett spelschema för seriespel eller utslagsturnering med 2 till 64 lag."
+    ],
+    [
+      "Kan jag skapa ett serieschema med ett udda antal lag?",
+      "Ja. Ett lag står över i varje omgång, och när serien är färdig har alla lag spelat lika många matcher."
+    ],
+    [
+      "Vad är en dubbelserie?",
+      "Ett spelschema där varje lagmöte spelas två gånger, med hemma- och bortalag i omvänd ordning under den andra halvan. Det fördubblar antalet matcher."
+    ],
+    [
+      "Kan jag skriva ut eller dela spelschemat?",
+      "Ja. Skriv ut ger en ren utskrift, Kopiera lägger spelschemat som text i urklipp och Kopiera länk skapar en länk som öppnar samma spelschema."
+    ],
+    [
+      "Hur håller jag koll på resultat och tabell?",
+      "Lägg upp samma turnering i TurnuVolt-appen. När du fyller i resultaten räknas tabell, målskillnad och placeringar ut automatiskt, och vinnarna går vidare i slutspelsträdet av sig själva."
+    ]
+  ]
+}

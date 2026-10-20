@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Kreator turniejów: terminarz, tabela i drabinka",
+  "meta_desc": "Organizuj turnieje ligowe i w systemie pucharowym: wpisz drużyny, wygeneruj harmonogram meczów i uzupełniaj wyniki, a tabela zaktualizuje się automatycznie. 63 dyscypliny i gry, działanie offline, bez reklam. Także darmowy generator terminarza online.",
+  "store_alt": "Pobierz z App Store",
+  "soon": "Już wkrótce",
+  "scroll_down": "Przewiń w dół",
+  "aria_screens": "Zrzuty ekranu",
+  "ss_podium": "Ekran podium i pucharu po zakończeniu turnieju",
+  "ss_fixture": "Ekran terminarza i tabeli",
+  "ss_new": "Ekran tworzenia nowego turnieju",
+  "ss_home": "Ekran główny TurnuVolt",
+  "ss_saved": "Ekran potwierdzenia zapisania turnieju",
+  "aria_games": "Gry",
+  "aria_board": "Plansza z listą gier",
+  "aria_cats": "Kategorie",
+  "random_game": "Losowa gra",
+  "aria_formats": "Formaty turniejów",
+  "tab_ko": "System pucharowy",
+  "led_title": "Klasowy",
+  "reset_bracket": "Zresetuj drabinkę",
+  "aria_langs": "Języki",
+  "aria_lang": "Język",
+  "aria_docs": "Dokumenty",
+  "privacy": "Polityka prywatności",
+  "support": "Pomoc",
+  "aria_download": "Pobierz",
+  "tagline": "Terminarz, tabela i drabinka. Gotowe w kilka sekund, zawsze pod ręką.",
+  "hero_tool_link": "Ułóż terminarz za darmo",
+  "about_eyebrow": "Czym jest TurnuVolt?",
+  "about_h2": "Ty tworzysz turniej, TurnuVolt zajmuje się resztą",
+  "about_lead": "TurnuVolt to aplikacja do organizowania turniejów wśród znajomych, w szkołach, firmach i klubach. Wpisz drużyny, a terminarz rozgrywek ligowych lub pucharowych powstanie automatycznie. Gdy wpisujesz wyniki, tabela aktualizuje się sama, a po finale zwycięzca staje na podium. Aplikacja obsługuje 63 dyscypliny i gry — od piłki nożnej przez szachy i tenis po FIFA — i nalicza punkty zgodnie z zasadami każdej z nich.",
+  "steps": [
+    [
+      "Dodaj drużyny",
+      "Nadaj turniejowi nazwę, wpisz liczbę drużyn lub zawodników, a następnie wybierz grę i format rozgrywek."
+    ],
+    [
+      "Terminarz gotowy",
+      "W lidze każdy gra z każdym, a opcjonalny mecz i rewanż pozwala rozegrać drugą rundę spotkań. W systemie pucharowym drabinka powstaje automatycznie, a przy nieparzystej liczbie drużyn aplikacja przydziela wolny los."
+    ],
+    [
+      "Wpisuj wyniki i śledź tabelę",
+      "Gole, punkty, sety lub sam zwycięzca — sposób wpisywania wyników zależy od gry. Punkty, bilans bramek i miejsca w tabeli obliczają się automatycznie."
+    ]
+  ],
+  "feats": [
+    [
+      "Punktacja dopasowana do gry",
+      "3 punkty za zwycięstwo w piłce nożnej, brak remisów w koszykówce, bilans setów w siatkówce. Każda gra ma swoje zasady."
+    ],
+    [
+      "Wróć do turnieju w dowolnej chwili",
+      "Trwające turnieje są zapisywane, a zakończone trafiają do archiwum."
+    ],
+    [
+      "Bez internetu",
+      "Wszystko działa na telefonie: na boisku, na obozie i na szkolnym podwórku."
+    ],
+    [
+      "Bez reklam i konta",
+      "Jednorazowy zakup. Bez abonamentu, reklam, rejestracji i zbierania danych."
+    ],
+    [
+      "30+ języków",
+      "Angielski, hiszpański, niemiecki, arabski, japoński i wiele innych, w tym języki pisane od prawej do lewej."
+    ],
+    [
+      "Podium i puchar",
+      "Po finale zwycięzca oraz zdobywcy drugiego i trzeciego miejsca stają na podium w deszczu konfetti."
+    ]
+  ],
+  "tool_eyebrow": "Darmowe narzędzie",
+  "tool_h2": "Potrzebujesz terminarza od ręki?",
+  "tool_text": "Ułóż terminarz za darmo w przeglądarce, bez pobierania aplikacji. Wpisz drużyny, a harmonogram meczów w systemie każdy z każdym lub pucharowym będzie gotowy od razu. Wydrukuj go, skopiuj lub udostępnij link.",
+  "tool_btn": "Otwórz generator terminarza",
+  "faq_eyebrow": "Najczęstsze pytania",
+  "faq_h2": "Warto wiedzieć",
+  "faq_home": [
+    [
+      "Jak ułożyć terminarz w TurnuVolt?",
+      "Dotknij opcji Nowy turniej, wpisz nazwę turnieju i liczbę drużyn, wybierz grę oraz format rozgrywek (liga lub system pucharowy), a następnie podaj nazwy drużyn. Terminarz i tabela powstaną automatycznie — wystarczy wpisywać wyniki."
+    ],
+    [
+      "Jakie dyscypliny i gry są dostępne?",
+      "Łącznie 63, w tym piłka nożna, futsal, koszykówka, siatkówka, tenis, tenis stołowy, padel, badminton, szachy, tryktrak, dart, bilard, FIFA i Valorant. Dla pozostałych jest opcja Własna / Inna."
+    ],
+    [
+      "Czym różni się liga od systemu pucharowego?",
+      "W lidze każdy gra z każdym, a o zwycięstwie decyduje tabela. Możesz też wybrać mecz i rewanż, aby każda para spotkała się dwukrotnie. W systemie pucharowym przegrany odpada, a zwycięzcy awansują do kolejnych rund aż do finału."
+    ],
+    [
+      "Co się dzieje przy nieparzystej liczbie drużyn?",
+      "W lidze w każdej kolejce jedna drużyna pauzuje. W systemie pucharowym aplikacja automatycznie wybiera drużyny, które otrzymują wolny los w pierwszej rundzie i awansują bezpośrednio do następnej."
+    ],
+    [
+      "Jak obliczana jest tabela?",
+      "Gdy wpisujesz wyniki, liczba rozegranych meczów, zwycięstw, remisów i porażek oraz bilans bramek i punkty aktualizują się automatycznie. Punktacja zależy od gry: w piłce nożnej zwycięstwo daje 3 punkty, a remis 1; w koszykówce nie ma remisów; w siatkówce liczy się także bilans setów."
+    ],
+    [
+      "Czy potrzebuję internetu? Gdzie są przechowywane moje dane?",
+      "Połączenie z internetem nie jest potrzebne. Turnieje są przechowywane wyłącznie na Twoim urządzeniu. Nie musisz zakładać konta, aplikacja nie zbiera danych osobowych i niczego nie wysyła na serwer."
+    ],
+    [
+      "Czy TurnuVolt jest za darmo?",
+      "Aplikację kupujesz jednorazowo w App Store — bez abonamentu, reklam i zakupów w aplikacji. Generator terminarza w przeglądarce jest całkowicie darmowy."
+    ],
+    [
+      "Czy aplikacja jest dostępna na Android?",
+      "Wersja na Android pojawi się wkrótce w Google Play. Obecnie TurnuVolt jest dostępny na iPhone i iPad (iOS 17.6 lub nowszy)."
+    ]
+  ],
+  "fx_slug": "generator-terminarza",
+  "fx_name": "Generator terminarza",
+  "fx_title": "Darmowy generator terminarza – każdy z każdym i system pucharowy | TurnuVolt",
+  "fx_desc": "Wpisz nazwy drużyn i w kilka sekund ułóż harmonogram meczów każdy z każdym lub w systemie pucharowym. Opcja mecz i rewanż, wolny los przydzielany automatycznie. Za darmo, bez rejestracji, w przeglądarce. Wydrukuj lub udostępnij terminarz.",
+  "fx_h1_html": "<em>Generator</em> terminarza",
+  "fx_sub": "Wpisz drużyny, a harmonogram meczów będzie gotowy w kilka sekund. Za darmo, bez rejestracji, w przeglądarce.",
+  "fx_teams_label": "Drużyny (każda w osobnym wierszu)",
+  "fx_teams_ph": "Orły\nLwy\nTygrysy\nWilki",
+  "fx_count_label": "lub liczba drużyn:",
+  "fx_fill": "Uzupełnij",
+  "fx_format": "Format rozgrywek",
+  "fx_knockout": "System pucharowy",
+  "fx_double": "Mecz i rewanż (każdy z każdym dwukrotnie)",
+  "fx_shuffle": "Wylosuj pary",
+  "fx_generate": "Generuj terminarz",
+  "fx_sum_league": "Drużyny: %1$d · kolejki: %2$d · mecze: %3$d",
+  "fx_sum_ko": "Drużyny: %1$d · rundy: %2$d · mecze: %3$d",
+  "fx_week": "Kolejka %d",
+  "fx_bye_row": "%s pauzuje w tej kolejce",
+  "fx_ko_bye": "%s otrzymuje wolny los i awansuje do następnej rundy",
+  "fx_winner_of": "Zwycięzca meczu nr %d",
+  "fx_copy": "Kopiuj",
+  "fx_copied": "Skopiowano",
+  "fx_share": "Kopiuj link",
+  "fx_link_copied": "Link skopiowany",
+  "fx_print": "Drukuj",
+  "fx_err_min": "Wpisz co najmniej 2 drużyny.",
+  "fx_err_max": "Możesz dodać maksymalnie 64 drużyny.",
+  "fx_err_dup": "Dwie drużyny mają tę samą nazwę: %s",
+  "fx_cta_title": "Powierz liczenie wyników TurnuVolt",
+  "fx_cta_text": "Utwórz ten turniej w aplikacji TurnuVolt. Gdy wpisujesz wyniki, tabela, bilans bramek i klasyfikacja aktualizują się automatycznie, zwycięzcy awansują w drabince, a po finale mistrz staje na podium.",
+  "fx_h2_how": "Jak powstaje terminarz każdy z każdym?",
+  "fx_p_how1_html": "W lidze rozgrywanej systemem każdy z każdym każda drużyna spotyka się raz z każdą inną. Terminarz powstaje metodą kołową, znaną także jako <b>tabele Bergera</b>: jedna drużyna pozostaje na stałym miejscu, a pozostałe przesuwają się o jedno miejsce w każdej kolejce. Dzięki temu żadna para się nie powtarza, a każda drużyna rozgrywa najwyżej jeden mecz w kolejce.",
+  "fx_p_how2_html": "W lidze z udziałem <b>n</b> drużyn rozgrywa się łącznie <b>n × (n − 1) ÷ 2</b> meczów. Przy parzystej liczbie drużyn potrzeba <b>n − 1</b> kolejek, a przy nieparzystej <b>n</b> kolejek, z jedną drużyną pauzującą w każdej z nich. Wariant mecz i rewanż podwaja liczbę spotkań i kolejek, a w drugiej części rozgrywek drużyny zamieniają się rolami gospodarzy i gości.",
+  "fx_table_caption": "Liczba meczów i kolejek w zależności od liczby drużyn (każdy z każdym jednokrotnie)",
+  "fx_th_teams": "Drużyny",
+  "fx_th_matches": "Mecze",
+  "fx_th_weeks": "Kolejki",
+  "fx_th_double": "Mecz i rewanż",
+  "fx_h2_example": "Przykład: terminarz ligi dla 4 drużyn",
+  "fx_h2_ko": "Drabinka pucharowa i wolny los",
+  "fx_p_ko1_html": "W systemie pucharowym przegrany odpada z turnieju. Jeśli liczba drużyn nie jest potęgą dwójki (4, 8, 16, 32…), część drużyn otrzymuje <b>wolny los</b> w pierwszej rundzie. Liczbę wolnych losów oblicza się, odejmując liczbę drużyn od najbliższej większej potęgi dwójki: przy 6 drużynach wolny los otrzymują 8 − 6 = 2 drużyny, a przy 10 drużynach 16 − 10 = 6.",
+  "fx_p_ko2_html": "Turniej pucharowy z udziałem <b>n</b> drużyn zawsze obejmuje <b>n − 1</b> meczów, ponieważ w każdym spotkaniu odpada dokładnie jedna drużyna. Turniej dla 16 drużyn to 4 rundy i 15 meczów.",
+  "fx_h2_points": "Jak obliczana jest tabela ligowa?",
+  "fx_p_points_html": "W grach takich jak piłka nożna zwycięstwo daje <b>3</b> punkty, remis <b>1</b>, a porażka <b>0</b>. Przy równej liczbie punktów o kolejności decyduje bilans bramek, a następnie liczba strzelonych goli. W grach bez remisów, takich jak koszykówka, zwycięstwo daje 2 punkty. W siatkówce wygrana 3-0 lub 3-1 daje 3 punkty, wygrana 3-2 daje 2 punkty, a porażka 2-3 daje 1 punkt. TurnuVolt automatycznie stosuje zasady odpowiednie dla wybranej gry.",
+  "fx_faq_h2": "Pytania o terminarz",
+  "faq_fx": [
+    [
+      "Czy generator terminarza jest darmowy?",
+      "Tak. Bez rejestracji i reklam. Terminarz powstaje w przeglądarce, a nazwy drużyn nie są nigdzie wysyłane."
+    ],
+    [
+      "Ile drużyn mogę dodać?",
+      "Możesz utworzyć terminarz ligi lub turnieju pucharowego dla 2 do 64 drużyn."
+    ],
+    [
+      "Czy mogę ułożyć terminarz ligi z nieparzystą liczbą drużyn?",
+      "Tak. W każdej kolejce jedna drużyna pauzuje, a po zakończeniu ligi wszystkie drużyny mają rozegraną taką samą liczbę meczów."
+    ],
+    [
+      "Na czym polega system mecz i rewanż?",
+      "Każda para drużyn rozgrywa dwa spotkania, a w drugiej części rozgrywek zamieniają się one rolami gospodarzy i gości. Liczba meczów jest wtedy dwukrotnie większa."
+    ],
+    [
+      "Czy mogę wydrukować lub udostępnić terminarz?",
+      "Tak. Opcja Drukuj przygotowuje czytelny wydruk, Kopiuj zapisuje terminarz w schowku jako tekst, a Kopiuj link tworzy odnośnik otwierający ten sam terminarz."
+    ],
+    [
+      "Jak śledzić wyniki i tabelę?",
+      "Utwórz ten sam turniej w aplikacji TurnuVolt. Gdy wpisujesz wyniki, tabela, bilans bramek i klasyfikacja obliczają się automatycznie, a zwycięzcy awansują do kolejnych rund w drabince."
+    ]
+  ]
+}

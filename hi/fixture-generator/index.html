@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>मुफ़्त फिक्स्चर जनरेटर – राउंड रॉबिन और नॉकआउट मैच शेड्यूल मेकर | TurnuVolt</title>
+<meta name="description" content="अपनी टीमों के नाम लिखें और कुछ ही सेकंड में राउंड-रॉबिन (लीग) या नॉकआउट टूर्नामेंट का मैच शेड्यूल पाएं। होम-एंड-अवे विकल्प और अपने-आप बाई (bye) की सुविधा। मुफ़्त, बिना साइन-अप, सीधे आपके ब्राउज़र में; प्रिंट या शेयर करें।" />
+<link rel="icon" type="image/png" sizes="64x64" href="../../assets/img/favicon.png?v=2" />
+<link rel="apple-touch-icon" href="../../assets/img/tv_icon_180.png" />
+<link rel="canonical" href="https://anbertech.github.io/TurnuVolt/hi/fixture-generator/" />
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/TurnuVolt/fikstur/" />
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/TurnuVolt/en/fixture-generator/" />
+<link rel="alternate" hreflang="ar" href="https://anbertech.github.io/TurnuVolt/ar/fixture-generator/" />
+<link rel="alternate" hreflang="cs" href="https://anbertech.github.io/TurnuVolt/cs/generator-rozpisu-zapasu/" />
+<link rel="alternate" hreflang="da" href="https://anbertech.github.io/TurnuVolt/da/kampprogram-generator/" />
+<link rel="alternate" hreflang="de" href="https://anbertech.github.io/TurnuVolt/de/spielplan-generator/" />
+<link rel="alternate" hreflang="el" href="https://anbertech.github.io/TurnuVolt/el/fixture-generator/" />
+<link rel="alternate" hreflang="es" href="https://anbertech.github.io/TurnuVolt/es/generador-de-calendarios/" />
+<link rel="alternate" hreflang="es-MX" href="https://anbertech.github.io/TurnuVolt/es-mx/generador-de-rol-de-juegos/" />
+<link rel="alternate" hreflang="fa" href="https://anbertech.github.io/TurnuVolt/fa/fixture-generator/" />
+<link rel="alternate" hreflang="fi" href="https://anbertech.github.io/TurnuVolt/fi/otteluohjelma-generaattori/" />
+<link rel="alternate" hreflang="fr" href="https://anbertech.github.io/TurnuVolt/fr/generateur-calendrier/" />
+<link rel="alternate" hreflang="he" href="https://anbertech.github.io/TurnuVolt/he/fixture-generator/" />
+<link rel="alternate" hreflang="hi" href="https://anbertech.github.io/TurnuVolt/hi/fixture-generator/" />
+<link rel="alternate" hreflang="hu" href="https://anbertech.github.io/TurnuVolt/hu/sorsolas-generator/" />
+<link rel="alternate" hreflang="id" href="https://anbertech.github.io/TurnuVolt/id/generator-jadwal-pertandingan/" />
+<link rel="alternate" hreflang="it" href="https://anbertech.github.io/TurnuVolt/it/generatore-calendario-tornei/" />
+<link rel="alternate" hreflang="ja" href="https://anbertech.github.io/TurnuVolt/ja/fixture-generator/" />
+<link rel="alternate" hreflang="ko" href="https://anbertech.github.io/TurnuVolt/ko/fixture-generator/" />
+<link rel="alternate" hreflang="ms" href="https://anbertech.github.io/TurnuVolt/ms/penjana-jadual-perlawanan/" />
+<link rel="alternate" hreflang="nb" href="https://anbertech.github.io/TurnuVolt/nb/kampoppsett-generator/" />
+<link rel="alternate" hreflang="nl" href="https://anbertech.github.io/TurnuVolt/nl/speelschema-generator/" />
+<link rel="alternate" hreflang="pl" href="https://anbertech.github.io/TurnuVolt/pl/generator-terminarza/" />
+<link rel="alternate" hreflang="pt-BR" href="https://anbertech.github.io/TurnuVolt/pt-br/gerador-de-tabela-de-jogos/" />
+<link rel="alternate" hreflang="pt-PT" href="https://anbertech.github.io/TurnuVolt/pt-pt/gerador-de-calendarios/" />
+<link rel="alternate" hreflang="ro" href="https://anbertech.github.io/TurnuVolt/ro/generator-program-meciuri/" />
+<link rel="alternate" hreflang="ru" href="https://anbertech.github.io/TurnuVolt/ru/fixture-generator/" />
+<link rel="alternate" hreflang="sv" href="https://anbertech.github.io/TurnuVolt/sv/spelschema-generator/" />
+<link rel="alternate" hreflang="th" href="https://anbertech.github.io/TurnuVolt/th/fixture-generator/" />
+<link rel="alternate" hreflang="uk" href="https://anbertech.github.io/TurnuVolt/uk/fixture-generator/" />
+<link rel="alternate" hreflang="vi" href="https://anbertech.github.io/TurnuVolt/vi/tao-lich-thi-dau/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://anbertech.github.io/TurnuVolt/zh-hans/fixture-generator/" />
+<link rel="alternate" hreflang="zh-Hant" href="https://anbertech.github.io/TurnuVolt/zh-hant/fixture-generator/" />
+<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/en/fixture-generator/" />
+<meta name="apple-itunes-app" content="app-id=6745177155" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TurnuVolt" />
+<meta property="og:locale" content="hi_IN" />
+<meta property="og:title" content="मुफ़्त फिक्स्चर जनरेटर – राउंड रॉबिन और नॉकआउट मैच शेड्यूल मेकर | TurnuVolt" />
+<meta property="og:description" content="अपनी टीमों के नाम लिखें और कुछ ही सेकंड में राउंड-रॉबिन (लीग) या नॉकआउट टूर्नामेंट का मैच शेड्यूल पाएं। होम-एंड-अवे विकल्प और अपने-आप बाई (bye) की सुविधा। मुफ़्त, बिना साइन-अप, सीधे आपके ब्राउज़र में; प्रिंट या शेयर करें।" />
+<meta property="og:url" content="https://anbertech.github.io/TurnuVolt/hi/fixture-generator/" />
+<meta property="og:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="TurnuVolt" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="मुफ़्त फिक्स्चर जनरेटर – राउंड रॉबिन और नॉकआउट मैच शेड्यूल मेकर | TurnuVolt" />
+<meta name="twitter:description" content="अपनी टीमों के नाम लिखें और कुछ ही सेकंड में राउंड-रॉबिन (लीग) या नॉकआउट टूर्नामेंट का मैच शेड्यूल पाएं। होम-एंड-अवे विकल्प और अपने-आप बाई (bye) की सुविधा। मुफ़्त, बिना साइन-अप, सीधे आपके ब्राउज़र में; प्रिंट या शेयर करें।" />
+<meta name="twitter:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
+<meta name="theme-color" content="#070B10" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" />
+<style>
+:root{
+  color-scheme:dark;
+  --night:#070B10;--night-2:#0B1118;--panel:#0F1720;--line:rgba(234,242,255,.10);
+  --flood:#EAF2FF;--muted:#8C9AAB;--gold:#F2C14E;--gold-2:#FFE08A;
+  --turf:#2FA84F;--blue:#3B7FD6;--amber:#D9953B;
+  --display:"Big Shoulders Display","Big Shoulders","Oswald",Impact,"Arial Narrow",sans-serif;
+  --sans:"Onest",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --ease:cubic-bezier(.2,.9,.25,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--flood);font-family:var(--sans);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:var(--gold)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:10px}
+
+.grain{position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.22;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.progress{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:3px;width:0;z-index:95;
+  background:linear-gradient(90deg,var(--turf),var(--gold));box-shadow:0 0 16px rgba(242,193,78,.7)}
+.flood{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:0;transition:opacity .5s;
+  background:radial-gradient(440px circle at var(--x,50%) var(--y,30%),rgba(242,193,78,.08),transparent 66%)}
+@media (hover:hover) and (pointer:fine){.flood{opacity:1}}
+
+/* ============ HERO ============ */
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:min(94svh,920px);
+  display:grid;place-items:center;padding:72px 16px 120px;text-align:center}
+.hero-bg{position:absolute;inset:-7% -4% -3%;z-index:-3;background:url("../../assets/img/tv_hero.jpg") center 40%/cover no-repeat;
+  transform:scale(1.06);will-change:transform}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+  radial-gradient(120% 70% at 50% 0%,rgba(7,11,16,0) 0%,rgba(7,11,16,.5) 55%,var(--night) 96%),
+  linear-gradient(180deg,rgba(7,11,16,.35),rgba(7,11,16,0) 24%,rgba(7,11,16,.2) 60%,var(--night) 99%)}
+.beam{position:absolute;top:-16%;width:30vw;min-width:200px;height:130%;z-index:-1;pointer-events:none;
+  background:linear-gradient(180deg,rgba(220,236,255,.55),rgba(220,236,255,0) 70%);filter:blur(30px);
+  mix-blend-mode:screen;transform-origin:top center;animation:sway 9s ease-in-out infinite}
+.beam.l{left:2%;transform:rotate(14deg)}
+.beam.r{right:2%;transform:rotate(-14deg);animation-delay:-4.5s}
+@keyframes sway{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.icon-stage{position:relative;width:clamp(96px,24vw,128px);aspect-ratio:1;margin:0 auto}
+.icon-stage canvas{position:absolute;left:50%;top:50%;width:280%;height:280%;transform:translate(-50%,-50%);pointer-events:none}
+.app-icon{position:relative;width:100%;height:100%;border-radius:27%;object-fit:cover;
+  box-shadow:0 0 0 1.5px rgba(242,193,78,.6),0 22px 60px rgba(0,0,0,.65),0 0 70px rgba(242,193,78,.28);
+  animation:bob 7s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
+.board{margin:30px auto 0;display:flex;justify-content:center;gap:clamp(3px,.7vw,8px);
+  font:900 clamp(34px,9.4vw,108px)/1 var(--display);letter-spacing:0;perspective:600px}
+.flap{position:relative;display:grid;place-items:center;width:.84em;height:1.16em;border-radius:.09em;
+  background:linear-gradient(180deg,#1B232E 0 49.2%,#0A0F15 50.8% 100%);color:#F5F8FC;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09),inset 0 -1px 0 rgba(0,0,0,.7),0 12px 26px rgba(0,0,0,.55);
+  text-shadow:0 0 18px rgba(234,242,255,.28)}
+.flap::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;
+  background:rgba(0,0,0,.8);box-shadow:0 1px 0 rgba(255,255,255,.05)}
+.flap.v{color:var(--gold);text-shadow:0 0 24px rgba(242,193,78,.5)}
+.flap span{display:block;transform-origin:50% 55%}
+.flap.tick span{animation:flip .085s linear}
+@keyframes flip{from{transform:rotateX(-85deg);opacity:.35}to{transform:none;opacity:1}}
+
+.stores{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:38px}
+.stores a{display:block;border-radius:12px;transition:transform .3s var(--ease)}
+.stores a:hover{transform:translateY(-4px) scale(1.04)}
+.stores img{height:clamp(50px,13vw,60px);width:auto;aspect-ratio:1062/318;object-fit:cover;object-position:50% 50%;
+  filter:drop-shadow(0 0 1px rgba(255,255,255,.95)) drop-shadow(0 14px 30px rgba(0,0,0,.6))}
+.cue{position:absolute;left:50%;bottom:26px;width:44px;height:44px;margin-left:-22px;display:grid;place-items:center;
+  border-radius:50%;border:1px solid rgba(234,242,255,.25);color:var(--flood);text-decoration:none;opacity:.8}
+.cue svg{width:18px;height:18px;animation:nudge 2s var(--ease) infinite}
+@keyframes nudge{0%,100%{transform:translateY(-2px);opacity:.6}50%{transform:translateY(4px);opacity:1}}
+
+@media (max-width:700px){
+  .hero{min-height:auto;padding:88px 16px 112px}
+  .cue{bottom:22px}
+}
+
+/* ============ ARENA (3D ring on pitch) ============ */
+.arena{position:relative;isolation:isolate;overflow:hidden;padding:24px 0 36px;margin-top:-40px}
+.arena::before{content:"";position:absolute;inset:0;z-index:-2;
+  background:radial-gradient(46% 42% at 50% 62%,rgba(47,168,79,.16),transparent 72%)}
+.pitch{position:absolute;left:50%;bottom:0;z-index:-1;width:min(1500px,240vw);height:clamp(300px,52vw,560px);
+  transform:translateX(-50%) perspective(900px) rotateX(63deg);transform-origin:50% 100%;
+  background:
+    radial-gradient(circle at 50% 42%,transparent 0 11.2%,rgba(255,255,255,.5) 11.4% 11.9%,transparent 12.1%),
+    radial-gradient(circle at 50% 42%,rgba(255,255,255,.6) 0 .5%,transparent .7%),
+    linear-gradient(0deg,transparent calc(42% - 2px),rgba(255,255,255,.5) calc(42% - 2px) calc(42% + 1px),transparent calc(42% + 1px)),
+    repeating-linear-gradient(90deg,#1C7A39 0 6%,#23893F 6% 12%);
+  -webkit-mask-image:radial-gradient(56% 60% at 50% 42%,#000 28%,transparent 72%);
+  mask-image:radial-gradient(56% 60% at 50% 42%,#000 28%,transparent 72%);opacity:.92}
+.scene{position:relative;height:var(--ring-h,560px);perspective:1500px;perspective-origin:50% 40%;
+  touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
+.scene.drag{cursor:grabbing}
+.ring{position:absolute;left:50%;top:0;width:0;height:0;transform-style:preserve-3d}
+.card{position:absolute;left:0;top:0;margin:0;border-radius:clamp(18px,2.4vw,26px);overflow:hidden;background:#000;
+  border:4px solid #1E232B;box-shadow:0 30px 70px rgba(0,0,0,.55);cursor:pointer;will-change:transform;
+  transition:box-shadow .5s var(--ease),border-color .5s var(--ease)}
+.card img{width:100%;pointer-events:none}
+.card::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:#000;opacity:var(--dim,0)}
+.card{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+@media (hover:none),(pointer:coarse){.grain{display:none}}
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.26),transparent 44%)}
+.card.front{border-color:#3A3220;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 2px var(--gold),0 0 60px rgba(242,193,78,.45)}
+
+/* ============ FINAL (podium + LED standings) ============ */
+.final{position:relative;overflow:hidden;padding:clamp(56px,10vh,110px) 16px clamp(40px,8vh,90px)}
+.final canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
+.final-in{max-width:1080px;margin:0 auto;display:grid;gap:clamp(40px,5vw,64px);align-items:end}
+@media (min-width:900px){.final-in{grid-template-columns:1fr 1.15fr}}
+
+.podium{position:relative;width:100%;max-width:470px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);
+  align-items:end;gap:clamp(6px,1.4vw,12px);padding-top:92px}
+.podium::after{content:"";position:absolute;left:-8%;right:-8%;bottom:-18px;height:36px;border-radius:50%;
+  background:radial-gradient(closest-side,rgba(0,0,0,.6),transparent);z-index:-1}
+.step{position:relative;display:flex;flex-direction:column;align-items:center;padding-top:16px;
+  border-radius:16px 16px 6px 6px;transform-origin:50% 100%;overflow:hidden}
+.step::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.4),transparent 38%);pointer-events:none}
+.s1{height:clamp(180px,40vw,236px);background:linear-gradient(180deg,#FFE58A,#F2C14E 52%,#B98A22);color:#2A1E02;
+  box-shadow:0 0 70px rgba(242,193,78,.35)}
+.s2{height:clamp(138px,31vw,180px);background:linear-gradient(180deg,#F4F6F9,#C9CED6 58%,#8E97A3);color:#1A1F27}
+.s3{height:clamp(112px,25vw,150px);background:linear-gradient(180deg,#F3B676,#C9803A 58%,#8A5020);color:#2A1404}
+.who{position:relative;font:800 clamp(15px,3.8vw,21px)/1.15 var(--sans);letter-spacing:-.01em}
+.rank{position:relative;margin-top:auto;font:900 clamp(60px,15vw,104px)/.78 var(--display);opacity:.3}
+.cup{position:absolute;left:50%;top:0;width:clamp(64px,16vw,86px);transform:translateX(-50%);
+  filter:drop-shadow(0 0 24px rgba(242,193,78,.6));animation:bob 6s ease-in-out infinite}
+.podium.go .step{animation:rise 1s var(--ease) both}
+.podium.go .s3{animation-delay:.05s}.podium.go .s2{animation-delay:.2s}.podium.go .s1{animation-delay:.38s}
+.podium.go .cup{animation:drop .9s var(--ease) .9s both,bob 6s ease-in-out 1.8s infinite}
+@keyframes rise{from{transform:scaleY(.06)}to{transform:none}}
+@keyframes drop{from{transform:translate(-50%,-40px) scale(.6);opacity:0}to{transform:translateX(-50%);opacity:1}}
+
+.led{position:relative;overflow:hidden;background:#04070B;border-radius:20px;padding:20px clamp(12px,2.6vw,26px) 16px;
+  border:1px solid rgba(242,193,78,.28);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65),inset 0 0 80px rgba(59,127,214,.08)}
+.led::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(circle,rgba(0,0,0,.55) 1px,transparent 1.5px) 0 0/4px 4px}
+.led-title{display:flex;align-items:baseline;gap:12px;margin:0 0 14px;padding:0 4px;
+  font:900 clamp(30px,6.4vw,44px)/1 var(--display);color:#fff}
+.led-title small{font:800 clamp(14px,3vw,18px)/1 var(--display);letter-spacing:.2em;color:var(--muted)}
+.tbl-wrap{overflow-x:auto}
+.led table{width:100%;border-collapse:collapse;font:700 clamp(14px,3.3vw,19px)/1 var(--display);
+  letter-spacing:.03em;font-variant-numeric:tabular-nums}
+.led th{padding:10px 4px;color:#71808F;font-weight:800;text-align:center;border-bottom:1px solid rgba(234,242,255,.1)}
+.led td{padding:12px 4px;text-align:center;color:#E6EDF6;border-bottom:1px solid rgba(234,242,255,.05)}
+.led th:nth-child(2),.led td:nth-child(2){text-align:left;padding-left:8px}
+.led td:first-child{color:#71808F}
+.led td:last-child,.led th:last-child{color:var(--gold)}
+.led td:last-child{font-weight:900;font-size:1.15em;text-shadow:0 0 14px rgba(242,193,78,.5)}
+.led tr.lead td{background:rgba(242,193,78,.09)}
+.led tr.lead td:nth-child(2){color:var(--gold-2)}
+.led tbody tr:last-child td{border-bottom:0}
+
+/* ============ TICKER (fixture boards) ============ */
+.ticker{position:relative;overflow:hidden;padding:26px 0;background:linear-gradient(180deg,#0A0F15,#070B10);
+  border-block:1px solid rgba(242,193,78,.2);
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.track{display:flex;gap:14px;width:max-content;animation:roll 46s linear infinite}
+.track+.track{margin-top:14px;animation-duration:58s;animation-direction:reverse}
+.ticker:hover .track{animation-play-state:paused}
+@keyframes roll{to{transform:translateX(-50%)}}
+.match{flex:0 0 auto;display:flex;align-items:center;gap:14px;padding:13px 24px;border-radius:14px;border:2px solid;
+  font:700 clamp(15px,3.6vw,18px)/1 var(--sans);white-space:nowrap;color:#07120B}
+.match b{font:900 clamp(20px,4.6vw,26px)/1 var(--display);letter-spacing:.06em}
+.match i{font:800 13px/1 var(--display);font-style:normal;letter-spacing:.14em;opacity:.65}
+.m-done{background:#2FA84F;border-color:#5BD97A}
+.m-live{background:#D9953B;border-color:#F6BD62;color:#1E1203;box-shadow:0 0 26px rgba(217,149,59,.45)}
+.m-next{background:#3B7FD6;border-color:#6FA9F4;color:#06142A}
+
+/* ============ GATES (ticket links) ============ */
+.gates{max-width:900px;margin:0 auto;padding:clamp(56px,10vh,100px) 16px 0;display:grid;gap:18px}
+@media (min-width:680px){.gates{grid-template-columns:1fr 1fr}}
+.ticket{position:relative;display:grid;grid-template-columns:86px 1fr;min-height:112px;color:var(--flood);
+  text-decoration:none;filter:drop-shadow(0 20px 36px rgba(0,0,0,.55));transition:transform .4s var(--ease)}
+.ticket:hover{transform:translateY(-5px) rotate(-.8deg)}
+.ticket::before,.ticket::after{content:"";position:absolute;left:77px;width:18px;height:18px;border-radius:50%;
+  background:var(--night);z-index:2}
+.ticket::before{top:-9px}.ticket::after{bottom:-9px}
+.stub{display:grid;place-items:center;border-radius:16px 0 0 16px;color:#2A1E02;
+  background:linear-gradient(160deg,#FFE08A,#F2C14E 55%,#C9962A)}
+.stub svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
+  transition:transform .4s var(--ease)}
+.ticket:hover .stub svg{transform:scale(1.12) rotate(-8deg)}
+.tmain{position:relative;display:flex;align-items:center;gap:16px;padding:18px 22px 18px 26px;
+  border-radius:0 16px 16px 0;background:linear-gradient(135deg,#141D29,#0D141D);border:1px solid rgba(234,242,255,.08);border-left:0}
+.tmain::before{content:"";position:absolute;left:0;top:14px;bottom:14px;border-left:2px dashed rgba(234,242,255,.2)}
+.tlabel{font:700 clamp(18px,4.4vw,21px)/1.2 var(--sans);letter-spacing:-.01em}
+.code{margin-left:auto;flex:0 0 auto;width:46px;height:44px;opacity:.28;
+  background:repeating-linear-gradient(90deg,#EAF2FF 0 2px,transparent 2px 4px,#EAF2FF 4px 5px,transparent 5px 7px,#EAF2FF 7px 10px,transparent 10px 12px)}
+.arrow{flex:0 0 auto;color:var(--gold);font:900 30px/1 var(--display);transition:transform .35s var(--ease)}
+.ticket:hover .arrow{transform:translateX(5px)}
+
+.foot{padding:clamp(56px,10vh,96px) 16px 44px;text-align:center;color:var(--muted);font-size:14px}
+.foot img{width:44px;height:44px;border-radius:13px;margin:0 auto 14px;box-shadow:0 0 0 1px rgba(242,193,78,.4)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+}
+
+/* ============ DOCUMENT PAGES ============ */
+.dhead{position:relative;isolation:isolate;overflow:hidden;padding:26px 16px 54px}
+.dhead .hero-bg{inset:-20% -6%}
+.dhead::before{content:"";position:absolute;inset:0;z-index:-2;
+  background:linear-gradient(180deg,rgba(7,11,16,.45),rgba(7,11,16,.8) 70%,var(--night))}
+.dhead-in{max-width:780px;margin:0 auto}
+.back{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 10px;border-radius:999px;color:var(--flood);
+  text-decoration:none;font-weight:600;font-size:15px;background:rgba(234,242,255,.1);border:1px solid rgba(234,242,255,.18);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .3s,transform .3s var(--ease)}
+.back:hover{background:rgba(234,242,255,.18);transform:translateX(-3px)}
+.back img{width:24px;height:24px;border-radius:7px;background:#EAF2FF}
+.dtitle{margin:26px 0 0;font:900 clamp(34px,8vw,64px)/.98 var(--display);letter-spacing:.01em;text-transform:uppercase;
+  text-wrap:balance}
+.dtitle em{font-style:normal;color:var(--gold)}
+.doc{max-width:780px;margin:-28px auto 0;padding:0 16px;position:relative;z-index:3}
+.doc .content{background:linear-gradient(180deg,#101822,#0C121A);border:1px solid rgba(234,242,255,.08);border-radius:26px;
+  padding:clamp(24px,5vw,50px);box-shadow:0 34px 90px rgba(0,0,0,.55)}
+.doc h2{font:800 clamp(22px,4.4vw,28px)/1.1 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff;
+  margin:34px 0 10px;padding-top:22px;border-top:1px solid rgba(234,242,255,.08)}
+.doc hr{border:0;border-top:1px solid rgba(234,242,255,.08);margin:22px 0}
+.doc hr + h2{border-top:0;padding-top:0;margin-top:22px}
+.doc p,.doc li{color:#B9C5D3;font-size:16.5px;max-width:65ch}
+.doc p{margin:10px 0}
+.doc ul{margin:12px 0;padding-left:22px}
+.doc li{margin:8px 0}
+.doc li::marker{color:var(--gold)}
+.doc strong{color:#fff;font-weight:600}
+.doc a{color:var(--gold);font-weight:600;text-underline-offset:3px;word-break:break-word}
+
+/* =================== 4.0 additions =================== */
+[hidden]{display:none!important}
+.spot-ball{position:absolute;left:50%;bottom:clamp(26px,5vw,56px);width:clamp(38px,6vw,58px);margin-left:calc(clamp(38px,6vw,58px)/-2);z-index:0;
+  filter:drop-shadow(0 10px 10px rgba(0,0,0,.55));animation:ballbob 3.2s ease-in-out infinite}
+@keyframes ballbob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(25deg)}}
+
+/* ---- games departure board ---- */
+.games{padding:clamp(50px,9vh,96px) 16px 10px}
+.games-in{position:relative;max-width:980px;margin:0 auto;background:#04070B;border-radius:24px;padding:clamp(16px,3vw,28px);
+  border:1px solid rgba(242,193,78,.28);box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65)}
+.board-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.board-head img{width:34px;height:auto;opacity:.9}
+.board-head .count b{font:900 clamp(34px,7vw,52px)/1 var(--display);color:var(--gold);text-shadow:0 0 18px rgba(242,193,78,.45)}
+.cat-now{margin-left:auto;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);color:var(--gold-2);
+  font:800 clamp(12px,3vw,15px)/1 var(--display);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
+.gboard{display:grid;grid-template-columns:repeat(17,1fr);gap:clamp(2px,.5vw,5px);font:900 clamp(17px,5.4vw,52px)/1 var(--display)}
+.gboard .flap{width:auto;height:1.5em;border-radius:.12em}
+.gboard .flap span{font-size:.92em}
+.gboard .flap.blank span{opacity:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip{min-height:44px;padding:9px 16px;border-radius:999px;border:1px solid rgba(234,242,255,.16);background:rgba(234,242,255,.05);color:var(--flood);
+  font:600 clamp(13px,3.4vw,15px)/1 var(--sans);cursor:pointer;transition:background .25s,border-color .25s,color .25s}
+.chip:hover{border-color:rgba(242,193,78,.5)}
+.chip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#241A02}
+.shuffle{position:absolute;right:clamp(14px,2.6vw,26px);bottom:clamp(14px,2.6vw,26px);width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+  border:1px solid rgba(242,193,78,.5);background:rgba(242,193,78,.12);color:var(--gold);cursor:pointer;transition:transform .3s var(--ease)}
+.shuffle:hover{transform:rotate(-12deg) scale(1.06)}
+.shuffle svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8}
+.shuffle svg circle{fill:currentColor;stroke:none}
+.chips{padding-right:60px}
+
+/* ---- format tabs ---- */
+.fmt-tabs{position:relative;z-index:6;display:flex;width:max-content;max-width:calc(100% - 32px);margin:0 auto clamp(26px,5vh,44px);padding:5px;border-radius:999px;
+  background:#0C121A;border:1px solid rgba(242,193,78,.3)}
+.fmt-tabs button{min-width:clamp(100px,30vw,160px);min-height:44px;padding:12px clamp(12px,4vw,22px);border:0;border-radius:999px;background:none;color:var(--muted);cursor:pointer;
+  font:900 clamp(18px,4.6vw,22px)/1 var(--display);letter-spacing:.1em;text-transform:uppercase;transition:background .3s,color .3s}
+.fmt-tabs button[aria-selected="true"]{background:var(--gold);color:#241A02;box-shadow:0 0 24px rgba(242,193,78,.35)}
+
+/* ---- bracket ---- */
+.ko-hint{margin:0 0 18px;text-align:center;color:var(--muted);font-size:15px}
+.bracket{position:relative;max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr .8fr;gap:clamp(10px,3vw,40px);align-items:center}
+.col{display:grid;gap:clamp(14px,3vw,26px);position:relative}
+.rlabel{display:block;text-align:center;font:800 clamp(13px,3.2vw,16px)/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.bm{position:relative;display:grid;gap:4px;padding:8px;border-radius:16px;background:#0E151E;border:1px solid rgba(234,242,255,.08);
+  box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.bm .vs{justify-self:center;font:800 11px/1 var(--display);letter-spacing:.2em;color:var(--muted)}
+.team{position:relative;min-height:44px;padding:10px 12px;border-radius:11px;border:1.5px solid rgba(234,242,255,.12);background:#141D29;color:var(--flood);
+  font:700 clamp(14px,3.8vw,17px)/1.1 var(--sans);text-align:left;cursor:pointer;transition:background .25s,border-color .25s,opacity .25s,transform .2s}
+.team:hover:not(:disabled){border-color:rgba(242,193,78,.6)}
+.team:active:not(:disabled){transform:scale(.97)}
+.team:disabled{cursor:default;color:var(--muted)}
+.team.win{background:linear-gradient(135deg,rgba(242,193,78,.25),rgba(242,193,78,.08));border-color:var(--gold);color:#fff}
+.team.win::after{content:"✓";position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--gold);font-weight:900}
+.team.lose{opacity:.4;text-decoration:line-through}
+.team.fill{animation:slot .5s var(--ease)}
+@keyframes slot{from{transform:translateX(-18px);opacity:0}}
+.sf .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.fi .bm::after{content:"";position:absolute;left:100%;top:50%;width:clamp(10px,3vw,40px);border-top:2px solid rgba(242,193,78,.35)}
+.champ{display:grid;justify-items:center;gap:10px;padding:14px 8px;border-radius:18px;border:1.5px dashed rgba(242,193,78,.35);min-height:170px;align-content:center}
+.champ img{width:min(110px,80%);opacity:.25;filter:grayscale(1);transition:opacity .5s,filter .5s,transform .6s var(--ease)}
+.champ b{font:900 clamp(20px,5vw,28px)/1 var(--display);letter-spacing:.04em;color:var(--muted);text-align:center;word-break:break-word}
+.champ.on{border-style:solid;border-color:var(--gold);background:radial-gradient(circle at 50% 35%,rgba(242,193,78,.25),transparent 70%);box-shadow:0 0 50px rgba(242,193,78,.25)}
+.champ.on img{opacity:1;filter:drop-shadow(0 0 22px rgba(242,193,78,.6));transform:scale(1.08)}
+.champ.on b{color:var(--gold-2);text-shadow:0 0 18px rgba(242,193,78,.5)}
+.reset{position:absolute;right:0;top:-54px;width:40px;height:40px;border-radius:12px;border:1px solid rgba(234,242,255,.16);background:#0E151E;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+.reset svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+@media (max-width:620px){
+  .bracket{grid-template-columns:1fr 1fr;grid-template-areas:"sf fi" "ch ch"}
+  .col.sf{grid-area:sf}.col.fi{grid-area:fi}.col.ch{grid-area:ch}
+  .champ{grid-auto-flow:column;min-height:0;justify-content:center;align-items:center}
+  .champ img{width:72px}
+}
+
+/* ---- languages drum ---- */
+.langs{padding:clamp(56px,10vh,110px) 16px 20px;text-align:center}
+.drum{position:relative;height:clamp(64px,13vw,120px);overflow:hidden;max-width:1000px;margin:0 auto}
+.drum .ph{position:absolute;left:0;right:0;top:0;display:block;font:900 clamp(38px,9.5vw,96px)/clamp(64px,13vw,120px) var(--display),"Noto Sans",system-ui,sans-serif;
+  color:#fff;white-space:nowrap;text-shadow:0 0 30px rgba(242,193,78,.3);will-change:transform}
+.drum .ph.cur{transform:translate3d(0,0,0)}
+.drum .ph.nxt{transform:translate3d(0,100%,0);opacity:0}
+.drum.roll .ph{transition:transform .55s var(--ease),opacity .55s}
+.drum.roll .ph.cur{transform:translate3d(0,-100%,0);opacity:0}
+.drum.roll .ph.nxt{transform:translate3d(0,0,0);opacity:1}
+.lcount{margin-top:6px}
+.lcount b{font:900 clamp(26px,5vw,36px)/1 var(--display);color:var(--gold)}
+.lpills{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:860px;margin:18px auto 0}
+.lpills button{min-width:48px;min-height:44px;padding:8px 10px;border-radius:9px;border:1px solid rgba(234,242,255,.12);background:#0E151E;color:var(--muted);
+  font:800 12px/1 var(--display);letter-spacing:.12em;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.lpills button[aria-pressed="true"]{background:var(--gold);color:#241A02;border-color:var(--gold)}
+
+.fcup{width:74px!important;height:auto!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 0 16px rgba(242,193,78,.45))}
+
+/* ---- mobile performance ---- */
+@media (hover:none),(pointer:coarse){
+  .beam{filter:blur(18px)}
+  .spot-ball{animation:none}
+}
+
+
+.lang-sw{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:14px;z-index:96;display:inline-flex;align-items:center;gap:6px;
+  padding:8px 14px;border-radius:999px;font:700 13px/1 var(--sans);letter-spacing:.06em;text-decoration:none;color:var(--flood);
+  background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.lang-sw:hover{border-color:var(--gold);color:var(--gold)}
+.stores .soon{position:relative;display:block;border-radius:12px;cursor:default}
+.stores .soon img{opacity:.88;display:block}
+.stores .soon b{position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.45);background:var(--gold);color:#1a1405;font:800 11px/1 var(--sans);letter-spacing:.07em;
+  text-transform:uppercase;padding:5px 9px;border-radius:999px}
+.getit{padding:clamp(40px,8vh,80px) 16px 0;text-align:center}
+.getit .stores{margin-top:0}
+
+/* =================== 4.2: about, steps, features, tool, faq, language menu =================== */
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.tagline{margin:22px auto 0;max-width:34ch;font:600 clamp(16px,3.8vw,21px)/1.4 var(--sans);color:#D3DDE9;text-wrap:balance;
+  text-shadow:0 2px 18px rgba(0,0,0,.8)}
+.toollink{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:4px 2px;color:var(--gold-2);font-weight:600;font-size:15.5px;
+  text-decoration:none;border-bottom:1px solid rgba(242,193,78,.45);transition:color .25s,border-color .25s}
+.toollink:hover{color:#fff;border-color:#fff}
+.toollink span{transition:transform .3s var(--ease)}
+.toollink:hover span{transform:translateX(4px)}
+[dir=rtl] .toollink span{transform:scaleX(-1)}
+[dir=rtl] .toollink:hover span{transform:scaleX(-1) translateX(4px)}
+
+.about{position:relative;max-width:1080px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.eyebrow{display:inline-block;margin:0;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);
+  font:800 clamp(13px,3vw,15px)/1 var(--display);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.h2{margin:18px 0 0;font:900 clamp(34px,7.6vw,66px)/.98 var(--display);letter-spacing:.01em;text-transform:uppercase;text-wrap:balance;color:#fff}
+.h2 em{font-style:normal;color:var(--gold)}
+.lead{margin:20px 0 0;max-width:68ch;color:#B9C5D3;font-size:clamp(16.5px,2.2vw,18.5px)}
+.steps{display:grid;gap:14px;margin:clamp(32px,5vh,48px) 0 0;padding:0;list-style:none}
+@media (min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.stepc{position:relative;overflow:hidden;padding:26px 22px 22px;border-radius:20px;
+  background:linear-gradient(135deg,#141D29,#0D141D);border:1px solid rgba(234,242,255,.08);box-shadow:0 22px 50px rgba(0,0,0,.4)}
+.stepc .n{position:absolute;inset-inline-end:14px;bottom:-14px;font:900 96px/1 var(--display);color:var(--gold);opacity:.13;pointer-events:none}
+.stepc h3{position:relative;margin:0 0 8px;font:800 clamp(21px,4.6vw,26px)/1.08 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff}
+.stepc p{position:relative;margin:0;padding-inline-end:34px;color:#A9B6C5;font-size:15.5px}
+.feats{display:grid;gap:12px;margin:14px 0 0;padding:0;list-style:none}
+@media (min-width:640px){.feats{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.feats{grid-template-columns:repeat(3,1fr)}}
+.feat{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;padding:18px;border-radius:18px;
+  background:rgba(234,242,255,.03);border:1px solid rgba(234,242,255,.07)}
+.feat i{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:rgba(242,193,78,.1);border:1px solid rgba(242,193,78,.3);color:var(--gold)}
+.feat svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.feat h3{margin:1px 0 4px;font:700 16.5px/1.3 var(--sans);color:#fff}
+.feat p{margin:0;color:#97A5B5;font-size:14.5px;line-height:1.55}
+
+.toolcta{position:relative;display:grid;gap:22px;max-width:1080px;margin:clamp(40px,7vh,72px) auto 0;padding:clamp(22px,4vw,40px);
+  border-radius:24px;background:#04070B;border:1px solid rgba(242,193,78,.28);text-decoration:none;color:var(--flood);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65);transition:transform .4s var(--ease)}
+.toolcta:hover{transform:translateY(-4px)}
+@media (min-width:820px){.toolcta{grid-template-columns:1.25fr 1fr;align-items:center}}
+.toolcta h2{margin:12px 0 0;font:900 clamp(30px,6.4vw,50px)/1 var(--display);text-transform:uppercase;color:#fff}
+.toolcta p{margin:12px 0 0;color:#B9C5D3;max-width:52ch}
+.btn-gold{display:inline-flex;align-items:center;gap:10px;margin-top:20px;min-height:48px;padding:12px 22px;border-radius:999px;
+  background:linear-gradient(160deg,#FFE08A,#F2C14E 55%,#C9962A);color:#241A02;font:900 clamp(17px,4vw,20px)/1 var(--display);
+  letter-spacing:.08em;text-transform:uppercase;box-shadow:0 10px 30px rgba(242,193,78,.25)}
+.minifx{display:grid;gap:9px;direction:ltr}
+.minifx .match{justify-content:space-between}
+.mini-wk{font:800 13px/1 var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+
+.faq{max-width:880px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.qa{border-bottom:1px solid rgba(234,242,255,.09)}
+.qa:first-of-type{margin-top:22px;border-top:1px solid rgba(234,242,255,.09)}
+.qa summary{list-style:none;cursor:pointer;display:flex;gap:16px;align-items:center;justify-content:space-between;min-height:44px;
+  padding:19px 4px;font:700 clamp(16.5px,3.6vw,19px)/1.35 var(--sans);color:#fff}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";flex:0 0 auto;font:900 30px/1 var(--display);color:var(--gold);transition:transform .3s var(--ease)}
+.qa[open] summary::after{transform:rotate(45deg)}
+.qa summary:hover{color:var(--gold-2)}
+.qa p{margin:0 4px 22px;color:#B9C5D3;max-width:70ch}
+
+/* Dil seçimi: Karabel projesindeki bayraklı menünün koyu tema uyarlaması */
+.lang-menu{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));inset-inline-end:14px;z-index:96}
+.lang-menu summary{display:flex;align-items:center;gap:8px;min-height:38px;padding:8px 13px;border-radius:999px;list-style:none;cursor:pointer;
+  font:700 12.5px/1 var(--sans);letter-spacing:.06em;color:var(--flood);background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:border-color .25s,color .25s,background .25s}
+.lang-menu summary::-webkit-details-marker{display:none}
+.lang-menu summary::after{content:"";width:5px;height:5px;border:solid currentColor;border-width:0 1.4px 1.4px 0;transform:translateY(-2px) rotate(45deg);opacity:.7;transition:transform .25s}
+.lang-menu[open] summary::after{transform:translateY(1px) rotate(-135deg)}
+.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold);color:var(--gold-2);background:rgba(7,11,16,.75)}
+.lang-menu img{width:20px;height:14px;flex:0 0 auto;border-radius:2px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.14)}
+.lm-list{position:absolute;top:calc(100% + 8px);inset-inline-end:0;width:max-content;max-width:min(92vw,420px);max-height:min(70vh,560px);overflow-y:auto;
+  display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:2px;padding:6px;border-radius:16px;
+  background:rgba(11,17,24,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border:1px solid rgba(234,242,255,.12);box-shadow:0 24px 60px -10px rgba(0,0,0,.75),0 0 0 1px rgba(242,193,78,.06)}
+.lm-list a{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;text-decoration:none;font:500 13.5px/1.2 var(--sans);color:#B9C5D3;
+  transition:background .2s,color .2s}
+.lm-list a span{unicode-bidi:isolate}
+.lm-list a:hover{background:rgba(242,193,78,.1);color:#fff}
+.lm-list a[aria-current]{color:var(--gold-2);background:rgba(242,193,78,.08)}
+@media (min-width:900px){.lm-list{grid-template-columns:repeat(3,minmax(140px,1fr));max-width:560px;max-height:none}}
+[dir=rtl] .board,[dir=rtl] .gboard,[dir=rtl] .bracket,[dir=rtl] .led table,[dir=rtl] .track,[dir=rtl] .podium{direction:ltr}
+.gboard.whole{display:block;grid-template-columns:none}
+.gboard.whole .flap{width:100%;height:1.5em}
+.gboard.whole .flap span{font-size:.8em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;padding:0 .3em}
+.toolcta .eyebrow{margin:0;color:var(--gold)}
+a.toolcta{width:calc(100% - 32px)}
+
+/* =================== Fikstür oluşturucu =================== */
+.fxhead{padding-bottom:78px}
+.dsub{margin:14px 0 0;max-width:56ch;color:#C9D4E1;font-size:clamp(16.5px,2.4vw,19px);text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.fx{max-width:1080px;margin:-40px auto 0;padding:0 16px;position:relative;z-index:3}
+.fx-card{background:linear-gradient(180deg,#101822,#0C121A);border:1px solid rgba(234,242,255,.08);border-radius:26px;
+  padding:clamp(20px,4vw,40px);box-shadow:0 34px 90px rgba(0,0,0,.55)}
+.fx-grid{display:grid;gap:26px}
+@media (min-width:820px){.fx-grid{grid-template-columns:1.2fr 1fr}}
+.fx-lbl{display:block;margin:0 0 10px;font:800 14px/1.2 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.fx textarea{display:block;width:100%;min-height:236px;resize:vertical;padding:14px 16px;border-radius:16px;
+  border:1px solid rgba(234,242,255,.14);background:#070B10;color:var(--flood);font:500 16px/1.6 var(--sans)}
+.fx textarea::placeholder{color:#55606E}
+.fx textarea:focus,.fx input:focus,.fx button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.fx-count{display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap}
+.fx-count label{color:var(--muted);font-size:14.5px;font-weight:600}
+.fx input[type=number]{width:96px;min-height:44px;padding:8px 12px;border-radius:12px;border:1px solid rgba(234,242,255,.14);
+  background:#070B10;color:var(--flood);font:600 16px/1 var(--sans)}
+.fx-ghost{min-height:44px;padding:10px 16px;border-radius:12px;border:1px solid rgba(234,242,255,.18);background:rgba(234,242,255,.05);
+  color:var(--flood);font:600 14.5px/1 var(--sans);cursor:pointer;transition:border-color .25s,color .25s}
+.fx-ghost:hover{border-color:var(--gold);color:var(--gold-2)}
+.fx-seg{margin:0 0 18px;width:100%;max-width:100%}
+.fx-seg button{min-width:0;flex:1 1 0}
+.fx-seg button[aria-checked="true"]{background:var(--gold);color:#241A02;box-shadow:0 0 24px rgba(242,193,78,.35)}
+.fx-check{display:flex;align-items:center;gap:12px;min-height:44px;margin:0 0 4px;font:600 15.5px/1.3 var(--sans);color:var(--flood);cursor:pointer}
+.fx-check input{flex:0 0 auto;width:22px;height:22px;margin:0;accent-color:var(--gold)}
+.fx-check[aria-disabled="true"]{opacity:.4;cursor:default}
+.fx-go{width:100%;justify-content:center;border:0;cursor:pointer;margin-top:16px}
+.fx-err{min-height:1.5em;margin:12px 0 0;color:#FF9483;font-weight:600}
+
+.fx-out{margin-top:26px;scroll-margin-top:20px}
+.fx-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+.fx-sum{margin:0;font:800 clamp(20px,4.4vw,26px)/1.15 var(--display);letter-spacing:.06em;text-transform:uppercase;color:#fff}
+.fx-actions{display:flex;gap:8px;flex-wrap:wrap}
+.fx-rounds{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))}
+.rc{border-radius:18px;background:#04070B;border:1px solid rgba(242,193,78,.22);padding:14px 14px 12px;box-shadow:0 18px 44px rgba(0,0,0,.45)}
+.rc h3{margin:0 0 10px;font:800 17px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.rc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.rc li{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:9px 12px;border-radius:11px;
+  background:#0E151E;border:1px solid rgba(234,242,255,.06);font:600 15px/1.25 var(--sans);overflow-wrap:anywhere}
+.rc li .h{text-align:end}
+.rc li .v{font:800 11px/1 var(--display);letter-spacing:.16em;color:var(--muted)}
+.rc li .ph{color:var(--muted);font-weight:500;font-style:italic}
+.rc li.bye{display:block;text-align:center;color:var(--muted);font-weight:500;background:transparent;border-style:dashed}
+.rc.ko li{grid-template-columns:auto 1fr auto 1fr}
+.rc li .no{font:800 13px/1 var(--display);letter-spacing:.08em;color:var(--gold);opacity:.85}
+
+.fx-app{margin-top:clamp(40px,7vh,72px)}
+.fx-app:hover{transform:none}
+.fx-app .stores{justify-content:flex-start;margin-top:22px}
+.fx-shot{justify-self:center;width:min(210px,62%);max-height:400px;border-radius:26px;overflow:hidden;border:4px solid #1E232B;
+  box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 0 2px var(--gold),0 0 60px rgba(242,193,78,.3)}
+.fx-shot img{width:100%;height:auto}
+
+.fx-guide{margin:clamp(40px,7vh,72px) 0 0;background:linear-gradient(180deg,#101822,#0C121A);border:1px solid rgba(234,242,255,.08);
+  border-radius:26px;padding:clamp(24px,5vw,50px);box-shadow:0 34px 90px rgba(0,0,0,.45)}
+.fx-guide h2{margin:40px 0 10px;padding-top:26px;border-top:1px solid rgba(234,242,255,.08);
+  font:800 clamp(24px,4.8vw,32px)/1.08 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff}
+.fx-guide h2:first-child{margin-top:0;padding-top:0;border-top:0}
+.fx-guide p{margin:10px 0;color:#B9C5D3;font-size:16.5px;max-width:70ch}
+.fx-guide b{color:#fff;font-weight:700}
+.fx-table{width:100%;max-width:580px;border-collapse:collapse;margin:20px 0 6px;font:700 17px/1 var(--display);letter-spacing:.04em;
+  font-variant-numeric:tabular-nums}
+.fx-table caption{caption-side:top;text-align:start;margin-bottom:10px;font:600 14.5px/1.3 var(--sans);color:var(--muted);letter-spacing:0}
+.fx-table th{padding:10px 8px;color:#71808F;font-weight:800;text-align:center;border-bottom:1px solid rgba(234,242,255,.1);text-transform:uppercase}
+.fx-table td{padding:10px 8px;text-align:center;color:#E6EDF6;border-bottom:1px solid rgba(234,242,255,.05)}
+.fx-table td:first-child{color:var(--gold)}
+.fx-example{margin-top:18px}
+.foot nav{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 22px;margin-bottom:16px}
+.foot nav a{color:var(--muted);text-decoration:none;font-weight:600}
+.foot nav a:hover{color:var(--gold)}
+
+@media print{
+  body{background:#fff;color:#000}
+  .grain,.progress,.flood,.lang-menu,.dhead .hero-bg,.dhead::before,.back,.dsub,.fx-card,.fx-actions,.fx-app,.fx-guide,.faq,.foot{display:none!important}
+  .dhead{padding:0 0 12px}
+  .dtitle,.dtitle em{color:#000;font-size:30px}
+  .fx{margin:0;padding:0}
+  .fx-out{margin:0}
+  .fx-sum{color:#000;font-size:18px}
+  .fx-rounds{grid-template-columns:repeat(2,1fr)}
+  .rc{background:#fff;border:1px solid #999;box-shadow:none;break-inside:avoid}
+  .rc h3{color:#000}
+  .rc li{background:#fff;border:1px solid #ddd;color:#000}
+  .rc li .ph,.rc li .v,.rc li.bye{color:#555}
+}
+
+</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebApplication","@id":"https://anbertech.github.io/TurnuVolt/hi/fixture-generator/#app","name":"फिक्स्चर जनरेटर","url":"https://anbertech.github.io/TurnuVolt/hi/fixture-generator/","description":"अपनी टीमों के नाम लिखें और कुछ ही सेकंड में राउंड-रॉबिन (लीग) या नॉकआउट टूर्नामेंट का मैच शेड्यूल पाएं। होम-एंड-अवे विकल्प और अपने-आप बाई (bye) की सुविधा। मुफ़्त, बिना साइन-अप, सीधे आपके ब्राउज़र में; प्रिंट या शेयर करें।","applicationCategory":"SportsApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"inLanguage":"hi","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["लीग","नॉकआउट","होम और अवे (डबल राउंड रॉबिन)","प्रिंट करें","लिंक कॉपी करें"],"publisher":{"@id":"https://anbertech.github.io/#org"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TurnuVolt","item":"https://anbertech.github.io/TurnuVolt/hi/"},{"@type":"ListItem","position":2,"name":"फिक्स्चर जनरेटर","item":"https://anbertech.github.io/TurnuVolt/hi/fixture-generator/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"क्या फिक्स्चर जनरेटर मुफ़्त है?","acceptedAnswer":{"@type":"Answer","text":"हां। कोई साइन-अप नहीं और कोई विज्ञापन नहीं। फिक्स्चर सीधे आपके ब्राउज़र में बनता है और आपकी टीमों के नाम कभी कहीं नहीं भेजे जाते।"}},{"@type":"Question","name":"मैं कितनी टीमें जोड़ सकता हूं?","acceptedAnswer":{"@type":"Answer","text":"आप 2 से 64 टीमों के लिए लीग या नॉकआउट फिक्स्चर बना सकते हैं।"}},{"@type":"Question","name":"क्या मैं विषम संख्या वाली टीमों के साथ लीग फिक्स्चर बना सकता हूं?","acceptedAnswer":{"@type":"Answer","text":"हां। हर राउंड में एक टीम को बाई मिलती है, और लीग के अंत तक हर टीम समान संख्या में मैच खेलती है।"}},{"@type":"Question","name":"डबल राउंड रॉबिन क्या है?","acceptedAnswer":{"@type":"Answer","text":"ऐसा फिक्स्चर जिसमें हर जोड़ी दो बार आपस में खेलती है, और दूसरे चरण में होम व अवे आपस में बदल जाते हैं। इससे मैचों की संख्या दोगुनी हो जाती है।"}},{"@type":"Question","name":"क्या मैं फिक्स्चर को प्रिंट या शेयर कर सकता हूं?","acceptedAnswer":{"@type":"Answer","text":"हां। प्रिंट से आपको एक साफ़ प्रिंटआउट मिलता है, कॉपी से फिक्स्चर टेक्स्ट के रूप में आपके क्लिपबोर्ड पर आ जाता है, और लिंक कॉपी करें से एक लिंक बनता है जो ठीक वही फिक्स्चर खोलता है।"}},{"@type":"Question","name":"मैं स्कोर और अंक तालिका को कैसे ट्रैक करूं?","acceptedAnswer":{"@type":"Answer","text":"TurnuVolt ऐप में यही टूर्नामेंट सेट करें। जैसे ही आप स्कोर दर्ज करते हैं, अंक तालिका, गोल अंतर और रैंकिंग की गणना अपने-आप हो जाती है, और विजेता ब्रैकेट में खुद आगे बढ़ जाते हैं।"}}],"@id":"https://anbertech.github.io/TurnuVolt/hi/fixture-generator/#faq"}]}</script>
+</head>
+<body>
+<details class="lang-menu"><summary aria-label="भाषा / Language"><img src="../../assets/img/flags/hi.svg" alt="" width="20" height="14" />HI</summary><nav class="lm-list" aria-label="भाषा / Language"><a href="https://anbertech.github.io/TurnuVolt/fikstur/" hreflang="tr" lang="tr"><img src="../../assets/img/flags/tr.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Türkçe</span></a><a href="https://anbertech.github.io/TurnuVolt/en/fixture-generator/" hreflang="en" lang="en"><img src="../../assets/img/flags/en.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">English</span></a><a href="https://anbertech.github.io/TurnuVolt/ar/fixture-generator/" hreflang="ar" lang="ar"><img src="../../assets/img/flags/ar.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">العربية</span></a><a href="https://anbertech.github.io/TurnuVolt/cs/generator-rozpisu-zapasu/" hreflang="cs" lang="cs"><img src="../../assets/img/flags/cs.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Čeština</span></a><a href="https://anbertech.github.io/TurnuVolt/da/kampprogram-generator/" hreflang="da" lang="da"><img src="../../assets/img/flags/da.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Dansk</span></a><a href="https://anbertech.github.io/TurnuVolt/de/spielplan-generator/" hreflang="de" lang="de"><img src="../../assets/img/flags/de.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Deutsch</span></a><a href="https://anbertech.github.io/TurnuVolt/el/fixture-generator/" hreflang="el" lang="el"><img src="../../assets/img/flags/el.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Ελληνικά</span></a><a href="https://anbertech.github.io/TurnuVolt/es/generador-de-calendarios/" hreflang="es" lang="es"><img src="../../assets/img/flags/es.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Español</span></a><a href="https://anbertech.github.io/TurnuVolt/es-mx/generador-de-rol-de-juegos/" hreflang="es-MX" lang="es-MX"><img src="../../assets/img/flags/es-mx.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Español (México)</span></a><a href="https://anbertech.github.io/TurnuVolt/fa/fixture-generator/" hreflang="fa" lang="fa"><img src="../../assets/img/flags/fa.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">فارسی</span></a><a href="https://anbertech.github.io/TurnuVolt/fi/otteluohjelma-generaattori/" hreflang="fi" lang="fi"><img src="../../assets/img/flags/fi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Suomi</span></a><a href="https://anbertech.github.io/TurnuVolt/fr/generateur-calendrier/" hreflang="fr" lang="fr"><img src="../../assets/img/flags/fr.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Français</span></a><a href="https://anbertech.github.io/TurnuVolt/he/fixture-generator/" hreflang="he" lang="he"><img src="../../assets/img/flags/he.svg" alt="" width="20" height="14" loading="lazy" /><span dir="rtl">עברית</span></a><a href="https://anbertech.github.io/TurnuVolt/hi/fixture-generator/" hreflang="hi" lang="hi" aria-current="page"><img src="../../assets/img/flags/hi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">हिन्दी</span></a><a href="https://anbertech.github.io/TurnuVolt/hu/sorsolas-generator/" hreflang="hu" lang="hu"><img src="../../assets/img/flags/hu.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Magyar</span></a><a href="https://anbertech.github.io/TurnuVolt/id/generator-jadwal-pertandingan/" hreflang="id" lang="id"><img src="../../assets/img/flags/id.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Bahasa Indonesia</span></a><a href="https://anbertech.github.io/TurnuVolt/it/generatore-calendario-tornei/" hreflang="it" lang="it"><img src="../../assets/img/flags/it.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Italiano</span></a><a href="https://anbertech.github.io/TurnuVolt/ja/fixture-generator/" hreflang="ja" lang="ja"><img src="../../assets/img/flags/ja.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">日本語</span></a><a href="https://anbertech.github.io/TurnuVolt/ko/fixture-generator/" hreflang="ko" lang="ko"><img src="../../assets/img/flags/ko.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">한국어</span></a><a href="https://anbertech.github.io/TurnuVolt/ms/penjana-jadual-perlawanan/" hreflang="ms" lang="ms"><img src="../../assets/img/flags/ms.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Bahasa Melayu</span></a><a href="https://anbertech.github.io/TurnuVolt/nb/kampoppsett-generator/" hreflang="nb" lang="nb"><img src="../../assets/img/flags/nb.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Norsk bokmål</span></a><a href="https://anbertech.github.io/TurnuVolt/nl/speelschema-generator/" hreflang="nl" lang="nl"><img src="../../assets/img/flags/nl.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Nederlands</span></a><a href="https://anbertech.github.io/TurnuVolt/pl/generator-terminarza/" hreflang="pl" lang="pl"><img src="../../assets/img/flags/pl.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Polski</span></a><a href="https://anbertech.github.io/TurnuVolt/pt-br/gerador-de-tabela-de-jogos/" hreflang="pt-BR" lang="pt-BR"><img src="../../assets/img/flags/pt-br.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Português (Brasil)</span></a><a href="https://anbertech.github.io/TurnuVolt/pt-pt/gerador-de-calendarios/" hreflang="pt-PT" lang="pt-PT"><img src="../../assets/img/flags/pt-pt.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Português (Portugal)</span></a><a href="https://anbertech.github.io/TurnuVolt/ro/generator-program-meciuri/" hreflang="ro" lang="ro"><img src="../../assets/img/flags/ro.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Română</span></a><a href="https://anbertech.github.io/TurnuVolt/ru/fixture-generator/" hreflang="ru" lang="ru"><img src="../../assets/img/flags/ru.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Русский</span></a><a href="https://anbertech.github.io/TurnuVolt/sv/spelschema-generator/" hreflang="sv" lang="sv"><img src="../../assets/img/flags/sv.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Svenska</span></a><a href="https://anbertech.github.io/TurnuVolt/th/fixture-generator/" hreflang="th" lang="th"><img src="../../assets/img/flags/th.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">ไทย</span></a><a href="https://anbertech.github.io/TurnuVolt/uk/fixture-generator/" hreflang="uk" lang="uk"><img src="../../assets/img/flags/uk.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Українська</span></a><a href="https://anbertech.github.io/TurnuVolt/vi/tao-lich-thi-dau/" hreflang="vi" lang="vi"><img src="../../assets/img/flags/vi.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">Tiếng Việt</span></a><a href="https://anbertech.github.io/TurnuVolt/zh-hans/fixture-generator/" hreflang="zh-Hans" lang="zh-Hans"><img src="../../assets/img/flags/zh-hans.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">简体中文</span></a><a href="https://anbertech.github.io/TurnuVolt/zh-hant/fixture-generator/" hreflang="zh-Hant" lang="zh-Hant"><img src="../../assets/img/flags/zh-hant.svg" alt="" width="20" height="14" loading="lazy" /><span dir="ltr">繁體中文</span></a></nav></details><script>(function(d){var m=d.querySelector(".lang-menu");if(!m)return;d.addEventListener("click",function(e){if(m.open&&!m.contains(e.target))m.open=false});d.addEventListener("keydown",function(e){if(e.key==="Escape"&&m.open){m.open=false;m.querySelector("summary").focus()}})})(document);</script>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="dhead fxhead">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="dhead-in">
+    <a class="back" href="../"><span aria-hidden="true">&lsaquo;</span><img src="../../assets/img/tv_icon.jpg" alt="" />TurnuVolt</a>
+    <h1 class="dtitle">फिक्स्चर <em>जनरेटर</em></h1>
+    <p class="dsub">अपनी टीमें टाइप करें और कुछ ही सेकंड में मैच शेड्यूल तैयार पाएं। मुफ़्त, बिना साइन-अप, सीधे आपके ब्राउज़र में।</p>
+  </div>
+</header>
+
+<main class="fx">
+  <section class="fx-card" aria-label="फिक्स्चर जनरेटर">
+    <form id="fx-form" novalidate>
+      <div class="fx-grid">
+        <div>
+          <label class="fx-lbl" for="fx-teams">टीमें (हर लाइन में एक)</label>
+          <textarea id="fx-teams" rows="9" placeholder="बाज़
+शेर
+बाघ
+भेड़िये" spellcheck="false" autocapitalize="words"></textarea>
+          <div class="fx-count">
+            <label for="fx-n">या टीमों की संख्या:</label>
+            <input id="fx-n" type="number" inputmode="numeric" min="2" max="64" placeholder="8" />
+            <button type="button" id="fx-fill" class="fx-ghost">भरें</button>
+          </div>
+        </div>
+        <div>
+          <span class="fx-lbl" id="fx-fmt-l">फ़ॉर्मेट</span>
+          <div class="fmt-tabs fx-seg" role="radiogroup" aria-labelledby="fx-fmt-l">
+            <button type="button" role="radio" aria-checked="true" data-f="league">लीग</button>
+            <button type="button" role="radio" aria-checked="false" data-f="knockout">नॉकआउट</button>
+          </div>
+          <label class="fx-check" id="fx-double-wrap"><input type="checkbox" id="fx-double" /><span>होम और अवे (डबल राउंड रॉबिन)</span></label>
+          <label class="fx-check"><input type="checkbox" id="fx-shuffle" /><span>ड्रॉ शफ़ल करें</span></label>
+          <button type="submit" class="btn-gold fx-go">फिक्स्चर बनाएं</button>
+          <p class="fx-err" id="fx-err" role="alert"></p>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="fx-out" id="fx-out" hidden>
+    <div class="fx-bar">
+      <h2 class="fx-sum" id="fx-sum" aria-live="polite"></h2>
+      <div class="fx-actions">
+        <button type="button" class="fx-ghost" id="fx-copy">कॉपी करें</button>
+        <button type="button" class="fx-ghost" id="fx-share">लिंक कॉपी करें</button>
+        <button type="button" class="fx-ghost" id="fx-print">प्रिंट करें</button>
+      </div>
+    </div>
+    <div class="fx-rounds" id="fx-rounds"></div>
+  </section>
+
+  <section class="toolcta fx-app" aria-labelledby="fx-app-h">
+    <div>
+      <p class="eyebrow">TurnuVolt</p>
+      <h2 id="fx-app-h">स्कोर का हिसाब TurnuVolt पर छोड़ दें</h2>
+      <p>इस टूर्नामेंट को TurnuVolt ऐप में सेट करें: जैसे ही आप स्कोर दर्ज करते हैं, अंक तालिका, गोल अंतर और रैंकिंग अपने-आप अपडेट हो जाते हैं, विजेता ब्रैकेट में आगे बढ़ते हैं, और फ़ाइनल के बाद चैंपियन पोडियम पर पहुंचता है।</p>
+      <div class="stores">
+        <a data-goatcounter-click="appstore-turnuvolt-hi-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="App Store से डाउनलोड करें" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="App Store से डाउनलोड करें" width="1062" height="318" /></a>
+      <span class="soon" role="img" aria-label="Google Play – जल्द आ रहा है"><img src="../../assets/img/google-play-badge.png" alt="" width="1062" height="318" /><b>जल्द आ रहा है</b></span>
+      </div>
+    </div>
+    <div class="fx-shot"><img src="../../assets/img/tv_ss_fikstur.png" alt="फिक्स्चर और अंक तालिका स्क्रीन" loading="lazy" width="640" height="1391" /></div>
+  </section>
+
+  <article class="fx-guide">
+    <h2>राउंड-रॉबिन फिक्स्चर कैसे बनाया जाता है?</h2>
+    <p>लीग (राउंड रॉबिन) में हर टीम बाकी सभी टीमों के खिलाफ एक बार खेलती है। फिक्स्चर सर्कल मेथड से तैयार किया जाता है, जिसे <b>बर्गर टेबल (Berger tables)</b> भी कहा जाता है: एक टीम अपनी जगह पर स्थिर रहती है जबकि अन्य टीमें हर राउंड में एक स्थान घूमती हैं। इस तरह कोई भी मुकाबला दोहराया नहीं जाता और हर टीम प्रति राउंड अधिकतम एक मैच खेलती है।</p>
+    <p><b>n</b> टीमों की लीग में कुल <b>n × (n − 1) ÷ 2</b> मैच होते हैं। सम (even) संख्या में टीमें होने पर <b>n − 1</b> राउंड लगते हैं, और विषम (odd) संख्या होने पर <b>n</b> राउंड लगते हैं तथा हर राउंड में एक टीम को बाई मिलती है। डबल राउंड रॉबिन (होम और अवे) में मैचों और राउंड की संख्या दोगुनी हो जाती है, और दूसरे हिस्से में होम और अवे टीमें आपस में बदल जाती हैं।</p>
+    <div class="tbl-wrap">
+      <table class="fx-table">
+        <caption>टीमों की संख्या के अनुसार मैच और राउंड (सिंगल राउंड रॉबिन)</caption>
+        <thead><tr><th>टीमें</th><th>मैच</th><th>राउंड</th><th>होम और अवे</th></tr></thead>
+        <tbody><tr><td>3</td><td>3</td><td>3</td><td>6</td></tr><tr><td>4</td><td>6</td><td>3</td><td>12</td></tr><tr><td>5</td><td>10</td><td>5</td><td>20</td></tr><tr><td>6</td><td>15</td><td>5</td><td>30</td></tr><tr><td>7</td><td>21</td><td>7</td><td>42</td></tr><tr><td>8</td><td>28</td><td>7</td><td>56</td></tr><tr><td>9</td><td>36</td><td>9</td><td>72</td></tr><tr><td>10</td><td>45</td><td>9</td><td>90</td></tr><tr><td>11</td><td>55</td><td>11</td><td>110</td></tr><tr><td>12</td><td>66</td><td>11</td><td>132</td></tr><tr><td>13</td><td>78</td><td>13</td><td>156</td></tr><tr><td>14</td><td>91</td><td>13</td><td>182</td></tr><tr><td>15</td><td>105</td><td>15</td><td>210</td></tr><tr><td>16</td><td>120</td><td>15</td><td>240</td></tr></tbody>
+      </table>
+    </div>
+
+    <h2>उदाहरण: 4-टीम लीग फिक्स्चर</h2>
+    <div class="fx-rounds fx-example"><div class="rc"><h3>राउंड 1</h3><ol><li><span class="h">टीम 1</span><span class="v">VS</span><span class="a">टीम 4</span></li><li><span class="h">टीम 3</span><span class="v">VS</span><span class="a">टीम 2</span></li></ol></div><div class="rc"><h3>राउंड 2</h3><ol><li><span class="h">टीम 3</span><span class="v">VS</span><span class="a">टीम 1</span></li><li><span class="h">टीम 2</span><span class="v">VS</span><span class="a">टीम 4</span></li></ol></div><div class="rc"><h3>राउंड 3</h3><ol><li><span class="h">टीम 1</span><span class="v">VS</span><span class="a">टीम 2</span></li><li><span class="h">टीम 4</span><span class="v">VS</span><span class="a">टीम 3</span></li></ol></div></div>
+
+    <h2>नॉकआउट ब्रैकेट और बाई (Byes)</h2>
+    <p>नॉकआउट (सिंगल एलिमिनेशन) में हारने वाली टीम बाहर हो जाती है। यदि टीमों की संख्या दो की घात (4, 8, 16, 32…) में नहीं है, तो कुछ टीमों को पहले राउंड में <b>बाई (bye)</b> मिलती है। बाई की संख्या अगली दो की घात में से टीमों की संख्या घटाकर निकाली जाती है: 6 टीमों में 8 − 6 = 2 टीमों को बाई मिलती है, 10 टीमों में 16 − 10 = 6 टीमों को।</p>
+    <p><b>n</b> टीमों वाले नॉकआउट में हमेशा <b>n − 1</b> मैच होते हैं, क्योंकि हर मैच में ठीक एक टीम बाहर होती है। 16 टीमों के टूर्नामेंट में 4 राउंड और 15 मैच होते हैं।</p>
+
+    <h2>लीग अंक तालिका की गणना कैसे की जाती है?</h2>
+    <p>फ़ुटबॉल जैसे खेलों में जीत के लिए <b>3</b> अंक, ड्रॉ के लिए <b>1</b> और हार के लिए <b>0</b> अंक मिलते हैं; समान अंकों वाली टीमों को पहले गोल अंतर और फिर किए गए गोलों के आधार पर अलग किया जाता है। बास्केटबॉल जैसे बिना ड्रॉ वाले खेलों में जीत के 2 अंक मिलते हैं। वॉलीबॉल में 3-0 या 3-1 की जीत पर 3 अंक, 3-2 की जीत पर 2 अंक और 2-3 की हार पर 1 अंक मिलता है। TurnuVolt आपके द्वारा चुने गए खेल के लिए इन नियमों को अपने-आप लागू करता है।</p>
+  </article>
+
+  <section class="faq" aria-labelledby="fx-faq-h">
+  <p class="eyebrow">अक्सर पूछे जाने वाले सवाल (FAQ)</p>
+  <h2 class="h2" id="fx-faq-h">फिक्स्चर से जुड़े सवाल</h2>
+  <details class="qa"><summary>क्या फिक्स्चर जनरेटर मुफ़्त है?</summary><p>हां। कोई साइन-अप नहीं और कोई विज्ञापन नहीं। फिक्स्चर सीधे आपके ब्राउज़र में बनता है और आपकी टीमों के नाम कभी कहीं नहीं भेजे जाते।</p></details><details class="qa"><summary>मैं कितनी टीमें जोड़ सकता हूं?</summary><p>आप 2 से 64 टीमों के लिए लीग या नॉकआउट फिक्स्चर बना सकते हैं।</p></details><details class="qa"><summary>क्या मैं विषम संख्या वाली टीमों के साथ लीग फिक्स्चर बना सकता हूं?</summary><p>हां। हर राउंड में एक टीम को बाई मिलती है, और लीग के अंत तक हर टीम समान संख्या में मैच खेलती है।</p></details><details class="qa"><summary>डबल राउंड रॉबिन क्या है?</summary><p>ऐसा फिक्स्चर जिसमें हर जोड़ी दो बार आपस में खेलती है, और दूसरे चरण में होम व अवे आपस में बदल जाते हैं। इससे मैचों की संख्या दोगुनी हो जाती है।</p></details><details class="qa"><summary>क्या मैं फिक्स्चर को प्रिंट या शेयर कर सकता हूं?</summary><p>हां। प्रिंट से आपको एक साफ़ प्रिंटआउट मिलता है, कॉपी से फिक्स्चर टेक्स्ट के रूप में आपके क्लिपबोर्ड पर आ जाता है, और लिंक कॉपी करें से एक लिंक बनता है जो ठीक वही फिक्स्चर खोलता है।</p></details><details class="qa"><summary>मैं स्कोर और अंक तालिका को कैसे ट्रैक करूं?</summary><p>TurnuVolt ऐप में यही टूर्नामेंट सेट करें। जैसे ही आप स्कोर दर्ज करते हैं, अंक तालिका, गोल अंतर और रैंकिंग की गणना अपने-आप हो जाती है, और विजेता ब्रैकेट में खुद आगे बढ़ जाते हैं।</p></details>
+</section>
+</main>
+
+<footer class="foot">
+  <nav aria-label="दस्तावेज़"><a href="../">TurnuVolt</a><a href="../../en/privacy.html">गोपनीयता नीति</a><a href="../../en/support.html">सहायता</a></nav>
+  <img class="fcup" src="../../assets/img/tv_golden_cup.png" alt="" />
+  &copy; <span id="y"></span> TurnuVolt &ndash; AnberTech
+</footer>
+
+<script>window.FX={"lang":"hi","locale":"hi","teamWord":"टीम","r":{"final":"फ़ाइनल","semi":"सेमीफ़ाइनल","quarter":"क्वार्टरफ़ाइनल","roundOf":"%d का राउंड"},"t":{"week":"राउंड %d","byeRow":"इस राउंड में %s को बाई मिली है","koBye":"%s को अगले राउंड के लिए बाई मिली है","winnerOf":"#%d का विजेता","sumLeague":"%1$d टीमें · %2$d राउंड · %3$d मैच","sumKo":"%1$d टीमें · %2$d राउंड · %3$d मैच","copied":"कॉपी हो गया","linkCopied":"लिंक कॉपी हो गया","errMin":"कम से कम 2 टीमें दर्ज करें।","errMax":"आप अधिकतम 64 टीमें रख सकते हैं।","errDup":"दो टीमों का नाम एक जैसा है: %s"}};</script>
+<script>
+(function(){
+  var D=document, W=window, F=W.FX, T=F.t;
+  var reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- progress, parallax ---- */
+  var bar=D.querySelector('.progress'), bg=D.querySelector('.hero-bg');
+  function onScroll(){
+    var h=D.documentElement.scrollHeight-innerHeight, y=W.scrollY||0;
+    if(bar) bar.style.width=(h>0?Math.min(100,y/h*100):0)+'%';
+    if(bg&&!reduce) bg.style.transform='scale(1.06) translateY('+(y*.22)+'px)';
+  }
+  W.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var yr=D.getElementById('y'); if(yr) yr.textContent=new Date().getFullYear();
+
+  /* "%d", "%s", "%1$d" biçimli metinleri doldurur */
+  function fmt(s){
+    var a=arguments, i=0;
+    return s.replace(/%(\d+)\$[ds@]|%[ds@]/g,function(m,p){ return String(p?a[+p]:a[++i]); });
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]}); }
+
+  var form=D.getElementById('fx-form'), ta=D.getElementById('fx-teams'), nIn=D.getElementById('fx-n'),
+      dbl=D.getElementById('fx-double'), dblWrap=D.getElementById('fx-double-wrap'), shuf=D.getElementById('fx-shuffle'),
+      err=D.getElementById('fx-err'), out=D.getElementById('fx-out'), sum=D.getElementById('fx-sum'), box=D.getElementById('fx-rounds'),
+      segs=[].slice.call(D.querySelectorAll('.fx-seg [role=radio]')), format='league', last=null;
+
+  function setFormat(f){
+    format=f;
+    segs.forEach(function(b){ b.setAttribute('aria-checked',String(b.dataset.f===f)); });
+    dbl.disabled=f!=='league'; dblWrap.setAttribute('aria-disabled',String(f!=='league'));
+  }
+  segs.forEach(function(b){ b.addEventListener('click',function(){ setFormat(b.dataset.f); if(last) run(false); }); });
+
+  function teamsFromInput(){
+    var raw=ta.value.split(/\r?\n/);
+    if(raw.filter(function(x){return x.trim()}).length===1 && /[,;]/.test(raw.join(''))) raw=raw.join('').split(/[,;]/);
+    return raw.map(function(x){return x.replace(/\s+/g,' ').trim()}).filter(Boolean);
+  }
+  function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=(Math.random()*(i+1))|0, x=a[i]; a[i]=a[j]; a[j]=x; } return a; }
+
+  /* Lig: çember (Berger) yöntemi. Bir takım sabit, diğerleri her hafta bir sıra döner. */
+  function league(teams,double){
+    var list=teams.slice(); if(list.length%2) list.push(null);
+    var n=list.length, rounds=[];
+    for(var r=0;r<n-1;r++){
+      var ms=[], bye=null;
+      for(var i=0;i<n/2;i++){
+        var h=list[i], a=list[n-1-i];
+        if(i===0 ? r%2===1 : i%2===1){ var x=h; h=a; a=x; }
+        if(h===null||a===null){ bye=(h===null?a:h); continue; }
+        ms.push([h,a]);
+      }
+      rounds.push({m:ms,bye:bye});
+      list.splice(1,0,list.pop());
+    }
+    if(double) rounds=rounds.concat(rounds.map(function(rd){ return {m:rd.m.map(function(p){return [p[1],p[0]]}),bye:rd.bye}; }));
+    return rounds;
+  }
+
+  function roundName(size){
+    if(size===2) return F.r.final;
+    if(size===4) return F.r.semi;
+    if(size===8) return F.r.quarter;
+    return fmt(F.r.roundOf,size);
+  }
+
+  /* Eleme: 2'nin kuvvetine tamamlanır, eksik kadar takım ilk turda bay geçer */
+  function knockout(teams){
+    var n=teams.length, P=1; while(P<n) P*=2;
+    var byes=P-n, byeTeams=teams.slice(0,byes), rest=teams.slice(byes), no=0, first=[];
+    for(var i=0;i<rest.length;i+=2) first.push({no:++no,h:{t:rest[i]},a:{t:rest[i+1]}});
+    var rounds=[{name:roundName(P),m:first,byes:byeTeams}];
+    var bt=byeTeams.map(function(t){return {t:t}}), wn=first.map(function(m){return {w:m.no}}), slots=[];
+    while(bt.length||wn.length){ if(bt.length) slots.push(bt.shift()); if(wn.length) slots.push(wn.shift()); }
+    for(var size=P/2; size>=2; size/=2){
+      var ms=[];
+      for(var j=0;j<slots.length;j+=2) ms.push({no:++no,h:slots[j],a:slots[j+1]});
+      rounds.push({name:roundName(size),m:ms,byes:[]});
+      slots=ms.map(function(m){return {w:m.no}});
+    }
+    return rounds;
+  }
+
+  function side(s){ return s.t!=null ? esc(s.t) : '<span class="ph">'+esc(fmt(T.winnerOf,s.w))+'</span>'; }
+  function sideText(s){ return s.t!=null ? s.t : fmt(T.winnerOf,s.w); }
+
+  function render(res){
+    var html='';
+    if(res.format==='league'){
+      res.rounds.forEach(function(rd,k){
+        html+='<div class="rc"><h3>'+esc(fmt(T.week,k+1))+'</h3><ol>';
+        rd.m.forEach(function(p){ html+='<li><span class="h">'+esc(p[0])+'</span><span class="v">VS</span><span class="a">'+esc(p[1])+'</span></li>'; });
+        if(rd.bye!=null) html+='<li class="bye">'+esc(fmt(T.byeRow,rd.bye))+'</li>';
+        html+='</ol></div>';
+      });
+    } else {
+      res.rounds.forEach(function(rd){
+        html+='<div class="rc ko"><h3>'+esc(rd.name)+'</h3><ol>';
+        rd.m.forEach(function(m){ html+='<li><span class="no">#'+m.no+'</span><span class="h">'+side(m.h)+'</span><span class="v">VS</span><span class="a">'+side(m.a)+'</span></li>'; });
+        rd.byes.forEach(function(t){ html+='<li class="bye">'+esc(fmt(T.koBye,t))+'</li>'; });
+        html+='</ol></div>';
+      });
+    }
+    box.innerHTML=html;
+  }
+
+  function asText(res){
+    var lines=[sum.textContent,''];
+    if(res.format==='league'){
+      res.rounds.forEach(function(rd,k){
+        lines.push(fmt(T.week,k+1));
+        rd.m.forEach(function(p){ lines.push('  '+p[0]+' - '+p[1]); });
+        if(rd.bye!=null) lines.push('  '+fmt(T.byeRow,rd.bye));
+        lines.push('');
+      });
+    } else {
+      res.rounds.forEach(function(rd){
+        lines.push(rd.name);
+        rd.m.forEach(function(m){ lines.push('  #'+m.no+'  '+sideText(m.h)+' - '+sideText(m.a)); });
+        rd.byes.forEach(function(t){ lines.push('  '+fmt(T.koBye,t)); });
+        lines.push('');
+      });
+    }
+    lines.push(location.href);
+    return lines.join('\n');
+  }
+
+  function shareUrl(res){
+    var q='?t='+res.teams.map(encodeURIComponent).join('|')+'&f='+res.format+(res.format==='league'&&res.double?'&d=1':'');
+    return location.origin+location.pathname+q;
+  }
+
+  function run(scroll){
+    err.textContent='';
+    var teams=teamsFromInput();
+    if(teams.length<2){ err.textContent=T.errMin; return; }
+    if(teams.length>64){ err.textContent=T.errMax; return; }
+    var seen={};
+    for(var i=0;i<teams.length;i++){
+      var k=teams[i].toLocaleLowerCase(F.locale);
+      if(seen[k]){ err.textContent=fmt(T.errDup,teams[i]); return; }
+      seen[k]=1;
+    }
+    if(shuf.checked){ teams=shuffle(teams); ta.value=teams.join('\n'); shuf.checked=false; }
+    var res={format:format,teams:teams,double:dbl.checked};
+    if(format==='league'){
+      res.rounds=league(teams,dbl.checked);
+      var matches=res.rounds.reduce(function(s,r){return s+r.m.length},0);
+      sum.textContent=fmt(T.sumLeague,teams.length,res.rounds.length,matches);
+    } else {
+      res.rounds=knockout(teams);
+      sum.textContent=fmt(T.sumKo,teams.length,res.rounds.length,teams.length-1);
+    }
+    render(res); out.hidden=false; last=res;
+    try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
+    if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+  }
+
+  form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });
+
+  D.getElementById('fx-fill').addEventListener('click',function(){
+    var n=parseInt(nIn.value,10);
+    if(!(n>=2)){ err.textContent=T.errMin; return; }
+    if(n>64){ err.textContent=T.errMax; return; }
+    var names=[]; for(var i=1;i<=n;i++) names.push(F.teamWord+' '+i);
+    ta.value=names.join('\n'); err.textContent='';
+  });
+
+  function flash(btn,text){
+    var old=btn.dataset.label||btn.textContent; btn.dataset.label=old; btn.textContent=text;
+    clearTimeout(btn._t); btn._t=setTimeout(function(){ btn.textContent=old; },1600);
+  }
+  function copy(text,btn,done){
+    function ok(){ flash(btn,done); }
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(ok,function(){ fallback(); }); }
+    else fallback();
+    function fallback(){
+      var t=D.createElement('textarea'); t.value=text; t.style.position='fixed'; t.style.opacity='0'; D.body.appendChild(t); t.select();
+      try{ D.execCommand('copy'); ok(); }catch(_){} D.body.removeChild(t);
+    }
+  }
+  D.getElementById('fx-copy').addEventListener('click',function(){ if(last) copy(asText(last),this,T.copied); });
+  D.getElementById('fx-share').addEventListener('click',function(){ if(last) copy(shareUrl(last),this,T.linkCopied); });
+  D.getElementById('fx-print').addEventListener('click',function(){ W.print(); });
+
+  /* Bağlantıyla gelinirse (?t=A|B|C&f=league&d=1) fikstür hemen kurulur */
+  var q=new URLSearchParams(location.search), qt=q.get('t')||q.get('teams');
+  if(qt){
+    ta.value=qt.split(/[|\n]/).map(function(x){return x.trim()}).filter(Boolean).join('\n');
+    var qf=(q.get('f')||q.get('format')||'').toLowerCase();
+    setFormat(/^(k|ko|knockout|elim|eleme)/.test(qf)?'knockout':'league');
+    dbl.checked=/^(1|true|yes)$/i.test(q.get('d')||q.get('double')||'');
+    run(false);
+  } else setFormat('league');
+})();
+</script>
+</body>
+</html>

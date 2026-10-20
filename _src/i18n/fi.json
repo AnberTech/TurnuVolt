@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Turnausgeneraattori: otteluohjelma, sarjataulukko, pudotuspelit ja kaksinkertainen sarja",
+  "meta_desc": "Järjestä sarjoja ja pudotuspelejä: lisää joukkueet, luo otteluohjelma automaattisesti ja seuraa sarjataulukon päivittymistä tuloksia syöttäessäsi. Mukana kaksinkertainen sarja, 63 lajia ja peliä, offline-käyttö ja ei mainoksia. Sisältää ilmaisen otteluohjelmageneraattorin verkossa.",
+  "store_alt": "Lataa App Storesta",
+  "soon": "Tulossa pian",
+  "scroll_down": "Vieritä alas",
+  "aria_screens": "Kuvakaappaukset",
+  "ss_podium": "Palkintokoroke ja pokaali turnauksen lopussa",
+  "ss_fixture": "Otteluohjelma ja sarjataulukko",
+  "ss_new": "Uuden turnauksen luontinäkymä",
+  "ss_home": "TurnuVoltin aloitusnäkymä",
+  "ss_saved": "Tallennetun turnauksen näkymä",
+  "aria_games": "Pelit",
+  "aria_board": "Peliluettelo",
+  "aria_cats": "Luokat",
+  "random_game": "Satunnainen peli",
+  "aria_formats": "Turnausmuodot",
+  "tab_ko": "Pudotuspelit",
+  "led_title": "Luokka",
+  "reset_bracket": "Nollaa pudotuspelikaavio",
+  "aria_langs": "Kielet",
+  "aria_lang": "Kieli",
+  "aria_docs": "Asiakirjat",
+  "privacy": "Tietosuojakäytäntö",
+  "support": "Tuki",
+  "aria_download": "Lataa",
+  "tagline": "Otteluohjelmat, sarjataulukot ja pudotuspelikaaviot. Valmiina sekunneissa suoraan taskussasi.",
+  "hero_tool_link": "Luo ilmainen otteluohjelma",
+  "about_eyebrow": "Mikä TurnuVolt on?",
+  "about_h2": "Luo turnaus ja anna TurnuVoltin hoitaa loput",
+  "about_lead": "TurnuVolt on turnausgeneraattori ystäville, kouluille, työpaikoille ja seuroille. Lisää joukkueet, niin sovellus luo sarjan tai pudotuspelien otteluohjelman puolestasi. Sarjataulukko päivittyy tuloksia syöttäessäsi, ja finaalin jälkeen mestari nousee palkintokorokkeelle. Sovellus tukee 63 lajia ja peliä jalkapallosta shakkiin sekä tenniksestä FIFAan ja laskee pisteet jokaisen omien sääntöjen mukaan.",
+  "steps": [
+    [
+      "Lisää joukkueet",
+      "Nimeä turnaus, anna joukkueiden tai pelaajien määrä ja valitse sitten peli sekä turnausmuoto."
+    ],
+    [
+      "Otteluohjelma on valmis",
+      "Sarjassa kaikki kohtaavat toisensa, ja halutessasi voit valita kaksinkertaisen sarjan koti- ja vierasotteluineen. Pudotuspelikaavio luodaan automaattisesti, samoin lepovuorot silloin, kun joukkueita on pariton määrä."
+    ],
+    [
+      "Syötä tulokset ja seuraa sarjataulukkoa",
+      "Maalit, pisteet, erät tai pelkkä voittaja: tulosten syöttötapa mukautuu peliin. Pisteet, maaliero ja sijoitukset lasketaan puolestasi."
+    ]
+  ],
+  "feats": [
+    [
+      "Peliin sopiva pisteenlasku",
+      "Jalkapallossa voitosta saa 3 pistettä, koripallossa ei ole tasapelejä ja lentopallossa huomioidaan eräero. Jokainen peli noudattaa omia sääntöjään."
+    ],
+    [
+      "Jatka siitä, mihin jäit",
+      "Keskeneräiset turnaukset tallennetaan, ja päättyneet siirtyvät arkistoosi."
+    ],
+    [
+      "Et tarvitse internetyhteyttä",
+      "Kaikki toimii puhelimessasi niin kentän laidalla, leirillä kuin koulun pihallakin."
+    ],
+    [
+      "Ei mainoksia eikä käyttäjätiliä",
+      "Kertamaksu. Ei tilausta, mainoksia, rekisteröitymistä eikä tietojen keräämistä."
+    ],
+    [
+      "30+ kieltä",
+      "Englanti, espanja, saksa, arabia, japani ja monet muut, myös oikealta vasemmalle kirjoitettavat kielet."
+    ],
+    [
+      "Palkintokoroke ja pokaali",
+      "Finaalin päätyttyä mestari, hopeamitalisti ja kolmanneksi sijoittunut nousevat konfettisateessa palkintokorokkeelle."
+    ]
+  ],
+  "tool_eyebrow": "Ilmainen työkalu",
+  "tool_h2": "Tarvitsetko otteluohjelman heti?",
+  "tool_text": "Luo otteluohjelma selaimessa ilmaiseksi ilman lataamista. Lisää joukkueet, niin sarjan tai pudotuspelien otteluohjelma valmistuu heti. Tulosta, kopioi tai jaa se linkillä.",
+  "tool_btn": "Avaa otteluohjelmageneraattori",
+  "faq_eyebrow": "Usein kysytyt kysymykset",
+  "faq_h2": "Hyvä tietää",
+  "faq_home": [
+    [
+      "Miten teen otteluohjelman TurnuVoltilla?",
+      "Napauta Uusi turnaus, anna turnaukselle nimi ja määritä joukkueiden määrä. Valitse peli ja turnausmuoto (sarja tai pudotuspelit) ja kirjoita sitten joukkueiden nimet. Otteluohjelma ja sarjataulukko luodaan automaattisesti, joten sinun tarvitsee vain syöttää tulokset."
+    ],
+    [
+      "Mitä urheilulajeja ja pelejä tuetaan?",
+      "Yhteensä 63, mukaan lukien jalkapallo, futsal, koripallo, lentopallo, tennis, pöytätennis, padel, sulkapallo, shakki, backgammon, darts, biljardi, FIFA ja Valorant. Muita varten käytettävissä on Mukautettu / Muu -vaihtoehto."
+    ],
+    [
+      "Mitä eroa on sarjalla ja pudotuspeleillä?",
+      "Sarjassa eli kaikki kaikkia vastaan -muodossa jokainen kohtaa jokaisen, ja voittaja ratkaistaan sarjataulukon perusteella. Voit myös tehdä kaksinkertaisen sarjan koti- ja vierasotteluineen. Pudotuspeleissä häviäjä putoaa ja voittajat jatkavat finaaliin asti."
+    ],
+    [
+      "Mitä tapahtuu, jos joukkueita on pariton määrä?",
+      "Sarjassa yksi joukkue on lepovuorossa kullakin kierroksella. Pudotuspeleissä ensimmäisen kierroksen lepovuorot jaetaan automaattisesti, ja ne saavat joukkueet etenevät suoraan seuraavalle kierrokselle."
+    ],
+    [
+      "Miten sarjataulukko lasketaan?",
+      "Kun syötät tuloksia, pelatut ottelut, voitot, tasapelit, tappiot, maaliero ja pisteet päivittyvät automaattisesti. Pistesäännöt riippuvat pelistä: jalkapallossa voitosta saa 3 pistettä ja tasapelistä 1; koripallossa ei ole tasapelejä; lentopallossa huomioidaan myös eräero."
+    ],
+    [
+      "Tarvitsenko internetyhteyden? Minne tietoni tallennetaan?",
+      "Et tarvitse internetyhteyttä. Turnauksesi tallennetaan vain laitteellesi. Käyttäjätiliä ei ole, henkilötietoja ei kerätä eikä mitään lähetetä palvelimelle."
+    ],
+    [
+      "Onko TurnuVolt ilmainen?",
+      "Sovellus ostetaan App Storesta kertamaksulla. Siinä ei ole tilausta, mainoksia eikä sovelluksen sisäisiä ostoja. Selaimessa toimiva otteluohjelmageneraattori on täysin ilmainen."
+    ],
+    [
+      "Onko sovellus saatavilla Android-laitteille?",
+      "Android-versio on tulossa pian Google Playhin. Tällä hetkellä TurnuVolt on saatavilla iPhonelle ja iPadille (iOS 17.6 tai uudempi)."
+    ]
+  ],
+  "fx_slug": "otteluohjelma-generaattori",
+  "fx_name": "Otteluohjelmageneraattori",
+  "fx_title": "Ilmainen otteluohjelmageneraattori – sarjataulukko, pudotuspelit ja kaksinkertainen sarja | TurnuVolt",
+  "fx_desc": "Kirjoita joukkueiden nimet ja luo sarjan tai pudotuspelien otteluohjelma sekunneissa. Mukana sarjataulukko, kaksinkertainen sarja koti- ja vierasotteluineen sekä automaattiset lepovuorot. Ilmainen, ei rekisteröitymistä, toimii selaimessa.",
+  "fx_h1_html": "Otteluohjelma<em>generaattori</em>",
+  "fx_sub": "Lisää joukkueet, niin otteluohjelma valmistuu sekunneissa. Ilmainen, ei rekisteröitymistä ja toimii selaimessa.",
+  "fx_teams_label": "Joukkueet (yksi per rivi)",
+  "fx_teams_ph": "Kotkat\nLeijonat\nTiikerit\nSudet",
+  "fx_count_label": "tai joukkueiden määrä:",
+  "fx_fill": "Täytä",
+  "fx_format": "Turnausmuoto",
+  "fx_knockout": "Pudotuspelit",
+  "fx_double": "Koti- ja vierasottelut (kaksinkertainen sarja)",
+  "fx_shuffle": "Sekoita arvonta",
+  "fx_generate": "Luo otteluohjelma",
+  "fx_sum_league": "%1$d joukkuetta · %2$d kierrosta · %3$d ottelua",
+  "fx_sum_ko": "%1$d joukkuetta · %2$d kierrosta · %3$d ottelua",
+  "fx_week": "Kierros %d",
+  "fx_bye_row": "%s on lepovuorossa tällä kierroksella",
+  "fx_ko_bye": "%s saa lepovuoron ja etenee seuraavalle kierrokselle",
+  "fx_winner_of": "Ottelun #%d voittaja",
+  "fx_copy": "Kopioi",
+  "fx_copied": "Kopioitu",
+  "fx_share": "Kopioi linkki",
+  "fx_link_copied": "Linkki kopioitu",
+  "fx_print": "Tulosta",
+  "fx_err_min": "Anna vähintään 2 joukkuetta.",
+  "fx_err_max": "Joukkueita voi olla enintään 64.",
+  "fx_err_dup": "Kahdella joukkueella on sama nimi: %s",
+  "fx_cta_title": "Anna TurnuVoltin pitää kirjaa tuloksista",
+  "fx_cta_text": "Luo tämä turnaus TurnuVolt-sovelluksessa: tuloksia syöttäessäsi sarjataulukko, maaliero ja sijoitukset päivittyvät automaattisesti, voittajat etenevät pudotuspelikaaviossa ja mestari nousee palkintokorokkeelle finaalin jälkeen.",
+  "fx_h2_how": "Miten sarjan otteluohjelma luodaan?",
+  "fx_p_how1_html": "Sarjassa eli kaikki kaikkia vastaan -muodossa jokainen joukkue kohtaa kaikki muut kerran. Otteluohjelma luodaan kiertomenetelmällä, joka tunnetaan myös nimellä <b>Bergerin taulukot</b>: yksi joukkue pysyy paikallaan ja muut siirtyvät yhden paikan jokaisella kierroksella. Näin yksikään ottelupari ei toistu ja jokainen joukkue pelaa enintään yhden ottelun kierrosta kohden.",
+  "fx_p_how2_html": "<b>n</b> joukkueen sarjassa on yhteensä <b>n × (n − 1) ÷ 2</b> ottelua. Kun joukkueita on parillinen määrä, kierroksia tarvitaan <b>n − 1</b>. Parittomalla joukkuemäärällä kierroksia on <b>n</b>, ja yksi joukkue on lepovuorossa kullakin kierroksella. Kaksinkertainen sarja eli koti- ja vierasottelut kaksinkertaistaa otteluiden ja kierrosten määrän, ja kotijoukkueet sekä vierasjoukkueet vaihtavat osia jälkimmäisellä puoliskolla.",
+  "fx_table_caption": "Otteluiden ja kierrosten määrä joukkuemäärän mukaan (yksinkertainen sarja)",
+  "fx_th_teams": "Joukkueet",
+  "fx_th_matches": "Ottelut",
+  "fx_th_weeks": "Kierrokset",
+  "fx_th_double": "Koti- ja vierasottelut",
+  "fx_h2_example": "Esimerkki: 4 joukkueen sarjan otteluohjelma",
+  "fx_h2_ko": "Pudotuspelikaaviot ja lepovuorot",
+  "fx_p_ko1_html": "Pudotuspeleissä eli kerrasta poikki -muodossa häviäjä putoaa. Jos joukkueiden määrä ei ole luvun 2 potenssi (4, 8, 16, 32…), osa joukkueista saa ensimmäisellä kierroksella <b>lepovuoron</b>. Lepovuorojen määrä saadaan vähentämällä joukkueiden määrä seuraavasta luvun 2 potenssista: 6 joukkueella 8 − 6 = 2 joukkuetta saa lepovuoron ja 10 joukkueella 16 − 10 = 6.",
+  "fx_p_ko2_html": "<b>n</b> joukkueen pudotuspeleissä on aina <b>n − 1</b> ottelua, koska jokaisessa ottelussa putoaa täsmälleen yksi joukkue. 16 joukkueen turnauksessa on 4 kierrosta ja 15 ottelua.",
+  "fx_h2_points": "Miten sarjataulukko lasketaan?",
+  "fx_p_points_html": "Jalkapallon kaltaisissa peleissä voitosta saa <b>3</b> pistettä, tasapelistä <b>1</b> ja tappiosta <b>0</b>. Tasapisteissä olevien joukkueiden järjestyksen ratkaisee ensin maaliero ja sitten tehtyjen maalien määrä. Koripallon kaltaisissa peleissä, joissa ei ole tasapelejä, voitosta saa 2 pistettä. Lentopallossa 3-0- tai 3-1-voitosta saa 3 pistettä, 3-2-voitosta 2 pistettä ja 2-3-tappiosta 1 pisteen. TurnuVolt käyttää näitä sääntöjä automaattisesti valitsemasi pelin mukaan.",
+  "fx_faq_h2": "Kysymyksiä otteluohjelmista",
+  "faq_fx": [
+    [
+      "Onko otteluohjelmageneraattori ilmainen?",
+      "Kyllä. Rekisteröitymistä tai mainoksia ei ole. Otteluohjelma luodaan selaimessasi, eikä joukkueiden nimiä lähetetä minnekään."
+    ],
+    [
+      "Kuinka monta joukkuetta voin lisätä?",
+      "Voit luoda sarjan tai pudotuspelien otteluohjelman 2–64 joukkueelle."
+    ],
+    [
+      "Voinko tehdä sarjan otteluohjelman parittomalle joukkuemäärälle?",
+      "Kyllä. Yksi joukkue on lepovuorossa kullakin kierroksella, ja sarjan päättyessä jokainen joukkue on pelannut saman määrän otteluita."
+    ],
+    [
+      "Mikä on kaksinkertainen sarja?",
+      "Otteluohjelma, jossa jokainen ottelupari kohtaa kahdesti ja koti- sekä vierasjoukkue vaihtavat osia jälkimmäisellä puoliskolla. Se kaksinkertaistaa otteluiden määrän."
+    ],
+    [
+      "Voinko tulostaa tai jakaa otteluohjelman?",
+      "Kyllä. Tulosta-toiminto tekee selkeän tulosteen, Kopioi siirtää otteluohjelman tekstinä leikepöydälle ja Kopioi linkki luo linkin, joka avaa saman otteluohjelman."
+    ],
+    [
+      "Miten seuraan tuloksia ja sarjataulukkoa?",
+      "Luo sama turnaus TurnuVolt-sovelluksessa. Kun syötät tuloksia, sarjataulukko, maaliero ja sijoitukset lasketaan automaattisesti, ja voittajat etenevät pudotuspelikaaviossa itsestään."
+    ]
+  ]
+}

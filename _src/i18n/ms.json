@@ -1,0 +1,184 @@
+{
+  "title": "TurnuVolt – Pembuat Kejohanan: Jadual Perlawanan, Kedudukan Liga & Carta Kalah Mati",
+  "meta_desc": "Urus kejohanan liga round robin dan kalah mati: masukkan pasukan, jana jadual perlawanan secara automatik dan lihat kedudukan liga dikemas kini apabila anda memasukkan skor. 63 jenis sukan dan permainan, boleh digunakan di luar talian, tanpa iklan. Termasuk penjana jadual perlawanan dalam talian percuma.",
+  "store_alt": "Muat turun di App Store",
+  "soon": "Akan datang",
+  "scroll_down": "Tatal ke bawah",
+  "aria_screens": "Tangkapan skrin",
+  "ss_podium": "Skrin podium dan trofi selepas kejohanan tamat",
+  "ss_fixture": "Skrin jadual perlawanan dan kedudukan liga",
+  "ss_new": "Skrin cipta kejohanan baharu",
+  "ss_home": "Skrin utama TurnuVolt",
+  "ss_saved": "Skrin kejohanan disimpan",
+  "aria_games": "Permainan",
+  "aria_board": "Papan senarai permainan",
+  "aria_cats": "Kategori",
+  "random_game": "Permainan rawak",
+  "aria_formats": "Format kejohanan",
+  "tab_ko": "Kalah mati",
+  "led_title": "Kelas",
+  "reset_bracket": "Tetapkan semula carta kalah mati",
+  "aria_langs": "Bahasa",
+  "aria_lang": "Bahasa",
+  "aria_docs": "Dokumen",
+  "privacy": "Dasar Privasi",
+  "support": "Sokongan",
+  "aria_download": "Muat turun",
+  "tagline": "Jadual perlawanan, kedudukan liga dan carta kalah mati. Siap dalam beberapa saat, terus di dalam poket anda.",
+  "hero_tool_link": "Buat jadual perlawanan percuma sekarang",
+  "about_eyebrow": "Apakah TurnuVolt?",
+  "about_h2": "Sediakan kejohanan, TurnuVolt uruskan selebihnya",
+  "about_lead": "TurnuVolt ialah aplikasi pembuat kejohanan untuk rakan, sekolah, pejabat dan kelab. Masukkan pasukan dan jadual perlawanan liga atau kalah mati akan dijana untuk anda. Apabila anda memasukkan skor, jadual kedudukan liga dikemas kini secara automatik, dan selepas perlawanan akhir, juara akan menaiki podium. Aplikasi ini menyokong 63 jenis sukan dan permainan, daripada bola sepak hingga catur serta tenis hingga FIFA, dengan sistem pemarkahan mengikut peraturan setiap permainan.",
+  "steps": [
+    [
+      "Tambah pasukan",
+      "Namakan kejohanan, masukkan bilangan pasukan atau pemain, kemudian pilih permainan dan format."
+    ],
+    [
+      "Jadual perlawanan sudah siap",
+      "Dalam liga, semua pasukan saling bertemu, dengan pilihan perlawanan kedua secara tuan rumah dan tempat lawan. Dalam format kalah mati, carta dibina dan bye diberikan secara automatik jika bilangan pasukan ganjil."
+    ],
+    [
+      "Masukkan skor, lihat kedudukan liga",
+      "Gol, mata, set atau sekadar pemenang: cara memasukkan skor disesuaikan dengan permainan. Mata, perbezaan gol dan ranking dikira untuk anda."
+    ]
+  ],
+  "feats": [
+    [
+      "Pemarkahan yang sesuai dengan permainan",
+      "3 mata untuk kemenangan dalam bola sepak, tiada seri dalam bola keranjang dan perbezaan set dalam bola tampar. Setiap permainan mengikut peraturannya sendiri."
+    ],
+    [
+      "Sambung dari tempat anda berhenti",
+      "Kejohanan yang belum selesai akan disimpan, manakala kejohanan yang tamat dimasukkan ke dalam arkib anda."
+    ],
+    [
+      "Tidak memerlukan internet",
+      "Semuanya berjalan pada telefon anda: di padang, di kem atau di halaman sekolah."
+    ],
+    [
+      "Tanpa iklan, tanpa akaun",
+      "Pembelian sekali sahaja. Tiada langganan, tiada iklan, tiada pendaftaran dan tiada pengumpulan data."
+    ],
+    [
+      "30+ bahasa",
+      "Bahasa Inggeris, Sepanyol, Jerman, Arab, Jepun dan banyak lagi, termasuk bahasa yang ditulis dari kanan ke kiri."
+    ],
+    [
+      "Podium dan trofi",
+      "Apabila perlawanan akhir tamat, juara, naib juara dan tempat ketiga menaiki podium dengan taburan konfeti."
+    ]
+  ],
+  "tool_eyebrow": "Alat percuma",
+  "tool_h2": "Perlukan jadual perlawanan sekarang?",
+  "tool_text": "Buat jadual perlawanan secara percuma dalam pelayar anda, tanpa perlu memuat turun. Masukkan pasukan dan jadual round robin atau kalah mati anda siap serta-merta. Cetak, salin atau kongsikannya melalui pautan.",
+  "tool_btn": "Buka penjana jadual perlawanan",
+  "faq_eyebrow": "Soalan lazim",
+  "faq_h2": "Perkara yang baik untuk diketahui",
+  "faq_home": [
+    [
+      "Bagaimanakah saya membuat jadual perlawanan dengan TurnuVolt?",
+      "Ketik Kejohanan Baharu, masukkan nama kejohanan dan bilangan pasukan, pilih permainan serta format (liga atau kalah mati), kemudian masukkan nama pasukan. Jadual perlawanan dan jadual kedudukan liga dijana secara automatik; anda hanya perlu memasukkan skor."
+    ],
+    [
+      "Apakah sukan dan permainan yang disokong?",
+      "63 semuanya, termasuk bola sepak, futsal, bola keranjang, bola tampar, tenis, pingpong, padel, badminton, catur, backgammon, dart, biliard pool, FIFA dan Valorant. Untuk permainan lain, terdapat pilihan Tersuai / Lain-lain."
+    ],
+    [
+      "Apakah perbezaan antara liga dan kalah mati?",
+      "Dalam liga (round robin), semua pasukan saling bertemu dan kedudukan liga menentukan pemenang; anda juga boleh membuat round robin berganda dengan perlawanan tuan rumah dan tempat lawan. Dalam format kalah mati, pasukan yang kalah tersingkir dan pemenang mara hingga ke perlawanan akhir."
+    ],
+    [
+      "Apakah yang berlaku jika bilangan pasukan ganjil?",
+      "Dalam liga, satu pasukan mendapat bye pada setiap pusingan. Dalam format kalah mati, pasukan yang mendapat bye pada pusingan pertama dipilih secara automatik dan terus mara ke pusingan seterusnya."
+    ],
+    [
+      "Bagaimanakah kedudukan liga dikira?",
+      "Apabila anda memasukkan skor, jumlah perlawanan, kemenangan, seri, kekalahan, perbezaan gol dan mata dikemas kini secara automatik. Peraturan mata bergantung pada permainan: dalam bola sepak, kemenangan bernilai 3 mata dan seri 1; bola keranjang tidak mempunyai keputusan seri; dalam bola tampar, perbezaan set turut diambil kira."
+    ],
+    [
+      "Adakah saya memerlukan sambungan internet? Di manakah data saya disimpan?",
+      "Sambungan internet tidak diperlukan. Kejohanan anda hanya disimpan pada peranti anda; tiada akaun, tiada data peribadi dikumpulkan dan tiada apa-apa dihantar ke pelayan."
+    ],
+    [
+      "Adakah TurnuVolt percuma?",
+      "Aplikasi ini ialah pembelian sekali sahaja di App Store, tanpa langganan, tanpa iklan dan tanpa pembelian dalam aplikasi. Penjana jadual perlawanan dalam pelayar anda adalah percuma sepenuhnya."
+    ],
+    [
+      "Adakah aplikasi ini tersedia pada Android?",
+      "Versi Android akan datang tidak lama lagi di Google Play. Buat masa ini, TurnuVolt tersedia untuk iPhone dan iPad (iOS 17.6 atau lebih baharu)."
+    ]
+  ],
+  "fx_slug": "penjana-jadual-perlawanan",
+  "fx_name": "Penjana Jadual Perlawanan",
+  "fx_title": "Penjana Jadual Perlawanan Percuma – Jadual Kejohanan Round Robin & Kalah Mati | TurnuVolt",
+  "fx_desc": "Masukkan nama pasukan dan dapatkan jadual kejohanan round robin (liga) atau kalah mati dalam beberapa saat. Pilihan tuan rumah dan tempat lawan, dengan bye diurus secara automatik. Percuma, tanpa pendaftaran dan berjalan dalam pelayar; cetak atau kongsikannya.",
+  "fx_h1_html": "<em>Penjana</em> Jadual Perlawanan",
+  "fx_sub": "Masukkan pasukan anda dan jadual akan siap dalam beberapa saat. Percuma, tanpa pendaftaran dan berjalan dalam pelayar anda.",
+  "fx_teams_label": "Pasukan (satu setiap baris)",
+  "fx_teams_ph": "Helang\nSinga\nHarimau\nSerigala",
+  "fx_count_label": "atau bilangan pasukan:",
+  "fx_fill": "Isikan",
+  "fx_format": "Format",
+  "fx_knockout": "Kalah mati",
+  "fx_double": "Tuan rumah dan tempat lawan (round robin berganda)",
+  "fx_shuffle": "Rawakkan undian",
+  "fx_generate": "Jana jadual perlawanan",
+  "fx_sum_league": "%1$d pasukan · %2$d pusingan · %3$d perlawanan",
+  "fx_sum_ko": "%1$d pasukan · %2$d pusingan · %3$d perlawanan",
+  "fx_week": "Pusingan %d",
+  "fx_bye_row": "%s mendapat bye pada pusingan ini",
+  "fx_ko_bye": "%s mendapat bye ke pusingan seterusnya",
+  "fx_winner_of": "Pemenang #%d",
+  "fx_copy": "Salin",
+  "fx_copied": "Disalin",
+  "fx_share": "Salin pautan",
+  "fx_link_copied": "Pautan disalin",
+  "fx_print": "Cetak",
+  "fx_err_min": "Masukkan sekurang-kurangnya 2 pasukan.",
+  "fx_err_max": "Anda boleh memasukkan maksimum 64 pasukan.",
+  "fx_err_dup": "Dua pasukan mempunyai nama yang sama: %s",
+  "fx_cta_title": "Biar TurnuVolt mengurus skor",
+  "fx_cta_text": "Sediakan kejohanan ini dalam aplikasi TurnuVolt: apabila anda memasukkan skor, kedudukan liga, perbezaan gol dan ranking dikemas kini secara automatik, pemenang mara dalam carta kalah mati, dan juara menaiki podium selepas perlawanan akhir.",
+  "fx_h2_how": "Bagaimanakah jadual perlawanan round robin dijana?",
+  "fx_p_how1_html": "Dalam liga (round robin), setiap pasukan bermain menentang semua pasukan lain sekali. Jadual perlawanan dibina menggunakan kaedah bulatan, yang juga dikenali sebagai <b>jadual Berger</b>: satu pasukan kekal pada kedudukannya manakala pasukan lain berputar satu tempat pada setiap pusingan. Dengan cara ini, tiada pasangan berulang dan setiap pasukan bermain maksimum satu perlawanan dalam setiap pusingan.",
+  "fx_p_how2_html": "Liga dengan <b>n</b> pasukan mempunyai sejumlah <b>n × (n − 1) ÷ 2</b> perlawanan. Jika bilangan pasukan genap, liga mengambil <b>n − 1</b> pusingan; jika ganjil, <b>n</b> pusingan, dengan satu pasukan mendapat bye pada setiap pusingan. Round robin berganda (tuan rumah dan tempat lawan) menggandakan perlawanan dan pusingan, dengan tuan rumah dan tempat lawan ditukar pada separuh kedua.",
+  "fx_table_caption": "Bilangan perlawanan dan pusingan mengikut jumlah pasukan (round robin tunggal)",
+  "fx_th_teams": "Pasukan",
+  "fx_th_matches": "Perlawanan",
+  "fx_th_weeks": "Pusingan",
+  "fx_th_double": "Tuan rumah & tempat lawan",
+  "fx_h2_example": "Contoh: jadual perlawanan liga 4 pasukan",
+  "fx_h2_ko": "Carta kalah mati dan bye",
+  "fx_p_ko1_html": "Dalam format kalah mati (penyingkiran tunggal), pasukan yang kalah akan tersingkir. Jika bilangan pasukan bukan kuasa 2 (4, 8, 16, 32…), beberapa pasukan mendapat <b>bye</b> pada pusingan pertama. Bilangan bye ialah kuasa 2 seterusnya ditolak bilangan pasukan: dengan 6 pasukan, 8 − 6 = 2 pasukan mendapat bye; dengan 10 pasukan, 16 − 10 = 6.",
+  "fx_p_ko2_html": "Kejohanan kalah mati dengan <b>n</b> pasukan sentiasa mempunyai <b>n − 1</b> perlawanan kerana tepat satu pasukan tersingkir dalam setiap perlawanan. Kejohanan 16 pasukan mengambil 4 pusingan dan 15 perlawanan.",
+  "fx_h2_points": "Bagaimanakah kedudukan liga dikira?",
+  "fx_p_points_html": "Dalam permainan seperti bola sepak, kemenangan bernilai <b>3</b> mata, seri <b>1</b> dan kekalahan <b>0</b>; pasukan dengan mata yang sama dipisahkan berdasarkan perbezaan gol, kemudian jumlah gol dijaringkan. Dalam permainan tanpa keputusan seri, seperti bola keranjang, kemenangan bernilai 2 mata. Dalam bola tampar, kemenangan 3-0 atau 3-1 memperoleh 3 mata, kemenangan 3-2 memperoleh 2 mata dan kekalahan 2-3 memperoleh 1 mata. TurnuVolt menggunakan peraturan ini secara automatik mengikut permainan yang anda pilih.",
+  "fx_faq_h2": "Soalan tentang jadual perlawanan",
+  "faq_fx": [
+    [
+      "Adakah penjana jadual perlawanan ini percuma?",
+      "Ya. Tiada pendaftaran dan tiada iklan. Jadual perlawanan dijana dalam pelayar anda dan nama pasukan anda tidak pernah dihantar ke mana-mana."
+    ],
+    [
+      "Berapa banyak pasukan yang boleh saya tambah?",
+      "Anda boleh membuat jadual perlawanan liga atau kalah mati untuk 2 hingga 64 pasukan."
+    ],
+    [
+      "Bolehkah saya membuat jadual liga dengan bilangan pasukan ganjil?",
+      "Ya. Satu pasukan mendapat bye pada setiap pusingan, dan pada akhir liga, setiap pasukan telah bermain jumlah perlawanan yang sama."
+    ],
+    [
+      "Apakah itu round robin berganda?",
+      "Jadual perlawanan yang menyaksikan setiap pasangan bermain dua kali, dengan tuan rumah dan tempat lawan ditukar pada separuh kedua. Format ini menggandakan jumlah perlawanan."
+    ],
+    [
+      "Bolehkah saya mencetak atau berkongsi jadual perlawanan?",
+      "Ya. Cetak menghasilkan cetakan yang kemas, Salin meletakkan jadual perlawanan sebagai teks pada papan klip anda, dan Salin pautan mencipta pautan yang membuka jadual perlawanan yang sama."
+    ],
+    [
+      "Bagaimanakah saya merekod skor dan kedudukan liga?",
+      "Sediakan kejohanan yang sama dalam aplikasi TurnuVolt. Apabila anda memasukkan skor, kedudukan liga, perbezaan gol dan ranking dikira secara automatik, dan pemenang mara sendiri melalui carta kalah mati."
+    ]
+  ]
+}
