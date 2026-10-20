@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+{{{head_meta}}}
+<meta name="theme-color" content="#070B10" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" />
+<style>
+{{{css}}}
+{{{fx_css}}}
+</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{{{jsonld}}}
+</head>
+<body>
+{{{lang_menu}}}
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="dhead fxhead">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="dhead-in">
+    <a class="back" href="{{home_href}}"><span aria-hidden="true">&lsaquo;</span><img src="{{base}}assets/img/tv_icon.jpg" alt="" />TurnuVolt</a>
+    <h1 class="dtitle">{{{fx_h1_html}}}</h1>
+    <p class="dsub">{{fx_sub}}</p>
+  </div>
+</header>
+
+<main class="fx">
+  <section class="fx-card" aria-label="{{fx_name}}">
+    <form id="fx-form" novalidate>
+      <div class="fx-grid">
+        <div>
+          <label class="fx-lbl" for="fx-teams">{{fx_teams_label}}</label>
+          <textarea id="fx-teams" rows="9" placeholder="{{fx_teams_ph}}" spellcheck="false" autocapitalize="words"></textarea>
+          <div class="fx-count">
+            <label for="fx-n">{{fx_count_label}}</label>
+            <input id="fx-n" type="number" inputmode="numeric" min="2" max="64" placeholder="8" />
+            <button type="button" id="fx-fill" class="fx-ghost">{{fx_fill}}</button>
+          </div>
+        </div>
+        <div>
+          <span class="fx-lbl" id="fx-fmt-l">{{fx_format}}</span>
+          <div class="fmt-tabs fx-seg" role="radiogroup" aria-labelledby="fx-fmt-l">
+            <button type="button" role="radio" aria-checked="true" data-f="league">{{app:TournamentFormat.league}}</button>
+            <button type="button" role="radio" aria-checked="false" data-f="knockout">{{fx_knockout}}</button>
+          </div>
+          <label class="fx-check" id="fx-double-wrap"><input type="checkbox" id="fx-double" /><span>{{fx_double}}</span></label>
+          <label class="fx-check"><input type="checkbox" id="fx-shuffle" /><span>{{fx_shuffle}}</span></label>
+          <button type="submit" class="btn-gold fx-go">{{fx_generate}}</button>
+          <p class="fx-err" id="fx-err" role="alert"></p>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="fx-out" id="fx-out" hidden>
+    <div class="fx-bar">
+      <h2 class="fx-sum" id="fx-sum" aria-live="polite"></h2>
+      <div class="fx-actions">
+        <button type="button" class="fx-ghost" id="fx-copy">{{fx_copy}}</button>
+        <button type="button" class="fx-ghost" id="fx-share">{{fx_share}}</button>
+        <button type="button" class="fx-ghost" id="fx-print">{{fx_print}}</button>
+      </div>
+    </div>
+    <div class="fx-rounds" id="fx-rounds"></div>
+  </section>
+
+  <section class="toolcta fx-app" aria-labelledby="fx-app-h">
+    <div>
+      <p class="eyebrow">TurnuVolt</p>
+      <h2 id="fx-app-h">{{fx_cta_title}}</h2>
+      <p>{{fx_cta_text}}</p>
+      <div class="stores">
+        {{{stores_cta}}}
+      </div>
+    </div>
+    <div class="fx-shot"><img src="{{base}}assets/img/tv_ss_fikstur.png" alt="{{ss_fixture}}" loading="lazy" width="640" height="1391" /></div>
+  </section>
+
+  <article class="fx-guide">
+    <h2>{{fx_h2_how}}</h2>
+    <p>{{{fx_p_how1_html}}}</p>
+    <p>{{{fx_p_how2_html}}}</p>
+    <div class="tbl-wrap">
+      <table class="fx-table">
+        <caption>{{fx_table_caption}}</caption>
+        <thead><tr><th>{{fx_th_teams}}</th><th>{{fx_th_matches}}</th><th>{{fx_th_weeks}}</th><th>{{fx_th_double}}</th></tr></thead>
+        <tbody>{{{count_rows}}}</tbody>
+      </table>
+    </div>
+
+    <h2>{{fx_h2_example}}</h2>
+    <div class="fx-rounds fx-example">{{{example_html}}}</div>
+
+    <h2>{{fx_h2_ko}}</h2>
+    <p>{{{fx_p_ko1_html}}}</p>
+    <p>{{{fx_p_ko2_html}}}</p>
+
+    <h2>{{fx_h2_points}}</h2>
+    <p>{{{fx_p_points_html}}}</p>
+  </article>
+
+  {{{faq_html}}}
+</main>
+
+<footer class="foot">
+  <nav aria-label="{{aria_docs}}"><a href="{{home_href}}">TurnuVolt</a><a href="{{privacy_href}}">{{privacy}}</a><a href="{{support_href}}">{{support}}</a></nav>
+  <img class="fcup" src="{{base}}assets/img/tv_golden_cup.png" alt="" />
+  &copy; <span id="y"></span> TurnuVolt &ndash; AnberTech
+</footer>
+
+<script>window.FX={{{fx_data}}};</script>
+<script>
+(function(){
+  var D=document, W=window, F=W.FX, T=F.t;
+  var reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- progress, parallax ---- */
+  var bar=D.querySelector('.progress'), bg=D.querySelector('.hero-bg');
+  function onScroll(){
+    var h=D.documentElement.scrollHeight-innerHeight, y=W.scrollY||0;
+    if(bar) bar.style.width=(h>0?Math.min(100,y/h*100):0)+'%';
+    if(bg&&!reduce) bg.style.transform='scale(1.06) translateY('+(y*.22)+'px)';
+  }
+  W.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var yr=D.getElementById('y'); if(yr) yr.textContent=new Date().getFullYear();
+
+  /* "%d", "%s", "%1$d" biçimli metinleri doldurur */
+  function fmt(s){
+    var a=arguments, i=0;
+    return s.replace(/%(\d+)\$[ds@]|%[ds@]/g,function(m,p){ return String(p?a[+p]:a[++i]); });
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]}); }
+
+  var form=D.getElementById('fx-form'), ta=D.getElementById('fx-teams'), nIn=D.getElementById('fx-n'),
+      dbl=D.getElementById('fx-double'), dblWrap=D.getElementById('fx-double-wrap'), shuf=D.getElementById('fx-shuffle'),
+      err=D.getElementById('fx-err'), out=D.getElementById('fx-out'), sum=D.getElementById('fx-sum'), box=D.getElementById('fx-rounds'),
+      segs=[].slice.call(D.querySelectorAll('.fx-seg [role=radio]')), format='league', last=null;
+
+  function setFormat(f){
+    format=f;
+    segs.forEach(function(b){ b.setAttribute('aria-checked',String(b.dataset.f===f)); });
+    dbl.disabled=f!=='league'; dblWrap.setAttribute('aria-disabled',String(f!=='league'));
+  }
+  segs.forEach(function(b){ b.addEventListener('click',function(){ setFormat(b.dataset.f); if(last) run(false); }); });
+
+  function teamsFromInput(){
+    var raw=ta.value.split(/\r?\n/);
+    if(raw.filter(function(x){return x.trim()}).length===1 && /[,;]/.test(raw.join(''))) raw=raw.join('').split(/[,;]/);
+    return raw.map(function(x){return x.replace(/\s+/g,' ').trim()}).filter(Boolean);
+  }
+  function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=(Math.random()*(i+1))|0, x=a[i]; a[i]=a[j]; a[j]=x; } return a; }
+
+  /* Lig: çember (Berger) yöntemi. Bir takım sabit, diğerleri her hafta bir sıra döner. */
+  function league(teams,double){
+    var list=teams.slice(); if(list.length%2) list.push(null);
+    var n=list.length, rounds=[];
+    for(var r=0;r<n-1;r++){
+      var ms=[], bye=null;
+      for(var i=0;i<n/2;i++){
+        var h=list[i], a=list[n-1-i];
+        if(i===0 ? r%2===1 : i%2===1){ var x=h; h=a; a=x; }
+        if(h===null||a===null){ bye=(h===null?a:h); continue; }
+        ms.push([h,a]);
+      }
+      rounds.push({m:ms,bye:bye});
+      list.splice(1,0,list.pop());
+    }
+    if(double) rounds=rounds.concat(rounds.map(function(rd){ return {m:rd.m.map(function(p){return [p[1],p[0]]}),bye:rd.bye}; }));
+    return rounds;
+  }
+
+  function roundName(size){
+    if(size===2) return F.r.final;
+    if(size===4) return F.r.semi;
+    if(size===8) return F.r.quarter;
+    return fmt(F.r.roundOf,size);
+  }
+
+  /* Eleme: 2'nin kuvvetine tamamlanır, eksik kadar takım ilk turda bay geçer */
+  function knockout(teams){
+    var n=teams.length, P=1; while(P<n) P*=2;
+    var byes=P-n, byeTeams=teams.slice(0,byes), rest=teams.slice(byes), no=0, first=[];
+    for(var i=0;i<rest.length;i+=2) first.push({no:++no,h:{t:rest[i]},a:{t:rest[i+1]}});
+    var rounds=[{name:roundName(P),m:first,byes:byeTeams}];
+    var bt=byeTeams.map(function(t){return {t:t}}), wn=first.map(function(m){return {w:m.no}}), slots=[];
+    while(bt.length||wn.length){ if(bt.length) slots.push(bt.shift()); if(wn.length) slots.push(wn.shift()); }
+    for(var size=P/2; size>=2; size/=2){
+      var ms=[];
+      for(var j=0;j<slots.length;j+=2) ms.push({no:++no,h:slots[j],a:slots[j+1]});
+      rounds.push({name:roundName(size),m:ms,byes:[]});
+      slots=ms.map(function(m){return {w:m.no}});
+    }
+    return rounds;
+  }
+
+  function side(s){ return s.t!=null ? esc(s.t) : '<span class="ph">'+esc(fmt(T.winnerOf,s.w))+'</span>'; }
+  function sideText(s){ return s.t!=null ? s.t : fmt(T.winnerOf,s.w); }
+
+  function render(res){
+    var html='';
+    if(res.format==='league'){
+      res.rounds.forEach(function(rd,k){
+        html+='<div class="rc"><h3>'+esc(fmt(T.week,k+1))+'</h3><ol>';
+        rd.m.forEach(function(p){ html+='<li><span class="h">'+esc(p[0])+'</span><span class="v">VS</span><span class="a">'+esc(p[1])+'</span></li>'; });
+        if(rd.bye!=null) html+='<li class="bye">'+esc(fmt(T.byeRow,rd.bye))+'</li>';
+        html+='</ol></div>';
+      });
+    } else {
+      res.rounds.forEach(function(rd){
+        html+='<div class="rc ko"><h3>'+esc(rd.name)+'</h3><ol>';
+        rd.m.forEach(function(m){ html+='<li><span class="no">#'+m.no+'</span><span class="h">'+side(m.h)+'</span><span class="v">VS</span><span class="a">'+side(m.a)+'</span></li>'; });
+        rd.byes.forEach(function(t){ html+='<li class="bye">'+esc(fmt(T.koBye,t))+'</li>'; });
+        html+='</ol></div>';
+      });
+    }
+    box.innerHTML=html;
+  }
+
+  function asText(res){
+    var lines=[sum.textContent,''];
+    if(res.format==='league'){
+      res.rounds.forEach(function(rd,k){
+        lines.push(fmt(T.week,k+1));
+        rd.m.forEach(function(p){ lines.push('  '+p[0]+' - '+p[1]); });
+        if(rd.bye!=null) lines.push('  '+fmt(T.byeRow,rd.bye));
+        lines.push('');
+      });
+    } else {
+      res.rounds.forEach(function(rd){
+        lines.push(rd.name);
+        rd.m.forEach(function(m){ lines.push('  #'+m.no+'  '+sideText(m.h)+' - '+sideText(m.a)); });
+        rd.byes.forEach(function(t){ lines.push('  '+fmt(T.koBye,t)); });
+        lines.push('');
+      });
+    }
+    lines.push(location.href);
+    return lines.join('\n');
+  }
+
+  function shareUrl(res){
+    var q='?t='+res.teams.map(encodeURIComponent).join('|')+'&f='+res.format+(res.format==='league'&&res.double?'&d=1':'');
+    return location.origin+location.pathname+q;
+  }
+
+  function run(scroll){
+    err.textContent='';
+    var teams=teamsFromInput();
+    if(teams.length<2){ err.textContent=T.errMin; return; }
+    if(teams.length>64){ err.textContent=T.errMax; return; }
+    var seen={};
+    for(var i=0;i<teams.length;i++){
+      var k=teams[i].toLocaleLowerCase(F.locale);
+      if(seen[k]){ err.textContent=fmt(T.errDup,teams[i]); return; }
+      seen[k]=1;
+    }
+    if(shuf.checked){ teams=shuffle(teams); ta.value=teams.join('\n'); shuf.checked=false; }
+    var res={format:format,teams:teams,double:dbl.checked};
+    if(format==='league'){
+      res.rounds=league(teams,dbl.checked);
+      var matches=res.rounds.reduce(function(s,r){return s+r.m.length},0);
+      sum.textContent=fmt(T.sumLeague,teams.length,res.rounds.length,matches);
+    } else {
+      res.rounds=knockout(teams);
+      sum.textContent=fmt(T.sumKo,teams.length,res.rounds.length,teams.length-1);
+    }
+    render(res); out.hidden=false; last=res;
+    try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
+    if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+  }
+
+  form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });
+
+  D.getElementById('fx-fill').addEventListener('click',function(){
+    var n=parseInt(nIn.value,10);
+    if(!(n>=2)){ err.textContent=T.errMin; return; }
+    if(n>64){ err.textContent=T.errMax; return; }
+    var names=[]; for(var i=1;i<=n;i++) names.push(F.teamWord+' '+i);
+    ta.value=names.join('\n'); err.textContent='';
+  });
+
+  function flash(btn,text){
+    var old=btn.dataset.label||btn.textContent; btn.dataset.label=old; btn.textContent=text;
+    clearTimeout(btn._t); btn._t=setTimeout(function(){ btn.textContent=old; },1600);
+  }
+  function copy(text,btn,done){
+    function ok(){ flash(btn,done); }
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(ok,function(){ fallback(); }); }
+    else fallback();
+    function fallback(){
+      var t=D.createElement('textarea'); t.value=text; t.style.position='fixed'; t.style.opacity='0'; D.body.appendChild(t); t.select();
+      try{ D.execCommand('copy'); ok(); }catch(_){} D.body.removeChild(t);
+    }
+  }
+  D.getElementById('fx-copy').addEventListener('click',function(){ if(last) copy(asText(last),this,T.copied); });
+  D.getElementById('fx-share').addEventListener('click',function(){ if(last) copy(shareUrl(last),this,T.linkCopied); });
+  D.getElementById('fx-print').addEventListener('click',function(){ W.print(); });
+
+  /* Bağlantıyla gelinirse (?t=A|B|C&f=league&d=1) fikstür hemen kurulur */
+  var q=new URLSearchParams(location.search), qt=q.get('t')||q.get('teams');
+  if(qt){
+    ta.value=qt.split(/[|\n]/).map(function(x){return x.trim()}).filter(Boolean).join('\n');
+    var qf=(q.get('f')||q.get('format')||'').toLowerCase();
+    setFormat(/^(k|ko|knockout|elim|eleme)/.test(qf)?'knockout':'league');
+    dbl.checked=/^(1|true|yes)$/i.test(q.get('d')||q.get('double')||'');
+    run(false);
+  } else setFormat('league');
+})();
+</script>
+</body>
+</html>

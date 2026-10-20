@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>TurnuVolt – Tournament &amp; Score Tracker</title>
-<meta name="description" content="TurnuVolt: run league and knockout tournaments, track scores and standings. 63 games, 32 languages." />
+<title>TurnuVolt – Tournament Maker: Fixtures, Standings &amp; Brackets</title>
+<meta name="description" content="Run league and knockout tournaments: type your teams, get the fixtures automatically and watch the standings update as you enter scores. 63 sports and games, works offline, no ads. Free online fixture generator included." />
 <link rel="icon" type="image/png" sizes="64x64" href="../assets/img/favicon.png?v=2" />
 <link rel="apple-touch-icon" href="../assets/img/tv_icon_180.png" />
 <link rel="canonical" href="https://anbertech.github.io/TurnuVolt/en/" />
 <link rel="alternate" hreflang="tr" href="https://anbertech.github.io/TurnuVolt/" />
 <link rel="alternate" hreflang="en" href="https://anbertech.github.io/TurnuVolt/en/" />
-<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/" />
+<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/en/" />
+<meta name="apple-itunes-app" content="app-id=6745177155" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TurnuVolt" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="TurnuVolt – Tournament Maker: Fixtures, Standings &amp; Brackets" />
+<meta property="og:description" content="Run league and knockout tournaments: type your teams, get the fixtures automatically and watch the standings update as you enter scores. 63 sports and games, works offline, no ads. Free online fixture generator included." />
+<meta property="og:url" content="https://anbertech.github.io/TurnuVolt/en/" />
+<meta property="og:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="TurnuVolt" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="TurnuVolt – Tournament Maker: Fixtures, Standings &amp; Brackets" />
+<meta name="twitter:description" content="Run league and knockout tournaments: type your teams, get the fixtures automatically and watch the standings update as you enter scores. 63 sports and games, works offline, no ads. Free online fixture generator included." />
+<meta name="twitter:image" content="https://anbertech.github.io/TurnuVolt/assets/img/og.jpg" />
 <meta name="theme-color" content="#070B10" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -352,11 +367,92 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   text-transform:uppercase;padding:5px 9px;border-radius:999px}
 .getit{padding:clamp(40px,8vh,80px) 16px 0;text-align:center}
 .getit .stores{margin-top:0}
+
+/* =================== 4.2: about, steps, features, tool, faq, language menu =================== */
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.tagline{margin:22px auto 0;max-width:34ch;font:600 clamp(16px,3.8vw,21px)/1.4 var(--sans);color:#D3DDE9;text-wrap:balance;
+  text-shadow:0 2px 18px rgba(0,0,0,.8)}
+.toollink{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:4px 2px;color:var(--gold-2);font-weight:600;font-size:15.5px;
+  text-decoration:none;border-bottom:1px solid rgba(242,193,78,.45);transition:color .25s,border-color .25s}
+.toollink:hover{color:#fff;border-color:#fff}
+.toollink span{transition:transform .3s var(--ease)}
+.toollink:hover span{transform:translateX(4px)}
+[dir=rtl] .toollink span{transform:scaleX(-1)}
+[dir=rtl] .toollink:hover span{transform:scaleX(-1) translateX(4px)}
+
+.about{position:relative;max-width:1080px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.eyebrow{display:inline-block;margin:0;padding:7px 14px;border-radius:999px;border:1px solid rgba(242,193,78,.4);
+  font:800 clamp(13px,3vw,15px)/1 var(--display);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.h2{margin:18px 0 0;font:900 clamp(34px,7.6vw,66px)/.98 var(--display);letter-spacing:.01em;text-transform:uppercase;text-wrap:balance;color:#fff}
+.h2 em{font-style:normal;color:var(--gold)}
+.lead{margin:20px 0 0;max-width:68ch;color:#B9C5D3;font-size:clamp(16.5px,2.2vw,18.5px)}
+.steps{display:grid;gap:14px;margin:clamp(32px,5vh,48px) 0 0;padding:0;list-style:none}
+@media (min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.stepc{position:relative;overflow:hidden;padding:26px 22px 22px;border-radius:20px;
+  background:linear-gradient(135deg,#141D29,#0D141D);border:1px solid rgba(234,242,255,.08);box-shadow:0 22px 50px rgba(0,0,0,.4)}
+.stepc .n{position:absolute;inset-inline-end:14px;bottom:-14px;font:900 96px/1 var(--display);color:var(--gold);opacity:.13;pointer-events:none}
+.stepc h3{position:relative;margin:0 0 8px;font:800 clamp(21px,4.6vw,26px)/1.08 var(--display);letter-spacing:.04em;text-transform:uppercase;color:#fff}
+.stepc p{position:relative;margin:0;padding-inline-end:34px;color:#A9B6C5;font-size:15.5px}
+.feats{display:grid;gap:12px;margin:14px 0 0;padding:0;list-style:none}
+@media (min-width:640px){.feats{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.feats{grid-template-columns:repeat(3,1fr)}}
+.feat{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;padding:18px;border-radius:18px;
+  background:rgba(234,242,255,.03);border:1px solid rgba(234,242,255,.07)}
+.feat i{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:rgba(242,193,78,.1);border:1px solid rgba(242,193,78,.3);color:var(--gold)}
+.feat svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.feat h3{margin:1px 0 4px;font:700 16.5px/1.3 var(--sans);color:#fff}
+.feat p{margin:0;color:#97A5B5;font-size:14.5px;line-height:1.55}
+
+.toolcta{position:relative;display:grid;gap:22px;max-width:1080px;margin:clamp(40px,7vh,72px) auto 0;padding:clamp(22px,4vw,40px);
+  border-radius:24px;background:#04070B;border:1px solid rgba(242,193,78,.28);text-decoration:none;color:var(--flood);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.65);transition:transform .4s var(--ease)}
+.toolcta:hover{transform:translateY(-4px)}
+@media (min-width:820px){.toolcta{grid-template-columns:1.25fr 1fr;align-items:center}}
+.toolcta h2{margin:12px 0 0;font:900 clamp(30px,6.4vw,50px)/1 var(--display);text-transform:uppercase;color:#fff}
+.toolcta p{margin:12px 0 0;color:#B9C5D3;max-width:52ch}
+.btn-gold{display:inline-flex;align-items:center;gap:10px;margin-top:20px;min-height:48px;padding:12px 22px;border-radius:999px;
+  background:linear-gradient(160deg,#FFE08A,#F2C14E 55%,#C9962A);color:#241A02;font:900 clamp(17px,4vw,20px)/1 var(--display);
+  letter-spacing:.08em;text-transform:uppercase;box-shadow:0 10px 30px rgba(242,193,78,.25)}
+.minifx{display:grid;gap:9px;direction:ltr}
+.minifx .match{justify-content:space-between}
+.mini-wk{font:800 13px/1 var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+
+.faq{max-width:880px;margin:0 auto;padding:clamp(64px,11vh,120px) 16px 0}
+.qa{border-bottom:1px solid rgba(234,242,255,.09)}
+.qa:first-of-type{margin-top:22px;border-top:1px solid rgba(234,242,255,.09)}
+.qa summary{list-style:none;cursor:pointer;display:flex;gap:16px;align-items:center;justify-content:space-between;min-height:44px;
+  padding:19px 4px;font:700 clamp(16.5px,3.6vw,19px)/1.35 var(--sans);color:#fff}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";flex:0 0 auto;font:900 30px/1 var(--display);color:var(--gold);transition:transform .3s var(--ease)}
+.qa[open] summary::after{transform:rotate(45deg)}
+.qa summary:hover{color:var(--gold-2)}
+.qa p{margin:0 4px 22px;color:#B9C5D3;max-width:70ch}
+
+.lang-menu{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));inset-inline-end:14px;z-index:96}
+.lang-menu summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:8px 14px;border-radius:999px;
+  font:700 13px/1 var(--sans);letter-spacing:.06em;color:var(--flood);background:rgba(7,11,16,.55);border:1px solid rgba(234,242,255,.22);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.lang-menu summary::-webkit-details-marker{display:none}
+.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold);color:var(--gold)}
+.lm-list{position:absolute;inset-inline-end:0;top:calc(100% + 8px);width:min(340px,calc(100vw - 28px));max-height:min(70vh,540px);overflow:auto;
+  display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:8px;border-radius:16px;background:rgba(11,17,24,.97);
+  border:1px solid rgba(234,242,255,.14);box-shadow:0 24px 60px rgba(0,0,0,.6)}
+.lm-list a{display:block;padding:10px;border-radius:9px;color:var(--flood);text-decoration:none;font:600 14px/1.2 var(--sans)}
+.lm-list a:hover{background:rgba(242,193,78,.12);color:var(--gold-2)}
+.lm-list a[aria-current]{color:var(--gold);background:rgba(242,193,78,.08)}
+[dir=rtl] .board,[dir=rtl] .gboard,[dir=rtl] .bracket,[dir=rtl] .led table,[dir=rtl] .track,[dir=rtl] .podium{direction:ltr}
+.gboard.whole{display:block;grid-template-columns:none}
+.gboard.whole .flap{width:100%;height:1.5em}
+.gboard.whole .flap span{font-size:.8em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;padding:0 .3em}
+.toolcta .eyebrow{margin:0;color:var(--gold)}
+a.toolcta{width:calc(100% - 32px)}
+
 </style>
 <script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebSite","@id":"https://anbertech.github.io/TurnuVolt/#website","name":"TurnuVolt","url":"https://anbertech.github.io/TurnuVolt/","publisher":{"@id":"https://anbertech.github.io/#org"},"inLanguage":["tr","en"]},{"@type":"MobileApplication","@id":"https://anbertech.github.io/TurnuVolt/#app","name":"TurnuVolt","alternateName":"TurnuVolt: Tournament Maker","url":"https://anbertech.github.io/TurnuVolt/en/","description":"TurnuVolt is a tournament maker app for friends, schools, offices and clubs. Type in the teams and the league or knockout fixtures are created for you. As you enter scores the standings table updates itself, and when the final is over the champion takes the podium. It supports 63 sports and games, from soccer to chess and tennis to FIFA, and scores each one by its own rules.","applicationCategory":"SportsApplication","applicationSubCategory":"Tournament organizer","operatingSystem":"iOS 17.6+, iPadOS 17.6+","downloadUrl":"https://apps.apple.com/us/app/turnuvolt/id6745177155","installUrl":"https://apps.apple.com/us/app/turnuvolt/id6745177155","image":"https://anbertech.github.io/TurnuVolt/assets/img/tv_icon.jpg","screenshot":["https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_fikstur.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_podyum.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_yeni_turnuva.png","https://anbertech.github.io/TurnuVolt/assets/img/tv_ss_ana.png"],"featureList":["Scoring that fits the game","Pick up where you left off","No internet needed","No ads, no account","30+ languages","Podium and trophy"],"inLanguage":["tr","en","ar","cs","da","de","el","es","es-MX","fa","fi","fr","he","hi","hu","id","it","ja","ko","ms","nb","nl","pl","pt-BR","pt-PT","ro","ru","sv","th","uk","vi","zh-Hans","zh-Hant"],"offers":{"@type":"Offer","price":"2.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://apps.apple.com/us/app/turnuvolt/id6745177155"},"author":{"@id":"https://anbertech.github.io/#org"},"publisher":{"@id":"https://anbertech.github.io/#org"}},{"@type":"WebPage","@id":"https://anbertech.github.io/TurnuVolt/en/#page","url":"https://anbertech.github.io/TurnuVolt/en/","name":"TurnuVolt – Tournament Maker: Fixtures, Standings & Brackets","description":"Run league and knockout tournaments: type your teams, get the fixtures automatically and watch the standings update as you enter scores. 63 sports and games, works offline, no ads. Free online fixture generator included.","inLanguage":"en","isPartOf":{"@id":"https://anbertech.github.io/TurnuVolt/#website"},"about":{"@id":"https://anbertech.github.io/TurnuVolt/#app"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I make a fixture with TurnuVolt?","acceptedAnswer":{"@type":"Answer","text":"Tap New Tournament, enter a tournament name and the number of teams, choose the game and the format (league or knockout), then type the team names. The fixtures and the standings table are created automatically; all you do is enter the scores."}},{"@type":"Question","name":"Which sports and games are supported?","acceptedAnswer":{"@type":"Answer","text":"63 in total, including soccer, futsal, basketball, volleyball, tennis, table tennis, padel, badminton, chess, backgammon, darts, pool, FIFA and Valorant. For anything else there is a Custom / Other option."}},{"@type":"Question","name":"What is the difference between a league and a knockout?","acceptedAnswer":{"@type":"Answer","text":"In a league (round robin) everyone plays everyone and the table decides the winner; you can make it a double round robin with home and away legs. In a knockout the loser is out and the winners advance until the final."}},{"@type":"Question","name":"What happens with an odd number of teams?","acceptedAnswer":{"@type":"Answer","text":"In a league one team has a bye each round. In a knockout the teams that get a bye in the first round are chosen automatically and go straight through to the next round."}},{"@type":"Question","name":"How are the standings calculated?","acceptedAnswer":{"@type":"Answer","text":"As you enter scores, games played, wins, draws, losses, goal difference and points update automatically. The points rule depends on the game: in soccer a win is 3 points and a draw 1; basketball has no draws; in volleyball set difference counts too."}},{"@type":"Question","name":"Do I need an internet connection? Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"No connection is needed. Your tournaments are stored only on your device; there is no account, no personal data is collected and nothing is sent to a server."}},{"@type":"Question","name":"Is TurnuVolt free?","acceptedAnswer":{"@type":"Answer","text":"The app is a one-time purchase on the App Store, with no subscription, no ads and no in-app purchases. The fixture generator in your browser is completely free."}},{"@type":"Question","name":"Is it available on Android?","acceptedAnswer":{"@type":"Answer","text":"The Android version is coming soon to Google Play. Right now TurnuVolt is available for iPhone and iPad (iOS 17.6 or later)."}}],"@id":"https://anbertech.github.io/TurnuVolt/en/#faq"}]}</script>
 </head>
 <body>
-<a class="lang-sw" href="../" hreflang="tr" title="Türkçe">&#127760; TR</a>
+<details class="lang-menu"><summary aria-label="Language">&#127760; EN</summary><nav class="lm-list"><a href="https://anbertech.github.io/TurnuVolt/" hreflang="tr" lang="tr">Türkçe</a><a href="https://anbertech.github.io/TurnuVolt/en/" hreflang="en" lang="en" aria-current="page">English</a></nav></details>
 <div class="grain" aria-hidden="true"></div>
 <div class="progress" aria-hidden="true"></div>
 <div class="flood" aria-hidden="true"></div>
@@ -371,13 +467,15 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
       <canvas id="bolt" aria-hidden="true"></canvas>
       <img class="app-icon" src="../assets/img/tv_icon.jpg" alt="" />
     </div>
-    <h1 class="board" aria-label="TurnuVolt">
+    <h1 class="board"><span class="sr">TurnuVolt</span>
       <span class="flap" aria-hidden="true"><span>T</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap" aria-hidden="true"><span>R</span></span><span class="flap" aria-hidden="true"><span>N</span></span><span class="flap" aria-hidden="true"><span>U</span></span><span class="flap v" aria-hidden="true"><span>V</span></span><span class="flap v" aria-hidden="true"><span>O</span></span><span class="flap v" aria-hidden="true"><span>L</span></span><span class="flap v" aria-hidden="true"><span>T</span></span>
     </h1>
+    <p class="tagline">Fixtures, standings and brackets. Ready in seconds, right in your pocket.</p>
     <div class="stores">
-      <a data-goatcounter-click="appstore-turnuvolt-en-ust" href="https://apps.apple.com/us/app/turnuvolt/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store" title="App Store"><img src="../assets/img/app-store-badge.png" alt="Download on the App Store" /></a>
-      <span class="soon" role="img" aria-label="Google Play – Coming soon"><img src="../assets/img/google-play-badge.png" alt="" /><b>Coming soon</b></span>
+      <a data-goatcounter-click="appstore-turnuvolt-en-ust" href="https://apps.apple.com/us/app/turnuvolt/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store" title="App Store"><img src="../assets/img/app-store-badge.png" alt="Download on the App Store" width="1062" height="318" /></a>
+      <span class="soon" role="img" aria-label="Google Play – Coming soon"><img src="../assets/img/google-play-badge.png" alt="" width="1062" height="318" /><b>Coming soon</b></span>
     </div>
+    <a class="toollink" href="fixture-generator/">Make a free fixture now <span aria-hidden="true">&rarr;</span></a>
   </div>
 
   <a class="cue" href="#arena" aria-label="Scroll down"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></a>
@@ -437,7 +535,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
       <p class="led-title">Class <small>TOURNAMENT</small></p>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead>
+          <thead><tr><th>#</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead>
           <tbody>
             <tr class="lead"><td>1</td><td>Bayram</td><td data-v="6">6</td><td data-v="3">3</td><td data-v="2">2</td><td data-v="1">1</td><td data-v="22">22</td><td data-v="8">8</td><td data-v="14">14</td><td data-v="11">11</td></tr>
             <tr><td>2</td><td>Emre</td><td data-v="6">6</td><td data-v="3">3</td><td data-v="2">2</td><td data-v="1">1</td><td data-v="13">13</td><td data-v="13">13</td><td data-v="0">0</td><td data-v="11">11</td></tr>
@@ -455,7 +553,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
     <p class="ko-hint">Tap a team to pick the winner</p>
     <div class="bracket" id="bracket">
       <div class="col sf">
-        <span class="rlabel">Semi-final</span>
+        <span class="rlabel">Semifinal</span>
         <div class="bm" data-m="0"><button type="button" class="team" data-m="0" data-t="0">Bayram</button><span class="vs">VS</span><button type="button" class="team" data-m="0" data-t="1">Tunahan</button></div>
         <div class="bm" data-m="1"><button type="button" class="team" data-m="1" data-t="0">Emre</button><span class="vs">VS</span><button type="button" class="team" data-m="1" data-t="1">Ahmet</button></div>
       </div>
@@ -481,6 +579,25 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   <div class="track"><span class="match m-next">Bayram <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Bayram</span><span class="match m-done">Bayram <b>9 - 1</b> Emre</span></div>
 </section>
 
+<section class="about" id="about" aria-labelledby="about-h">
+  <p class="eyebrow">What is TurnuVolt?</p>
+  <h2 class="h2" id="about-h">Set up the tournament, TurnuVolt does the rest</h2>
+  <p class="lead">TurnuVolt is a tournament maker app for friends, schools, offices and clubs. Type in the teams and the league or knockout fixtures are created for you. As you enter scores the standings table updates itself, and when the final is over the champion takes the podium. It supports 63 sports and games, from soccer to chess and tennis to FIFA, and scores each one by its own rules.</p>
+  <ol class="steps"><li class="stepc"><span class="n" aria-hidden="true">1</span><h3>Add the teams</h3><p>Name the tournament, enter the number of teams or players, then pick the game and the format.</p></li><li class="stepc"><span class="n" aria-hidden="true">2</span><h3>Fixtures are ready</h3><p>In a league everyone plays everyone, with an optional home-and-away second leg. In a knockout the bracket is built and byes are assigned automatically for odd team counts.</p></li><li class="stepc"><span class="n" aria-hidden="true">3</span><h3>Enter scores, watch the table</h3><p>Goals, points, sets or just the winner: score entry fits the game. Points, goal difference and rankings are calculated for you.</p></li></ol>
+  <ul class="feats"><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="M12 6v12M8 10v4M16 10v4"/></svg></i><div><h3>Scoring that fits the game</h3><p>3 points for a win in soccer, no draws in basketball, set difference in volleyball. Every game follows its own rules.</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/><path d="M12 8v4l3 2"/></svg></i><div><h3>Pick up where you left off</h3><p>Unfinished tournaments are saved and finished ones go to your archive.</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 8.8a15 15 0 0 1 20 0"/><path d="M5.5 12.3a10 10 0 0 1 13 0"/><path d="M9 15.8a5 5 0 0 1 6 0"/><path d="M12 19.5h.01"/><path d="M3 3l18 18"/></svg></i><div><h3>No internet needed</h3><p>Everything runs on your phone: at the pitch, at camp, in the schoolyard.</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9.5 12.2l1.8 1.8 3.4-3.6"/></svg></i><div><h3>No ads, no account</h3><p>One-time purchase. No subscription, no ads, no sign-up, no data collection.</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></i><div><h3>30+ languages</h3><p>English, Spanish, German, Arabic, Japanese and many more, including right-to-left languages.</p></div></li><li class="feat"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></i><div><h3>Podium and trophy</h3><p>When the final ends, the champion, runner-up and third place take the podium with confetti.</p></div></li></ul>
+</section>
+
+<a class="toolcta" href="fixture-generator/">
+  <div><p class="eyebrow">Free tool</p><h2>Need a fixture right now?</h2><p>Make a fixture for free in your browser, no download needed. Type the teams and your round-robin or knockout schedule is ready instantly. Print it, copy it or share it with a link.</p><span class="btn-gold">Open the fixture generator <span aria-hidden="true">&rarr;</span></span></div>
+  <div class="minifx" aria-hidden="true"><p class="mini-wk">Round 1</p><span class="match m-done">Bayram <b>2 - 1</b> Emre</span><span class="match m-done">Tunahan <b>0 - 0</b> Ahmet</span><p class="mini-wk">Round 2</p><span class="match m-live">Bayram <i>VS</i> Tunahan</span><span class="match m-next">Emre <i>VS</i> Ahmet</span></div>
+</a>
+
+<section class="faq" aria-labelledby="faq-h">
+  <p class="eyebrow">FAQ</p>
+  <h2 class="h2" id="faq-h">Good to know</h2>
+  <details class="qa"><summary>How do I make a fixture with TurnuVolt?</summary><p>Tap New Tournament, enter a tournament name and the number of teams, choose the game and the format (league or knockout), then type the team names. The fixtures and the standings table are created automatically; all you do is enter the scores.</p></details><details class="qa"><summary>Which sports and games are supported?</summary><p>63 in total, including soccer, futsal, basketball, volleyball, tennis, table tennis, padel, badminton, chess, backgammon, darts, pool, FIFA and Valorant. For anything else there is a Custom / Other option.</p></details><details class="qa"><summary>What is the difference between a league and a knockout?</summary><p>In a league (round robin) everyone plays everyone and the table decides the winner; you can make it a double round robin with home and away legs. In a knockout the loser is out and the winners advance until the final.</p></details><details class="qa"><summary>What happens with an odd number of teams?</summary><p>In a league one team has a bye each round. In a knockout the teams that get a bye in the first round are chosen automatically and go straight through to the next round.</p></details><details class="qa"><summary>How are the standings calculated?</summary><p>As you enter scores, games played, wins, draws, losses, goal difference and points update automatically. The points rule depends on the game: in soccer a win is 3 points and a draw 1; basketball has no draws; in volleyball set difference counts too.</p></details><details class="qa"><summary>Do I need an internet connection? Where is my data stored?</summary><p>No connection is needed. Your tournaments are stored only on your device; there is no account, no personal data is collected and nothing is sent to a server.</p></details><details class="qa"><summary>Is TurnuVolt free?</summary><p>The app is a one-time purchase on the App Store, with no subscription, no ads and no in-app purchases. The fixture generator in your browser is completely free.</p></details><details class="qa"><summary>Is it available on Android?</summary><p>The Android version is coming soon to Google Play. Right now TurnuVolt is available for iPhone and iPad (iOS 17.6 or later).</p></details>
+</section>
+
 <nav class="gates" aria-label="Documents">
   <a class="ticket" href="privacy.html"><span class="stub"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9.5 12.2l1.8 1.8 3.4-3.6"/></svg></span><span class="tmain"><span class="tlabel">Privacy Policy</span><span class="code" aria-hidden="true"></span><span class="arrow" aria-hidden="true">&rsaquo;</span></span></a>
   <a class="ticket" href="support.html"><span class="stub"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 3V5z"/><path d="M9.2 9.3a2.8 2.8 0 0 1 5.5.8c0 1.9-2.7 2-2.7 3.4"/><path d="M12 16.1h.01"/></svg></span><span class="tmain"><span class="tlabel">Support</span><span class="code" aria-hidden="true"></span><span class="arrow" aria-hidden="true">&rsaquo;</span></span></a>
@@ -488,8 +605,8 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 
 <section class="getit" aria-label="Download">
   <div class="stores">
-      <a data-goatcounter-click="appstore-turnuvolt-en-alt" href="https://apps.apple.com/us/app/turnuvolt/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store" title="App Store"><img src="../assets/img/app-store-badge.png" alt="Download on the App Store" /></a>
-      <span class="soon" role="img" aria-label="Google Play – Coming soon"><img src="../assets/img/google-play-badge.png" alt="" /><b>Coming soon</b></span>
+      <a data-goatcounter-click="appstore-turnuvolt-en-alt" href="https://apps.apple.com/us/app/turnuvolt/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store" title="App Store"><img src="../assets/img/app-store-badge.png" alt="Download on the App Store" width="1062" height="318" /></a>
+      <span class="soon" role="img" aria-label="Google Play – Coming soon"><img src="../assets/img/google-play-badge.png" alt="" width="1062" height="318" /><b>Coming soon</b></span>
   </div>
 </section>
 
@@ -498,7 +615,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   &copy; <span id="y"></span> TurnuVolt &ndash; AnberTech
 </footer>
 
-<script>window.TV_DATA={"cats":[["ballSports","Ball Sports"],["racketSports","Racket Sports"],["combatSports","Combat Sports"],["precisionSports","Precision Sports"],["tableGames","Table & Card Games"],["esports","Video Games / Esports"],["other","Other"]],"games":[["Football","ballSports"],["Futsal","ballSports"],["Beach Soccer","ballSports"],["Basketball","ballSports"],["Handball","ballSports"],["Rugby","ballSports"],["American Football","ballSports"],["Baseball","ballSports"],["Cricket","ballSports"],["Ice Hockey","ballSports"],["Field Hockey","ballSports"],["Water Polo","ballSports"],["Dodgeball","ballSports"],["Volleyball","racketSports"],["Beach Volleyball","racketSports"],["Tennis","racketSports"],["Table Tennis","racketSports"],["Badminton","racketSports"],["Squash","racketSports"],["Padel","racketSports"],["Boxing","combatSports"],["Wrestling","combatSports"],["Judo","combatSports"],["Karate","combatSports"],["Taekwondo","combatSports"],["MMA","combatSports"],["Fencing","combatSports"],["Arm Wrestling","combatSports"],["Bowling","precisionSports"],["Darts","precisionSports"],["Billiards","precisionSports"],["Snooker","precisionSports"],["Archery","precisionSports"],["Golf","precisionSports"],["Bocce","precisionSports"],["Foot Tennis","precisionSports"],["Chess","tableGames"],["Checkers","tableGames"],["Backgammon","tableGames"],["Okey","tableGames"],["Batak","tableGames"],["Pisti","tableGames"],["King","tableGames"],["Poker","tableGames"],["Uno","tableGames"],["Foosball","tableGames"],["Monopoly","tableGames"],["Scrabble","tableGames"],["Jenga","tableGames"],["Dominoes","tableGames"],["FIFA","esports"],["NBA 2K","esports"],["Rocket League","esports"],["Mario Kart","esports"],["League of Legends","esports"],["Counter-Strike","esports"],["Valorant","esports"],["Fortnite","esports"],["Street Fighter","esports"],["Madden NFL","esports"],["Quiz Night","other"],["Karaoke","other"],["Custom / Other","other"]],"langs":[["ar","بطولة جديدة"],["cs","Nový turnaj"],["da","Ny turnering"],["de","Neues Turnier"],["el","Νέο τουρνουά"],["en","New Tournament"],["es-MX","Nuevo torneo"],["es","Nuevo torneo"],["fa","مسابقه جدید"],["fi","Uusi turnaus"],["fr","Nouveau tournoi"],["hi","नया टूर्नामेंट"],["hu","Új verseny"],["id","Turnamen Baru"],["it","Nuovo torneo"],["ja","新しい大会"],["ko","새 대회"],["ms","Kejohanan Baharu"],["nb","Ny turnering"],["nl","Nieuw toernooi"],["pl","Nowy turniej"],["pt-BR","Novo torneio"],["pt-PT","Novo torneio"],["ro","Turneu nou"],["ru","Новый турнир"],["sv","Ny turnering"],["th","ทัวร์นาเมนต์ใหม่"],["tr","Yeni Turnuva"],["uk","Новий турнір"],["vi","Giải mới"],["zh-Hans","新赛事"],["zh-Hant","新賽事"]]};</script>
+<script>window.TV_DATA={"cats":[["ballSports","Ball Sports"],["racketSports","Racket Sports"],["combatSports","Combat Sports"],["precisionSports","Precision Sports"],["tableGames","Table & Card Games"],["esports","Video Games / Esports"],["other","Other"]],"games":[["Football","ballSports"],["Futsal","ballSports"],["Beach Soccer","ballSports"],["Basketball","ballSports"],["Handball","ballSports"],["Rugby","ballSports"],["American Football","ballSports"],["Baseball","ballSports"],["Cricket","ballSports"],["Ice Hockey","ballSports"],["Field Hockey","ballSports"],["Water Polo","ballSports"],["Dodgeball","ballSports"],["Volleyball","racketSports"],["Beach Volleyball","racketSports"],["Tennis","racketSports"],["Table Tennis","racketSports"],["Badminton","racketSports"],["Squash","racketSports"],["Padel","racketSports"],["Boxing","combatSports"],["Wrestling","combatSports"],["Judo","combatSports"],["Karate","combatSports"],["Taekwondo","combatSports"],["MMA","combatSports"],["Fencing","combatSports"],["Arm Wrestling","combatSports"],["Bowling","precisionSports"],["Darts","precisionSports"],["Billiards","precisionSports"],["Snooker","precisionSports"],["Archery","precisionSports"],["Golf","precisionSports"],["Bocce","precisionSports"],["Foot Tennis","precisionSports"],["Chess","tableGames"],["Checkers","tableGames"],["Backgammon","tableGames"],["Okey","tableGames"],["Batak","tableGames"],["Pisti","tableGames"],["King","tableGames"],["Poker","tableGames"],["Uno","tableGames"],["Foosball","tableGames"],["Monopoly","tableGames"],["Scrabble","tableGames"],["Jenga","tableGames"],["Dominoes","tableGames"],["FIFA","esports"],["NBA 2K","esports"],["Rocket League","esports"],["Mario Kart","esports"],["League of Legends","esports"],["Counter-Strike","esports"],["Valorant","esports"],["Fortnite","esports"],["Street Fighter","esports"],["Madden NFL","esports"],["Quiz Night","other"],["Karaoke","other"],["Custom / Other","other"]],"langs":[["tr","Yeni Turnuva"],["en","New Tournament"],["ar","بطولة جديدة"],["cs","Nový turnaj"],["da","Ny turnering"],["de","Neues Turnier"],["el","Νέο τουρνουά"],["es","Nuevo torneo"],["es-MX","Nuevo torneo"],["fa","مسابقه جدید"],["fi","Uusi turnaus"],["fr","Nouveau tournoi"],["he","טורניר חדש"],["hi","नया टूर्नामेंट"],["hu","Új verseny"],["id","Turnamen Baru"],["it","Nuovo torneo"],["ja","新しい大会"],["ko","새 대회"],["ms","Kejohanan Baharu"],["nb","Ny turnering"],["nl","Nieuw toernooi"],["pl","Nowy turniej"],["pt-BR","Novo torneio"],["pt-PT","Novo torneio"],["ro","Turneu nou"],["ru","Новый турнир"],["sv","Ny turnering"],["th","ทัวร์นาเมนต์ใหม่"],["uk","Новий турнір"],["vi","Giải mới"],["zh-Hans","新赛事"],["zh-Hant","新賽事"]],"lang":"en","locale":"en","whole":false,"pool":"2ABCDEFGHIJKLMNOPQRSTUVWXYZ"};</script>
 <script>
 (function(){
   var D=document, W=window;
@@ -666,12 +783,19 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   /* ---- games departure board ---- */
   var board=D.getElementById('gboard');
   if(board){
-    var N=17, cells=[], pool='ABCÇDEFGHIİJKLMNOÖPRSŞTUÜVYZ0123456789';
+    // Bitişik yazılan ya da birleşen harfli dillerde (Arapça, Hintçe, Tayca...) ad harf harf bölünmez, tek pano olarak döner
+    var whole=!!DATA.whole, N=whole?1:17, cells=[], pool=DATA.pool||'ABCDEFGHIJKLMNOPRSTUVYZ0123456789';
+    if(whole) board.classList.add('whole');
     for(var i=0;i<N;i++){ var f=D.createElement('span'); f.className='flap'; f.innerHTML='<span></span>'; board.appendChild(f); cells.push(f); }
     var catName={}; DATA.cats.forEach(function(c){catName[c[0]]=c[1]});
     var cur=-1, filter=null, vis=false, timer=0, chips=[].slice.call(D.querySelectorAll('.chip'));
     function show(text){
-      var t=text.toLocaleUpperCase('tr-TR'), pad=Math.max(0,Math.floor((N-t.length)/2)), s=(' '.repeat(pad)+t).padEnd(N,' ').slice(0,N);
+      if(whole){
+        var c0=cells[0], sp0=c0.firstChild;
+        if(!reduce){ c0.classList.remove('tick'); void c0.offsetWidth; c0.classList.add('tick'); }
+        sp0.textContent=text; return;
+      }
+      var t=text.toLocaleUpperCase(DATA.locale), pad=Math.max(0,Math.floor((N-t.length)/2)), s=(' '.repeat(pad)+t).padEnd(N,' ').slice(0,N);
       cells.forEach(function(c,i){
         var sp=c.firstChild, ch=s[i];
         c.classList.toggle('blank',ch===' ');
@@ -737,7 +861,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
   /* ---- 33 languages drum ---- */
   var drum=D.getElementById('drum'), pills=D.getElementById('lpills');
   if(drum&&DATA.langs.length){
-    var L=DATA.langs, li=L.findIndex(function(x){return x[0]==='en'}), lt=0, lvis=false, busy=false;
+    var L=DATA.langs, li=L.findIndex(function(x){return x[0]===DATA.lang}), lt=0, lvis=false, busy=false;
     L.forEach(function(x,i){ var p=D.createElement('button'); p.type='button'; p.textContent=x[0].toUpperCase(); p.lang='en'; p.setAttribute('aria-pressed',String(i===li)); p.setAttribute('aria-label',x[1]);
       p.addEventListener('click',function(){ go(i); lloop(); }); pills.appendChild(p); });
     D.getElementById('l-count').textContent=L.length;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Paylaşım görseli (assets/img/og.jpg) için. Üretmek: README'deki Chrome komutu. Dil içermez, tüm sayfalarda ortak. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Onest:wght@600;700&display=swap" />
+<style>
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#070B10;color:#EAF2FF;font-family:"Onest",sans-serif}
+.bg{position:absolute;inset:0;background:url("../assets/img/tv_hero.jpg") center 38%/cover no-repeat;filter:saturate(1.05)}
+.bg::after{content:"";position:absolute;inset:0;background:
+  radial-gradient(90% 90% at 30% 50%,rgba(7,11,16,.25),rgba(7,11,16,.82) 70%),
+  linear-gradient(90deg,rgba(7,11,16,.86),rgba(7,11,16,.35) 55%,rgba(7,11,16,.88))}
+.beam{position:absolute;top:-20%;width:340px;height:140%;background:linear-gradient(180deg,rgba(220,236,255,.45),transparent 70%);filter:blur(34px);mix-blend-mode:screen}
+.l{left:10px;transform:rotate(14deg)}.r{right:330px;transform:rotate(-14deg);opacity:.6}
+.left{position:absolute;left:72px;top:0;bottom:0;width:640px;display:flex;flex-direction:column;justify-content:center}
+.icon{width:118px;height:118px;border-radius:32px;box-shadow:0 0 0 2px rgba(242,193,78,.65),0 22px 60px rgba(0,0,0,.65),0 0 70px rgba(242,193,78,.3)}
+.board{display:flex;gap:7px;margin-top:30px;font:900 68px/1 "Big Shoulders Display",sans-serif}
+.flap{position:relative;display:grid;place-items:center;width:.84em;height:1.16em;border-radius:.09em;
+  background:linear-gradient(180deg,#1B232E 0 49.2%,#0A0F15 50.8% 100%);color:#F5F8FC;box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 12px 26px rgba(0,0,0,.55)}
+.flap::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:rgba(0,0,0,.8)}
+.flap.v{color:#F2C14E;text-shadow:0 0 24px rgba(242,193,78,.5)}
+.chips{display:flex;gap:10px;margin-top:34px}
+.chip{padding:10px 18px;border-radius:999px;border:1.5px solid rgba(242,193,78,.55);color:#FFE08A;font:900 25px/1 "Big Shoulders Display",sans-serif;letter-spacing:.14em;background:rgba(7,11,16,.6)}
+.led{position:absolute;right:60px;top:92px;width:390px;background:#04070B;border-radius:22px;padding:22px 22px 14px;border:1px solid rgba(242,193,78,.35);
+  box-shadow:0 0 0 7px #0C121A,0 0 0 8px rgba(255,255,255,.07),0 34px 90px rgba(0,0,0,.7)}
+.led h3{margin:0 0 12px;display:flex;align-items:center;gap:12px;font:900 34px/1 "Big Shoulders Display",sans-serif;color:#fff}
+.led h3 img{width:40px}
+table{width:100%;border-collapse:collapse;font:800 25px/1 "Big Shoulders Display",sans-serif;letter-spacing:.03em}
+td{padding:12px 4px;border-bottom:1px solid rgba(234,242,255,.07);color:#E6EDF6;text-align:center}
+td:nth-child(2){text-align:left;padding-left:8px}
+td:first-child{color:#71808F}td:last-child{color:#F2C14E;text-shadow:0 0 14px rgba(242,193,78,.5)}
+tr.lead td{background:rgba(242,193,78,.1)}tr.lead td:nth-child(2){color:#FFE08A}
+tr:last-child td{border-bottom:0}
+.m{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding:12px 18px;border-radius:14px;background:#2FA84F;border:2px solid #5BD97A;color:#07120B;font:700 22px/1 "Onest",sans-serif}
+.m b{font:900 28px/1 "Big Shoulders Display",sans-serif;letter-spacing:.06em}
+</style>
+</head>
+<body>
+<div class="bg"></div><div class="beam l"></div><div class="beam r"></div>
+<div class="left">
+  <img class="icon" src="../assets/img/tv_icon.jpg" alt="" />
+  <div class="board"><span class="flap">T</span><span class="flap">U</span><span class="flap">R</span><span class="flap">N</span><span class="flap">U</span><span class="flap v">V</span><span class="flap v">O</span><span class="flap v">L</span><span class="flap v">T</span></div>
+  <div class="chips"><span class="chip">LEAGUE</span><span class="chip">KNOCKOUT</span><span class="chip">63 GAMES</span></div>
+</div>
+<div class="led">
+  <h3><img src="../assets/img/tv_golden_cup.png" alt="" />STANDINGS</h3>
+  <table>
+    <tr class="lead"><td>1</td><td>Eagles</td><td>6</td><td>14</td></tr>
+    <tr><td>2</td><td>Lions</td><td>6</td><td>11</td></tr>
+    <tr><td>3</td><td>Tigers</td><td>6</td><td>7</td></tr>
+    <tr><td>4</td><td>Wolves</td><td>6</td><td>3</td></tr>
+  </table>
+  <div class="m">Eagles <b>3 - 1</b> Lions</div>
+</div>
+</body>
+</html>
