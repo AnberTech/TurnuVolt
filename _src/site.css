@@ -406,8 +406,11 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:1
 .lang-menu img{width:20px;height:14px;flex:0 0 auto;border-radius:2px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.14)}
 .lm-list{position:absolute;top:calc(100% + 8px);inset-inline-end:0;width:max-content;max-width:min(92vw,420px);max-height:min(70vh,560px);overflow-y:auto;
   display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:2px;padding:6px;border-radius:16px;
-  background:rgba(11,17,24,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  background:rgba(11,17,24,.97);contain:paint;
   border:1px solid rgba(234,242,255,.12);box-shadow:0 24px 60px -10px rgba(0,0,0,.75),0 0 0 1px rgba(242,193,78,.06)}
+.lang-menu[open] .lm-list{animation:lm-in .16s ease-out}
+@keyframes lm-in{from{opacity:0;transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){.lang-menu[open] .lm-list{animation:none}}
 .lm-list a{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;text-decoration:none;font:500 13.5px/1.2 var(--sans);color:#B9C5D3;
   transition:background .2s,color .2s}
 .lm-list a span{unicode-bidi:isolate}

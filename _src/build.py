@@ -245,8 +245,14 @@ def stores(code, t, base, pos):
             f'alt="" width="1062" height="318" /><b>{e(t["soon"])}</b></span>')
 
 
+# İspanya ve Meksika bayraklarının SVG'si arma yüzünden ~90 KB; menüde küçük PNG'leri kullanılır.
+RASTER_FLAGS = {"es", "es-mx"}
+
+
 def flag(code, base):
-    return f'<img src="{base}assets/img/flags/{code.lower()}.svg" alt="" width="20" height="14" loading="lazy" />'
+    c = code.lower()
+    ext = "png" if c in RASTER_FLAGS else "svg"
+    return f'<img src="{base}assets/img/flags/{c}.{ext}" alt="" width="20" height="14" decoding="async" />'
 
 
 def lang_menu(code, built, url_of, t, base):
@@ -255,7 +261,7 @@ def lang_menu(code, built, url_of, t, base):
     for c in built:
         cur = ' aria-current="page"' if c == code else ''
         links.append(f'<a href="{e(url_of(c))}" hreflang="{c}" lang="{c}"{cur}>{flag(c, base)}<span dir="{LANG[c][1]}">{e(LANG[c][2])}</span></a>')
-    current = flag(code, base).replace(' loading="lazy"', '')
+    current = flag(code, base)
     return (f'<details class="lang-menu"><summary aria-label="{e(t["aria_lang"])} / Language">{current}'
             f'{e(code.split("-")[0].upper())}</summary><nav class="lm-list" aria-label="{e(t["aria_lang"])} / Language">{"".join(links)}</nav></details>'
             '<script>(function(d){var m=d.querySelector(".lang-menu");if(!m)return;'
