@@ -1,0 +1,32 @@
+{
+  "pv_title": "Política de privacidad",
+  "pv_desc": "Política de privacidad de TurnuVolt: la app no recopila datos personales, no utiliza anuncios ni rastreo y conserva tus torneos únicamente en tu dispositivo.",
+  "pv_updated": "Última actualización:",
+  "pv_date": "5 de octubre de 2026",
+  "pv_sections": [
+    [
+      "1. Descripción general",
+      "<p>TurnuVolt es una app móvil que permite a los usuarios organizar torneos deportivos y de juegos, así como llevar un registro de los puntajes y las clasificaciones. Esta página explica el enfoque de la app respecto a la privacidad.</p>"
+    ],
+    [
+      "2. Datos personales recopilados",
+      "<p><b>TurnuVolt no recopila, procesa ni comparte ningún dato personal con terceros.</b></p><ul><li>No se recopilan nombres de usuario, direcciones de e-mail, números de teléfono ni información de perfil.</li><li>No se almacenan identificadores de dispositivos ni datos de rastreo.</li><li>No se solicitan permisos de ubicación, fotos ni contenido multimedia.</li><li>No se recopilan datos con fines publicitarios.</li></ul>"
+    ],
+    [
+      "3. Datos dentro de la app",
+      "<p>Los nombres de los torneos, los equipos, los puntajes y los torneos anteriores se almacenan únicamente en el almacenamiento del propio dispositivo. Estos datos nunca se envían a ningún servidor ni se comparten con nosotros ni con terceros. Se eliminan de tu dispositivo cuando desinstalas la app.</p>"
+    ],
+    [
+      "4. Servicios de terceros",
+      "<p>TurnuVolt no utiliza ningún servicio de análisis, publicidad ni recopilación de datos de terceros.</p>"
+    ],
+    [
+      "5. Contacto",
+      "<p>Si tienes alguna pregunta, puedes contactarnos en:</p>"
+    ]
+  ],
+  "sp_title": "Soporte",
+  "sp_desc": "Soporte de TurnuVolt: envía tus preguntas, comentarios y solicitudes de soporte técnico por e-mail.",
+  "sp_text": "Para cualquier pregunta, comentario o solicitud de soporte técnico sobre TurnuVolt, puedes comunicarte con nosotros en la dirección de e-mail que aparece a continuación:",
+  "sp_faq": "Preguntas frecuentes"
+}

@@ -1,0 +1,32 @@
+{
+  "pv_title": "Zásady ochrany osobních údajů",
+  "pv_desc": "Zásady ochrany osobních údajů aplikace TurnuVolt: aplikace neshromažďuje žádné osobní údaje, nepoužívá reklamy ani sledování a uchovává vaše turnaje pouze ve vašem zařízení.",
+  "pv_updated": "Poslední aktualizace:",
+  "pv_date": "5. října 2026",
+  "pv_sections": [
+    [
+      "1. Přehled",
+      "<p>TurnuVolt je mobilní aplikace, která uživatelům umožňuje organizovat sportovní a herní turnaje a sledovat skóre a pořadí. Tato stránka vysvětluje přístup aplikace k ochraně soukromí.</p>"
+    ],
+    [
+      "2. Shromažďované osobní údaje",
+      "<p><b>TurnuVolt neshromažďuje ani nezpracovává žádné osobní údaje a nesdílí je s třetími stranami.</b></p><ul><li>Neshromažďuje se žádné uživatelské jméno, e-mailová adresa, telefonní číslo ani profilové informace.</li><li>Neukládají se žádné identifikátory zařízení ani údaje o sledování.</li><li>Nepožaduje se žádné oprávnění k přístupu k poloze, fotografiím ani médiím.</li><li>Neshromažďují se žádné údaje pro reklamní účely.</li></ul>"
+    ],
+    [
+      "3. Data v aplikaci",
+      "<p>Názvy turnajů, týmy, skóre a minulé turnaje se ukládají pouze do vlastního úložiště vašeho zařízení. Tato data se nikdy neodesílají na žádný server a nesdílejí se s námi ani s třetími stranami. Při odinstalování aplikace se z vašeho zařízení odstraní.</p>"
+    ],
+    [
+      "4. Služby třetích stran",
+      "<p>TurnuVolt nepoužívá žádné služby třetích stran pro analytiku, reklamu ani shromažďování údajů.</p>"
+    ],
+    [
+      "5. Kontakt",
+      "<p>Máte-li jakékoli dotazy, můžete nás kontaktovat na adrese:</p>"
+    ]
+  ],
+  "sp_title": "Podpora",
+  "sp_desc": "Podpora aplikace TurnuVolt: posílejte své dotazy, zpětnou vazbu a žádosti o technickou podporu e-mailem.",
+  "sp_text": "S jakýmikoli dotazy, zpětnou vazbou nebo žádostmi o technickou podporu týkajícími se aplikace TurnuVolt se na nás můžete obrátit na níže uvedené e-mailové adrese:",
+  "sp_faq": "Často kladené otázky"
+}

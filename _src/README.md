@@ -21,12 +21,15 @@ python3 _src/build.py --app ~/Encephala/TurnuVolt_Local/4.2_ios
 | `site.css`, `fixture.css` | Ortak stil ve fikstür sayfası stili (sayfalara gömülür) |
 | `i18n/<dil>.json` | Sayfa metinleri. Hangi dilin dosyası varsa o dil üretilir. Ana dil `tr.json` |
 | `app_strings.json` | Uygulamadan alınan metinler: oyun adları, kategoriler, tablo başlıkları, tur adları |
+| `legal/<dil>.json` | Gizlilik politikası ve destek sayfası metinleri. Dosyası olmayan dil İngilizce sayfalara bağlanır |
+| `doc.html`, `doc.css` | Gizlilik ve destek sayfası şablonu ve stili |
 | `og.html` | Paylaşım görseli `assets/img/og.jpg` için kaynak |
 
 Script ayrıca `sitemap.xml` ve `llms.txt` dosyalarını üretir. Dil dosyasında eksik anahtar, bozuk yer tutucu (`%d`, `%1$d`, `%s`) ya da izin verilmeyen HTML varsa hata verip durur.
 
 ## Çeviri kuralları
 
+- Gizlilik metninde (`pv_sections`) her bölüm kaynaktakiyle aynı HTML etiketlerini taşımalı (`<p>`, `<b>`, `<ul>`, `<li>`, `<br>`); script farklıysa durur.
 - `_html` ile biten anahtarlarda yalnızca `<b>`, `<em>`, `<br>` kullanılır; diğerleri düz metindir.
 - `fx_slug`: fikstür sayfasının adresi; küçük harf, rakam ve tire (ASCII).
 - `steps` 3, `feats` 6, `faq_home` 8, `faq_fx` 6 adet `[başlık, metin]` çiftidir.

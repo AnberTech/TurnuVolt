@@ -1,0 +1,17 @@
+{
+  "pv_title": "Privacy Policy",
+  "pv_desc": "TurnuVolt privacy policy: the app collects no personal data, uses no ads or tracking, and keeps your tournaments only on your device.",
+  "pv_updated": "Last updated:",
+  "pv_date": "October 5, 2026",
+  "pv_sections": [
+    ["1. Overview", "<p>TurnuVolt is a mobile app that lets users organize sports and game tournaments and keep track of scores and standings. This page explains the app's approach to privacy.</p>"],
+    ["2. Personal Data Collected", "<p><b>TurnuVolt does not collect, process or share any personal data with third parties.</b></p><ul><li>No username, e-mail address, phone number or profile information is collected.</li><li>No device identifiers or tracking data are stored.</li><li>No location, photo or media permissions are requested.</li><li>No data is collected for advertising purposes.</li></ul>"],
+    ["3. Data Inside the App", "<p>Tournament names, teams, scores and past tournaments are stored only in your device's own storage. This data is never sent to any server and is not shared with us or with third parties. It is removed from your device when you uninstall the app.</p>"],
+    ["4. Third-Party Services", "<p>TurnuVolt does not use any third-party analytics, advertising or data-collection services.</p>"],
+    ["5. Contact", "<p>If you have any questions, you can contact us at:</p>"]
+  ],
+  "sp_title": "Support",
+  "sp_desc": "TurnuVolt support: send your questions, feedback and technical support requests by e-mail.",
+  "sp_text": "For any questions, feedback or technical support requests about TurnuVolt, you can reach us at the e-mail address below:",
+  "sp_faq": "Frequently asked questions"
+}

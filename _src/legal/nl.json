@@ -1,0 +1,32 @@
+{
+  "pv_title": "Privacybeleid",
+  "pv_desc": "Privacybeleid van TurnuVolt: de app verzamelt geen persoonsgegevens, gebruikt geen advertenties of tracking en bewaart je toernooien uitsluitend op je apparaat.",
+  "pv_updated": "Laatst bijgewerkt:",
+  "pv_date": "5 oktober 2026",
+  "pv_sections": [
+    [
+      "1. Overzicht",
+      "<p>TurnuVolt is een mobiele app waarmee gebruikers sport- en speltoernooien kunnen organiseren en scores en standen kunnen bijhouden. Deze pagina legt uit hoe de app omgaat met privacy.</p>"
+    ],
+    [
+      "2. Verzamelde persoonsgegevens",
+      "<p><b>TurnuVolt verzamelt of verwerkt geen persoonsgegevens en deelt geen persoonsgegevens met derden.</b></p><ul><li>Er worden geen gebruikersnaam, e-mailadres, telefoonnummer of profielgegevens verzameld.</li><li>Er worden geen apparaat-ID's of trackinggegevens opgeslagen.</li><li>Er wordt geen toestemming gevraagd voor toegang tot locatiegegevens, foto's of media.</li><li>Er worden geen gegevens verzameld voor advertentiedoeleinden.</li></ul>"
+    ],
+    [
+      "3. Gegevens in de app",
+      "<p>Toernooinamen, teams, scores en eerdere toernooien worden uitsluitend in de eigen opslag van je apparaat bewaard. Deze gegevens worden nooit naar een server verzonden en worden niet met ons of met derden gedeeld. Ze worden van je apparaat verwijderd wanneer je de app verwijdert.</p>"
+    ],
+    [
+      "4. Diensten van derden",
+      "<p>TurnuVolt gebruikt geen analyse-, advertentie- of gegevensverzamelingsdiensten van derden.</p>"
+    ],
+    [
+      "5. Contact",
+      "<p>Als je vragen hebt, kun je contact met ons opnemen via:</p>"
+    ]
+  ],
+  "sp_title": "Ondersteuning",
+  "sp_desc": "Ondersteuning voor TurnuVolt: stuur je vragen, feedback en verzoeken om technische ondersteuning per e-mail.",
+  "sp_text": "Voor vragen, feedback of verzoeken om technische ondersteuning over TurnuVolt kun je ons bereiken via het onderstaande e-mailadres:",
+  "sp_faq": "Veelgestelde vragen"
+}

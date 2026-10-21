@@ -1,0 +1,32 @@
+{
+  "pv_title": "Politique de confidentialité",
+  "pv_desc": "Politique de confidentialité de TurnuVolt : l’application ne collecte aucune donnée à caractère personnel, n’utilise ni publicité ni suivi et conserve vos tournois uniquement sur votre appareil.",
+  "pv_updated": "Dernière mise à jour :",
+  "pv_date": "5 octobre 2026",
+  "pv_sections": [
+    [
+      "1. Présentation",
+      "<p>TurnuVolt est une application mobile qui permet aux utilisateurs d’organiser des tournois de sport et de jeux et de suivre les scores et les classements. Cette page explique l’approche de l’application en matière de confidentialité.</p>"
+    ],
+    [
+      "2. Données à caractère personnel collectées",
+      "<p><b>TurnuVolt ne collecte ni ne traite de données à caractère personnel et n’en partage aucune avec des tiers.</b></p><ul><li>Aucun nom d’utilisateur, aucune adresse e-mail, aucun numéro de téléphone ni aucune information de profil ne sont collectés.</li><li>Aucun identifiant d’appareil ni aucune donnée de suivi ne sont stockés.</li><li>Aucune autorisation d’accès à la localisation, aux photos ou aux médias n’est demandée.</li><li>Aucune donnée n’est collectée à des fins publicitaires.</li></ul>"
+    ],
+    [
+      "3. Données dans l’application",
+      "<p>Les noms des tournois, les équipes, les scores et les tournois passés sont stockés uniquement dans l’espace de stockage de votre appareil. Ces données ne sont jamais envoyées à un serveur et ne sont partagées ni avec nous ni avec des tiers. Elles sont supprimées de votre appareil lorsque vous désinstallez l’application.</p>"
+    ],
+    [
+      "4. Services tiers",
+      "<p>TurnuVolt n’utilise aucun service tiers d’analyse, de publicité ou de collecte de données.</p>"
+    ],
+    [
+      "5. Contact",
+      "<p>Si vous avez des questions, vous pouvez nous contacter à l’adresse suivante :</p>"
+    ]
+  ],
+  "sp_title": "Assistance",
+  "sp_desc": "Assistance TurnuVolt : envoyez vos questions, vos commentaires et vos demandes d’assistance technique par e-mail.",
+  "sp_text": "Pour toute question, tout commentaire ou toute demande d’assistance technique concernant TurnuVolt, vous pouvez nous contacter à l’adresse e-mail ci-dessous :",
+  "sp_faq": "Questions fréquentes"
+}

@@ -1,0 +1,32 @@
+{
+  "pv_title": "Polityka prywatności",
+  "pv_desc": "Polityka prywatności TurnuVolt: aplikacja nie gromadzi danych osobowych, nie korzysta z reklam ani śledzenia i przechowuje Twoje turnieje wyłącznie na Twoim urządzeniu.",
+  "pv_updated": "Ostatnia aktualizacja:",
+  "pv_date": "5 października 2026",
+  "pv_sections": [
+    [
+      "1. Informacje ogólne",
+      "<p>TurnuVolt to aplikacja mobilna, która umożliwia użytkownikom organizowanie turniejów sportowych i turniejów gier oraz śledzenie wyników i klasyfikacji. Na tej stronie wyjaśniamy podejście aplikacji do prywatności.</p>"
+    ],
+    [
+      "2. Gromadzone dane osobowe",
+      "<p><b>TurnuVolt nie gromadzi ani nie przetwarza żadnych danych osobowych i nie udostępnia ich podmiotom trzecim.</b></p><ul><li>Nie są gromadzone nazwy użytkowników, adresy e-mail, numery telefonów ani informacje profilowe.</li><li>Nie są przechowywane identyfikatory urządzeń ani dane służące do śledzenia.</li><li>Aplikacja nie prosi o uprawnienia dostępu do lokalizacji, zdjęć ani multimediów.</li><li>Żadne dane nie są gromadzone do celów reklamowych.</li></ul>"
+    ],
+    [
+      "3. Dane w aplikacji",
+      "<p>Nazwy turniejów, drużyny, wyniki i zakończone turnieje są przechowywane wyłącznie w pamięci Twojego urządzenia. Dane te nigdy nie są przesyłane na żaden serwer ani udostępniane nam lub podmiotom trzecim. Są usuwane z Twojego urządzenia po odinstalowaniu aplikacji.</p>"
+    ],
+    [
+      "4. Usługi podmiotów trzecich",
+      "<p>TurnuVolt nie korzysta z żadnych usług analitycznych, reklamowych ani służących do gromadzenia danych świadczonych przez podmioty trzecie.</p>"
+    ],
+    [
+      "5. Kontakt",
+      "<p>W razie pytań możesz skontaktować się z nami pod adresem:</p>"
+    ]
+  ],
+  "sp_title": "Pomoc",
+  "sp_desc": "Pomoc TurnuVolt: przesyłaj pytania, opinie i prośby o pomoc techniczną pocztą e-mail.",
+  "sp_text": "W razie pytań, opinii lub próśb o pomoc techniczną dotyczących TurnuVolt możesz skontaktować się z nami pod poniższym adresem e-mail:",
+  "sp_faq": "Najczęściej zadawane pytania"
+}

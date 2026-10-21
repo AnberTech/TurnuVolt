@@ -1,0 +1,32 @@
+{
+  "pv_title": "Chính sách quyền riêng tư",
+  "pv_desc": "Chính sách quyền riêng tư của TurnuVolt: ứng dụng không thu thập dữ liệu cá nhân, không sử dụng quảng cáo hay theo dõi, và chỉ lưu trữ các giải đấu trên thiết bị của bạn.",
+  "pv_updated": "Cập nhật lần cuối:",
+  "pv_date": "Ngày 5 tháng 10 năm 2026",
+  "pv_sections": [
+    [
+      "1. Tổng quan",
+      "<p>TurnuVolt là ứng dụng di động giúp người dùng tổ chức các giải đấu thể thao và trò chơi, đồng thời theo dõi tỷ số và bảng xếp hạng. Trang này giải thích cách tiếp cận của ứng dụng đối với quyền riêng tư.</p>"
+    ],
+    [
+      "2. Dữ liệu cá nhân được thu thập",
+      "<p><b>TurnuVolt không thu thập, xử lý hoặc chia sẻ bất kỳ dữ liệu cá nhân nào với bên thứ ba.</b></p><ul><li>Không thu thập tên người dùng, địa chỉ email, số điện thoại hoặc thông tin hồ sơ.</li><li>Không lưu trữ mã định danh thiết bị hoặc dữ liệu theo dõi.</li><li>Không yêu cầu quyền truy cập vị trí, ảnh hoặc phương tiện.</li><li>Không thu thập dữ liệu cho mục đích quảng cáo.</li></ul>"
+    ],
+    [
+      "3. Dữ liệu trong ứng dụng",
+      "<p>Tên giải đấu, đội thi đấu, tỷ số và các giải đấu trước đây chỉ được lưu trữ trong bộ nhớ riêng trên thiết bị của bạn. Dữ liệu này không bao giờ được gửi đến bất kỳ máy chủ nào và không được chia sẻ với chúng tôi hoặc với bên thứ ba. Dữ liệu sẽ bị xóa khỏi thiết bị khi bạn gỡ cài đặt ứng dụng.</p>"
+    ],
+    [
+      "4. Dịch vụ của bên thứ ba",
+      "<p>TurnuVolt không sử dụng bất kỳ dịch vụ phân tích, quảng cáo hoặc thu thập dữ liệu nào của bên thứ ba.</p>"
+    ],
+    [
+      "5. Liên hệ",
+      "<p>Nếu bạn có bất kỳ câu hỏi nào, bạn có thể liên hệ với chúng tôi tại:</p>"
+    ]
+  ],
+  "sp_title": "Hỗ trợ",
+  "sp_desc": "Hỗ trợ TurnuVolt: gửi câu hỏi, phản hồi và yêu cầu hỗ trợ kỹ thuật của bạn qua email.",
+  "sp_text": "Đối với bất kỳ câu hỏi, phản hồi hoặc yêu cầu hỗ trợ kỹ thuật nào về TurnuVolt, bạn có thể liên hệ với chúng tôi theo địa chỉ email bên dưới:",
+  "sp_faq": "Câu hỏi thường gặp"
+}

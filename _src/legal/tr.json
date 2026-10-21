@@ -1,0 +1,17 @@
+{
+  "pv_title": "Gizlilik Politikası",
+  "pv_desc": "TurnuVolt gizlilik politikası: uygulama kişisel veri toplamaz, reklam ve takip içermez, turnuvalarınız yalnızca cihazınızda saklanır.",
+  "pv_updated": "Son Güncelleme Tarihi:",
+  "pv_date": "5 Ekim 2026",
+  "pv_sections": [
+    ["1. Genel Bilgi", "<p>TurnuVolt, kullanıcıların spor turnuvalarını düzenlemesini, skor ve puan tablosu takibi yapmasını sağlayan bir mobil uygulamadır. Bu sayfada, uygulamanın gizlilik yaklaşımı açıklanmaktadır.</p>"],
+    ["2. Toplanan Kişisel Veri", "<p><b>TurnuVolt hiçbir kişisel veri toplamaz, işlemez veya üçüncü taraflarla paylaşmaz.</b></p><ul><li>Kullanıcı adı, e-posta, telefon numarası veya profil bilgisi alınmaz.</li><li>Cihaz kimliği veya izleme verisi saklanmaz.</li><li>Konum, fotoğraf veya medya izni istenmez.</li><li>Reklam amaçlı veri toplanmaz.</li></ul>"],
+    ["3. Uygulama İçi Veriler", "<p>Turnuva isimleri, takımlar, skorlar ve geçmiş turnuvalar yalnızca cihazınızın kendi depolama alanında saklanır. Bu veriler hiçbir sunucuya gönderilmez, bizimle veya üçüncü taraflarla paylaşılmaz. Uygulamayı kaldırdığınızda bu veriler cihazdan silinir.</p>"],
+    ["4. Üçüncü Taraf Servisler", "<p>TurnuVolt herhangi bir üçüncü taraf analiz, reklam veya veri toplama servisi kullanmaz.</p>"],
+    ["5. İletişim", "<p>Sorularınız için bizimle iletişime geçebilirsiniz:</p>"]
+  ],
+  "sp_title": "Destek",
+  "sp_desc": "TurnuVolt destek: soru, görüş ve teknik destek talepleriniz için bize e-posta ile ulaşın.",
+  "sp_text": "TurnuVolt ile ilgili her türlü soru, görüş ve teknik destek talebiniz için aşağıdaki e-posta adresi üzerinden bizimle iletişime geçebilirsiniz:",
+  "sp_faq": "Sıkça sorulan sorular"
+}

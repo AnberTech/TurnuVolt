@@ -1,0 +1,32 @@
+{
+  "pv_title": "Política de Privacidade",
+  "pv_desc": "Política de privacidade do TurnuVolt: a aplicação não recolhe dados pessoais, não utiliza publicidade nem rastreamento e mantém os seus torneios apenas no seu dispositivo.",
+  "pv_updated": "Última atualização:",
+  "pv_date": "5 de outubro de 2026",
+  "pv_sections": [
+    [
+      "1. Visão geral",
+      "<p>O TurnuVolt é uma aplicação móvel que permite aos utilizadores organizar torneios desportivos e de jogos e acompanhar pontuações e classificações. Esta página explica a abordagem da aplicação à privacidade.</p>"
+    ],
+    [
+      "2. Dados pessoais recolhidos",
+      "<p><b>O TurnuVolt não recolhe, trata nem partilha quaisquer dados pessoais com terceiros.</b></p><ul><li>Não são recolhidos nomes de utilizador, endereços de e-mail, números de telefone nem informações de perfil.</li><li>Não são armazenados identificadores de dispositivos nem dados de rastreamento.</li><li>Não são solicitadas permissões de localização, fotografias ou conteúdos multimédia.</li><li>Não são recolhidos dados para fins publicitários.</li></ul>"
+    ],
+    [
+      "3. Dados na aplicação",
+      "<p>Os nomes dos torneios, as equipas, as pontuações e os torneios anteriores são armazenados apenas no armazenamento do seu dispositivo. Estes dados nunca são enviados para qualquer servidor e não são partilhados connosco nem com terceiros. São removidos do seu dispositivo quando desinstala a aplicação.</p>"
+    ],
+    [
+      "4. Serviços de terceiros",
+      "<p>O TurnuVolt não utiliza quaisquer serviços de terceiros para análise, publicidade ou recolha de dados.</p>"
+    ],
+    [
+      "5. Contacto",
+      "<p>Se tiver alguma questão, pode contactar-nos através de:</p>"
+    ]
+  ],
+  "sp_title": "Suporte",
+  "sp_desc": "Suporte do TurnuVolt: envie as suas questões, comentários e pedidos de suporte técnico por e-mail.",
+  "sp_text": "Para quaisquer questões, comentários ou pedidos de suporte técnico sobre o TurnuVolt, pode contactar-nos através do endereço de e-mail abaixo:",
+  "sp_faq": "Perguntas frequentes"
+}

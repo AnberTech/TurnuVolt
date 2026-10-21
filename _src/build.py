@@ -6,7 +6,8 @@ Kullanım (depo kökünden):  python3 _src/build.py [--app /yol/4.2_ios]
 - Sayfa metinleri: _src/i18n/<dil>.json (yalnızca dosyası olan diller üretilir)
 - Oyun adları, kategoriler, tablo başlıkları gibi uygulama metinleri: _src/app_strings.json
   (iOS projesinden --app ile yenilenir; yoksa mevcut dosya kullanılır)
-- Şablonlar: _src/home.html, _src/fixture.html, stiller: _src/site.css, _src/fixture.css
+- Gizlilik ve destek metinleri: _src/legal/<dil>.json (dosyası olmayan dil İngilizce sayfalara bağlanır)
+- Şablonlar: _src/home.html, _src/fixture.html, _src/doc.html, stiller: _src/site.css, _src/fixture.css, _src/doc.css
 Jekyll "_" ile başlayan klasörleri yayınlamaz; _src sitede görünmez.
 """
 import argparse
@@ -100,6 +101,11 @@ LIST_LEN = {'steps': 3, 'feats': 6, 'faq_home': 8, 'faq_fx': 6}
 PLACEHOLDERS = {'fx_sum_league': 3, 'fx_sum_ko': 3, 'fx_week': 1, 'fx_bye_row': 1, 'fx_ko_bye': 1,
                 'fx_winner_of': 1, 'fx_err_dup': 1}
 ALLOWED_TAGS = re.compile(r'</?(b|em|br)\s*/?>')
+
+# Gizlilik / destek metinleri (_src/legal/<dil>.json)
+LEGAL_REQUIRED = {'pv_title': str, 'pv_desc': str, 'pv_updated': str, 'pv_date': str, 'pv_sections': list,
+                  'sp_title': str, 'sp_desc': str, 'sp_text': str, 'sp_faq': str}
+LEGAL_TAGS = re.compile(r'</?(p|b|ul|li|br)\s*/?>')
 
 FEAT_ICONS = [
     '<path d="M4 6h16v12H4z"/><path d="M12 6v12M8 10v4M16 10v4"/>',
@@ -215,6 +221,30 @@ def check_lang(code, t):
         sys.exit(f'{code}.json hatalı:\n  ' + '\n  '.join(errs))
 
 
+def check_legal(code, t, ref):
+    """Gizlilik metni kaynakla aynı yapıda olmalı: aynı bölüm sayısı, her bölümde aynı HTML etiketleri."""
+    errs = [f'eksik/tür hatalı: {k}' for k, typ in LEGAL_REQUIRED.items() if not isinstance(t.get(k), typ)]
+    unknown = set(t) - set(LEGAL_REQUIRED) - {'_note'}
+    if unknown:
+        errs.append(f'bilinmeyen anahtar: {sorted(unknown)}')
+    secs, rsecs = t.get('pv_sections') or [], ref['pv_sections']
+    if len(secs) != len(rsecs) or not all(isinstance(x, list) and len(x) == 2 and all(isinstance(y, str) and y.strip() for y in x) for x in secs):
+        errs.append(f'pv_sections: {len(rsecs)} adet [başlık, metin] çifti olmalı')
+    else:
+        for i, ((h, body), (_, rbody)) in enumerate(zip(secs, rsecs)):
+            if '<' in h:
+                errs.append(f'pv_sections[{i}] başlığında HTML olamaz')
+            if LEGAL_TAGS.sub('', body).count('<'):
+                errs.append(f'pv_sections[{i}]: yalnızca <p>, <b>, <ul>, <li>, <br> kullanılabilir')
+            if LEGAL_TAGS.findall(body) != LEGAL_TAGS.findall(rbody):
+                errs.append(f'pv_sections[{i}]: HTML etiketleri kaynaktakiyle aynı olmalı')
+    for k in LEGAL_REQUIRED:
+        if k != 'pv_sections' and isinstance(t.get(k), str) and '<' in t[k]:
+            errs.append(f'{k}: HTML olamaz')
+    if errs:
+        sys.exit(f'legal/{code}.json hatalı:\n  ' + '\n  '.join(errs))
+
+
 # ---------------------------------------------------------------- sayfa parçaları
 
 def lang_dir(code):
@@ -227,6 +257,10 @@ def home_url(code):
 
 def fx_url(code, T):
     return SITE + lang_dir(code) + T[code]['fx_slug'] + '/'
+
+
+def doc_url(code, page):
+    return SITE + lang_dir(code) + page
 
 
 def app_store_url(code):
@@ -351,11 +385,11 @@ def fmt(s, *args):
 
 # ---------------------------------------------------------------- sayfalar
 
-def common_ctx(code, t, app, base, depth_to_lang):
-    up_en = depth_to_lang + ('' if code == 'en' else ('en/' if code == 'tr' else '../en/'))
-    if code in ('tr', 'en'):
+def common_ctx(code, t, app, base, depth_to_lang, legal_built):
+    if code in legal_built:
         privacy, support = depth_to_lang + 'privacy.html', depth_to_lang + 'support.html'
     else:
+        up_en = depth_to_lang + ('en/' if code == 'tr' else '../en/')
         privacy, support = up_en + 'privacy.html', up_en + 'support.html'
     ctx = dict(t)
     ctx.update({f'app:{k}': v for k, v in app['strings'].items()})
@@ -363,10 +397,10 @@ def common_ctx(code, t, app, base, depth_to_lang):
     return ctx
 
 
-def build_home(code, T, A, built, tpl, css):
+def build_home(code, T, A, built, tpl, css, legal_built):
     t, app = T[code], A['langs'][code]
     base = '' if code == 'tr' else '../'
-    ctx = common_ctx(code, t, app, base, '')
+    ctx = common_ctx(code, t, app, base, '', legal_built)
     fx_rel = t['fx_slug'] + '/'
     cats = [('ballSports', 'Category.ballSports'), ('racketSports', 'Category.racketSports'),
             ('combatSports', 'Category.combatSports'), ('precisionSports', 'Category.precisionSports'),
@@ -419,10 +453,10 @@ def build_home(code, T, A, built, tpl, css):
     write(os.path.join(ROOT, lang_dir(code), 'index.html'), render(tpl, ctx, f'{code}/index.html'))
 
 
-def build_fixture(code, T, A, built, tpl, css, fx_css):
+def build_fixture(code, T, A, built, tpl, css, fx_css, legal_built):
     t, app = T[code], A['langs'][code]
     base = '../' if code == 'tr' else '../../'
-    ctx = common_ctx(code, t, app, base, '../')
+    ctx = common_ctx(code, t, app, base, '../', legal_built)
     url = fx_url(code, T)
     s = app['strings']
 
@@ -463,20 +497,40 @@ def build_fixture(code, T, A, built, tpl, css, fx_css):
     write(os.path.join(ROOT, lang_dir(code), t['fx_slug'], 'index.html'), render(tpl, ctx, f'{code}/{t["fx_slug"]}'))
 
 
-def build_sitemap(built, T):
+def build_docs(code, T, L, legal_built, tpl, css):
+    """Gizlilik politikası ve destek sayfası (dilin kendi klasöründe)."""
+    t, l = T[code], L[code]
+    base = '' if code == 'tr' else '../'
+    css = css.replace('url("assets/', f'url("{base}assets/')
+    mail = f'<p>&#128233; <a href="mailto:{EMAIL}">{EMAIL}</a></p>'
+    pages = {
+        'privacy.html': (f'TurnuVolt – {l["pv_title"]}', l['pv_desc'], f'<em>TurnuVolt</em> {e(l["pv_title"])}',
+                         f'<p><b>{e(l["pv_updated"])}</b> {e(l["pv_date"])}</p>\n<hr>\n' +
+                         ''.join(f'<h2>{e(h)}</h2>\n{b}\n' for h, b in l['pv_sections']) + mail),
+        'support.html': (f'TurnuVolt – {l["sp_title"]}', l['sp_desc'], e(l['sp_title']),
+                         f'<p>{e(l["sp_text"])}</p>\n{mail}\n<p class="faqlink"><a href="./#faq-h">{e(l["sp_faq"])} <span aria-hidden="true">&rarr;</span></a></p>'),
+    }
+    for page, (title, desc, h1, body) in pages.items():
+        url_of = lambda c, p=page: doc_url(c, p)
+        ctx = {'lang': code, 'dir': LANG[code][1], 'base': base, 'css': css, 'h1_html': h1, 'body_html': body,
+               'head_meta': head_meta(code, title, desc, url_of(code), base, legal_built, url_of),
+               'lang_menu': lang_menu(code, legal_built, url_of, t, base)}
+        write(os.path.join(ROOT, lang_dir(code), page), render(tpl, ctx, f'{code}/{page}'))
+
+
+def build_sitemap(built, T, legal_built):
     today = datetime.date.today().isoformat()
-    groups = [(home_url, '1.0'), (lambda c: fx_url(c, T), '0.9')]
+    groups = [(home_url, '1.0', built), (lambda c: fx_url(c, T), '0.9', built),
+              (lambda c: doc_url(c, 'support.html'), '0.3', legal_built), (lambda c: doc_url(c, 'privacy.html'), '0.3', legal_built)]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
-    for url_of, prio in groups:
-        for c in built:
+    for url_of, prio, codes in groups:
+        for c in codes:
             out.append(f'  <url><loc>{e(url_of(c))}</loc><lastmod>{today}</lastmod><priority>{prio}</priority>')
-            for c2 in built:
+            for c2 in codes:
                 out.append(f'    <xhtml:link rel="alternate" hreflang="{c2}" href="{e(url_of(c2))}" />')
-            out.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{e(url_of("en" if "en" in built else "tr"))}" />')
+            out.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{e(url_of("en" if "en" in codes else "tr"))}" />')
             out.append('  </url>')
-    for p in ('privacy.html', 'support.html', 'en/privacy.html', 'en/support.html'):
-        out.append(f'  <url><loc>{SITE}{p}</loc><lastmod>{today}</lastmod><priority>0.3</priority></url>')
     out.append('</urlset>')
     write(os.path.join(ROOT, 'sitemap.xml'), '\n'.join(out) + '\n')
 
@@ -544,16 +598,30 @@ def main():
     built = [c for c, *_ in LANGS if c in T]
     if 'tr' not in built:
         sys.exit('tr.json gerekli')
+    L = {}
+    ref = json.loads(read(os.path.join(SRC, 'legal', 'en.json')))
+    for code in built:
+        p = os.path.join(SRC, 'legal', f'{code}.json')
+        if os.path.exists(p):
+            L[code] = json.loads(read(p))
+            check_legal(code, L[code], ref)
+    legal_built = [c for c in built if c in L]
+    if not {'tr', 'en'} <= set(legal_built):
+        sys.exit('legal/tr.json ve legal/en.json gerekli')
     css = read(os.path.join(SRC, 'site.css'))
     fx_css = read(os.path.join(SRC, 'fixture.css'))
     home_tpl = read(os.path.join(SRC, 'home.html'))
     fx_tpl = read(os.path.join(SRC, 'fixture.html'))
+    doc_tpl, doc_css = read(os.path.join(SRC, 'doc.html')), read(os.path.join(SRC, 'doc.css'))
     for c in built:
-        build_home(c, T, A, built, home_tpl, css)
-        build_fixture(c, T, A, built, fx_tpl, css, fx_css)
-    build_sitemap(built, T)
+        build_home(c, T, A, built, home_tpl, css, legal_built)
+        build_fixture(c, T, A, built, fx_tpl, css, fx_css, legal_built)
+    for c in legal_built:
+        build_docs(c, T, L, legal_built, doc_tpl, doc_css)
+    build_sitemap(built, T, legal_built)
     build_llms(built, T, A)
     print('üretildi:', ', '.join(built))
+    print('gizlilik/destek:', ', '.join(legal_built))
 
 
 if __name__ == '__main__':

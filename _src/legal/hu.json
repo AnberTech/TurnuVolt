@@ -1,0 +1,32 @@
+{
+  "pv_title": "Adatvédelmi tájékoztató",
+  "pv_desc": "A TurnuVolt adatvédelmi tájékoztatója: az alkalmazás nem gyűjt személyes adatokat, nem használ hirdetéseket vagy nyomon követést, és a versenyeit kizárólag az Ön eszközén tárolja.",
+  "pv_updated": "Utolsó frissítés:",
+  "pv_date": "2026. október 5.",
+  "pv_sections": [
+    [
+      "1. Áttekintés",
+      "<p>A TurnuVolt egy mobilalkalmazás, amellyel a felhasználók sport- és játékversenyeket szervezhetnek, valamint nyomon követhetik a pontszámokat és a helyezéseket. Ez az oldal ismerteti az alkalmazás adatvédelmi gyakorlatát.</p>"
+    ],
+    [
+      "2. Gyűjtött személyes adatok",
+      "<p><b>A TurnuVolt nem gyűjt és nem kezel személyes adatokat, és nem oszt meg személyes adatokat harmadik felekkel.</b></p><ul><li>Nem gyűjt felhasználónevet, e-mail-címet, telefonszámot vagy profiladatokat.</li><li>Nem tárol eszközazonosítókat vagy nyomon követési adatokat.</li><li>Nem kér hozzáférési engedélyt helyadatokhoz, fényképekhez vagy médiatartalmakhoz.</li><li>Nem gyűjt adatokat hirdetési célokra.</li></ul>"
+    ],
+    [
+      "3. Az alkalmazáson belüli adatok",
+      "<p>A versenyek neveit, a csapatokat, a pontszámokat és a korábbi versenyeket kizárólag az Ön eszközének saját tárhelyén tárolja az alkalmazás. Ezek az adatok soha nem kerülnek továbbításra semmilyen szerverre, és sem velünk, sem harmadik felekkel nem kerülnek megosztásra. Az alkalmazás eltávolításakor törlődnek az Ön eszközéről.</p>"
+    ],
+    [
+      "4. Harmadik felek szolgáltatásai",
+      "<p>A TurnuVolt nem használ harmadik felek által nyújtott elemzési, hirdetési vagy adatgyűjtési szolgáltatásokat.</p>"
+    ],
+    [
+      "5. Kapcsolat",
+      "<p>Ha bármilyen kérdése van, az alábbi elérhetőségen léphet kapcsolatba velünk:</p>"
+    ]
+  ],
+  "sp_title": "Támogatás",
+  "sp_desc": "TurnuVolt-támogatás: küldje el kérdéseit, visszajelzéseit és technikai támogatási kérelmeit e-mailben.",
+  "sp_text": "A TurnuVolt alkalmazással kapcsolatos kérdéseivel, visszajelzéseivel vagy technikai támogatási kérelmeivel az alábbi e-mail-címen fordulhat hozzánk:",
+  "sp_faq": "Gyakran ismételt kérdések"
+}

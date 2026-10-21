@@ -1,0 +1,32 @@
+{
+  "pv_title": "Kebijakan Privasi",
+  "pv_desc": "Kebijakan privasi TurnuVolt: aplikasi ini tidak mengumpulkan data pribadi, tidak menggunakan iklan atau pelacakan, dan menyimpan turnamen Anda hanya di perangkat Anda.",
+  "pv_updated": "Terakhir diperbarui:",
+  "pv_date": "5 Oktober 2026",
+  "pv_sections": [
+    [
+      "1. Ringkasan",
+      "<p>TurnuVolt adalah aplikasi seluler yang memungkinkan pengguna menyelenggarakan turnamen olahraga dan permainan serta mencatat skor dan klasemen. Halaman ini menjelaskan pendekatan aplikasi terhadap privasi.</p>"
+    ],
+    [
+      "2. Data Pribadi yang Dikumpulkan",
+      "<p><b>TurnuVolt tidak mengumpulkan, memproses, atau membagikan data pribadi apa pun kepada pihak ketiga.</b></p><ul><li>Tidak ada nama pengguna, alamat e-mail, nomor telepon, atau informasi profil yang dikumpulkan.</li><li>Tidak ada pengidentifikasi perangkat atau data pelacakan yang disimpan.</li><li>Tidak ada izin lokasi, foto, atau media yang diminta.</li><li>Tidak ada data yang dikumpulkan untuk tujuan periklanan.</li></ul>"
+    ],
+    [
+      "3. Data di Dalam Aplikasi",
+      "<p>Nama turnamen, tim, skor, dan turnamen sebelumnya disimpan hanya di penyimpanan internal perangkat Anda. Data ini tidak pernah dikirim ke server mana pun dan tidak dibagikan kepada kami maupun kepada pihak ketiga. Data tersebut akan dihapus dari perangkat Anda saat Anda mencopot pemasangan aplikasi.</p>"
+    ],
+    [
+      "4. Layanan Pihak Ketiga",
+      "<p>TurnuVolt tidak menggunakan layanan analitik, periklanan, atau pengumpulan data pihak ketiga mana pun.</p>"
+    ],
+    [
+      "5. Kontak",
+      "<p>Jika Anda memiliki pertanyaan, Anda dapat menghubungi kami di:</p>"
+    ]
+  ],
+  "sp_title": "Dukungan",
+  "sp_desc": "Dukungan TurnuVolt: kirimkan pertanyaan, masukan, dan permintaan dukungan teknis Anda melalui e-mail.",
+  "sp_text": "Untuk pertanyaan, masukan, atau permintaan dukungan teknis apa pun terkait TurnuVolt, Anda dapat menghubungi kami melalui alamat e-mail di bawah ini:",
+  "sp_faq": "Pertanyaan yang sering diajukan"
+}

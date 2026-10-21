@@ -1,0 +1,32 @@
+{
+  "pv_title": "Informativa sulla privacy",
+  "pv_desc": "Informativa sulla privacy di TurnuVolt: l'app non raccoglie dati personali, non utilizza pubblicità né sistemi di tracciamento e conserva i tuoi tornei solo sul tuo dispositivo.",
+  "pv_updated": "Ultimo aggiornamento:",
+  "pv_date": "5 ottobre 2026",
+  "pv_sections": [
+    [
+      "1. Panoramica",
+      "<p>TurnuVolt è un'app mobile che consente agli utenti di organizzare tornei sportivi e di giochi e di tenere traccia dei punteggi e delle classifiche. Questa pagina spiega l'approccio dell'app alla privacy.</p>"
+    ],
+    [
+      "2. Dati personali raccolti",
+      "<p><b>TurnuVolt non raccoglie, tratta né condivide alcun dato personale con terze parti.</b></p><ul><li>Non vengono raccolti nomi utente, indirizzi e-mail, numeri di telefono o informazioni sul profilo.</li><li>Non vengono memorizzati identificativi del dispositivo o dati di tracciamento.</li><li>Non vengono richieste autorizzazioni per accedere alla posizione, alle foto o ai contenuti multimediali.</li><li>Non vengono raccolti dati per finalità pubblicitarie.</li></ul>"
+    ],
+    [
+      "3. Dati all'interno dell'app",
+      "<p>I nomi dei tornei, le squadre, i punteggi e i tornei passati vengono memorizzati esclusivamente nella memoria del tuo dispositivo. Questi dati non vengono mai inviati ad alcun server e non vengono condivisi con noi né con terze parti. Vengono rimossi dal tuo dispositivo quando disinstalli l'app.</p>"
+    ],
+    [
+      "4. Servizi di terze parti",
+      "<p>TurnuVolt non utilizza servizi di analisi, pubblicità o raccolta dati di terze parti.</p>"
+    ],
+    [
+      "5. Contatti",
+      "<p>Per qualsiasi domanda, puoi contattarci all'indirizzo:</p>"
+    ]
+  ],
+  "sp_title": "Assistenza",
+  "sp_desc": "Assistenza TurnuVolt: invia domande, commenti e richieste di assistenza tecnica via e-mail.",
+  "sp_text": "Per qualsiasi domanda, commento o richiesta di assistenza tecnica su TurnuVolt, puoi contattarci all'indirizzo e-mail indicato di seguito:",
+  "sp_faq": "Domande frequenti"
+}

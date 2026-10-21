@@ -1,0 +1,32 @@
+{
+  "pv_title": "Personvernerklæring",
+  "pv_desc": "TurnuVolts personvernerklæring: appen samler ikke inn personopplysninger, bruker verken annonser eller sporing og lagrer turneringene dine bare på enheten din.",
+  "pv_updated": "Sist oppdatert:",
+  "pv_date": "5. oktober 2026",
+  "pv_sections": [
+    [
+      "1. Oversikt",
+      "<p>TurnuVolt er en mobilapp som lar brukere organisere idretts- og spillturneringer og holde oversikt over resultater og tabellplasseringer. Denne siden forklarer hvordan appen ivaretar personvernet.</p>"
+    ],
+    [
+      "2. Personopplysninger som samles inn",
+      "<p><b>TurnuVolt samler ikke inn eller behandler personopplysninger og deler ikke personopplysninger med tredjeparter.</b></p><ul><li>Ingen brukernavn, e-postadresser, telefonnumre eller profilopplysninger samles inn.</li><li>Ingen enhetsidentifikatorer eller sporingsdata lagres.</li><li>Det bes ikke om tilgang til posisjon, bilder eller medier.</li><li>Ingen opplysninger samles inn til reklameformål.</li></ul>"
+    ],
+    [
+      "3. Data i appen",
+      "<p>Turneringsnavn, lag, resultater og tidligere turneringer lagres bare i enhetens egen lagring. Disse dataene sendes aldri til noen server og deles ikke med oss eller med tredjeparter. De fjernes fra enheten din når du avinstallerer appen.</p>"
+    ],
+    [
+      "4. Tredjepartstjenester",
+      "<p>TurnuVolt bruker ingen tredjepartstjenester for analyse, annonsering eller datainnsamling.</p>"
+    ],
+    [
+      "5. Kontakt",
+      "<p>Hvis du har spørsmål, kan du kontakte oss på:</p>"
+    ]
+  ],
+  "sp_title": "Brukerstøtte",
+  "sp_desc": "TurnuVolt brukerstøtte: send spørsmål, tilbakemeldinger og forespørsler om teknisk støtte via e-post.",
+  "sp_text": "Hvis du har spørsmål, tilbakemeldinger eller forespørsler om teknisk støtte knyttet til TurnuVolt, kan du kontakte oss på e-postadressen nedenfor:",
+  "sp_faq": "Ofte stilte spørsmål"
+}

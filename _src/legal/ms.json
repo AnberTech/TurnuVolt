@@ -1,0 +1,32 @@
+{
+  "pv_title": "Dasar Privasi",
+  "pv_desc": "Dasar privasi TurnuVolt: aplikasi ini tidak mengumpul sebarang data peribadi, tidak menggunakan iklan atau penjejakan, dan menyimpan kejohanan anda hanya pada peranti anda.",
+  "pv_updated": "Kemas kini terakhir:",
+  "pv_date": "5 Oktober 2026",
+  "pv_sections": [
+    [
+      "1. Gambaran Keseluruhan",
+      "<p>TurnuVolt ialah aplikasi mudah alih yang membolehkan pengguna menganjurkan kejohanan sukan dan permainan serta menjejaki markah dan kedudukan. Halaman ini menerangkan pendekatan aplikasi terhadap privasi.</p>"
+    ],
+    [
+      "2. Data Peribadi yang Dikumpul",
+      "<p><b>TurnuVolt tidak mengumpul, memproses atau berkongsi sebarang data peribadi dengan pihak ketiga.</b></p><ul><li>Tiada nama pengguna, alamat e-mel, nombor telefon atau maklumat profil dikumpul.</li><li>Tiada pengecam peranti atau data penjejakan disimpan.</li><li>Tiada kebenaran lokasi, foto atau media diminta.</li><li>Tiada data dikumpul untuk tujuan pengiklanan.</li></ul>"
+    ],
+    [
+      "3. Data Dalam Aplikasi",
+      "<p>Nama kejohanan, pasukan, markah dan kejohanan lalu disimpan hanya dalam storan peranti anda sendiri. Data ini tidak pernah dihantar ke mana-mana pelayan dan tidak dikongsi dengan kami atau dengan pihak ketiga. Ia dipadamkan daripada peranti anda apabila anda menyahpasang aplikasi.</p>"
+    ],
+    [
+      "4. Perkhidmatan Pihak Ketiga",
+      "<p>TurnuVolt tidak menggunakan sebarang perkhidmatan analitik, pengiklanan atau pengumpulan data pihak ketiga.</p>"
+    ],
+    [
+      "5. Hubungi Kami",
+      "<p>Jika anda mempunyai sebarang soalan, anda boleh menghubungi kami di:</p>"
+    ]
+  ],
+  "sp_title": "Sokongan",
+  "sp_desc": "Sokongan TurnuVolt: hantar soalan, maklum balas dan permintaan sokongan teknikal anda melalui e-mel.",
+  "sp_text": "Untuk sebarang soalan, maklum balas atau permintaan sokongan teknikal mengenai TurnuVolt, anda boleh menghubungi kami di alamat e-mel di bawah:",
+  "sp_faq": "Soalan lazim"
+}

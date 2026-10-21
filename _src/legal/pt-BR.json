@@ -1,0 +1,32 @@
+{
+  "pv_title": "Política de Privacidade",
+  "pv_desc": "Política de privacidade do TurnuVolt: o aplicativo não coleta dados pessoais, não utiliza anúncios nem rastreamento e mantém seus torneios somente no seu dispositivo.",
+  "pv_updated": "Última atualização:",
+  "pv_date": "5 de outubro de 2026",
+  "pv_sections": [
+    [
+      "1. Visão geral",
+      "<p>TurnuVolt é um aplicativo móvel que permite aos usuários organizar torneios esportivos e de jogos e acompanhar pontuações e classificações. Esta página explica a abordagem do aplicativo em relação à privacidade.</p>"
+    ],
+    [
+      "2. Dados pessoais coletados",
+      "<p><b>TurnuVolt não coleta, processa nem compartilha quaisquer dados pessoais com terceiros.</b></p><ul><li>Nenhum nome de usuário, endereço de e-mail, número de telefone ou informação de perfil é coletado.</li><li>Nenhum identificador de dispositivo ou dado de rastreamento é armazenado.</li><li>Nenhuma permissão de localização, fotos ou mídia é solicitada.</li><li>Nenhum dado é coletado para fins publicitários.</li></ul>"
+    ],
+    [
+      "3. Dados no aplicativo",
+      "<p>Os nomes dos torneios, as equipes, as pontuações e os torneios anteriores são armazenados somente no próprio armazenamento do seu dispositivo. Esses dados nunca são enviados a nenhum servidor e não são compartilhados conosco nem com terceiros. Eles são removidos do seu dispositivo quando você desinstala o aplicativo.</p>"
+    ],
+    [
+      "4. Serviços de terceiros",
+      "<p>TurnuVolt não utiliza nenhum serviço de terceiros para análise, publicidade ou coleta de dados.</p>"
+    ],
+    [
+      "5. Contato",
+      "<p>Se tiver alguma dúvida, você pode entrar em contato conosco pelo endereço abaixo:</p>"
+    ]
+  ],
+  "sp_title": "Suporte",
+  "sp_desc": "Suporte do TurnuVolt: envie suas dúvidas, seus comentários e suas solicitações de suporte técnico por e-mail.",
+  "sp_text": "Para quaisquer dúvidas, comentários ou solicitações de suporte técnico sobre o TurnuVolt, você pode entrar em contato conosco pelo endereço de e-mail abaixo:",
+  "sp_faq": "Perguntas frequentes"
+}

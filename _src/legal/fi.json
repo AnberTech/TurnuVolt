@@ -1,0 +1,32 @@
+{
+  "pv_title": "Tietosuojakäytäntö",
+  "pv_desc": "TurnuVolt-sovelluksen tietosuojakäytäntö: sovellus ei kerää henkilötietoja, käytä mainoksia tai seurantaa, ja turnauksesi säilytetään vain laitteellasi.",
+  "pv_updated": "Viimeksi päivitetty:",
+  "pv_date": "5. lokakuuta 2026",
+  "pv_sections": [
+    [
+      "1. Yleiskatsaus",
+      "<p>TurnuVolt on mobiilisovellus, jonka avulla käyttäjät voivat järjestää urheilu- ja peliturnauksia sekä seurata pisteitä ja sijoituksia. Tällä sivulla kerrotaan sovelluksen tietosuojakäytännöistä.</p>"
+    ],
+    [
+      "2. Kerättävät henkilötiedot",
+      "<p><b>TurnuVolt ei kerää tai käsittele henkilötietoja eikä jaa niitä kolmansille osapuolille.</b></p><ul><li>Käyttäjänimeä, sähköpostiosoitetta, puhelinnumeroa tai profiilitietoja ei kerätä.</li><li>Laitetunnisteita tai seurantatietoja ei tallenneta.</li><li>Sijainnin, kuvien tai median käyttöoikeuksia ei pyydetä.</li><li>Tietoja ei kerätä mainontatarkoituksiin.</li></ul>"
+    ],
+    [
+      "3. Sovelluksen sisältämät tiedot",
+      "<p>Turnausten nimet, joukkueet, pisteet ja aiemmat turnaukset tallennetaan vain laitteesi omaan tallennustilaan. Näitä tietoja ei koskaan lähetetä millekään palvelimelle eikä jaeta meille tai kolmansille osapuolille. Ne poistetaan laitteeltasi, kun poistat sovelluksen.</p>"
+    ],
+    [
+      "4. Kolmansien osapuolten palvelut",
+      "<p>TurnuVolt ei käytä kolmansien osapuolten analytiikka-, mainonta- tai tiedonkeruupalveluja.</p>"
+    ],
+    [
+      "5. Yhteydenotto",
+      "<p>Jos sinulla on kysyttävää, voit ottaa meihin yhteyttä osoitteessa:</p>"
+    ]
+  ],
+  "sp_title": "Tuki",
+  "sp_desc": "TurnuVolt-tuki: lähetä kysymyksesi, palautteesi ja tekniset tukipyyntösi sähköpostitse.",
+  "sp_text": "Jos sinulla on TurnuVolt-sovellusta koskevia kysymyksiä, palautetta tai teknisiä tukipyyntöjä, voit ottaa meihin yhteyttä alla olevaan sähköpostiosoitteeseen:",
+  "sp_faq": "Usein kysytyt kysymykset"
+}

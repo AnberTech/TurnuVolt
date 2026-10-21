@@ -1,0 +1,32 @@
+{
+  "pv_title": "Politica de confidențialitate",
+  "pv_desc": "Politica de confidențialitate TurnuVolt: aplicația nu colectează date cu caracter personal, nu utilizează reclame sau tehnologii de urmărire și păstrează turneele numai pe dispozitivul dumneavoastră.",
+  "pv_updated": "Ultima actualizare:",
+  "pv_date": "5 octombrie 2026",
+  "pv_sections": [
+    [
+      "1. Prezentare generală",
+      "<p>TurnuVolt este o aplicație mobilă care le permite utilizatorilor să organizeze turnee sportive și de jocuri și să urmărească scorurile și clasamentele. Această pagină explică modul în care aplicația abordează confidențialitatea.</p>"
+    ],
+    [
+      "2. Date cu caracter personal colectate",
+      "<p><b>TurnuVolt nu colectează, nu prelucrează și nu partajează cu terțe părți niciun fel de date cu caracter personal.</b></p><ul><li>Nu sunt colectate nume de utilizator, adrese de e-mail, numere de telefon sau informații de profil.</li><li>Nu sunt stocați identificatori ai dispozitivului sau date de urmărire.</li><li>Nu sunt solicitate permisiuni pentru locație, fotografii sau conținut media.</li><li>Nu sunt colectate date în scopuri publicitare.</li></ul>"
+    ],
+    [
+      "3. Datele din aplicație",
+      "<p>Numele turneelor, echipele, scorurile și turneele anterioare sunt stocate numai în memoria dispozitivului dumneavoastră. Aceste date nu sunt trimise niciodată către vreun server și nu sunt partajate cu noi sau cu terțe părți. Acestea sunt eliminate de pe dispozitivul dumneavoastră atunci când dezinstalați aplicația.</p>"
+    ],
+    [
+      "4. Servicii furnizate de terțe părți",
+      "<p>TurnuVolt nu utilizează servicii de analiză, publicitate sau colectare a datelor furnizate de terțe părți.</p>"
+    ],
+    [
+      "5. Contact",
+      "<p>Dacă aveți întrebări, ne puteți contacta la:</p>"
+    ]
+  ],
+  "sp_title": "Asistență",
+  "sp_desc": "Asistență TurnuVolt: trimiteți întrebările, feedbackul și solicitările de asistență tehnică prin e-mail.",
+  "sp_text": "Pentru orice întrebări, feedback sau solicitări de asistență tehnică referitoare la TurnuVolt, ne puteți contacta la adresa de e-mail de mai jos:",
+  "sp_faq": "Întrebări frecvente"
+}

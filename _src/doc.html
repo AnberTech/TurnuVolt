@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Üretilen dosya: _src/doc.html şablonundan build.py ile oluşturulur, elle düzenleme. -->
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+{{{head_meta}}}
+<meta name="theme-color" content="#070B10" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" />
+<style>
+{{{css}}}
+</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+{{{lang_menu}}}
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<header class="dhead">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="dhead-in">
+    <a class="back" href="./"><span aria-hidden="true">&lsaquo;</span><img src="{{base}}assets/img/tv_icon.jpg" alt="" />TurnuVolt</a>
+    <h1 class="dtitle">{{{h1_html}}}</h1>
+  </div>
+</header>
+<main class="doc">
+  <div class="content">
+{{{body_html}}}
+  </div>
+</main>
+<footer class="foot">© 2026 TurnuVolt – AnberTech</footer>
+<script>
+(function(){
+  var D=document, W=window, reduce=W.matchMedia&&W.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=D.querySelector('.progress'), bg=D.querySelector('.hero-bg');
+  function onScroll(){
+    var h=D.documentElement.scrollHeight-innerHeight, y=W.scrollY||0;
+    if(bar) bar.style.width=(h>0?Math.min(100,y/h*100):0)+'%';
+    if(bg&&!reduce) bg.style.transform='scale(1.06) translateY('+(y*.22)+'px)';
+  }
+  W.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "pv_title": "Datenschutzerklärung",
+  "pv_desc": "Datenschutzerklärung von TurnuVolt: Die App erhebt keine personenbezogenen Daten, verwendet weder Werbung noch Tracking und speichert Ihre Turniere ausschließlich auf Ihrem Gerät.",
+  "pv_updated": "Zuletzt aktualisiert:",
+  "pv_date": "5. Oktober 2026",
+  "pv_sections": [
+    [
+      "1. Überblick",
+      "<p>TurnuVolt ist eine mobile App, mit der Nutzer Sport- und Spielturniere organisieren sowie Spielstände und Tabellen verfolgen können. Auf dieser Seite wird erläutert, wie die App mit dem Datenschutz umgeht.</p>"
+    ],
+    [
+      "2. Erhobene personenbezogene Daten",
+      "<p><b>TurnuVolt erhebt und verarbeitet keine personenbezogenen Daten und gibt keine personenbezogenen Daten an Dritte weiter.</b></p><ul><li>Es werden keine Nutzernamen, E-Mail-Adressen, Telefonnummern oder Profilinformationen erhoben.</li><li>Es werden keine Gerätekennungen oder Tracking-Daten gespeichert.</li><li>Es werden keine Berechtigungen für den Zugriff auf Standort, Fotos oder Medien angefordert.</li><li>Es werden keine Daten zu Werbezwecken erhoben.</li></ul>"
+    ],
+    [
+      "3. Daten innerhalb der App",
+      "<p>Turniernamen, Mannschaften, Spielstände und vergangene Turniere werden ausschließlich im Speicher Ihres Geräts gespeichert. Diese Daten werden niemals an einen Server gesendet und weder an uns noch an Dritte weitergegeben. Sie werden von Ihrem Gerät entfernt, wenn Sie die App deinstallieren.</p>"
+    ],
+    [
+      "4. Dienste von Drittanbietern",
+      "<p>TurnuVolt verwendet keine Analyse-, Werbe- oder Datenerfassungsdienste von Drittanbietern.</p>"
+    ],
+    [
+      "5. Kontakt",
+      "<p>Bei Fragen können Sie uns unter folgender Adresse kontaktieren:</p>"
+    ]
+  ],
+  "sp_title": "Support",
+  "sp_desc": "TurnuVolt-Support: Senden Sie Ihre Fragen, Ihr Feedback und Ihre Anfragen zum technischen Support per E-Mail.",
+  "sp_text": "Bei Fragen, Feedback oder Anfragen zum technischen Support zu TurnuVolt erreichen Sie uns unter der folgenden E-Mail-Adresse:",
+  "sp_faq": "Häufig gestellte Fragen"
+}
