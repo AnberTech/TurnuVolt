@@ -263,6 +263,13 @@ def doc_url(code, page):
     return SITE + lang_dir(code) + page
 
 
+PLAY = 'https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt'
+
+
+def play_url(code):
+    return PLAY if code == 'tr' else f'{PLAY}&hl={code}'
+
+
 def app_store_url(code):
     if code == 'tr':
         return f'https://apps.apple.com/tr/app/turnuvolt/id{APP_ID}?l=tr'
@@ -275,8 +282,9 @@ def stores(code, t, base, pos):
     return (f'<a data-goatcounter-click="appstore-turnuvolt-{code.lower()}-{pos}" href="{e(app_store_url(code))}" target="_blank" '
             f'rel="noopener noreferrer" aria-label="{e(t["store_alt"])}" title="App Store"><img src="{base}assets/img/app-store-badge.png" '
             f'alt="{e(t["store_alt"])}" width="1062" height="318" /></a>\n'
-            f'      <span class="soon" role="img" aria-label="Google Play – {e(t["soon"])}"><img src="{base}assets/img/google-play-badge.png" '
-            f'alt="" width="1062" height="318" /><b>{e(t["soon"])}</b></span>')
+            f'      <a data-goatcounter-click="googleplay-turnuvolt-{code.lower()}-{pos}" href="{e(play_url(code))}" target="_blank" '
+            f'rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="{base}assets/img/google-play-badge.png" '
+            f'alt="Google Play" width="1062" height="318" /></a>')
 
 
 # İspanya ve Meksika bayraklarının SVG'si arma yüzünden ~90 KB; menüde küçük PNG'leri kullanılır.
@@ -541,7 +549,7 @@ def build_llms(built, T, A):
     lines = [
         '# TurnuVolt',
         '',
-        '> TurnuVolt is a tournament organizer app for iPhone and iPad (Android coming soon) plus a free in-browser fixture generator. '
+        '> TurnuVolt is a tournament organizer app for iPhone, iPad and Android plus a free in-browser fixture generator. '
         'It creates league (round-robin, optional home-and-away) and knockout (single-elimination bracket with automatic byes) fixtures, '
         'keeps standings from entered scores and crowns the champion on a podium.',
         '',
@@ -565,7 +573,7 @@ def build_llms(built, T, A):
         '## The app',
         '',
         f'- App Store: https://apps.apple.com/app/id{APP_ID} (one-time purchase; no ads, no subscription, no account, works offline)',
-        '- Google Play: coming soon',
+        f'- Google Play: {PLAY}',
         f'- {n_games} games and sports with game-specific scoring: goals, points, sets or winner only '
         '(football/soccer, basketball, volleyball, tennis, padel, table tennis, badminton, chess, backgammon, darts, billiards, FIFA, Valorant and more)',
         '- League: everyone plays everyone, optional double round robin, automatic standings (points, goal/point difference, set difference)',

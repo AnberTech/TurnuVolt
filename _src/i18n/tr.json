@@ -62,7 +62,7 @@
     ["Puan tablosu nasıl hesaplanır?", "Skorları girdikçe oynanan maç, galibiyet, beraberlik, mağlubiyet, averaj ve puan otomatik güncellenir. Puan kuralı oyuna göre değişir: futbolda galibiyet 3 puan, beraberlik 1 puandır; basketbolda beraberlik olmaz; voleybolda set averajı da hesaba katılır."],
     ["İnternet bağlantısı gerekir mi? Verilerim nerede saklanır?", "Gerekmez. Turnuvaların yalnızca cihazında saklanır; hesap açılmaz, kişisel veri toplanmaz, hiçbir sunucuya veri gönderilmez."],
     ["TurnuVolt ücretli mi?", "Uygulama App Store'da tek seferlik ücretlidir; abonelik, reklam ve uygulama içi satın alma yoktur. Tarayıcıda çalışan fikstür oluşturucu ise tamamen ücretsizdir."],
-    ["Android'de var mı?", "Android sürümü yakında Google Play'de. Şu an iPhone ve iPad'de (iOS 17.6 ve üzeri) kullanılabilir."]
+    ["Android'de var mı?", "Evet. TurnuVolt Android için Google Play'de, iPhone ve iPad için (iOS 17.6 ve üzeri) App Store'da kullanılabilir."]
   ],
 
   "fx_slug": "fikstur",

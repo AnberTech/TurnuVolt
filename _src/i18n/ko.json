@@ -106,7 +106,7 @@
     ],
     [
       "Android에서도 사용할 수 있나요?",
-      "Android 버전은 조만간 Google Play에 출시될 예정입니다. 현재 TurnuVolt는 iPhone 및 iPad(iOS 17.6 이상)에서 이용하실 수 있습니다."
+      "네. TurnuVolt는 Android에서는 Google Play, iPhone 및 iPad(iOS 17.6 이상)에서는 App Store에서 이용하실 수 있습니다."
     ]
   ],
   "fx_slug": "fixture-generator",

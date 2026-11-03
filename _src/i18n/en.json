@@ -60,7 +60,7 @@
     ["How are the standings calculated?", "As you enter scores, games played, wins, draws, losses, goal difference and points update automatically. The points rule depends on the game: in soccer a win is 3 points and a draw 1; basketball has no draws; in volleyball set difference counts too."],
     ["Do I need an internet connection? Where is my data stored?", "No connection is needed. Your tournaments are stored only on your device; there is no account, no personal data is collected and nothing is sent to a server."],
     ["Is TurnuVolt free?", "The app is a one-time purchase on the App Store, with no subscription, no ads and no in-app purchases. The fixture generator in your browser is completely free."],
-    ["Is it available on Android?", "The Android version is coming soon to Google Play. Right now TurnuVolt is available for iPhone and iPad (iOS 17.6 or later)."]
+    ["Is it available on Android?", "Yes. TurnuVolt is available on Google Play for Android, and on the App Store for iPhone and iPad (iOS 17.6 or later)."]
   ],
 
   "fx_slug": "fixture-generator",
