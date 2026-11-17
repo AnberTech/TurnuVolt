@@ -272,7 +272,7 @@
     render(res); out.hidden=false; last=res;
     try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
     if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'tv/'+String(F.lang).toLowerCase()+'/fikstur-olustur-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
   }
 
   form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });

@@ -642,8 +642,8 @@ a.toolcta{width:calc(100% - 32px)}
       <h2 id="fx-app-h">Αφήστε το TurnuVolt να κρατά το σκορ</h2>
       <p>Στήστε αυτό το τουρνουά στην εφαρμογή TurnuVolt: καθώς καταχωρίζετε τα σκορ, η βαθμολογία, η διαφορά τερμάτων και η κατάταξη ενημερώνονται αυτόματα, οι νικητές προχωρούν στο ταμπλό και ο πρωταθλητής ανεβαίνει στο βάθρο μετά τον τελικό.</p>
       <div class="stores">
-        <a data-goatcounter-click="appstore-turnuvolt-el-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Λήψη από το App Store" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Λήψη από το App Store" width="1062" height="318" /></a>
-      <a data-goatcounter-click="googleplay-turnuvolt-el-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=el" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
+        <a data-goatcounter-click="tv/el/appstore-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Λήψη από το App Store" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Λήψη από το App Store" width="1062" height="318" /></a>
+      <a data-goatcounter-click="tv/el/googleplay-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=el" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
       </div>
     </div>
     <div class="fx-shot"><img src="../../assets/img/tv_ss_fikstur.png" alt="Οθόνη προγράμματος αγώνων και βαθμολογίας" loading="lazy" width="640" height="1391" /></div>
@@ -843,7 +843,7 @@ a.toolcta{width:calc(100% - 32px)}
     render(res); out.hidden=false; last=res;
     try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
     if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'tv/'+String(F.lang).toLowerCase()+'/fikstur-olustur-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
   }
 
   form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });

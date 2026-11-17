@@ -642,8 +642,8 @@ Wölfe" spellcheck="false" autocapitalize="words"></textarea>
       <h2 id="fx-app-h">Lass TurnuVolt die Ergebnisse verwalten</h2>
       <p>Lege dieses Turnier in der TurnuVolt-App an: Während du Ergebnisse einträgst, aktualisieren sich Tabelle, Tordifferenz und Platzierungen automatisch. Die Sieger rücken im Turnierbaum weiter, und nach dem Finale steht der Turniersieger auf dem Podest.</p>
       <div class="stores">
-        <a data-goatcounter-click="appstore-turnuvolt-de-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Im App Store laden" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Im App Store laden" width="1062" height="318" /></a>
-      <a data-goatcounter-click="googleplay-turnuvolt-de-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=de" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
+        <a data-goatcounter-click="tv/de/appstore-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Im App Store laden" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Im App Store laden" width="1062" height="318" /></a>
+      <a data-goatcounter-click="tv/de/googleplay-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=de" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
       </div>
     </div>
     <div class="fx-shot"><img src="../../assets/img/tv_ss_fikstur.png" alt="Ansicht mit Spielplan und Tabelle" loading="lazy" width="640" height="1391" /></div>
@@ -843,7 +843,7 @@ Wölfe" spellcheck="false" autocapitalize="words"></textarea>
     render(res); out.hidden=false; last=res;
     try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
     if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'tv/'+String(F.lang).toLowerCase()+'/fikstur-olustur-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
   }
 
   form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });

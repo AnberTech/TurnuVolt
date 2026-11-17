@@ -642,8 +642,8 @@ Lobos" spellcheck="false" autocapitalize="words"></textarea>
       <h2 id="fx-app-h">Deja que TurnuVolt lleve el marcador</h2>
       <p>Configura este torneo en la app TurnuVolt: al capturar los resultados, la tabla de posiciones, la diferencia de goles y la clasificación se actualizan automáticamente, los ganadores avanzan en las llaves y el campeón sube al podio después de la final.</p>
       <div class="stores">
-        <a data-goatcounter-click="appstore-turnuvolt-es-mx-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Descárgalo en App Store" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Descárgalo en App Store" width="1062" height="318" /></a>
-      <a data-goatcounter-click="googleplay-turnuvolt-es-mx-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=es-MX" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
+        <a data-goatcounter-click="tv/es-mx/appstore-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="Descárgalo en App Store" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="Descárgalo en App Store" width="1062" height="318" /></a>
+      <a data-goatcounter-click="tv/es-mx/googleplay-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=es-MX" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
       </div>
     </div>
     <div class="fx-shot"><img src="../../assets/img/tv_ss_fikstur.png" alt="Pantalla del rol de juegos y la tabla de posiciones" loading="lazy" width="640" height="1391" /></div>
@@ -843,7 +843,7 @@ Lobos" spellcheck="false" autocapitalize="words"></textarea>
     render(res); out.hidden=false; last=res;
     try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
     if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'tv/'+String(F.lang).toLowerCase()+'/fikstur-olustur-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
   }
 
   form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });

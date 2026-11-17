@@ -642,8 +642,8 @@ a.toolcta{width:calc(100% - 32px)}
       <h2 id="fx-app-h">让 TurnuVolt 帮你记分和算排名</h2>
       <p>在 TurnuVolt 应用中创建这项比赛：录入比分后，积分榜、净胜球和名次会自动更新，淘汰赛胜者自动晋级对阵图下一轮，决赛结束后冠军还将登上领奖台。</p>
       <div class="stores">
-        <a data-goatcounter-click="appstore-turnuvolt-zh-hans-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="在 App Store 下载" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="在 App Store 下载" width="1062" height="318" /></a>
-      <a data-goatcounter-click="googleplay-turnuvolt-zh-hans-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=zh-Hans" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
+        <a data-goatcounter-click="tv/zh-hans/appstore-fikstur" href="https://apps.apple.com/app/id6745177155" target="_blank" rel="noopener noreferrer" aria-label="在 App Store 下载" title="App Store"><img src="../../assets/img/app-store-badge.png" alt="在 App Store 下载" width="1062" height="318" /></a>
+      <a data-goatcounter-click="tv/zh-hans/googleplay-fikstur" href="https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt&amp;hl=zh-Hans" target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="../../assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318" /></a>
       </div>
     </div>
     <div class="fx-shot"><img src="../../assets/img/tv_ss_fikstur.png" alt="赛程表与积分榜界面" loading="lazy" width="640" height="1391" /></div>
@@ -843,7 +843,7 @@ a.toolcta{width:calc(100% - 32px)}
     render(res); out.hidden=false; last=res;
     try{ history.replaceState(null,'',shareUrl(res)); }catch(_){}
     if(scroll) out.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'fikstur-olustur-'+F.lang+'-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
+    try{ if(W.goatcounter&&W.goatcounter.count) W.goatcounter.count({path:'tv/'+String(F.lang).toLowerCase()+'/fikstur-olustur-'+format,title:'Fikstür oluşturuldu',event:true}); }catch(_){}
   }
 
   form.addEventListener('submit',function(e){ e.preventDefault(); run(true); });

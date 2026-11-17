@@ -279,10 +279,10 @@ def app_store_url(code):
 
 
 def stores(code, t, base, pos):
-    return (f'<a data-goatcounter-click="appstore-turnuvolt-{code.lower()}-{pos}" href="{e(app_store_url(code))}" target="_blank" '
+    return (f'<a data-goatcounter-click="tv/{code.lower()}/appstore-{pos}" href="{e(app_store_url(code))}" target="_blank" '
             f'rel="noopener noreferrer" aria-label="{e(t["store_alt"])}" title="App Store"><img src="{base}assets/img/app-store-badge.png" '
             f'alt="{e(t["store_alt"])}" width="1062" height="318" /></a>\n'
-            f'      <a data-goatcounter-click="googleplay-turnuvolt-{code.lower()}-{pos}" href="{e(play_url(code))}" target="_blank" '
+            f'      <a data-goatcounter-click="tv/{code.lower()}/googleplay-{pos}" href="{e(play_url(code))}" target="_blank" '
             f'rel="noopener noreferrer" aria-label="Google Play" title="Google Play"><img src="{base}assets/img/google-play-badge.png" '
             f'alt="Google Play" width="1062" height="318" /></a>')
 
