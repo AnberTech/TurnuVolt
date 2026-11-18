@@ -112,7 +112,7 @@
   "fx_p_points_html": "Futbol gibi oyunlarda galibiyet <b>3</b>, beraberlik <b>1</b>, mağlubiyet <b>0</b> puandır; puanlar eşitse averaja (atılan − yenilen), sonra atılan gole bakılır. Basketbol gibi beraberliğin olmadığı oyunlarda galibiyet 2 puandır. Voleybolda 3-0 ya da 3-1 kazanan 3, 3-2 kazanan 2, 2-3 kaybeden 1 puan alır. TurnuVolt bu kuralları seçtiğin oyuna göre kendiliğinden uygular.",
   "fx_faq_h2": "Fikstür hakkında sorular",
   "faq_fx": [
-    ["Fikstür oluşturucu ücretsiz mi?", "Evet. Üyelik gerekmez, reklam yoktur. Fikstür tarayıcında hazırlanır, takım adların hiçbir yere gönderilmez."],
+    ["Fikstür oluşturucu ücretsiz mi?", "Evet. Üyelik gerekmez, reklam yoktur. Fikstür tarayıcında hazırlanır; takım adların bir sunucuda saklanmaz, yalnız paylaşım bağlantısının adresinde taşınır."],
     ["Kaç takıma kadar fikstür hazırlanabilir?", "2 ile 64 takım arasında lig ya da eleme fikstürü hazırlayabilirsin."],
     ["Tek sayıda takımla lig fikstürü olur mu?", "Olur. Her hafta bir takım bay geçer; lig bittiğinde her takım aynı sayıda maç oynamış olur."],
     ["Rövanşlı fikstür nedir?", "Her eşleşmenin iki kez oynandığı fikstürdür. İkinci yarıda ev sahibi ile deplasman yer değiştirir, maç sayısı iki katına çıkar."],
