@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Krok za krokem",
+ "g_faq_h2": "Časté otázky",
+ "g_cta_h2": "Vytvořte si rozpis zápasů hned teď",
+ "g_cta_p": "Zadejte týmy do bezplatného generátoru rozpisu zápasů a za pár sekund máte rozpis pro systém každý s každým nebo vyřazovací systém. Chcete-li vést i výsledky a tabulku, použijte aplikaci TurnuVolt na iPhonu, iPadu nebo Androidu.",
+ "g_cta_btn": "Vytvořit rozpis zdarma",
+ "g_contact": "Dotazy a návrhy:",
+ "g_other_h2": "Další návody",
+ "g_lang": "Jazyk",
+ "g_home": "Domů",
+ "table_slug": "jak-udelat-tabulku-ligy",
+ "table_name": "Jak udělat tabulku ligy",
+ "table_title": "Jak udělat tabulku ligy: body a pořadí | TurnuVolt",
+ "table_desc": "Jak udělat ligovou tabulku: sloupce Z, V, R, P, skóre a body, bodovací systém, pořadí při rovnosti bodů a tipy pro vedení tabulky ručně.",
+ "table_h1": "Jak udělat tabulku ligy",
+ "table_lead": "Tabulka ligy ukáže na první pohled, kde který tým stojí. Vysvětlíme, jaké sloupce potřebujete, jak se přidělují body a kdo je výš, když mají týmy stejně bodů.",
+ "table_card": "Sloupce, bodovací systém, pořadí při rovnosti bodů a tipy pro ruční vedení.",
+ "table_body": [
+  [
+   "Jaké sloupce má ligová tabulka?",
+   "V klasické tabulce ligy má každý tým jeden řádek. Sloupce bývají tyto: <b>Z</b> odehrané zápasy, V výhry, R remízy, P prohry, VG vstřelené góly, IG inkasované góly, Roz rozdíl skóre a <b>B</b> body. Pokud se ve vaší hře nepočítají góly, ale body nebo sety, zapište do těchto sloupců jejich počet. Dvě jednoduché kontroly pomohou odhalit některé nesrovnalosti: v každém řádku musí platit V + R + P = Z a součet VG všech týmů se rovná součtu IG. Pokud to nesedí, projděte záznamy zápasů i výpočty v tabulce. Když to sedí, ještě to nezaručuje, že je každý výsledek správně."
+  ],
+  [
+   "Bodovací systém: výhra, remíza, prohra",
+   "Jak se přidělují body, určují pravidla dané soutěže. Ve hrách s remízou, jako je fotbal, je obvyklé <b>3 body</b> za výhru, 1 bod za remízu a 0 za prohru. Ve hrách bez remíz, jako je basketbal, se za výhru často dávají 2 body. Ve volejbale záleží i na výsledku: běžně dostane vítěz 3:0 nebo 3:1 tři body, vítěz 3:2 dva body a poražený 2:3 jeden bod. Pokud pořádáte vlastní turnaj, oznamte pravidla všem <b>před prvním zápasem</b>. Změna bodování v půlce sezóny snadno vyvolá spory."
+  ],
+  [
+   "Kdo je výš při rovnosti bodů?",
+   "Kritéria při rovnosti bodů se liší soutěž od soutěže, proto se podívejte do pravidel svého turnaje. Často se používá <b>rozdíl skóre</b> (vstřelené minus inkasované góly), větší počet vstřelených gólů, vzájemné zápasy, tedy výsledky týmů se stejným počtem bodů mezi sebou, a nakonec los. Některé ligy dávají vzájemné zápasy před celkový rozdíl skóre, jiné až za něj. Když mají stejně bodů tři a více týmů, mnoho řádů sestaví malou tabulku jen ze zápasů těchto týmů mezi sebou. Když pořadí kritérií <b>sepíšete předem</b>, snížíte riziko sporů na konci sezóny."
+  ],
+  [
+   "Proč je ruční vedení tabulky náročné",
+   "Vést tabulku na papíře nebo v Excelu je náchylné k chybám i v malé lize. Po každém výsledku musíte přepočítat dva řádky najednou a u obou týmů zkontrolovat všechny sloupce: Z, V, R, P, VG, IG, Roz i B. Jedno přehlédnuté číslo může pokazit pořadí a chvíli trvá, než si toho někdo všimne. Práci navíc přidávají odložené zápasy, týmy, které mají při lichém počtu týmů v kole <b>volný los</b>, a ligy hrané doma a venku, kde se počet zápasů zdvojnásobí. Spolehlivý zvyk je čas od času přepočítat tabulku znovu ze všech výsledků a porovnat ji, jenže ručně to také zabere čas."
+  ],
+  [
+   "Tabulka ligy s TurnuVolt",
+   "Když v aplikaci TurnuVolt (iPhone, iPad a Android) založíte ligu, vytvoří se rozpis zápasů i tabulka zároveň. Při zadávání výsledků se sloupce Z, V, R, P, VG, IG, Roz a B i pořadí aktualizují <b>automaticky</b>. Zadávání výsledku odpovídá hře: góly, body, sety nebo jen vítěz. Bodovací pravidlo se řídí zvolenou hrou: ve fotbale je výhra za 3 body, basketbal remízy nezná a ve volejbale se počítá i rozdíl setů. Pokud potřebujete jen dvojice zápasů, stačí <b>bezplatný generátor rozpisu zápasů</b> v prohlížeči; ten ale výsledky ani tabulku nevede."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Založte nový turnaj",
+   "V aplikaci TurnuVolt klepněte na Nový turnaj, pojmenujte ho a zadejte počet týmů nebo hráčů."
+  ],
+  [
+   "Vyberte hru a systém Liga",
+   "Vyberte z více než 60 her nebo použijte Vlastní / jiné; bodování se řídí pravidly hry. Jako systém zvolte Liga, případně se zápasy doma a venku."
+  ],
+  [
+   "Zadejte názvy týmů",
+   "Napište názvy týmů nebo jména hráčů. Rozpis zápasů a tabulka se vytvoří automaticky."
+  ],
+  [
+   "Zadávejte výsledky",
+   "Zadejte výsledek každého zápasu; sloupce Z, V, R, P, VG, IG, Roz a B i pořadí se aktualizují samy."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Co znamená rozdíl skóre v tabulce?",
+   "Rozdíl skóre (v aplikaci sloupec Roz) je počet vstřelených gólů minus počet inkasovaných. Tým, který dal 20 gólů a 12 dostal, má rozdíl skóre +8. Při rovnosti bodů patří k nejčastějším kritériím, ale které kritérium má přednost, se liší soutěž od soutěže; ověřte si to v pravidlech svého turnaje."
+  ],
+  [
+   "Co jsou vzájemné zápasy a jak se počítají?",
+   "Vzájemné zápasy porovnávají týmy se stejným počtem bodů jen podle zápasů, které spolu odehrály. Obvyklými kritérii jsou body a rozdíl skóre z těchto zápasů. Která kritéria platí, v jakém pořadí a zda mají vzájemné zápasy přednost před celkovým rozdílem skóre, ověřte v pravidlech soutěže."
+  ],
+  [
+   "Kolik bodů je za výhru a kolik za remízu?",
+   "Rozhodují pravidla soutěže. Ve hrách, jako je fotbal, je obvyklé 3 body za výhru, 1 za remízu a 0 za prohru. Ve hrách bez remíz bývá výhra často za 2 body. Ať pro svůj turnaj zvolíte jakýkoli systém, oznamte ho všem před začátkem."
+  ],
+  [
+   "Jak vést tabulku s lichým počtem týmů?",
+   "Při lichém počtu týmů má v každém kole jeden tým volný los a nehraje. V průběhu sezóny proto mohou mít týmy ve sloupci Z různá čísla; na konci ligy ale všichni odehrají stejný počet zápasů. Při čtení průběžné tabulky sledujte i počet odehraných zápasů."
+  ],
+  [
+   "Vede bezplatný generátor rozpisu zápasů i tabulku?",
+   "Ne. Bezplatný generátor rozpisu zápasů v prohlížeči připraví jen dvojice zápasů; rozpis můžete vytisknout, zkopírovat nebo sdílet odkazem. Chcete-li zadávat výsledky a mít tabulku automaticky, založte stejný turnaj v aplikaci TurnuVolt. Aplikace se kupuje jednorázově, bez předplatného a bez reklam."
+  ]
+ ],
+ "bracket_slug": "jak-vytvorit-turnajoveho-pavouka",
+ "bracket_name": "Jak vytvořit pavouka turnaje",
+ "bracket_title": "Jak vytvořit pavouka turnaje: volný los | TurnuVolt",
+ "bracket_desc": "Jak vytvořit pavouka vyřazovacího turnaje: kolik volných losů, když počet týmů není mocnina dvou, nasazení, los a názvy kol. Pavouk zdarma online.",
+ "bracket_h1": "Jak vytvořit pavouka turnaje",
+ "bracket_lead": "Pavouk turnaje ukazuje, kdo hraje s kým a kam postupuje vítěz. Vysvětlíme, jak spočítat volné losy, rozmístit nasazené týmy a udělat spravedlivý los.",
+ "bracket_card": "Volné losy, nasazení, los a názvy kol pro pavouka vyřazovacího systému.",
+ "bracket_body": [
+  [
+   "Jak funguje vyřazovací systém?",
+   "Ve vyřazovacím systému (play-off na jeden zápas) poražený z turnaje vypadává a vítěz postupuje do dalšího kola. Po prvním kole, případně s volnými losy, se počet týmů každým kolem zmenší na polovinu a kdo vyhraje finále, je vítězem turnaje. Protože v každém zápase vypadne právě jeden tým, odehraje se v turnaji s <b>n týmy</b> vždy <b>n − 1 zápasů</b>: 16 týmů najde vítěze za 4 kola a 15 zápasů. Tento systém je rychlý, ale jeden špatný den může vyřadit i silný tým. Chcete-li, aby všichni odehráli víc zápasů, zvažte systém každý s každým nebo skupiny a po nich vyřazovací část."
+  ],
+  [
+   "Když počet týmů není mocnina dvou: volný los",
+   "Aby pavouk fungoval, musí po prvním kole zůstat počet týmů rovný mocnině dvou (2, 4, 8, 16, 32…). Pokud váš počet týmů nesedí, některé týmy mají v prvním kole <b>volný los</b>: nehrají a postupují rovnou do druhého kola. Počet volných losů zjistíte tak, že od nejbližší mocniny dvou, která je větší nebo rovna počtu týmů, odečtete počet týmů: při 6 týmech 8 − 6 = 2, při 10 týmech 16 − 10 = 6, při 12 týmech 16 − 12 = 4. Ostatní týmy hrají první kolo a <b>od druhého kola</b> zůstává přesně mocnina dvou."
+  ],
+  [
+   "Nasazení a los",
+   "Nasazení znamená rozmístit nejsilnější týmy v pavouku daleko od sebe, aby se nepotkaly v prvních kolech. V klasickém pavouku pro 8 týmů hraje nasazená jednička s osmičkou, dvojka se sedmičkou a jednička s dvojkou se mohou potkat až ve finále. Pokud jsou volné losy, často se dávají nasazeným týmům. Když nasazení nepoužijete, určete dvojice <b>losem</b>: losování před všemi nebo nástroj, který pořadí náhodně zamíchá, může posílit pocit férovosti. Ať zvolíte jakoukoli metodu, oznamte ji <b>před začátkem turnaje</b>."
+  ],
+  [
+   "Názvy kol a plánování",
+   "V plném pavouku se kola jmenují podle počtu zbývajících týmů: 16 týmů je <b>osmifinále</b>, 8 týmů čtvrtfinále, 4 týmy semifinále a poslední dva týmy hrají finále. V pavouku s volnými losy lze první kolo pojmenovat podle mocniny dvou, na kterou se pavouk doplní; u 6 týmů se první kolo počítá jako čtvrtfinále. Spočítejte i kola: 8 týmů potřebuje 3 kola, 16 týmů 4 kola a 32 týmů 5 kol. Každý zápas <b>očíslujte</b> a do dalšího kola pište třeba „Vítěz zápasu č. 3“; pavouk pak dává smysl ještě před výsledky. Některé turnaje hrají i zápas o 3. místo."
+  ],
+  [
+   "Pavouk turnaje s TurnuVolt",
+   "<b>Bezplatný generátor rozpisu zápasů</b> TurnuVolt běží v prohlížeči a připraví vyřazovací pavouk pro 2 až 64 týmů. Pokud počet týmů není mocnina dvou, chybějící počet týmů má v prvním kole volný los. Volný los dostanou týmy na začátku seznamu; když je zapnuté „Zamíchat los“, seznam se zamíchá a změní se i týmy s volným losem. Nástroj sám klasické nasazení nedělá, zbylé týmy páruje v pořadí podle seznamu. Další kola ukazují zástupné texty jako „Vítěz zápasu č. 1“; pavouka můžete vytisknout, zkopírovat nebo sdílet odkazem. Vítěze zaznamenáte v <b>aplikaci TurnuVolt</b> klepnutím na vítězný tým."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Zadejte týmy",
+   "V bezplatném generátoru rozpisu zápasů napište na každý řádek jeden tým, nebo zadejte počet týmů a klepněte na Doplnit. Týmy, které mají dostat volný los, dejte nahoru."
+  ],
+  [
+   "Zvolte Vyřazovací systém",
+   "Jako herní systém zvolte Vyřazovací systém. Pro náhodný los zaškrtněte „Zamíchat los“; tím se změní i týmy s volným losem."
+  ],
+  [
+   "Vygenerujte pavouka",
+   "Klepněte na Vygenerovat rozpis zápasů. Zobrazí se zápasy prvního kola, týmy s volným losem a všechna kola až po finále jako očíslované zápasy."
+  ],
+  [
+   "Sdílejte a zaznamenávejte výsledky",
+   "Vytiskněte, zkopírujte nebo sdílejte odkaz (při sdílení odkazem nepoužívejte v názvech týmů znak |). Pro zaznamenání vítězů založte turnaj v aplikaci TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Co znamená volný los v pavouku?",
+   "Volný los znamená, že tým postoupí do dalšího kola bez zápasu. Používá se k vyrovnání pavouka, když počet týmů není mocnina dvou. Volné losy často dostávají nasazené týmy nebo týmy určené losem; podrobnosti závisí na pravidlech vašeho turnaje."
+  ],
+  [
+   "Kolik volných losů potřebuji?",
+   "Najděte nejbližší mocninu dvou, která je větší nebo rovna počtu týmů, a odečtěte od ní počet týmů. Při 5 týmech jsou potřeba 3 volné losy, při 6 týmech 2, při 7 týmech 1 a při 9 týmech 7. Ve druhém kole pak zůstane přesně 4, 8 nebo 16 týmů."
+  ],
+  [
+   "Kolik zápasů má vyřazovací turnaj?",
+   "Vyřazovací turnaj s n týmy má vždy n − 1 zápasů, protože v každém zápase vypadne jeden tým a každý kromě vítěze prohraje právě jednou. 8 týmů odehraje 7 zápasů, 12 týmů 11 zápasů a 32 týmů 31 zápasů. Zápas o 3. místo přidá jeden zápas navíc."
+  ],
+  [
+   "Jak se určuje nasazení?",
+   "Nasazení se obvykle určuje podle dřívějších výsledků, pořadí v předchozí lize nebo skupině, případně podle úsudku pořadatele. Kterou metodu použijete, závisí na pravidlech vašeho turnaje. Když kritéria vysvětlíte předem, snížíte riziko sporů o nasazení."
+  ],
+  [
+   "Pro kolik týmů udělá bezplatný nástroj pavouka?",
+   "Bezplatný generátor rozpisu zápasů TurnuVolt připraví vyřazovací pavouk pro 2 až 64 týmů. Registrace není potřeba a rozpis se počítá ve vašem prohlížeči. Odkaz pro sdílení nese názvy týmů přímo v adrese, takže je uvidí každý, komu ho pošlete. Stejným nástrojem připravíte i rozpis ligy každý s každým."
+  ]
+ ]
+}

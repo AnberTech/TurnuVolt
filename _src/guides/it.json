@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Passo dopo passo",
+ "g_faq_h2": "Domande frequenti",
+ "g_cta_h2": "Crea subito il tuo calendario",
+ "g_cta_p": "Inserisci le squadre nel generatore di calendari gratuito e in pochi secondi avrai il calendario di un girone all'italiana o un tabellone a eliminazione diretta. Per tenere anche risultati e classifica, usa l'app TurnuVolt su iPhone, iPad o Android.",
+ "g_cta_btn": "Crea un calendario gratis",
+ "g_contact": "Domande e suggerimenti:",
+ "g_other_h2": "Altre guide",
+ "g_lang": "Lingua",
+ "g_home": "Home",
+ "table_slug": "come-fare-una-classifica",
+ "table_name": "Come fare una classifica",
+ "table_title": "Come fare una classifica di campionato | TurnuVolt",
+ "table_desc": "Come fare la classifica di un campionato: colonne G, V, N, P, GF, GS e DR, sistema di punteggio, criteri in caso di parità e consigli per tenerla a mano.",
+ "table_h1": "Come fare una classifica di campionato",
+ "table_lead": "La classifica mostra a colpo d'occhio la posizione di ogni squadra. Ti spieghiamo quali colonne servono, come si assegnano i punti e chi sta davanti in caso di parità di punti.",
+ "table_card": "Colonne, punteggio, criteri in caso di parità e consigli per tenere la classifica a mano.",
+ "table_body": [
+  [
+   "Quali colonne ha una classifica?",
+   "In una classifica di campionato classica ogni squadra occupa una riga. Le colonne di solito sono: <b>G</b> partite giocate, V vinte, N pareggiate, P perse, GF gol fatti, GS gol subiti, DR differenza reti e <b>Pt</b> punti. Se nel tuo gioco si contano punti o set invece dei gol, puoi scrivere quell'unità in queste colonne. Due controlli veloci ti aiutano a scovare alcune incongruenze: in ogni riga V + N + P deve essere uguale a G, e nell'intera classifica il totale dei GF è uguale al totale dei GS. Se i conti non tornano, ricontrolla i referti delle partite e i calcoli della classifica. Se invece tornano, non è comunque garantito che ogni risultato sia giusto."
+  ],
+  [
+   "Punteggio: vittoria, pareggio, sconfitta",
+   "Come si assegnano i punti lo decide il regolamento di ogni campionato. Negli sport in cui esiste il pareggio, come il calcio, lo schema più diffuso è <b>3 punti</b> per la vittoria, 1 per il pareggio e 0 per la sconfitta. Negli sport senza pareggio, come il basket, una vittoria vale spesso 2 punti. Nella pallavolo conta anche il punteggio: di solito si danno 3 punti per una vittoria per 3-0 o 3-1, 2 per una vittoria per 3-2 e 1 per una sconfitta per 2-3. Se organizzi un torneo tuo, comunica la regola a tutti <b>prima della prima partita</b>; cambiare il sistema di punteggio a metà stagione può far nascere discussioni con facilità."
+  ],
+  [
+   "Parità di punti: chi sta davanti?",
+   "I criteri in caso di parità cambiano da campionato a campionato, quindi controlla il regolamento della tua competizione. I più usati sono la <b>differenza reti</b> (gol fatti meno gol subiti), il numero di gol fatti, gli scontri diretti, cioè i risultati tra le squadre a pari punti, e come ultima risorsa il sorteggio. Alcuni campionati applicano gli scontri diretti prima della differenza reti generale, altri dopo. Quando sono a pari punti tre o più squadre, molti regolamenti creano una classifica avulsa con le sole partite giocate tra quelle squadre. <b>Mettere per iscritto in anticipo</b> l'ordine dei criteri riduce il rischio di contestazioni a fine stagione."
+  ],
+  [
+   "Perché tenere la classifica a mano è difficile",
+   "Tenere la classifica su carta o in un foglio di calcolo espone a errori, anche in un campionato piccolo. Dopo ogni risultato bisogna ricalcolare due righe insieme: G, V, N, P, GF, GS, DR e Pt di entrambe le squadre. Un numero saltato può falsare la classifica e ci può volere tempo prima che qualcuno se ne accorga. Le partite rinviate, le squadre che <b>riposano</b> quando il numero di squadre è dispari e i gironi di andata e ritorno, che raddoppiano le partite, rendono il lavoro ancora più pesante. Un'abitudine affidabile è ricalcolare ogni tanto la classifica da tutti i risultati e confrontarla con la tua, ma a mano anche questo richiede tempo."
+  ],
+  [
+   "Tenere la classifica con TurnuVolt",
+   "Quando crei un campionato nell'app TurnuVolt (iPhone, iPad e Android), il calendario e la classifica nascono insieme. Mentre inserisci i risultati, le colonne G, V, N, P, GF, GS, DR e Pt e le posizioni si aggiornano <b>automaticamente</b>. L'inserimento del risultato si adatta al gioco: gol, punti, set o solo il vincitore. Anche la regola dei punti segue il gioco che scegli: nel calcio la vittoria vale 3 punti, nel basket non c'è pareggio e nella pallavolo conta anche il quoziente set. Se ti servono solo gli abbinamenti, basta il <b>generatore di calendari gratuito</b> nel browser, che però non tiene né risultati né classifica."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Crea un nuovo torneo",
+   "Nell'app TurnuVolt tocca Nuovo torneo, dai un nome al torneo e inserisci il numero di squadre o giocatori."
+  ],
+  [
+   "Scegli il gioco e il formato Lega",
+   "Scegli tra più di 60 giochi oppure usa Altro / personalizzato; il punteggio segue le regole del gioco. Come formato scegli Lega, se vuoi con andata e ritorno."
+  ],
+  [
+   "Scrivi i nomi delle squadre",
+   "Inserisci i nomi delle squadre o dei giocatori. Il calendario e la classifica vengono creati automaticamente."
+  ],
+  [
+   "Inserisci i risultati",
+   "Inserisci il risultato di ogni partita; le colonne G, V, N, P, GF, GS, DR e Pt e le posizioni si aggiornano da sole."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Cosa significa DR in classifica?",
+   "DR sta per differenza reti: i gol fatti meno i gol subiti. Una squadra che ha segnato 20 gol e ne ha subiti 12 ha una differenza reti di +8. È uno dei criteri più comuni in caso di parità di punti, ma quale criterio venga prima cambia da campionato a campionato: controlla il regolamento della tua competizione."
+  ],
+  [
+   "Cosa sono gli scontri diretti?",
+   "Gli scontri diretti confrontano le squadre a pari punti usando solo le partite giocate tra loro. I punti e la differenza reti di queste partite sono i criteri più comuni. Controlla nel regolamento del tuo campionato quali criteri valgono, in che ordine e se gli scontri diretti vengono prima o dopo la differenza reti generale."
+  ],
+  [
+   "Quanti punti vale una vittoria o un pareggio?",
+   "Lo decide il regolamento del campionato. In sport come il calcio lo schema abituale è 3 punti per la vittoria, 1 per il pareggio e 0 per la sconfitta. Negli sport senza pareggio una vittoria vale spesso 2 punti. Qualunque sistema tu scelga per il tuo torneo, comunicalo a tutti prima di iniziare."
+  ],
+  [
+   "Come si tiene la classifica con un numero dispari di squadre?",
+   "Con un numero dispari di squadre, a ogni giornata una squadra riposa e non gioca. Per questo a metà stagione le squadre possono avere numeri diversi nella colonna G; a fine campionato tutte avranno giocato lo stesso numero di partite. Quando leggi la classifica parziale, tieni conto delle partite giocate."
+  ],
+  [
+   "Il generatore di calendari gratuito tiene la classifica?",
+   "No. Il generatore di calendari gratuito nel browser prepara solo gli abbinamenti; puoi stampare il calendario, copiarlo o condividerlo con un link. Per inserire i risultati e tenere la classifica in automatico, crea lo stesso torneo nell'app TurnuVolt. L'app si acquista una sola volta, senza abbonamento e senza pubblicità."
+  ]
+ ],
+ "bracket_slug": "tabellone-eliminazione-diretta",
+ "bracket_name": "Tabellone a eliminazione diretta",
+ "bracket_title": "Come fare un tabellone a eliminazione diretta | TurnuVolt",
+ "bracket_desc": "Come creare un tabellone a eliminazione diretta: quanti bye servono, teste di serie, sorteggio e nomi dei turni. Crea gratis il tabellone del tuo torneo.",
+ "bracket_h1": "Come fare un tabellone a eliminazione diretta",
+ "bracket_lead": "Il tabellone mostra chi gioca contro chi e dove passa ogni vincente. Ti spieghiamo come calcolare i bye, sistemare le teste di serie e fare un sorteggio equo.",
+ "bracket_card": "Bye, teste di serie, sorteggio e nomi dei turni per un tabellone a eliminazione diretta.",
+ "bracket_body": [
+  [
+   "Come funziona un torneo a eliminazione diretta?",
+   "In un torneo a eliminazione diretta chi perde è fuori e chi vince passa al turno successivo. Dopo un primo turno con eventuali bye, il numero di squadre si dimezza a ogni turno e chi vince la finale è il campione. Poiché ogni partita elimina esattamente una squadra, un torneo con <b>n squadre</b> ha sempre <b>n − 1 partite</b>: 16 squadre hanno bisogno di 4 turni e 15 partite per avere un campione. Il formato dà un risultato in fretta, ma una giornata storta può far uscire anche una squadra forte. Se vuoi che tutti giochino più partite, valuta un girone all'italiana oppure una fase a gironi seguita dall'eliminazione diretta."
+  ],
+  [
+   "Se il numero di squadre non è una potenza di 2: i bye",
+   "Perché il tabellone torni, il numero di squadre rimaste dopo il primo turno deve essere una potenza di 2 (2, 4, 8, 16, 32…). Se il tuo numero di squadre non va bene, alcune squadre ricevono un <b>bye</b>: saltano il primo turno e passano direttamente al secondo. Il numero di bye è la prima potenza di 2 maggiore o uguale al numero di squadre, meno il numero di squadre. Con 6 squadre i bye sono 8 − 6 = 2, con 10 squadre 16 − 10 = 6, con 12 squadre 16 − 12 = 4. Le altre squadre giocano il primo turno e, <b>dal secondo turno</b>, restano esattamente una potenza di 2 di squadre."
+  ],
+  [
+   "Teste di serie e sorteggio",
+   "Le teste di serie sono le squadre considerate più forti, che si collocano lontane tra loro nel tabellone perché non si incontrino nei primi turni. In un tabellone classico a 8 squadre la testa di serie n. 1 affronta la n. 8, la n. 2 affronta la n. 7, e la 1 e la 2 possono incontrarsi solo in finale. Se ci sono bye, assegnarli alle teste di serie è una scelta frequente. Se non usi teste di serie, decidi gli abbinamenti con un <b>sorteggio</b>: estrarre i nomi davanti a tutti oppure usare uno strumento che mescola l'ordine a caso può rafforzare il senso di equità. Qualunque metodo tu scelga, annuncialo <b>prima del torneo</b>."
+  ],
+  [
+   "Nomi dei turni e pianificazione",
+   "In un tabellone completo i turni prendono il nome dal numero di squadre rimaste: con 16 squadre sono gli <b>ottavi di finale</b>, con 8 i quarti di finale, con 4 le semifinali e con le ultime due la finale. In un tabellone con bye il primo turno può prendere il nome dalla dimensione del tabellone; con 6 squadre il primo turno conta come quarti di finale. Calcola anche i turni: 8 squadre ne richiedono 3, 16 squadre 4 e 32 squadre 5. Dai un <b>numero</b> a ogni partita e nel turno successivo scrivi “Vincente della partita 3” e così via: così il tabellone si legge anche prima dei risultati. Alcuni tornei prevedono anche la finale per il terzo posto."
+  ],
+  [
+   "Creare il tabellone con TurnuVolt",
+   "Il <b>generatore di calendari gratuito</b> di TurnuVolt prepara nel browser un tabellone a eliminazione diretta da 2 a 64 squadre. Se il numero di squadre non è una potenza di 2, ricevono un bye al primo turno tante squadre quante ne mancano. I bye vanno alle squadre in cima alla tua lista; se “Sorteggia gli abbinamenti” è attivo, la lista viene mescolata e cambiano anche le squadre con il bye. Lo strumento non crea teste di serie classiche: abbina le squadre restanti nell'ordine della lista. I turni successivi mostrano “Vincente della partita #1” e simili, e puoi stampare, copiare o condividere il tabellone con un link. Per registrare i vincenti, tocca la squadra vincente nell'<b>app TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Inserisci le squadre",
+   "Nel generatore di calendari gratuito scrivi una squadra per riga oppure inserisci il numero di squadre e tocca Compila. Metti in cima le squadre che devono ricevere un bye."
+  ],
+  [
+   "Scegli Eliminazione diretta",
+   "Come formato scegli Eliminazione diretta. Per un sorteggio attiva “Sorteggia gli abbinamenti”; in questo modo cambiano anche le squadre che ricevono un bye."
+  ],
+  [
+   "Genera il tabellone",
+   "Tocca Genera calendario. Le partite del primo turno, le squadre con il bye e tutti i turni fino alla finale compaiono come partite numerate."
+  ],
+  [
+   "Condividilo e registra i risultati",
+   "Stampa il tabellone, copialo o condividi il link (se lo condividi tramite link, non usare | nei nomi delle squadre). Per registrare i vincenti, crea il torneo nell'app TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Cos'è un bye in un tabellone?",
+   "Un bye significa che una squadra passa al turno successivo senza giocare. I bye bilanciano il tabellone quando il numero di squadre non è una potenza di 2. Spesso vanno alle teste di serie o a squadre scelte con un sorteggio; i dettagli dipendono dal regolamento del tuo torneo."
+  ],
+  [
+   "Quanti bye servono?",
+   "Trova la prima potenza di 2 maggiore o uguale al tuo numero di squadre e sottrai il numero di squadre. Con 5 squadre servono 3 bye, con 6 ne servono 2, con 7 uno e con 9 ne servono 7. Così al secondo turno restano esattamente 4, 8 o 16 squadre."
+  ],
+  [
+   "Quante partite ci sono in un torneo a eliminazione diretta?",
+   "Un torneo a eliminazione diretta con n squadre ha sempre n − 1 partite, perché ogni partita elimina una squadra e tutte tranne il campione perdono esattamente una volta. Con 8 squadre si giocano 7 partite, con 12 se ne giocano 11 e con 32 se ne giocano 31. La finale per il terzo posto ne aggiunge una."
+  ],
+  [
+   "Come si scelgono le teste di serie?",
+   "Le teste di serie si basano di solito sui risultati precedenti, sulla classifica di un campionato o di una fase a gironi precedente, oppure sulla valutazione dell'organizzatore. Il metodo dipende dal regolamento del tuo torneo. Spiegare i criteri in anticipo può ridurre le discussioni su questa scelta."
+  ],
+  [
+   "Per quante squadre funziona il generatore gratuito?",
+   "Il generatore di calendari gratuito di TurnuVolt crea tabelloni a eliminazione diretta da 2 a 64 squadre. Non serve registrarsi e il calendario viene calcolato nel tuo browser. Il link di condivisione contiene i nomi delle squadre nell'indirizzo: chi lo riceve, quindi, vede anche i nomi. Con lo stesso strumento puoi preparare anche il calendario di un girone all'italiana."
+  ]
+ ]
+}

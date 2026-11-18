@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>トーナメント表の作り方｜シード・不戦勝の計算 | TurnuVolt</title>
+<meta name="description" content="勝ち抜きトーナメント表の作り方を解説。チーム数が2のべき乗でないときの不戦勝（シード）の数、シード順位、抽選、回戦の呼び方。無料で作成できます。">
+<link rel="canonical" href="https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/">
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/TurnuVolt/eleme-agaci-olusturma/">
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/TurnuVolt/en/tournament-bracket-maker/">
+<link rel="alternate" hreflang="ar" href="https://anbertech.github.io/TurnuVolt/ar/jadwal-khuruj-almaghlub/">
+<link rel="alternate" hreflang="cs" href="https://anbertech.github.io/TurnuVolt/cs/jak-vytvorit-turnajoveho-pavouka/">
+<link rel="alternate" hreflang="da" href="https://anbertech.github.io/TurnuVolt/da/lav-en-knockout-turnering/">
+<link rel="alternate" hreflang="de" href="https://anbertech.github.io/TurnuVolt/de/turnierbaum-erstellen/">
+<link rel="alternate" hreflang="el" href="https://anbertech.github.io/TurnuVolt/el/tamplo-nok-aout/">
+<link rel="alternate" hreflang="es" href="https://anbertech.github.io/TurnuVolt/es/como-hacer-cuadro-de-eliminatorias/">
+<link rel="alternate" hreflang="es-MX" href="https://anbertech.github.io/TurnuVolt/es-mx/como-hacer-llaves-de-torneo/">
+<link rel="alternate" hreflang="fa" href="https://anbertech.github.io/TurnuVolt/fa/jadval-hazfi/">
+<link rel="alternate" hreflang="fi" href="https://anbertech.github.io/TurnuVolt/fi/pudotuspelikaavion-tekeminen/">
+<link rel="alternate" hreflang="fr" href="https://anbertech.github.io/TurnuVolt/fr/creer-un-tableau-elimination-directe/">
+<link rel="alternate" hreflang="he" href="https://anbertech.github.io/TurnuVolt/he/etz-nokaut/">
+<link rel="alternate" hreflang="hi" href="https://anbertech.github.io/TurnuVolt/hi/knockout-bracket-kaise-banaye/">
+<link rel="alternate" hreflang="hu" href="https://anbertech.github.io/TurnuVolt/hu/egyenes-kieses-agrajz-keszitese/">
+<link rel="alternate" hreflang="id" href="https://anbertech.github.io/TurnuVolt/id/cara-membuat-bagan-turnamen/">
+<link rel="alternate" hreflang="it" href="https://anbertech.github.io/TurnuVolt/it/tabellone-eliminazione-diretta/">
+<link rel="alternate" hreflang="ja" href="https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/">
+<link rel="alternate" hreflang="ko" href="https://anbertech.github.io/TurnuVolt/ko/tournament-daejinpyo-mandeulgi/">
+<link rel="alternate" hreflang="ms" href="https://anbertech.github.io/TurnuVolt/ms/cara-membuat-carta-kalah-mati/">
+<link rel="alternate" hreflang="nb" href="https://anbertech.github.io/TurnuVolt/nb/lage-utslagsturnering/">
+<link rel="alternate" hreflang="nl" href="https://anbertech.github.io/TurnuVolt/nl/knock-outschema-maken/">
+<link rel="alternate" hreflang="pl" href="https://anbertech.github.io/TurnuVolt/pl/jak-zrobic-drabinke-turniejowa/">
+<link rel="alternate" hreflang="pt-BR" href="https://anbertech.github.io/TurnuVolt/pt-br/como-montar-chaveamento-mata-mata/">
+<link rel="alternate" hreflang="pt-PT" href="https://anbertech.github.io/TurnuVolt/pt-pt/como-fazer-quadro-de-eliminatorias/">
+<link rel="alternate" hreflang="ro" href="https://anbertech.github.io/TurnuVolt/ro/tablou-eliminare-directa/">
+<link rel="alternate" hreflang="ru" href="https://anbertech.github.io/TurnuVolt/ru/turnirnaya-setka/">
+<link rel="alternate" hreflang="sv" href="https://anbertech.github.io/TurnuVolt/sv/gora-en-utslagsturnering/">
+<link rel="alternate" hreflang="th" href="https://anbertech.github.io/TurnuVolt/th/sai-kan-khaeng-knockout/">
+<link rel="alternate" hreflang="uk" href="https://anbertech.github.io/TurnuVolt/uk/turnirna-sitka/">
+<link rel="alternate" hreflang="vi" href="https://anbertech.github.io/TurnuVolt/vi/cach-tao-nhanh-dau-loai-truc-tiep/">
+<link rel="alternate" hreflang="zh-Hans" href="https://anbertech.github.io/TurnuVolt/zh-hans/taotaisai-duizhentu/">
+<link rel="alternate" hreflang="zh-Hant" href="https://anbertech.github.io/TurnuVolt/zh-hant/taotaisai-duizhanbiao/">
+<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/en/tournament-bracket-maker/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="TurnuVolt">
+<meta property="og:url" content="https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="トーナメント表の作り方｜シード・不戦勝の計算 | TurnuVolt">
+<meta property="og:description" content="勝ち抜きトーナメント表の作り方を解説。チーム数が2のべき乗でないときの不戦勝（シード）の数、シード順位、抽選、回戦の呼び方。無料で作成できます。">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://anbertech.github.io/TurnuVolt/assets/img/favicon.png?v=2">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>:root{--bg:#070B10;--card:#0F1720;--soft:#16212d;--line:rgba(234,242,255,.12);--ink:#EAF2FF;--muted:#9fb0c3;--acc:#F2C14E;--f-head:'Big Shoulders Display','Oswald',Impact,'Arial Narrow',sans-serif;--f-text:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;--f-ui:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}h1,h2,.brand,.tcard b{letter-spacing:.01em}.btn,.step::before{color:#070B10!important}html[lang=ar],html[lang=fa],html[lang=he],html[lang=hi],html[lang=th],html[lang=ja],html[lang=ko],html[lang=zh-Hans],html[lang=zh-Hant],html[lang=el],html[lang=ru],html[lang=uk]{--f-head:-apple-system,'Segoe UI',Roboto,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--f-text);-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:780px;margin:0 auto;padding:16px 20px}
+.brand{font:600 18px/1 var(--f-head);color:var(--ink);text-decoration:none;letter-spacing:.01em}
+.lm summary{cursor:pointer;list-style:none;font:500 13px/1 var(--f-ui);padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.lm summary::-webkit-details-marker{display:none}
+.lm{position:relative}.lm nav{position:absolute;z-index:5;inset-inline-end:0;top:calc(100% + 6px);display:grid;grid-template-columns:1fr 1fr;gap:2px;
+  padding:8px;min-width:240px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px -12px rgba(0,0,0,.25)}
+.lm nav a{padding:6px 8px;border-radius:8px;text-decoration:none;color:var(--ink);font:400 14px/1.3 var(--f-ui)}
+.lm nav a[aria-current]{background:var(--soft);font-weight:600}
+main{max-width:780px;margin:0 auto;padding:8px 20px 40px}
+.crumbs{font:400 13px/1.4 var(--f-ui);color:var(--muted);margin:8px 0 0}.crumbs a{color:var(--muted)}
+h1{font:600 clamp(30px,6vw,44px)/1.12 var(--f-head);margin:10px 0 12px;letter-spacing:-.01em}
+.lead{font-size:19px;color:var(--muted);margin:0 0 26px}
+h2{font:600 clamp(22px,4.4vw,27px)/1.22 var(--f-head);margin:34px 0 10px}
+.content p{margin:0 0 6px}
+.box{margin-top:34px;padding:22px 20px;border-radius:18px;background:var(--card);border:1px solid var(--line)}
+.box h2{margin-top:0}
+.steps{display:grid;gap:12px;counter-reset:s}
+.step{display:grid;grid-template-columns:34px 1fr;gap:4px 12px;counter-increment:s}
+.step::before{content:counter(s);grid-row:span 2;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--acc);color:#fff;font:600 15px/1 var(--f-ui)}
+.step b{font:600 17px/1.35 var(--f-text)}.step span{color:var(--muted)}
+.faq details{border-top:1px solid var(--line);padding:12px 0}.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font-weight:600}.faq details p{margin:8px 0 0;color:var(--muted)}
+.cta{text-align:center}.cta p{color:var(--muted);margin:0 0 16px}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;background:var(--acc);color:#fff;text-decoration:none;font:600 15px/1 var(--f-ui)}
+.contact{margin-top:14px;font:400 14px/1.4 var(--f-ui);color:var(--muted)}
+.topics{display:grid;gap:12px}
+.tcard{display:block;padding:16px 18px;border-radius:14px;border:1px solid var(--line);background:var(--card);text-decoration:none;color:var(--ink)}
+.tcard b{display:block;font:600 17px/1.3 var(--f-head)}.tcard span{color:var(--muted);font-size:15px}
+footer{max-width:780px;margin:0 auto;padding:20px 20px 40px;font:400 13px/1.5 var(--f-ui);color:var(--muted)}
+@media (min-width:640px){.topics{grid-template-columns:1fr 1fr}}
+[dir=rtl] .step{direction:rtl}
+h1,h2{text-wrap:balance}
+html[lang=ko] body{word-break:keep-all;overflow-wrap:anywhere}
+html[lang=ja] body{line-break:strict}
+html[lang=ja] :is(h1,h2),html[lang^=zh] :is(h1,h2),html[lang=th] :is(h1,h2){text-wrap:wrap}</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebPage","@id":"https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/#page","url":"https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/","name":"トーナメント表の作り方｜シード・不戦勝の計算 | TurnuVolt","description":"勝ち抜きトーナメント表の作り方を解説。チーム数が2のべき乗でないときの不戦勝（シード）の数、シード順位、抽選、回戦の呼び方。無料で作成できます。","inLanguage":"ja","publisher":{"@id":"https://anbertech.github.io/#org"},"mainEntity":{"@type":"HowTo","name":"トーナメント表（勝ち抜き戦）の作り方","step":[{"@type":"HowToStep","position":1,"name":"チーム名を入力する","text":"無料の対戦表メーカーに1行に1チームずつ入力するか、チーム数を入れて「自動入力」を押します。不戦勝にしたいチームはいちばん上に書きます。"},{"@type":"HowToStep","position":2,"name":"トーナメント戦を選ぶ","text":"大会形式で「トーナメント戦（勝ち抜き）」を選びます。抽選にしたいなら「組み合わせをシャッフル」にチェックを入れます。この場合、不戦勝のチームも抽選で変わります。"},{"@type":"HowToStep","position":3,"name":"対戦表を作成する","text":"「対戦表を作成する」を押します。1回戦の組み合わせ、不戦勝のチーム、決勝までのすべての回戦が番号付きの試合で表示されます。"},{"@type":"HowToStep","position":4,"name":"共有して結果を記録する","text":"印刷、コピー、リンク共有ができます（リンクで共有するときはチーム名に「|」を使わないでください）。勝者を記録するには、TurnuVoltアプリで大会を作ります。"}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TurnuVolt","item":"https://anbertech.github.io/TurnuVolt/ja/"},{"@type":"ListItem","position":2,"name":"トーナメント表の作り方","item":"https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/"}]},{"@type":"FAQPage","@id":"https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/#faq","inLanguage":"ja","mainEntity":[{"@type":"Question","name":"トーナメントの不戦勝（シード）とは？","acceptedAnswer":{"@type":"Answer","text":"不戦勝とは、その回戦で試合をせずに次の回戦へ進むことです。チーム数が2のべき乗でないときに表のバランスを取るために使います。上位シードや抽選で選ばれたチームに与えることが多く、詳細は大会のルールによります。"}},{"@type":"Question","name":"不戦勝は何チーム必要？","acceptedAnswer":{"@type":"Answer","text":"チーム数以上で最小の2のべき乗を求め、そこからチーム数を引きます。5チームなら3、6チームなら2、7チームなら1、9チームなら7チームが不戦勝です。これで2回戦は4、8、16のようなきりのいい数になります。"}},{"@type":"Question","name":"トーナメントの試合数は？","acceptedAnswer":{"@type":"Answer","text":"nチームの勝ち抜きトーナメントは必ずn − 1試合です。1試合ごとに1チームが敗退し、優勝チーム以外は全員ちょうど1回負けるからです。8チームなら7試合、12チームなら11試合、32チームなら31試合。3位決定戦を行えば1試合増えます。"}},{"@type":"Question","name":"シード順位はどう決める？","acceptedAnswer":{"@type":"Answer","text":"シード順位は、過去の成績、予選リーグやグループステージの順位、主催者の判断などで決めるのが一般的です。どの方法を使うかは大会のルールによります。基準を事前に説明しておくと、選び方をめぐるもめごとを減らせます。"}},{"@type":"Question","name":"無料ツールで何チームまで作れる？","acceptedAnswer":{"@type":"Answer","text":"TurnuVoltの無料の対戦表メーカーは2〜64チームのトーナメント表を作れます。登録不要で、対戦表はブラウザ内で計算されます。共有リンクはチーム名をURLに含むため、リンクを送った相手にもチーム名が見えます。同じツールでリーグ戦の対戦表も作れます。"}}]}]}</script>
+</head>
+<body>
+<header class="top"><a class="brand" href="https://anbertech.github.io/TurnuVolt/ja/">TurnuVolt</a><details class="lm"><summary aria-label="言語">JA ▾</summary><nav><a href="https://anbertech.github.io/TurnuVolt/eleme-agaci-olusturma/" hreflang="tr" lang="tr">Türkçe</a><a href="https://anbertech.github.io/TurnuVolt/en/tournament-bracket-maker/" hreflang="en" lang="en">English</a><a href="https://anbertech.github.io/TurnuVolt/ar/jadwal-khuruj-almaghlub/" hreflang="ar" lang="ar">العربية</a><a href="https://anbertech.github.io/TurnuVolt/cs/jak-vytvorit-turnajoveho-pavouka/" hreflang="cs" lang="cs">Čeština</a><a href="https://anbertech.github.io/TurnuVolt/da/lav-en-knockout-turnering/" hreflang="da" lang="da">Dansk</a><a href="https://anbertech.github.io/TurnuVolt/de/turnierbaum-erstellen/" hreflang="de" lang="de">Deutsch</a><a href="https://anbertech.github.io/TurnuVolt/el/tamplo-nok-aout/" hreflang="el" lang="el">Ελληνικά</a><a href="https://anbertech.github.io/TurnuVolt/es/como-hacer-cuadro-de-eliminatorias/" hreflang="es" lang="es">Español</a><a href="https://anbertech.github.io/TurnuVolt/es-mx/como-hacer-llaves-de-torneo/" hreflang="es-MX" lang="es-MX">Español (México)</a><a href="https://anbertech.github.io/TurnuVolt/fa/jadval-hazfi/" hreflang="fa" lang="fa">فارسی</a><a href="https://anbertech.github.io/TurnuVolt/fi/pudotuspelikaavion-tekeminen/" hreflang="fi" lang="fi">Suomi</a><a href="https://anbertech.github.io/TurnuVolt/fr/creer-un-tableau-elimination-directe/" hreflang="fr" lang="fr">Français</a><a href="https://anbertech.github.io/TurnuVolt/he/etz-nokaut/" hreflang="he" lang="he">עברית</a><a href="https://anbertech.github.io/TurnuVolt/hi/knockout-bracket-kaise-banaye/" hreflang="hi" lang="hi">हिन्दी</a><a href="https://anbertech.github.io/TurnuVolt/hu/egyenes-kieses-agrajz-keszitese/" hreflang="hu" lang="hu">Magyar</a><a href="https://anbertech.github.io/TurnuVolt/id/cara-membuat-bagan-turnamen/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="https://anbertech.github.io/TurnuVolt/it/tabellone-eliminazione-diretta/" hreflang="it" lang="it">Italiano</a><a href="https://anbertech.github.io/TurnuVolt/ja/tournament-hyo-tsukurikata/" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="https://anbertech.github.io/TurnuVolt/ko/tournament-daejinpyo-mandeulgi/" hreflang="ko" lang="ko">한국어</a><a href="https://anbertech.github.io/TurnuVolt/ms/cara-membuat-carta-kalah-mati/" hreflang="ms" lang="ms">Bahasa Melayu</a><a href="https://anbertech.github.io/TurnuVolt/nb/lage-utslagsturnering/" hreflang="nb" lang="nb">Norsk bokmål</a><a href="https://anbertech.github.io/TurnuVolt/nl/knock-outschema-maken/" hreflang="nl" lang="nl">Nederlands</a><a href="https://anbertech.github.io/TurnuVolt/pl/jak-zrobic-drabinke-turniejowa/" hreflang="pl" lang="pl">Polski</a><a href="https://anbertech.github.io/TurnuVolt/pt-br/como-montar-chaveamento-mata-mata/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="https://anbertech.github.io/TurnuVolt/pt-pt/como-fazer-quadro-de-eliminatorias/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a><a href="https://anbertech.github.io/TurnuVolt/ro/tablou-eliminare-directa/" hreflang="ro" lang="ro">Română</a><a href="https://anbertech.github.io/TurnuVolt/ru/turnirnaya-setka/" hreflang="ru" lang="ru">Русский</a><a href="https://anbertech.github.io/TurnuVolt/sv/gora-en-utslagsturnering/" hreflang="sv" lang="sv">Svenska</a><a href="https://anbertech.github.io/TurnuVolt/th/sai-kan-khaeng-knockout/" hreflang="th" lang="th">ไทย</a><a href="https://anbertech.github.io/TurnuVolt/uk/turnirna-sitka/" hreflang="uk" lang="uk">Українська</a><a href="https://anbertech.github.io/TurnuVolt/vi/cach-tao-nhanh-dau-loai-truc-tiep/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="https://anbertech.github.io/TurnuVolt/zh-hans/taotaisai-duizhentu/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="https://anbertech.github.io/TurnuVolt/zh-hant/taotaisai-duizhanbiao/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav></details></header>
+<main>
+<p class="crumbs"><a href="https://anbertech.github.io/TurnuVolt/ja/">ホーム</a> <span aria-hidden="true">›</span> トーナメント表の作り方</p>
+<h1>トーナメント表（勝ち抜き戦）の作り方</h1>
+<p class="lead">トーナメント表を見れば、誰と誰が対戦し、勝者がどこへ進むかがひと目でわかります。不戦勝の数、シード順位の配置、抽選の方法を解説します。</p>
+<article class="content"><h2>勝ち抜きトーナメントの仕組み</h2><p>勝ち抜き（ノックアウト）方式では、負けたチームは敗退し、勝ったチームが次の回戦へ進みます。不戦勝がある1回戦のあとは回戦ごとにチーム数が半分になり、決勝の勝者が優勝です。1試合ごとにちょうど1チームが敗退するので、<b>nチーム</b>の大会は必ず<b>n − 1試合</b>です。16チームなら4回戦・15試合で優勝が決まります。早く決着がつく反面、強いチームでも1日の不調で敗退することがあります。全員にもっと試合をさせたいなら、リーグ戦や、予選リーグのあと決勝トーナメントという方式も検討しましょう。</p><h2>チーム数が2のべき乗でないとき：不戦勝</h2><p>トーナメント表をきれいに組むには、1回戦のあとに残るチーム数が2のべき乗（2、4、8、16、32…）である必要があります。合わない場合、一部のチームが<b>不戦勝（シード）</b>となり、試合をせずに2回戦へ進みます。数は「チーム数以上で最小の2のべき乗」からチーム数を引いて求めます。6チームなら8 − 6 = 2、10チームなら16 − 10 = 6、12チームなら16 − 12 = 4チームです。残りのチームが1回戦を戦い、<b>2回戦</b>でちょうど2のべき乗になります。</p><h2>シード順位と抽選</h2><p>シード順位とは、強いとみられるチームを表の離れた位置に置き、序盤で当たらないようにすることです。8チームの伝統的な配置では第1シードが第8シード、第2シードが第7シードと当たり、第1と第2シードは決勝でしか対戦しません。不戦勝がある場合は上位シードに与えるのがよくある方法です。シード順位を使わないなら、組み合わせは<b>抽選</b>で決めましょう。全員の前でくじを引いたり、順番をランダムに並べ替えるツールを使ったりすると公平感が高まります。方法は<b>大会の前に</b>発表しましょう。</p><h2>回戦の呼び方と計画</h2><p>空きのない表では、回戦は残りチーム数で呼ばれます。16チームは<b>ベスト16</b>、8チームは準々決勝、4チームは準決勝、最後の2チームは決勝です。不戦勝がある表では、1回戦を表が埋まる2のべき乗で呼ぶこともあり、6チームなら1回戦が準々決勝扱いです。回戦数は8チームで3、16チームで4、32チームで5です。試合に<b>番号</b>を振り、次の回戦を「第3試合の勝者」のように書けば、結果が出る前でも表が読めます。3位決定戦を行う大会もあります。</p><h2>TurnuVoltでトーナメント表を作る</h2><p>ブラウザで動く<b>無料の対戦表メーカー</b>は2〜64チームのトーナメント表を作れます。チーム数が2のべき乗でなければ、足りない数だけのチームが1回戦で不戦勝になり、リストの上にいるチームに付きます。「組み合わせをシャッフル」をオンにするとリストが混ざり、不戦勝のチームも変わります。伝統的なシード配置は自動では行わず、残りをリスト順に組み合わせます。次の回戦は「第1試合の勝者」のような枠で表示され、印刷、コピー、リンク共有ができます。勝者は<b>TurnuVoltアプリ</b>で勝ったチームをタップして記録します。</p></article>
+<section class="box"><h2>作り方の手順</h2><div class="steps"><div class="step"><b>チーム名を入力する</b><span>無料の対戦表メーカーに1行に1チームずつ入力するか、チーム数を入れて「自動入力」を押します。不戦勝にしたいチームはいちばん上に書きます。</span></div><div class="step"><b>トーナメント戦を選ぶ</b><span>大会形式で「トーナメント戦（勝ち抜き）」を選びます。抽選にしたいなら「組み合わせをシャッフル」にチェックを入れます。この場合、不戦勝のチームも抽選で変わります。</span></div><div class="step"><b>対戦表を作成する</b><span>「対戦表を作成する」を押します。1回戦の組み合わせ、不戦勝のチーム、決勝までのすべての回戦が番号付きの試合で表示されます。</span></div><div class="step"><b>共有して結果を記録する</b><span>印刷、コピー、リンク共有ができます（リンクで共有するときはチーム名に「|」を使わないでください）。勝者を記録するには、TurnuVoltアプリで大会を作ります。</span></div></div></section>
+<section class="faq"><h2>よくある質問</h2><details><summary>トーナメントの不戦勝（シード）とは？</summary><p>不戦勝とは、その回戦で試合をせずに次の回戦へ進むことです。チーム数が2のべき乗でないときに表のバランスを取るために使います。上位シードや抽選で選ばれたチームに与えることが多く、詳細は大会のルールによります。</p></details><details><summary>不戦勝は何チーム必要？</summary><p>チーム数以上で最小の2のべき乗を求め、そこからチーム数を引きます。5チームなら3、6チームなら2、7チームなら1、9チームなら7チームが不戦勝です。これで2回戦は4、8、16のようなきりのいい数になります。</p></details><details><summary>トーナメントの試合数は？</summary><p>nチームの勝ち抜きトーナメントは必ずn − 1試合です。1試合ごとに1チームが敗退し、優勝チーム以外は全員ちょうど1回負けるからです。8チームなら7試合、12チームなら11試合、32チームなら31試合。3位決定戦を行えば1試合増えます。</p></details><details><summary>シード順位はどう決める？</summary><p>シード順位は、過去の成績、予選リーグやグループステージの順位、主催者の判断などで決めるのが一般的です。どの方法を使うかは大会のルールによります。基準を事前に説明しておくと、選び方をめぐるもめごとを減らせます。</p></details><details><summary>無料ツールで何チームまで作れる？</summary><p>TurnuVoltの無料の対戦表メーカーは2〜64チームのトーナメント表を作れます。登録不要で、対戦表はブラウザ内で計算されます。共有リンクはチーム名をURLに含むため、リンクを送った相手にもチーム名が見えます。同じツールでリーグ戦の対戦表も作れます。</p></details></section>
+<section class="box cta"><h2>今すぐ対戦表を作ろう</h2><p>無料の対戦表メーカーにチーム名を入力すれば、リーグ戦やトーナメント戦の対戦表が数秒で完成します。スコアや順位表も管理するなら、iPhone・iPad・AndroidでTurnuVoltアプリをご利用ください。</p><a class="btn" href="https://anbertech.github.io/TurnuVolt/ja/fixture-generator/">無料で対戦表を作る</a>
+<p class="contact">ご質問・ご意見： <a href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a></p></section>
+<section><h2>ほかのガイド</h2><div class="topics"><a class="tcard" href="https://anbertech.github.io/TurnuVolt/ja/league-junihyo-tsukurikata/"><b>リーグ戦の順位表の作り方</b><span>順位表の列、勝ち点の付け方、同点時の順位決定、手書き管理のコツ。</span></a></div></section>
+</main>
+<footer>© 2026 TurnuVolt · <a href="https://anbertech.github.io/">AnberTech</a></footer>
+</body>
+</html>

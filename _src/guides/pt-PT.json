@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Passo a passo",
+ "g_faq_h2": "Perguntas frequentes",
+ "g_cta_h2": "Crie já o seu calendário",
+ "g_cta_p": "Introduza as equipas no gerador de calendários grátis e tenha em segundos um calendário todos contra todos ou um quadro de eliminatórias. Para registar também os resultados e a classificação, use a app TurnuVolt no iPhone, iPad ou Android.",
+ "g_cta_btn": "Criar calendário grátis",
+ "g_contact": "Dúvidas e sugestões:",
+ "g_other_h2": "Outros guias",
+ "g_lang": "Idioma",
+ "g_home": "Início",
+ "table_slug": "como-fazer-tabela-classificativa",
+ "table_name": "Tabela classificativa",
+ "table_title": "Como fazer uma tabela classificativa | TurnuVolt",
+ "table_desc": "Como fazer a tabela classificativa de um campeonato: colunas J, V, E, D, GM, GS e DG, sistema de pontos, critérios de desempate e dicas para a fazer à mão.",
+ "table_h1": "Como fazer a tabela classificativa de um campeonato",
+ "table_lead": "A tabela classificativa mostra num relance a posição de cada equipa. Explicamos que colunas são precisas, como se atribuem os pontos e quem fica à frente quando há igualdade pontual.",
+ "table_card": "Colunas, sistema de pontos, desempate e dicas para manter a classificação à mão.",
+ "table_body": [
+  [
+   "Que colunas tem uma tabela classificativa?",
+   "Numa tabela classificativa clássica, cada equipa ocupa uma linha. As colunas costumam ser: <b>J</b> jogos, V vitórias, E empates, D derrotas, GM golos marcados, GS golos sofridos, DG diferença de golos e <b>Pts</b> pontos. Se no seu jogo se contam pontos ou sets em vez de golos, pode registar essa unidade nestas colunas. Duas verificações rápidas ajudam a detetar algumas incoerências: em cada linha, V + E + D tem de ser igual a J, e na tabela inteira o total de GM é igual ao total de GS. Se as contas não baterem certo, reveja as fichas de jogo e os cálculos da tabela. Se baterem, isso ainda não garante que todos os resultados estejam corretos."
+  ],
+  [
+   "Sistema de pontos: vitória, empate e derrota",
+   "A forma de atribuir os pontos é definida pelo regulamento de cada campeonato. Nos desportos com empate, como o futebol, o sistema mais comum dá <b>3 pontos</b> por vitória, 1 por empate e 0 por derrota. Nos desportos sem empate, como o basquetebol, a vitória vale muitas vezes 2 pontos. No voleibol, o resultado também conta: o mais comum é dar 3 pontos por uma vitória por 3-0 ou 3-1, 2 por uma vitória por 3-2 e 1 por uma derrota por 2-3. Se organizar o seu próprio torneio, comunique a regra a todos <b>antes do primeiro jogo</b>; mudar o sistema de pontos a meio da época pode facilmente gerar discussões."
+  ],
+  [
+   "Igualdade pontual: quem fica à frente?",
+   "Os critérios de desempate variam de campeonato para campeonato, por isso consulte o regulamento da sua competição. Os mais usados são a <b>diferença de golos</b> (golos marcados menos golos sofridos), o número de golos marcados, o confronto direto, ou seja, os resultados entre as equipas empatadas, e, em último caso, o sorteio. Alguns campeonatos aplicam o confronto direto antes da diferença de golos geral, outros depois. Quando três ou mais equipas estão empatadas, muitos regulamentos fazem uma pequena tabela só com os jogos que essas equipas disputaram entre si. Deixar a ordem dos critérios <b>escrita com antecedência</b> reduz o risco de polémica no fim da época."
+  ],
+  [
+   "Porque é difícil manter a classificação à mão",
+   "Manter a classificação em papel ou numa folha de cálculo está sujeito a erros, mesmo num campeonato pequeno. Depois de cada resultado, é preciso recalcular duas linhas ao mesmo tempo: J, V, E, D, GM, GS, DG e Pts das duas equipas. Um número esquecido pode baralhar a classificação e demorar a ser notado. Jogos adiados, equipas <b>isentas</b> quando o número de equipas é ímpar e campeonatos a duas voltas, que duplicam o número de jogos, aumentam ainda mais o trabalho. Um hábito fiável é refazer de vez em quando a tabela a partir de todos os resultados e compará-la com a sua, mas, à mão, isso também leva tempo."
+  ],
+  [
+   "Manter a classificação com o TurnuVolt",
+   "Quando cria uma liga na app TurnuVolt (iPhone, iPad e Android), o calendário e a tabela classificativa são criados em conjunto. À medida que regista os resultados, as colunas J, V, E, D, GM, GS, DG e Pts e as posições atualizam-se <b>automaticamente</b>. O registo do resultado adapta-se ao jogo: golos, pontos, sets ou apenas o vencedor. A regra de pontos também segue o jogo escolhido: no futebol a vitória vale 3 pontos, no basquetebol não há empates e no voleibol a diferença de sets também conta. Se só precisa dos confrontos, basta o <b>gerador de calendários grátis</b> no navegador, mas este não guarda resultados nem classificação."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Crie um novo torneio",
+   "Na app TurnuVolt, toque em Novo torneio, dê um nome ao torneio e introduza o número de equipas ou jogadores."
+  ],
+  [
+   "Escolha o jogo e o formato Liga",
+   "Escolha entre mais de 60 jogos ou use Outro / personalizado; a pontuação segue as regras do jogo. No formato, escolha Liga, se quiser a duas voltas."
+  ],
+  [
+   "Escreva os nomes das equipas",
+   "Introduza os nomes das equipas ou jogadores. O calendário e a tabela classificativa são criados automaticamente."
+  ],
+  [
+   "Registe os resultados",
+   "Introduza o resultado de cada jogo; as colunas J, V, E, D, GM, GS, DG e Pts e as posições atualizam-se sozinhas."
+  ]
+ ],
+ "table_faq": [
+  [
+   "O que significa DG na tabela classificativa?",
+   "DG é a diferença de golos: os golos marcados menos os golos sofridos. Uma equipa que marcou 20 golos e sofreu 12 tem uma diferença de +8. É um dos critérios de desempate mais comuns em caso de igualdade pontual, mas o critério que vem primeiro varia de campeonato para campeonato; consulte o regulamento da sua competição."
+  ],
+  [
+   "O que é o confronto direto?",
+   "O confronto direto compara as equipas empatadas usando apenas os jogos que disputaram entre si. Os pontos e a diferença de golos nesses jogos são critérios comuns. Consulte no regulamento do seu campeonato que critérios se aplicam, por que ordem e se o confronto direto vem antes ou depois da diferença de golos geral."
+  ],
+  [
+   "Quantos pontos vale uma vitória ou um empate?",
+   "Quem decide é o regulamento do campeonato. Em desportos como o futebol, o habitual é 3 pontos por vitória, 1 por empate e 0 por derrota. Nos desportos sem empate, a vitória vale muitas vezes 2 pontos. Seja qual for o sistema que escolher para o seu torneio, comunique-o a todos antes de começar."
+  ],
+  [
+   "Como funciona a classificação com um número ímpar de equipas?",
+   "Com um número ímpar de equipas, em cada jornada uma equipa fica isenta e não joga. Por isso, a meio da época as equipas podem ter números diferentes na coluna J; no fim do campeonato, todas terão disputado o mesmo número de jogos. Ao ler a classificação provisória, tenha em conta os jogos disputados."
+  ],
+  [
+   "O gerador de calendários grátis faz a classificação?",
+   "Não. O gerador de calendários grátis no navegador só prepara os confrontos; pode imprimir o calendário, copiá-lo ou partilhá-lo através de uma ligação. Para registar resultados e manter a classificação automaticamente, crie o mesmo torneio na app TurnuVolt. A app é uma compra única, sem subscrição e sem anúncios."
+  ]
+ ],
+ "bracket_slug": "como-fazer-quadro-de-eliminatorias",
+ "bracket_name": "Quadro de eliminatórias",
+ "bracket_title": "Como fazer um quadro de eliminatórias | TurnuVolt",
+ "bracket_desc": "Como fazer o quadro de eliminatórias de um torneio: quantas equipas isentas, cabeças de série, sorteio e nomes das rondas. Crie o seu quadro grátis.",
+ "bracket_h1": "Como fazer o quadro de eliminatórias de um torneio",
+ "bracket_lead": "O quadro de eliminatórias mostra quem joga contra quem e para onde segue cada vencedor. Explicamos como calcular as isenções, posicionar os cabeças de série e fazer um sorteio justo.",
+ "bracket_card": "Isenções, cabeças de série, sorteio e nomes das rondas para um quadro de eliminatórias.",
+ "bracket_body": [
+  [
+   "Como funciona um torneio a eliminar?",
+   "Num torneio a eliminar (eliminatórias a uma mão), quem perde sai e quem ganha passa à ronda seguinte. Depois de uma primeira ronda com eventuais isenções, o número de equipas reduz-se para metade em cada ronda, e quem ganha a final é o campeão. Como cada jogo elimina exatamente uma equipa, um torneio com <b>n equipas</b> tem sempre <b>n − 1 jogos</b>: 16 equipas precisam de 4 rondas e 15 jogos para encontrar o campeão. O formato dá resultados depressa, mas um dia mau pode afastar até uma equipa forte. Se quer que todos joguem mais jogos, pense num campeonato todos contra todos ou numa fase de grupos seguida de eliminatórias."
+  ],
+  [
+   "Se o número de equipas não é potência de 2: isenções",
+   "Para o quadro bater certo, o número de equipas que restam depois da primeira ronda tem de ser uma potência de 2 (2, 4, 8, 16, 32…). Se o seu número de equipas não encaixa, algumas equipas ficam <b>isentas</b>: não jogam a primeira ronda e passam diretamente à segunda. O número de isenções é a primeira potência de 2 maior ou igual ao número de equipas, menos o número de equipas. Com 6 equipas, 8 − 6 = 2 ficam isentas; com 10, 16 − 10 = 6; com 12, 16 − 12 = 4. As restantes equipas jogam a primeira ronda e, <b>a partir da segunda ronda</b>, resta exatamente uma potência de 2."
+  ],
+  [
+   "Cabeças de série e sorteio",
+   "Os cabeças de série são as equipas consideradas mais fortes, colocadas longe umas das outras no quadro para que não se defrontem nas primeiras rondas. Num quadro clássico de 8 equipas, o cabeça de série n.º 1 joga contra o n.º 8, o n.º 2 contra o n.º 7, e o 1 e o 2 só se podem encontrar na final. Se houver isenções, atribuí-las aos cabeças de série é uma opção habitual. Se não vai usar cabeças de série, defina os confrontos por <b>sorteio</b>: sortear à frente de todos ou usar uma ferramenta que baralha a ordem ao acaso pode reforçar a sensação de justiça. Seja qual for o método, anuncie-o <b>antes do torneio</b>."
+  ],
+  [
+   "Nomes das rondas e planeamento",
+   "Num quadro completo, as rondas recebem o nome do número de equipas que restam: com 16 equipas são os <b>oitavos de final</b>, com 8 os quartos de final, com 4 as meias-finais e com as duas últimas a final. Num quadro com isenções, a primeira ronda pode ter o nome do tamanho do quadro; com 6 equipas, a primeira ronda conta como quartos de final. Calcule também as rondas: 8 equipas precisam de 3, 16 equipas de 4 e 32 equipas de 5. Dê um <b>número</b> a cada jogo e escreva na ronda seguinte “Vencedor do jogo 3” e assim por diante; assim o quadro percebe-se antes de haver resultados. Alguns torneios jogam ainda um jogo de atribuição do terceiro lugar."
+  ],
+  [
+   "Fazer o quadro com o TurnuVolt",
+   "O <b>gerador de calendários grátis</b> do TurnuVolt prepara no navegador um quadro de eliminatórias para 2 a 64 equipas. Se o número de equipas não é potência de 2, ficam isentas na primeira ronda tantas equipas quantas faltarem. As isenções vão para as equipas no topo da sua lista; com “Baralhar o sorteio” assinalado, a lista é baralhada e as equipas isentas também mudam. A ferramenta não coloca cabeças de série à maneira clássica: emparelha as restantes equipas pela ordem da lista. As rondas seguintes mostram marcadores como “Vencedor do jogo #1”, e pode imprimir, copiar ou partilhar o quadro através de uma ligação. Para registar os vencedores, toque na equipa vencedora na <b>app TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Escreva as equipas",
+   "No gerador de calendários grátis, escreva uma equipa por linha ou introduza o número de equipas e toque em Preencher. Coloque no topo as equipas que devem ficar isentas."
+  ],
+  [
+   "Escolha Eliminatórias",
+   "No formato, escolha Eliminatórias. Para fazer sorteio, assinale “Baralhar o sorteio”; isso também muda as equipas que ficam isentas."
+  ],
+  [
+   "Gere o quadro",
+   "Toque em Gerar calendário. Os jogos da primeira ronda, as equipas isentas e todas as rondas até à final aparecem como jogos numerados."
+  ],
+  [
+   "Partilhe e registe os resultados",
+   "Imprima o quadro, copie-o ou partilhe a ligação (se partilhar por ligação, não use | nos nomes das equipas). Para registar os vencedores, crie o torneio na app TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "O que é ficar isento num quadro de eliminatórias?",
+   "Ficar isento significa que uma equipa passa à ronda seguinte sem jogar. As isenções equilibram o quadro quando o número de equipas não é potência de 2. Costumam ir para os cabeças de série ou para equipas escolhidas por sorteio; os pormenores dependem do regulamento do seu torneio."
+  ],
+  [
+   "Quantas equipas ficam isentas?",
+   "Encontre a primeira potência de 2 maior ou igual ao seu número de equipas e subtraia-lhe o número de equipas. Com 5 equipas ficam 3 isentas, com 6 ficam 2, com 7 fica 1 e com 9 ficam 7. Assim, na segunda ronda restam exatamente 4, 8 ou 16 equipas."
+  ],
+  [
+   "Quantos jogos tem um torneio a eliminar?",
+   "Um torneio a eliminar com n equipas tem sempre n − 1 jogos, porque cada jogo elimina uma equipa e todas, exceto o campeão, perdem exatamente uma vez. Com 8 equipas há 7 jogos, com 12 há 11 e com 32 há 31. Um jogo de atribuição do terceiro lugar acrescenta mais um."
+  ],
+  [
+   "Como se escolhem os cabeças de série?",
+   "Os cabeças de série baseiam-se normalmente em resultados anteriores, na classificação de um campeonato ou fase de grupos anterior ou na avaliação da organização. O método depende do regulamento do seu torneio. Explicar os critérios com antecedência pode reduzir as discussões sobre essa escolha."
+  ],
+  [
+   "Para quantas equipas serve o gerador grátis?",
+   "O gerador de calendários grátis do TurnuVolt prepara quadros de eliminatórias para 2 a 64 equipas. Não é preciso registo e o calendário é calculado no seu navegador. A ligação de partilha leva os nomes das equipas no endereço; quem a receber também vê os nomes. Com a mesma ferramenta também pode preparar calendários todos contra todos."
+  ]
+ ]
+}

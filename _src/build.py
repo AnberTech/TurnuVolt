@@ -18,6 +18,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import guide_page  # noqa: E402  (rehber şablonu; WeddingInvite/NobetFormal/PinkOrBlue ile ortak dosya)
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, '_src')
 SITE = 'https://anbertech.github.io/TurnuVolt/'
@@ -253,6 +256,33 @@ def lang_dir(code):
 
 def home_url(code):
     return SITE + lang_dir(code)
+
+
+GUIDE_TOPICS = ('table', 'bracket')   # rehberler: puan tablosu, eleme ağacı (_src/guides/<dil>.json)
+GUIDE_THEME = (":root{--bg:#070B10;--card:#0F1720;--soft:#16212d;--line:rgba(234,242,255,.12);--ink:#EAF2FF;--muted:#9fb0c3;--acc:#F2C14E;"
+               "--f-head:'Big Shoulders Display','Oswald',Impact,'Arial Narrow',sans-serif;--f-text:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;"
+               "--f-ui:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}"
+               "h1,h2,.brand,.tcard b{letter-spacing:.01em}.btn,.step::before{color:#070B10!important}"
+               "html[lang=ar],html[lang=fa],html[lang=he],html[lang=hi],html[lang=th],html[lang=ja],html[lang=ko],html[lang=zh-Hans],html[lang=zh-Hant],"
+               "html[lang=el],html[lang=ru],html[lang=uk]{--f-head:-apple-system,'Segoe UI',Roboto,sans-serif}")
+GC = '<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>\n'
+FONT_LINK = '<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&display=swap" rel="stylesheet">\n'
+
+
+def guide_url(code, G, x):
+    return SITE + lang_dir(code) + G[code][f'{x}_slug'] + '/'
+
+
+def build_guides(G, T, gbuilt):
+    org = {'@type': 'Organization', '@id': 'https://anbertech.github.io/#org', 'name': 'AnberTech', 'url': 'https://anbertech.github.io/', 'email': EMAIL}
+    names = {c: LANG[c][2] for c in gbuilt}
+    for c in gbuilt:
+        for x in GUIDE_TOPICS:
+            page = guide_page.render(code=c, dirn=LANG[c][1], og_locale=LANG[c][3], lang_names=names, built=gbuilt, x=x, t=G[c], topics=GUIDE_TOPICS,
+                                     url_of=lambda k, y: guide_url(k, G, y), home_url=home_url, cta_url=fx_url(c, T), brand='TurnuVolt',
+                                     site_name='TurnuVolt', org=org, email=EMAIL, theme_css=GUIDE_THEME, analytics=GC, extra_head=FONT_LINK,
+                                     icon=SITE + 'assets/img/favicon.png?v=2')
+            write(os.path.join(ROOT, lang_dir(c), G[c][f'{x}_slug'], 'index.html'), page)
 
 
 def fx_url(code, T):
@@ -526,9 +556,10 @@ def build_docs(code, T, L, legal_built, tpl, css):
         write(os.path.join(ROOT, lang_dir(code), page), render(tpl, ctx, f'{code}/{page}'))
 
 
-def build_sitemap(built, T, legal_built):
+def build_sitemap(built, T, legal_built, G=None, gbuilt=()):
     today = datetime.date.today().isoformat()
-    groups = [(home_url, '1.0', built), (lambda c: fx_url(c, T), '0.9', built),
+    groups = [(home_url, '1.0', built), (lambda c: fx_url(c, T), '0.9', built)] + \
+             [((lambda c, x=x: guide_url(c, G, x)), '0.8', list(gbuilt)) for x in GUIDE_TOPICS if gbuilt] + [
               (lambda c: doc_url(c, 'support.html'), '0.3', legal_built), (lambda c: doc_url(c, 'privacy.html'), '0.3', legal_built)]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
@@ -543,7 +574,7 @@ def build_sitemap(built, T, legal_built):
     write(os.path.join(ROOT, 'sitemap.xml'), '\n'.join(out) + '\n')
 
 
-def build_llms(built, T, A):
+def build_llms(built, T, A, G=None):
     en = T.get('en') or T['tr']
     n_games = len(A['games'])
     lines = [
@@ -586,6 +617,9 @@ def build_llms(built, T, A):
         '',
     ]
     lines += [f'- {LANG[c][2]}: {home_url(c)}' for c in built]
+    if G and 'en' in G:
+        lines += ['', '## Guides', ''] + [f'- [{G["en"][f"{x}_name"]}]({guide_url("en", G, x)}): {G["en"][f"{x}_card"]}' for x in GUIDE_TOPICS]
+        lines += ['', f'Guides are available in {len(G)} languages (each language folder has its own slugs).']
     lines += ['', f'Contact: {EMAIL}', '']
     write(os.path.join(ROOT, 'llms.txt'), '\n'.join(lines))
 
@@ -626,8 +660,23 @@ def main():
         build_fixture(c, T, A, built, fx_tpl, css, fx_css, legal_built)
     for c in legal_built:
         build_docs(c, T, L, legal_built, doc_tpl, doc_css)
-    build_sitemap(built, T, legal_built)
-    build_llms(built, T, A)
+    G, gbuilt = {}, []
+    gdir = os.path.join(SRC, 'guides')
+    if os.path.isdir(gdir):
+        G = {c: json.loads(read(os.path.join(gdir, f'{c}.json'))) for c in built if os.path.exists(os.path.join(gdir, f'{c}.json'))}
+        if G and 'tr' not in G:
+            sys.exit('guides/tr.json gerekli')
+        for c, g in G.items():
+            errs = guide_page.check(c, g, G.get('tr'), GUIDE_TOPICS)
+            if errs:
+                sys.exit(f'guides/{c}.json hatalı:\n  ' + '\n  '.join(errs))
+            used = {T[c]['fx_slug'], 'support.html', 'privacy.html'}
+            if used & {g[f'{x}_slug'] for x in GUIDE_TOPICS}:
+                sys.exit(f'guides/{c}.json: slug sitedeki başka bir adresle çakışıyor')
+        gbuilt = [c for c in built if c in G]
+        build_guides(G, T, gbuilt)
+    build_sitemap(built, T, legal_built, G, gbuilt)
+    build_llms(built, T, A, G)
     print('üretildi:', ', '.join(built))
     print('gizlilik/destek:', ', '.join(legal_built))
 

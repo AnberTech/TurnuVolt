@@ -93,4 +93,11 @@ The generator can be pre-filled with a link, so you can hand the user a ready-ma
 - 简体中文: https://anbertech.github.io/TurnuVolt/zh-hans/
 - 繁體中文: https://anbertech.github.io/TurnuVolt/zh-hant/
 
+## Guides
+
+- [How to make a league table](https://anbertech.github.io/TurnuVolt/en/how-to-make-a-league-table/): Columns, points systems, tiebreakers and tips for keeping standings by hand.
+- [Tournament bracket maker](https://anbertech.github.io/TurnuVolt/en/tournament-bracket-maker/): Byes, seeding, random draws and round names for a single-elimination bracket.
+
+Guides are available in 33 languages (each language folder has its own slugs).
+
 Contact: destek.anbertech@gmail.com

@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Pas cu pas",
+ "g_faq_h2": "Întrebări frecvente",
+ "g_cta_h2": "Fă-ți programul de meciuri acum",
+ "g_cta_p": "Scrie echipele în generatorul gratuit de programe de meciuri și ai în câteva secunde programul pentru campionat sau eliminare directă. Ca să ții și scorurile și clasamentul, folosește aplicația TurnuVolt pe iPhone, iPad sau Android.",
+ "g_cta_btn": "Creează gratuit programul",
+ "g_contact": "Întrebări și sugestii:",
+ "g_other_h2": "Alte ghiduri",
+ "g_lang": "Limbă",
+ "g_home": "Acasă",
+ "table_slug": "cum-faci-un-clasament",
+ "table_name": "Cum faci un clasament",
+ "table_title": "Cum faci un clasament de campionat? Ghid | TurnuVolt",
+ "table_desc": "Cum faci un clasament de campionat: coloanele J, V, E, Î, GM, GP, Gav și Pct, sistemul de punctaj, departajarea la egalitate de puncte și sfaturi utile.",
+ "table_h1": "Cum faci un clasament de campionat?",
+ "table_lead": "Clasamentul arată dintr-o privire unde se află fiecare echipă. Îți explicăm ce coloane îți trebuie, cum se acordă punctele și cine trece în față la egalitate de puncte.",
+ "table_card": "Coloane, punctaj, departajare la egalitate și sfaturi pentru clasamentul ținut de mână.",
+ "table_body": [
+  [
+   "Ce coloane are un clasament?",
+   "Într-un clasament clasic, fiecare echipă are propriul rând. Coloanele sunt de obicei: <b>J</b> meciuri jucate, V victorii, E egaluri, Î înfrângeri, GM goluri marcate, GP goluri primite, Gav golaveraj și <b>Pct</b> puncte. Dacă în jocul tău se numără puncte sau seturi în loc de goluri, poți trece în aceste coloane unitatea respectivă. Două verificări simple te ajută să prinzi unele nepotriviri: pe fiecare rând, V + E + Î trebuie să fie egal cu J, iar suma GM a tuturor echipelor este egală cu suma GP. Dacă nu se potrivesc, verifică rezultatele meciurilor și calculele din clasament. Dacă se potrivesc, asta nu garantează că fiecare scor este corect."
+  ],
+  [
+   "Sistemul de punctaj: victorie, egal, înfrângere",
+   "Cum se acordă punctele decid regulile campionatului. În jocurile cu egaluri, cum e fotbalul, sistemul obișnuit este <b>3 puncte</b> pentru victorie, 1 pentru egal și 0 pentru înfrângere. În jocurile fără egaluri, cum e baschetul, o victorie valorează adesea 2 puncte. La volei contează și scorul: după o regulă frecventă, câștigătoarea unui meci de 3-0 sau 3-1 primește 3 puncte, câștigătoarea unui 3-2 primește 2, iar învinsa la 2-3 primește 1 punct. Dacă organizezi propriul turneu, anunță regulile tuturor <b>înainte de primul meci</b>. Schimbarea punctajului la mijlocul sezonului poate stârni ușor certuri."
+  ],
+  [
+   "Cum se face departajarea la egalitate de puncte?",
+   "Criteriile de departajare diferă de la un campionat la altul, așa că verifică regulamentul turneului tău. Cele mai folosite sunt <b>golaverajul</b> (goluri marcate minus goluri primite), numărul mai mare de goluri marcate, meciurile directe, adică rezultatele dintre echipele aflate la egalitate, și, ca ultimă soluție, tragerea la sorți. Unele campionate aplică meciurile directe înaintea golaverajului general, altele după. Când trei sau mai multe echipe sunt la egalitate, multe regulamente fac un mini-clasament doar din meciurile dintre aceste echipe. Dacă <b>scrii dinainte</b> ordinea criteriilor, scade riscul de dispute la finalul sezonului."
+  ],
+  [
+   "De ce e greu să ții clasamentul de mână",
+   "Să ții clasamentul pe hârtie sau într-un tabel Excel duce ușor la greșeli, chiar și într-un campionat mic. După fiecare rezultat trebuie recalculate două rânduri deodată și verificate, pentru ambele echipe, coloanele J, V, E, Î, GM, GP, Gav și Pct. O cifră scăpată poate strica ordinea, iar până observă cineva poate trece ceva timp. Mai multă muncă aduc meciurile amânate, echipele care au <b>etapă liberă</b> când numărul de echipe este impar și campionatele tur-retur, în care numărul de meciuri se dublează. Un obicei sigur este să refaci din când în când clasamentul de la zero din toate rezultatele și să-l compari cu al tău, dar de mână și asta cere timp."
+  ],
+  [
+   "Clasamentul cu TurnuVolt",
+   "Când creezi o ligă în aplicația TurnuVolt (iPhone, iPad și Android), programul meciurilor și clasamentul se creează împreună. Pe măsură ce introduci scorurile, coloanele J, V, E, Î, GM, GP, Gav și Pct și ordinea se actualizează <b>automat</b>. Introducerea scorului se potrivește jocului: goluri, puncte, seturi sau doar câștigătorul. Și regula de punctaj urmează jocul ales: la fotbal victoria valorează 3 puncte, la baschet nu există egal, iar la volei contează și diferența de seturi. Dacă ai nevoie doar de perechi, ajunge <b>generatorul gratuit de programe de meciuri</b> din browser, dar acesta nu ține scorurile și nici clasamentul."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Creează un turneu nou",
+   "În aplicația TurnuVolt apasă pe Turneu nou, dă-i un nume și introdu numărul de echipe sau jucători."
+  ],
+  [
+   "Alege jocul și formatul Ligă",
+   "Alege dintre peste 60 de jocuri sau folosește Personalizat / Altele; punctajul urmează regulile jocului. La format alege Ligă, dacă vrei și tur-retur."
+  ],
+  [
+   "Scrie numele echipelor",
+   "Introdu numele echipelor sau ale jucătorilor. Programul meciurilor și clasamentul se creează automat."
+  ],
+  [
+   "Introdu scorurile",
+   "Introdu scorul fiecărui meci; coloanele J, V, E, Î, GM, GP, Gav și Pct și ordinea se actualizează singure."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Ce înseamnă Gav în clasament?",
+   "Gav înseamnă golaveraj: golurile marcate minus golurile primite. O echipă care a marcat 20 de goluri și a primit 12 are golaverajul +8. La egalitate de puncte este unul dintre cele mai folosite criterii, dar ordinea criteriilor diferă de la un campionat la altul, așa că verifică regulamentul turneului tău."
+  ],
+  [
+   "Ce sunt meciurile directe și cum se calculează?",
+   "Meciurile directe compară echipele egale la puncte doar pe baza partidelor jucate între ele. Punctele și golaverajul din aceste meciuri sunt criterii frecvente. Verifică în regulamentul campionatului ce criterii se aplică, în ce ordine și dacă meciurile directe vin înaintea golaverajului general sau după el."
+  ],
+  [
+   "Câte puncte se dau pentru victorie și pentru egal?",
+   "Decide regulamentul campionatului. În jocuri ca fotbalul, sistemul obișnuit este 3 puncte pentru victorie, 1 pentru egal și 0 pentru înfrângere. În jocurile fără egaluri, victoria valorează adesea 2 puncte. Orice sistem ai alege pentru turneul tău, anunță-l tuturor înainte de start."
+  ],
+  [
+   "Cum ții clasamentul cu un număr impar de echipe?",
+   "Cu un număr impar de echipe, în fiecare etapă o echipă stă și nu joacă. De aceea, la mijlocul sezonului echipele pot avea numere diferite în coloana J; la finalul campionatului însă toate au jucat același număr de meciuri. Când citești clasamentul pe parcurs, uită-te și la numărul de meciuri jucate."
+  ],
+  [
+   "Generatorul gratuit de programe de meciuri ține clasamentul?",
+   "Nu. Generatorul gratuit de programe de meciuri din browser face doar perechile; programul îl poți tipări, copia sau trimite printr-un link. Ca să introduci scorurile și să ai clasamentul automat, creează același turneu în aplicația TurnuVolt. Aplicația se cumpără o singură dată, fără abonament și fără reclame."
+  ]
+ ],
+ "bracket_slug": "tablou-eliminare-directa",
+ "bracket_name": "Tablou de eliminare directă",
+ "bracket_title": "Cum faci un tablou de eliminare directă? | TurnuVolt",
+ "bracket_desc": "Cum faci un tablou de eliminare directă: câte tururi libere când numărul de echipe nu e o putere a lui 2, capi de serie, tragere la sorți, runde.",
+ "bracket_h1": "Cum faci un tablou de eliminare directă?",
+ "bracket_lead": "Tabloul arată cine cu cine joacă și unde avansează câștigătoarea. Îți explicăm cum calculezi tururile libere, cum așezi capii de serie și cum faci o tragere la sorți corectă.",
+ "bracket_card": "Tururi libere, capi de serie, tragere la sorți și numele rundelor.",
+ "bracket_body": [
+  [
+   "Cum funcționează eliminarea directă?",
+   "Într-un turneu cu eliminare directă, echipa care pierde iese din turneu, iar câștigătoarea trece în runda următoare. După o eventuală primă rundă cu tururi libere, numărul de echipe se înjumătățește în fiecare rundă, iar cine câștigă finala devine campioană. Pentru că în fiecare meci iese exact o echipă, într-un turneu cu <b>n echipe</b> se joacă mereu <b>n − 1 meciuri</b>: 16 echipe își află campioana în 4 runde și 15 meciuri. Formatul dă repede un rezultat, dar o singură zi proastă poate scoate din joc chiar și o echipă puternică. Dacă vrei ca toți să joace mai multe meciuri, ia în calcul un campionat fiecare cu fiecare sau mai întâi grupe, apoi eliminare directă."
+  ],
+  [
+   "Când numărul de echipe nu e o putere a lui 2: turul liber",
+   "Ca tabloul să iasă corect, numărul de echipe rămase după prima rundă trebuie să fie o putere a lui 2 (2, 4, 8, 16, 32…). Dacă numărul tău de echipe nu se potrivește, unele echipe primesc în prima rundă un <b>tur liber</b>: nu joacă și se califică direct în runda a doua. Numărul de tururi libere îl afli scăzând numărul de echipe din prima putere a lui 2 mai mare sau egală cu el: la 6 echipe 8 − 6 = 2, la 10 echipe 16 − 10 = 6, la 12 echipe 16 − 12 = 4. Celelalte echipe joacă în prima rundă, iar <b>din runda a doua</b> rămâne exact o putere a lui 2."
+  ],
+  [
+   "Capi de serie și tragerea la sorți",
+   "Capii de serie sunt echipele considerate cele mai puternice, așezate departe una de alta în tablou ca să nu se întâlnească în primele runde. Într-un tablou clasic cu 8 echipe, capul de serie nr. 1 joacă cu nr. 8, nr. 2 cu nr. 7, iar 1 și 2 se pot întâlni abia în finală. Dacă există tururi libere, se obișnuiește ca ele să fie date capilor de serie. Dacă nu folosești capi de serie, stabilește perechile prin <b>tragere la sorți</b>: o tragere făcută în fața tuturor sau un instrument care amestecă ordinea la întâmplare poate întări sentimentul de corectitudine. Orice metodă alegi, anunț-o <b>înainte de turneu</b>."
+  ],
+  [
+   "Numele rundelor și planificarea",
+   "Într-un tablou complet, rundele se numesc după numărul de echipe rămase: la 16 echipe sunt <b>optimile de finală</b>, la 8 sferturile de finală, la 4 semifinalele, iar ultimele două echipe joacă finala. Într-un tablou cu tururi libere, prima rundă poate fi numită după puterea lui 2 la care se completează tabloul; la 6 echipe, prima rundă contează drept sferturi de finală. Calculează și rundele: 8 echipe au nevoie de 3, 16 echipe de 4 și 32 de echipe de 5 runde. Dă fiecărui meci un <b>număr</b> și scrie în runda următoare, de exemplu, „Câștigătoarea meciului #3”; așa tabloul se înțelege și înainte de rezultate. Unele turnee joacă și finala mică."
+  ],
+  [
+   "Tabloul de eliminare directă cu TurnuVolt",
+   "<b>Generatorul gratuit de programe de meciuri</b> TurnuVolt rulează în browser și face tabloul pentru 2 până la 64 de echipe. Dacă numărul de echipe nu e o putere a lui 2, câte echipe lipsesc, atâtea primesc tur liber în prima rundă. Turul liber revine echipelor din capul listei; cu opțiunea „Amestecă echipele la tragerea la sorți” bifată, lista se amestecă și se schimbă și echipele cu tur liber. Instrumentul nu așază singur capii de serie, ci împerechează restul echipelor în ordinea listei. Rundele următoare arată „Câștigătoarea meciului #1”, iar tabloul îl poți tipări, copia sau trimite prin link. Câștigătoarele le înregistrezi apăsând pe echipa învingătoare în <b>aplicația TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Scrie echipele",
+   "În generatorul gratuit de programe de meciuri scrie câte o echipă pe rând sau introdu numărul de echipe și apasă Completează. Pune sus echipele care trebuie să primească tur liber."
+  ],
+  [
+   "Alege Eliminare directă",
+   "La format alege Eliminare directă. Pentru tragere la sorți, bifează „Amestecă echipele la tragerea la sorți”; astfel se schimbă și echipele cu tur liber."
+  ],
+  [
+   "Generează tabloul",
+   "Apasă Generează programul. Apar meciurile din prima rundă, echipele cu tur liber și toate rundele până la finală, ca meciuri numerotate."
+  ],
+  [
+   "Distribuie și înregistrează rezultatele",
+   "Tipărește, copiază sau trimite linkul (când trimiți prin link, nu folosi caracterul | în numele echipelor). Ca să înregistrezi câștigătoarele, creează turneul în aplicația TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Ce înseamnă turul liber într-un tablou?",
+   "Turul liber înseamnă că o echipă trece în runda următoare fără să joace. Se folosește pentru a echilibra tabloul când numărul de echipe nu este o putere a lui 2. Tururile libere revin adesea capilor de serie sau echipelor alese prin tragere la sorți; detaliile depind de regulile turneului tău."
+  ],
+  [
+   "De câte tururi libere am nevoie?",
+   "Găsește prima putere a lui 2 mai mare sau egală cu numărul de echipe și scade din ea numărul de echipe. La 5 echipe sunt 3 tururi libere, la 6 echipe 2, la 7 echipe 1, iar la 9 echipe 7. Astfel, în runda a doua rămân exact 4, 8 sau 16 echipe."
+  ],
+  [
+   "Câte meciuri are un turneu cu eliminare directă?",
+   "Un turneu cu eliminare directă cu n echipe are mereu n − 1 meciuri, pentru că în fiecare meci iese o echipă și toate, în afară de campioană, pierd exact o dată. 8 echipe joacă 7 meciuri, 12 echipe 11, iar 32 de echipe 31 de meciuri. Finala mică mai adaugă un meci."
+  ],
+  [
+   "Cum se stabilesc capii de serie?",
+   "Capii de serie se stabilesc de obicei după rezultatele anterioare, după clasamentul dintr-un campionat sau dintr-o fază a grupelor ori după aprecierea organizatorului. Metoda depinde de regulile turneului tău. Dacă explici criteriile dinainte, poți reduce riscul de dispute legate de capii de serie."
+  ],
+  [
+   "Pentru câte echipe face tablou instrumentul gratuit?",
+   "Generatorul gratuit de programe de meciuri TurnuVolt face tablouri de eliminare directă pentru 2 până la 64 de echipe. Nu ai nevoie de cont, iar programul se calculează în browserul tău. Linkul de distribuire conține numele echipelor chiar în adresă, așa că oricine îl primește le poate vedea. Cu același instrument poți face și programul unui campionat fiecare cu fiecare."
+  ]
+ ]
+}

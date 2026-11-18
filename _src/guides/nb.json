@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Steg for steg",
+ "g_faq_h2": "Vanlige spørsmål",
+ "g_cta_h2": "Lag kampoppsettet nå",
+ "g_cta_p": "Skriv inn lagene i den gratis generatoren for kampoppsett, så er terminlisten for alle-mot-alle eller utslagsturnering klar på sekunder. Vil du også føre resultater og tabell, bruker du TurnuVolt-appen på iPhone, iPad eller Android.",
+ "g_cta_btn": "Lag gratis kampoppsett",
+ "g_contact": "Spørsmål og forslag:",
+ "g_other_h2": "Flere veiledninger",
+ "g_lang": "Språk",
+ "g_home": "Hjem",
+ "table_slug": "lage-serietabell",
+ "table_name": "Slik lager du en serietabell",
+ "table_title": "Slik lager du en serietabell (tabell) | TurnuVolt",
+ "table_desc": "Slik lager du en serietabell: kolonnene K, S, U, T, M+, M-, MF og P, poengsystem, rekkefølge ved poenglikhet og tips til å føre tabellen for hånd.",
+ "table_h1": "Slik lager du en serietabell",
+ "table_lead": "En serietabell viser med ett blikk hvor hvert lag står. Her ser du hvilke kolonner du trenger, hvordan poeng deles ut, og hvem som havner foran når lagene har like mange poeng.",
+ "table_card": "Kolonner, poengsystem, poenglikhet og tips til å føre tabellen for hånd.",
+ "table_body": [
+  [
+   "Hvilke kolonner har en serietabell?",
+   "I en vanlig serietabell har hvert lag sin egen rad. Kolonnene er som regel: <b>K</b> spilte kamper, S seire, U uavgjort, T tap, M+ scorede mål, M- mål imot, MF målforskjell og <b>P</b> poeng. Teller spillet ditt poeng eller sett i stedet for mål, kan du føre den enheten i kolonnene. To enkle kontroller hjelper deg å fange opp noen feil: i hver rad skal S + U + T være lik K, og summen av M+ for alle lag er lik summen av M-. Stemmer ikke dette, bør du gå gjennom kampresultatene og utregningene i tabellen. Stemmer det, er det likevel ingen garanti for at hvert resultat er riktig."
+  ],
+  [
+   "Poengsystem: seier, uavgjort, tap",
+   "Hvordan poengene deles ut, bestemmer ligaens egne regler. I idretter med uavgjort, som fotball, er det vanlige <b>3 poeng</b> for seier, 1 for uavgjort og 0 for tap. I idretter uten uavgjort, som basketball, gir en seier ofte 2 poeng. I volleyball teller også selve resultatet: etter en vanlig regel får vinneren av en 3–0- eller 3–1-kamp 3 poeng, vinneren av 3–2 får 2 og taperen av 2–3 får 1. Arrangerer du din egen turnering, bør du kunngjøre reglene for alle <b>før første kamp</b>. Å endre poengsystemet midt i sesongen kan lett skape krangel."
+  ],
+  [
+   "Hvem står øverst ved poenglikhet?",
+   "Kriteriene ved poenglikhet varierer fra liga til liga, så sjekk reglementet for turneringen din. Vanlige kriterier er <b>målforskjell</b> (scorede minus innslupne mål), flest scorede mål, innbyrdes oppgjør, altså resultatene i kampene mellom lagene som står likt, og til slutt loddtrekning. Noen ligaer bruker innbyrdes oppgjør før samlet målforskjell, andre etter. Når tre eller flere lag står likt, setter mange reglementer opp en liten tabell bare med kampene mellom disse lagene. Skriver du ned rekkefølgen på kriteriene <b>på forhånd</b>, reduserer du risikoen for diskusjoner når sesongen er over."
+  ],
+  [
+   "Derfor er det vanskelig å føre tabellen for hånd",
+   "Å føre tabellen på papir eller i et regneark gir lett feil, selv i en liten liga. Etter hvert resultat må to rader regnes ut på nytt samtidig, og for begge lagene må du sjekke K, S, U, T, M+, M-, MF og P. Ett oversett tall kan ødelegge plasseringene, og det kan ta tid før noen oppdager det. Utsatte kamper, lag som har <b>frirunde</b> i en runde når antallet lag er oddetall, og serier med hjemme- og bortekamper, der antallet kamper dobles, gir mer arbeid. En sikker vane er å regne ut hele tabellen på nytt fra alle resultatene av og til og sammenligne, men for hånd tar også det tid."
+  ],
+  [
+   "Serietabell med TurnuVolt",
+   "Når du oppretter en liga i TurnuVolt-appen (iPhone, iPad og Android), lages kampoppsettet og tabellen samtidig. Når du registrerer resultater, oppdateres kolonnene K, S, U, T, M+, M-, MF og P og plasseringene <b>automatisk</b>. Registreringen passer til spillet: mål, poeng, sett eller bare vinneren. Poengregelen følger spillet du velger: i fotball gir seier 3 poeng, basketball har ikke uavgjort, og i volleyball teller også settforskjellen. Trenger du bare kampene, holder den <b>gratis generatoren for kampoppsett</b> i nettleseren, men den fører ikke resultater eller tabell."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Opprett en ny turnering",
+   "Trykk på Ny turnering i TurnuVolt-appen, gi turneringen et navn og skriv inn antall lag eller spillere."
+  ],
+  [
+   "Velg spill og formatet Liga",
+   "Velg blant over 60 spill, eller bruk Tilpasset / Annet; poengberegningen følger spillets regler. Velg Liga som format, eventuelt med hjemme- og bortekamper."
+  ],
+  [
+   "Skriv inn lagnavnene",
+   "Skriv inn navnene på lagene eller spillerne. Kampoppsettet og tabellen opprettes automatisk."
+  ],
+  [
+   "Registrer resultatene",
+   "Skriv inn resultatet av hver kamp; kolonnene K, S, U, T, M+, M-, MF og P og plasseringene oppdateres av seg selv."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Hva betyr MF i tabellen?",
+   "MF står for målforskjell: scorede mål minus innslupne mål. Et lag som har scoret 20 og sluppet inn 12, har målforskjell +8. Ved poenglikhet er det et av de mest brukte kriteriene, men hvilket kriterium som kommer først, varierer fra liga til liga, så sjekk reglementet for turneringen din."
+  ],
+  [
+   "Hva er innbyrdes oppgjør, og hvordan regnes det?",
+   "Innbyrdes oppgjør sammenligner lag med like mange poeng bare ut fra kampene de har spilt mot hverandre. Poeng og målforskjell fra disse kampene er vanlige kriterier. Sjekk i ligaens reglement hvilke kriterier som gjelder, i hvilken rekkefølge, og om innbyrdes oppgjør kommer før eller etter samlet målforskjell."
+  ],
+  [
+   "Hvor mange poeng gir seier og uavgjort?",
+   "Det bestemmer ligaens regler. I idretter som fotball er det vanlige 3 poeng for seier, 1 for uavgjort og 0 for tap. I idretter uten uavgjort gir en seier ofte 2 poeng. Uansett hvilket system du velger for din egen turnering, bør du si fra til alle før den starter."
+  ],
+  [
+   "Hvordan fører man tabell med et oddetall lag?",
+   "Med et oddetall lag har ett lag frirunde i hver runde og spiller ikke. Midt i sesongen kan lagene derfor ha ulike tall i K-kolonnen; når serien er ferdig, har alle spilt like mange kamper. Følg med på antall spilte kamper når du leser tabellen underveis."
+  ],
+  [
+   "Fører den gratis generatoren for kampoppsett tabell?",
+   "Nei. Den gratis generatoren for kampoppsett i nettleseren lager bare kampene; du kan skrive ut kampoppsettet, kopiere det eller dele det med en lenke. Vil du registrere resultater og få tabellen automatisk, oppretter du den samme turneringen i TurnuVolt-appen. Appen er et engangskjøp uten abonnement og uten reklame."
+  ]
+ ],
+ "bracket_slug": "lage-utslagsturnering",
+ "bracket_name": "Lag en utslagsturnering",
+ "bracket_title": "Slik lager du en utslagsturnering: frirunder | TurnuVolt",
+ "bracket_desc": "Slik lager du en utslagsturnering: antall frirunder når antall lag ikke er en toerpotens, seeding, trekning og rundenavn. Lag et gratis sluttspilltre.",
+ "bracket_h1": "Slik lager du en utslagsturnering",
+ "bracket_lead": "Et sluttspilltre viser hvem som møter hvem, og hvor vinneren går videre. Her ser du hvordan du regner ut frirunder, plasserer seedede lag og gjennomfører en rettferdig trekning.",
+ "bracket_card": "Frirunder, seeding, trekning og rundenavn for en utslagsturnering.",
+ "bracket_body": [
+  [
+   "Hvordan fungerer en utslagsturnering?",
+   "I en utslagsturnering (cupformat) ryker taperen ut, og vinneren går videre til neste runde. Etter en eventuell første runde med frirunder halveres antallet lag for hver runde, og den som vinner finalen, er mester. Fordi nøyaktig ett lag ryker ut i hver kamp, spilles det i en turnering med <b>n lag</b> alltid <b>n − 1 kamper</b>: 16 lag finner en vinner på 4 runder og 15 kamper. Formatet gir raskt et resultat, men én dårlig dag kan sende selv et sterkt lag ut. Vil du at alle skal spille flere kamper, kan du vurdere en serie alle-mot-alle, eller først gruppespill og deretter utslagsrunder."
+  ],
+  [
+   "Når antall lag ikke er en toerpotens: frirunde",
+   "For at treet skal gå opp, må antallet lag som er igjen etter første runde, være en toerpotens (2, 4, 8, 16, 32…). Passer ikke antallet lag, får noen lag <b>frirunde</b> i første runde: de spiller ikke og går rett videre til andre runde. Antall frirunder finner du ved å ta den første toerpotensen som er større enn eller lik antallet lag, og trekke fra antallet lag: med 6 lag 8 − 6 = 2, med 10 lag 16 − 10 = 6, med 12 lag 16 − 12 = 4. De andre lagene spiller første runde, og <b>fra andre runde</b> er det nøyaktig en toerpotens igjen."
+  ],
+  [
+   "Seeding og trekning",
+   "Seeding betyr at de sterkeste lagene plasseres langt fra hverandre i treet, slik at de ikke møtes i de første rundene. I et klassisk tre med 8 lag møter seedet nr. 1 nr. 8, nr. 2 møter nr. 7, og 1 og 2 kan først møtes i finalen. Er det frirunder, er det vanlig å gi dem til de seedede lagene. Bruker du ikke seeding, kan du avgjøre kampene ved <b>trekning</b>: å trekke foran alle eller bruke et verktøy som blander rekkefølgen tilfeldig, kan gi en sterkere følelse av rettferdighet. Uansett metode bør du kunngjøre den <b>før turneringen</b>."
+  ],
+  [
+   "Rundenavn og planlegging",
+   "I et fullt tre er rundene oppkalt etter antallet lag som er igjen: 16 lag er <b>åttedelsfinaler</b>, 8 lag kvartfinaler, 4 lag semifinaler, og de to siste lagene spiller finalen. I et tre med frirunder kan første runde oppkalles etter toerpotensen treet fylles opp til; med 6 lag regnes første runde som kvartfinaler. Tell også rundene: 8 lag trenger 3, 16 lag 4 og 32 lag 5 runder. Gi hver kamp et <b>nummer</b>, og skriv i neste runde for eksempel «Vinner av kamp #3», så gir treet mening før resultatene kommer. Noen turneringer spiller også bronsefinale."
+  ],
+  [
+   "Utslagsturnering med TurnuVolt",
+   "TurnuVolts <b>gratis generator for kampoppsett</b> kjører i nettleseren og lager et sluttspilltre for 2 til 64 lag. Er ikke antallet lag en toerpotens, får like mange lag som mangler, frirunde i første runde. Frirundene går til lagene øverst på listen din; med «Bland trekningen» slått på blandes listen, slik at også lagene med frirunde endres. Verktøyet lager ikke selv en klassisk seeding, men parer de resterende lagene i listens rekkefølge. Senere runder vises med plassholdere som «Vinner av kamp #1», og du kan skrive ut, kopiere eller dele treet med en lenke. For å registrere vinnere trykker du på vinnerlaget i <b>TurnuVolt-appen</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Skriv inn lagene",
+   "Skriv ett lag per linje i den gratis generatoren for kampoppsett, eller skriv inn antall lag og trykk på Fyll inn. Sett lagene som skal ha frirunde, øverst."
+  ],
+  [
+   "Velg Utslagsturnering",
+   "Velg Utslagsturnering som format. Vil du ha tilfeldig trekning, huker du av for «Bland trekningen»; da endres også hvilke lag som får frirunde."
+  ],
+  [
+   "Lag sluttspilltreet",
+   "Trykk på Lag kampoppsett. Kampene i første runde, lagene med frirunde og alle rundene fram til finalen vises som nummererte kamper."
+  ],
+  [
+   "Del det og registrer resultater",
+   "Skriv ut, kopier eller del lenken (unngå tegnet | i lagnavn når du deler med lenke). For å registrere vinnere oppretter du turneringen i TurnuVolt-appen."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Hva betyr frirunde i en utslagsturnering?",
+   "Frirunde betyr at et lag går videre til neste runde uten å spille. Det brukes for å få treet til å gå opp når antallet lag ikke er en toerpotens. Frirunder går ofte til de seedede lagene eller til lag som er trukket ut; detaljene avhenger av reglene for turneringen din."
+  ],
+  [
+   "Hvor mange frirunder trenger jeg?",
+   "Finn den første toerpotensen som er større enn eller lik antallet lag, og trekk fra antallet lag. Med 5 lag blir det 3 frirunder, med 6 lag 2, med 7 lag 1 og med 9 lag 7. Da er det nøyaktig 4, 8 eller 16 lag igjen i andre runde."
+  ],
+  [
+   "Hvor mange kamper er det i en utslagsturnering?",
+   "En utslagsturnering med n lag har alltid n − 1 kamper, fordi ett lag ryker ut i hver kamp, og alle unntatt mesteren taper nøyaktig én gang. 8 lag spiller 7 kamper, 12 lag 11 og 32 lag 31. Spiller dere bronsefinale, kommer det én kamp i tillegg."
+  ],
+  [
+   "Hvordan bestemmer man seedingen?",
+   "Seedingen bygger vanligvis på tidligere resultater, tabellen fra en serie eller et gruppespill, eller arrangørens vurdering. Hvilken metode du bruker, avhenger av reglene for turneringen din. Forklarer du kriteriene på forhånd, kan du redusere risikoen for diskusjoner om seedingen."
+  ],
+  [
+   "Hvor mange lag klarer det gratis verktøyet?",
+   "TurnuVolts gratis generator for kampoppsett lager sluttspilltrær for 2 til 64 lag. Du trenger ikke registrere deg, og kampoppsettet regnes ut i nettleseren din. Delingslenken inneholder lagnavnene i selve adressen, så alle du sender den til, kan se dem. Med samme verktøy kan du også lage kampoppsett for en serie alle-mot-alle."
+  ]
+ ]
+}

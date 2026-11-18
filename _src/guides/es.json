@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Paso a paso",
+ "g_faq_h2": "Preguntas frecuentes",
+ "g_cta_h2": "Crea tu calendario ahora",
+ "g_cta_p": "Escribe tus equipos en el generador de calendarios gratis y tendrás en segundos el calendario de liga o el cuadro de eliminatorias. Para llevar también los resultados y la clasificación, usa la app TurnuVolt en iPhone, iPad o Android.",
+ "g_cta_btn": "Crear calendario gratis",
+ "g_contact": "Preguntas y sugerencias:",
+ "g_other_h2": "Otras guías",
+ "g_lang": "Idioma",
+ "g_home": "Inicio",
+ "table_slug": "como-hacer-tabla-de-clasificacion",
+ "table_name": "Tabla de clasificación",
+ "table_title": "Cómo hacer una tabla de clasificación de liga | TurnuVolt",
+ "table_desc": "Cómo hacer la tabla de clasificación de una liga: columnas PJ, G, E, P, GF, GC y DG, sistema de puntos, desempates y consejos para llevarla a mano.",
+ "table_h1": "Cómo hacer una tabla de clasificación de liga",
+ "table_lead": "La tabla de clasificación muestra de un vistazo dónde está cada equipo. Te explicamos qué columnas necesitas, cómo se reparten los puntos y quién va delante cuando hay empate a puntos.",
+ "table_card": "Columnas, sistema de puntos, desempates y consejos para llevar la clasificación a mano.",
+ "table_body": [
+  [
+   "¿Qué columnas tiene una tabla de clasificación?",
+   "En una tabla de clasificación clásica cada equipo ocupa una fila. Las columnas suelen ser: <b>PJ</b> partidos jugados, G ganados, E empatados, P perdidos, GF goles a favor, GC goles en contra, DG diferencia de goles y <b>Pts</b> puntos. Si en tu juego se cuentan puntos o sets en lugar de goles, puedes anotar esa unidad en esas columnas. Dos comprobaciones sencillas te ayudan a detectar algunos errores: en cada fila, G + E + P debe ser igual a PJ, y en toda la tabla la suma de GF es igual a la suma de GC. Si no cuadran, revisa las actas de los partidos y las cuentas de la tabla. Que cuadren, eso sí, no garantiza que todos los resultados sean correctos."
+  ],
+  [
+   "Sistema de puntos: victoria, empate y derrota",
+   "Cómo se reparten los puntos lo decide el reglamento de cada liga. En deportes con empate, como el fútbol, lo habitual es dar <b>3 puntos</b> por victoria, 1 por empate y 0 por derrota. En deportes sin empate, como el baloncesto, una victoria suele valer 2 puntos. En voleibol también importa el marcador: lo más común es dar 3 puntos por ganar 3-0 o 3-1, 2 por ganar 3-2 y 1 por perder 2-3. Si organizas tu propio torneo, comunica la regla a todos <b>antes del primer partido</b>; cambiar el sistema de puntos a mitad de temporada puede provocar discusiones con facilidad."
+  ],
+  [
+   "Empate a puntos: ¿quién queda por delante?",
+   "Los criterios de desempate cambian de una liga a otra, así que consulta el reglamento de tu competición. Los más habituales son la <b>diferencia de goles</b> (goles a favor menos goles en contra), los goles marcados, el enfrentamiento directo, es decir, los resultados entre los equipos empatados, y como último recurso el sorteo. Algunas ligas aplican el enfrentamiento directo antes que la diferencia de goles general y otras después. Cuando empatan tres o más equipos, muchos reglamentos forman una pequeña tabla solo con los partidos que esos equipos jugaron entre sí. Dejar <b>por escrito de antemano</b> el orden de los criterios reduce el riesgo de polémica a final de temporada."
+  ],
+  [
+   "Por qué cuesta llevar la clasificación a mano",
+   "Llevar la clasificación en papel o en una hoja de cálculo es propenso a errores, incluso en una liga pequeña. Después de cada resultado hay que recalcular dos filas a la vez: PJ, G, E, P, GF, GC, DG y Pts de los dos equipos. Un número que se te escape puede alterar la clasificación y tardar en descubrirse. Los partidos aplazados, los equipos que <b>descansan</b> cuando hay un número impar de equipos y las ligas a doble vuelta, que duplican los partidos, complican aún más el trabajo. Una costumbre fiable es recalcular de vez en cuando la tabla con todos los resultados y compararla con la tuya, aunque a mano eso también lleva tiempo."
+  ],
+  [
+   "Llevar la clasificación con TurnuVolt",
+   "Cuando creas una liga en la app TurnuVolt (iPhone, iPad y Android), el calendario y la tabla de clasificación se crean a la vez. A medida que introduces resultados, las columnas PJ, G, E, P, GF, GC, DG y Pts y la clasificación se actualizan <b>automáticamente</b>. La forma de anotar el resultado se adapta al juego: goles, puntos, sets o solo el ganador. La regla de puntos también sigue el juego que elijas: en fútbol la victoria vale 3 puntos, en baloncesto no hay empates y en voleibol también cuenta la diferencia de sets. Si solo necesitas los cruces, te basta con el <b>generador de calendarios gratis</b> del navegador, pero no guarda resultados ni clasificación."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Crea un torneo nuevo",
+   "En la app TurnuVolt, toca Nuevo torneo, ponle un nombre e indica el número de equipos o jugadores."
+  ],
+  [
+   "Elige el juego y el formato Liga",
+   "Elige entre más de 60 juegos o usa Otro / personalizado; la puntuación sigue las reglas del juego. Como formato, elige Liga, si quieres a doble vuelta."
+  ],
+  [
+   "Escribe los nombres de los equipos",
+   "Introduce los nombres de los equipos o jugadores. El calendario y la tabla de clasificación se crean automáticamente."
+  ],
+  [
+   "Introduce los resultados",
+   "Introduce el resultado de cada partido; las columnas PJ, G, E, P, GF, GC, DG y Pts y la clasificación se actualizan solas."
+  ]
+ ],
+ "table_faq": [
+  [
+   "¿Qué significa DG en la clasificación?",
+   "DG es la diferencia de goles: los goles marcados menos los goles encajados. Un equipo que ha marcado 20 y ha encajado 12 tiene una diferencia de +8. Es uno de los criterios de desempate más habituales cuando hay empate a puntos, pero el criterio que va primero cambia según la liga, así que consulta el reglamento de tu competición."
+  ],
+  [
+   "¿Qué es el enfrentamiento directo?",
+   "El enfrentamiento directo compara a los equipos empatados usando solo los partidos que jugaron entre sí. Los puntos y la diferencia de goles de esos partidos son los criterios más comunes. Consulta en el reglamento de tu liga qué criterios se aplican, en qué orden y si el enfrentamiento directo va antes o después de la diferencia de goles general."
+  ],
+  [
+   "¿Cuántos puntos vale una victoria o un empate?",
+   "Lo decide el reglamento de la liga. En deportes como el fútbol lo habitual es 3 puntos por victoria, 1 por empate y 0 por derrota. En deportes sin empate, una victoria suele valer 2 puntos. Elijas el sistema que elijas para tu torneo, comunícalo a todos antes de empezar."
+  ],
+  [
+   "¿Cómo funciona la clasificación con un número impar de equipos?",
+   "Con un número impar de equipos, en cada jornada descansa un equipo y no juega. Por eso, a mitad de temporada los equipos pueden tener distinto número en la columna PJ; al final de la liga todos habrán jugado los mismos partidos. Ten en cuenta los partidos jugados cuando leas la clasificación provisional."
+  ],
+  [
+   "¿El generador de calendarios gratis lleva la clasificación?",
+   "No. El generador de calendarios gratis del navegador solo prepara los cruces; puedes imprimir el calendario, copiarlo o compartirlo con un enlace. Para introducir resultados y llevar la clasificación automáticamente, crea el mismo torneo en la app TurnuVolt. La app es de pago único, sin suscripción y sin anuncios."
+  ]
+ ],
+ "bracket_slug": "como-hacer-cuadro-de-eliminatorias",
+ "bracket_name": "Cuadro de eliminatorias",
+ "bracket_title": "Cómo hacer un cuadro de eliminatorias | TurnuVolt",
+ "bracket_desc": "Cómo hacer un cuadro de eliminatorias: cuántos equipos quedan exentos, cabezas de serie, sorteo y nombres de las rondas. Crea gratis tu cuadro de torneo.",
+ "bracket_h1": "Cómo hacer un cuadro de eliminatorias para un torneo",
+ "bracket_lead": "Un cuadro de eliminatorias muestra quién juega contra quién y adónde pasa cada ganador. Te explicamos cómo calcular los exentos, colocar a las cabezas de serie y hacer un sorteo justo.",
+ "bracket_card": "Exentos, cabezas de serie, sorteo y nombres de rondas para un cuadro de eliminatorias.",
+ "bracket_body": [
+  [
+   "¿Cómo funciona un torneo por eliminatorias?",
+   "En un torneo de eliminación directa el que pierde queda fuera y el que gana pasa a la siguiente ronda. Tras una primera ronda con posibles exentos, el número de equipos se reduce a la mitad en cada ronda, y quien gana la final es el campeón. Como en cada partido cae exactamente un equipo, un torneo con <b>n equipos</b> siempre tiene <b>n − 1 partidos</b>: 16 equipos necesitan 4 rondas y 15 partidos para tener campeón. El formato da resultados rápido, pero un mal día puede dejar fuera incluso a un equipo fuerte. Si quieres que todos jueguen más partidos, piensa en una liga todos contra todos o en una fase de grupos seguida de eliminatorias."
+  ],
+  [
+   "Si el número de equipos no es potencia de 2: exentos",
+   "Para que el cuadro cuadre, el número de equipos que quedan después de la primera ronda debe ser una potencia de 2 (2, 4, 8, 16, 32…). Si tu número de equipos no encaja, algunos <b>quedan exentos</b>: no juegan la primera ronda y pasan directamente a la segunda. El número de exentos es la primera potencia de 2 mayor o igual que el número de equipos, menos el número de equipos. Con 6 equipos, 8 − 6 = 2 quedan exentos; con 10, 16 − 10 = 6; con 12, 16 − 12 = 4. El resto de equipos juega la primera ronda y, <b>a partir de la segunda ronda</b>, quedan justo una potencia de 2."
+  ],
+  [
+   "Cabezas de serie y sorteo",
+   "Los cabezas de serie son los equipos considerados más fuertes, que se colocan lejos unos de otros en el cuadro para que no se crucen en las primeras rondas. En un cuadro clásico de 8 equipos, el cabeza de serie n.º 1 juega contra el n.º 8, el n.º 2 contra el n.º 7, y el 1 y el 2 solo pueden encontrarse en la final. Si hay exentos, dárselos a los cabezas de serie es una opción habitual. Si no vas a usar cabezas de serie, decide los cruces por <b>sorteo</b>: hacerlo delante de todos o usar una herramienta que mezcle el orden al azar puede reforzar la sensación de justicia. Elijas el método que elijas, anúncialo <b>antes del torneo</b>."
+  ],
+  [
+   "Nombres de las rondas y planificación",
+   "En un cuadro completo, las rondas se llaman según los equipos que quedan: con 16 equipos son los <b>octavos de final</b>, con 8 los cuartos de final, con 4 las semifinales y con los dos últimos la final. En un cuadro con exentos, la primera ronda puede nombrarse según el tamaño del cuadro; con 6 equipos, la primera ronda cuenta como cuartos de final. Calcula también las rondas: 8 equipos necesitan 3, 16 equipos 4 y 32 equipos 5. Pon un <b>número</b> a cada partido y escribe en la siguiente ronda “Ganador del partido 3” y similares; así el cuadro se entiende antes de que lleguen los resultados. Algunos torneos juegan además un partido por el tercer puesto."
+  ],
+  [
+   "Hacer el cuadro con TurnuVolt",
+   "El <b>generador de calendarios gratis</b> de TurnuVolt prepara en el navegador un cuadro de eliminatorias para 2 a 64 equipos. Si el número de equipos no es potencia de 2, quedan exentos en la primera ronda tantos equipos como falten. Los exentos son los equipos que están arriba del todo en tu lista; si marcas “Sortear los cruces”, la lista se mezcla y también cambian los exentos. La herramienta no coloca cabezas de serie al estilo clásico: empareja al resto de equipos en el orden de la lista. Las rondas siguientes muestran huecos como “Ganador del partido #1”, y puedes imprimir, copiar o compartir el cuadro con un enlace. Para anotar ganadores, toca el equipo ganador en la <b>app TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Escribe los equipos",
+   "En el generador de calendarios gratis, escribe un equipo por línea o indica el número de equipos y pulsa Rellenar. Pon arriba del todo los equipos que deben quedar exentos."
+  ],
+  [
+   "Elige Eliminatoria",
+   "Como formato, elige Eliminatoria. Si quieres sorteo, marca “Sortear los cruces”; así también cambian los equipos exentos."
+  ],
+  [
+   "Genera el cuadro",
+   "Pulsa Generar calendario. Los partidos de la primera ronda, los equipos exentos y todas las rondas hasta la final aparecen como partidos numerados."
+  ],
+  [
+   "Compártelo y anota los resultados",
+   "Imprime el cuadro, cópialo o comparte el enlace (si lo compartes por enlace, no uses | en los nombres de los equipos). Para anotar ganadores, crea el torneo en la app TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "¿Qué significa quedar exento en un torneo?",
+   "Quedar exento significa que un equipo pasa a la siguiente ronda sin jugar. Los exentos equilibran el cuadro cuando el número de equipos no es potencia de 2. Suelen ser para los cabezas de serie o para equipos elegidos por sorteo; los detalles dependen del reglamento de tu torneo."
+  ],
+  [
+   "¿Cuántos equipos quedan exentos?",
+   "Busca la primera potencia de 2 mayor o igual que tu número de equipos y réstale el número de equipos. Con 5 equipos quedan 3 exentos, con 6 quedan 2, con 7 queda 1 y con 9 quedan 7. Así, en la segunda ronda quedan justo 4, 8 o 16 equipos."
+  ],
+  [
+   "¿Cuántos partidos tiene un torneo por eliminatorias?",
+   "Un torneo de eliminación directa con n equipos siempre tiene n − 1 partidos, porque en cada partido cae un equipo y todos menos el campeón pierden exactamente una vez. Con 8 equipos hay 7 partidos, con 12 hay 11 y con 32 hay 31. Si se juega un partido por el tercer puesto, se suma uno más."
+  ],
+  [
+   "¿Cómo se eligen los cabezas de serie?",
+   "Los cabezas de serie suelen basarse en resultados anteriores, en la clasificación de una liga previa o de una fase de grupos, o en el criterio de la organización. El método depende del reglamento de tu torneo. Explicar los criterios de antemano puede reducir las discusiones sobre la elección."
+  ],
+  [
+   "¿Para cuántos equipos sirve el generador gratis?",
+   "El generador de calendarios gratis de TurnuVolt prepara cuadros de eliminatorias para 2 a 64 equipos. No necesitas registrarte y el calendario se calcula en tu navegador. El enlace para compartir lleva los nombres de los equipos en la dirección, así que quien lo reciba también los verá. Con la misma herramienta también puedes crear calendarios de liga."
+  ]
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Schritt für Schritt",
+ "g_faq_h2": "Häufige Fragen",
+ "g_cta_h2": "Erstelle jetzt deinen Spielplan",
+ "g_cta_p": "Gib deine Teams in den kostenlosen Spielplan-Generator ein und dein Spielplan für eine Liga oder ein K.-o.-Turnier steht in Sekunden. Um auch Ergebnisse und Tabelle zu führen, nutze die TurnuVolt-App auf iPhone, iPad oder Android.",
+ "g_cta_btn": "Spielplan kostenlos erstellen",
+ "g_contact": "Fragen und Vorschläge:",
+ "g_other_h2": "Weitere Ratgeber",
+ "g_lang": "Sprache",
+ "g_home": "Startseite",
+ "table_slug": "ligatabelle-erstellen",
+ "table_name": "Ligatabelle erstellen",
+ "table_title": "Ligatabelle erstellen: Spalten & Punkte | TurnuVolt",
+ "table_desc": "So erstellst du eine Ligatabelle: Spalten wie Sp, S, U, N und Tordifferenz, Punktesysteme, Regeln bei Punktgleichheit und Tipps für die Tabelle von Hand.",
+ "table_h1": "Ligatabelle erstellen: so geht's",
+ "table_lead": "Eine Ligatabelle zeigt auf einen Blick, wo jedes Team steht. Hier erfährst du, welche Spalten du brauchst, wie Punkte vergeben werden und wer bei Punktgleichheit vorne liegt.",
+ "table_card": "Spalten, Punktesysteme, Punktgleichheit und Tipps für die Tabelle von Hand.",
+ "table_body": [
+  [
+   "Welche Spalten hat eine Ligatabelle?",
+   "In einer klassischen Ligatabelle steht jedes Team in einer eigenen Zeile. Die Spalten sind meist: <b>Sp</b> für Spiele, S für Siege, U für Unentschieden, N für Niederlagen, T für erzielte Tore, GT für Gegentore, Diff für die Tordifferenz und <b>Pkt</b> für Punkte. Wird in deinem Spiel nicht mit Toren, sondern mit Punkten oder Sätzen gezählt, trägst du einfach diese Einheit ein. Zwei schnelle Kontrollen helfen, manche Fehler zu finden: In jeder Zeile muss S + U + N gleich Sp sein, und über alle Teams hinweg ist die Summe der Tore gleich der Summe der Gegentore. Stimmt das nicht, prüfe die Spielberichte und deine Rechnung. Stimmt es, heißt das aber noch nicht, dass jedes Ergebnis richtig ist."
+  ],
+  [
+   "Punktesystem: Sieg, Unentschieden, Niederlage",
+   "Wie Punkte vergeben werden, legt die Liga selbst fest. In Sportarten mit Unentschieden wie Fußball ist die übliche Regel <b>3 Punkte</b> für einen Sieg, 1 für ein Unentschieden und 0 für eine Niederlage. In Sportarten ohne Unentschieden wie Basketball gibt es für einen Sieg oft 2 Punkte. Im Volleyball zählt auch das Ergebnis selbst: Üblich sind 3 Punkte für einen 3:0- oder 3:1-Sieg, 2 Punkte für einen 3:2-Sieg und 1 Punkt für eine 2:3-Niederlage. Wenn du ein eigenes Turnier organisierst, gib die Regel <b>vor dem ersten Spiel</b> allen bekannt. Wer das Punktesystem mitten in der Saison ändert, sorgt schnell für Streit."
+  ],
+  [
+   "Punktgleichheit: Wer steht weiter oben?",
+   "Die Kriterien bei Punktgleichheit unterscheiden sich von Liga zu Liga, schau also in die Regeln deines Wettbewerbs. Häufig sind: die <b>Tordifferenz</b> (erzielte minus kassierte Tore), die Zahl der erzielten Tore, der direkte Vergleich, also die Ergebnisse der punktgleichen Teams gegeneinander, und als letztes Mittel das Los. Manche Ligen werten den direkten Vergleich vor der Tordifferenz, andere danach. Sind drei oder mehr Teams punktgleich, bilden viele Regelwerke eine kleine Tabelle nur aus den Spielen dieser Teams untereinander. Wenn du die Reihenfolge der Kriterien <b>vorab schriftlich festlegst</b>, gibt es am Saisonende weniger Diskussionen."
+  ],
+  [
+   "Warum eine Tabelle von Hand mühsam ist",
+   "Eine Tabelle auf Papier oder in einer Excel-Tabelle zu führen, ist schon in einer kleinen Liga fehleranfällig. Nach jedem Ergebnis müssen zwei Zeilen gleichzeitig neu berechnet werden: Sp, S, U, N, T, GT, Diff und Pkt sind bei beiden Teams zu prüfen. Eine übersehene Zahl kann die Platzierung verfälschen, und es dauert oft, bis es jemand merkt. Verlegte Spiele, Teams mit einem <b>Spielfrei</b> bei ungerader Teamzahl und Hin- und Rückrunden, die die Zahl der Spiele verdoppeln, machen die Arbeit noch größer. Zuverlässig ist es, die Tabelle ab und zu aus allen Ergebnissen neu zu berechnen und zu vergleichen, doch von Hand kostet auch das Zeit."
+  ],
+  [
+   "Die Tabelle mit TurnuVolt führen",
+   "Wenn du in der TurnuVolt-App (iPhone, iPad und Android) eine Liga anlegst, entstehen Spielplan und Tabelle zusammen. Sobald du Ergebnisse einträgst, aktualisieren sich die Spalten Sp, S, U, N, T, GT, Diff und Pkt sowie die Platzierung <b>automatisch</b>. Die Ergebniseingabe passt zum Spiel: Tore, Punkte, Sätze oder nur der Sieger. Auch die Punkteregel richtet sich nach dem gewählten Spiel: Im Fußball gibt es 3 Punkte für einen Sieg, im Basketball kein Unentschieden, und im Volleyball zählt zusätzlich das Satzverhältnis. Brauchst du nur die Paarungen, reicht der <b>kostenlose Spielplan-Generator</b> im Browser, er führt aber weder Ergebnisse noch Tabelle."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Neues Turnier anlegen",
+   "Tippe in der TurnuVolt-App auf Neues Turnier, gib dem Turnier einen Namen und trage die Zahl der Teams oder Spieler ein."
+  ],
+  [
+   "Spiel und Format Liga wählen",
+   "Wähle aus über 60 Spielen oder nutze Eigenes / Sonstiges; gewertet wird nach den Regeln des Spiels. Wähle als Format Liga, auf Wunsch mit Hin- und Rückrunde."
+  ],
+  [
+   "Teamnamen eingeben",
+   "Trage die Namen der Teams oder Spieler ein. Spielplan und Tabelle werden automatisch erstellt."
+  ],
+  [
+   "Ergebnisse eintragen",
+   "Trage das Ergebnis jedes Spiels ein; die Spalten Sp, S, U, N, T, GT, Diff und Pkt sowie die Platzierung aktualisieren sich von selbst."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Was bedeutet Diff in der Tabelle?",
+   "Diff steht für die Tordifferenz: erzielte Tore minus Gegentore. Ein Team mit 20 erzielten und 12 kassierten Toren hat eine Tordifferenz von +8. Bei Punktgleichheit ist sie eines der häufigsten Kriterien, welches Kriterium zuerst zählt, ist aber von Liga zu Liga verschieden. Prüfe die Regeln deines Wettbewerbs."
+  ],
+  [
+   "Was ist der direkte Vergleich?",
+   "Beim direkten Vergleich werden punktgleiche Teams nur anhand der Spiele gegeneinander verglichen. Übliche Kriterien sind die Punkte und die Tordifferenz aus diesen Spielen. Welche Kriterien in welcher Reihenfolge gelten und ob der direkte Vergleich vor oder nach der Tordifferenz kommt, steht in den Regeln deiner Liga."
+  ],
+  [
+   "Wie viele Punkte gibt es für Sieg und Unentschieden?",
+   "Das bestimmt die Regel deiner Liga. In Sportarten wie Fußball gibt es meist 3 Punkte für einen Sieg, 1 für ein Unentschieden und 0 für eine Niederlage. Gibt es kein Unentschieden, ist ein Sieg oft 2 Punkte wert. Egal, welches System du für dein Turnier wählst: Sag es allen, bevor es losgeht."
+  ],
+  [
+   "Wie funktioniert die Tabelle bei ungerader Teamzahl?",
+   "Bei einer ungeraden Teamzahl ist an jedem Spieltag ein Team spielfrei. Deshalb können die Teams mitten in der Saison unterschiedlich viele Spiele in der Spalte Sp haben; am Ende der Liga haben alle gleich viele Spiele bestritten. Achte beim Lesen der Zwischentabelle also auf die Zahl der Spiele."
+  ],
+  [
+   "Führt der kostenlose Spielplan-Generator eine Tabelle?",
+   "Nein. Der kostenlose Spielplan-Generator im Browser erstellt nur die Paarungen; du kannst den Spielplan drucken, kopieren oder per Link teilen. Um Ergebnisse einzutragen und die Tabelle automatisch zu führen, lege dasselbe Turnier in der TurnuVolt-App an. Die App ist ein einmaliger Kauf, ohne Abo und ohne Werbung."
+  ]
+ ],
+ "bracket_slug": "turnierbaum-erstellen",
+ "bracket_name": "Turnierbaum erstellen",
+ "bracket_title": "Turnierbaum erstellen: Freilose & Setzliste | TurnuVolt",
+ "bracket_desc": "Turnierbaum im K.-o.-System erstellen: wie viele Freilose du brauchst, Setzliste, Auslosung und Rundennamen. Erstelle kostenlos einen K.-o.-Turnierplan.",
+ "bracket_h1": "Turnierbaum im K.-o.-System erstellen",
+ "bracket_lead": "Ein Turnierbaum zeigt, wer gegen wen spielt und wohin der Sieger weiterzieht. Hier erfährst du, wie du Freilose berechnest, gesetzte Teams platzierst und fair auslost.",
+ "bracket_card": "Freilose, Setzliste, Auslosung und Rundennamen für einen Turnierbaum im K.-o.-System.",
+ "bracket_body": [
+  [
+   "Wie funktioniert ein Turnier im K.-o.-System?",
+   "Im K.-o.-System scheidet der Verlierer aus, der Sieger zieht in die nächste Runde ein. Nach einer ersten Runde mit eventuellen Freilosen halbiert sich das Feld in jeder Runde, und wer das Finale gewinnt, ist Turniersieger. Weil in jedem Spiel genau ein Team ausscheidet, gibt es bei <b>n Teams</b> immer <b>n − 1 Spiele</b>: 16 Teams brauchen 4 Runden und 15 Spiele bis zum Sieger. Das Format liefert schnell ein Ergebnis, aber ein schlechter Tag kann selbst ein starkes Team rauswerfen. Sollen alle mehr Spiele bekommen, denk an eine Liga, in der jeder gegen jeden spielt, oder an eine Gruppenphase mit anschließender K.-o.-Runde."
+  ],
+  [
+   "Wenn die Teamzahl keine Zweierpotenz ist: Freilose",
+   "Damit der Turnierbaum aufgeht, muss die Zahl der Teams nach der ersten Runde eine Zweierpotenz sein (2, 4, 8, 16, 32 …). Passt deine Teamzahl nicht, bekommen einige Teams ein <b>Freilos</b>: Sie überspringen die erste Runde und ziehen direkt in die zweite ein. Die Zahl der Freilose ist die nächste Zweierpotenz, die größer oder gleich der Teamzahl ist, minus die Zahl der Teams. Bei 6 Teams sind das 8 − 6 = 2 Freilose, bei 10 Teams 16 − 10 = 6, bei 12 Teams 16 − 12 = 4. Die übrigen Teams spielen in der ersten Runde, und <b>ab der zweiten Runde</b> ist genau eine Zweierpotenz an Teams übrig."
+  ],
+  [
+   "Setzliste und Auslosung",
+   "Setzen heißt, die stärksten Teams im Turnierbaum weit voneinander entfernt zu platzieren, damit sie sich nicht schon in den ersten Runden treffen. In einem klassischen Baum mit 8 Teams spielt die Nummer 1 der Setzliste gegen die Nummer 8, die Nummer 2 gegen die Nummer 7, und 1 und 2 können sich erst im Finale begegnen. Gibt es Freilose, gehen sie häufig an die gesetzten Teams. Willst du nicht setzen, bestimme die Paarungen per <b>Auslosung</b>: Eine Ziehung vor allen Beteiligten oder ein Tool, das die Reihenfolge zufällig mischt, kann das Gefühl von Fairness stärken. Egal, welche Methode du wählst, gib sie <b>vor dem Turnier</b> bekannt."
+  ],
+  [
+   "Rundennamen und Planung",
+   "In einem vollständigen Baum heißen die Runden nach der Zahl der verbliebenen Teams: Bei 16 Teams ist es das <b>Achtelfinale</b>, bei 8 das Viertelfinale, bei 4 das Halbfinale und bei den letzten beiden das Finale. In einem Baum mit Freilosen kann die erste Runde nach der Größe des Baums benannt werden; bei 6 Teams gilt die erste Runde als Viertelfinale. Zähl auch die Runden: 8 Teams brauchen 3, 16 Teams 4 und 32 Teams 5 Runden. Gib jedem Spiel eine <b>Nummer</b> und schreib in der nächsten Runde etwa „Sieger aus Spiel 3“, dann ist der Baum schon vor den Ergebnissen lesbar. Manche Turniere spielen zusätzlich ein Spiel um Platz 3."
+  ],
+  [
+   "Turnierbaum mit TurnuVolt erstellen",
+   "Der <b>kostenlose Spielplan-Generator</b> von TurnuVolt erstellt im Browser einen K.-o.-Turnierplan für 2 bis 64 Teams. Ist die Teamzahl keine Zweierpotenz, bekommen so viele Teams ein Freilos für die erste Runde, wie zur Zweierpotenz fehlen. Die Freilose gehen an die Teams ganz oben in deiner Liste; ist „Auslosung mischen“ aktiviert, wird die Liste gemischt, und auch die Teams mit Freilos ändern sich. Eine klassische Setzliste baut das Tool nicht, es paart die übrigen Teams in der Reihenfolge der Liste. Spätere Runden zeigen Platzhalter wie „Sieger aus Spiel #1“, und du kannst den Plan drucken, kopieren oder per Link teilen. Um Sieger einzutragen, tippe in der <b>TurnuVolt-App</b> auf das Siegerteam."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Teams eingeben",
+   "Schreib im kostenlosen Spielplan-Generator ein Team pro Zeile oder gib eine Teamzahl ein und tippe auf Ausfüllen. Teams, die ein Freilos bekommen sollen, schreibst du ganz nach oben."
+  ],
+  [
+   "K.-o.-System wählen",
+   "Wähle als Format K.-o.-System. Für eine Auslosung aktiviere „Auslosung mischen“; damit ändert sich auch, welche Teams ein Freilos bekommen."
+  ],
+  [
+   "Turnierbaum erstellen",
+   "Tippe auf Spielplan erstellen. Die Spiele der ersten Runde, die Teams mit Freilos und alle Runden bis zum Finale erscheinen als nummerierte Spiele."
+  ],
+  [
+   "Teilen und Ergebnisse eintragen",
+   "Drucke den Plan, kopiere ihn oder teile den Link (beim Teilen per Link kein | in Teamnamen verwenden). Um Sieger einzutragen, lege das Turnier in der TurnuVolt-App an."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Was ist ein Freilos im Turnierbaum?",
+   "Ein Freilos bedeutet, dass ein Team ohne Spiel in die nächste Runde einzieht. Freilose gleichen den Turnierbaum aus, wenn die Teamzahl keine Zweierpotenz ist. Sie gehen oft an die gesetzten Teams oder an ausgeloste Teams; die Details hängen von den Regeln deines Turniers ab."
+  ],
+  [
+   "Wie viele Freilose brauche ich?",
+   "Such die nächste Zweierpotenz, die größer oder gleich deiner Teamzahl ist, und zieh die Zahl der Teams davon ab. 5 Teams brauchen 3 Freilose, 6 Teams 2, 7 Teams 1 und 9 Teams 7. So bleiben in der zweiten Runde glatt 4, 8 oder 16 Teams übrig."
+  ],
+  [
+   "Wie viele Spiele hat ein K.-o.-Turnier?",
+   "Ein K.-o.-Turnier mit n Teams hat immer n − 1 Spiele, denn in jedem Spiel scheidet ein Team aus und alle außer dem Turniersieger verlieren genau einmal. 8 Teams spielen 7 Spiele, 12 Teams 11 und 32 Teams 31. Ein Spiel um Platz 3 kommt noch hinzu."
+  ],
+  [
+   "Wie wird die Setzliste festgelegt?",
+   "Die Setzliste richtet sich meist nach früheren Ergebnissen, nach der Tabelle einer Vorrunde oder Gruppenphase oder nach der Einschätzung der Veranstalter. Welche Methode gilt, hängt von den Regeln deines Turniers ab. Wenn du die Kriterien vorher erklärst, gibt es später weniger Streit um die Setzliste."
+  ],
+  [
+   "Für wie viele Teams geht der kostenlose Generator?",
+   "Der kostenlose Spielplan-Generator von TurnuVolt erstellt K.-o.-Turnierpläne für 2 bis 64 Teams. Eine Registrierung ist nicht nötig, der Plan wird in deinem Browser berechnet. Der Link zum Teilen enthält die Teamnamen in der Adresse; wer den Link bekommt, sieht also die Namen. Mit demselben Tool erstellst du auch Spielpläne für eine Liga."
+  ]
+ ]
+}

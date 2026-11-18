@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Passo a passo",
+ "g_faq_h2": "Perguntas frequentes",
+ "g_cta_h2": "Monte sua tabela de jogos agora",
+ "g_cta_p": "Digite os times no gerador de tabela de jogos grátis e, em segundos, sua tabela de pontos corridos ou seu chaveamento mata-mata fica pronto. Para registrar também os placares e a classificação, use o aplicativo TurnuVolt no iPhone, iPad ou Android.",
+ "g_cta_btn": "Criar tabela de jogos grátis",
+ "g_contact": "Dúvidas e sugestões:",
+ "g_other_h2": "Outros guias",
+ "g_lang": "Idioma",
+ "g_home": "Início",
+ "table_slug": "como-fazer-tabela-de-classificacao",
+ "table_name": "Tabela de classificação",
+ "table_title": "Como fazer uma tabela de classificação | TurnuVolt",
+ "table_desc": "Como fazer a tabela de classificação de um campeonato: colunas J, V, E, D, GP, GC e SG, sistema de pontos, critérios de desempate e dicas para fazer à mão.",
+ "table_h1": "Como fazer uma tabela de classificação de campeonato",
+ "table_lead": "A tabela de classificação mostra num relance a posição de cada time. Explicamos quais colunas você precisa, como os pontos são distribuídos e quem fica na frente quando há empate em pontos.",
+ "table_card": "Colunas, sistema de pontos, desempate e dicas para manter a classificação à mão.",
+ "table_body": [
+  [
+   "Quais colunas uma tabela de classificação tem?",
+   "Numa tabela de classificação clássica, cada time ocupa uma linha. As colunas costumam ser: <b>J</b> jogos, V vitórias, E empates, D derrotas, GP gols pró, GC gols contra, SG saldo de gols e <b>Pts</b> pontos. Se no seu jogo a contagem é em pontos ou sets em vez de gols, você pode anotar essa unidade nessas colunas. Duas conferências rápidas ajudam a achar algumas inconsistências: em cada linha, V + E + D precisa ser igual a J, e na tabela inteira a soma dos GP é igual à soma dos GC. Se essas contas não fecharem, revise as súmulas dos jogos e os cálculos da tabela. Se fecharem, isso ainda não garante que todos os placares estejam certos."
+  ],
+  [
+   "Sistema de pontos: vitória, empate e derrota",
+   "Quem decide como os pontos são distribuídos é o regulamento de cada campeonato. Em esportes com empate, como o futebol, o padrão mais comum é <b>3 pontos</b> por vitória, 1 por empate e 0 por derrota. Em esportes sem empate, como o basquete, a vitória costuma valer 2 pontos. No vôlei o placar também conta: o mais comum é dar 3 pontos para vitória por 3-0 ou 3-1, 2 para vitória por 3-2 e 1 para derrota por 2-3. Se você organiza o seu próprio torneio, avise a regra para todo mundo <b>antes do primeiro jogo</b>; mudar o sistema de pontos no meio da temporada pode facilmente gerar briga."
+  ],
+  [
+   "Empate em pontos: quem fica na frente?",
+   "Os critérios de desempate mudam de campeonato para campeonato, então confira o regulamento da sua competição. Os mais usados são o <b>saldo de gols</b> (gols pró menos gols contra), o número de gols marcados, o confronto direto, ou seja, o resultado entre os times empatados, e, como último recurso, o sorteio. Alguns campeonatos aplicam o confronto direto antes do saldo de gols geral, outros depois. Quando três ou mais times estão empatados, muitos regulamentos montam uma pequena tabela só com os jogos que esses times fizeram entre si. Deixar a ordem dos critérios <b>registrada por escrito antes</b> reduz o risco de polêmica no fim da temporada."
+  ],
+  [
+   "Por que é difícil manter a classificação à mão",
+   "Manter a classificação no papel ou numa planilha é sujeito a erros, mesmo num campeonato pequeno. Depois de cada resultado, é preciso recalcular duas linhas ao mesmo tempo: J, V, E, D, GP, GC, SG e Pts dos dois times. Um número esquecido pode bagunçar a classificação e demorar para ser percebido. Jogos adiados, times de <b>folga</b> quando o número de times é ímpar e campeonatos com turno e returno, que dobram o número de jogos, aumentam ainda mais o trabalho. Um hábito confiável é refazer de vez em quando a tabela a partir de todos os resultados e comparar com a sua, mas, à mão, isso também leva tempo."
+  ],
+  [
+   "Manter a classificação com o TurnuVolt",
+   "Quando você cria uma liga no aplicativo TurnuVolt (iPhone, iPad e Android), a tabela de jogos e a classificação são criadas juntas. Conforme você insere os placares, as colunas J, V, E, D, GP, GC, SG e Pts e as posições são atualizadas <b>automaticamente</b>. A entrada do placar se adapta ao jogo: gols, pontos, sets ou só o vencedor. A regra de pontos também segue o jogo escolhido: no futebol a vitória vale 3 pontos, no basquete não há empate e no vôlei o saldo de sets também conta. Se você só precisa dos confrontos, o <b>gerador de tabela de jogos grátis</b> no navegador basta, mas ele não registra placares nem classificação."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Crie um novo torneio",
+   "No aplicativo TurnuVolt, toque em Novo torneio, dê um nome ao torneio e informe o número de times ou jogadores."
+  ],
+  [
+   "Escolha o jogo e o formato Liga",
+   "Escolha entre mais de 60 jogos ou use Outro / personalizado; a pontuação segue as regras do jogo. No formato, escolha Liga, se quiser com ida e volta."
+  ],
+  [
+   "Digite os nomes dos times",
+   "Digite os nomes dos times ou jogadores. A tabela de jogos e a classificação são criadas automaticamente."
+  ],
+  [
+   "Insira os placares",
+   "Insira o placar de cada jogo; as colunas J, V, E, D, GP, GC, SG e Pts e as posições são atualizadas sozinhas."
+  ]
+ ],
+ "table_faq": [
+  [
+   "O que significa SG na tabela de classificação?",
+   "SG é o saldo de gols: os gols marcados menos os gols sofridos. Um time que marcou 20 gols e sofreu 12 tem saldo de +8. É um dos critérios de desempate mais comuns quando há empate em pontos, mas qual critério vem primeiro muda de campeonato para campeonato; confira o regulamento da sua competição."
+  ],
+  [
+   "O que é confronto direto e como funciona?",
+   "O confronto direto compara os times empatados usando só os jogos que eles fizeram entre si. Os pontos e o saldo de gols nesses jogos são critérios comuns. Confira no regulamento do seu campeonato quais critérios valem, em que ordem e se o confronto direto vem antes ou depois do saldo de gols geral."
+  ],
+  [
+   "Quantos pontos vale uma vitória ou um empate?",
+   "Quem decide é o regulamento do campeonato. Em esportes como o futebol, o padrão é 3 pontos por vitória, 1 por empate e 0 por derrota. Em esportes sem empate, a vitória costuma valer 2 pontos. Seja qual for o sistema escolhido para o seu torneio, avise todo mundo antes de começar."
+  ],
+  [
+   "Como fica a classificação com número ímpar de times?",
+   "Com número ímpar de times, a cada rodada um time fica de folga e não joga. Por isso, no meio da temporada os times podem ter números diferentes na coluna J; no fim do campeonato, todos terão feito o mesmo número de jogos. Ao ler a classificação parcial, leve em conta os jogos disputados."
+  ],
+  [
+   "O gerador de tabela de jogos grátis faz a classificação?",
+   "Não. O gerador de tabela de jogos grátis no navegador só monta os confrontos; você pode imprimir a tabela, copiar ou compartilhar por link. Para inserir placares e manter a classificação automaticamente, crie o mesmo torneio no aplicativo TurnuVolt. O aplicativo tem compra única, sem assinatura e sem anúncios."
+  ]
+ ],
+ "bracket_slug": "como-montar-chaveamento-mata-mata",
+ "bracket_name": "Chaveamento mata-mata",
+ "bracket_title": "Como montar um chaveamento mata-mata | TurnuVolt",
+ "bracket_desc": "Como montar o chaveamento de um torneio mata-mata: quantas folgas, cabeças de chave, sorteio e nomes das fases. Crie seu chaveamento mata-mata grátis.",
+ "bracket_h1": "Como montar o chaveamento de um torneio mata-mata",
+ "bracket_lead": "O chaveamento mostra quem joga contra quem e para onde vai cada vencedor. Explicamos como calcular as folgas, posicionar os cabeças de chave e fazer um sorteio justo.",
+ "bracket_card": "Folgas, cabeças de chave, sorteio e nomes das fases para um chaveamento mata-mata.",
+ "bracket_body": [
+  [
+   "Como funciona um torneio mata-mata?",
+   "Num torneio mata-mata (eliminação simples), quem perde está fora e quem vence avança para a próxima fase. Depois de uma primeira fase com eventuais folgas, o número de times cai pela metade a cada fase, e quem vence a final é o campeão. Como cada jogo elimina exatamente um time, um torneio com <b>n times</b> sempre tem <b>n − 1 jogos</b>: 16 times precisam de 4 fases e 15 jogos para chegar ao campeão. O formato dá resultado rápido, mas um dia ruim pode tirar até um time forte do torneio. Se você quer que todos joguem mais, pense em pontos corridos ou numa fase de grupos seguida de mata-mata."
+  ],
+  [
+   "Se o número de times não é potência de 2: folgas",
+   "Para o chaveamento fechar, o número de times que sobram depois da primeira fase precisa ser uma potência de 2 (2, 4, 8, 16, 32…). Se o seu número de times não se encaixa, alguns times ficam de <b>folga</b>: não jogam a primeira fase e vão direto para a segunda. O número de folgas é a primeira potência de 2 maior ou igual ao número de times, menos o número de times. Com 6 times, 8 − 6 = 2 ficam de folga; com 10, 16 − 10 = 6; com 12, 16 − 12 = 4. Os demais times jogam a primeira fase e, <b>a partir da segunda fase</b>, sobra exatamente uma potência de 2."
+  ],
+  [
+   "Cabeças de chave e sorteio",
+   "Cabeças de chave são os times considerados mais fortes, colocados longe uns dos outros no chaveamento para que não se enfrentem nas primeiras fases. Num chaveamento clássico de 8 times, o cabeça de chave nº 1 joga contra o nº 8, o nº 2 contra o nº 7, e o 1 e o 2 só podem se encontrar na final. Se houver folgas, dá-las aos cabeças de chave é uma prática comum. Se você não vai usar cabeças de chave, defina os confrontos por <b>sorteio</b>: sortear na frente de todos ou usar uma ferramenta que embaralha a ordem ao acaso pode reforçar a sensação de justiça. Seja qual for o método, anuncie <b>antes do torneio</b>."
+  ],
+  [
+   "Nomes das fases e planejamento",
+   "Num chaveamento completo, as fases levam o nome do número de times que restam: com 16 times são as <b>oitavas de final</b>, com 8 as quartas de final, com 4 as semifinais e com os dois últimos a final. Num chaveamento com folgas, a primeira fase pode ser nomeada pelo tamanho do chaveamento; com 6 times, a primeira fase conta como quartas de final. Calcule também as fases: 8 times precisam de 3, 16 times de 4 e 32 times de 5. Dê um <b>número</b> a cada jogo e escreva na fase seguinte “Vencedor do jogo 3” e assim por diante; assim o chaveamento já faz sentido antes dos resultados. Alguns torneios também têm disputa de terceiro lugar."
+  ],
+  [
+   "Montar o chaveamento com o TurnuVolt",
+   "O <b>gerador de tabela de jogos grátis</b> do TurnuVolt monta no navegador um chaveamento mata-mata para 2 a 64 times. Se o número de times não é potência de 2, ficam de folga na primeira fase tantos times quantos faltarem. As folgas vão para os times no topo da sua lista; com “Embaralhar o sorteio” marcado, a lista é embaralhada e os times de folga também mudam. A ferramenta não posiciona sozinha os cabeças de chave do jeito clássico; ela emparelha os demais times na ordem da lista. As fases seguintes mostram marcadores como “Vencedor do jogo #1”, e você pode imprimir, copiar ou compartilhar o chaveamento por link. Para registrar os vencedores, toque no time vencedor no <b>aplicativo TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Digite os times",
+   "No gerador de tabela de jogos grátis, digite um time por linha ou informe o número de times e toque em Preencher. Coloque no topo os times que devem ficar de folga."
+  ],
+  [
+   "Escolha Mata-mata",
+   "No formato, escolha Mata-mata. Para fazer sorteio, marque “Embaralhar o sorteio”; isso também muda quais times ficam de folga."
+  ],
+  [
+   "Gere o chaveamento",
+   "Toque em Gerar tabela de jogos. Os jogos da primeira fase, os times de folga e todas as fases até a final aparecem como jogos numerados."
+  ],
+  [
+   "Compartilhe e registre os resultados",
+   "Imprima o chaveamento, copie ou compartilhe o link (ao compartilhar por link, não use | nos nomes dos times). Para registrar os vencedores, crie o torneio no aplicativo TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "O que é folga num chaveamento mata-mata?",
+   "Folga significa que um time avança para a próxima fase sem jogar. As folgas equilibram o chaveamento quando o número de times não é potência de 2. Costumam ir para os cabeças de chave ou para times definidos por sorteio; os detalhes dependem do regulamento do seu torneio."
+  ],
+  [
+   "Quantas folgas eu preciso?",
+   "Ache a primeira potência de 2 maior ou igual ao seu número de times e subtraia o número de times. Com 5 times são 3 folgas, com 6 são 2, com 7 é 1 e com 9 são 7. Assim, na segunda fase sobram exatamente 4, 8 ou 16 times."
+  ],
+  [
+   "Quantos jogos tem um torneio mata-mata?",
+   "Um torneio mata-mata com n times sempre tem n − 1 jogos, porque cada jogo elimina um time e todos, menos o campeão, perdem exatamente uma vez. Com 8 times são 7 jogos, com 12 são 11 e com 32 são 31. Se houver disputa de terceiro lugar, soma-se mais um jogo."
+  ],
+  [
+   "Como são definidos os cabeças de chave?",
+   "Os cabeças de chave costumam ser definidos por resultados anteriores, pela classificação de uma liga ou fase de grupos anterior ou pela avaliação do organizador. O método depende do regulamento do seu torneio. Explicar os critérios com antecedência pode diminuir as discussões sobre essa escolha."
+  ],
+  [
+   "Para quantos times serve o gerador grátis?",
+   "O gerador de tabela de jogos grátis do TurnuVolt monta chaveamentos mata-mata de 2 a 64 times. Não precisa de cadastro, e a tabela é calculada no seu navegador. O link de compartilhamento leva os nomes dos times no endereço; quem receber o link também vê os nomes. Com a mesma ferramenta você também monta tabelas de pontos corridos."
+  ]
+ ]
+}

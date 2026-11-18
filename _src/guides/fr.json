@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Étape par étape",
+ "g_faq_h2": "Questions fréquentes",
+ "g_cta_h2": "Créez votre calendrier maintenant",
+ "g_cta_p": "Saisissez vos équipes dans le générateur de calendrier gratuit et obtenez en quelques secondes un calendrier de championnat ou un tableau à élimination directe. Pour suivre aussi les scores et le classement, utilisez l’application TurnuVolt sur iPhone, iPad ou Android.",
+ "g_cta_btn": "Créer un calendrier gratuit",
+ "g_contact": "Questions et suggestions :",
+ "g_other_h2": "Autres guides",
+ "g_lang": "Langue",
+ "g_home": "Accueil",
+ "table_slug": "faire-un-classement-de-championnat",
+ "table_name": "Faire un classement",
+ "table_title": "Comment faire un classement de championnat | TurnuVolt",
+ "table_desc": "Comment faire le classement d’un championnat : colonnes J, G, N, P, BP, BC et Diff, barème des points, départage et conseils pour le tenir à la main.",
+ "table_h1": "Comment faire un classement de championnat",
+ "table_lead": "Un classement montre d’un coup d’œil la place de chaque équipe dans le championnat. Voici les colonnes nécessaires, comment les points sont attribués et qui passe devant en cas d’égalité de points.",
+ "table_card": "Colonnes, barème des points, départage et conseils pour tenir le classement à la main.",
+ "table_body": [
+  [
+   "Quelles colonnes dans un classement ?",
+   "Dans un classement de championnat classique, chaque équipe occupe une ligne. Les colonnes sont en général : <b>J</b> matchs joués, G gagnés, N nuls, P perdus, BP buts pour, BC buts contre, Diff différence de buts et <b>Pts</b> points. Si votre jeu se compte en points ou en sets plutôt qu’en buts, vous pouvez inscrire cette unité dans ces colonnes. Deux vérifications simples aident à repérer certaines incohérences : sur chaque ligne, G + N + P doit être égal à J, et sur l’ensemble du classement, le total des BP est égal au total des BC. Sinon, revoyez les feuilles de match et les calculs du tableau. Si elles tombent juste, rien ne garantit pour autant que chaque score soit exact."
+  ],
+  [
+   "Barème des points : victoire, nul, défaite",
+   "La façon d’attribuer les points dépend du règlement de chaque championnat. Dans les sports où le match nul existe, comme le football, le barème courant est de <b>3 points</b> pour une victoire, 1 pour un nul et 0 pour une défaite. Dans les sports sans match nul, comme le basket, une victoire vaut souvent 2 points. Au volley, le score compte aussi : selon un barème courant, une victoire 3-0 ou 3-1 rapporte 3 points, une victoire 3-2 en rapporte 2 et une défaite 2-3 en rapporte 1. Si vous organisez votre propre tournoi, annoncez la règle à tous <b>avant le premier match</b> ; changer de barème en cours de saison peut vite provoquer des disputes."
+  ],
+  [
+   "Égalité de points : qui passe devant ?",
+   "Les critères de départage varient d’un championnat à l’autre, consultez donc le règlement de votre compétition. Les plus courants sont la <b>différence de buts</b> (buts marqués moins buts encaissés), le nombre de buts marqués, les confrontations directes, c’est-à-dire les résultats entre les équipes à égalité, et en dernier recours le tirage au sort. Certains championnats appliquent les confrontations directes avant la différence de buts générale, d’autres après. Quand trois équipes ou plus sont à égalité, beaucoup de règlements établissent un mini-classement avec les seuls matchs joués entre elles. <b>Écrire à l’avance</b> l’ordre des critères réduit le risque de contestation en fin de saison."
+  ],
+  [
+   "Pourquoi tenir un classement à la main est difficile",
+   "Tenir un classement sur papier ou dans un tableur expose aux erreurs, même dans un petit championnat. Après chaque résultat, il faut recalculer deux lignes à la fois : J, G, N, P, BP, BC, Diff et Pts pour les deux équipes. Un chiffre oublié peut fausser le classement et passer longtemps inaperçu. Les matchs reportés, les équipes <b>exemptes</b> quand le nombre d’équipes est impair et les championnats en matchs aller-retour, qui doublent le nombre de rencontres, alourdissent encore la tâche. Une bonne habitude consiste à recalculer de temps en temps le classement à partir de tous les résultats et à le comparer au vôtre, mais à la main, cela prend aussi du temps."
+  ],
+  [
+   "Tenir le classement avec TurnuVolt",
+   "Quand vous créez une ligue dans l’application TurnuVolt (iPhone, iPad et Android), le calendrier et le classement sont créés ensemble. À chaque score saisi, les colonnes J, G, N, P, BP, BC, Diff et Pts ainsi que les positions se mettent à jour <b>automatiquement</b>. La saisie du score s’adapte au jeu : buts, points, sets ou simplement le vainqueur. Le barème suit aussi le jeu choisi : au football une victoire vaut 3 points, au basket il n’y a pas de match nul et au volley la différence de sets compte également. Si vous avez seulement besoin des rencontres, le <b>générateur de calendrier gratuit</b> dans votre navigateur suffit, mais il ne garde ni les scores ni le classement."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Créez un nouveau tournoi",
+   "Dans l’application TurnuVolt, touchez Nouveau tournoi, donnez-lui un nom et indiquez le nombre d’équipes ou de joueurs."
+  ],
+  [
+   "Choisissez le jeu et le format Ligue",
+   "Choisissez parmi plus de 60 jeux ou utilisez Autre / perso ; le score suit les règles du jeu. Comme format, choisissez Ligue, avec matchs aller-retour si vous le souhaitez."
+  ],
+  [
+   "Saisissez les noms des équipes",
+   "Saisissez les noms des équipes ou des joueurs. Le calendrier et le classement sont créés automatiquement."
+  ],
+  [
+   "Saisissez les scores",
+   "Saisissez le score de chaque match ; les colonnes J, G, N, P, BP, BC, Diff et Pts ainsi que les positions se mettent à jour toutes seules."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Que veut dire Diff dans un classement ?",
+   "Diff désigne la différence de buts : les buts marqués moins les buts encaissés. Une équipe qui a marqué 20 buts et en a encaissé 12 a une différence de +8. C’est l’un des critères de départage les plus courants en cas d’égalité de points, mais le critère qui passe en premier varie : vérifiez le règlement de votre compétition."
+  ],
+  [
+   "Que sont les confrontations directes ?",
+   "Les confrontations directes comparent les équipes à égalité en ne retenant que les matchs qu’elles ont joués entre elles. Les points et la différence de buts de ces matchs sont des critères courants. Vérifiez dans le règlement de votre championnat quels critères s’appliquent, dans quel ordre, et s’ils passent avant ou après la différence de buts générale."
+  ],
+  [
+   "Combien de points pour une victoire ou un nul ?",
+   "C’est le règlement du championnat qui décide. Dans des sports comme le football, le barème habituel est de 3 points pour une victoire, 1 pour un nul et 0 pour une défaite. Dans les sports sans match nul, une victoire vaut souvent 2 points. Quel que soit le barème choisi pour votre tournoi, annoncez-le à tous avant le début."
+  ],
+  [
+   "Comment tenir un classement avec un nombre impair d’équipes ?",
+   "Avec un nombre impair d’équipes, une équipe est exempte à chaque journée et ne joue pas. En cours de saison, les équipes peuvent donc avoir un chiffre différent dans la colonne J ; à la fin du championnat, toutes auront joué le même nombre de matchs. Tenez compte des matchs joués quand vous lisez le classement provisoire."
+  ],
+  [
+   "Le générateur de calendrier gratuit tient-il le classement ?",
+   "Non. Le générateur de calendrier gratuit dans votre navigateur prépare seulement les rencontres ; vous pouvez imprimer le calendrier, le copier ou le partager avec un lien. Pour saisir les scores et tenir le classement automatiquement, créez le même tournoi dans l’application TurnuVolt. L’application s’achète une seule fois, sans abonnement et sans publicité."
+  ]
+ ],
+ "bracket_slug": "creer-un-tableau-elimination-directe",
+ "bracket_name": "Tableau à élimination directe",
+ "bracket_title": "Créer un tableau à élimination directe | TurnuVolt",
+ "bracket_desc": "Comment créer un tableau de tournoi à élimination directe : nombre d’exempts, têtes de série, tirage au sort et noms des tours. Créez un tableau gratuit.",
+ "bracket_h1": "Comment créer un tableau de tournoi à élimination directe",
+ "bracket_lead": "Un tableau montre qui affronte qui et où va chaque vainqueur. Voici comment calculer le nombre d’exempts, placer les têtes de série et organiser un tirage au sort équitable.",
+ "bracket_card": "Exempts, têtes de série, tirage au sort et noms des tours pour un tableau de tournoi.",
+ "bracket_body": [
+  [
+   "Comment fonctionne un tournoi à élimination directe ?",
+   "Dans un tournoi à élimination directe, le perdant est éliminé et le vainqueur passe au tour suivant. Après un premier tour avec d’éventuels exempts, le nombre d’équipes est divisé par deux à chaque tour, et l’équipe qui gagne la finale est championne. Comme chaque match élimine exactement une équipe, un tournoi à <b>n équipes</b> compte toujours <b>n − 1 matchs</b> : 16 équipes ont besoin de 4 tours et de 15 matchs pour désigner un champion. Ce format donne vite un résultat, mais un jour sans peut éliminer même une équipe forte. Si vous voulez que chacun joue davantage, pensez à un championnat où tout le monde se rencontre, ou à une phase de groupes suivie d’une phase finale."
+  ],
+  [
+   "Si le nombre d’équipes n’est pas une puissance de 2 : les exempts",
+   "Pour que le tableau tombe juste, le nombre d’équipes restant après le premier tour doit être une puissance de 2 (2, 4, 8, 16, 32…). Si votre nombre d’équipes ne convient pas, certaines équipes sont <b>exemptes</b> : elles ne jouent pas le premier tour et passent directement au deuxième. Le nombre d’exempts est égal à la première puissance de 2 supérieure ou égale au nombre d’équipes, moins le nombre d’équipes. Avec 6 équipes, 8 − 6 = 2 sont exemptes ; avec 10, 16 − 10 = 6 ; avec 12, 16 − 12 = 4. Les autres équipes jouent le premier tour et, <b>à partir du deuxième tour</b>, il reste exactement une puissance de 2."
+  ],
+  [
+   "Têtes de série et tirage au sort",
+   "Les têtes de série sont les équipes jugées les plus fortes, que l’on place loin les unes des autres dans le tableau pour qu’elles ne se croisent pas dès les premiers tours. Dans un tableau classique à 8 équipes, la tête de série n° 1 affronte la n° 8, la n° 2 affronte la n° 7, et la 1 et la 2 ne peuvent se rencontrer qu’en finale. S’il y a des exempts, les attribuer aux têtes de série est une pratique courante. Si vous n’utilisez pas de têtes de série, fixez les rencontres par <b>tirage au sort</b> : tirer les noms devant tout le monde ou utiliser un outil qui mélange l’ordre au hasard peut renforcer le sentiment d’équité. Quelle que soit la méthode, annoncez-la <b>avant le tournoi</b>."
+  ],
+  [
+   "Noms des tours et organisation",
+   "Dans un tableau complet, les tours portent le nom du nombre d’équipes restantes : avec 16 équipes, ce sont les <b>huitièmes de finale</b>, puis les quarts de finale (8), les demi-finales (4) et la finale (2). Dans un tableau avec exempts, le premier tour peut être nommé d’après la taille du tableau ; avec 6 équipes, le premier tour compte comme des quarts de finale. Comptez aussi les tours : 8 équipes en demandent 3, 16 équipes 4 et 32 équipes 5. Donnez un <b>numéro</b> à chaque match et écrivez au tour suivant « Vainqueur du match 3 », et ainsi de suite ; le tableau reste lisible avant même les résultats. Certains tournois ajoutent un match pour la troisième place."
+  ],
+  [
+   "Créer le tableau avec TurnuVolt",
+   "Le <b>générateur de calendrier gratuit</b> de TurnuVolt prépare dans le navigateur un tableau à élimination directe de 2 à 64 équipes. Si ce nombre n’est pas une puissance de 2, autant d’équipes qu’il en manque sont exemptes au premier tour. Les exempts sont les équipes en tête de liste ; si « Mélanger le tirage » est coché, la liste est mélangée et les exempts changent aussi. L’outil ne place pas de têtes de série à la manière classique : il associe les autres équipes dans l’ordre de la liste. Les tours suivants affichent « Vainqueur du match n° 1 », etc., et le tableau s’imprime, se copie ou se partage par lien. Pour saisir les vainqueurs, touchez l’équipe gagnante dans l’<b>application TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Saisissez les équipes",
+   "Dans le générateur de calendrier gratuit, écrivez une équipe par ligne ou indiquez un nombre d’équipes et touchez Remplir. Placez en haut les équipes qui doivent être exemptes."
+  ],
+  [
+   "Choisissez Élimination directe",
+   "Comme format, choisissez Élimination directe. Pour un tirage au sort, cochez « Mélanger le tirage » ; les équipes exemptes changent alors aussi."
+  ],
+  [
+   "Générez le tableau",
+   "Touchez Générer le calendrier. Les matchs du premier tour, les équipes exemptes et tous les tours jusqu’à la finale s’affichent sous forme de matchs numérotés."
+  ],
+  [
+   "Partagez-le et saisissez les résultats",
+   "Imprimez le tableau, copiez-le ou partagez le lien (pour un partage par lien, évitez le caractère | dans les noms d’équipes). Pour saisir les vainqueurs, créez le tournoi dans l’application TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Que veut dire être exempt dans un tournoi ?",
+   "Être exempt signifie qu’une équipe passe au tour suivant sans jouer. Les exempts équilibrent le tableau quand le nombre d’équipes n’est pas une puissance de 2. Ils reviennent souvent aux têtes de série ou à des équipes désignées par tirage au sort ; le détail dépend du règlement de votre tournoi."
+  ],
+  [
+   "Combien d’équipes sont exemptes ?",
+   "Trouvez la première puissance de 2 supérieure ou égale à votre nombre d’équipes, puis retirez-en le nombre d’équipes. Avec 5 équipes, 3 sont exemptes ; avec 6, 2 ; avec 7, 1 ; avec 9, 7. Il reste ainsi exactement 4, 8 ou 16 équipes au deuxième tour."
+  ],
+  [
+   "Combien de matchs dans un tournoi à élimination directe ?",
+   "Un tournoi à élimination directe à n équipes compte toujours n − 1 matchs, car chaque match élimine une équipe et toutes, sauf le champion, perdent une seule fois. 8 équipes jouent 7 matchs, 12 équipes en jouent 11 et 32 équipes en jouent 31. Un match pour la troisième place en ajoute un."
+  ],
+  [
+   "Comment désigner les têtes de série ?",
+   "Les têtes de série reposent en général sur les résultats passés, sur le classement d’un championnat préalable ou d’une phase de groupes, ou sur l’appréciation de l’organisateur. La méthode dépend du règlement de votre tournoi. Expliquer les critères à l’avance peut limiter les contestations sur ce choix."
+  ],
+  [
+   "Combien d’équipes avec le générateur gratuit ?",
+   "Le générateur de calendrier gratuit de TurnuVolt crée des tableaux à élimination directe de 2 à 64 équipes. Aucune inscription n’est nécessaire et le calendrier est calculé dans votre navigateur. Le lien de partage contient les noms des équipes dans son adresse : toute personne qui le reçoit les voit donc. Le même outil prépare aussi des calendriers de championnat."
+  ]
+ ]
+}

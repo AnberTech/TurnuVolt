@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Trin for trin",
+ "g_faq_h2": "Ofte stillede spørgsmål",
+ "g_cta_h2": "Lav dit kampprogram nu",
+ "g_cta_p": "Skriv dine hold i den gratis kampprogram-generator, og få et kampprogram til alle-mod-alle eller knockout på få sekunder. Vil du også holde styr på resultater og stilling, så brug TurnuVolt-appen på iPhone, iPad eller Android.",
+ "g_cta_btn": "Lav et gratis kampprogram",
+ "g_contact": "Spørgsmål og forslag:",
+ "g_other_h2": "Flere guides",
+ "g_lang": "Sprog",
+ "g_home": "Forside",
+ "table_slug": "lav-en-ligatabel",
+ "table_name": "Sådan laver du en ligatabel",
+ "table_title": "Sådan laver du en ligatabel (stilling) | TurnuVolt",
+ "table_desc": "Sådan laver du en ligatabel: kolonnerne K, V, U, T, M+, M-, MF og P, pointsystem, hvem der står øverst ved pointlighed og gode tips til stillingen.",
+ "table_h1": "Sådan laver du en ligatabel (stilling)",
+ "table_lead": "En ligatabel viser med ét blik, hvor hvert hold står. Her kan du se, hvilke kolonner du skal bruge, hvordan point gives, og hvem der kommer foran, når holdene står lige på point.",
+ "table_card": "Kolonner, pointsystem, pointlighed og gode tips til stillingen.",
+ "table_body": [
+  [
+   "Hvilke kolonner har en ligatabel?",
+   "I en klassisk ligatabel har hvert hold sin egen række. Kolonnerne er typisk: <b>K</b> spillede kampe, V vundne, U uafgjorte, T tabte, M+ scorede mål, M- mål imod, MF målforskel og <b>P</b> point. Hvis dit spil tæller point eller sæt i stedet for mål, kan du skrive den enhed i kolonnerne. To enkle tjek hjælper dig med at fange nogle uoverensstemmelser: i hver række skal V + U + T være lig med K, og summen af M+ for alle hold er lig med summen af M-. Passer det ikke, så gennemgå kampresultaterne og udregningerne i tabellen. Passer det, er det dog ingen garanti for, at hvert resultat er rigtigt."
+  ],
+  [
+   "Pointsystem: sejr, uafgjort, nederlag",
+   "Hvordan point fordeles, bestemmer ligaens egne regler. I spil med uafgjort, som fodbold, er det almindelige system <b>3 point</b> for en sejr, 1 for uafgjort og 0 for et nederlag. I spil uden uafgjort, som basketball, giver en sejr ofte 2 point. I volleyball tæller selve resultatet også: efter en udbredt regel får vinderen af en 3-0- eller 3-1-kamp 3 point, vinderen af 3-2 får 2 og taberen af 2-3 får 1. Arrangerer du din egen turnering, så meld reglerne ud til alle <b>før første kamp</b>. Ændrer du pointsystemet midt i sæsonen, kan det let skabe uenighed."
+  ],
+  [
+   "Hvem står øverst ved pointlighed?",
+   "Kriterierne ved pointlighed varierer fra liga til liga, så tjek reglementet for din turnering. Ofte bruges <b>målforskel</b> (scorede minus indkasserede mål), flest scorede mål, indbyrdes opgør, altså resultaterne i kampene mellem de hold, der står lige, og som sidste udvej lodtrækning. Nogle ligaer bruger indbyrdes opgør før den samlede målforskel, andre efter. Når tre eller flere hold står lige, laver mange reglementer en lille tabel kun med kampene mellem de hold. Skriver du rækkefølgen af kriterierne ned <b>på forhånd</b>, mindsker du risikoen for diskussioner ved sæsonens afslutning."
+  ],
+  [
+   "Derfor er det svært at føre stillingen i hånden",
+   "At føre en stilling på papir eller i et regneark giver let fejl, selv i en lille liga. Efter hvert resultat skal to rækker regnes om på én gang, og for begge hold skal du tjekke K, V, U, T, M+, M-, MF og P. Et enkelt overset tal kan ødelægge placeringerne, og det kan tage tid, før nogen opdager det. Udsatte kampe, hold, der er <b>oversidder</b> i en runde, når antallet af hold er ulige, og ligaer med ude- og hjemmekampe, hvor antallet af kampe fordobles, giver mere arbejde. En sikker vane er en gang imellem at regne hele tabellen forfra ud fra alle resultater og sammenligne, men i hånden tager det også tid."
+  ],
+  [
+   "Ligatabel med TurnuVolt",
+   "Når du opretter en liga i TurnuVolt-appen (iPhone, iPad og Android), dannes kampprogram og stilling samtidig. Når du indtaster resultater, opdateres kolonnerne K, V, U, T, M+, M-, MF og P og placeringerne <b>automatisk</b>. Resultatindtastningen passer til spillet: mål, point, sæt eller bare vinderen. Pointreglen følger det spil, du vælger: i fodbold giver en sejr 3 point, basketball har ikke uafgjort, og i volleyball tæller sætforskellen også med. Har du kun brug for kampene, er den <b>gratis kampprogram-generator</b> i browseren nok, men den holder ikke styr på resultater eller stilling."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Opret en ny turnering",
+   "Tryk på Ny turnering i TurnuVolt-appen, giv turneringen et navn, og indtast antallet af hold eller spillere."
+  ],
+  [
+   "Vælg spil og formatet Liga",
+   "Vælg mellem mere end 60 spil, eller brug Tilpasset / Andet; pointgivningen følger spillets regler. Vælg Liga som format, eventuelt med ude- og hjemmekampe."
+  ],
+  [
+   "Skriv holdnavnene",
+   "Indtast navnene på holdene eller spillerne. Kampprogrammet og stillingen oprettes automatisk."
+  ],
+  [
+   "Indtast resultaterne",
+   "Indtast resultatet af hver kamp; kolonnerne K, V, U, T, M+, M-, MF og P og placeringerne opdateres af sig selv."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Hvad betyder MF i en ligatabel?",
+   "MF står for målforskel: scorede mål minus indkasserede mål. Et hold, der har scoret 20 og lukket 12 ind, har en målforskel på +8. Ved pointlighed er det et af de mest brugte kriterier, men hvilket kriterium der kommer først, varierer fra liga til liga, så tjek reglementet for din turnering."
+  ],
+  [
+   "Hvad er indbyrdes opgør, og hvordan regnes det?",
+   "Indbyrdes opgør sammenligner hold med lige mange point ud fra kun de kampe, de har spillet mod hinanden. Point og målforskel fra de kampe er almindelige kriterier. Tjek i ligaens reglement, hvilke kriterier der gælder, i hvilken rækkefølge, og om indbyrdes opgør kommer før eller efter den samlede målforskel."
+  ],
+  [
+   "Hvor mange point giver en sejr og uafgjort?",
+   "Det bestemmer ligaens regler. I spil som fodbold er det almindelige system 3 point for en sejr, 1 for uafgjort og 0 for et nederlag. I spil uden uafgjort giver en sejr ofte 2 point. Uanset hvilket system du vælger til din egen turnering, så fortæl det til alle, før den starter."
+  ],
+  [
+   "Hvordan fører man stilling med et ulige antal hold?",
+   "Med et ulige antal hold er ét hold oversidder i hver runde og spiller ikke. Midt i sæsonen kan holdene derfor have forskellige tal i K-kolonnen; når ligaen er slut, har alle spillet lige mange kampe. Hold øje med antallet af spillede kampe, når du læser stillingen undervejs."
+  ],
+  [
+   "Holder den gratis kampprogram-generator styr på stillingen?",
+   "Nej. Den gratis kampprogram-generator i browseren laver kun kampene; du kan udskrive kampprogrammet, kopiere det eller dele det med et link. Vil du indtaste resultater og få stillingen automatisk, så opret den samme turnering i TurnuVolt-appen. Appen er et engangskøb uden abonnement og uden reklamer."
+  ]
+ ],
+ "bracket_slug": "lav-en-knockout-turnering",
+ "bracket_name": "Lav en knockout-turnering",
+ "bracket_title": "Sådan laver du en knockout-turnering (bracket) | TurnuVolt",
+ "bracket_desc": "Sådan laver du en knockout-turnering: antal oversiddere, når holdtallet ikke er en potens af 2, seedning, lodtrækning og runder. Lav et gratis bracket.",
+ "bracket_h1": "Sådan laver du en knockout-turnering",
+ "bracket_lead": "Et knockout-træ (bracket) viser, hvem der møder hvem, og hvor vinderen går videre. Her kan du se, hvordan du regner oversiddere ud, placerer seedede hold og laver en fair lodtrækning.",
+ "bracket_card": "Oversiddere, seedning, lodtrækning og rundenavne til en knockout-turnering.",
+ "bracket_body": [
+  [
+   "Hvordan fungerer en knockout-turnering?",
+   "I en knockout-turnering (cupformat) er taberen ude, og vinderen går videre til næste runde. Efter en eventuel første runde med oversiddere halveres antallet af hold i hver runde, og den, der vinder finalen, er mester. Fordi præcis ét hold ryger ud i hver kamp, spilles der i en turnering med <b>n hold</b> altid <b>n − 1 kampe</b>: 16 hold finder en vinder på 4 runder og 15 kampe. Formatet giver hurtigt et resultat, men én dårlig dag kan sende selv et stærkt hold ud. Vil du have, at alle spiller flere kampe, så overvej en liga alle-mod-alle eller først grupper og derefter knockout."
+  ],
+  [
+   "Når antallet af hold ikke er en potens af 2: oversiddere",
+   "For at træet går op, skal antallet af hold efter første runde være en potens af 2 (2, 4, 8, 16, 32…). Passer dit antal hold ikke, er nogle hold <b>oversiddere</b> i første runde: de spiller ikke og går direkte videre til anden runde. Antallet af oversiddere finder du ved at tage den første potens af 2, der er større end eller lig med antallet af hold, og trække antallet af hold fra: med 6 hold 8 − 6 = 2, med 10 hold 16 − 10 = 6, med 12 hold 16 − 12 = 4. De øvrige hold spiller første runde, og <b>fra anden runde</b> er der præcis en potens af 2 tilbage."
+  ],
+  [
+   "Seedning og lodtrækning",
+   "Seedning betyder, at de stærkeste hold placeres langt fra hinanden i træet, så de ikke mødes i de første runder. I et klassisk træ med 8 hold møder seedet nr. 1 nr. 8, nr. 2 møder nr. 7, og 1 og 2 kan først mødes i finalen. Er der oversiddere, er det almindeligt at give dem til de seedede hold. Bruger du ikke seedning, så afgør kampene ved <b>lodtrækning</b>: at trække lod foran alle eller bruge et værktøj, der blander rækkefølgen tilfældigt, kan give en stærkere følelse af retfærdighed. Uanset metoden, så meld den ud <b>før turneringen</b>."
+  ],
+  [
+   "Rundenavne og planlægning",
+   "I et fuldt træ er runderne opkaldt efter antallet af hold, der er tilbage: 16 hold er <b>ottendedelsfinaler</b>, 8 hold kvartfinaler, 4 hold semifinaler, og de sidste to hold spiller finalen. I et træ med oversiddere kan første runde opkaldes efter den potens af 2, træet fyldes op til; med 6 hold tæller første runde som kvartfinaler. Tæl også runderne: 8 hold kræver 3, 16 hold 4 og 32 hold 5 runder. Giv hver kamp et <b>nummer</b>, og skriv i næste runde for eksempel „Vinder af #3“; så giver træet mening, før resultaterne kommer. Nogle turneringer spiller også en bronzekamp."
+  ],
+  [
+   "Knockout-turnering med TurnuVolt",
+   "TurnuVolts <b>gratis kampprogram-generator</b> kører i browseren og laver et knockout-træ til 2 til 64 hold. Er antallet af hold ikke en potens af 2, bliver det manglende antal hold oversiddere i første runde. Oversidderne er holdene øverst på din liste; med „Bland lodtrækningen“ slået til blandes listen, så det skifter også, hvem der er oversiddere. Værktøjet laver ikke selv en klassisk seedning, men parrer de resterende hold i listens rækkefølge. Senere runder vises med pladsholdere som „Vinder af #1“, og du kan udskrive, kopiere eller dele træet med et link. For at registrere vindere trykker du på det vindende hold i <b>TurnuVolt-appen</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Skriv dine hold",
+   "Skriv ét hold pr. linje i den gratis kampprogram-generator, eller indtast et antal hold og tryk på Udfyld. Sæt de hold, der skal være oversiddere, øverst."
+  ],
+  [
+   "Vælg Knockout",
+   "Vælg Knockout som format. Vil du have en tilfældig lodtrækning, så sæt flueben ved „Bland lodtrækningen“; så ændres det også, hvem der er oversiddere."
+  ],
+  [
+   "Lav knockout-træet",
+   "Tryk på Generér kampprogram. Kampene i første runde, oversidderne og alle runder frem til finalen vises som nummererede kampe."
+  ],
+  [
+   "Del det, og registrér resultater",
+   "Udskriv, kopiér eller del linket (undgå tegnet | i holdnavne, når du deler med link). For at registrere vindere skal du oprette turneringen i TurnuVolt-appen."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Hvad er en oversidder i en knockout-turnering?",
+   "En oversidder er et hold, der går videre til næste runde uden at spille. Oversiddere bruges til at få træet til at gå op, når antallet af hold ikke er en potens af 2. De går ofte til de seedede hold eller til hold, der er fundet ved lodtrækning; detaljerne afhænger af din turnerings regler."
+  ],
+  [
+   "Hvor mange oversiddere skal jeg bruge?",
+   "Find den første potens af 2, der er større end eller lig med antallet af hold, og træk antallet af hold fra. Med 5 hold er der 3 oversiddere, med 6 hold 2, med 7 hold 1 og med 9 hold 7. Så er der præcis 4, 8 eller 16 hold tilbage i anden runde."
+  ],
+  [
+   "Hvor mange kampe er der i en knockout-turnering?",
+   "En knockout-turnering med n hold har altid n − 1 kampe, fordi ét hold ryger ud i hver kamp, og alle undtagen mesteren taber præcis én gang. 8 hold spiller 7 kampe, 12 hold 11 og 32 hold 31. Spiller I en bronzekamp, kommer der én kamp mere."
+  ],
+  [
+   "Hvordan bestemmer man seedningen?",
+   "Seedningen bygger normalt på tidligere resultater, stillingen fra en liga eller et gruppespil eller arrangørens vurdering. Hvilken metode du bruger, afhænger af din turnerings regler. Forklarer du kriterierne på forhånd, mindsker du risikoen for diskussioner om seedningen."
+  ],
+  [
+   "Hvor mange hold kan det gratis værktøj klare?",
+   "TurnuVolts gratis kampprogram-generator laver knockout-træer til 2 til 64 hold. Der kræves ingen tilmelding, og kampprogrammet beregnes i din browser. Delingslinket indeholder holdnavnene i selve adressen, så alle, du sender det til, kan se dem. Med samme værktøj kan du også lave et kampprogram til en liga alle-mod-alle."
+  ]
+ ]
+}

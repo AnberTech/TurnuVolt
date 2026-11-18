@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Vaihe vaiheelta",
+ "g_faq_h2": "Usein kysytyt kysymykset",
+ "g_cta_h2": "Tee otteluohjelma nyt",
+ "g_cta_p": "Kirjoita joukkueet ilmaiseen otteluohjelmageneraattoriin, niin sarjan tai pudotuspelien otteluohjelma on valmis sekunneissa. Jos haluat pitää kirjaa myös tuloksista ja sarjataulukosta, käytä TurnuVolt-sovellusta iPhonella, iPadilla tai Androidilla.",
+ "g_cta_btn": "Tee ilmainen otteluohjelma",
+ "g_contact": "Kysymykset ja ehdotukset:",
+ "g_other_h2": "Muut oppaat",
+ "g_lang": "Kieli",
+ "g_home": "Etusivu",
+ "table_slug": "sarjataulukon-tekeminen",
+ "table_name": "Sarjataulukon tekeminen",
+ "table_title": "Miten sarjataulukko tehdään? Opas | TurnuVolt",
+ "table_desc": "Miten sarjataulukko tehdään? Sarakkeet O, V, T, H, TM, PM, ME ja P, pistejärjestelmä, järjestys tasapisteissä ja vinkit taulukon pitämiseen käsin.",
+ "table_h1": "Miten sarjataulukko tehdään?",
+ "table_lead": "Sarjataulukko näyttää yhdellä silmäyksellä, missä kukin joukkue on. Kerromme, mitä sarakkeita tarvitset, miten pisteet jaetaan ja kuka menee edelle, kun joukkueilla on yhtä paljon pisteitä.",
+ "table_card": "Sarakkeet, pistejärjestelmä, tasapisteet ja vinkit taulukon pitämiseen käsin.",
+ "table_body": [
+  [
+   "Mitä sarakkeita sarjataulukossa on?",
+   "Tavallisessa sarjataulukossa jokaisella joukkueella on oma rivinsä. Sarakkeet ovat yleensä nämä: <b>O</b> pelatut ottelut, V voitot, T tasapelit, H häviöt, TM tehdyt maalit, PM päästetyt maalit, ME maaliero ja <b>P</b> pisteet. Jos pelissäsi lasketaan maalien sijaan pisteitä tai erävoittoja, voit kirjata sarakkeisiin sen yksikön. Kaksi yksinkertaista tarkistusta auttaa löytämään osan virheistä: jokaisella rivillä V + T + H on yhtä kuin O, ja kaikkien joukkueiden TM-summa on yhtä suuri kuin PM-summa. Jos nämä eivät täsmää, käy läpi otteluiden tulokset ja taulukon laskut. Vaikka ne täsmäisivät, se ei vielä takaa, että jokainen tulos on oikein."
+  ],
+  [
+   "Pistejärjestelmä: voitto, tasapeli, häviö",
+   "Pisteiden jakamisesta päättävät sarjan omat säännöt. Peleissä, joissa tasapeli on mahdollinen, kuten jalkapallossa, yleinen tapa on <b>3 pistettä</b> voitosta, 1 tasapelistä ja 0 häviöstä. Peleissä, joissa tasapelejä ei ole, kuten koripallossa, voitosta annetaan usein 2 pistettä. Lentopallossa myös lopputulos ratkaisee: yleisen käytännön mukaan 3–0- tai 3–1-voitosta saa 3 pistettä, 3–2-voitosta 2 pistettä ja 2–3-häviöstä 1 pisteen. Jos järjestät oman turnauksen, kerro säännöt kaikille <b>ennen ensimmäistä ottelua</b>. Pistejärjestelmän muuttaminen kesken kauden aiheuttaa helposti riitaa."
+  ],
+  [
+   "Miten järjestys ratkaistaan tasapisteissä?",
+   "Tasapisteiden ratkaisuperusteet vaihtelevat sarjasta toiseen, joten tarkista turnauksesi säännöt. Yleisiä perusteita ovat <b>maaliero</b> (tehdyt miinus päästetyt maalit), tehtyjen maalien määrä, keskinäiset ottelut eli tasapisteissä olevien joukkueiden keskinäisten otteluiden tulokset ja viimeisenä keinona arvonta. Osa sarjoista käyttää keskinäisiä otteluita ennen kokonaismaalieroa, osa vasta sen jälkeen. Kun kolmella tai useammalla joukkueella on samat pisteet, monissa säännöissä kootaan pieni taulukko vain näiden joukkueiden keskinäisistä otteluista. Kun kirjaat perusteiden järjestyksen <b>etukäteen</b>, kauden lopun riitojen riski pienenee."
+  ],
+  [
+   "Miksi sarjataulukon pitäminen käsin on vaikeaa",
+   "Taulukon pitäminen paperilla tai taulukkolaskentaohjelmassa on virhealtista pienessäkin sarjassa. Jokaisen tuloksen jälkeen täytyy laskea uudelleen kaksi riviä kerralla ja tarkistaa molemmilta joukkueilta sarakkeet O, V, T, H, TM, PM, ME ja P. Yksi huomaamatta jäänyt luku voi sotkea järjestyksen, eikä virhettä välttämättä huomata heti. Työtä lisäävät siirretyt ottelut, parittomalla joukkuemäärällä kierroksen <b>lepovuorossa</b> olevat joukkueet sekä kaksinkertaiset sarjat, joissa otteluiden määrä tuplaantuu. Luotettava tapa on laskea taulukko aika ajoin alusta kaikista tuloksista ja verrata sitä omaan versioon, mutta käsin sekin vie aikaa."
+  ],
+  [
+   "Sarjataulukko TurnuVoltilla",
+   "Kun luot sarjan TurnuVolt-sovelluksessa (iPhone, iPad ja Android), otteluohjelma ja sarjataulukko syntyvät yhdessä. Kun syötät tuloksia, sarakkeet O, V, T, H, TM, PM, ME ja P sekä sijoitukset päivittyvät <b>automaattisesti</b>. Tuloksen syöttäminen sopii peliin: maalit, pisteet, erät tai pelkkä voittaja. Myös pistesääntö noudattaa valitsemaasi peliä: jalkapallossa voitosta saa 3 pistettä, koripallossa ei ole tasapelejä ja lentopallossa myös erien ero otetaan huomioon. Jos tarvitset vain ottelupareja, selaimessa toimiva <b>ilmainen otteluohjelmageneraattori</b> riittää, mutta se ei pidä kirjaa tuloksista eikä sarjataulukosta."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Luo uusi turnaus",
+   "Napauta TurnuVolt-sovelluksessa Uusi turnaus, anna turnaukselle nimi ja syötä joukkueiden tai pelaajien määrä."
+  ],
+  [
+   "Valitse peli ja Sarja-muoto",
+   "Valitse yli 60 pelistä tai käytä vaihtoehtoa Oma / Muu; pisteytys noudattaa pelin sääntöjä. Valitse muodoksi Sarja, halutessasi koti- ja vierasotteluin."
+  ],
+  [
+   "Kirjoita joukkueiden nimet",
+   "Syötä joukkueiden tai pelaajien nimet. Otteluohjelma ja sarjataulukko luodaan automaattisesti."
+  ],
+  [
+   "Syötä tulokset",
+   "Syötä jokaisen ottelun tulos; sarakkeet O, V, T, H, TM, PM, ME ja P sekä sijoitukset päivittyvät itsestään."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Mitä ME tarkoittaa sarjataulukossa?",
+   "ME tarkoittaa maalieroa: tehdyistä maaleista vähennetään päästetyt maalit. Joukkueella, joka on tehnyt 20 maalia ja päästänyt 12, maaliero on +8. Tasapisteissä se on yksi yleisimmistä ratkaisuperusteista, mutta perusteiden järjestys vaihtelee sarjoittain, joten tarkista turnauksesi säännöt."
+  ],
+  [
+   "Mitä keskinäiset ottelut tarkoittavat ja miten ne lasketaan?",
+   "Keskinäisissä otteluissa tasapisteissä olevia joukkueita verrataan vain niiden keskenään pelaamien otteluiden perusteella. Näistä otteluista kertyneet pisteet ja maaliero ovat yleisiä perusteita. Tarkista sarjan säännöistä, mitkä perusteet ovat käytössä, missä järjestyksessä ja tuleeko keskinäinen vertailu ennen kokonaismaalieroa vai sen jälkeen."
+  ],
+  [
+   "Montako pistettä voitosta ja tasapelistä?",
+   "Sen päättävät sarjan säännöt. Esimerkiksi jalkapallossa yleinen tapa on 3 pistettä voitosta, 1 tasapelistä ja 0 häviöstä. Peleissä, joissa tasapelejä ei ole, voitosta saa usein 2 pistettä. Valitsitpa omaan turnaukseesi minkä tahansa järjestelmän, kerro se kaikille ennen alkua."
+  ],
+  [
+   "Miten sarjataulukkoa pidetään parittomalla joukkuemäärällä?",
+   "Parittomalla joukkuemäärällä yksi joukkue on joka kierroksella lepovuorossa eikä pelaa. Siksi kesken kauden joukkueilla voi olla O-sarakkeessa eri luvut; sarjan päättyessä kaikki ovat kuitenkin pelanneet yhtä monta ottelua. Kun luet taulukkoa kesken kauden, katso myös pelattujen otteluiden määrää."
+  ],
+  [
+   "Pitääkö ilmainen otteluohjelmageneraattori sarjataulukkoa?",
+   "Ei. Selaimessa toimiva ilmainen otteluohjelmageneraattori tekee vain otteluparit; voit tulostaa otteluohjelman, kopioida sen tai jakaa sen linkillä. Jos haluat syöttää tuloksia ja saada sarjataulukon automaattisesti, luo sama turnaus TurnuVolt-sovelluksessa. Sovellus on kertaosto, eikä siinä ole tilausta tai mainoksia."
+  ]
+ ],
+ "bracket_slug": "pudotuspelikaavion-tekeminen",
+ "bracket_name": "Pudotuspelikaavion tekeminen",
+ "bracket_title": "Miten pudotuspelikaavio tehdään? Lepovuorot | TurnuVolt",
+ "bracket_desc": "Miten pudotuspelikaavio tehdään? Lepovuorot, kun joukkueiden määrä ei ole luvun 2 potenssi, sijoitukset, arvonta ja kierrosten nimet. Tee kaavio maksutta.",
+ "bracket_h1": "Miten pudotuspelikaavio tehdään?",
+ "bracket_lead": "Pudotuspelikaavio näyttää, kuka pelaa kenen kanssa ja mihin voittaja etenee. Kerromme, miten lasket lepovuorot, sijoitat kärkijoukkueet ja teet reilun arvonnan.",
+ "bracket_card": "Lepovuorot, sijoitukset, arvonta ja kierrosten nimet kerrasta poikki -turnaukseen.",
+ "bracket_body": [
+  [
+   "Miten pudotuspelit toimivat?",
+   "Pudotuspeleissä eli kerrasta poikki -turnauksessa häviäjä putoaa ja voittaja etenee seuraavalle kierrokselle. Mahdollisen lepovuorokierroksen jälkeen joukkueiden määrä puolittuu joka kierroksella, ja finaalin voittaja on mestari. Koska jokaisessa ottelussa putoaa tasan yksi joukkue, <b>n joukkueen</b> turnauksessa pelataan aina <b>n − 1 ottelua</b>: 16 joukkueesta selviää mestari 4 kierroksessa ja 15 ottelussa. Muoto on nopea, mutta yksi huono päivä voi pudottaa vahvankin joukkueen. Jos haluat kaikkien pelaavan enemmän otteluita, harkitse sarjaa tai ensin lohkovaihetta ja sitten pudotuspelejä."
+  ],
+  [
+   "Kun joukkueiden määrä ei ole luvun 2 potenssi: lepovuoro",
+   "Jotta kaavio toimii, ensimmäisen kierroksen jälkeen jäljellä olevien joukkueiden määrän pitää olla luvun 2 potenssi (2, 4, 8, 16, 32…). Jos joukkueita on muu määrä, osa joukkueista saa ensimmäisellä kierroksella <b>lepovuoron</b> eli etenee toiselle kierrokselle pelaamatta. Lepovuorojen määrä saadaan, kun ensimmäisestä luvun 2 potenssista, joka on yhtä suuri tai suurempi kuin joukkueiden määrä, vähennetään joukkueiden määrä: 6 joukkueella 8 − 6 = 2, 10 joukkueella 16 − 10 = 6, 12 joukkueella 16 − 12 = 4. Muut joukkueet pelaavat ensimmäisen kierroksen, ja <b>toisella kierroksella</b> joukkueita on tasan luvun 2 potenssi."
+  ],
+  [
+   "Sijoitukset ja arvonta",
+   "Sijoittaminen tarkoittaa, että vahvimmiksi arvioidut joukkueet sijoitetaan kaaviossa kauas toisistaan, jotta ne eivät kohtaa alkukierroksilla. Perinteisessä 8 joukkueen kaaviossa ykkössijoitettu pelaa kahdeksatta vastaan, kakkonen seitsemättä vastaan, ja ykkönen ja kakkonen voivat kohdata vasta finaalissa. Jos lepovuoroja on, ne annetaan usein sijoitetuille joukkueille. Jos et käytä sijoituksia, ratkaise parit <b>arvonnalla</b>: arvonta kaikkien nähden tai työkalu, joka sekoittaa järjestyksen satunnaisesti, voi lisätä reiluuden tunnetta. Valitsitpa minkä tavan tahansa, kerro siitä <b>ennen turnausta</b>."
+  ],
+  [
+   "Kierrosten nimet ja suunnittelu",
+   "Täydessä kaaviossa kierrokset nimetään jäljellä olevien joukkueiden mukaan: 16 joukkueen kierros on <b>neljännesvälierät</b>, 8 joukkueen puolivälierät, 4 joukkueen välierät ja kaksi viimeistä joukkuetta pelaa finaalin. Lepovuoroja sisältävässä kaaviossa ensimmäinen kierros voidaan nimetä sen luvun 2 potenssin mukaan, johon kaavio täydentyy; 6 joukkueen kaaviossa ensimmäinen kierros lasketaan puolivälieriksi. Laske myös kierrokset: 8 joukkuetta tarvitsee 3, 16 joukkuetta 4 ja 32 joukkuetta 5 kierrosta. Anna jokaiselle ottelulle <b>numero</b> ja kirjoita seuraavaan kierrokseen esimerkiksi ”Ottelun #3 voittaja”, niin kaavio on luettava jo ennen tuloksia. Osa turnauksista pelaa myös pronssiottelun."
+  ],
+  [
+   "Pudotuspelikaavio TurnuVoltilla",
+   "TurnuVoltin selaimessa toimiva <b>ilmainen otteluohjelmageneraattori</b> tekee pudotuspelikaavion 2–64 joukkueelle. Jos joukkueiden määrä ei ole luvun 2 potenssi, puuttuvaa määrää vastaava joukkuemäärä saa ensimmäisellä kierroksella lepovuoron. Lepovuorot menevät listan ylimmille joukkueille; kun ”Sekoita arvonta” on valittuna, lista sekoitetaan ja lepovuoron saajatkin vaihtuvat. Työkalu ei itse tee perinteistä sijoitusta, vaan se parittaa loput joukkueet listan järjestyksessä. Myöhemmät kierrokset näkyvät paikkamerkeillä, kuten ”Ottelun #1 voittaja”, ja kaavion voi tulostaa, kopioida tai jakaa linkillä. Voittajat kirjataan napauttamalla voittajajoukkuetta <b>TurnuVolt-sovelluksessa</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Kirjoita joukkueet",
+   "Kirjoita ilmaiseen otteluohjelmageneraattoriin yksi joukkue riville tai syötä joukkueiden määrä ja paina Täytä. Kirjoita lepovuoron saavat joukkueet ylimmiksi."
+  ],
+  [
+   "Valitse Pudotuspelit",
+   "Valitse muodoksi Pudotuspelit. Jos haluat arvonnan, valitse ”Sekoita arvonta”; silloin myös lepovuoron saavat joukkueet vaihtuvat."
+  ],
+  [
+   "Luo kaavio",
+   "Paina Luo otteluohjelma. Ensimmäisen kierroksen ottelut, lepovuoron saavat joukkueet ja kaikki kierrokset finaaliin asti näkyvät numeroituina otteluina."
+  ],
+  [
+   "Jaa ja kirjaa tulokset",
+   "Tulosta, kopioi tai jaa linkki (älä käytä linkillä jaettaessa joukkueiden nimissä merkkiä |). Kirjataksesi voittajat luo turnaus TurnuVolt-sovelluksessa."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Mitä lepovuoro tarkoittaa pudotuspeleissä?",
+   "Lepovuoro tarkoittaa, että joukkue etenee seuraavalle kierrokselle pelaamatta. Sillä tasapainotetaan kaavio, kun joukkueiden määrä ei ole luvun 2 potenssi. Lepovuorot annetaan usein sijoitetuille joukkueille tai arvonnalla valituille joukkueille; yksityiskohdat riippuvat turnauksesi säännöistä."
+  ],
+  [
+   "Montako lepovuoroa tarvitaan?",
+   "Etsi ensimmäinen luvun 2 potenssi, joka on yhtä suuri tai suurempi kuin joukkueiden määrä, ja vähennä siitä joukkueiden määrä. 5 joukkueella lepovuoroja on 3, 6 joukkueella 2, 7 joukkueella 1 ja 9 joukkueella 7. Toiselle kierrokselle jää silloin tasan 4, 8 tai 16 joukkuetta."
+  ],
+  [
+   "Montako ottelua pudotuspeliturnauksessa pelataan?",
+   "Kerrasta poikki -turnauksessa, jossa on n joukkuetta, pelataan aina n − 1 ottelua, koska jokaisessa ottelussa putoaa yksi joukkue ja kaikki paitsi mestari häviävät tasan kerran. 8 joukkuetta pelaa 7 ottelua, 12 joukkuetta 11 ja 32 joukkuetta 31. Pronssiottelu lisää yhden ottelun."
+  ],
+  [
+   "Miten sijoitukset päätetään?",
+   "Sijoitukset perustuvat yleensä aiempiin tuloksiin, sarja- tai lohkovaiheen sijoituksiin tai järjestäjän arvioon. Käytettävä tapa riippuu turnauksesi säännöistä. Kun kerrot perusteet etukäteen, sijoituksista syntyvien kiistojen riski voi pienentyä."
+  ],
+  [
+   "Kuinka monelle joukkueelle ilmainen työkalu tekee kaavion?",
+   "TurnuVoltin ilmainen otteluohjelmageneraattori tekee pudotuspelikaavion 2–64 joukkueelle. Rekisteröitymistä ei tarvita, ja otteluohjelma lasketaan selaimessasi. Jakolinkki sisältää joukkueiden nimet itse osoitteessa, joten kuka tahansa, jolle lähetät linkin, näkee ne. Samalla työkalulla voit tehdä myös sarjan otteluohjelman."
+  ]
+ ]
+}

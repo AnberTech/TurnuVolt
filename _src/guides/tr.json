@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Adım adım",
+ "g_faq_h2": "Sık sorulan sorular",
+ "g_cta_h2": "Fikstürünüzü şimdi hazırlayın",
+ "g_cta_p": "Ücretsiz fikstür oluşturucuda takımlarınızı yazın, lig ya da eleme fikstürü saniyeler içinde hazır olsun. Skorları ve puan tablosunu da tutmak için TurnuVolt uygulamasını iPhone, iPad ya da Android'de kullanın.",
+ "g_cta_btn": "Ücretsiz fikstür oluştur",
+ "g_contact": "Soru ve öneriler:",
+ "g_other_h2": "Diğer rehberler",
+ "g_lang": "Dil",
+ "g_home": "Ana sayfa",
+ "table_slug": "puan-tablosu-hazirlama",
+ "table_name": "Puan tablosu hazırlama",
+ "table_title": "Puan Tablosu Nasıl Hazırlanır? Lig Rehberi | TurnuVolt",
+ "table_desc": "Lig puan tablosu nasıl hazırlanır? O, G, B, M, AG, YG, AV sütunları, puan sistemi, eşitlikte sıralama ölçütleri ve elle tutarken işe yarayan ipuçları.",
+ "table_h1": "Lig puan tablosu nasıl hazırlanır?",
+ "table_lead": "Puan tablosu, bir ligde kimin nerede durduğunu tek bakışta gösterir. Hangi sütunların gerektiğini, puanların nasıl verildiğini ve eşitlikte kimin öne geçtiğini anlatıyoruz.",
+ "table_card": "Sütunlar, puan sistemi, eşitlikte sıralama ve elle tutma ipuçları.",
+ "table_body": [
+  [
+   "Puan tablosunda hangi sütunlar olur?",
+   "Klasik bir lig tablosunda her takım bir satırda durur. Sütunlar genellikle şöyledir: <b>O</b> oynanan maç, G galibiyet, B beraberlik, M mağlubiyet, AG atılan gol, YG yenilen gol, AV averaj ve <b>P</b> puan. Gol yerine sayı ya da set kullanılan bir oyunda bu sütunlara o oyunun birimini yazabilirsiniz. İki basit kontrol bazı tutarsızlıkları yakalamanıza yardım eder: her satırda G + B + M toplamı O'ya eşit olmalıdır ve bütün takımların AG toplamı YG toplamına eşittir. Bu eşitlikler tutmuyorsa maç kayıtlarını ve tablo hesaplarını gözden geçirin. Tutmaları ise her skorun doğru olduğunu garanti etmez."
+  ],
+  [
+   "Puan sistemi: galibiyet, beraberlik, mağlubiyet",
+   "Puanların nasıl verileceğine ligin kendi kuralı karar verir. Futbol gibi beraberliğin olduğu oyunlarda yaygın düzen galibiyete <b>3 puan</b>, beraberliğe 1, mağlubiyete 0 puandır. Basketbol gibi beraberliğin olmadığı oyunlarda galibiyete çoğu zaman 2 puan verilir. Voleybolda skorun kendisi de önemlidir: yaygın uygulamada 3-0 ya da 3-1 kazanan 3, 3-2 kazanan 2, 2-3 kaybeden 1 puan alır. Kendi turnuvanızı düzenliyorsanız kuralı <b>ilk maçtan önce</b> herkese duyurun; sezonun ortasında puan sistemini değiştirmek kolayca tartışma çıkarabilir."
+  ],
+  [
+   "Puanlar eşitse sıralama nasıl belirlenir?",
+   "Eşitlik bozma ölçütleri ligden lige değişir, bu yüzden turnuvanızın yönetmeliğine bakın. Sık kullanılanlar şunlardır: <b>averaj</b> (atılan eksi yenilen), daha çok atılan gol, ikili averaj, yani eşit takımların kendi aralarındaki maçların sonucu, ve son çare olarak kura. Bazı ligler ikili averajı genel averajdan önce uygular, bazıları sonra. Üç ya da daha fazla takım eşit olduğunda birçok yönetmelik, yalnız bu takımların birbirleriyle oynadığı maçlardan küçük bir tablo kurar. Ölçütlerin sırasını <b>önceden yazmak</b>, sezon sonundaki tartışma riskini azaltır."
+  ],
+  [
+   "Puan tablosunu elle tutmanın zorlukları",
+   "Kâğıtta ya da bir hesap tablosunda puan durumu tutmak, küçük bir ligde bile hataya açıktır. Her sonuçtan sonra iki takımın satırı birden yeniden hesaplanmalıdır: O, G, B, M, AG, YG, AV ve P sütunlarının hepsine bakmak gerekir. Atlanan bir rakam sıralamayı bozabilir ve fark edilmesi zaman alabilir. Ertelenen maçlar, tek sayıda takımda <b>bay geçen</b> takımlar ve rövanşlı liglerde iki katına çıkan maç sayısı işi büyütür. Güvenilir bir yol, tabloyu ara sıra bütün maç sonuçlarından baştan hesaplayıp elinizdekiyle karşılaştırmaktır; ama elle yapıldığında bu da vakit ister."
+  ],
+  [
+   "Puan tablosunu TurnuVolt ile tutmak",
+   "TurnuVolt uygulamasında (iPhone, iPad ve Android) bir lig kurduğunuzda fikstür ve puan tablosu birlikte oluşur. Skor girdikçe O, G, B, M, AG, YG, AV ve P sütunları ile sıralama <b>kendiliğinden</b> güncellenir. Skor girişi oyuna uyar: gol, sayı, set ya da yalnız kazanan. Puan kuralı da seçtiğiniz oyuna göre uygulanır; futbolda galibiyet 3 puandır, basketbolda beraberlik yoktur, voleybolda set averajı da hesaba katılır. Yalnız eşleşmeler gerekiyorsa tarayıcıdaki <b>ücretsiz fikstür oluşturucu</b> yeterlidir; ancak bu araç skor ve puan tablosu tutmaz."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Yeni turnuva oluşturun",
+   "TurnuVolt uygulamasında Yeni Turnuva'ya dokunun, turnuvaya bir ad verin ve takım ya da oyuncu sayısını girin."
+  ],
+  [
+   "Oyunu ve Lig formatını seçin",
+   "60'tan fazla oyun arasından seçin ya da Özel / Diğer'i kullanın; puanlama oyunun kuralına göre yapılır. Formatta Lig'i seçin, isterseniz rövanşlı oynatın."
+  ],
+  [
+   "Takım adlarını yazın",
+   "Takım ya da oyuncu adlarını girin. Fikstür ve puan tablosu otomatik olarak oluşur."
+  ],
+  [
+   "Skorları girin",
+   "Her maçın skorunu girin; O, G, B, M, AG, YG, AV ve P sütunları ile sıralama kendiliğinden güncellenir."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Puan tablosunda AV ne demek?",
+   "AV, averaj demektir: takımın attığı gollerden yediği goller çıkarılarak bulunur. 20 gol atıp 12 gol yiyen bir takımın averajı +8'dir. Puanlar eşit olduğunda en sık bakılan ölçütlerden biri averajdır; ama hangi ölçütün önce geldiği ligden lige değişir, turnuvanızın yönetmeliğini kontrol edin."
+  ],
+  [
+   "İkili averaj nedir, nasıl hesaplanır?",
+   "İkili averaj, puanı eşit olan takımların yalnız kendi aralarında oynadığı maçlara bakılarak yapılan karşılaştırmadır. Bu maçlarda toplanan puanlar ve gol farkı sık kullanılan ölçütlerdir. Hangi ölçütlerin hangi sırayla uygulandığını ve genel averajdan önce mi sonra mı geldiğini ligin yönetmeliğinden kontrol edin."
+  ],
+  [
+   "Galibiyet kaç puan, beraberlik kaç puan?",
+   "Bunu ligin kuralı belirler. Futbol gibi oyunlarda yaygın düzen galibiyet 3, beraberlik 1, mağlubiyet 0 puandır. Beraberliğin olmadığı oyunlarda galibiyet çoğu zaman 2 puandır. Kendi turnuvanızda hangi düzeni seçerseniz seçin, başlamadan önce herkese duyurun."
+  ],
+  [
+   "Tek sayıda takımla puan tablosu nasıl tutulur?",
+   "Tek sayıda takımda her hafta bir takım bay geçer ve o hafta maç oynamaz. Bu yüzden sezon ortasında takımların O sütunu farklı olabilir; lig bittiğinde ise herkes aynı sayıda maç oynamış olur. Ara sıralamayı yorumlarken oynanan maç sayısına da bakın."
+  ],
+  [
+   "Ücretsiz fikstür oluşturucu puan tablosu tutar mı?",
+   "Hayır. Tarayıcıdaki ücretsiz fikstür oluşturucu yalnız eşleşmeleri hazırlar; fikstürü yazdırabilir, kopyalayabilir ya da bağlantıyla paylaşabilirsiniz. Skor girip puan tablosunu otomatik tutmak için aynı turnuvayı TurnuVolt uygulamasında kurun; uygulama tek seferlik satın almadır, abonelik ve reklam yoktur."
+  ]
+ ],
+ "bracket_slug": "eleme-agaci-olusturma",
+ "bracket_name": "Eleme ağacı oluşturma",
+ "bracket_title": "Eleme Ağacı Nasıl Oluşturulur? Bay ve Kura | TurnuVolt",
+ "bracket_desc": "Tek elemeli turnuva ağacı nasıl kurulur? Takım sayısı 2'nin kuvveti değilse bay hesabı, seri başı, kura ve tur adları. Ücretsiz eleme fikstürü oluşturun.",
+ "bracket_h1": "Eleme (turnuva) ağacı nasıl oluşturulur?",
+ "bracket_lead": "Eleme ağacı, kimin kimle oynayacağını ve kazananın nereye ilerleyeceğini tek bakışta gösterir. Bay sayısını, seri başlarını ve kurayı nasıl ayarlayacağınızı anlatıyoruz.",
+ "bracket_card": "Bay hesabı, seri başı, kura ve tur adlarıyla tek elemeli turnuva ağacı.",
+ "bracket_body": [
+  [
+   "Tek elemeli turnuva nasıl işler?",
+   "Tek elemeli (eleme usulü) turnuvada kaybeden turnuvadan çıkar, kazanan bir sonraki tura geçer. Varsa baylı ilk turdan sonra takım sayısı her turda yarıya iner ve finali kazanan şampiyon olur. Her maçta tam bir takım elendiği için <b>n takımlı</b> bir turnuvada toplam <b>n − 1 maç</b> oynanır: 16 takım şampiyonunu 4 turda ve 15 maçta bulur. Bu format kısa sürede sonuç verir; ama tek bir kötü gün güçlü bir takımı bile turnuvanın dışına itebilir. Herkesin daha çok maç oynamasını istiyorsanız lig usulünü ya da önce grup, sonra eleme düzenini düşünün."
+  ],
+  [
+   "Takım sayısı 2'nin kuvveti değilse: bay",
+   "Ağacın düzgün kurulabilmesi için ilk turdan sonra kalan takım sayısı 2'nin kuvveti (2, 4, 8, 16, 32…) olmalıdır. Takım sayısı buna uymuyorsa bazı takımlar ilk turda <b>bay geçer</b>, yani maç yapmadan ikinci tura çıkar. Bay sayısı, takım sayısından büyük ya da ona eşit ilk 2'nin kuvvetinden takım sayısı çıkarılarak bulunur: 6 takımda 8 − 6 = 2, 10 takımda 16 − 10 = 6, 12 takımda 16 − 12 = 4 takım bay geçer. Geri kalan takımlar ilk turda eşleşir ve <b>ikinci turda</b> tam 2'nin kuvveti kadar takım kalır."
+  ],
+  [
+   "Seri başı ve kura",
+   "Seri başı, en güçlü kabul edilen takımların ağaçta birbirinden uzak yerlere konmasıdır; böylece güçlü takımlar erken turlarda karşılaşmaz. Klasik düzende 8 takımlı bir ağaçta 1. seri başı 8. ile, 2. seri başı 7. ile oynar ve 1 ile 2 ancak finalde karşılaşabilir. Bay varsa bunları seri başlarına vermek sık başvurulan bir yoldur. Seri başı kullanmayacaksanız eşleşmeleri <b>kura</b> ile belirleyin; kurayı herkesin önünde çekmek ya da sırayı rastgele karıştıran bir araç kullanmak adalet duygusunu güçlendirebilir. Hangi yöntemi seçtiğinizi <b>turnuvadan önce</b> duyurun."
+  ],
+  [
+   "Tur adları ve planlama",
+   "Tam dolu bir ağaçta turlar, kalan takım sayısıyla adlandırılır: 16 takıma <b>Son 16</b>, 8 takıma çeyrek final, 4 takıma yarı final, son iki takıma final denir. Baylı ağaçta ilk tur, ağacın tamamlandığı 2'nin kuvvetine göre adlandırılabilir; 6 takımlı bir ağacın ilk turu çeyrek final sayılır. Tur sayısını da hesaplayın: 8 takım 3, 16 takım 4, 32 takım 5 turda biter. Maçlara <b>numara</b> verin ve sonraki turda “3 numaralı maçın galibi” gibi yazın; böylece ağaç sonuçlar gelmeden de okunur. Bazı turnuvalar ayrıca üçüncülük maçı oynatır."
+  ],
+  [
+   "Eleme ağacını TurnuVolt ile kurmak",
+   "TurnuVolt'un tarayıcıda çalışan <b>ücretsiz fikstür oluşturucusu</b> 2 ile 64 takım için eleme fikstürü hazırlar. Takım sayısı 2'nin kuvveti değilse eksik kadar takım ilk turda bay geçer. Bay hakkı listenin en üstündeki takımlara gider; “Eşleşmeleri karıştır” açıksa liste karışır ve bay alanlar da değişir. Araç klasik seri başı yerleşimini kendisi yapmaz, kalan takımları listedeki sırayla eşleştirir. Sonraki turlar “#1 galibi” gibi yer tutucularla görünür; fikstürü yazdırabilir, kopyalayabilir ya da bağlantıyla paylaşabilirsiniz. Kazananları işlemek için <b>TurnuVolt uygulamasında</b> kazanan takıma dokunun."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Takımları yazın",
+   "Ücretsiz fikstür oluşturucuya her satıra bir takım yazın ya da takım sayısını girip Doldur'a basın. Bay alacak takımları en üste yazın."
+  ],
+  [
+   "Eleme formatını seçin",
+   "Format olarak Eleme'yi seçin. Kura istiyorsanız “Eşleşmeleri karıştır” kutusunu işaretleyin; bu durumda bay alacak takımlar da kurayla değişir."
+  ],
+  [
+   "Fikstürü oluşturun",
+   "Fikstürü oluştur'a basın. İlk tur eşleşmeleri, bay geçen takımlar ve finale kadar bütün turlar numaralı maçlarla görünür."
+  ],
+  [
+   "Paylaşın, sonuçları işleyin",
+   "Yazdırın, kopyalayın ya da bağlantıyı paylaşın (bağlantıda takım adlarında | kullanmayın). Kazananları işlemek için turnuvayı TurnuVolt uygulamasında kurun."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Eleme turnuvasında bay geçmek ne demek?",
+   "Bay geçmek, bir takımın o turda maç yapmadan bir sonraki tura çıkmasıdır. Takım sayısı 2'nin kuvveti olmadığında ağacı dengelemek için kullanılır. Bay hakkı çoğu zaman seri başlarına ya da kurayla belirlenen takımlara verilir; ayrıntı turnuvanızın kuralına bağlıdır."
+  ],
+  [
+   "Kaç takım bay geçer?",
+   "Takım sayısından büyük ya da ona eşit ilk 2'nin kuvvetini bulun ve takım sayısını bundan çıkarın. 5 takımda 3, 6 takımda 2, 7 takımda 1, 9 takımda 7 takım bay geçer. Böylece ikinci turda 4, 8 ya da 16 gibi tam bir sayı kalır."
+  ],
+  [
+   "Eleme turnuvasında kaç maç oynanır?",
+   "n takımlı tek elemeli bir turnuvada her zaman n − 1 maç oynanır, çünkü her maçta bir takım elenir ve şampiyon dışındaki herkes bir kez kaybeder. 8 takımda 7, 12 takımda 11, 32 takımda 31 maç oynanır. Üçüncülük maçı oynatırsanız bir maç eklenir."
+  ],
+  [
+   "Seri başı nasıl belirlenir?",
+   "Seri başları genellikle önceki sonuçlara, bir ön lig ya da grup aşamasındaki sıralamaya veya düzenleyicinin değerlendirmesine göre belirlenir. Hangi yöntemin kullanılacağı turnuvanızın kuralına bağlıdır. Ölçütü önceden açıklamak, seçimin tartışılma riskini azaltabilir."
+  ],
+  [
+   "Ücretsiz araçla kaç takımlık eleme ağacı yapılır?",
+   "TurnuVolt'un ücretsiz fikstür oluşturucusu 2 ile 64 takım arasında eleme fikstürü hazırlar. Üyelik gerekmez, fikstür tarayıcınızda hesaplanır. Paylaşım bağlantısı takım adlarını adresin içinde taşır; bağlantıyı kime gönderirseniz adları o da görür. Aynı araçla lig fikstürü de hazırlanır."
+  ]
+ ]
+}

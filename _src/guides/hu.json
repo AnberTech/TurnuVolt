@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Lépésről lépésre",
+ "g_faq_h2": "Gyakori kérdések",
+ "g_cta_h2": "Készítsd el a sorsolást most",
+ "g_cta_p": "Írd be a csapatokat az ingyenes sorsolásgenerátorba, és másodpercek alatt kész a körmérkőzéses vagy egyenes kieséses menetrend. Ha az eredményeket és a tabellát is vezetni szeretnéd, használd a TurnuVolt alkalmazást iPhone-on, iPaden vagy Androidon.",
+ "g_cta_btn": "Ingyenes sorsolás készítése",
+ "g_contact": "Kérdések és javaslatok:",
+ "g_other_h2": "További útmutatók",
+ "g_lang": "Nyelv",
+ "g_home": "Kezdőlap",
+ "table_slug": "tabella-keszitese",
+ "table_name": "Tabella készítése",
+ "table_title": "Hogyan készíts bajnoki tabellát? Útmutató | TurnuVolt",
+ "table_desc": "Bajnoki tabella készítése: M, GY, D, V, LG, KG, GK és P oszlopok, pontrendszer, sorrend pontegyenlőségnél és tippek a tabella kézi vezetéséhez.",
+ "table_h1": "Hogyan készíts bajnoki tabellát?",
+ "table_lead": "A bajnoki tabella egy pillantással megmutatja, hol áll az egyes csapat. Elmondjuk, milyen oszlopok kellenek, hogyan jár a pont, és ki kerül előrébb pontegyenlőség esetén.",
+ "table_card": "Oszlopok, pontrendszer, pontegyenlőség és tippek a tabella kézi vezetéséhez.",
+ "table_body": [
+  [
+   "Milyen oszlopok vannak a tabellán?",
+   "Egy hagyományos bajnoki tabellán minden csapat egy sort kap. Az oszlopok általában ezek: <b>M</b> lejátszott mérkőzés, GY győzelem, D döntetlen, V vereség, LG lőtt gól, KG kapott gól, GK gólkülönbség és <b>P</b> pont. Ha a játékodban nem gólokat, hanem pontokat vagy szetteket számolnak, ezekbe az oszlopokba azt az egységet írhatod. Két egyszerű ellenőrzés segít kiszúrni néhány hibát: minden sorban GY + D + V egyenlő M-mel, és az összes csapat LG-összege megegyezik a KG-összeggel. Ha ezek nem stimmelnek, nézd át a mérkőzések eredményeit és a tabella számításait. Ha stimmelnek, az még nem garantálja, hogy minden eredmény helyes."
+  ],
+  [
+   "Pontrendszer: győzelem, döntetlen, vereség",
+   "Azt, hogy mennyi pont jár, a bajnokság saját szabályai döntik el. Azokban a játékokban, ahol van döntetlen, például a fociban, a szokásos rend: győzelemért <b>3 pont</b>, döntetlenért 1, vereségért 0. Ahol nincs döntetlen, például a kosárlabdában, a győzelem gyakran 2 pontot ér. A röplabdában maga az eredmény is számít: a gyakori szabály szerint a 3:0-s vagy 3:1-es győztes 3, a 3:2-es győztes 2, a 2:3-as vesztes 1 pontot kap. Ha saját versenyt szervezel, a szabályokat <b>az első meccs előtt</b> közöld mindenkivel. Ha a szezon közepén változtatsz a pontrendszeren, könnyen vita lesz belőle."
+  ],
+  [
+   "Pontegyenlőség: ki áll előrébb?",
+   "A pontegyenlőség eldöntésének szempontjai bajnokságonként eltérnek, ezért nézd meg a versenyed szabályzatát. Gyakori szempont a <b>gólkülönbség</b> (lőtt mínusz kapott gólok), a több lőtt gól, az egymás elleni eredmény, vagyis az azonos pontszámú csapatok egymás elleni meccseinek eredménye, végső esetben pedig a sorsolás. Egyes bajnokságok az egymás elleni eredményt az összesített gólkülönbség előtt veszik figyelembe, mások utána. Ha három vagy több csapat áll azonos ponton, sok szabályzat csak az ő egymás elleni meccseikből készít egy kis tabellát. Ha a szempontok sorrendjét <b>előre leírod</b>, csökken a vita esélye a szezon végén."
+  ],
+  [
+   "Miért nehéz kézzel vezetni a tabellát?",
+   "Papíron vagy táblázatkezelőben vezetni a tabellát még egy kis bajnokságban is könnyen hibához vezet. Minden eredmény után egyszerre két sort kell újraszámolni, és mindkét csapatnál végig kell nézni az M, GY, D, V, LG, KG, GK és P oszlopot. Egy kimaradt szám felboríthatja a sorrendet, és időbe telhet, mire valaki észreveszi. Több munkát jelentenek a halasztott meccsek, a páratlan csapatszámnál az adott fordulóban <b>szabadnapos</b> csapatok, és az oda-vissza bajnokságok, ahol a mérkőzések száma megduplázódik. Megbízható szokás, ha időnként az összes eredményből újraszámolod a tabellát, és összeveted a sajátoddal, de kézzel ez is időt vesz igénybe."
+  ],
+  [
+   "Bajnoki tabella a TurnuVolttal",
+   "Ha a TurnuVolt alkalmazásban (iPhone, iPad és Android) bajnokságot hozol létre, a menetrend és a tabella együtt készül el. Az eredmények rögzítésekor az M, GY, D, V, LG, KG, GK és P oszlop, valamint a sorrend <b>automatikusan</b> frissül. Az eredmény megadása a játékhoz igazodik: gólok, pontok, szettek vagy csak a győztes. A pontszabály is a választott játékot követi: fociban a győzelem 3 pont, a kosárlabdában nincs döntetlen, röplabdában pedig a szettkülönbség is számít. Ha csak a párosításokra van szükséged, elég a böngészőben futó <b>ingyenes sorsolásgenerátor</b>, ez viszont nem vezeti az eredményeket és a tabellát."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Hozz létre új versenyt",
+   "A TurnuVolt alkalmazásban koppints az Új verseny gombra, adj nevet a versenynek, és add meg a csapatok vagy játékosok számát."
+  ],
+  [
+   "Válaszd ki a játékot és a Bajnokság formátumot",
+   "Válassz a több mint 60 játék közül, vagy használd az Egyéni / Egyéb lehetőséget; a pontozás a játék szabályait követi. Formátumnak válaszd a Bajnokság lehetőséget, ha kell, oda-vissza."
+  ],
+  [
+   "Írd be a csapatneveket",
+   "Add meg a csapatok vagy játékosok nevét. A menetrend és a tabella automatikusan elkészül."
+  ],
+  [
+   "Rögzítsd az eredményeket",
+   "Add meg minden meccs eredményét; az M, GY, D, V, LG, KG, GK és P oszlop, valamint a sorrend magától frissül."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Mit jelent a GK a tabellán?",
+   "A GK a gólkülönbség: a lőtt gólokból kivonjuk a kapott gólokat. Ha egy csapat 20 gólt lőtt és 12-t kapott, a gólkülönbsége +8. Pontegyenlőségnél ez az egyik leggyakoribb szempont, de hogy melyik szempont jön először, bajnokságonként eltér, ezért nézd meg a versenyed szabályzatát."
+  ],
+  [
+   "Mi az egymás elleni eredmény, és hogyan számolják?",
+   "Az egymás elleni eredmény az azonos pontszámú csapatokat csak az egymás ellen játszott meccseik alapján hasonlítja össze. Gyakori szempont az ezeken a meccseken szerzett pont és a gólkülönbség. A bajnokság szabályzatában nézd meg, mely szempontok érvényesek, milyen sorrendben, és hogy az egymás elleni eredmény az összesített gólkülönbség előtt vagy után jön."
+  ],
+  [
+   "Hány pont jár a győzelemért és a döntetlenért?",
+   "Ezt a bajnokság szabálya dönti el. A fociban és hasonló játékokban a szokásos rend: győzelem 3, döntetlen 1, vereség 0 pont. Ahol nincs döntetlen, a győzelem gyakran 2 pontot ér. Bármelyik rendet választod a saját versenyedhez, a kezdés előtt közöld mindenkivel."
+  ],
+  [
+   "Hogyan vezessük a tabellát páratlan számú csapattal?",
+   "Páratlan csapatszámnál minden fordulóban egy csapat szabadnapos, és nem játszik. Ezért a szezon közben a csapatoknál eltérő szám állhat az M oszlopban; a bajnokság végére viszont mindenki ugyanannyi meccset játszik. A közbenső tabella olvasásakor figyeld a lejátszott meccsek számát is."
+  ],
+  [
+   "Vezeti a tabellát az ingyenes sorsolásgenerátor?",
+   "Nem. A böngészőben futó ingyenes sorsolásgenerátor csak a párosításokat készíti el; a sorsolást kinyomtathatod, kimásolhatod vagy hivatkozással megoszthatod. Ha eredményeket akarsz rögzíteni és automatikus tabellát szeretnél, hozd létre ugyanazt a versenyt a TurnuVolt alkalmazásban. Az alkalmazás egyszeri vásárlás, előfizetés és reklám nélkül."
+  ]
+ ],
+ "bracket_slug": "egyenes-kieses-agrajz-keszitese",
+ "bracket_name": "Kieséses ágrajz készítése",
+ "bracket_title": "Egyenes kieséses ágrajz készítése: erőnyerők | TurnuVolt",
+ "bracket_desc": "Hogyan készíts egyenes kieséses ágrajzot? Erőnyerők, ha a csapatszám nem 2 hatványa, kiemelés, sorsolás és a fordulók neve. Ingyenes ágrajz online.",
+ "bracket_h1": "Hogyan készíts egyenes kieséses ágrajzot?",
+ "bracket_lead": "Az ágrajz megmutatja, ki kivel játszik, és hová jut tovább a győztes. Elmondjuk, hogyan számold ki az erőnyerőket, hogyan helyezd el a kiemelteket, és hogyan sorsolj igazságosan.",
+ "bracket_card": "Erőnyerők, kiemelés, sorsolás és fordulónevek egyenes kieséses versenyhez.",
+ "bracket_body": [
+  [
+   "Hogyan működik az egyenes kiesés?",
+   "Egyenes kieséses versenyben a vesztes kiesik, a győztes továbbjut a következő fordulóba. Az esetleges erőnyerős első forduló után a csapatok száma minden fordulóban a felére csökken, és aki a döntőt megnyeri, az a bajnok. Mivel minden meccsen pontosan egy csapat esik ki, egy <b>n csapatos</b> versenyben mindig <b>n − 1 mérkőzés</b> van: 16 csapat 4 fordulóban és 15 mérkőzésen dönti el, ki a győztes. A formátum gyors, de egyetlen rossz nap egy erős csapatot is kiejthet. Ha azt szeretnéd, hogy mindenki több meccset játsszon, gondolj a körmérkőzésre, vagy előbb csoportkörre, utána egyenes kiesésre."
+  ],
+  [
+   "Ha a csapatok száma nem 2 hatványa: erőnyerők",
+   "Ahhoz, hogy az ágrajz kijöjjön, az első forduló után megmaradó csapatok számának 2 hatványának (2, 4, 8, 16, 32…) kell lennie. Ha a csapatszám nem ilyen, néhány csapat az első fordulóban <b>erőnyerő</b>: nem játszik, hanem egyből a második fordulóba jut. Az erőnyerők számát úgy kapod meg, hogy a csapatszámnál nagyobb vagy azzal egyenlő legkisebb 2-hatványból kivonod a csapatok számát: 6 csapatnál 8 − 6 = 2, 10 csapatnál 16 − 10 = 6, 12 csapatnál 16 − 12 = 4. A többi csapat játszik az első fordulóban, és <b>a második fordulóban</b> pontosan 2-hatványnyi csapat marad."
+  ],
+  [
+   "Kiemelés és sorsolás",
+   "A kiemelés azt jelenti, hogy a legerősebbnek tartott csapatokat az ágrajzon egymástól távol helyezed el, hogy ne találkozzanak az első fordulókban. Egy hagyományos 8 csapatos ágrajzon az első kiemelt a nyolcadikkal, a második a hetedikkel játszik, és az 1. és 2. kiemelt csak a döntőben találkozhat. Ha vannak erőnyerők, gyakran a kiemeltek kapják ezt a helyet. Ha nem használsz kiemelést, a párokat <b>sorsolással</b> döntsd el: a mindenki előtt tartott sorsolás vagy egy, a sorrendet véletlenszerűen összekeverő eszköz erősítheti az igazságosság érzését. Bármelyik módszert választod, <b>a verseny előtt</b> jelentsd be."
+  ],
+  [
+   "Fordulónevek és tervezés",
+   "Teljes ágrajzon a fordulókat a megmaradt csapatok száma szerint nevezik el: 16 csapatnál <b>nyolcaddöntő</b>, 8 csapatnál negyeddöntő, 4 csapatnál elődöntő, az utolsó két csapat pedig a döntőt játssza. Erőnyerős ágrajzon az első fordulót elnevezheted aszerint a 2-hatvány szerint, amelyre az ágrajz kiegészül; 6 csapatnál az első forduló negyeddöntőnek számít. A fordulók számát is számold ki: 8 csapatnak 3, 16 csapatnak 4, 32 csapatnak 5 forduló kell. Minden meccsnek adj <b>sorszámot</b>, és a következő fordulóba írd például: „A(z) #3 mérkőzés győztese”; így az ágrajz már az eredmények előtt is érthető. Néhány verseny bronzmérkőzést is rendez."
+  ],
+  [
+   "Ágrajz készítése a TurnuVolttal",
+   "A TurnuVolt böngészőben futó <b>ingyenes sorsolásgenerátora</b> 2–64 csapatra készít egyenes kieséses ágrajzot. Ha a csapatszám nem 2 hatványa, a hiányzó számnak megfelelő csapat erőnyerő lesz az első fordulóban. Az erőnyerők a lista tetején álló csapatok; ha a „Sorsolás megkeverése” be van jelölve, a lista összekeveredik, így az erőnyerők is változnak. Az eszköz magától nem készít hagyományos kiemelést, a többi csapatot a lista sorrendjében párosítja. A későbbi fordulókban helykitöltők látszanak, például „A(z) #1 mérkőzés győztese”, az ágrajzot pedig kinyomtathatod, kimásolhatod vagy hivatkozással megoszthatod. A győzteseket a <b>TurnuVolt alkalmazásban</b> rögzítheted, ha a győztes csapatra koppintasz."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Írd be a csapatokat",
+   "Az ingyenes sorsolásgenerátorban írj soronként egy csapatot, vagy add meg a csapatok számát, és nyomd meg a Kitöltés gombot. Az erőnyerőnek szánt csapatokat írd a lista elejére."
+  ],
+  [
+   "Válaszd az Egyenes kiesés formátumot",
+   "Formátumnak válaszd az Egyenes kiesés lehetőséget. Véletlen sorsoláshoz jelöld be a „Sorsolás megkeverése” négyzetet; ekkor az erőnyerők is változnak."
+  ],
+  [
+   "Készítsd el az ágrajzot",
+   "Nyomd meg a Sorsolás elkészítése gombot. Megjelennek az első forduló párosításai, az erőnyerők és a döntőig minden forduló számozott mérkőzésekkel."
+  ],
+  [
+   "Oszd meg, és rögzítsd az eredményeket",
+   "Nyomtasd ki, másold ki, vagy oszd meg a hivatkozást (hivatkozásos megosztásnál ne használj | jelet a csapatnevekben). A győztesek rögzítéséhez hozd létre a versenyt a TurnuVolt alkalmazásban."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Mit jelent az erőnyerő az egyenes kiesésnél?",
+   "Az erőnyerő csapat meccs nélkül jut tovább a következő fordulóba. Erre akkor van szükség, ha a csapatok száma nem 2 hatványa, és ki kell egyensúlyozni az ágrajzot. Az erőnyerő helyet gyakran a kiemeltek vagy a sorsolással kiválasztott csapatok kapják; a részletek a versenyed szabályaitól függnek."
+  ],
+  [
+   "Hány erőnyerő kell?",
+   "Keresd meg a csapatszámnál nagyobb vagy azzal egyenlő legkisebb 2-hatványt, és vond ki belőle a csapatok számát. 5 csapatnál 3, 6 csapatnál 2, 7 csapatnál 1, 9 csapatnál 7 erőnyerő van. Így a második fordulóban pontosan 4, 8 vagy 16 csapat marad."
+  ],
+  [
+   "Hány mérkőzés van egy egyenes kieséses versenyen?",
+   "Egy n csapatos egyenes kieséses versenyen mindig n − 1 mérkőzés van, mert minden meccsen egy csapat esik ki, és a bajnokon kívül mindenki pontosan egyszer kap ki. 8 csapatnál 7, 12 csapatnál 11, 32 csapatnál 31 mérkőzés van. Ha bronzmérkőzést is rendezel, eggyel több."
+  ],
+  [
+   "Hogyan döntik el a kiemelést?",
+   "A kiemelés általában korábbi eredményeken, egy előzetes bajnokság vagy csoportkör sorrendjén, illetve a szervező megítélésén alapul. Hogy melyik módszert használod, a versenyed szabályaitól függ. Ha a szempontokat előre elmagyarázod, csökkenhet a kiemelés körüli vita esélye."
+  ],
+  [
+   "Hány csapatra készít ágrajzot az ingyenes eszköz?",
+   "A TurnuVolt ingyenes sorsolásgenerátora 2 és 64 csapat között készít egyenes kieséses ágrajzot. Nem kell regisztrálni, a sorsolást a böngésződ számolja ki. A megosztási hivatkozás a csapatneveket magában a címben tárolja, így akinek elküldöd, az is látja őket. Ugyanezzel az eszközzel körmérkőzéses bajnoki sorsolást is készíthetsz."
+  ]
+ ]
+}

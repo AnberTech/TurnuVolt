@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Langkah demi langkah",
+ "g_faq_h2": "Pertanyaan yang sering diajukan",
+ "g_cta_h2": "Buat jadwal pertandingan Anda sekarang",
+ "g_cta_p": "Ketik nama tim di Generator Jadwal Pertandingan gratis, dan jadwal liga atau sistem gugur siap dalam hitungan detik. Untuk mencatat skor dan klasemen juga, gunakan aplikasi TurnuVolt di iPhone, iPad, atau Android.",
+ "g_cta_btn": "Buat jadwal pertandingan gratis",
+ "g_contact": "Pertanyaan dan saran:",
+ "g_other_h2": "Panduan lainnya",
+ "g_lang": "Bahasa",
+ "g_home": "Beranda",
+ "table_slug": "cara-membuat-klasemen-liga",
+ "table_name": "Cara membuat klasemen liga",
+ "table_title": "Cara Membuat Klasemen Liga & Tabel Poin | TurnuVolt",
+ "table_desc": "Cara membuat klasemen liga: kolom P, M, S, K, GM, GK, SG, Poin, sistem poin, kriteria saat poin sama, dan tips mencatat klasemen secara manual.",
+ "table_h1": "Cara membuat klasemen liga",
+ "table_lead": "Klasemen liga menunjukkan posisi setiap tim dalam sekali lihat. Di sini kami jelaskan kolom apa saja yang dibutuhkan, cara pemberian poin, dan siapa yang unggul jika poin sama.",
+ "table_card": "Kolom klasemen, sistem poin, kriteria poin sama, dan tips mencatat manual.",
+ "table_body": [
+  [
+   "Kolom apa saja yang ada di klasemen liga?",
+   "Dalam klasemen liga yang umum, setiap tim menempati satu baris. Kolomnya biasanya seperti ini: <b>P</b> (pertandingan dimainkan), M (menang), S (seri), K (kalah), GM (gol memasukkan), GK (gol kemasukan), SG (selisih gol), dan <b>Poin</b>. Jika permainan Anda memakai angka atau set, bukan gol, Anda bisa mengisi kolom tersebut dengan satuan permainan itu. Dua pemeriksaan sederhana membantu menemukan sebagian ketidakcocokan: di setiap baris, M + S + K harus sama dengan P, dan jumlah GM semua tim harus sama dengan jumlah GK. Jika salah satunya tidak cocok, periksa kembali catatan pertandingan dan hitungan tabel. Namun, jika keduanya cocok, itu belum menjamin setiap skor sudah benar."
+  ],
+  [
+   "Sistem poin: menang, seri, kalah",
+   "Cara pemberian poin ditentukan oleh aturan liga masing-masing. Pada olahraga yang mengenal hasil seri, seperti sepak bola, sistem yang umum adalah <b>3 poin</b> untuk menang, 1 untuk seri, dan 0 untuk kalah. Pada olahraga tanpa hasil seri, seperti bola basket, kemenangan sering kali bernilai 2 poin. Di bola voli, skor itu sendiri juga berpengaruh: aturan yang umum memberi 3 poin untuk menang 3-0 atau 3-1, 2 poin untuk menang 3-2, dan 1 poin untuk kalah 2-3. Jika Anda menyelenggarakan turnamen sendiri, umumkan aturannya kepada semua peserta <b>sebelum pertandingan pertama</b>; mengubah sistem poin di tengah musim mudah memicu perdebatan."
+  ],
+  [
+   "Jika poin sama, bagaimana urutan klasemen ditentukan?",
+   "Kriteria penentu saat poin sama berbeda di setiap liga, jadi periksa peraturan turnamen Anda. Yang sering dipakai antara lain <b>selisih gol</b> (gol memasukkan dikurangi gol kemasukan), jumlah gol yang dicetak, head-to-head, yaitu hasil pertandingan antara tim-tim yang poinnya sama, dan sebagai pilihan terakhir, undian. Sebagian liga menerapkan head-to-head sebelum selisih gol keseluruhan, sebagian lagi sesudahnya. Jika tiga tim atau lebih memiliki poin sama, banyak peraturan membuat tabel kecil hanya dari pertandingan yang dimainkan tim-tim itu satu sama lain. <b>Menuliskan urutan kriteria sejak awal</b> mengurangi risiko perselisihan di akhir musim."
+  ],
+  [
+   "Sulitnya mencatat klasemen secara manual",
+   "Mencatat klasemen di kertas atau di spreadsheet rawan kesalahan, bahkan di liga kecil. Setelah setiap hasil, baris kedua tim harus dihitung ulang sekaligus: kolom P, M, S, K, GM, GK, SG, dan Poin semuanya perlu diperiksa. Satu angka yang terlewat bisa mengacaukan urutan, dan butuh waktu sampai ada yang menyadarinya. Pertandingan yang ditunda, tim yang mendapat <b>bye</b> karena jumlah tim ganjil, dan liga kandang-tandang yang membuat jumlah pertandingan berlipat dua menambah pekerjaan. Cara yang bisa diandalkan adalah sesekali menghitung ulang klasemen dari semua hasil pertandingan lalu membandingkannya dengan catatan Anda; tetapi jika dilakukan manual, ini pun memakan waktu."
+  ],
+  [
+   "Mencatat klasemen dengan TurnuVolt",
+   "Saat Anda membuat liga di aplikasi TurnuVolt (iPhone, iPad, dan Android), jadwal pertandingan dan klasemen dibuat bersamaan. Setiap kali skor dimasukkan, kolom P, M, S, K, GM, GK, SG, dan Poin beserta urutan klasemen diperbarui <b>secara otomatis</b>. Input skor menyesuaikan permainannya: gol, angka, set, atau hanya pemenangnya. Aturan poin juga mengikuti permainan yang Anda pilih: di sepak bola menang bernilai 3 poin, di bola basket tidak ada hasil seri, dan di bola voli selisih set ikut diperhitungkan. Jika Anda hanya butuh pasangan pertandingan, <b>Generator Jadwal Pertandingan gratis</b> di browser sudah cukup; namun alat ini tidak mencatat skor maupun klasemen."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Buat turnamen baru",
+   "Di aplikasi TurnuVolt, ketuk Turnamen Baru, beri nama turnamen, lalu masukkan jumlah tim atau pemain."
+  ],
+  [
+   "Pilih permainan dan format Liga",
+   "Pilih dari lebih dari 60 permainan atau gunakan Kustom / Lainnya; penilaian mengikuti aturan permainan tersebut. Pilih Liga sebagai format, dengan opsi kandang dan tandang."
+  ],
+  [
+   "Masukkan nama tim",
+   "Ketik nama tim atau pemain. Jadwal pertandingan dan klasemen dibuat secara otomatis."
+  ],
+  [
+   "Masukkan skor",
+   "Masukkan skor setiap pertandingan; kolom P, M, S, K, GM, GK, SG, dan Poin serta urutan klasemen diperbarui sendiri."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Apa arti SG di klasemen?",
+   "SG adalah selisih gol: jumlah gol yang dicetak dikurangi gol kemasukan. Tim yang mencetak 20 gol dan kemasukan 12 gol memiliki SG +8. Saat poin sama, selisih gol adalah salah satu kriteria yang paling sering dipakai; namun kriteria mana yang didahulukan berbeda di setiap liga, jadi periksa peraturan turnamen Anda."
+  ],
+  [
+   "Apa itu head-to-head dan bagaimana cara menghitungnya?",
+   "Head-to-head adalah perbandingan tim yang poinnya sama hanya berdasarkan pertandingan di antara mereka sendiri. Poin dan selisih gol dari pertandingan itu adalah kriteria yang sering dipakai. Periksa peraturan liga untuk mengetahui kriteria apa yang berlaku, dalam urutan apa, dan apakah head-to-head dipakai sebelum atau sesudah selisih gol keseluruhan."
+  ],
+  [
+   "Menang dapat berapa poin, seri berapa poin?",
+   "Itu ditentukan oleh aturan liga. Pada permainan seperti sepak bola, sistem yang umum adalah menang 3 poin, seri 1, dan kalah 0. Pada permainan tanpa hasil seri, kemenangan sering kali bernilai 2 poin. Sistem apa pun yang Anda pilih untuk turnamen sendiri, umumkan kepada semua peserta sebelum dimulai."
+  ],
+  [
+   "Bagaimana klasemen jika jumlah tim ganjil?",
+   "Dengan jumlah tim ganjil, setiap pekan ada satu tim yang mendapat bye dan tidak bertanding. Karena itu, di tengah musim kolom P tiap tim bisa berbeda; setelah liga selesai, semua tim sudah memainkan jumlah pertandingan yang sama. Saat membaca klasemen sementara, perhatikan juga jumlah pertandingan yang sudah dimainkan."
+  ],
+  [
+   "Apakah generator jadwal gratis juga mencatat klasemen?",
+   "Tidak. Generator Jadwal Pertandingan gratis di browser hanya menyusun pasangan pertandingan; Anda bisa mencetak, menyalin, atau membagikan jadwal lewat tautan. Untuk memasukkan skor dan mencatat klasemen secara otomatis, buat turnamen yang sama di aplikasi TurnuVolt; aplikasi ini dibeli sekali, tanpa langganan dan tanpa iklan."
+  ]
+ ],
+ "bracket_slug": "cara-membuat-bagan-turnamen",
+ "bracket_name": "Cara membuat bagan turnamen",
+ "bracket_title": "Cara Membuat Bagan Turnamen Sistem Gugur | TurnuVolt",
+ "bracket_desc": "Cara membuat bagan turnamen sistem gugur: menghitung bye jika jumlah tim bukan pangkat 2, unggulan, undian, dan nama babak. Buat bagan gratis.",
+ "bracket_h1": "Cara membuat bagan turnamen sistem gugur",
+ "bracket_lead": "Bagan turnamen menunjukkan siapa melawan siapa dan ke mana pemenang melaju dalam sekali lihat. Kami jelaskan cara menghitung bye, menempatkan unggulan, dan mengatur undian.",
+ "bracket_card": "Bagan sistem gugur: hitungan bye, unggulan, undian, dan nama babak.",
+ "bracket_body": [
+  [
+   "Bagaimana turnamen sistem gugur bekerja?",
+   "Dalam turnamen sistem gugur, tim yang kalah tersingkir dan pemenangnya melaju ke babak berikutnya. Setelah babak pertama yang mungkin berisi bye, jumlah tim berkurang setengahnya di setiap babak, dan pemenang final menjadi juara. Karena di setiap pertandingan tepat satu tim tersingkir, turnamen dengan <b>n tim</b> selalu memainkan <b>n − 1 pertandingan</b>: 16 tim menentukan juaranya dalam 4 babak dan 15 pertandingan. Format ini cepat memberi hasil, tetapi satu hari yang buruk bisa menyingkirkan tim kuat sekalipun. Jika Anda ingin semua tim bermain lebih banyak, pertimbangkan format liga (setengah kompetisi) atau fase grup yang dilanjutkan sistem gugur."
+  ],
+  [
+   "Jika jumlah tim bukan pangkat 2: bye",
+   "Agar bagan bisa tersusun rapi, jumlah tim yang tersisa setelah babak pertama harus merupakan pangkat 2 (2, 4, 8, 16, 32…). Jika jumlah tim tidak sesuai, sebagian tim <b>mendapat bye</b>, yaitu langsung lolos ke babak kedua tanpa bertanding. Jumlah bye dihitung dari pangkat 2 pertama yang sama dengan atau lebih besar dari jumlah tim, dikurangi jumlah tim: dengan 6 tim, 8 − 6 = 2 tim mendapat bye; dengan 10 tim, 16 − 10 = 6; dengan 12 tim, 16 − 12 = 4. Tim lainnya bertanding di babak pertama, dan <b>di babak kedua</b> tersisa tim tepat sebanyak pangkat 2."
+  ],
+  [
+   "Unggulan dan undian",
+   "Unggulan (seeding) berarti menempatkan tim-tim yang dianggap terkuat berjauhan di bagan, sehingga mereka tidak bertemu di babak awal. Pada susunan klasik bagan 8 tim, unggulan 1 melawan unggulan 8, unggulan 2 melawan unggulan 7, dan unggulan 1 dan 2 baru bisa bertemu di final. Jika ada bye, memberikannya kepada tim unggulan adalah cara yang umum. Jika Anda tidak memakai unggulan, tentukan pasangan lewat <b>undian</b>; mengundi di depan semua peserta atau memakai alat yang mengacak urutan bisa memperkuat rasa adil. Umumkan metode yang Anda pilih <b>sebelum turnamen</b> dimulai."
+  ],
+  [
+   "Nama babak dan perencanaan",
+   "Dalam bagan yang terisi penuh, babak dinamai menurut jumlah tim yang tersisa: 16 tim disebut <b>babak 16 besar</b>, 8 tim perempat final, 4 tim semifinal, dan dua tim terakhir final. Dalam bagan dengan bye, babak pertama bisa dinamai sesuai pangkat 2 tempat bagan menjadi lengkap; babak pertama bagan 6 tim dihitung sebagai perempat final. Hitung juga jumlah babaknya: 8 tim selesai dalam 3 babak, 16 tim dalam 4, dan 32 tim dalam 5. Beri <b>nomor</b> pada setiap pertandingan dan tulis babak berikutnya seperti “Pemenang pertandingan 3”, sehingga bagan tetap terbaca sebelum hasilnya keluar. Sebagian turnamen juga memainkan perebutan tempat ketiga."
+  ],
+  [
+   "Membuat bagan turnamen dengan TurnuVolt",
+   "<b>Generator Jadwal Pertandingan gratis</b> dari TurnuVolt berjalan di browser dan menyusun jadwal sistem gugur untuk 2 hingga 64 tim. Jika jumlah tim bukan pangkat 2, sejumlah tim sebanyak kekurangannya mendapat bye di babak pertama. Bye diberikan kepada tim di urutan teratas daftar; jika “Acak undian” dicentang, daftar diacak dan tim yang mendapat bye pun berubah. Alat ini tidak membuat penempatan unggulan klasik sendiri; tim lainnya dipasangkan sesuai urutan daftar. Babak berikutnya tampil dengan penanda seperti “Pemenang #1”; Anda bisa mencetak, menyalin, atau membagikan jadwal lewat tautan. Untuk mencatat pemenang, ketuk tim yang menang di <b>aplikasi TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Masukkan tim",
+   "Di Generator Jadwal Pertandingan gratis, ketik satu tim per baris, atau masukkan jumlah tim lalu tekan Isi. Tulis tim yang akan mendapat bye di urutan teratas."
+  ],
+  [
+   "Pilih format Sistem gugur",
+   "Pilih Sistem gugur sebagai format. Jika ingin undian, centang kotak “Acak undian”; dalam hal ini tim yang mendapat bye juga ikut berubah sesuai undian."
+  ],
+  [
+   "Buat jadwalnya",
+   "Tekan Buat jadwal pertandingan. Pasangan babak pertama, tim yang mendapat bye, dan semua babak hingga final tampil sebagai pertandingan bernomor."
+  ],
+  [
+   "Bagikan dan catat hasilnya",
+   "Cetak, salin, atau bagikan tautannya (jangan gunakan karakter | dalam nama tim jika berbagi lewat tautan). Untuk mencatat pemenang, buat turnamennya di aplikasi TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Apa arti bye dalam turnamen sistem gugur?",
+   "Bye berarti sebuah tim melaju ke babak berikutnya tanpa bertanding di babak itu. Bye dipakai untuk menyeimbangkan bagan saat jumlah tim bukan pangkat 2. Bye sering diberikan kepada tim unggulan atau tim yang ditentukan lewat undian; rinciannya bergantung pada aturan turnamen Anda."
+  ],
+  [
+   "Berapa tim yang mendapat bye?",
+   "Cari pangkat 2 pertama yang sama dengan atau lebih besar dari jumlah tim, lalu kurangi dengan jumlah tim. Dengan 5 tim, 3 tim mendapat bye; 6 tim, 2; 7 tim, 1; dan 9 tim, 7. Dengan begitu, di babak kedua tersisa jumlah yang pas seperti 4, 8, atau 16."
+  ],
+  [
+   "Berapa pertandingan dalam turnamen sistem gugur?",
+   "Turnamen sistem gugur dengan n tim selalu memainkan n − 1 pertandingan, karena di setiap pertandingan satu tim tersingkir dan semua tim kecuali juara kalah tepat satu kali. 8 tim memainkan 7 pertandingan, 12 tim 11, dan 32 tim 31. Jika ada perebutan tempat ketiga, tambahkan satu pertandingan."
+  ],
+  [
+   "Bagaimana cara menentukan unggulan?",
+   "Unggulan biasanya ditentukan berdasarkan hasil sebelumnya, peringkat di liga awal atau fase grup, atau penilaian penyelenggara. Metode mana yang dipakai bergantung pada aturan turnamen Anda. Menjelaskan kriterianya sejak awal bisa mengurangi risiko perdebatan soal pilihan unggulan."
+  ],
+  [
+   "Alat gratis ini bisa membuat bagan untuk berapa tim?",
+   "Generator Jadwal Pertandingan gratis dari TurnuVolt menyusun jadwal sistem gugur untuk 2 hingga 64 tim. Tidak perlu mendaftar, dan jadwal dihitung di browser Anda. Tautan berbagi membawa nama tim di dalam alamatnya; siapa pun yang Anda kirimi tautan itu juga bisa melihat nama-namanya. Alat yang sama juga bisa membuat jadwal liga."
+  ]
+ ]
+}

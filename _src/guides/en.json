@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Step by step",
+ "g_faq_h2": "Frequently asked questions",
+ "g_cta_h2": "Make your fixture now",
+ "g_cta_p": "Type your teams into the free fixture generator and get a round-robin or knockout schedule in seconds. To keep scores and standings too, use the TurnuVolt app on iPhone, iPad or Android.",
+ "g_cta_btn": "Make a free fixture",
+ "g_contact": "Questions and suggestions:",
+ "g_other_h2": "More guides",
+ "g_lang": "Language",
+ "g_home": "Home",
+ "table_slug": "how-to-make-a-league-table",
+ "table_name": "How to make a league table",
+ "table_title": "How to Make a League Table (Standings) | TurnuVolt",
+ "table_desc": "How to make a league table: the Pld, W, D, L, GF, GA, GD and Pts columns, points systems, tiebreakers like goal difference and head-to-head, plus tips.",
+ "table_h1": "How to make a league table (standings)",
+ "table_lead": "A league table shows at a glance where every team stands. Here is which columns you need, how points are awarded and who goes ahead when teams finish level on points.",
+ "table_card": "Columns, points systems, tiebreakers and tips for keeping standings by hand.",
+ "table_body": [
+  [
+   "What columns does a league table have?",
+   "In a standard league table each team gets one row. The columns usually run like this: <b>Pld</b> (played), W (won), D (drawn), L (lost), GF (goals for), GA (goals against), GD (goal difference) and <b>Pts</b> (points). If your game is scored in points or sets instead of goals, you can record that unit in those columns. Two quick checks help you spot some inconsistencies. In every row, W + D + L must equal Pld. And across the whole table, total GF must equal total GA. If either check fails, review your match records and table math. Passing both, though, does not prove every score is right."
+  ],
+  [
+   "Points systems: win, draw, loss",
+   "How points are awarded is up to your league's own rules. In sports with draws, like soccer, the common system is <b>3 points</b> for a win, 1 for a draw and 0 for a loss. In sports without draws, like basketball, a win is often worth 2 points. In volleyball the score itself matters: a common rule gives 3 points for a 3-0 or 3-1 win, 2 for a 3-2 win and 1 for a 2-3 loss. If you run your own tournament, announce the rules <b>before the first game</b>. Changing the points system mid-season can easily start an argument."
+  ],
+  [
+   "Tiebreakers: who ranks higher on equal points?",
+   "Tiebreakers vary from league to league, so check your competition's rules. Common ones are <b>goal difference</b> (goals for minus goals against), goals scored, head-to-head results between the tied teams and, as a last resort, drawing lots. Some leagues apply head-to-head before overall goal difference, others after it. When three or more teams are tied, many rulebooks build a mini table from only the games those teams played against each other. Writing down the order of tiebreakers <b>in advance</b> lowers the risk of end-of-season disputes."
+  ],
+  [
+   "Why keeping standings by hand is hard",
+   "Keeping a table on paper or in a spreadsheet is error-prone, even in a small league. After every result, two rows need to be recalculated at once: Pld, W, D, L, GF, GA, GD and Pts all have to be checked for both teams. One missed number can throw off the rankings, and it may take a while before anyone notices. Postponed games, teams with a <b>bye</b> in a league with an odd number of teams, and a home-and-away format that doubles the games add to the work. A reliable habit is to rebuild the table from all results now and then and compare, but by hand that takes time too."
+  ],
+  [
+   "Keeping standings with TurnuVolt",
+   "When you set up a league in the TurnuVolt app (iPhone, iPad and Android), the fixtures and the standings table are created together. As you enter scores, the Pld, W, D, L, GF, GA, GD and Pts columns and the rankings update <b>automatically</b>. Score entry fits the game: goals, points, sets or just the winner. The points rule follows the game you pick: a win is 3 points in soccer, basketball has no draws, and volleyball also counts set difference. If you only need the matchups, the <b>free fixture generator</b> in your browser is enough, but it does not track scores or standings."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Create a new tournament",
+   "In the TurnuVolt app, tap New Tournament, give it a name and enter the number of teams or players."
+  ],
+  [
+   "Pick the game and League",
+   "Choose from more than 60 games, or use Custom / Other; scoring follows the game's rules. Pick League as the format, with an optional home-and-away second leg."
+  ],
+  [
+   "Enter the team names",
+   "Type the team or player names. The fixtures and the standings table are created automatically."
+  ],
+  [
+   "Enter the scores",
+   "Enter each result; the Pld, W, D, L, GF, GA, GD and Pts columns and the rankings update on their own."
+  ]
+ ],
+ "table_faq": [
+  [
+   "What does GD mean in a league table?",
+   "GD stands for goal difference: goals scored minus goals conceded. A team that scored 20 and conceded 12 has a GD of +8. It is one of the most common tiebreakers when teams are level on points, but which criterion comes first varies, so check your competition's rules."
+  ],
+  [
+   "What is head-to-head and how does it work?",
+   "Head-to-head compares tied teams using only the games they played against each other. Points and goal difference from those games are common criteria. Check your league's rules for which criteria apply, in what order, and whether head-to-head comes before or after overall goal difference."
+  ],
+  [
+   "How many points is a win or a draw?",
+   "Your league's rules decide. In sports like soccer the usual system is 3 points for a win, 1 for a draw and 0 for a loss. In sports without draws a win is often worth 2 points. Whatever system you choose for your own tournament, tell everyone before it starts."
+  ],
+  [
+   "How do standings work with an odd number of teams?",
+   "With an odd number of teams, one team has a bye each round and does not play. So mid-season, teams may show different numbers in the Pld column; by the end of the league everyone has played the same number of games. Keep games played in mind when you read the table."
+  ],
+  [
+   "Does the free fixture generator keep standings?",
+   "No. The free fixture generator in your browser only creates the matchups; you can print the fixture, copy it or share it with a link. To enter scores and keep the standings automatically, set up the same tournament in the TurnuVolt app. The app is a one-time purchase with no subscription and no ads."
+  ]
+ ],
+ "bracket_slug": "tournament-bracket-maker",
+ "bracket_name": "Tournament bracket maker",
+ "bracket_title": "How to Make a Tournament Bracket: Byes & Seeds | TurnuVolt",
+ "bracket_desc": "How to make a single-elimination tournament bracket: how many byes you need, seeding, random draws and round names. Make a free knockout bracket online.",
+ "bracket_h1": "How to make a tournament bracket",
+ "bracket_lead": "A bracket shows who plays whom and where each winner goes next. Here is how to work out byes, place your seeds and run a fair draw for a knockout tournament.",
+ "bracket_card": "Byes, seeding, random draws and round names for a single-elimination bracket.",
+ "bracket_body": [
+  [
+   "How does a single-elimination bracket work?",
+   "In a single-elimination (knockout) tournament the loser is out and the winner moves on to the next round. After any first-round byes, the field halves each round, and whoever wins the final is the champion. Because exactly one team is eliminated in every game, a bracket with <b>n teams</b> always has <b>n − 1 games</b>: 16 teams need 4 rounds and 15 games to crown a champion. The format is quick, but one bad day can knock out even a strong team. If you want everyone to play more games, consider a round-robin league, or group play followed by a knockout stage."
+  ],
+  [
+   "When the team count isn't a power of two: byes",
+   "For a bracket to work, the number of teams left after the first round must be a power of two (2, 4, 8, 16, 32…). If your team count doesn't fit, some teams get a <b>bye</b>: they skip the first round and go straight to the second. The number of byes is the next power of two minus the number of teams. With 6 teams, 8 − 6 = 2 teams get a bye; with 10 teams, 16 − 10 = 6; with 12 teams, 16 − 12 = 4. The other teams play in the first round, and <b>from round two on</b> the bracket has an exact power of two."
+  ],
+  [
+   "Seeding and random draws",
+   "Seeding means placing the strongest teams far apart in the bracket so they can't meet in the early rounds. In a classic 8-team bracket, the No. 1 seed plays No. 8, No. 2 plays No. 7, and seeds 1 and 2 can only meet in the final. If there are byes, giving them to the top seeds is a common approach. If you don't use seeds, set the matchups with a <b>random draw</b>: drawing names in front of everyone, or using a tool that shuffles the order, can make the bracket feel fairer. Whichever method you choose, announce it <b>before the tournament</b> starts."
+  ],
+  [
+   "Round names and planning",
+   "In a full bracket, rounds are named after the number of teams left: 16 teams is the <b>Round of 16</b>, then the quarterfinals (8), the semifinals (4) and the final (2). In a bracket with byes, the first round may be named after the bracket's power-of-two size, so with 6 teams the first round counts as the quarterfinals. Count the rounds too: 8 teams need 3, 16 teams need 4 and 32 teams need 5. Give every game a <b>number</b> and write the next round as “Winner of game 3” and so on, so the bracket makes sense before results come in. Some tournaments add a third-place game."
+  ],
+  [
+   "Making a bracket with TurnuVolt",
+   "TurnuVolt's <b>free fixture generator</b> runs in your browser and builds a knockout bracket for 2 to 64 teams. If the team count isn't a power of two, the missing number of teams get a first-round bye. Byes go to the teams at the top of your list; with “Shuffle the draw” checked, the list is mixed up, so the bye teams change too. The tool does not build a classic seeded bracket on its own; it pairs the remaining teams in list order. Later rounds show placeholders like “Winner of #1”, and you can print, copy or share the bracket by link. To record winners, tap the winning team in the <b>TurnuVolt app</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Enter your teams",
+   "In the free fixture generator, type one team per line, or enter a number of teams and tap Fill in. Put the teams that should get a bye at the top."
+  ],
+  [
+   "Choose Knockout",
+   "Pick Knockout as the format. For a random draw, check “Shuffle the draw”; this also changes which teams get a bye."
+  ],
+  [
+   "Generate the bracket",
+   "Tap Generate fixture. The first-round games, the teams with a bye and every round up to the final appear as numbered games."
+  ],
+  [
+   "Share it and record results",
+   "Print the bracket, copy it or share the link (avoid the | character in team names when sharing by link). To record winners, set up the tournament in the TurnuVolt app."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "What is a bye in a tournament bracket?",
+   "A bye means a team advances to the next round without playing. Byes balance the bracket when the number of teams isn't a power of two. They often go to the top seeds or to teams picked in a draw; the details depend on your tournament's rules."
+  ],
+  [
+   "How many byes do I need?",
+   "Find the next power of two that is equal to or greater than your team count, then subtract the number of teams. 5 teams need 3 byes, 6 teams need 2, 7 teams need 1 and 9 teams need 7. That leaves an even 4, 8 or 16 teams in round two."
+  ],
+  [
+   "How many games are in a single-elimination tournament?",
+   "A single-elimination tournament with n teams always has n − 1 games, because one team is knocked out in each game and everyone except the champion loses exactly once. 8 teams play 7 games, 12 teams play 11 and 32 teams play 31. A third-place game adds one more."
+  ],
+  [
+   "How do you decide the seeds?",
+   "Seeds are usually based on past results, the standings from a league or group stage, or the organizer's judgment. Which method you use depends on your tournament's rules. Explaining the criteria in advance can reduce arguments about the seeding later."
+  ],
+  [
+   "How many teams can the free bracket maker handle?",
+   "TurnuVolt's free fixture generator makes knockout brackets for 2 to 64 teams. There is no sign-up, and the fixture is calculated in your browser. The share link carries the team names in its address, so anyone you send it to can see them. The same tool also makes round-robin league fixtures."
+  ]
+ ]
+}

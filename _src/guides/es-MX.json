@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Paso a paso",
+ "g_faq_h2": "Preguntas frecuentes",
+ "g_cta_h2": "Arma tu rol de juegos ahora",
+ "g_cta_p": "Ingresa tus equipos en el generador gratuito de rol de juegos y en segundos tendrás el rol de una liga o las llaves de eliminación directa. Para llevar también los marcadores y la tabla de posiciones, usa la app TurnuVolt en iPhone, iPad o Android.",
+ "g_cta_btn": "Crear rol de juegos gratis",
+ "g_contact": "Preguntas y sugerencias:",
+ "g_other_h2": "Otras guías",
+ "g_lang": "Idioma",
+ "g_home": "Inicio",
+ "table_slug": "como-hacer-una-tabla-de-posiciones",
+ "table_name": "Tabla de posiciones",
+ "table_title": "Cómo hacer una tabla de posiciones de liga | TurnuVolt",
+ "table_desc": "Cómo hacer la tabla de posiciones de una liga: columnas JJ, G, E, P, GF, GC y Dif, sistema de puntos, criterios de desempate y tips para llevarla a mano.",
+ "table_h1": "Cómo hacer una tabla de posiciones de liga",
+ "table_lead": "La tabla de posiciones muestra de un vistazo en qué lugar va cada equipo. Te explicamos qué columnas necesitas, cómo se reparten los puntos y quién queda arriba cuando hay empate en puntos.",
+ "table_card": "Columnas, sistema de puntos, desempates y tips para llevar la tabla a mano.",
+ "table_body": [
+  [
+   "¿Qué columnas lleva una tabla de posiciones?",
+   "En una tabla de posiciones clásica cada equipo ocupa un renglón. Las columnas suelen ser: <b>JJ</b> juegos jugados, G ganados, E empatados, P perdidos, GF goles a favor, GC goles en contra, Dif diferencia de goles y <b>Pts</b> puntos. Si en tu juego se cuentan puntos o sets en vez de goles, puedes anotar esa unidad en esas columnas. Dos revisiones rápidas te ayudan a detectar algunos errores: en cada renglón, G + E + P debe ser igual a JJ, y en toda la tabla la suma de GF es igual a la suma de GC. Si no coinciden, revisa las cédulas de los partidos y las cuentas de la tabla. Que coincidan, eso sí, no garantiza que todos los marcadores estén bien."
+  ],
+  [
+   "Sistema de puntos: victoria, empate y derrota",
+   "Cómo se reparten los puntos lo decide el reglamento de cada liga. En deportes con empate, como el futbol, lo más común es dar <b>3 puntos</b> por victoria, 1 por empate y 0 por derrota. En deportes sin empate, como el básquetbol, una victoria suele valer 2 puntos. En voleibol también importa el marcador: lo más común es dar 3 puntos por ganar 3-0 o 3-1, 2 por ganar 3-2 y 1 por perder 2-3. Si organizas tu propio torneo, avísale la regla a todos <b>antes del primer partido</b>; cambiar el sistema de puntos a media temporada puede armar una discusión muy fácilmente."
+  ],
+  [
+   "Empate en puntos: ¿quién queda arriba?",
+   "Los criterios de desempate cambian de una liga a otra, así que revisa el reglamento de tu torneo. Los más usados son la <b>diferencia de goles</b> (goles a favor menos goles en contra), los goles anotados, el resultado entre sí, es decir, los partidos entre los equipos empatados, y como último recurso un sorteo. Algunas ligas aplican el resultado entre sí antes que la diferencia de goles general y otras después. Cuando empatan tres o más equipos, muchos reglamentos arman una pequeña tabla solo con los partidos que esos equipos jugaron entre ellos. Dejar <b>por escrito desde antes</b> el orden de los criterios reduce el riesgo de polémica al final de la temporada."
+  ],
+  [
+   "Por qué cuesta llevar la tabla a mano",
+   "Llevar la tabla de posiciones en papel o en una hoja de cálculo se presta a errores, incluso en una liga chica. Después de cada resultado hay que recalcular dos renglones a la vez: JJ, G, E, P, GF, GC, Dif y Pts de los dos equipos. Un número que se te pase puede mover las posiciones y tardar en notarse. Los partidos aplazados, los equipos que <b>descansan</b> cuando hay un número impar de equipos y las ligas a doble vuelta, que duplican los partidos, complican todavía más el trabajo. Un hábito confiable es recalcular de vez en cuando la tabla con todos los resultados y compararla con la tuya, aunque a mano eso también lleva tiempo."
+  ],
+  [
+   "Llevar la tabla de posiciones con TurnuVolt",
+   "Cuando creas una liga en la app TurnuVolt (iPhone, iPad y Android), el rol de juegos y la tabla de posiciones se crean juntos. Conforme capturas marcadores, las columnas JJ, G, E, P, GF, GC, Dif y Pts y las posiciones se actualizan <b>automáticamente</b>. La captura del marcador se adapta al juego: goles, puntos, sets o solo el ganador. La regla de puntos también sigue el juego que elijas: en futbol la victoria vale 3 puntos, en básquetbol no hay empates y en voleibol también cuenta la diferencia de sets. Si solo necesitas los enfrentamientos, te basta el <b>generador gratuito de rol de juegos</b> del navegador, pero no lleva marcadores ni tabla de posiciones."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Crea un torneo nuevo",
+   "En la app TurnuVolt, toca Nuevo torneo, ponle nombre e ingresa el número de equipos o jugadores."
+  ],
+  [
+   "Elige el juego y el formato Liga",
+   "Elige entre más de 60 juegos o usa Otro / personalizado; la puntuación sigue las reglas del juego. Como formato elige Liga, si quieres a doble vuelta."
+  ],
+  [
+   "Escribe los nombres de los equipos",
+   "Ingresa los nombres de los equipos o jugadores. El rol de juegos y la tabla de posiciones se crean automáticamente."
+  ],
+  [
+   "Captura los marcadores",
+   "Captura el marcador de cada partido; las columnas JJ, G, E, P, GF, GC, Dif y Pts y las posiciones se actualizan solas."
+  ]
+ ],
+ "table_faq": [
+  [
+   "¿Qué significa Dif en la tabla de posiciones?",
+   "Dif es la diferencia de goles: los goles anotados menos los goles recibidos. Un equipo que anotó 20 y recibió 12 tiene una diferencia de +8. Es uno de los criterios de desempate más comunes cuando hay empate en puntos, pero el criterio que va primero cambia según la liga, así que revisa el reglamento de tu torneo."
+  ],
+  [
+   "¿Qué es el resultado entre sí?",
+   "El resultado entre sí compara a los equipos empatados usando solo los partidos que jugaron entre ellos. Los puntos y la diferencia de goles de esos partidos son los criterios más comunes. Revisa en el reglamento de tu liga qué criterios se aplican, en qué orden y si el resultado entre sí va antes o después de la diferencia de goles general."
+  ],
+  [
+   "¿Cuántos puntos vale una victoria o un empate?",
+   "Lo decide el reglamento de la liga. En deportes como el futbol lo más común es 3 puntos por victoria, 1 por empate y 0 por derrota. En deportes sin empate, una victoria suele valer 2 puntos. Elijas el sistema que elijas para tu torneo, avísale a todos antes de empezar."
+  ],
+  [
+   "¿Cómo funciona la tabla con un número impar de equipos?",
+   "Con un número impar de equipos, en cada jornada descansa un equipo y no juega. Por eso, a media temporada los equipos pueden tener distinto número en la columna JJ; al terminar la liga todos habrán jugado los mismos partidos. Toma en cuenta los juegos jugados cuando leas la tabla parcial."
+  ],
+  [
+   "¿El generador gratuito de rol de juegos lleva la tabla?",
+   "No. El generador gratuito de rol de juegos del navegador solo arma los enfrentamientos; puedes imprimir el rol, copiarlo o compartirlo con un enlace. Para capturar marcadores y llevar la tabla de posiciones automáticamente, crea el mismo torneo en la app TurnuVolt. La app es de un solo pago, sin suscripción y sin anuncios."
+  ]
+ ],
+ "bracket_slug": "como-hacer-llaves-de-torneo",
+ "bracket_name": "Llaves de eliminación directa",
+ "bracket_title": "Cómo hacer las llaves de un torneo | TurnuVolt",
+ "bracket_desc": "Cómo hacer las llaves de un torneo de eliminación directa: cuántos pases directos, cabezas de serie, sorteo y nombres de rondas. Crea tus llaves gratis.",
+ "bracket_h1": "Cómo hacer las llaves de un torneo de eliminación directa",
+ "bracket_lead": "Las llaves muestran quién juega contra quién y a dónde avanza cada ganador. Te explicamos cómo calcular los pases directos, acomodar a las cabezas de serie y hacer un sorteo justo.",
+ "bracket_card": "Pases directos, cabezas de serie, sorteo y nombres de rondas para armar tus llaves.",
+ "bracket_body": [
+  [
+   "¿Cómo funciona un torneo de eliminación directa?",
+   "En un torneo de eliminación directa el que pierde queda fuera y el que gana avanza a la siguiente ronda. Después de una primera ronda con posibles pases directos, el número de equipos se reduce a la mitad en cada ronda, y quien gana la final es el campeón. Como en cada partido queda eliminado exactamente un equipo, un torneo con <b>n equipos</b> siempre tiene <b>n − 1 partidos</b>: 16 equipos necesitan 4 rondas y 15 partidos para tener campeón. El formato da resultados rápido, pero un mal día puede dejar fuera hasta a un equipo fuerte. Si quieres que todos jueguen más partidos, considera una liga de todos contra todos o una fase de grupos seguida de eliminación directa."
+  ],
+  [
+   "Si el número de equipos no es potencia de 2: pases directos",
+   "Para que las llaves cuadren, el número de equipos que quedan después de la primera ronda debe ser una potencia de 2 (2, 4, 8, 16, 32…). Si tu número de equipos no encaja, algunos reciben un <b>pase directo</b>: no juegan la primera ronda y avanzan directo a la segunda. El número de pases directos es la primera potencia de 2 mayor o igual que el número de equipos, menos el número de equipos. Con 6 equipos, 8 − 6 = 2 reciben pase directo; con 10, 16 − 10 = 6; con 12, 16 − 12 = 4. Los demás equipos juegan la primera ronda y, <b>a partir de la segunda ronda</b>, quedan justo una potencia de 2."
+  ],
+  [
+   "Cabezas de serie y sorteo",
+   "Los cabezas de serie, o equipos sembrados, son los que se consideran más fuertes y se acomodan lejos unos de otros en las llaves para que no se enfrenten en las primeras rondas. En unas llaves clásicas de 8 equipos, el sembrado n.º 1 juega contra el n.º 8, el n.º 2 contra el n.º 7, y el 1 y el 2 solo pueden verse en la final. Si hay pases directos, dárselos a los cabezas de serie es una opción común. Si no vas a sembrar, define los enfrentamientos por <b>sorteo</b>: hacerlo frente a todos o usar una herramienta que revuelva el orden al azar puede reforzar la sensación de justicia. Elijas el método que elijas, anúncialo <b>antes del torneo</b>."
+  ],
+  [
+   "Nombres de las rondas y planeación",
+   "En unas llaves completas, las rondas se nombran según los equipos que quedan: con 16 equipos son los <b>octavos de final</b>, con 8 los cuartos de final, con 4 las semifinales y con los dos últimos la final. En llaves con pases directos, la primera ronda puede nombrarse según el tamaño de las llaves; con 6 equipos, la primera ronda cuenta como cuartos de final. Calcula también las rondas: 8 equipos necesitan 3, 16 equipos 4 y 32 equipos 5. Ponle un <b>número</b> a cada partido y escribe en la siguiente ronda “Ganador del partido 3” y así; de esta forma las llaves se entienden antes de que lleguen los resultados. Algunos torneos juegan además un partido por el tercer lugar."
+  ],
+  [
+   "Armar las llaves con TurnuVolt",
+   "El <b>generador gratuito de rol de juegos</b> de TurnuVolt arma en el navegador llaves de eliminación directa para 2 a 64 equipos. Si no es potencia de 2, reciben pase directo en la primera ronda tantos equipos como falten. Los pases directos son para los equipos que están hasta arriba de tu lista; si marcas “Sortear los cruces”, la lista se revuelve y también cambian los pases directos. La herramienta no acomoda cabezas de serie al estilo clásico: empareja a los demás equipos en el orden de la lista. Las rondas siguientes muestran “Ganador del partido #1”, y puedes imprimirlas, copiarlas o compartirlas con un enlace. Para registrar ganadores, toca el equipo ganador en la <b>app TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Escribe los equipos",
+   "En el generador gratuito de rol de juegos, escribe un equipo por renglón o ingresa el número de equipos y toca Completar. Pon hasta arriba los equipos que deben recibir pase directo."
+  ],
+  [
+   "Elige Eliminación directa",
+   "Como formato, elige Eliminación directa. Si quieres sorteo, marca “Sortear los cruces”; así también cambian los equipos con pase directo."
+  ],
+  [
+   "Genera las llaves",
+   "Toca Generar rol de juegos. Los partidos de la primera ronda, los equipos con pase directo y todas las rondas hasta la final aparecen como partidos numerados."
+  ],
+  [
+   "Compártelas y registra resultados",
+   "Imprime las llaves, cópialas o comparte el enlace (si las compartes por enlace, no uses | en los nombres de los equipos). Para registrar ganadores, crea el torneo en la app TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "¿Qué es un pase directo en las llaves de un torneo?",
+   "Un pase directo significa que un equipo avanza a la siguiente ronda sin jugar. Los pases directos equilibran las llaves cuando el número de equipos no es potencia de 2. Suelen ser para los cabezas de serie o para equipos elegidos por sorteo; los detalles dependen del reglamento de tu torneo."
+  ],
+  [
+   "¿Cuántos pases directos necesito?",
+   "Busca la primera potencia de 2 mayor o igual que tu número de equipos y réstale el número de equipos. Con 5 equipos hay 3 pases directos, con 6 hay 2, con 7 hay 1 y con 9 hay 7. Así, en la segunda ronda quedan justo 4, 8 o 16 equipos."
+  ],
+  [
+   "¿Cuántos partidos tiene un torneo de eliminación directa?",
+   "Un torneo de eliminación directa con n equipos siempre tiene n − 1 partidos, porque en cada partido queda eliminado un equipo y todos menos el campeón pierden exactamente una vez. Con 8 equipos hay 7 partidos, con 12 hay 11 y con 32 hay 31. Si se juega un partido por el tercer lugar, se suma uno más."
+  ],
+  [
+   "¿Cómo se eligen los cabezas de serie?",
+   "Los cabezas de serie suelen basarse en resultados anteriores, en la tabla de una liga previa o de una fase de grupos, o en el criterio de los organizadores. El método depende del reglamento de tu torneo. Explicar los criterios desde antes puede reducir las discusiones sobre la siembra."
+  ],
+  [
+   "¿Para cuántos equipos sirve el generador gratuito?",
+   "El generador gratuito de rol de juegos de TurnuVolt arma llaves de eliminación directa para 2 a 64 equipos. No necesitas registrarte y el rol se calcula en tu navegador. El enlace para compartir lleva los nombres de los equipos en la dirección, así que quien lo reciba también los verá. Con la misma herramienta también puedes crear el rol de juegos de una liga."
+  ]
+ ]
+}

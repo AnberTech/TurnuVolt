@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Hướng dẫn từng bước",
+ "g_faq_h2": "Câu hỏi thường gặp",
+ "g_cta_h2": "Tạo lịch thi đấu của bạn ngay",
+ "g_cta_p": "Nhập tên các đội vào Công Cụ Tạo Lịch Thi Đấu miễn phí, lịch vòng tròn hoặc loại trực tiếp sẽ sẵn sàng trong vài giây. Để theo dõi cả tỉ số và bảng xếp hạng, hãy dùng ứng dụng TurnuVolt trên iPhone, iPad hoặc Android.",
+ "g_cta_btn": "Tạo lịch thi đấu miễn phí",
+ "g_contact": "Câu hỏi và góp ý:",
+ "g_other_h2": "Hướng dẫn khác",
+ "g_lang": "Ngôn ngữ",
+ "g_home": "Trang chủ",
+ "table_slug": "cach-lap-bang-xep-hang",
+ "table_name": "Cách lập bảng xếp hạng",
+ "table_title": "Cách Lập Bảng Xếp Hạng Giải Đấu Vòng Tròn | TurnuVolt",
+ "table_desc": "Cách lập bảng xếp hạng giải đấu: các cột Tr, T, H, B, BT, BB, HS, Đ, cách tính điểm, chỉ số phụ khi bằng điểm và mẹo theo dõi bảng bằng tay.",
+ "table_h1": "Cách lập bảng xếp hạng giải đấu vòng tròn",
+ "table_lead": "Bảng xếp hạng cho bạn thấy ngay vị trí của từng đội trong giải. Bài viết giải thích cần những cột nào, điểm được tính ra sao và đội nào xếp trên khi bằng điểm.",
+ "table_card": "Các cột, cách tính điểm, chỉ số phụ khi bằng điểm và mẹo theo dõi bằng tay.",
+ "table_body": [
+  [
+   "Bảng xếp hạng gồm những cột nào?",
+   "Trong một bảng xếp hạng thông thường, mỗi đội nằm trên một hàng. Các cột thường là: <b>Tr</b> (số trận đã đấu), T (thắng), H (hòa), B (bại), BT (bàn thắng), BB (bàn thua), HS (hiệu số) và <b>Đ</b> (điểm). Nếu môn của bạn tính bằng điểm hoặc set thay vì bàn thắng, bạn có thể ghi đơn vị của môn đó vào các cột này. Hai phép kiểm tra đơn giản giúp bạn phát hiện một số chỗ không khớp: ở mỗi hàng, T + H + B phải bằng Tr, và tổng BT của tất cả các đội phải bằng tổng BB. Nếu không khớp, hãy xem lại kết quả các trận và phần tính toán trong bảng. Tuy nhiên, khớp cả hai cũng không đảm bảo mọi tỉ số đều đúng."
+  ],
+  [
+   "Cách tính điểm: thắng, hòa, thua",
+   "Cách tính điểm do điều lệ của từng giải quyết định. Ở các môn có kết quả hòa như bóng đá, cách phổ biến là thắng được <b>3 điểm</b>, hòa 1 điểm, thua 0 điểm. Ở các môn không có hòa như bóng rổ, trận thắng thường được 2 điểm. Ở bóng chuyền, bản thân tỉ số cũng quan trọng: theo cách áp dụng phổ biến, đội thắng 3-0 hoặc 3-1 được 3 điểm, thắng 3-2 được 2 điểm, thua 2-3 được 1 điểm. Nếu bạn tự tổ chức giải, hãy công bố quy định cho mọi người <b>trước trận đầu tiên</b>; thay đổi cách tính điểm giữa mùa rất dễ gây tranh cãi."
+  ],
+  [
+   "Bằng điểm thì xếp hạng thế nào?",
+   "Các chỉ số phụ khi bằng điểm khác nhau tùy giải, vì vậy hãy xem điều lệ giải của bạn. Thường dùng nhất là <b>hiệu số</b> (bàn thắng trừ bàn thua), số bàn thắng ghi được, thành tích đối đầu, tức kết quả các trận giữa những đội bằng điểm với nhau, và cuối cùng là bốc thăm. Có giải xét đối đầu trước hiệu số chung, có giải xét sau. Khi ba đội trở lên bằng điểm, nhiều điều lệ lập một bảng nhỏ chỉ gồm các trận mà những đội này đấu với nhau. <b>Ghi rõ thứ tự các chỉ số từ trước</b> giúp giảm nguy cơ tranh cãi vào cuối mùa."
+  ],
+  [
+   "Khó khăn khi theo dõi bảng xếp hạng bằng tay",
+   "Ghi bảng xếp hạng trên giấy hay trong bảng tính rất dễ sai, kể cả ở một giải nhỏ. Sau mỗi kết quả, phải tính lại cùng lúc hàng của cả hai đội: cần xem lại toàn bộ các cột Tr, T, H, B, BT, BB, HS và Đ. Một con số bị sót có thể làm sai thứ hạng và có khi phải mất một thời gian mới phát hiện. Những trận bị hoãn, các đội <b>được nghỉ</b> khi số đội là số lẻ, và thể thức lượt đi lượt về làm số trận tăng gấp đôi khiến công việc càng nhiều. Một cách đáng tin cậy là thỉnh thoảng tính lại bảng từ toàn bộ kết quả rồi so với bảng bạn đang có; nhưng làm bằng tay thì việc này cũng tốn thời gian."
+  ],
+  [
+   "Theo dõi bảng xếp hạng bằng TurnuVolt",
+   "Khi bạn tạo một giải vòng tròn trong ứng dụng TurnuVolt (iPhone, iPad và Android), lịch thi đấu và bảng xếp hạng được tạo cùng lúc. Mỗi khi nhập tỉ số, các cột Tr, T, H, B, BT, BB, HS, Đ và thứ hạng được cập nhật <b>tự động</b>. Cách nhập tỉ số phù hợp với từng môn: bàn thắng, điểm, set hoặc chỉ đội thắng. Quy tắc tính điểm cũng theo môn bạn chọn: bóng đá thắng được 3 điểm, bóng rổ không có hòa, bóng chuyền còn tính cả hiệu số set. Nếu bạn chỉ cần các cặp đấu, <b>Công Cụ Tạo Lịch Thi Đấu miễn phí</b> trên trình duyệt là đủ; nhưng công cụ này không lưu tỉ số và bảng xếp hạng."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Tạo giải đấu mới",
+   "Trong ứng dụng TurnuVolt, chạm Giải mới, đặt tên cho giải và nhập số đội hoặc số người chơi."
+  ],
+  [
+   "Chọn môn và thể thức Giải vô địch (vòng tròn)",
+   "Chọn trong hơn 60 môn hoặc dùng Tùy chỉnh / Khác; cách tính điểm theo luật của môn đó. Ở thể thức, chọn Giải vô địch (tức đấu vòng tròn), có thể bật lượt đi lượt về."
+  ],
+  [
+   "Nhập tên các đội",
+   "Nhập tên đội hoặc người chơi. Lịch thi đấu và bảng xếp hạng được tạo tự động."
+  ],
+  [
+   "Nhập tỉ số",
+   "Nhập tỉ số từng trận; các cột Tr, T, H, B, BT, BB, HS, Đ và thứ hạng tự cập nhật."
+  ]
+ ],
+ "table_faq": [
+  [
+   "HS trong bảng xếp hạng là gì?",
+   "HS là hiệu số: số bàn thắng ghi được trừ đi số bàn thua. Đội ghi 20 bàn và thủng lưới 12 bàn có hiệu số +8. Khi bằng điểm, hiệu số là một trong những chỉ số được xét nhiều nhất; nhưng chỉ số nào được xét trước thì mỗi giải một khác, hãy kiểm tra điều lệ giải của bạn."
+  ],
+  [
+   "Thành tích đối đầu là gì, tính thế nào?",
+   "Thành tích đối đầu là cách so sánh các đội bằng điểm chỉ dựa trên những trận họ đấu với nhau. Điểm số và hiệu số trong các trận đó là những chỉ số thường dùng. Hãy xem điều lệ giải để biết áp dụng chỉ số nào, theo thứ tự nào, và đối đầu được xét trước hay sau hiệu số chung."
+  ],
+  [
+   "Thắng được mấy điểm, hòa được mấy điểm?",
+   "Điều lệ giải quyết định việc này. Ở các môn như bóng đá, cách phổ biến là thắng 3 điểm, hòa 1 điểm, thua 0 điểm. Ở các môn không có hòa, trận thắng thường được 2 điểm. Dù chọn cách nào cho giải của mình, hãy thông báo cho mọi người trước khi bắt đầu."
+  ],
+  [
+   "Số đội lẻ thì bảng xếp hạng thế nào?",
+   "Khi số đội là số lẻ, mỗi vòng có một đội được nghỉ và không thi đấu. Vì vậy giữa mùa, cột Tr của các đội có thể khác nhau; khi giải kết thúc, đội nào cũng đã đấu cùng số trận. Khi xem bảng xếp hạng tạm thời, hãy để ý cả số trận đã đấu."
+  ],
+  [
+   "Công cụ tạo lịch miễn phí có lưu bảng xếp hạng không?",
+   "Không. Công Cụ Tạo Lịch Thi Đấu miễn phí trên trình duyệt chỉ tạo các cặp đấu; bạn có thể in, sao chép hoặc chia sẻ lịch bằng liên kết. Để nhập tỉ số và có bảng xếp hạng tự động, hãy tạo cùng giải đó trong ứng dụng TurnuVolt; ứng dụng mua một lần, không thuê bao, không quảng cáo."
+  ]
+ ],
+ "bracket_slug": "cach-tao-nhanh-dau-loai-truc-tiep",
+ "bracket_name": "Tạo nhánh đấu loại trực tiếp",
+ "bracket_title": "Cách Tạo Sơ Đồ Nhánh Đấu Loại Trực Tiếp | TurnuVolt",
+ "bracket_desc": "Cách tạo nhánh đấu loại trực tiếp: tính suất miễn đấu khi số đội không phải lũy thừa của 2, hạt giống, bốc thăm và tên vòng. Tạo nhánh đấu miễn phí.",
+ "bracket_h1": "Cách tạo sơ đồ nhánh đấu loại trực tiếp",
+ "bracket_lead": "Nhánh đấu cho thấy ngay đội nào gặp đội nào và đội thắng đi tiếp vào đâu. Bài viết hướng dẫn cách tính suất miễn đấu, xếp hạt giống và bốc thăm công bằng.",
+ "bracket_card": "Suất miễn đấu, hạt giống, bốc thăm và tên các vòng của nhánh đấu loại trực tiếp.",
+ "bracket_body": [
+  [
+   "Giải loại trực tiếp diễn ra thế nào?",
+   "Trong giải loại trực tiếp, đội thua bị loại, đội thắng vào vòng tiếp theo. Sau vòng đầu (có thể có suất miễn đấu), số đội giảm một nửa sau mỗi vòng, và đội thắng trận chung kết là nhà vô địch. Vì mỗi trận có đúng một đội bị loại, giải gồm <b>n đội</b> luôn có <b>n − 1 trận</b>: 16 đội cần 4 vòng và 15 trận để tìm ra nhà vô địch. Thể thức này cho kết quả nhanh, nhưng chỉ một ngày thi đấu tệ cũng có thể loại cả một đội mạnh. Nếu muốn mọi đội được đấu nhiều trận hơn, hãy cân nhắc thể thức vòng tròn, hoặc đấu vòng bảng trước rồi mới loại trực tiếp."
+  ],
+  [
+   "Số đội không phải lũy thừa của 2: suất miễn đấu",
+   "Để nhánh đấu cân đối, số đội còn lại sau vòng đầu phải là lũy thừa của 2 (2, 4, 8, 16, 32…). Nếu số đội không khớp, một số đội <b>được miễn đấu</b> (bye), tức vào thẳng vòng hai mà không phải thi đấu. Số suất miễn đấu bằng lũy thừa của 2 nhỏ nhất lớn hơn hoặc bằng số đội, trừ đi số đội: 6 đội thì 8 − 6 = 2 đội được miễn đấu, 10 đội thì 16 − 10 = 6, 12 đội thì 16 − 12 = 4. Các đội còn lại đấu ở vòng đầu, và <b>sang vòng hai</b> số đội còn lại đúng bằng một lũy thừa của 2."
+  ],
+  [
+   "Hạt giống và bốc thăm",
+   "Xếp hạt giống là đặt các đội được xem là mạnh nhất ở xa nhau trên nhánh đấu, để họ không gặp nhau sớm. Theo cách xếp kinh điển ở nhánh 8 đội, hạt giống số 1 gặp số 8, số 2 gặp số 7, và hạt giống 1 và 2 chỉ có thể gặp nhau ở chung kết. Nếu có suất miễn đấu, trao chúng cho các đội hạt giống là cách thường làm. Nếu không dùng hạt giống, hãy xác định các cặp đấu bằng <b>bốc thăm</b>; bốc thăm công khai trước mọi người hoặc dùng công cụ xáo trộn thứ tự ngẫu nhiên giúp mọi người thấy công bằng hơn. Hãy công bố cách bạn chọn <b>trước khi giải bắt đầu</b>."
+  ],
+  [
+   "Tên các vòng và lên kế hoạch",
+   "Ở nhánh đấu đầy đủ, các vòng được gọi theo số đội còn lại: 16 đội là <b>vòng 1/8</b> (vòng 16 đội), 8 đội là tứ kết, 4 đội là bán kết, hai đội cuối cùng là chung kết. Ở nhánh có suất miễn đấu, vòng đầu có thể gọi theo lũy thừa của 2 mà nhánh đấu đạt đủ; vòng đầu của nhánh 6 đội được tính là tứ kết. Hãy tính cả số vòng: 8 đội cần 3 vòng, 16 đội 4 vòng, 32 đội 5 vòng. Hãy <b>đánh số</b> từng trận và ghi vòng sau là “Đội thắng trận 3” chẳng hạn; như vậy nhánh đấu vẫn dễ đọc khi chưa có kết quả. Một số giải còn tổ chức trận tranh hạng ba."
+  ],
+  [
+   "Tạo nhánh đấu bằng TurnuVolt",
+   "<b>Công Cụ Tạo Lịch Thi Đấu miễn phí</b> của TurnuVolt chạy trên trình duyệt và tạo lịch loại trực tiếp cho 2 đến 64 đội. Nếu số đội không phải lũy thừa của 2, thiếu bao nhiêu đội thì bấy nhiêu đội được miễn đấu ở vòng đầu. Suất miễn đấu thuộc về các đội đứng đầu danh sách; nếu bật “Xáo trộn bốc thăm”, danh sách bị xáo trộn và các đội được miễn đấu cũng thay đổi. Công cụ không tự xếp hạt giống kiểu kinh điển; các đội còn lại được ghép cặp theo thứ tự trong danh sách. Các vòng sau hiển thị bằng ô giữ chỗ như “Đội thắng trận #1”; bạn có thể in, sao chép hoặc chia sẻ lịch bằng liên kết. Để ghi nhận đội thắng, hãy chạm vào đội thắng trong <b>ứng dụng TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Nhập các đội",
+   "Trong Công Cụ Tạo Lịch Thi Đấu miễn phí, nhập mỗi dòng một đội, hoặc chọn số lượng đội rồi bấm Điền tự động. Ghi các đội sẽ được miễn đấu lên đầu danh sách."
+  ],
+  [
+   "Chọn thể thức Loại trực tiếp",
+   "Chọn Loại trực tiếp ở mục Thể thức. Nếu muốn bốc thăm, hãy đánh dấu ô “Xáo trộn bốc thăm”; khi đó các đội được miễn đấu cũng thay đổi theo kết quả bốc thăm."
+  ],
+  [
+   "Tạo lịch thi đấu",
+   "Bấm Tạo lịch thi đấu. Các cặp đấu vòng đầu, các đội được miễn đấu và tất cả các vòng đến chung kết hiện ra dưới dạng các trận được đánh số."
+  ],
+  [
+   "Chia sẻ và ghi kết quả",
+   "In, sao chép hoặc chia sẻ liên kết (khi chia sẻ bằng liên kết, đừng dùng ký tự | trong tên đội). Để ghi nhận đội thắng, hãy tạo giải trong ứng dụng TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Miễn đấu (bye) trong giải loại trực tiếp là gì?",
+   "Miễn đấu là khi một đội vào thẳng vòng tiếp theo mà không phải thi đấu ở vòng đó. Cách này dùng để cân đối nhánh đấu khi số đội không phải lũy thừa của 2. Suất miễn đấu thường dành cho các đội hạt giống hoặc các đội được chọn qua bốc thăm; chi tiết tùy theo điều lệ giải của bạn."
+  ],
+  [
+   "Bao nhiêu đội được miễn đấu?",
+   "Tìm lũy thừa của 2 nhỏ nhất lớn hơn hoặc bằng số đội, rồi trừ đi số đội. 5 đội thì 3 đội được miễn đấu, 6 đội thì 2, 7 đội thì 1, 9 đội thì 7. Nhờ đó ở vòng hai sẽ còn một con số tròn như 4, 8 hoặc 16."
+  ],
+  [
+   "Giải loại trực tiếp có bao nhiêu trận?",
+   "Giải loại trực tiếp gồm n đội luôn có n − 1 trận, vì mỗi trận loại một đội và mọi đội trừ nhà vô địch đều thua đúng một lần. 8 đội đấu 7 trận, 12 đội 11 trận, 32 đội 31 trận. Nếu có trận tranh hạng ba thì cộng thêm một trận."
+  ],
+  [
+   "Chọn hạt giống thế nào?",
+   "Hạt giống thường được xác định dựa trên thành tích trước đó, thứ hạng ở một giải vòng tròn hay vòng bảng trước đó, hoặc đánh giá của ban tổ chức. Dùng cách nào là tùy điều lệ giải của bạn. Công bố tiêu chí từ trước có thể giảm nguy cơ tranh cãi về việc chọn hạt giống."
+  ],
+  [
+   "Công cụ miễn phí tạo được nhánh đấu cho bao nhiêu đội?",
+   "Công Cụ Tạo Lịch Thi Đấu miễn phí của TurnuVolt tạo lịch loại trực tiếp cho 2 đến 64 đội. Không cần đăng ký, lịch được tính ngay trên trình duyệt của bạn. Liên kết chia sẻ chứa tên các đội trong địa chỉ; ai nhận được liên kết cũng sẽ thấy các tên đó. Cùng công cụ này cũng tạo được lịch thi đấu vòng tròn."
+  ]
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Steg för steg",
+ "g_faq_h2": "Vanliga frågor",
+ "g_cta_h2": "Gör ditt spelschema nu",
+ "g_cta_p": "Skriv in lagen i den gratis spelschemageneratorn så är matchschemat för alla möter alla eller utslagsturnering klart på några sekunder. Vill du också föra resultat och tabell använder du TurnuVolt-appen på iPhone, iPad eller Android.",
+ "g_cta_btn": "Gör ett gratis spelschema",
+ "g_contact": "Frågor och förslag:",
+ "g_other_h2": "Fler guider",
+ "g_lang": "Språk",
+ "g_home": "Start",
+ "table_slug": "gora-en-serietabell",
+ "table_name": "Så gör du en serietabell",
+ "table_title": "Så gör du en serietabell (tabell) | TurnuVolt",
+ "table_desc": "Så gör du en serietabell: kolumnerna M, V, O, F, GM, IM, MS och P, poängsystem, vem som går före på lika poäng och tips för att föra tabellen för hand.",
+ "table_h1": "Så gör du en serietabell",
+ "table_lead": "En serietabell visar med en blick var varje lag ligger. Här ser du vilka kolumner du behöver, hur poängen delas ut och vem som går före när lagen har lika många poäng.",
+ "table_card": "Kolumner, poängsystem, lika poäng och tips för att föra tabellen för hand.",
+ "table_body": [
+  [
+   "Vilka kolumner har en serietabell?",
+   "I en vanlig serietabell har varje lag en egen rad. Kolumnerna brukar vara: <b>M</b> spelade matcher, V vinster, O oavgjorda, F förluster, GM gjorda mål, IM insläppta mål, MS målskillnad och <b>P</b> poäng. Räknar ditt spel poäng eller set i stället för mål kan du föra in den enheten i kolumnerna. Två enkla kontroller hjälper dig att hitta en del fel: på varje rad ska V + O + F vara lika med M, och summan av GM för alla lag är lika med summan av IM. Stämmer det inte bör du gå igenom matchresultaten och uträkningarna i tabellen. Stämmer det är det ändå ingen garanti för att varje resultat är rätt."
+  ],
+  [
+   "Poängsystem: vinst, oavgjort, förlust",
+   "Hur poängen delas ut bestäms av seriens egna regler. I sporter med oavgjort, som fotboll, är det vanliga <b>3 poäng</b> för vinst, 1 för oavgjort och 0 för förlust. I sporter utan oavgjort, som basket, ger en vinst ofta 2 poäng. I volleyboll spelar själva resultatet också roll: enligt en vanlig regel får vinnaren av en 3–0- eller 3–1-match 3 poäng, vinnaren av 3–2 får 2 och förloraren vid 2–3 får 1. Arrangerar du en egen turnering, berätta om reglerna för alla <b>före första matchen</b>. Att ändra poängsystemet mitt i säsongen kan lätt leda till bråk."
+  ],
+  [
+   "Vem går före på lika poäng?",
+   "Vad som avgör vid lika poäng skiljer sig mellan serier, så kolla reglementet för din turnering. Vanliga kriterier är <b>målskillnad</b> (gjorda minus insläppta mål), flest gjorda mål, inbördes möten, alltså resultaten i matcherna mellan de lag som har lika poäng, och som sista utväg lottning. En del serier använder inbördes möten före total målskillnad, andra efter. När tre eller fler lag har lika poäng gör många reglementen en liten tabell med bara matcherna mellan just de lagen. Om du skriver ner kriteriernas ordning <b>i förväg</b> minskar risken för diskussioner när säsongen är slut."
+  ],
+  [
+   "Därför är det svårt att föra tabellen för hand",
+   "Att föra tabellen på papper eller i ett kalkylark blir lätt fel, även i en liten serie. Efter varje resultat måste två rader räknas om samtidigt, och för båda lagen behöver du kontrollera M, V, O, F, GM, IM, MS och P. En missad siffra kan förstöra placeringarna, och det kan dröja innan någon märker det. Mer jobb blir det med uppskjutna matcher, lag som <b>står över</b> en omgång när antalet lag är udda, och serier med hemma- och bortamatcher där antalet matcher fördubblas. En säker vana är att då och då räkna om hela tabellen från alla resultat och jämföra, men för hand tar även det tid."
+  ],
+  [
+   "Serietabell med TurnuVolt",
+   "När du skapar en liga i TurnuVolt-appen (iPhone, iPad och Android) skapas spelschemat och tabellen samtidigt. När du fyller i resultat uppdateras kolumnerna M, V, O, F, GM, IM, MS och P och placeringarna <b>automatiskt</b>. Resultatinmatningen passar spelet: mål, poäng, set eller bara vinnaren. Poängregeln följer spelet du väljer: i fotboll ger vinst 3 poäng, basket har inte oavgjort och i volleyboll räknas även setskillnaden. Behöver du bara matcherna räcker den <b>gratis spelschemageneratorn</b> i webbläsaren, men den för inte resultat eller tabell."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Skapa en ny turnering",
+   "Tryck på Ny turnering i TurnuVolt-appen, ge turneringen ett namn och ange antalet lag eller spelare."
+  ],
+  [
+   "Välj spel och formatet Liga",
+   "Välj bland fler än 60 spel eller använd Anpassat / Övrigt; poängräkningen följer spelets regler. Välj Liga som format, om du vill med hemma- och bortamatcher."
+  ],
+  [
+   "Skriv in lagnamnen",
+   "Ange namnen på lagen eller spelarna. Spelschemat och tabellen skapas automatiskt."
+  ],
+  [
+   "Fyll i resultaten",
+   "Fyll i resultatet för varje match; kolumnerna M, V, O, F, GM, IM, MS och P och placeringarna uppdateras av sig själva."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Vad betyder MS i tabellen?",
+   "MS står för målskillnad: gjorda mål minus insläppta mål. Ett lag som har gjort 20 mål och släppt in 12 har målskillnaden +8. Vid lika poäng är det ett av de vanligaste kriterierna, men vilket kriterium som kommer först skiljer sig mellan serier, så kolla reglementet för din turnering."
+  ],
+  [
+   "Vad är inbördes möten och hur räknas de?",
+   "Inbördes möten jämför lag med lika poäng utifrån bara de matcher de har spelat mot varandra. Poäng och målskillnad från de matcherna är vanliga kriterier. Kolla i seriens reglemente vilka kriterier som gäller, i vilken ordning och om inbördes möten kommer före eller efter total målskillnad."
+  ],
+  [
+   "Hur många poäng ger vinst och oavgjort?",
+   "Det bestämmer seriens regler. I sporter som fotboll är det vanliga 3 poäng för vinst, 1 för oavgjort och 0 för förlust. I sporter utan oavgjort ger en vinst ofta 2 poäng. Vilket system du än väljer för din egen turnering, berätta det för alla innan den börjar."
+  ],
+  [
+   "Hur för man tabell med ett udda antal lag?",
+   "Med ett udda antal lag står ett lag över varje omgång och spelar inte. Mitt i säsongen kan lagen därför ha olika siffror i M-kolumnen; när serien är slut har alla spelat lika många matcher. Håll koll på antalet spelade matcher när du läser tabellen under säsongen."
+  ],
+  [
+   "För den gratis spelschemageneratorn tabell?",
+   "Nej. Den gratis spelschemageneratorn i webbläsaren gör bara matcherna; du kan skriva ut spelschemat, kopiera det eller dela det med en länk. Vill du fylla i resultat och få tabellen automatiskt skapar du samma turnering i TurnuVolt-appen. Appen är ett engångsköp utan prenumeration och utan reklam."
+  ]
+ ],
+ "bracket_slug": "gora-en-utslagsturnering",
+ "bracket_name": "Så gör du en utslagsturnering",
+ "bracket_title": "Så gör du en utslagsturnering: frilotter | TurnuVolt",
+ "bracket_desc": "Så gör du en utslagsturnering: antal frilotter när antalet lag inte är en tvåpotens, seedning, lottning och omgångarnas namn. Gör ett gratis slutspelsträd.",
+ "bracket_h1": "Så gör du en utslagsturnering",
+ "bracket_lead": "Ett slutspelsträd visar vem som möter vem och vart vinnaren går vidare. Här ser du hur du räknar ut frilotter, placerar seedade lag och gör en rättvis lottning.",
+ "bracket_card": "Frilotter, seedning, lottning och namn på omgångarna i en utslagsturnering.",
+ "bracket_body": [
+  [
+   "Hur fungerar en utslagsturnering?",
+   "I en utslagsturnering (cupformat) åker förloraren ut och vinnaren går vidare till nästa omgång. Efter en eventuell första omgång med frilotter halveras antalet lag för varje omgång, och den som vinner finalen blir mästare. Eftersom exakt ett lag åker ut i varje match spelas det i en turnering med <b>n lag</b> alltid <b>n − 1 matcher</b>: 16 lag får fram en vinnare på 4 omgångar och 15 matcher. Formatet ger snabbt ett resultat, men en dålig dag kan slå ut även ett starkt lag. Vill du att alla ska spela fler matcher kan du överväga en serie där alla möter alla, eller först gruppspel och sedan utslagsmatcher."
+  ],
+  [
+   "När antalet lag inte är en tvåpotens: frilott",
+   "För att trädet ska gå ihop måste antalet lag som är kvar efter första omgången vara en tvåpotens (2, 4, 8, 16, 32…). Passar inte ditt antal lag får några lag en <b>frilott</b> i första omgången: de spelar inte utan går direkt till andra omgången. Antalet frilotter får du genom att ta den första tvåpotensen som är större än eller lika med antalet lag och dra ifrån antalet lag: med 6 lag 8 − 6 = 2, med 10 lag 16 − 10 = 6, med 12 lag 16 − 12 = 4. De övriga lagen spelar första omgången, och <b>från andra omgången</b> är det exakt en tvåpotens kvar."
+  ],
+  [
+   "Seedning och lottning",
+   "Seedning innebär att de starkaste lagen placeras långt ifrån varandra i trädet så att de inte möts i de första omgångarna. I ett klassiskt träd med 8 lag möter seedat nr 1 nr 8, nr 2 möter nr 7, och 1 och 2 kan mötas först i finalen. Finns det frilotter är det vanligt att ge dem till de seedade lagen. Använder du inte seedning kan du avgöra matcherna genom <b>lottning</b>: att lotta inför alla eller använda ett verktyg som blandar ordningen slumpmässigt kan stärka känslan av rättvisa. Vilken metod du än väljer, berätta om den <b>före turneringen</b>."
+  ],
+  [
+   "Namn på omgångarna och planering",
+   "I ett fullt träd får omgångarna namn efter antalet lag som är kvar: 16 lag är <b>åttondelsfinal</b>, 8 lag kvartsfinal, 4 lag semifinal och de två sista lagen spelar final. I ett träd med frilotter kan första omgången få namn efter den tvåpotens trädet fylls upp till; med 6 lag räknas första omgången som kvartsfinal. Räkna också omgångarna: 8 lag behöver 3, 16 lag 4 och 32 lag 5 omgångar. Ge varje match ett <b>nummer</b> och skriv i nästa omgång till exempel ”Vinnaren i match #3”, så går trädet att läsa innan resultaten kommer. En del turneringar spelar också en bronsmatch."
+  ],
+  [
+   "Utslagsturnering med TurnuVolt",
+   "TurnuVolts <b>gratis spelschemagenerator</b> körs i webbläsaren och gör ett slutspelsträd för 2 till 64 lag. Är antalet lag inte en tvåpotens får lika många lag som det saknas en frilott i första omgången. Frilotterna går till lagen högst upp i din lista; med ”Slumpa lottningen” ikryssad blandas listan, så även lagen med frilott ändras. Verktyget gör inte själv en klassisk seedning, utan parar ihop resten av lagen i listans ordning. Senare omgångar visas med platshållare som ”Vinnaren i match #1”, och du kan skriva ut, kopiera eller dela trädet med en länk. För att registrera vinnare trycker du på det vinnande laget i <b>TurnuVolt-appen</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Skriv in lagen",
+   "Skriv ett lag per rad i den gratis spelschemageneratorn, eller ange antalet lag och tryck på Fyll i. Lägg lagen som ska få frilott överst."
+  ],
+  [
+   "Välj Utslagsturnering",
+   "Välj Utslagsturnering som format. Vill du ha slumpmässig lottning kryssar du i ”Slumpa lottningen”; då ändras också vilka lag som får frilott."
+  ],
+  [
+   "Skapa slutspelsträdet",
+   "Tryck på Skapa spelschema. Matcherna i första omgången, lagen med frilott och alla omgångar fram till finalen visas som numrerade matcher."
+  ],
+  [
+   "Dela och registrera resultat",
+   "Skriv ut, kopiera eller dela länken (undvik tecknet | i lagnamn när du delar via länk). För att registrera vinnare skapar du turneringen i TurnuVolt-appen."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Vad betyder frilott i en utslagsturnering?",
+   "Frilott betyder att ett lag går vidare till nästa omgång utan att spela. Frilotter används för att få trädet att gå ihop när antalet lag inte är en tvåpotens. De går ofta till de seedade lagen eller till lag som lottas fram; detaljerna beror på reglerna för din turnering."
+  ],
+  [
+   "Hur många frilotter behövs?",
+   "Ta den första tvåpotensen som är större än eller lika med antalet lag och dra ifrån antalet lag. Med 5 lag blir det 3 frilotter, med 6 lag 2, med 7 lag 1 och med 9 lag 7. Då är det exakt 4, 8 eller 16 lag kvar i andra omgången."
+  ],
+  [
+   "Hur många matcher spelas i en utslagsturnering?",
+   "En utslagsturnering med n lag har alltid n − 1 matcher, eftersom ett lag åker ut i varje match och alla utom mästaren förlorar exakt en gång. 8 lag spelar 7 matcher, 12 lag 11 och 32 lag 31. En bronsmatch lägger till en match."
+  ],
+  [
+   "Hur bestämmer man seedningen?",
+   "Seedningen bygger oftast på tidigare resultat, tabellen från en serie eller ett gruppspel, eller arrangörens bedömning. Vilken metod du använder beror på reglerna för din turnering. Om du förklarar kriterierna i förväg kan risken för diskussioner om seedningen minska."
+  ],
+  [
+   "Hur många lag klarar det gratis verktyget?",
+   "TurnuVolts gratis spelschemagenerator gör slutspelsträd för 2 till 64 lag. Du behöver inte registrera dig, och spelschemat räknas ut i din webbläsare. Delningslänken innehåller lagnamnen i själva adressen, så alla du skickar den till kan se dem. Med samma verktyg kan du också göra ett spelschema för en serie där alla möter alla."
+  ]
+ ]
+}

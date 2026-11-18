@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-Hant" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>聯賽積分榜怎麼做？積分規則與排名方式 | TurnuVolt</title>
+<meta name="description" content="聯賽積分榜怎麼做？詳細說明場、勝、平、負、進、失、淨、分各欄，積分規則、積分相同時的排名依據，以及手動記錄積分榜的實用技巧。">
+<link rel="canonical" href="https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/">
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/TurnuVolt/puan-tablosu-hazirlama/">
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/TurnuVolt/en/how-to-make-a-league-table/">
+<link rel="alternate" hreflang="ar" href="https://anbertech.github.io/TurnuVolt/ar/jadwal-altartib/">
+<link rel="alternate" hreflang="cs" href="https://anbertech.github.io/TurnuVolt/cs/jak-udelat-tabulku-ligy/">
+<link rel="alternate" hreflang="da" href="https://anbertech.github.io/TurnuVolt/da/lav-en-ligatabel/">
+<link rel="alternate" hreflang="de" href="https://anbertech.github.io/TurnuVolt/de/ligatabelle-erstellen/">
+<link rel="alternate" hreflang="el" href="https://anbertech.github.io/TurnuVolt/el/pinakas-vathmologias/">
+<link rel="alternate" hreflang="es" href="https://anbertech.github.io/TurnuVolt/es/como-hacer-tabla-de-clasificacion/">
+<link rel="alternate" hreflang="es-MX" href="https://anbertech.github.io/TurnuVolt/es-mx/como-hacer-una-tabla-de-posiciones/">
+<link rel="alternate" hreflang="fa" href="https://anbertech.github.io/TurnuVolt/fa/jadval-radebandi/">
+<link rel="alternate" hreflang="fi" href="https://anbertech.github.io/TurnuVolt/fi/sarjataulukon-tekeminen/">
+<link rel="alternate" hreflang="fr" href="https://anbertech.github.io/TurnuVolt/fr/faire-un-classement-de-championnat/">
+<link rel="alternate" hreflang="he" href="https://anbertech.github.io/TurnuVolt/he/tavlat-liga/">
+<link rel="alternate" hreflang="hi" href="https://anbertech.github.io/TurnuVolt/hi/points-table-kaise-banaye/">
+<link rel="alternate" hreflang="hu" href="https://anbertech.github.io/TurnuVolt/hu/tabella-keszitese/">
+<link rel="alternate" hreflang="id" href="https://anbertech.github.io/TurnuVolt/id/cara-membuat-klasemen-liga/">
+<link rel="alternate" hreflang="it" href="https://anbertech.github.io/TurnuVolt/it/come-fare-una-classifica/">
+<link rel="alternate" hreflang="ja" href="https://anbertech.github.io/TurnuVolt/ja/league-junihyo-tsukurikata/">
+<link rel="alternate" hreflang="ko" href="https://anbertech.github.io/TurnuVolt/ko/league-sunwipyo-mandeulgi/">
+<link rel="alternate" hreflang="ms" href="https://anbertech.github.io/TurnuVolt/ms/cara-membuat-jadual-kedudukan-liga/">
+<link rel="alternate" hreflang="nb" href="https://anbertech.github.io/TurnuVolt/nb/lage-serietabell/">
+<link rel="alternate" hreflang="nl" href="https://anbertech.github.io/TurnuVolt/nl/competitiestand-maken/">
+<link rel="alternate" hreflang="pl" href="https://anbertech.github.io/TurnuVolt/pl/jak-zrobic-tabele-ligowa/">
+<link rel="alternate" hreflang="pt-BR" href="https://anbertech.github.io/TurnuVolt/pt-br/como-fazer-tabela-de-classificacao/">
+<link rel="alternate" hreflang="pt-PT" href="https://anbertech.github.io/TurnuVolt/pt-pt/como-fazer-tabela-classificativa/">
+<link rel="alternate" hreflang="ro" href="https://anbertech.github.io/TurnuVolt/ro/cum-faci-un-clasament/">
+<link rel="alternate" hreflang="ru" href="https://anbertech.github.io/TurnuVolt/ru/turnirnaya-tablitsa/">
+<link rel="alternate" hreflang="sv" href="https://anbertech.github.io/TurnuVolt/sv/gora-en-serietabell/">
+<link rel="alternate" hreflang="th" href="https://anbertech.github.io/TurnuVolt/th/tarang-khanaen-league/">
+<link rel="alternate" hreflang="uk" href="https://anbertech.github.io/TurnuVolt/uk/turnirna-tablytsia/">
+<link rel="alternate" hreflang="vi" href="https://anbertech.github.io/TurnuVolt/vi/cach-lap-bang-xep-hang/">
+<link rel="alternate" hreflang="zh-Hans" href="https://anbertech.github.io/TurnuVolt/zh-hans/jifenbang-zhizuo/">
+<link rel="alternate" hreflang="zh-Hant" href="https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/">
+<link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/TurnuVolt/en/how-to-make-a-league-table/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="TurnuVolt">
+<meta property="og:url" content="https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="聯賽積分榜怎麼做？積分規則與排名方式 | TurnuVolt">
+<meta property="og:description" content="聯賽積分榜怎麼做？詳細說明場、勝、平、負、進、失、淨、分各欄，積分規則、積分相同時的排名依據，以及手動記錄積分榜的實用技巧。">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://anbertech.github.io/TurnuVolt/assets/img/favicon.png?v=2">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>:root{--bg:#070B10;--card:#0F1720;--soft:#16212d;--line:rgba(234,242,255,.12);--ink:#EAF2FF;--muted:#9fb0c3;--acc:#F2C14E;--f-head:'Big Shoulders Display','Oswald',Impact,'Arial Narrow',sans-serif;--f-text:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;--f-ui:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}h1,h2,.brand,.tcard b{letter-spacing:.01em}.btn,.step::before{color:#070B10!important}html[lang=ar],html[lang=fa],html[lang=he],html[lang=hi],html[lang=th],html[lang=ja],html[lang=ko],html[lang=zh-Hans],html[lang=zh-Hant],html[lang=el],html[lang=ru],html[lang=uk]{--f-head:-apple-system,'Segoe UI',Roboto,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--f-text);-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:780px;margin:0 auto;padding:16px 20px}
+.brand{font:600 18px/1 var(--f-head);color:var(--ink);text-decoration:none;letter-spacing:.01em}
+.lm summary{cursor:pointer;list-style:none;font:500 13px/1 var(--f-ui);padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.lm summary::-webkit-details-marker{display:none}
+.lm{position:relative}.lm nav{position:absolute;z-index:5;inset-inline-end:0;top:calc(100% + 6px);display:grid;grid-template-columns:1fr 1fr;gap:2px;
+  padding:8px;min-width:240px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px -12px rgba(0,0,0,.25)}
+.lm nav a{padding:6px 8px;border-radius:8px;text-decoration:none;color:var(--ink);font:400 14px/1.3 var(--f-ui)}
+.lm nav a[aria-current]{background:var(--soft);font-weight:600}
+main{max-width:780px;margin:0 auto;padding:8px 20px 40px}
+.crumbs{font:400 13px/1.4 var(--f-ui);color:var(--muted);margin:8px 0 0}.crumbs a{color:var(--muted)}
+h1{font:600 clamp(30px,6vw,44px)/1.12 var(--f-head);margin:10px 0 12px;letter-spacing:-.01em}
+.lead{font-size:19px;color:var(--muted);margin:0 0 26px}
+h2{font:600 clamp(22px,4.4vw,27px)/1.22 var(--f-head);margin:34px 0 10px}
+.content p{margin:0 0 6px}
+.box{margin-top:34px;padding:22px 20px;border-radius:18px;background:var(--card);border:1px solid var(--line)}
+.box h2{margin-top:0}
+.steps{display:grid;gap:12px;counter-reset:s}
+.step{display:grid;grid-template-columns:34px 1fr;gap:4px 12px;counter-increment:s}
+.step::before{content:counter(s);grid-row:span 2;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--acc);color:#fff;font:600 15px/1 var(--f-ui)}
+.step b{font:600 17px/1.35 var(--f-text)}.step span{color:var(--muted)}
+.faq details{border-top:1px solid var(--line);padding:12px 0}.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font-weight:600}.faq details p{margin:8px 0 0;color:var(--muted)}
+.cta{text-align:center}.cta p{color:var(--muted);margin:0 0 16px}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;background:var(--acc);color:#fff;text-decoration:none;font:600 15px/1 var(--f-ui)}
+.contact{margin-top:14px;font:400 14px/1.4 var(--f-ui);color:var(--muted)}
+.topics{display:grid;gap:12px}
+.tcard{display:block;padding:16px 18px;border-radius:14px;border:1px solid var(--line);background:var(--card);text-decoration:none;color:var(--ink)}
+.tcard b{display:block;font:600 17px/1.3 var(--f-head)}.tcard span{color:var(--muted);font-size:15px}
+footer{max-width:780px;margin:0 auto;padding:20px 20px 40px;font:400 13px/1.5 var(--f-ui);color:var(--muted)}
+@media (min-width:640px){.topics{grid-template-columns:1fr 1fr}}
+[dir=rtl] .step{direction:rtl}
+h1,h2{text-wrap:balance}
+html[lang=ko] body{word-break:keep-all;overflow-wrap:anywhere}
+html[lang=ja] body{line-break:strict}
+html[lang=ja] :is(h1,h2),html[lang^=zh] :is(h1,h2),html[lang=th] :is(h1,h2){text-wrap:wrap}</style>
+<script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anbertech.github.io/#org","name":"AnberTech","url":"https://anbertech.github.io/","email":"destek.anbertech@gmail.com"},{"@type":"WebPage","@id":"https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/#page","url":"https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/","name":"聯賽積分榜怎麼做？積分規則與排名方式 | TurnuVolt","description":"聯賽積分榜怎麼做？詳細說明場、勝、平、負、進、失、淨、分各欄，積分規則、積分相同時的排名依據，以及手動記錄積分榜的實用技巧。","inLanguage":"zh-Hant","publisher":{"@id":"https://anbertech.github.io/#org"},"mainEntity":{"@type":"HowTo","name":"聯賽積分榜怎麼做？","step":[{"@type":"HowToStep","position":1,"name":"建立新賽事","text":"在 TurnuVolt App 中點一下「新賽事」，為賽事命名，並輸入隊伍或選手數量。"},{"@type":"HowToStep","position":2,"name":"選擇項目和「聯賽」賽制","text":"從 60 多個項目中選擇，或使用「自訂 / 其他」；計分依該項目的規則進行。賽制選擇「聯賽」，可選主客場雙循環。"},{"@type":"HowToStep","position":3,"name":"輸入隊伍名稱","text":"輸入隊伍或選手名稱。賽程和積分榜會自動產生。"},{"@type":"HowToStep","position":4,"name":"輸入比分","text":"輸入每場比賽的比分；場、勝、平、負、進、失、淨、分各欄和排名會自動更新。"}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TurnuVolt","item":"https://anbertech.github.io/TurnuVolt/zh-hant/"},{"@type":"ListItem","position":2,"name":"聯賽積分榜怎麼做","item":"https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/"}]},{"@type":"FAQPage","@id":"https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/#faq","inLanguage":"zh-Hant","mainEntity":[{"@type":"Question","name":"積分榜裡的「淨」是什麼意思？","acceptedAnswer":{"@type":"Answer","text":"「淨」指淨勝球，也就是進球數減去失球數。一支隊伍進 20 球、失 12 球，淨勝球就是 +8。積分相同時，淨勝球是最常用的依據之一；但哪項依據優先因聯賽而異，請查看賽事規程。"}},{"@type":"Question","name":"對戰成績是什麼？怎麼算？","acceptedAnswer":{"@type":"Answer","text":"對戰成績是只看同分隊伍之間的比賽來比較。這些比賽中的積分和淨勝球是常用依據。具體採用哪些依據、依什麼順序、排在總淨勝球之前或之後，請查看聯賽規程。"}},{"@type":"Question","name":"勝一場幾分，平手幾分？","acceptedAnswer":{"@type":"Answer","text":"由聯賽規則決定。足球等項目常見的是勝 3 分、平 1 分、敗 0 分。沒有和局的項目，勝一場通常得 2 分。不論你的比賽採用哪種規則，都請在開賽前告知所有人。"}},{"@type":"Question","name":"隊伍數為奇數時積分榜怎麼記？","acceptedAnswer":{"@type":"Answer","text":"隊伍數為奇數時，每輪會有一支隊伍輪空，不參加比賽。所以賽季中途各隊的場數可能不同；聯賽結束時，所有隊伍的比賽場數都會相同。看中途排名時，也要留意已賽場數。"}},{"@type":"Question","name":"免費賽程表產生器能記錄積分榜嗎？","acceptedAnswer":{"@type":"Answer","text":"不能。瀏覽器中的免費賽程表產生器只排出對戰組合；你可以列印、複製或透過連結分享賽程。想輸入比分並自動產生積分榜，請在 TurnuVolt App 中建立同一項賽事；App 為一次性買斷，沒有訂閱也沒有廣告。"}}]}]}</script>
+</head>
+<body>
+<header class="top"><a class="brand" href="https://anbertech.github.io/TurnuVolt/zh-hant/">TurnuVolt</a><details class="lm"><summary aria-label="語言">ZH ▾</summary><nav><a href="https://anbertech.github.io/TurnuVolt/puan-tablosu-hazirlama/" hreflang="tr" lang="tr">Türkçe</a><a href="https://anbertech.github.io/TurnuVolt/en/how-to-make-a-league-table/" hreflang="en" lang="en">English</a><a href="https://anbertech.github.io/TurnuVolt/ar/jadwal-altartib/" hreflang="ar" lang="ar">العربية</a><a href="https://anbertech.github.io/TurnuVolt/cs/jak-udelat-tabulku-ligy/" hreflang="cs" lang="cs">Čeština</a><a href="https://anbertech.github.io/TurnuVolt/da/lav-en-ligatabel/" hreflang="da" lang="da">Dansk</a><a href="https://anbertech.github.io/TurnuVolt/de/ligatabelle-erstellen/" hreflang="de" lang="de">Deutsch</a><a href="https://anbertech.github.io/TurnuVolt/el/pinakas-vathmologias/" hreflang="el" lang="el">Ελληνικά</a><a href="https://anbertech.github.io/TurnuVolt/es/como-hacer-tabla-de-clasificacion/" hreflang="es" lang="es">Español</a><a href="https://anbertech.github.io/TurnuVolt/es-mx/como-hacer-una-tabla-de-posiciones/" hreflang="es-MX" lang="es-MX">Español (México)</a><a href="https://anbertech.github.io/TurnuVolt/fa/jadval-radebandi/" hreflang="fa" lang="fa">فارسی</a><a href="https://anbertech.github.io/TurnuVolt/fi/sarjataulukon-tekeminen/" hreflang="fi" lang="fi">Suomi</a><a href="https://anbertech.github.io/TurnuVolt/fr/faire-un-classement-de-championnat/" hreflang="fr" lang="fr">Français</a><a href="https://anbertech.github.io/TurnuVolt/he/tavlat-liga/" hreflang="he" lang="he">עברית</a><a href="https://anbertech.github.io/TurnuVolt/hi/points-table-kaise-banaye/" hreflang="hi" lang="hi">हिन्दी</a><a href="https://anbertech.github.io/TurnuVolt/hu/tabella-keszitese/" hreflang="hu" lang="hu">Magyar</a><a href="https://anbertech.github.io/TurnuVolt/id/cara-membuat-klasemen-liga/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="https://anbertech.github.io/TurnuVolt/it/come-fare-una-classifica/" hreflang="it" lang="it">Italiano</a><a href="https://anbertech.github.io/TurnuVolt/ja/league-junihyo-tsukurikata/" hreflang="ja" lang="ja">日本語</a><a href="https://anbertech.github.io/TurnuVolt/ko/league-sunwipyo-mandeulgi/" hreflang="ko" lang="ko">한국어</a><a href="https://anbertech.github.io/TurnuVolt/ms/cara-membuat-jadual-kedudukan-liga/" hreflang="ms" lang="ms">Bahasa Melayu</a><a href="https://anbertech.github.io/TurnuVolt/nb/lage-serietabell/" hreflang="nb" lang="nb">Norsk bokmål</a><a href="https://anbertech.github.io/TurnuVolt/nl/competitiestand-maken/" hreflang="nl" lang="nl">Nederlands</a><a href="https://anbertech.github.io/TurnuVolt/pl/jak-zrobic-tabele-ligowa/" hreflang="pl" lang="pl">Polski</a><a href="https://anbertech.github.io/TurnuVolt/pt-br/como-fazer-tabela-de-classificacao/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="https://anbertech.github.io/TurnuVolt/pt-pt/como-fazer-tabela-classificativa/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a><a href="https://anbertech.github.io/TurnuVolt/ro/cum-faci-un-clasament/" hreflang="ro" lang="ro">Română</a><a href="https://anbertech.github.io/TurnuVolt/ru/turnirnaya-tablitsa/" hreflang="ru" lang="ru">Русский</a><a href="https://anbertech.github.io/TurnuVolt/sv/gora-en-serietabell/" hreflang="sv" lang="sv">Svenska</a><a href="https://anbertech.github.io/TurnuVolt/th/tarang-khanaen-league/" hreflang="th" lang="th">ไทย</a><a href="https://anbertech.github.io/TurnuVolt/uk/turnirna-tablytsia/" hreflang="uk" lang="uk">Українська</a><a href="https://anbertech.github.io/TurnuVolt/vi/cach-lap-bang-xep-hang/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="https://anbertech.github.io/TurnuVolt/zh-hans/jifenbang-zhizuo/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="https://anbertech.github.io/TurnuVolt/zh-hant/jifenbang-zuofa/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></nav></details></header>
+<main>
+<p class="crumbs"><a href="https://anbertech.github.io/TurnuVolt/zh-hant/">首頁</a> <span aria-hidden="true">›</span> 聯賽積分榜怎麼做</p>
+<h1>聯賽積分榜怎麼做？</h1>
+<p class="lead">積分榜能讓你一眼看出每支隊伍在聯賽中的位置。本文說明需要哪些欄位、積分怎麼算，以及積分相同時誰排在前面。</p>
+<article class="content"><h2>積分榜有哪些欄位？</h2><p>常見的聯賽積分榜中，每支隊伍占一列。欄位通常是：<b>場</b>（已賽場數）、勝、平、負、進（進球）、失（失球）、淨（淨勝球）和<b>分</b>（積分）。如果你的項目以得分或局數計算，而不是進球，可以在這些欄位填入對應的單位。兩個簡單的檢查能幫你找出部分錯誤：每一列的勝 + 平 + 負應等於場數；所有隊伍的進球總數應等於失球總數。如果對不上，請重新核對比賽紀錄和表格計算。不過，兩項都對得上，也不能保證每個比分都正確。</p><h2>積分規則：勝、平、負</h2><p>積分怎麼給由聯賽自己的規則決定。在足球這類有和局的項目中，常見規則是勝一場得 <b>3 分</b>、平手 1 分、敗 0 分。籃球這類沒有和局的項目，勝一場通常得 2 分。排球的比分本身也有影響：常見做法是 3-0 或 3-1 獲勝得 3 分，3-2 獲勝得 2 分，2-3 落敗得 1 分。如果你自己辦比賽，請在<b>第一場比賽前</b>向所有人公布規則；賽季中途更改積分規則很容易引起爭議。</p><h2>積分相同時怎麼排名？</h2><p>積分相同時的排名依據因聯賽而異，所以請先查看你所屬賽事的規程。比較常用的有<b>淨勝球</b>（進球減失球）、進球數、對戰成績（同分隊伍之間的比賽結果），如果仍分不出高下，最後才是抽籤。有些聯賽先看對戰成績再看總淨勝球，也有些聯賽則相反。三支以上隊伍同分時，許多規程會只用這些隊伍之間的比賽另外列出一張小積分表。<b>事先寫明</b>各項依據的先後順序，可以降低到了賽季末才發生爭議的風險。</p><h2>手動記錄積分榜的難處</h2><p>用紙筆或試算表記錄積分榜，即使是只有幾支隊伍的小型聯賽也容易出錯。每出一個結果，都要同時重算兩支隊伍的整列：場、勝、平、負、進、失、淨、分每一欄都要檢查。漏記一個數字就可能打亂排名，而且可能過一段時間才被發現。延期的比賽、隊伍數為奇數時<b>輪空</b>的隊伍，以及讓場數加倍的主客場雙循環，都會增加工作量。可靠的做法是不時根據全部比賽結果從頭重算一次，再與手上的表對照，但手動來做同樣費時。</p><h2>用 TurnuVolt 記錄積分榜</h2><p>在 TurnuVolt App（iPhone、iPad 和 Android）中建立聯賽時，賽程和積分榜會一起產生。每輸入一個比分，場、勝、平、負、進、失、淨、分各欄和排名都會<b>自動</b>更新。比分輸入方式會配合項目：進球、得分、局數，或只記勝方。積分規則也依所選項目執行：足球勝一場 3 分，籃球沒有和局，排球還會計算局數差。如果只需要對戰組合，瀏覽器裡的<b>免費賽程表產生器</b>就夠用；但這個工具不記錄比分，也不產生積分榜。</p></article>
+<section class="box"><h2>操作步驟</h2><div class="steps"><div class="step"><b>建立新賽事</b><span>在 TurnuVolt App 中點一下「新賽事」，為賽事命名，並輸入隊伍或選手數量。</span></div><div class="step"><b>選擇項目和「聯賽」賽制</b><span>從 60 多個項目中選擇，或使用「自訂 / 其他」；計分依該項目的規則進行。賽制選擇「聯賽」，可選主客場雙循環。</span></div><div class="step"><b>輸入隊伍名稱</b><span>輸入隊伍或選手名稱。賽程和積分榜會自動產生。</span></div><div class="step"><b>輸入比分</b><span>輸入每場比賽的比分；場、勝、平、負、進、失、淨、分各欄和排名會自動更新。</span></div></div></section>
+<section class="faq"><h2>常見問題</h2><details><summary>積分榜裡的「淨」是什麼意思？</summary><p>「淨」指淨勝球，也就是進球數減去失球數。一支隊伍進 20 球、失 12 球，淨勝球就是 +8。積分相同時，淨勝球是最常用的依據之一；但哪項依據優先因聯賽而異，請查看賽事規程。</p></details><details><summary>對戰成績是什麼？怎麼算？</summary><p>對戰成績是只看同分隊伍之間的比賽來比較。這些比賽中的積分和淨勝球是常用依據。具體採用哪些依據、依什麼順序、排在總淨勝球之前或之後，請查看聯賽規程。</p></details><details><summary>勝一場幾分，平手幾分？</summary><p>由聯賽規則決定。足球等項目常見的是勝 3 分、平 1 分、敗 0 分。沒有和局的項目，勝一場通常得 2 分。不論你的比賽採用哪種規則，都請在開賽前告知所有人。</p></details><details><summary>隊伍數為奇數時積分榜怎麼記？</summary><p>隊伍數為奇數時，每輪會有一支隊伍輪空，不參加比賽。所以賽季中途各隊的場數可能不同；聯賽結束時，所有隊伍的比賽場數都會相同。看中途排名時，也要留意已賽場數。</p></details><details><summary>免費賽程表產生器能記錄積分榜嗎？</summary><p>不能。瀏覽器中的免費賽程表產生器只排出對戰組合；你可以列印、複製或透過連結分享賽程。想輸入比分並自動產生積分榜，請在 TurnuVolt App 中建立同一項賽事；App 為一次性買斷，沒有訂閱也沒有廣告。</p></details></section>
+<section class="box cta"><h2>現在就來製作賽程表</h2><p>在免費賽程表產生器輸入隊伍名稱，幾秒內就能產生循環賽或淘汰賽賽程。若也想記錄比分和積分榜，請在 iPhone、iPad 或 Android 上使用 TurnuVolt App。</p><a class="btn" href="https://anbertech.github.io/TurnuVolt/zh-hant/fixture-generator/">免費產生賽程表</a>
+<p class="contact">問題與建議： <a href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a></p></section>
+<section><h2>其他指南</h2><div class="topics"><a class="tcard" href="https://anbertech.github.io/TurnuVolt/zh-hant/taotaisai-duizhanbiao/"><b>淘汰賽對戰表怎麼排</b><span>單淘汰賽：輪空計算、種子排位、抽籤與各輪名稱。</span></a></div></section>
+</main>
+<footer>© 2026 TurnuVolt · <a href="https://anbertech.github.io/">AnberTech</a></footer>
+</body>
+</html>

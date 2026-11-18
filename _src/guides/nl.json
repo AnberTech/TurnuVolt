@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Stap voor stap",
+ "g_faq_h2": "Veelgestelde vragen",
+ "g_cta_h2": "Maak nu je speelschema",
+ "g_cta_p": "Voer je teams in de gratis speelschemagenerator in en je competitieschema of knock-outschema staat binnen enkele seconden klaar. Wil je ook uitslagen en de stand bijhouden, gebruik dan de TurnuVolt-app op iPhone, iPad of Android.",
+ "g_cta_btn": "Gratis speelschema maken",
+ "g_contact": "Vragen en suggesties:",
+ "g_other_h2": "Meer handleidingen",
+ "g_lang": "Taal",
+ "g_home": "Home",
+ "table_slug": "competitiestand-maken",
+ "table_name": "Competitiestand maken",
+ "table_title": "Competitiestand maken: kolommen en punten | TurnuVolt",
+ "table_desc": "Zo maak je een competitiestand: de kolommen G, W, GL, V, DV, DT en Sal, puntentelling, gelijke punten en tips om de stand met de hand bij te houden.",
+ "table_h1": "Een competitiestand maken en bijhouden",
+ "table_lead": "Een competitiestand laat in één oogopslag zien waar elk team staat. We leggen uit welke kolommen je nodig hebt, hoe punten worden verdeeld en wie voorgaat bij een gelijk aantal punten.",
+ "table_card": "Kolommen, puntentelling, gelijke punten en tips om de stand met de hand bij te houden.",
+ "table_body": [
+  [
+   "Welke kolommen heeft een competitiestand?",
+   "In een klassieke competitiestand staat elk team op een eigen rij. De kolommen zijn meestal: <b>G</b> gespeeld, W gewonnen, GL gelijk, V verloren, DV doelpunten voor, DT doelpunten tegen, Sal doelsaldo en <b>Pnt</b> punten. Wordt er in jouw spel met punten of sets geteld in plaats van doelpunten, dan zet je die eenheid in deze kolommen. Twee snelle controles helpen je sommige fouten te vinden: in elke rij moet W + GL + V gelijk zijn aan G, en over de hele stand is het totaal van DV gelijk aan het totaal van DT. Klopt dat niet, controleer dan de wedstrijdformulieren en je berekeningen. Klopt het wel, dan is dat nog geen garantie dat elke uitslag juist is."
+  ],
+  [
+   "Puntentelling: winst, gelijkspel, verlies",
+   "Hoe punten worden verdeeld, bepaalt het reglement van de competitie zelf. Bij sporten met een gelijkspel, zoals voetbal, is de gangbare regel <b>3 punten</b> voor winst, 1 voor gelijkspel en 0 voor verlies. Bij sporten zonder gelijkspel, zoals basketbal, levert winst vaak 2 punten op. Bij volleybal telt ook de uitslag zelf: gebruikelijk is 3 punten voor een overwinning met 3-0 of 3-1, 2 punten voor 3-2 en 1 punt voor een nederlaag met 2-3. Organiseer je zelf een toernooi, maak de regel dan <b>vóór de eerste wedstrijd</b> aan iedereen bekend; de puntentelling halverwege het seizoen veranderen leidt al snel tot discussie."
+  ],
+  [
+   "Gelijke punten: wie staat hoger?",
+   "De criteria bij gelijke punten verschillen per competitie, dus kijk in het reglement van jouw competitie. Veelgebruikt zijn het <b>doelsaldo</b> (doelpunten voor min doelpunten tegen), het aantal gescoorde doelpunten, het onderling resultaat, dus de uitslagen tussen de teams met gelijke punten, en als laatste redmiddel loting. Sommige competities kijken eerst naar het onderling resultaat en pas daarna naar het totale doelsaldo, andere andersom. Staan drie of meer teams gelijk, dan maken veel reglementen een kleine stand met alleen de wedstrijden die deze teams tegen elkaar speelden. Als je de volgorde van de criteria <b>vooraf op papier zet</b>, is er aan het eind van het seizoen minder kans op discussie."
+  ],
+  [
+   "Waarom de stand met de hand bijhouden lastig is",
+   "Een stand bijhouden op papier of in een spreadsheet is foutgevoelig, zelfs in een kleine competitie. Na elke uitslag moeten twee rijen tegelijk opnieuw worden berekend: G, W, GL, V, DV, DT, Sal en Pnt van beide teams. Eén gemist getal kan de rangschikking verstoren, en het kan even duren voordat iemand het merkt. Uitgestelde wedstrijden, teams met een <b>vrije ronde</b> bij een oneven aantal teams en competities met uit- en thuiswedstrijden, waarin het aantal wedstrijden verdubbelt, maken het nog meer werk. Een betrouwbare gewoonte is om de stand af en toe opnieuw uit alle uitslagen te berekenen en te vergelijken, maar met de hand kost ook dat tijd."
+  ],
+  [
+   "De stand bijhouden met TurnuVolt",
+   "Als je in de TurnuVolt-app (iPhone, iPad en Android) een competitie aanmaakt, worden het speelschema en de stand samen aangemaakt. Zodra je uitslagen invult, worden de kolommen G, W, GL, V, DV, DT, Sal en Pnt en de rangschikking <b>automatisch</b> bijgewerkt. Het invoeren van de uitslag past bij het spel: doelpunten, punten, sets of alleen de winnaar. Ook de puntenregel volgt het gekozen spel: bij voetbal is winst 3 punten, bij basketbal bestaat geen gelijkspel en bij volleybal telt ook het setsaldo mee. Heb je alleen de wedstrijden nodig, dan volstaat de <b>gratis speelschemagenerator</b> in je browser, maar die houdt geen uitslagen of stand bij."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Maak een nieuw toernooi",
+   "Tik in de TurnuVolt-app op Nieuw toernooi, geef het toernooi een naam en vul het aantal teams of spelers in."
+  ],
+  [
+   "Kies het spel en Competitie",
+   "Kies uit meer dan 60 spellen of gebruik Anders / eigen; de puntentelling volgt de regels van het spel. Kies Competitie als toernooivorm, als je wilt met uit- en thuiswedstrijden."
+  ],
+  [
+   "Vul de teamnamen in",
+   "Vul de namen van de teams of spelers in. Het speelschema en de stand worden automatisch aangemaakt."
+  ],
+  [
+   "Vul de uitslagen in",
+   "Vul de uitslag van elke wedstrijd in; de kolommen G, W, GL, V, DV, DT, Sal en Pnt en de rangschikking worden vanzelf bijgewerkt."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Wat betekent Sal in de stand?",
+   "Sal staat voor doelsaldo: het aantal gescoorde doelpunten min het aantal tegendoelpunten. Een team dat 20 keer scoorde en 12 tegendoelpunten kreeg, heeft een doelsaldo van +8. Bij gelijke punten is het een van de meest gebruikte criteria, maar welk criterium eerst telt verschilt per competitie. Kijk dus in het reglement."
+  ],
+  [
+   "Wat is het onderling resultaat?",
+   "Bij het onderling resultaat worden teams met gelijke punten vergeleken op basis van alleen de wedstrijden die ze tegen elkaar speelden. De punten en het doelsaldo uit die wedstrijden zijn gangbare criteria. Kijk in het reglement van je competitie welke criteria gelden, in welke volgorde, en of het onderling resultaat vóór of na het totale doelsaldo komt."
+  ],
+  [
+   "Hoeveel punten krijg je voor winst of gelijkspel?",
+   "Dat bepaalt het reglement van de competitie. Bij sporten als voetbal is het gebruikelijk 3 punten voor winst, 1 voor gelijkspel en 0 voor verlies. Bij sporten zonder gelijkspel levert winst vaak 2 punten op. Welk systeem je voor je eigen toernooi ook kiest, laat het iedereen weten voordat je begint."
+  ],
+  [
+   "Hoe werkt de stand met een oneven aantal teams?",
+   "Bij een oneven aantal teams heeft elke speelronde één team een vrije ronde en speelt dat team niet. Halverwege het seizoen kunnen teams daardoor een ander getal in de kolom G hebben; aan het eind van de competitie heeft iedereen even veel wedstrijden gespeeld. Let bij het lezen van de tussenstand dus op het aantal gespeelde wedstrijden."
+  ],
+  [
+   "Houdt de gratis speelschemagenerator de stand bij?",
+   "Nee. De gratis speelschemagenerator in je browser maakt alleen de wedstrijden aan; je kunt het speelschema printen, kopiëren of via een link delen. Wil je uitslagen invullen en de stand automatisch bijhouden, maak dan hetzelfde toernooi aan in de TurnuVolt-app. De app koop je eenmalig, zonder abonnement en zonder advertenties."
+  ]
+ ],
+ "bracket_slug": "knock-outschema-maken",
+ "bracket_name": "Knock-outschema maken",
+ "bracket_title": "Knock-outschema maken: byes en plaatsing | TurnuVolt",
+ "bracket_desc": "Zo maak je een knock-outschema voor een toernooi: hoeveel byes je nodig hebt, geplaatste teams, loting en rondenamen. Maak gratis een knock-outschema.",
+ "bracket_h1": "Een knock-outschema voor je toernooi maken",
+ "bracket_lead": "Een knock-outschema laat zien wie tegen wie speelt en waar elke winnaar naartoe gaat. We leggen uit hoe je byes berekent, geplaatste teams verdeelt en eerlijk loot.",
+ "bracket_card": "Byes, geplaatste teams, loting en rondenamen voor een knock-outschema.",
+ "bracket_body": [
+  [
+   "Hoe werkt een knock-outtoernooi?",
+   "In een knock-outtoernooi ligt de verliezer eruit en gaat de winnaar door naar de volgende ronde. Na een eerste ronde met eventuele byes halveert het aantal teams elke ronde, en wie de finale wint, is kampioen. Omdat er in elke wedstrijd precies één team afvalt, telt een toernooi met <b>n teams</b> altijd <b>n − 1 wedstrijden</b>: 16 teams hebben 4 rondes en 15 wedstrijden nodig voor een kampioen. Het systeem levert snel een uitslag op, maar één slechte dag kan zelfs een sterk team uitschakelen. Wil je dat iedereen meer wedstrijden speelt, denk dan aan een competitie waarin iedereen tegen iedereen speelt, of aan een groepsfase met daarna een knock-outfase."
+  ],
+  [
+   "Als het aantal teams geen macht van 2 is: byes",
+   "Om het schema te laten kloppen, moet het aantal teams na de eerste ronde een macht van 2 zijn (2, 4, 8, 16, 32…). Past je aantal teams daar niet in, dan krijgen sommige teams een <b>bye</b>: ze slaan de eerste ronde over en gaan direct door naar de tweede. Het aantal byes is de eerstvolgende macht van 2 die groter is dan of gelijk is aan het aantal teams, min het aantal teams. Bij 6 teams krijgen 8 − 6 = 2 teams een bye, bij 10 teams 16 − 10 = 6 en bij 12 teams 16 − 12 = 4. De overige teams spelen in de eerste ronde, en <b>vanaf de tweede ronde</b> is er precies een macht van 2 aan teams over."
+  ],
+  [
+   "Geplaatste teams en loting",
+   "Plaatsen betekent dat je de sterkste teams ver uit elkaar in het schema zet, zodat ze elkaar niet al in de eerste rondes treffen. In een klassiek schema met 8 teams speelt het als eerste geplaatste team tegen nummer 8, nummer 2 tegen nummer 7, en 1 en 2 kunnen elkaar pas in de finale tegenkomen. Zijn er byes, dan gaan die vaak naar de geplaatste teams. Plaats je geen teams, bepaal de wedstrijden dan door <b>loting</b>: loten waar iedereen bij is of een tool gebruiken die de volgorde willekeurig husselt, kan het gevoel van eerlijkheid versterken. Welke methode je ook kiest, maak die <b>vóór het toernooi</b> bekend."
+  ],
+  [
+   "Rondenamen en planning",
+   "In een volledig schema worden de rondes genoemd naar het aantal teams dat over is: bij 16 teams is het de <b>achtste finale</b>, bij 8 de kwartfinale, bij 4 de halve finale en bij de laatste twee de finale. In een schema met byes kan de eerste ronde worden genoemd naar de grootte van het schema; bij 6 teams geldt de eerste ronde als kwartfinale. Tel ook de rondes: 8 teams hebben er 3 nodig, 16 teams 4 en 32 teams 5. Geef elke wedstrijd een <b>nummer</b> en schrijf in de volgende ronde bijvoorbeeld „Winnaar van wedstrijd 3”; zo is het schema al leesbaar voordat de uitslagen binnen zijn. Sommige toernooien spelen ook nog een wedstrijd om de derde plaats."
+  ],
+  [
+   "Een knock-outschema maken met TurnuVolt",
+   "De <b>gratis speelschemagenerator</b> van TurnuVolt maakt in je browser een knock-outschema voor 2 tot 64 teams. Is het aantal teams geen macht van 2, dan krijgen zoveel teams als er ontbreken een bye in de eerste ronde. De byes gaan naar de teams bovenaan je lijst; staat „Loting husselen” aan, dan wordt de lijst gehusseld en veranderen ook de teams met een bye. De tool maakt zelf geen klassiek schema met geplaatste teams, maar koppelt de overige teams in de volgorde van de lijst. Latere rondes tonen plaatshouders als „Winnaar van #1”, en je kunt het schema printen, kopiëren of via een link delen. Om winnaars vast te leggen, tik je in de <b>TurnuVolt-app</b> op het winnende team."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Vul de teams in",
+   "Typ in de gratis speelschemagenerator één team per regel, of vul een aantal teams in en tik op Invullen. Zet de teams die een bye moeten krijgen bovenaan."
+  ],
+  [
+   "Kies Knock-outsysteem",
+   "Kies Knock-outsysteem als toernooivorm. Wil je loten, vink dan „Loting husselen” aan; daarmee verandert ook welke teams een bye krijgen."
+  ],
+  [
+   "Maak het schema",
+   "Tik op Speelschema maken. De wedstrijden van de eerste ronde, de teams met een bye en alle rondes tot en met de finale verschijnen als genummerde wedstrijden."
+  ],
+  [
+   "Deel het en leg uitslagen vast",
+   "Print het schema, kopieer het of deel de link (gebruik bij delen via een link geen | in teamnamen). Om winnaars vast te leggen, maak je het toernooi aan in de TurnuVolt-app."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Wat is een bye in een knock-outschema?",
+   "Een bye betekent dat een team zonder te spelen doorgaat naar de volgende ronde. Byes brengen het schema in balans als het aantal teams geen macht van 2 is. Ze gaan vaak naar de geplaatste teams of naar teams die via loting zijn gekozen; de details hangen af van het reglement van je toernooi."
+  ],
+  [
+   "Hoeveel byes heb ik nodig?",
+   "Zoek de eerstvolgende macht van 2 die groter is dan of gelijk is aan je aantal teams en trek daar het aantal teams van af. Bij 5 teams heb je 3 byes nodig, bij 6 teams 2, bij 7 teams 1 en bij 9 teams 7. Zo blijven er in de tweede ronde precies 4, 8 of 16 teams over."
+  ],
+  [
+   "Hoeveel wedstrijden heeft een knock-outtoernooi?",
+   "Een knock-outtoernooi met n teams heeft altijd n − 1 wedstrijden, omdat er in elke wedstrijd één team afvalt en iedereen behalve de kampioen precies één keer verliest. Bij 8 teams zijn er 7 wedstrijden, bij 12 teams 11 en bij 32 teams 31. Een wedstrijd om de derde plaats komt daar nog bij."
+  ],
+  [
+   "Hoe bepaal je welke teams geplaatst worden?",
+   "De plaatsing is meestal gebaseerd op eerdere resultaten, op de stand van een voorronde of groepsfase, of op het oordeel van de organisator. Welke methode geldt, hangt af van het reglement van je toernooi. Als je de criteria vooraf uitlegt, is er later minder discussie over de plaatsing."
+  ],
+  [
+   "Voor hoeveel teams werkt de gratis generator?",
+   "De gratis speelschemagenerator van TurnuVolt maakt knock-outschema's voor 2 tot 64 teams. Je hoeft je niet te registreren en het schema wordt in je browser berekend. De deellink bevat de teamnamen in het adres; wie de link krijgt, ziet de namen dus ook. Met dezelfde tool maak je ook een speelschema voor een competitie."
+  ]
+ ]
+}

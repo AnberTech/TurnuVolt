@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Langkah demi langkah",
+ "g_faq_h2": "Soalan lazim",
+ "g_cta_h2": "Sediakan jadual perlawanan anda sekarang",
+ "g_cta_p": "Taip nama pasukan dalam Penjana Jadual Perlawanan percuma, dan jadual liga atau kalah mati siap dalam beberapa saat. Untuk merekod skor dan kedudukan liga juga, gunakan aplikasi TurnuVolt pada iPhone, iPad atau Android.",
+ "g_cta_btn": "Jana jadual perlawanan percuma",
+ "g_contact": "Soalan dan cadangan:",
+ "g_other_h2": "Panduan lain",
+ "g_lang": "Bahasa",
+ "g_home": "Laman utama",
+ "table_slug": "cara-membuat-jadual-kedudukan-liga",
+ "table_name": "Cara buat jadual kedudukan liga",
+ "table_title": "Cara Membuat Jadual Kedudukan Liga | TurnuVolt",
+ "table_desc": "Cara membuat jadual kedudukan liga: lajur P, M, S, K, JG, GB, BG dan Mata, sistem mata, kriteria apabila mata sama serta tip merekod secara manual.",
+ "table_h1": "Cara membuat jadual kedudukan liga",
+ "table_lead": "Jadual kedudukan liga menunjukkan kedudukan setiap pasukan dengan sekali pandang. Kami terangkan lajur yang diperlukan, cara mata diberikan dan siapa yang mendahului apabila mata sama.",
+ "table_card": "Lajur, sistem mata, kriteria mata sama dan tip merekod kedudukan secara manual.",
+ "table_body": [
+  [
+   "Apakah lajur dalam jadual kedudukan liga?",
+   "Dalam jadual kedudukan liga yang biasa, setiap pasukan menduduki satu baris. Lajurnya lazimnya begini: <b>P</b> (perlawanan dimainkan), M (menang), S (seri), K (kalah), JG (gol dijaringkan), GB (gol dibolosi), BG (beza gol) dan <b>Mata</b>. Jika permainan anda menggunakan mata atau set dan bukan gol, anda boleh menulis unit permainan itu dalam lajur tersebut. Dua semakan mudah membantu anda mengesan sebahagian ketidakselarasan: dalam setiap baris, M + S + K mesti sama dengan P, dan jumlah JG semua pasukan sama dengan jumlah GB. Jika semakan ini tidak sepadan, semak semula rekod perlawanan dan kiraan jadual. Namun, jika kedua-duanya sepadan, itu tidak menjamin setiap skor betul."
+  ],
+  [
+   "Sistem mata: menang, seri, kalah",
+   "Cara mata diberikan ditentukan oleh peraturan liga itu sendiri. Dalam sukan yang ada keputusan seri, seperti bola sepak, sistem yang lazim ialah <b>3 mata</b> untuk menang, 1 untuk seri dan 0 untuk kalah. Dalam sukan tanpa keputusan seri, seperti bola keranjang, kemenangan selalunya bernilai 2 mata. Dalam bola tampar, skor itu sendiri juga penting: amalan yang lazim memberi 3 mata kepada pemenang 3-0 atau 3-1, 2 mata kepada pemenang 3-2 dan 1 mata kepada pasukan yang tewas 2-3. Jika anda menganjurkan kejohanan sendiri, umumkan peraturannya kepada semua <b>sebelum perlawanan pertama</b>; menukar sistem mata di pertengahan musim mudah mencetuskan pertikaian."
+  ],
+  [
+   "Jika mata sama, bagaimana kedudukan ditentukan?",
+   "Kriteria pemecah seri berbeza antara liga, jadi rujuk peraturan kejohanan anda. Yang sering digunakan ialah <b>beza gol</b> (gol dijaringkan tolak gol dibolosi), jumlah gol dijaringkan, rekod pertemuan (head-to-head), iaitu keputusan perlawanan sesama pasukan yang sama mata, dan sebagai pilihan terakhir, cabutan undi. Sesetengah liga menggunakan rekod pertemuan sebelum beza gol keseluruhan, sesetengahnya selepas itu. Apabila tiga pasukan atau lebih sama mata, banyak peraturan membina jadual kecil hanya daripada perlawanan sesama pasukan tersebut. <b>Menulis susunan kriteria lebih awal</b> mengurangkan risiko pertikaian pada akhir musim."
+  ],
+  [
+   "Cabaran merekod kedudukan liga secara manual",
+   "Merekod kedudukan liga di atas kertas atau dalam hamparan mudah tersilap, walaupun dalam liga kecil. Selepas setiap keputusan, baris kedua-dua pasukan perlu dikira semula serentak: semua lajur P, M, S, K, JG, GB, BG dan Mata perlu disemak. Satu angka yang tertinggal boleh merosakkan susunan, dan mungkin lambat disedari. Perlawanan yang ditangguhkan, pasukan yang <b>mendapat bye</b> apabila bilangan pasukan ganjil, dan liga tuan rumah-tempat lawan yang menggandakan bilangan perlawanan menambah kerja. Cara yang boleh dipercayai ialah sesekali mengira semula jadual daripada semua keputusan perlawanan dan membandingkannya dengan rekod anda; tetapi jika dibuat secara manual, ini juga mengambil masa."
+  ],
+  [
+   "Merekod kedudukan liga dengan TurnuVolt",
+   "Apabila anda membuat liga dalam aplikasi TurnuVolt (iPhone, iPad dan Android), jadual perlawanan dan jadual kedudukan dicipta serentak. Setiap kali skor dimasukkan, lajur P, M, S, K, JG, GB, BG dan Mata serta susunan kedudukan dikemas kini <b>secara automatik</b>. Kemasukan skor mengikut permainan: gol, mata, set atau hanya pemenang. Peraturan mata juga mengikut permainan yang anda pilih; dalam bola sepak kemenangan bernilai 3 mata, bola keranjang tiada keputusan seri, dan dalam bola tampar beza set turut dikira. Jika anda hanya perlukan pasangan perlawanan, <b>Penjana Jadual Perlawanan percuma</b> dalam pelayar sudah memadai; tetapi alat ini tidak merekod skor atau kedudukan liga."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Cipta kejohanan baharu",
+   "Dalam aplikasi TurnuVolt, ketik Kejohanan Baharu, beri nama kejohanan dan masukkan bilangan pasukan atau pemain."
+  ],
+  [
+   "Pilih permainan dan format Liga",
+   "Pilih daripada lebih 60 permainan atau gunakan Tersuai / Lain-lain; pemarkahan mengikut peraturan permainan itu. Pilih Liga sebagai format, dengan pilihan tuan rumah dan tempat lawan."
+  ],
+  [
+   "Masukkan nama pasukan",
+   "Masukkan nama pasukan atau pemain. Jadual perlawanan dan jadual kedudukan dicipta secara automatik."
+  ],
+  [
+   "Masukkan skor",
+   "Masukkan skor setiap perlawanan; lajur P, M, S, K, JG, GB, BG dan Mata serta susunan kedudukan dikemas kini dengan sendirinya."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Apakah maksud BG dalam jadual kedudukan liga?",
+   "BG ialah beza gol: gol yang dijaringkan ditolak gol yang dibolosi. Pasukan yang menjaringkan 20 gol dan dibolosi 12 gol mempunyai BG +8. Apabila mata sama, beza gol ialah salah satu kriteria yang paling kerap digunakan; tetapi kriteria mana yang didahulukan berbeza antara liga, jadi semak peraturan kejohanan anda."
+  ],
+  [
+   "Apakah rekod pertemuan (head-to-head) dan bagaimana dikira?",
+   "Rekod pertemuan ialah perbandingan antara pasukan yang sama mata berdasarkan perlawanan sesama mereka sahaja. Mata dan beza gol daripada perlawanan itu ialah kriteria yang sering digunakan. Semak peraturan liga untuk mengetahui kriteria yang digunakan, dalam susunan apa, dan sama ada ia digunakan sebelum atau selepas beza gol keseluruhan."
+  ],
+  [
+   "Menang berapa mata, seri berapa mata?",
+   "Peraturan liga yang menentukannya. Dalam permainan seperti bola sepak, sistem yang lazim ialah menang 3 mata, seri 1 dan kalah 0. Dalam permainan tanpa keputusan seri, kemenangan selalunya bernilai 2 mata. Apa pun sistem yang anda pilih untuk kejohanan sendiri, umumkan kepada semua sebelum bermula."
+  ],
+  [
+   "Bagaimana merekod kedudukan dengan bilangan pasukan ganjil?",
+   "Dengan bilangan pasukan ganjil, setiap pusingan satu pasukan mendapat bye dan tidak bermain. Oleh itu, di pertengahan musim lajur P setiap pasukan mungkin berbeza; apabila liga tamat, semua pasukan telah bermain jumlah perlawanan yang sama. Apabila membaca kedudukan semasa, ambil kira juga bilangan perlawanan yang telah dimainkan."
+  ],
+  [
+   "Adakah penjana jadual percuma merekod kedudukan liga?",
+   "Tidak. Penjana Jadual Perlawanan percuma dalam pelayar hanya menyediakan pasangan perlawanan; anda boleh mencetak, menyalin atau berkongsi jadual melalui pautan. Untuk memasukkan skor dan merekod kedudukan liga secara automatik, cipta kejohanan yang sama dalam aplikasi TurnuVolt; aplikasi ini dibeli sekali sahaja, tanpa langganan dan tanpa iklan."
+  ]
+ ],
+ "bracket_slug": "cara-membuat-carta-kalah-mati",
+ "bracket_name": "Cara buat carta kalah mati",
+ "bracket_title": "Cara Membuat Carta Kalah Mati: Bye & Undian | TurnuVolt",
+ "bracket_desc": "Cara membuat carta kejohanan kalah mati: kiraan bye jika bilangan pasukan bukan kuasa 2, pasukan pilihan, undian dan nama pusingan. Jana carta percuma.",
+ "bracket_h1": "Cara membuat carta kalah mati kejohanan",
+ "bracket_lead": "Carta kalah mati menunjukkan siapa menentang siapa dan ke mana pemenang mara dengan sekali pandang. Kami terangkan cara mengira bye, menetapkan pasukan pilihan dan menjalankan undian.",
+ "bracket_card": "Carta kalah mati: kiraan bye, pasukan pilihan, undian dan nama pusingan.",
+ "bracket_body": [
+  [
+   "Bagaimanakah kejohanan kalah mati berjalan?",
+   "Dalam kejohanan kalah mati, pasukan yang kalah tersingkir dan pemenang mara ke pusingan seterusnya. Selepas pusingan pertama yang mungkin ada bye, bilangan pasukan berkurang separuh pada setiap pusingan, dan pemenang final menjadi juara. Oleh sebab tepat satu pasukan tersingkir dalam setiap perlawanan, kejohanan dengan <b>n pasukan</b> sentiasa mempunyai <b>n − 1 perlawanan</b>: 16 pasukan menentukan juara dalam 4 pusingan dan 15 perlawanan. Format ini cepat memberi keputusan, tetapi satu hari yang buruk boleh menyingkirkan pasukan yang kuat sekalipun. Jika anda mahu semua pasukan bermain lebih banyak, pertimbangkan format liga (round robin) atau peringkat kumpulan diikuti kalah mati."
+  ],
+  [
+   "Jika bilangan pasukan bukan kuasa 2: bye",
+   "Supaya carta tersusun kemas, bilangan pasukan yang tinggal selepas pusingan pertama mesti kuasa 2 (2, 4, 8, 16, 32…). Jika bilangan pasukan tidak sepadan, sesetengah pasukan <b>mendapat bye</b>, iaitu terus ke pusingan kedua tanpa bermain. Bilangan bye ialah kuasa 2 pertama yang sama dengan atau lebih besar daripada bilangan pasukan, ditolak bilangan pasukan: dengan 6 pasukan, 8 − 6 = 2 pasukan mendapat bye; dengan 10 pasukan, 16 − 10 = 6; dengan 12 pasukan, 16 − 12 = 4. Pasukan selebihnya bertemu dalam pusingan pertama, dan <b>dalam pusingan kedua</b> tinggal pasukan tepat sebanyak kuasa 2."
+  ],
+  [
+   "Pasukan pilihan dan undian",
+   "Penempatan pasukan pilihan (seeding) bermaksud meletakkan pasukan yang dianggap paling kuat berjauhan dalam carta, supaya mereka tidak bertemu pada pusingan awal. Dalam susunan klasik carta 8 pasukan, pilihan pertama menentang pilihan kelapan, pilihan kedua menentang pilihan ketujuh, dan pilihan 1 dan 2 hanya boleh bertemu di final. Jika ada bye, memberikannya kepada pasukan pilihan ialah cara yang lazim. Jika anda tidak menggunakan pasukan pilihan, tentukan pasangan melalui <b>undian</b>; mencabut undi di hadapan semua atau menggunakan alat yang merawakkan susunan boleh menguatkan rasa adil. Umumkan kaedah yang anda pilih <b>sebelum kejohanan</b> bermula."
+  ],
+  [
+   "Nama pusingan dan perancangan",
+   "Dalam carta yang penuh, pusingan dinamakan mengikut bilangan pasukan yang tinggal: 16 pasukan ialah <b>pusingan 16 pasukan</b>, 8 pasukan suku akhir, 4 pasukan separuh akhir, dan dua pasukan terakhir final. Dalam carta yang ada bye, pusingan pertama boleh dinamakan mengikut kuasa 2 yang melengkapkan carta; pusingan pertama carta 6 pasukan dikira sebagai suku akhir. Kira juga bilangan pusingan: 8 pasukan tamat dalam 3 pusingan, 16 pasukan dalam 4 dan 32 pasukan dalam 5. Beri <b>nombor</b> kepada setiap perlawanan dan tulis pusingan seterusnya seperti “Pemenang perlawanan 3”, supaya carta mudah dibaca sebelum keputusan tiba. Sesetengah kejohanan juga mengadakan perlawanan tempat ketiga."
+  ],
+  [
+   "Membuat carta kalah mati dengan TurnuVolt",
+   "<b>Penjana Jadual Perlawanan percuma</b> TurnuVolt berjalan dalam pelayar dan menyediakan jadual kalah mati untuk 2 hingga 64 pasukan. Jika bilangan pasukan bukan kuasa 2, pasukan sebanyak kekurangan itu mendapat bye pusingan pertama. Bye diberikan kepada pasukan di bahagian atas senarai; jika “Rawakkan undian” ditanda, senarai dirawakkan dan pasukan yang mendapat bye juga berubah. Alat ini tidak menyusun pasukan pilihan secara klasik; baki pasukan dipasangkan mengikut susunan senarai. Pusingan seterusnya dipaparkan dengan penanda seperti “Pemenang #1”; jadual boleh dicetak, disalin atau dikongsi melalui pautan. Untuk merekod pemenang, ketik pasukan yang menang dalam <b>aplikasi TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Masukkan pasukan",
+   "Dalam Penjana Jadual Perlawanan percuma, taip satu pasukan setiap baris, atau masukkan bilangan pasukan dan tekan Isikan. Tulis pasukan yang patut mendapat bye di bahagian atas."
+  ],
+  [
+   "Pilih format Kalah mati",
+   "Pilih Kalah mati sebagai format. Jika mahu undian, tandakan kotak “Rawakkan undian”; dalam keadaan ini pasukan yang mendapat bye juga berubah mengikut undian."
+  ],
+  [
+   "Jana jadual",
+   "Tekan Jana jadual perlawanan. Pasangan pusingan pertama, pasukan yang mendapat bye dan semua pusingan hingga final dipaparkan sebagai perlawanan bernombor."
+  ],
+  [
+   "Kongsi dan rekod keputusan",
+   "Cetak, salin atau kongsi pautan (jangan gunakan aksara | dalam nama pasukan jika berkongsi melalui pautan). Untuk merekod pemenang, cipta kejohanan itu dalam aplikasi TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Apakah maksud bye dalam kejohanan kalah mati?",
+   "Bye bermaksud sesebuah pasukan mara ke pusingan seterusnya tanpa bermain dalam pusingan itu. Ia digunakan untuk mengimbangkan carta apabila bilangan pasukan bukan kuasa 2. Bye selalunya diberikan kepada pasukan pilihan atau pasukan yang ditentukan melalui undian; butirannya bergantung pada peraturan kejohanan anda."
+  ],
+  [
+   "Berapa pasukan yang mendapat bye?",
+   "Cari kuasa 2 pertama yang sama dengan atau lebih besar daripada bilangan pasukan, kemudian tolak bilangan pasukan. Dengan 5 pasukan, 3 mendapat bye; 6 pasukan, 2; 7 pasukan, 1; dan 9 pasukan, 7. Dengan itu, dalam pusingan kedua tinggal bilangan yang tepat seperti 4, 8 atau 16."
+  ],
+  [
+   "Berapa perlawanan dalam kejohanan kalah mati?",
+   "Kejohanan kalah mati dengan n pasukan sentiasa mempunyai n − 1 perlawanan, kerana setiap perlawanan menyingkirkan satu pasukan dan semua pasukan kecuali juara kalah tepat sekali. 8 pasukan bermain 7 perlawanan, 12 pasukan 11 dan 32 pasukan 31. Jika ada perlawanan tempat ketiga, tambah satu perlawanan."
+  ],
+  [
+   "Bagaimana pasukan pilihan ditentukan?",
+   "Pasukan pilihan biasanya ditentukan berdasarkan keputusan terdahulu, kedudukan dalam liga awal atau peringkat kumpulan, atau penilaian penganjur. Kaedah yang digunakan bergantung pada peraturan kejohanan anda. Menerangkan kriteria lebih awal boleh mengurangkan risiko pertikaian tentang pemilihan itu."
+  ],
+  [
+   "Berapa pasukan yang boleh dimuatkan dalam alat percuma ini?",
+   "Penjana Jadual Perlawanan percuma TurnuVolt menyediakan jadual kalah mati untuk 2 hingga 64 pasukan. Tiada pendaftaran diperlukan, dan jadual dikira dalam pelayar anda. Pautan perkongsian membawa nama pasukan di dalam alamatnya; sesiapa yang anda hantarkan pautan itu juga boleh melihat nama tersebut. Alat yang sama juga menyediakan jadual perlawanan liga."
+  ]
+ ]
+}

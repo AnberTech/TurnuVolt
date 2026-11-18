@@ -1,0 +1,149 @@
+{
+ "g_steps_h2": "Krok po kroku",
+ "g_faq_h2": "Najczęstsze pytania",
+ "g_cta_h2": "Ułóż terminarz już teraz",
+ "g_cta_p": "Wpisz drużyny do darmowego generatora terminarza, a terminarz ligi lub drabinka systemu pucharowego będą gotowe w kilka sekund. Jeśli chcesz prowadzić też wyniki i tabelę, użyj aplikacji TurnuVolt na iPhonie, iPadzie lub Androidzie.",
+ "g_cta_btn": "Ułóż darmowy terminarz",
+ "g_contact": "Pytania i sugestie:",
+ "g_other_h2": "Inne poradniki",
+ "g_lang": "Język",
+ "g_home": "Strona główna",
+ "table_slug": "jak-zrobic-tabele-ligowa",
+ "table_name": "Jak zrobić tabelę ligową",
+ "table_title": "Jak zrobić tabelę ligową? Punkty i kolejność | TurnuVolt",
+ "table_desc": "Jak zrobić tabelę ligową: kolumny M, Z, R, P, BZ, BS, +/- i Pkt, system punktacji, kolejność przy równej liczbie punktów i wskazówki do ręcznej tabeli.",
+ "table_h1": "Jak zrobić tabelę ligową?",
+ "table_lead": "Tabela ligowa pokazuje na pierwszy rzut oka, gdzie jest każda drużyna. Wyjaśniamy, jakich kolumn potrzebujesz, jak przyznaje się punkty i kto jest wyżej przy równej liczbie punktów.",
+ "table_card": "Kolumny, punktacja, równa liczba punktów i wskazówki do ręcznego prowadzenia.",
+ "table_body": [
+  [
+   "Jakie kolumny ma tabela ligowa?",
+   "W klasycznej tabeli ligowej każda drużyna ma swój wiersz. Kolumny to zwykle: <b>M</b> rozegrane mecze, Z zwycięstwa, R remisy, P porażki, BZ bramki zdobyte, BS bramki stracone, +/- bilans bramek i <b>Pkt</b> punkty. Jeśli w twojej grze liczą się punkty lub sety zamiast bramek, możesz wpisywać w te kolumny tę jednostkę. Dwa proste sprawdzenia pomagają wyłapać część niezgodności: w każdym wierszu Z + R + P musi być równe M, a suma BZ wszystkich drużyn jest równa sumie BS. Jeśli coś się nie zgadza, przejrzyj zapisy meczów i obliczenia w tabeli. Jeśli się zgadza, nie gwarantuje to jeszcze, że każdy wynik jest poprawny."
+  ],
+  [
+   "System punktacji: zwycięstwo, remis, porażka",
+   "O tym, jak przyznaje się punkty, decydują zasady danej ligi. W grach z remisami, takich jak piłka nożna, typowy układ to <b>3 punkty</b> za zwycięstwo, 1 za remis i 0 za porażkę. W grach bez remisów, takich jak koszykówka, za zwycięstwo często przyznaje się 2 punkty. W siatkówce liczy się też sam wynik: według popularnej zasady zwycięzca 3:0 lub 3:1 dostaje 3 punkty, zwycięzca 3:2 dostaje 2, a przegrany 2:3 dostaje 1 punkt. Jeśli organizujesz własny turniej, ogłoś zasady wszystkim <b>przed pierwszym meczem</b>. Zmiana punktacji w połowie sezonu łatwo wywołuje spory."
+  ],
+  [
+   "Kto jest wyżej przy równej liczbie punktów?",
+   "Kryteria przy równej liczbie punktów różnią się w zależności od ligi, dlatego sprawdź regulamin swojego turnieju. Często stosuje się <b>bilans bramek</b> (zdobyte minus stracone), większą liczbę zdobytych bramek, mecze bezpośrednie, czyli wyniki spotkań między drużynami z równą liczbą punktów, a w ostateczności losowanie. Niektóre ligi stosują mecze bezpośrednie przed ogólnym bilansem bramek, inne po nim. Gdy równo punktów mają trzy lub więcej drużyn, wiele regulaminów tworzy małą tabelę tylko z meczów tych drużyn między sobą. Jeśli <b>z góry zapiszesz</b> kolejność kryteriów, zmniejszysz ryzyko sporów na koniec sezonu."
+  ],
+  [
+   "Dlaczego ręczne prowadzenie tabeli jest trudne",
+   "Prowadzenie tabeli na papierze albo w arkuszu kalkulacyjnym łatwo prowadzi do błędów, nawet w małej lidze. Po każdym wyniku trzeba przeliczyć jednocześnie dwa wiersze i u obu drużyn sprawdzić kolumny M, Z, R, P, BZ, BS, +/- i Pkt. Jedna pominięta liczba może zepsuć kolejność, a zanim ktoś to zauważy, może minąć trochę czasu. Pracy dokładają przełożone mecze, drużyny, które przy nieparzystej liczbie drużyn <b>pauzują</b> w danej kolejce, oraz ligi z meczem i rewanżem, w których liczba meczów się podwaja. Pewnym nawykiem jest co jakiś czas przeliczyć całą tabelę od nowa ze wszystkich wyników i porównać ją ze swoją, ale ręcznie to również zajmuje czas."
+  ],
+  [
+   "Tabela ligowa w TurnuVolt",
+   "Gdy tworzysz ligę w aplikacji TurnuVolt (iPhone, iPad i Android), terminarz i tabela powstają razem. Gdy wpisujesz wyniki, kolumny M, Z, R, P, BZ, BS, +/- i Pkt oraz kolejność aktualizują się <b>automatycznie</b>. Wpisywanie wyniku pasuje do gry: bramki, punkty, sety albo tylko zwycięzca. Zasada punktacji też zależy od wybranej gry: w piłce nożnej zwycięstwo to 3 punkty, w koszykówce nie ma remisów, a w siatkówce liczy się także bilans setów. Jeśli potrzebujesz tylko par meczowych, wystarczy <b>darmowy generator terminarza</b> w przeglądarce, ale nie prowadzi on wyników ani tabeli."
+  ]
+ ],
+ "table_steps": [
+  [
+   "Utwórz nowy turniej",
+   "W aplikacji TurnuVolt dotknij Nowy turniej, nadaj mu nazwę i wpisz liczbę drużyn lub zawodników."
+  ],
+  [
+   "Wybierz grę i format Liga",
+   "Wybierz jedną z ponad 60 gier albo użyj opcji Inne / własne; punktacja jest zgodna z zasadami gry. Jako format wybierz Liga, jeśli chcesz, z meczem i rewanżem."
+  ],
+  [
+   "Wpisz nazwy drużyn",
+   "Podaj nazwy drużyn lub zawodników. Terminarz i tabela utworzą się automatycznie."
+  ],
+  [
+   "Wpisuj wyniki",
+   "Wpisz wynik każdego meczu; kolumny M, Z, R, P, BZ, BS, +/- i Pkt oraz kolejność aktualizują się same."
+  ]
+ ],
+ "table_faq": [
+  [
+   "Co oznacza +/- w tabeli ligowej?",
+   "+/- to bilans bramek: od bramek zdobytych odejmuje się bramki stracone. Drużyna, która strzeliła 20 goli i straciła 12, ma bilans +8. Przy równej liczbie punktów to jedno z najczęstszych kryteriów, ale kolejność kryteriów różni się w zależności od ligi, więc sprawdź regulamin swojego turnieju."
+  ],
+  [
+   "Czym są mecze bezpośrednie i jak się je liczy?",
+   "Mecze bezpośrednie porównują drużyny z równą liczbą punktów tylko na podstawie spotkań rozegranych między sobą. Częstymi kryteriami są punkty i bilans bramek z tych meczów. Sprawdź w regulaminie ligi, które kryteria obowiązują, w jakiej kolejności i czy mecze bezpośrednie są przed ogólnym bilansem bramek, czy po nim."
+  ],
+  [
+   "Ile punktów za zwycięstwo, a ile za remis?",
+   "Decydują o tym zasady ligi. W grach takich jak piłka nożna typowy układ to 3 punkty za zwycięstwo, 1 za remis i 0 za porażkę. W grach bez remisów zwycięstwo często daje 2 punkty. Bez względu na to, jaki system wybierzesz dla swojego turnieju, ogłoś go wszystkim przed startem."
+  ],
+  [
+   "Jak prowadzić tabelę przy nieparzystej liczbie drużyn?",
+   "Przy nieparzystej liczbie drużyn w każdej kolejce jedna drużyna pauzuje i nie gra. Dlatego w trakcie sezonu drużyny mogą mieć różne liczby w kolumnie M; po zakończeniu ligi wszystkie rozegrają tyle samo meczów. Czytając tabelę w trakcie sezonu, patrz też na liczbę rozegranych meczów."
+  ],
+  [
+   "Czy darmowy generator terminarza prowadzi tabelę?",
+   "Nie. Darmowy generator terminarza w przeglądarce przygotowuje tylko pary meczowe; terminarz możesz wydrukować, skopiować albo udostępnić linkiem. Aby wpisywać wyniki i mieć automatyczną tabelę, utwórz ten sam turniej w aplikacji TurnuVolt. Aplikację kupujesz jednorazowo, bez subskrypcji i bez reklam."
+  ]
+ ],
+ "bracket_slug": "jak-zrobic-drabinke-turniejowa",
+ "bracket_name": "Jak zrobić drabinkę turniejową",
+ "bracket_title": "Jak zrobić drabinkę turniejową? Wolne losy | TurnuVolt",
+ "bracket_desc": "Jak zrobić drabinkę turniejową w systemie pucharowym: ile wolnych losów, gdy liczba drużyn nie jest potęgą dwójki, rozstawienie, losowanie i nazwy rund.",
+ "bracket_h1": "Jak zrobić drabinkę turniejową?",
+ "bracket_lead": "Drabinka turniejowa pokazuje, kto gra z kim i dokąd awansuje zwycięzca. Wyjaśniamy, jak policzyć wolne losy, rozstawić najlepsze drużyny i przeprowadzić uczciwe losowanie.",
+ "bracket_card": "Wolne losy, rozstawienie, losowanie i nazwy rund w systemie pucharowym.",
+ "bracket_body": [
+  [
+   "Jak działa system pucharowy?",
+   "W systemie pucharowym przegrany odpada z turnieju, a zwycięzca awansuje do następnej rundy. Po ewentualnej pierwszej rundzie z wolnymi losami liczba drużyn w każdej rundzie zmniejsza się o połowę, a zwycięzca finału zostaje mistrzem. Ponieważ w każdym meczu odpada dokładnie jedna drużyna, w turnieju z <b>n drużynami</b> rozgrywa się zawsze <b>n − 1 meczów</b>: 16 drużyn wyłania mistrza w 4 rundach i 15 meczach. Ten format szybko daje rozstrzygnięcie, ale jeden słabszy dzień może wyeliminować nawet mocną drużynę. Jeśli chcesz, żeby wszyscy rozegrali więcej meczów, rozważ ligę każdy z każdym albo najpierw fazę grupową, a potem system pucharowy."
+  ],
+  [
+   "Gdy liczba drużyn nie jest potęgą dwójki: wolny los",
+   "Żeby drabinka się zgadzała, liczba drużyn po pierwszej rundzie musi być potęgą dwójki (2, 4, 8, 16, 32…). Jeśli twoja liczba drużyn do tego nie pasuje, część drużyn dostaje w pierwszej rundzie <b>wolny los</b>: nie gra i od razu awansuje do drugiej rundy. Liczbę wolnych losów obliczysz, odejmując liczbę drużyn od najmniejszej potęgi dwójki, która jest większa od niej lub jej równa: przy 6 drużynach 8 − 6 = 2, przy 10 drużynach 16 − 10 = 6, przy 12 drużynach 16 − 12 = 4. Pozostałe drużyny grają w pierwszej rundzie, a <b>od drugiej rundy</b> zostaje dokładnie potęga dwójki."
+  ],
+  [
+   "Rozstawienie i losowanie",
+   "Rozstawienie polega na umieszczeniu najsilniejszych drużyn daleko od siebie w drabince, żeby nie spotkały się we wczesnych rundach. W klasycznej drabince na 8 drużyn rozstawiona z numerem 1 gra z numerem 8, numer 2 z numerem 7, a 1 i 2 mogą się spotkać dopiero w finale. Jeśli są wolne losy, często dostają je drużyny rozstawione. Jeśli nie stosujesz rozstawienia, ustal pary w drodze <b>losowania</b>: losowanie przy wszystkich albo narzędzie, które losowo miesza kolejność, może wzmocnić poczucie sprawiedliwości. Niezależnie od wybranej metody ogłoś ją <b>przed turniejem</b>."
+  ],
+  [
+   "Nazwy rund i planowanie",
+   "W pełnej drabince rundy nazywa się według liczby pozostałych drużyn: 16 drużyn to <b>1/8 finału</b>, 8 drużyn to ćwierćfinał, 4 drużyny to półfinał, a dwie ostatnie drużyny grają w finale. W drabince z wolnymi losami pierwszą rundę można nazwać według potęgi dwójki, do której drabinka jest uzupełniana; przy 6 drużynach pierwsza runda liczy się jako ćwierćfinał. Policz też rundy: 8 drużyn potrzebuje 3 rund, 16 drużyn 4 rund, a 32 drużyny 5 rund. Każdemu meczowi nadaj <b>numer</b> i w kolejnej rundzie pisz na przykład „Zwycięzca meczu nr 3”; wtedy drabinka jest czytelna jeszcze przed wynikami. Niektóre turnieje rozgrywają też mecz o 3. miejsce."
+  ],
+  [
+   "Drabinka turniejowa w TurnuVolt",
+   "<b>Darmowy generator terminarza</b> TurnuVolt działa w przeglądarce i tworzy drabinkę systemu pucharowego dla 2 do 64 drużyn. Jeśli liczba drużyn nie jest potęgą dwójki, tyle drużyn, ile brakuje, dostaje wolny los w pierwszej rundzie. Wolne losy trafiają do drużyn z początku listy; gdy zaznaczysz „Wylosuj pary”, lista zostaje wymieszana, więc zmieniają się też drużyny z wolnym losem. Narzędzie nie tworzy klasycznego rozstawienia, tylko łączy pozostałe drużyny w pary według listy. Kolejne rundy pokazują opisy typu „Zwycięzca meczu nr 1”, a drabinkę możesz wydrukować, skopiować albo udostępnić linkiem. Aby zapisywać zwycięzców, dotknij zwycięskiej drużyny w <b>aplikacji TurnuVolt</b>."
+  ]
+ ],
+ "bracket_steps": [
+  [
+   "Wpisz drużyny",
+   "W darmowym generatorze terminarza wpisz po jednej drużynie w wierszu albo podaj liczbę drużyn i dotknij Uzupełnij. Drużyny, które mają dostać wolny los, wpisz na górze."
+  ],
+  [
+   "Wybierz System pucharowy",
+   "Jako format rozgrywek wybierz System pucharowy. Jeśli chcesz losowania, zaznacz „Wylosuj pary”; wtedy zmienią się też drużyny z wolnym losem."
+  ],
+  [
+   "Wygeneruj drabinkę",
+   "Dotknij Generuj terminarz. Pojawią się mecze pierwszej rundy, drużyny z wolnym losem i wszystkie rundy aż do finału jako ponumerowane mecze."
+  ],
+  [
+   "Udostępnij i zapisuj wyniki",
+   "Wydrukuj, skopiuj albo udostępnij link (przy udostępnianiu linkiem nie używaj w nazwach drużyn znaku |). Aby zapisywać zwycięzców, utwórz turniej w aplikacji TurnuVolt."
+  ]
+ ],
+ "bracket_faq": [
+  [
+   "Co oznacza wolny los w drabince turniejowej?",
+   "Wolny los oznacza, że drużyna awansuje do następnej rundy bez gry. Stosuje się go, by wyrównać drabinkę, gdy liczba drużyn nie jest potęgą dwójki. Wolne losy często dostają drużyny rozstawione albo wybrane w losowaniu; szczegóły zależą od zasad twojego turnieju."
+  ],
+  [
+   "Ile wolnych losów potrzebuję?",
+   "Znajdź najmniejszą potęgę dwójki, która jest równa liczbie drużyn lub od niej większa, i odejmij od niej liczbę drużyn. Przy 5 drużynach są 3 wolne losy, przy 6 drużynach 2, przy 7 drużynach 1, a przy 9 drużynach 7. W drugiej rundzie zostaje wtedy dokładnie 4, 8 albo 16 drużyn."
+  ],
+  [
+   "Ile meczów jest w turnieju pucharowym?",
+   "W turnieju pucharowym z n drużynami rozgrywa się zawsze n − 1 meczów, bo w każdym meczu odpada jedna drużyna, a wszyscy poza mistrzem przegrywają dokładnie raz. 8 drużyn rozgrywa 7 meczów, 12 drużyn 11 meczów, a 32 drużyny 31 meczów. Mecz o 3. miejsce dodaje jeszcze jeden mecz."
+  ],
+  [
+   "Jak ustala się rozstawienie?",
+   "Rozstawienie zwykle opiera się na wcześniejszych wynikach, kolejności w lidze lub fazie grupowej albo na ocenie organizatora. To, której metody użyjesz, zależy od zasad twojego turnieju. Wyjaśnienie kryteriów z góry może zmniejszyć ryzyko sporów o rozstawienie."
+  ],
+  [
+   "Dla ilu drużyn darmowe narzędzie zrobi drabinkę?",
+   "Darmowy generator terminarza TurnuVolt tworzy drabinki systemu pucharowego dla 2 do 64 drużyn. Rejestracja nie jest potrzebna, a terminarz jest obliczany w twojej przeglądarce. Link do udostępniania zawiera nazwy drużyn w samym adresie, więc każdy, komu go wyślesz, je zobaczy. Tym samym narzędziem ułożysz też terminarz ligi każdy z każdym."
+  ]
+ ]
+}
